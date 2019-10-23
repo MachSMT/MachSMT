@@ -16,4 +16,4 @@ class DB:
         for theory in self.db:
             print(theory)
             for solver in self.db[theory]:
-                print("\t" + solver + "\t" + str(len(self.db[theory][solver])))
+                print("\t" + solver + "\t" + str(len(self.db[theory][solver]))) 

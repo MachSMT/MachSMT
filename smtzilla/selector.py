@@ -31,6 +31,7 @@ class LearnedModel:
         self.is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
         self.greedy = False
         self.greedy_solver = None
+        self.lm = {}
 
     def get_score(self,solver,inst):
         if not self.is_incr and self.db[solver][inst]['result'] != self.db[solver][inst]['expected']:
@@ -91,7 +92,7 @@ class LearnedModel:
             pool.map(mp_call,list(enumerate(inputs)))
         bar.finish()
 
-    def eval_and_build(self):
+    def eval(self):
         self.X = np.array(self.X)
         self.Y = np.array(self.Y)
         self.selections = np.zeros(len(self.X))
@@ -118,11 +119,13 @@ class LearnedModel:
 
                 random_index = np.random.choice(len(self.solvers))
                 self.random_selections[it] = np.exp(self.Y[it,random_index])
-
                 bar.next()
-
         with mp.Pool(min(len(self.X), 12)) as pool:
             pool.map(mp_call,KFold(n_splits=min(10,len(self.X)),shuffle=True).split(self.X))
+        for solver in self.solvers:
+            pca = len(self.X) > 10
+            self.lm[solver] = self.model_maker(pca)
+            self.lm[solver].fit(self.X,self.Y)
         bar.finish()
         self.greedify()
 
@@ -145,7 +148,7 @@ class LearnedModel:
             self.selections = [self.get_score(best_solver,inst) for inst in self.db[best_solver]]
         
 
-    def plot(self):
+    def mk_plots(self):
         plt.cla()
         plt.clf()
 
@@ -197,3 +200,12 @@ class LearnedModel:
         plt.savefig('figs/' + self.theory + '_' +self.track.split('/')[-1] + '.png',dpi=700)
         plt.cla()
         plt.clf()
+
+    def predict(self, file):
+        if self.greedy:
+            return self.greedy_solver
+        X = get_features(file_path=file,theory=self.theory,track=self.track)
+        Y = []
+        for solver in self.solvers:
+            Y.append(self.lm[solver].predict(X))
+        return self.solvers[np.argmin(Y)]

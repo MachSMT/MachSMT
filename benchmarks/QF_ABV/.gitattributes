@@ -1,3 +1,0 @@
-2019-Mann/ridecore-qf_abv-bug.smt2 filter=lfs diff=lfs merge=lfs -text
-2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-unsat-unrolled-mem.smt2 filter=lfs diff=lfs merge=lfs -text
-2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-sat-unrolled-mem.smt2 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,1441 @@
+
+BVFP Incremental_Track
+
+z3-4.8.4-wrapped-inc 0.029966
+Virtual_Best 0.029966
+SMTZILLA 0.029966000000000003
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 82.06
+Random_Selection 9037.152369
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 31539.11132
+Improve on Standalone by: -1.1577944844001917e-14
+----------------------------
+
+BVFP Single_Query_Track
+
+Virtual_Best 52.965013
+SMTZILLA 81.64918000000001
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 81.64918000000002
+z3-4.8.4-d6df51951f4c-wrapped-sq 1416.2670730000002
+Random_Selection 45072.539732000005
+CVC4-2019-06-03-d350fe1-wrapped-sq 72005.381572
+master-2018-06-10-b19c840-competition-default 72006.007632
+Improve on Standalone by: -5480.304970607175
+----------------------------
+
+QF_LIRA Unsat_Core_Track
+
+Virtual_Best 598.603907
+SMTZILLA 603.973335
+z3-4.8.4-d6df51951f4c-wrapped-uc 603.6403730000001
+z3-4.7.1 607.837718
+Yices 2.6.2-wrapped-uc 1083.5619069999998
+Random_Selection 1087.1268579999999
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 1160.165447
+smtinterpol-2.5-514-wrapped-uc 9061.028460000001
+Improve on Standalone by: -0.05515900110278943
+----------------------------
+
+QF_LIRA Single_Query_Track
+
+Virtual_Best 158.78988800000002
+SMTZILLA 4563.489612
+Par4-wrapped-sq 226.01747699999999
+z3-4.7.1 4563.489612
+Yices 2.6.2-wrapped-sq 4604.637312
+z3-4.8.4-d6df51951f4c-wrapped-sq 4738.229136
+CVC4-2019-06-03-d350fe1-wrapped-sq 5575.655789
+Random_Selection 9236.291343
+smtinterpol-2.5-514-wrapped-sq 13575.17044
+Improve on Standalone by: -1937.9587380315727
+----------------------------
+
+LIA Unsat_Core_Track
+
+Virtual_Best 5.576923999999999
+SMTZILLA 5.686501000000001
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 9.467706000000003
+z3-4.7.1 10.211145000000004
+z3-4.8.4-d6df51951f4c-wrapped-uc 10.381063
+UltimateEliminator+Yices-2.6.1-wrapped-uc 50560.47439
+Random_Selection 73677.684995
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 145256.11131
+UltimateEliminator+SMTInterpol-wrapped-uc 145869.95825999998
+Improve on Standalone by: 39.93792160424079
+----------------------------
+
+LIA Incremental_Track
+
+Virtual_Best 8.508217
+Z3 8.565467000000002
+SMTZILLA 8.649673
+z3-4.7.4-wrapped-inc 8.92428
+UltimateEliminator+Yices-2.6.1-wrapped-inc 17.783839999999998
+Random_Selection 50.006474999999995
+smtinterpol-2.5-514-wrapped-inc 59.77539
+UltimateEliminator+SMTInterpol-wrapped-inc 91.89
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 97.09
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 4516.87117
+Improve on Standalone by: -0.9830870867869576
+----------------------------
+
+LIA Single_Query_Track
+
+Virtual_Best 11.015137
+SMTZILLA 12.080387999999989
+z3-4.8.4-d6df51951f4c-wrapped-sq 14.903196
+z3-4.7.1 15.366431999999996
+CVC4-2019-06-03-d350fe1-wrapped-sq 37.66078600000001
+veriT-wrapped-sq 8517.205761
+Random_Selection 324109.12803
+UltimateEliminator+Yices-2.6.1-wrapped-sq 378379.08863
+smtinterpol-2.5-514-wrapped-sq 384382.502862
+UltimateEliminator+SMTInterpol-wrapped-sq 688650.54749
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 690312.38667
+vampire-4.4-smtcomp-wrapped-sq 726593.950404
+ProB-wrapped-sq 747762.5541000001
+Improve on Standalone by: 18.94095736243428
+----------------------------
+
+QF_ALIA Unsat_Core_Track
+
+Yices 2.6.2-wrapped-uc 0.415249
+Virtual_Best 0.415249
+SMTZILLA 0.41524900000000003
+z3-4.7.1 2.074006
+z3-4.8.4-d6df51951f4c-wrapped-uc 2.12134
+smtinterpol-2.5-514-wrapped-uc 60.506496999999996
+Random_Selection 465.5648980000002
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 7481.49437
+Improve on Standalone by: -1.3368160123506096e-14
+----------------------------
+
+QF_ALIA Incremental_Track
+
+Virtual_Best 473.05051299999997
+SMTZILLA 923.55831
+Z3 923.55831
+z3-4.7.4-wrapped-inc 933.4812300000001
+smtinterpol-2.5-514-wrapped-inc 2563.3522
+Random_Selection 5737.81487
+Yices 2.6.2 Incremental-wrapped-inc 9344.499003
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 20193.13728
+Improve on Standalone by: -911.7930727081001
+----------------------------
+
+QF_ALIA Single_Query_Track
+
+Virtual_Best 4.580964
+SMTZILLA 5.173359999999998
+veriT-wrapped-sq 7.644629999999999
+Yices 2.6.2-wrapped-sq 57.783734999999986
+Yices 2.6.0 61.480713
+smtinterpol-2.5-514-wrapped-sq 849.261339
+CVC4-2019-06-03-d350fe1-wrapped-sq 8021.153768
+z3-4.8.4-d6df51951f4c-wrapped-sq 23793.569666
+Random_Selection 28182.026343999998
+Alt-Ergo-SMTComp-2019-wrapped-sq 255421.048018
+Improve on Standalone by: 32.32687520520943
+----------------------------
+
+QF_LIA Unsat_Core_Track
+
+Virtual_Best 78018.04085
+SMTZILLA 130282.689447
+SMTInterpol-2.5-19-g0d39cdee 101183.875101
+smtinterpol-2.5-514-wrapped-uc 107336.68099200001
+Yices 2.6.2-wrapped-uc 111077.987052
+z3-4.8.4-d6df51951f4c-wrapped-uc 177225.329738
+Random_Selection 190741.340397
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 408230.923937
+Improve on Standalone by: -28.758351384500806
+----------------------------
+
+QF_LIA Incremental_Track
+
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 1.726056
+SMTZILLA 1.726056
+Virtual_Best 1.726056
+Yices 81275.963358
+Yices 2.6.2 Incremental-wrapped-inc 82185.18037799999
+Random_Selection 99257.343851
+z3 133595.311135
+smtinterpol-2.5-514-wrapped-inc 155186.11294
+CVC4-inc-fixed-2019-06-26-0e351fa-wrapped-inc 190296.41337
+Improve on Standalone by: 0.0
+----------------------------
+
+QF_LIA Single_Query_Track
+
+Virtual_Best 147547.59468500002
+SMTZILLA 348928.928619
+Par4-wrapped-sq 336507.207542
+SPASS-SATT-wrapped-sq 452154.18663300003
+SPASS-SATT 475499.92721600004
+z3-4.8.4-d6df51951f4c-wrapped-sq 954925.099559
+Ctrl-Ergo-2019-wrapped-sq 1308680.3955640001
+CVC4-2019-06-03-d350fe1-wrapped-sq 1396558.406744
+Yices 2.6.2-wrapped-sq 1882167.1798379999
+smtinterpol-2.5-514-wrapped-sq 2051371.6540839998
+CVC4-SymBreak_03_06_2019-wrapped-sq 2328245.20598
+Random_Selection 2786185.602214
+veriT-wrapped-sq 6126395.725327
+ProB-wrapped-sq 12304104.99032
+Improve on Standalone by: -3.6913685052198026
+----------------------------
+
+QF_AUFLIA Unsat_Core_Track
+
+Virtual_Best 10.345435000000002
+SMTZILLA 10.643804000000003
+Yices 2.6.2-wrapped-uc 14.642740000000002
+z3-4.8.4-d6df51951f4c-wrapped-uc 26.17680700000001
+Random_Selection 164.547704
+master-2018-06-10-b19c840-proofs-unsat_cores 222.730534
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 229.755111
+smtinterpol-2.5-514-wrapped-uc 483.04172
+Improve on Standalone by: 27.310025309470756
+----------------------------
+
+QF_AUFLIA Incremental_Track
+
+Virtual_Best 3087.462017
+Yices 3122.243021
+SMTZILLA 3140.638496
+Yices 2.6.2 Incremental-wrapped-inc 3213.424366
+Random_Selection 9578.44212
+z3-4.7.4-wrapped-inc 10000.580139999998
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 12656.180358999998
+smtinterpol-2.5-514-wrapped-inc 20653.991486
+Improve on Standalone by: -0.5891749897837246
+----------------------------
+
+QF_AUFLIA Single_Query_Track
+
+Virtual_Best 6.491747999999999
+SMTZILLA 7.8702200000000015
+veriT-wrapped-sq 8.440361000000001
+Yices 2.6.2-wrapped-sq 17.324875999999993
+Yices 2.6.0 18.675438000000007
+z3-4.8.4-d6df51951f4c-wrapped-sq 67.21117799999996
+CVC4-2019-06-03-d350fe1-wrapped-sq 711.378294
+smtinterpol-2.5-514-wrapped-sq 842.0765629999996
+Random_Selection 26231.261219
+Alt-Ergo-SMTComp-2019-wrapped-sq 169401.581956
+Improve on Standalone by: 6.754936192895061
+----------------------------
+
+AUFLIA Unsat_Core_Track
+
+Virtual_Best 20459.991919
+SMTZILLA 258058.553244
+UltimateEliminator+Yices-2.6.1-wrapped-uc 177270.17899
+UltimateEliminator+SMTInterpol-wrapped-uc 181489.35822
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 181795.91125
+Random_Selection 290157.4611
+z3-4.8.4-d6df51951f4c-wrapped-uc 296954.710169
+master-2018-06-10-b19c840-proofs-unsat_cores 394354.841875
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 437719.161828
+Improve on Standalone by: -45.57358418335968
+----------------------------
+
+AUFLIA Single_Query_Track
+
+Virtual_Best 72494.745451
+SMTZILLA 802630.686236
+UltimateEliminator+SMTInterpol-wrapped-sq 302973.70515
+UltimateEliminator+Yices-2.6.1-wrapped-sq 303146.49711
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 303268.6214
+master-2018-06-10-b19c840-competition-default 1070241.2991880002
+CVC4-2019-06-03-d350fe1-wrapped-sq 1071328.713137
+z3-4.8.4-d6df51951f4c-wrapped-sq 1074280.4276279998
+CVC4-SymBreak_03_06_2019-wrapped-sq 1075386.317917
+Random_Selection 1096031.284374
+vampire-4.4-smtcomp-wrapped-sq 1181932.476892
+veriT-wrapped-sq 1380031.217846
+Alt-Ergo-SMTComp-2019-wrapped-sq 1399167.823785
+smtinterpol-2.5-514-wrapped-sq 3053106.328282
+Improve on Standalone by: -164.9176059152142
+----------------------------
+
+QF_IDL Single_Query_Track
+
+Virtual_Best 412845.217976
+z3-4.8.4-d6df51951f4c-wrapped-sq 526348.649364
+SMTZILLA 529762.034046
+Yices 2.6.2-wrapped-sq 568946.745469
+Yices 2.6.0 569873.840324
+Par4-wrapped-sq 587958.888328
+CVC4-2019-06-03-d350fe1-wrapped-sq 867261.4149519999
+Random_Selection 1269514.39862
+veriT-wrapped-sq 1357624.993571
+smtinterpol-2.5-514-wrapped-sq 1737078.814477
+ProB-wrapped-sq 3903096.8366900003
+Improve on Standalone by: -0.6485026011037569
+----------------------------
+
+QF_AUFBVNIA Incremental_Track
+
+SMTZILLA 0.127626
+z3 0.12762600000000002
+Virtual_Best 0.12762600000000002
+MathSAT-na-wrapped-inc 3445.138696
+MathSAT-wrapped-inc 5767.701844
+Random_Selection 7031.017947
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 54941.88812
+Improve on Standalone by: 2.1747587181004584e-14
+----------------------------
+
+QF_RDL Single_Query_Track
+
+Virtual_Best 152170.411593
+SMTZILLA 158511.062254
+Yices 2.6.2-wrapped-sq 152709.238395
+Yices 2.6.0 152937.363763
+CVC4-2019-06-03-d350fe1-wrapped-sq 171111.093211
+z3-4.8.4-d6df51951f4c-wrapped-sq 179648.197897
+veriT-wrapped-sq 180401.869767
+Random_Selection 187671.33405
+smtinterpol-2.5-514-wrapped-sq 265190.18566
+Improve on Standalone by: -3.799261865214017
+----------------------------
+
+UFDTLIA Single_Query_Track
+
+Virtual_Best 359360.09863900003
+SMTZILLA 580840.706461
+master-2018-06-10-b19c840-competition-default 401325.529812
+CVC4-2019-06-03-d350fe1-wrapped-sq 427836.33046699996
+Random_Selection 736662.1925550001
+vampire-4.4-smtcomp-wrapped-sq 1042145.1314620001
+Alt-Ergo-SMTComp-2019-wrapped-sq 1101024.761012
+Improve on Standalone by: -44.73056491898074
+----------------------------
+
+UFLRA Unsat_Core_Track
+
+SMTZILLA 0.17818
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 0.17818
+Virtual_Best 0.17818
+z3-4.7.1 0.353105
+z3-4.8.4-d6df51951f4c-wrapped-uc 0.363695
+Random_Selection 23.447025
+UltimateEliminator+Yices-2.6.1-wrapped-uc 36.23386
+UltimateEliminator+SMTInterpol-wrapped-uc 36.703649999999996
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 36.737280000000005
+Improve on Standalone by: 0.0
+----------------------------
+
+UFLRA Incremental_Track
+
+Virtual_Best 1707.1331810000038
+SMTZILLA 1872.5245289999941
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 2810.23463000001
+UltimateEliminator+Yices-2.6.1-wrapped-inc 2812.8004000000115
+UltimateEliminator+SMTInterpol-wrapped-inc 2820.1893600000076
+Z3 24381.390265
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 52698.395661
+z3 224828.13434
+Random_Selection 231243.94646399998
+smtinterpol-2.5-514-wrapped-inc 1224694.169998
+Improve on Standalone by: 33.367680085844384
+----------------------------
+
+UFLRA Single_Query_Track
+
+Virtual_Best 12.480358
+SMTZILLA 4513.251337
+UltimateEliminator+Yices-2.6.1-wrapped-sq 22.99848
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 23.257620000000003
+UltimateEliminator+SMTInterpol-wrapped-sq 23.29421
+z3-4.7.1 9101.212903
+Alt-Ergo-SMTComp-2019-wrapped-sq 9814.731118
+z3-4.8.4-d6df51951f4c-wrapped-sq 13508.243412
+Random_Selection 13515.018604
+veriT-wrapped-sq 18015.079557
+vampire-4.4-smtcomp-wrapped-sq 19498.071144
+CVC4-2019-06-03-d350fe1-wrapped-sq 20110.244849000002
+smtinterpol-2.5-514-wrapped-sq 22500.772675
+Improve on Standalone by: -19524.12879894671
+----------------------------
+
+QF_AX Unsat_Core_Track
+
+Virtual_Best 5.702182
+SMTZILLA 5.735657
+Yices 2.6.0 5.8807839999999985
+Yices 2.6.2-wrapped-uc 5.888829999999999
+z3-4.8.4-d6df51951f4c-wrapped-uc 27.577116999999994
+smtinterpol-2.5-514-wrapped-uc 375.0867630000001
+Random_Selection 1778.5666910000002
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 2210.506299
+Improve on Standalone by: 2.467817216207885
+----------------------------
+
+QF_AX Single_Query_Track
+
+Virtual_Best 4.049356000000001
+SMTZILLA 4.131747000000002
+Yices 2.6.2-wrapped-sq 4.145672000000001
+Yices 2.6.0 4.253999000000001
+z3-4.8.4-d6df51951f4c-wrapped-sq 25.78318400000001
+CVC4-2019-06-03-d350fe1-wrapped-sq 71.28029099999999
+smtinterpol-2.5-514-wrapped-sq 401.0309210000002
+Random_Selection 23245.499251999998
+Alt-Ergo-SMTComp-2019-wrapped-sq 80959.336463
+Improve on Standalone by: 0.3358924680968373
+----------------------------
+
+QF_UFNIA Unsat_Core_Track
+
+Virtual_Best 4.411531999999999
+SMTZILLA 4511.593337
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 7.4388239999999985
+z3-4.8.4-d6df51951f4c-wrapped-uc 500.019096
+z3-4.7.1 518.616694
+Random_Selection 4625.885783
+mathsat-20190601-wrapped-uc 22514.685564
+mathsat-na-20190601-wrapped-uc 22919.841500000002
+Improve on Standalone by: -60549.28188918035
+----------------------------
+
+QF_UFNIA Single_Query_Track
+
+Virtual_Best 7.575844
+SMTZILLA 22793.041019
+Alt-Ergo-SMTComp-2019-wrapped-sq 50.840448000000016
+CVC4-2019-06-03-d350fe1-wrapped-sq 4811.19307
+Random_Selection 87884.666415
+Yices 2.6.0 94807.198927
+Yices 2.6.2-wrapped-sq 94869.736273
+z3-4.8.4-d6df51951f4c-wrapped-sq 105711.796808
+mathsat-20190601-wrapped-sq 139067.35478599998
+mathsat-na-20190601-wrapped-sq 186377.352227
+Improve on Standalone by: -44732.4944323858
+----------------------------
+
+AUFLIRA Single_Query_Track
+
+Virtual_Best 314.53874600000006
+SMTZILLA 80604.25180299999
+UltimateEliminator+Yices-2.6.1-wrapped-sq 106410.64185
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 106514.70256
+UltimateEliminator+SMTInterpol-wrapped-sq 106567.21021
+z3-4.8.4-d6df51951f4c-wrapped-sq 163109.605641
+z3-4.7.1 249723.020592
+Par4-wrapped-sq 359780.13285
+CVC4-SymBreak_03_06_2019-wrapped-sq 555229.142405
+CVC4-2019-06-03-d350fe1-wrapped-sq 556033.225105
+vampire-4.4-smtcomp-wrapped-sq 587284.7469329999
+Alt-Ergo-SMTComp-2019-wrapped-sq 813106.656972
+Random_Selection 1077883.437263
+veriT-wrapped-sq 1458345.193403
+smtinterpol-2.5-514-wrapped-sq 6736180.884276
+Improve on Standalone by: 24.25170039231373
+----------------------------
+
+QF_BV Unsat_Core_Track
+
+Virtual_Best 768025.62407
+SMTZILLA 937123.0131560001
+Yices 2.6.2-wrapped-uc 984160.187721
+Yices 2.6.0 985881.94584
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 2204090.630714
+Random_Selection 2303815.147127
+z3-4.8.4-d6df51951f4c-wrapped-uc 5126905.343851
+Improve on Standalone by: 4.779422613499844
+----------------------------
+
+QF_BV Challenge_Track_non-incremental
+
+Virtual_Best 147.77078
+SMTZILLA 4856.72366
+Boolector 607.6731
+Boolector-wrapped-sq 708.9119000000001
+Yices 2.6.2 Cadical-wrapped-sq 716.1806
+MinkeyRink MT-wrapped-sq 767.5924
+Yices 2.6.2 new bvsolver-wrapped-sq 1111.0138
+MinkeyRink ST-wrapped-sq 1150.6533100000001
+Minkeyrink MT 1324.0145
+Poolector-wrapped-sq 2367.8287
+Random_Selection 3336.9114
+stp-mergesat-wrapped-sq 4541.27345
+stp-riss-wrapped-sq 4545.07346
+stp-minisat-wrapped-sq 5192.1719
+CVC4-2019-06-03-d350fe1-wrapped-sq 5364.469
+stp-mt-wrapped-sq 5417.9408
+STP-2019-wrapped-sq 5744.33632
+Yices 2.6.2 Cryptominisat-wrapped-sq 6157.978
+stp-portfolio-wrapped-sq 6932.7654
+stp-mergesat-fixed-wrapped-sq 10234.720000000001
+stp-portfolio-fixed-wrapped-sq 12378.856
+Yices 2.6.2-wrapped-sq 14171.226
+z3-4.8.4-d6df51951f4c-wrapped-sq 15672.64612
+Improve on Standalone by: -699.2329527175056
+----------------------------
+
+QF_BV Incremental_Track
+
+Virtual_Best 6.4041429999999915
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 6.573345999999995
+SMTZILLA 6.612010999999993
+Boolector-ReasonLS-wrapped-inc 115.73370799999998
+stp-mt-wrapped-inc 9137.281316
+MinkeyRink ST-wrapped-inc 48297.77783
+stp-incremental-2019-v2-wrapped-inc 55204.52872
+Boolector incremental-wrapped-inc 55269.626644
+Yices 2.6.2 Incremental-wrapped-inc 57983.674098999996
+MinkeyRink MT-wrapped-inc 64593.19855
+Random_Selection 73045.183792
+MathSAT 84081.926981
+CVC4-inc-fixed-2019-06-26-0e351fa-wrapped-inc 107002.89042000001
+z3-4.7.4-wrapped-inc 266022.49723900005
+Improve on Standalone by: -0.5882088056828015
+----------------------------
+
+QF_BV Challenge_Track_incremental
+
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 0.143696
+SMTZILLA 0.143696
+Virtual_Best 0.143696
+stp-mt-wrapped-inc 4503.709865
+Random_Selection 6891.658163
+MinkeyRink ST-wrapped-inc 7318.827
+MinkeyRink MT-wrapped-inc 10258.458999999999
+Boolector incremental-wrapped-inc 18746.031
+stp-incremental-2019-v2-wrapped-inc 20939.428
+MathSAT 23828.583
+Yices 2.6.2 Incremental-wrapped-inc 25682.31
+CVC4-inc-fixed-2019-06-26-0e351fa-wrapped-inc 26278.71
+z3-4.7.4-wrapped-inc 28624.27
+Improve on Standalone by: 0.0
+----------------------------
+
+QF_NRA Unsat_Core_Track
+
+Virtual_Best 7097.450409000001
+SMTZILLA 21117.774380000003
+z3-4.8.4-d6df51951f4c-wrapped-uc 37054.417009
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 164372.748769
+master-2018-06-10-b19c840-proofs-unsat_cores 166422.962532
+Random_Selection 172330.573354
+mathsat-20190601-wrapped-uc 199455.611833
+mathsat-na-20190601-wrapped-uc 200224.610214
+Improve on Standalone by: 43.00875284349828
+----------------------------
+
+QF_NRA Single_Query_Track
+
+Virtual_Best 610931.0726320001
+SMTZILLA 1126629.6121740001
+Par4-wrapped-sq 954431.3465829999
+z3-4.8.4-d6df51951f4c-wrapped-sq 2750670.898844
+z3-4.7.1 2776119.5695209997
+Yices 2.6.2-wrapped-sq 3111247.821167
+SMTRAT-MCSAT-4-wrapped-sq 3957236.694367
+Random_Selection 4242789.1960579995
+veriT+raSAT+Redlog-wrapped-sq 4402766.501853
+CVC4-2019-06-03-d350fe1-wrapped-sq 4897652.312399
+SMTRAT-5-wrapped-sq 5159407.251943
+CVC4-SymBreak_03_06_2019-wrapped-sq 5191818.670529
+mathsat-20190601-wrapped-sq 5197706.068391
+mathsat-na-20190601-wrapped-sq 5407701.6676819995
+Improve on Standalone by: -18.041975067928615
+----------------------------
+
+UFBV Single_Query_Track
+
+Virtual_Best 13878.277944000001
+SMTZILLA 27382.007526
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 15222.59053
+Random_Selection 83581.515167
+z3-4.7.1 94537.576778
+Par4-wrapped-sq 94562.304168
+z3-4.8.4-d6df51951f4c-wrapped-sq 103534.20197
+CVC4-2019-06-03-d350fe1-wrapped-sq 156031.487595
+Improve on Standalone by: -79.8774490585999
+----------------------------
+
+UFIDL Unsat_Core_Track
+
+Virtual_Best 0.9844679999999999
+SMTZILLA 0.985657
+z3-4.8.4-d6df51951f4c-wrapped-uc 1.6488999999999998
+master-2018-06-10-b19c840-proofs-unsat_cores 2.008283
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 2.0144209999999996
+Random_Selection 42.308609000000004
+UltimateEliminator+Yices-2.6.1-wrapped-uc 102.66811000000003
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 103.20937000000002
+UltimateEliminator+SMTInterpol-wrapped-uc 104.56046000000002
+Improve on Standalone by: 40.22336102856449
+----------------------------
+
+UFIDL Single_Query_Track
+
+Virtual_Best 30.581088
+SMTZILLA 5563.4308599999995
+UltimateEliminator+Yices-2.6.1-wrapped-sq 27049.28748
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 27049.49776
+UltimateEliminator+SMTInterpol-wrapped-sq 27051.4311
+z3-4.8.4-d6df51951f4c-wrapped-sq 28292.139019000002
+z3-4.7.1 28672.461602
+CVC4-2019-06-03-d350fe1-wrapped-sq 36975.351217999996
+Par4-wrapped-sq 37036.028838
+veriT-wrapped-sq 49500.514020999995
+Random_Selection 54014.838642999995
+smtinterpol-2.5-514-wrapped-sq 54147.16889
+vampire-4.4-smtcomp-wrapped-sq 58520.600729
+Improve on Standalone by: 79.43224617611997
+----------------------------
+
+UFNIA Unsat_Core_Track
+
+Virtual_Best 1120.213722
+SMTZILLA 240527.259485
+UltimateEliminator+Yices-2.6.1-wrapped-uc 5078.154129999996
+z3-4.8.4-d6df51951f4c-wrapped-uc 359424.828486
+Random_Selection 918069.436331
+master-2018-06-10-b19c840-proofs-unsat_cores 1096007.588041
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 1103771.047657
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 1585154.85341
+Improve on Standalone by: -4636.509631798043
+----------------------------
+
+UFNIA Single_Query_Track
+
+Virtual_Best 9269.854263000003
+SMTZILLA 598097.428508
+UltimateEliminator+Yices-2.6.1-wrapped-sq 1015720.63809
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 1085883.90114
+Random_Selection 11043678.689930001
+Par4-wrapped-sq 11469061.217615
+CVC4-2019-06-03-d350fe1-wrapped-sq 11501799.601151
+CVC4-SymBreak_03_06_2019-wrapped-sq 11874020.497965
+z3-4.8.4-d6df51951f4c-wrapped-sq 11909760.947829999
+z3-4.7.1 11956911.921087
+Alt-Ergo-SMTComp-2019-wrapped-sq 14199787.598152
+vampire-4.4-smtcomp-wrapped-sq 18195198.163911
+vampire-4.3-smt 19243486.167496
+Improve on Standalone by: 41.11595195774645
+----------------------------
+
+QF_FP Single_Query_Track
+
+Virtual_Best 103688.942261
+SMTZILLA 187511.154888
+Par4-wrapped-sq 226391.891998
+colibri 2176-fixed-config-file-wrapped-sq 237215.342025
+COLIBRI 10_06_18 v2038 306237.368181
+Random_Selection 316296.86341
+CVC4-2019-06-03-d350fe1-wrapped-sq 338976.551011
+z3-4.8.4-d6df51951f4c-wrapped-sq 471254.077092
+Improve on Standalone by: 17.174085505828756
+----------------------------
+
+QF_ABV Unsat_Core_Track
+
+Virtual_Best 54720.232534
+SMTZILLA 66451.823733
+Yices 2.6.0 73908.184889
+Yices 2.6.2-wrapped-uc 78271.366053
+Random_Selection 98482.708928
+z3-4.8.4-d6df51951f4c-wrapped-uc 110136.45788
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 145529.056457
+Improve on Standalone by: 10.088681202492573
+----------------------------
+
+QF_ABV Challenge_Track_non-incremental
+
+SMTZILLA 106.09971999999999
+Boolector 106.09971999999999
+Virtual_Best 106.09971999999999
+Boolector-wrapped-sq 258.3182
+Poolector-wrapped-sq 970.7202
+Yices 2.6.2-wrapped-sq 4255.126
+Random_Selection 18612.6463
+z3-4.8.4-d6df51951f4c-wrapped-sq 24289.102
+CVC4-2019-06-03-d350fe1-wrapped-sq 31500.0
+Improve on Standalone by: 0.0
+----------------------------
+
+QF_ABV Incremental_Track
+
+Virtual_Best 6172.748804999999
+SMTZILLA 19710.830163
+Yices 2.6.2 Incremental-wrapped-inc 33197.165003
+Boolector 58162.61081699999
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 85024.672421
+Boolector incremental-wrapped-inc 98760.144292
+Random_Selection 153922.47584
+z3 574819.041203
+Improve on Standalone by: 40.624959507178566
+----------------------------
+
+QF_ABV Challenge_Track_incremental
+
+Boolector incremental-wrapped-inc 7154.0224
+Virtual_Best 7154.0224
+SMTZILLA 8164.643
+Boolector 25394.03
+Yices 2.6.2 Incremental-wrapped-inc 33784.06
+Random_Selection 36350.503
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 40500.0
+z3 40500.0
+Improve on Standalone by: -14.126606592677152
+----------------------------
+
+FP Single_Query_Track
+
+Virtual_Best 1476.485563
+SMTZILLA 28105.603914
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 4142.466559999998
+z3-4.8.4-d6df51951f4c-wrapped-sq 703394.243298
+Random_Selection 784566.9749779999
+CVC4-2019-06-03-d350fe1-wrapped-sq 1193829.670221
+master-2018-06-10-b19c840-competition-default 1278268.476495
+Improve on Standalone by: -578.4750946547173
+----------------------------
+
+QF_AUFNIA Unsat_Core_Track
+
+Virtual_Best 1.4011349999999998
+z3-4.8.4-d6df51951f4c-wrapped-uc 1.4153179999999999
+z3-4.7.1 1.416062
+SMTZILLA 1.426494
+mathsat-na-20190601-wrapped-uc 10.113616
+Random_Selection 10.551572
+mathsat-20190601-wrapped-uc 11.114476
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 34.497804
+Improve on Standalone by: -0.7896458605062662
+----------------------------
+
+QF_AUFNIA Single_Query_Track
+
+Virtual_Best 1.294585
+SMTZILLA 1.459916
+mathsat-20190601-wrapped-sq 3.504461
+mathsat-na-20190601-wrapped-sq 3.6498100000000004
+z3-4.7.1 14.266962999999999
+CVC4-2019-06-03-d350fe1-wrapped-sq 19.82609
+z3-4.8.4-d6df51951f4c-wrapped-sq 22.832795
+Random_Selection 308.8322890000001
+Alt-Ergo-SMTComp-2019-wrapped-sq 6465.782999999999
+Improve on Standalone by: 58.34121138742877
+----------------------------
+
+AUFNIRA Unsat_Core_Track
+
+Virtual_Best 65.43257299999999
+SMTZILLA 38394.997411000004
+UltimateEliminator+Yices-2.6.1-wrapped-uc 1699.677419999999
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 1833.5102099999988
+z3-4.8.4-d6df51951f4c-wrapped-uc 19272.125728
+Random_Selection 21411.799711
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 64030.407653999995
+master-2018-06-10-b19c840-proofs-unsat_cores 68105.014633
+Improve on Standalone by: -2158.9579033767495
+----------------------------
+
+AUFNIRA Incremental_Track
+
+Virtual_Best 16.943188
+SMTZILLA 4563.329501
+CVC4 62.07302
+UltimateEliminator+Yices-2.6.1-wrapped-inc 483.7330600000001
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 497.9699999999998
+Random_Selection 69098.141761
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 91229.101539
+z3 144584.849928
+Improve on Standalone by: -7251.5506430974365
+----------------------------
+
+AUFNIRA Single_Query_Track
+
+Virtual_Best 769.4199520000003
+SMTZILLA 5605.832122
+UltimateEliminator+Yices-2.6.1-wrapped-sq 952.1870800000005
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 5526.43859
+z3-4.8.4-d6df51951f4c-wrapped-sq 379812.31931200007
+Random_Selection 736115.338179
+CVC4-2019-06-03-d350fe1-wrapped-sq 1024511.8685979999
+Par4-wrapped-sq 1077366.645156
+master-2018-06-10-b19c840-competition-default 1084753.0036189999
+vampire-4.4-smtcomp-wrapped-sq 1128870.7417600001
+Alt-Ergo-SMTComp-2019-wrapped-sq 1183710.5416640001
+Improve on Standalone by: -488.732218672826
+----------------------------
+
+QF_UFLRA Unsat_Core_Track
+
+Yices 2.6.2-wrapped-uc 20.111017
+Virtual_Best 20.111017
+SMTZILLA 20.165552
+z3-4.8.4-d6df51951f4c-wrapped-uc 62.399908
+mathsat-5.5.2-linux-x86_64-Unsat-Core 100.62642500000001
+Random_Selection 208.15286700000004
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 211.507233
+smtinterpol-2.5-514-wrapped-uc 635.20147
+Improve on Standalone by: -0.27116977724200286
+----------------------------
+
+QF_UFLRA Incremental_Track
+
+Virtual_Best 7768.187050999999
+SMTZILLA 8956.182228
+z3-4.7.4-wrapped-inc 12199.049561000003
+Z3 15174.152479999999
+Yices 2.6.2 Incremental-wrapped-inc 27095.648511
+Random_Selection 42466.401593999995
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 68744.33881700001
+smtinterpol-2.5-514-wrapped-inc 89163.61611499998
+Improve on Standalone by: 26.58295071910646
+----------------------------
+
+QF_UFLRA Single_Query_Track
+
+Virtual_Best 2056.424488
+SMTZILLA 4659.857353
+smtinterpol-2.5-514-wrapped-sq 4649.218290000001
+Yices 2.6.2-wrapped-sq 4663.368558
+Yices 2.6.0 4667.501826
+z3-4.8.4-d6df51951f4c-wrapped-sq 4787.559571
+veriT-wrapped-sq 6714.171462
+CVC4-2019-06-03-d350fe1-wrapped-sq 9857.446390000001
+Random_Selection 118445.861698
+Alt-Ergo-SMTComp-2019-wrapped-sq 723042.084793
+Improve on Standalone by: -0.2288355232294249
+----------------------------
+
+LRA Incremental_Track
+
+SMTZILLA 0.030056999999999997
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 0.030057
+Virtual_Best 0.030057
+z3-4.7.4-wrapped-inc 0.168819
+smtinterpol-2.5-514-wrapped-inc 1.0156969999999998
+Random_Selection 12.277425
+UltimateEliminator+SMTInterpol-wrapped-inc 15.17172
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 15.33875
+UltimateEliminator+Yices-2.6.1-wrapped-inc 15.71879
+Improve on Standalone by: 1.1542891678988635e-14
+----------------------------
+
+LRA Single_Query_Track
+
+Virtual_Best 744.3240049999999
+SMTZILLA 184395.565359
+smtinterpol-2.5-514-wrapped-sq 108069.51543999999
+UltimateEliminator+Yices-2.6.1-wrapped-sq 238468.51034
+Par4-wrapped-sq 326390.756853
+z3-4.8.4-d6df51951f4c-wrapped-sq 347912.58091
+z3-4.7.1 416474.5811
+CVC4-2019-06-03-d350fe1-wrapped-sq 923024.34994
+Random_Selection 1023352.621242
+UltimateEliminator+SMTInterpol-wrapped-sq 1594525.43041
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 1610817.40288
+vampire-4.4-smtcomp-wrapped-sq 3574562.616646
+Improve on Standalone by: -70.62680868720662
+----------------------------
+
+QF_NIA Unsat_Core_Track
+
+Virtual_Best 256372.152422
+SMTZILLA 592405.4689150001
+mathsat-20190601-wrapped-uc 574960.118878
+mathsat-na-20190601-wrapped-uc 651724.1073040001
+z3-4.7.1 2393306.975917
+z3-4.8.4-d6df51951f4c-wrapped-uc 2460605.772532
+Random_Selection 2744126.310429
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 8129602.186143
+Improve on Standalone by: -3.0341843658728354
+----------------------------
+
+QF_NIA Incremental_Track
+
+Virtual_Best 1765.3611
+SMTZILLA 1854.1648
+MathSAT-wrapped-inc 1765.6191
+MathSAT-na-wrapped-inc 1798.0516
+z3-4.7.4-wrapped-inc 10575.3763
+CVC4 11495.719
+Random_Selection 13184.8501
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 20854.658
+Yices 2.6.2 Incremental-wrapped-inc 45000.0
+Improve on Standalone by: -5.014994457185026
+----------------------------
+
+QF_AUFBV Unsat_Core_Track
+
+Virtual_Best 5805.210401
+SMTZILLA 13813.266282
+z3-4.8.4-d6df51951f4c-wrapped-uc 11653.967007
+Yices 2.6.2-wrapped-uc 14442.790305999999
+Random_Selection 14649.662454
+mathsat-5.5.2-linux-x86_64-Unsat-Core 25757.628121
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 40551.644968
+Improve on Standalone by: -18.52844849915063
+----------------------------
+
+QF_AUFBV Challenge_Track_non-incremental
+
+Virtual_Best 18151.24424
+SMTZILLA 27252.799702
+Boolector-wrapped-sq 18385.908102
+Poolector-wrapped-sq 18990.307012
+Yices 2.6.2-wrapped-sq 34929.226352
+Random_Selection 46586.629377000005
+z3-4.8.4-d6df51951f4c-wrapped-sq 48733.12624
+master-2018-06-10-b19c840-competition-default 56334.5821
+CVC4-2019-06-03-d350fe1-wrapped-sq 58815.6048
+Improve on Standalone by: -48.22656325055529
+----------------------------
+
+QF_AUFBV Incremental_Track
+
+Virtual_Best 72.666437
+SMTZILLA 72.83890199999998
+Boolector incremental-wrapped-inc 169.76062100000001
+Yices 10074.480319
+Yices 2.6.2 Incremental-wrapped-inc 10146.252887999999
+Random_Selection 19755.781871
+z3-4.7.4-wrapped-inc 30086.527287999997
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 46189.383369999996
+Improve on Standalone by: 57.09316944593412
+----------------------------
+
+QF_AUFBV Single_Query_Track
+
+Virtual_Best 3.1951340000000004
+Boolector-wrapped-sq 16.48444
+SMTZILLA 20.568774999999995
+Poolector-wrapped-sq 46.706769
+Yices 2.6.2-wrapped-sq 13911.513876
+z3-4.8.4-d6df51951f4c-wrapped-sq 16124.30685
+Random_Selection 23247.539121
+master-2018-06-10-b19c840-competition-default 41979.293638999996
+CVC4-2019-06-03-d350fe1-wrapped-sq 42547.854897
+Improve on Standalone by: -24.776910832275746
+----------------------------
+
+QF_AUFBV Challenge_Track_incremental
+
+SMTZILLA 0.08066699999999999
+Boolector incremental-wrapped-inc 0.080667
+Virtual_Best 0.080667
+Yices 19237.226000000002
+Yices 2.6.2 Incremental-wrapped-inc 20419.21
+Random_Selection 22500.006296
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 27000.0
+z3-4.7.4-wrapped-inc 27000.0
+Improve on Standalone by: 1.7203798093166296e-14
+----------------------------
+
+NIA Single_Query_Track
+
+Virtual_Best 0.511516
+SMTZILLA 0.536624
+CVC4-2019-06-03-d350fe1-wrapped-sq 0.7543489999999999
+z3-4.7.1 3.1273
+UltimateEliminator+Yices-2.6.1-wrapped-sq 702.90584
+z3-4.8.4-d6df51951f4c-wrapped-sq 4500.592504
+Random_Selection 4685.672441
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 13794.05816
+ProB-wrapped-sq 16100.942299999999
+vampire-4.4-smtcomp-wrapped-sq 45161.630000000005
+Improve on Standalone by: 28.86263519935732
+----------------------------
+
+QF_LRA Unsat_Core_Track
+
+Virtual_Best 28502.587170000006
+SMTZILLA 56480.9859
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 53261.44124000001
+SMTInterpol-2.5-19-g0d39cdee 116277.65558
+z3-4.8.4-d6df51951f4c-wrapped-uc 125864.395356
+Random_Selection 149836.765294
+Yices 2.6.2-wrapped-uc 182887.75508
+smtinterpol-2.5-514-wrapped-uc 224841.97534
+Improve on Standalone by: -6.044794479917441
+----------------------------
+
+QF_LRA Incremental_Track
+
+Virtual_Best 25232.1344
+SMTZILLA 32923.8084
+MathSAT 25232.1344
+smtinterpol-2.5-514-wrapped-inc 37484.205
+Random_Selection 42494.26
+z3 42494.26
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 45000.0
+Yices 2.6.2 Incremental-wrapped-inc 45000.0
+Improve on Standalone by: -30.483643904496653
+----------------------------
+
+QF_LRA Single_Query_Track
+
+Virtual_Best 61433.235154
+SMTZILLA 111081.719765
+SPASS-SATT-wrapped-sq 122931.018214
+Yices 2.6.2-wrapped-sq 186828.35864
+master-2018-06-10-b19c840-competition-default 192224.54139899998
+Par4-wrapped-sq 207716.73379
+CVC4-2019-06-03-d350fe1-wrapped-sq 210441.33780100002
+CVC4-SymBreak_03_06_2019-wrapped-sq 288323.173497
+veriT-wrapped-sq 294667.496024
+Random_Selection 322176.850062
+smtinterpol-2.5-514-wrapped-sq 378268.188135
+z3-4.8.4-d6df51951f4c-wrapped-sq 534406.5185110001
+OpenSMT-wrapped-sq 618325.833152
+Ctrl-Ergo-2019-wrapped-sq 721785.97118
+Improve on Standalone by: 9.638981781125878
+----------------------------
+
+QF_UFNRA Unsat_Core_Track
+
+Virtual_Best 0.444445
+SMTZILLA 0.44781299999999996
+mathsat-20190601-wrapped-uc 0.463147
+mathsat-na-20190601-wrapped-uc 0.471824
+z3-4.7.1 0.6747730000000001
+z3-4.8.4-d6df51951f4c-wrapped-uc 0.69025
+Random_Selection 3.9043970000000003
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 6.978733999999999
+Improve on Standalone by: 3.3108278797012645
+----------------------------
+
+QF_UFNRA Single_Query_Track
+
+Virtual_Best 236.284684
+SMTZILLA 6166.840199
+z3-4.8.4-d6df51951f4c-wrapped-sq 321.65252799999996
+Par4-wrapped-sq 12824.678754
+Yices 2.6.0 20122.27809
+Yices 2.6.2-wrapped-sq 20143.26983
+Random_Selection 57308.945429
+CVC4-2019-06-03-d350fe1-wrapped-sq 64270.7372
+mathsat-20190601-wrapped-sq 76578.72884699999
+mathsat-na-20190601-wrapped-sq 77120.542755
+veriT+raSAT+Redlog-wrapped-sq 117000.0
+Alt-Ergo-SMTComp-2019-wrapped-sq 117000.0
+Improve on Standalone by: -1817.2366644666947
+----------------------------
+
+ALIA Incremental_Track
+
+UltimateEliminator+Yices-2.6.1-wrapped-inc 72.12
+SMTZILLA 72.12
+Virtual_Best 72.12
+Z3 173.46694999999997
+z3-4.7.4-wrapped-inc 176.77769
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 528.24787
+smtinterpol-2.5-514-wrapped-inc 789.4795000000001
+UltimateEliminator+SMTInterpol-wrapped-inc 1041.1022000000003
+Random_Selection 5198.21952
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 6249.1658
+Improve on Standalone by: 0.0
+----------------------------
+
+ALIA Single_Query_Track
+
+Virtual_Best 0.9267610000000001
+SMTZILLA 1.3697270000000001
+z3-4.7.1 1.1645780000000001
+z3-4.8.4-d6df51951f4c-wrapped-sq 1.243531
+CVC4-2019-06-03-d350fe1-wrapped-sq 4.743955
+smtinterpol-2.5-514-wrapped-sq 1092.680924
+Alt-Ergo-SMTComp-2019-wrapped-sq 4509.881343
+Random_Selection 14942.632209
+vampire-4.4-smtcomp-wrapped-sq 30618.486077
+UltimateEliminator+SMTInterpol-wrapped-sq 54108.21056
+UltimateEliminator+Yices-2.6.1-wrapped-sq 54146.24829
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 54149.54582
+veriT-wrapped-sq 67500.069966
+Improve on Standalone by: -17.615737202660537
+----------------------------
+
+NRA Single_Query_Track
+
+Virtual_Best 22.045958000000002
+SMTZILLA 18048.257432
+UltimateEliminator+Yices-2.6.1-wrapped-sq 317.6959800000001
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 324.9397400000001
+Par4-wrapped-sq 32825.520859
+vampire-4.4-smtcomp-wrapped-sq 50415.094627
+z3-4.7.1 50926.612015
+z3-4.8.4-d6df51951f4c-wrapped-sq 51036.017091
+Random_Selection 52017.99859
+vampire-4.3-smt 96742.63159599999
+CVC4-2019-06-03-d350fe1-wrapped-sq 130632.905336
+Improve on Standalone by: -5580.983886544613
+----------------------------
+
+UF Unsat_Core_Track
+
+Virtual_Best 878.50088
+SMTZILLA 479437.48193899996
+UltimateEliminator+SMTInterpol-wrapped-uc 5910.2420900000025
+UltimateEliminator+Yices-2.6.1-wrapped-uc 6071.522039999997
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 6075.106619999998
+Random_Selection 351551.887127
+master-2018-06-10-b19c840-proofs-unsat_cores 682302.017902
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 684116.6257420001
+z3-4.8.4-d6df51951f4c-wrapped-uc 756361.613779
+Improve on Standalone by: -8011.97704997901
+----------------------------
+
+UF Single_Query_Track
+
+Virtual_Best 6421.066806000018
+SMTZILLA 119550.116584
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 10021.874449999974
+UltimateEliminator+SMTInterpol-wrapped-sq 23250.182010000004
+UltimateEliminator+Yices-2.6.1-wrapped-sq 23516.90664999999
+z3-4.8.4-d6df51951f4c-wrapped-sq 5018042.5654299995
+Random_Selection 6395927.179145
+master-2018-06-10-b19c840-competition-default 7798553.293534
+vampire-4.4-smtcomp-wrapped-sq 7801896.550521
+CVC4-2019-06-03-d350fe1-wrapped-sq 7946049.178091
+vampire-4.3-smt 8053128.241877
+Par4-wrapped-sq 8097315.904364999
+veriT-wrapped-sq 9135076.688521
+Alt-Ergo-SMTComp-2019-wrapped-sq 9618195.231258001
+smtinterpol-2.5-514-wrapped-sq 12529249.425068
+Improve on Standalone by: -1092.891780678816
+----------------------------
+
+BV Unsat_Core_Track
+
+Virtual_Best 74.88549900000001
+SMTZILLA 9696.855281
+z3-4.8.4-d6df51951f4c-wrapped-uc 11462.915427
+z3-4.7.1 12221.271072
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 25074.102974
+Random_Selection 33762.826914
+UltimateEliminator+MathSAT-5.5.4-wrapped-uc 82472.17424
+Improve on Standalone by: 15.406727522739839
+----------------------------
+
+BV Incremental_Track
+
+Q3B-wrapped-inc 0.052868
+SMTZILLA 0.052868
+Virtual_Best 0.052868
+Z3 115.04524399999998
+UltimateEliminator+MathSAT-5.5.4-wrapped-inc 4619.86
+Random_Selection 9234.519196000001
+z3 19147.44068
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 36661.104080000005
+Improve on Standalone by: 0.0
+----------------------------
+
+BV Single_Query_Track
+
+Virtual_Best 86436.89747299999
+SMTZILLA 217459.451298
+Par4-wrapped-sq 259398.486806
+Q3B-wrapped-sq 382809.533387
+master-2018-06-10-b19c840-competition-default 503288.912665
+Random_Selection 516189.746208
+CVC4-2019-06-03-d350fe1-wrapped-sq 543222.615085
+Poolector-wrapped-sq 569455.1762880001
+z3-4.8.4-d6df51951f4c-wrapped-sq 613230.27498
+Boolector-wrapped-sq 615447.1899369999
+UltimateEliminator+MathSAT-5.5.4-wrapped-sq 648263.63238
+Improve on Standalone by: 16.16780268242873
+----------------------------
+
+QF_ANIA Unsat_Core_Track
+
+Virtual_Best 166.995282
+SMTZILLA 4527.980882
+master-2018-06-10-b19c840-proofs-unsat_cores 343.168505
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 349.25201000000004
+z3-4.8.4-d6df51951f4c-wrapped-uc 4510.315282
+Random_Selection 9261.44746
+mathsat-20190601-wrapped-uc 19242.22531
+mathsat-na-20190601-wrapped-uc 23363.134140000002
+Improve on Standalone by: -1219.4628341549
+----------------------------
+
+QF_ANIA Incremental_Track
+
+Virtual_Best 11.85046
+SMTZILLA 12.51709
+MathSAT-wrapped-inc 12.54709
+MathSAT-na-wrapped-inc 14.01773
+Z3 56.62376
+z3-4.7.4-wrapped-inc 59.40558
+Random_Selection 133.52203999999995
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 4922.6212
+Improve on Standalone by: 0.23909926524796693
+----------------------------
+
+QF_ANIA Single_Query_Track
+
+Virtual_Best 457.454586
+SMTZILLA 583.43168
+CVC4-2019-06-03-d350fe1-wrapped-sq 583.43168
+mathsat-na-20190601-wrapped-sq 588.174338
+mathsat-20190601-wrapped-sq 650.693492
+z3-4.7.1 4510.167032
+Random_Selection 4637.81622
+z3-4.8.4-d6df51951f4c-wrapped-sq 4648.773902
+Alt-Ergo-SMTComp-2019-wrapped-sq 10448.82
+Improve on Standalone by: -673.0419116082279
+----------------------------
+
+AUFDTLIA Single_Query_Track
+
+Virtual_Best 20207.366292
+SMTZILLA 23099.69747699999
+master-2018-06-10-b19c840-competition-default 23099.69747699999
+CVC4-2019-06-03-d350fe1-wrapped-sq 46216.901443999996
+Random_Selection 186848.775334
+Alt-Ergo-SMTComp-2019-wrapped-sq 202047.56284
+vampire-4.4-smtcomp-wrapped-sq 427414.351464
+Improve on Standalone by: -127.11079805367801
+----------------------------
+
+QF_BVFP Single_Query_Track
+
+Virtual_Best 1496.2073999999998
+SMTZILLA 5261.859058000001
+Par4-wrapped-sq 5822.448732000001
+master-2018-06-10-b19c840-competition-default 7965.971856
+CVC4-2019-06-03-d350fe1-wrapped-sq 8704.598966
+Random_Selection 20294.936555
+z3-4.8.4-d6df51951f4c-wrapped-sq 39190.455167
+Improve on Standalone by: 9.628074025263906
+----------------------------
+
+QF_UFLIA Unsat_Core_Track
+
+Yices 2.6.2-wrapped-uc 0.098586
+Virtual_Best 0.098586
+SMTZILLA 0.098586
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 0.24998499999999998
+z3-4.7.1 0.6681509999999999
+z3-4.8.4-d6df51951f4c-wrapped-uc 0.7098630000000001
+Random_Selection 0.7220009999999999
+smtinterpol-2.5-514-wrapped-uc 5.8434859999999995
+Improve on Standalone by: 0.0
+----------------------------
+
+QF_UFLIA Incremental_Track
+
+Virtual_Best 279572.106403
+SMTZILLA 313840.16689500003
+Z3 297066.99084600003
+Yices 2.6.2 Incremental-wrapped-inc 356149.364327
+z3 366491.575616
+Random_Selection 367332.296058
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 373923.10533399996
+smtinterpol-2.5-514-wrapped-inc 442287.652079
+Improve on Standalone by: -5.646260461733778
+----------------------------
+
+QF_UFLIA Single_Query_Track
+
+Virtual_Best 19.764329
+SMTZILLA 30.527839999999998
+Yices 2.6.0 30.625047
+Yices 2.6.2-wrapped-sq 31.35212
+z3-4.8.4-d6df51951f4c-wrapped-sq 65.62263399999999
+CVC4-2019-06-03-d350fe1-wrapped-sq 318.09375100000005
+smtinterpol-2.5-514-wrapped-sq 1122.714479
+veriT-wrapped-sq 63537.26596900001
+Random_Selection 74826.085318
+Alt-Ergo-SMTComp-2019-wrapped-sq 309439.217235
+Improve on Standalone by: 0.3174101251175253
+----------------------------
+
+UFDT Single_Query_Track
+
+Virtual_Best 4099135.5334670004
+SMTZILLA 4743641.919416999
+CVC4-2019-06-03-d350fe1-wrapped-sq 4543238.900683
+master-2018-06-10-b19c840-competition-default 4632080.450591
+Random_Selection 4830978.199429
+Alt-Ergo-SMTComp-2019-wrapped-sq 5000918.050175
+vampire-4.4-smtcomp-wrapped-sq 5195170.576857001
+Improve on Standalone by: -4.41101652620276
+----------------------------
+
+QF_UF Unsat_Core_Track
+
+Virtual_Best 2815.531172
+SMTZILLA 3499.8679330000004
+Yices 2.6.2-wrapped-uc 3577.2684879999997
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 4626.400108000001
+z3-4.8.4-d6df51951f4c-wrapped-uc 5255.755013000001
+master-2018-06-10-b19c840-proofs-unsat_cores 5802.873686999999
+Random_Selection 6845.520364000002
+smtinterpol-2.5-514-wrapped-uc 16218.124098999993
+Improve on Standalone by: 2.163677545021867
+----------------------------
+
+QF_UF Incremental_Track
+
+Yices 2.6.2 Incremental-wrapped-inc 95.39545799999999
+SMTZILLA 95.39545799999999
+Virtual_Best 95.39545799999999
+z3-4.7.4-wrapped-inc 255.20742999999996
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 453.16918700000014
+Random_Selection 593.0331360000001
+smtinterpol-2.5-514-wrapped-inc 1562.5958640000008
+Improve on Standalone by: 0.0
+----------------------------
+
+QF_UF Single_Query_Track
+
+Virtual_Best 180.01819899999998
+SMTZILLA 479.75135600000004
+Yices 2.6.2-wrapped-sq 417.6585240000003
+Yices 2.6.0 444.92430600000006
+Par4-wrapped-sq 478.936046
+veriT-wrapped-sq 1519.3718800000001
+CVC4-2019-06-03-d350fe1-wrapped-sq 19885.194756999994
+OpenSMT-wrapped-sq 21279.704894
+z3-4.8.4-d6df51951f4c-wrapped-sq 169429.332925
+smtinterpol-2.5-514-wrapped-sq 196725.14502099997
+Random_Selection 478703.159815
+Alt-Ergo-SMTComp-2019-wrapped-sq 3924626.780999
+Improve on Standalone by: -14.866889679474067
+----------------------------
+
+QF_UFBV Unsat_Core_Track
+
+Virtual_Best 6279.5785479999995
+SMTZILLA 18181.26186
+z3-4.7.1 11024.729013
+z3-4.8.4-d6df51951f4c-wrapped-uc 11178.857603
+Yices 2.6.2-wrapped-uc 13666.079730000001
+Random_Selection 19032.860999
+CVC4-uc-2019-06-03-d350fe1-wrapped-uc 36542.567301999996
+Improve on Standalone by: -64.91345808646406
+----------------------------
+
+QF_UFBV Incremental_Track
+
+Virtual_Best 662.8846470000001
+SMTZILLA 3079.019384
+Boolector 3079.019384
+Yices 2.6.2 Incremental-wrapped-inc 5276.283421
+Boolector incremental-wrapped-inc 5365.266591
+Random_Selection 7569.298673
+z3-4.7.4-wrapped-inc 17229.165179
+CVC4-inc-2019-06-03-d350fe1-wrapped-inc 35449.836692
+Improve on Standalone by: -66.3230466365911
+----------------------------
+
+QF_UFBV Single_Query_Track
+
+Virtual_Best 1846.583037
+SMTZILLA 1879.888508
+Boolector 2039.9532359999996
+Yices 2.6.2-wrapped-sq 25421.269652000003
+Boolector-wrapped-sq 38075.495788
+CVC4-2019-06-03-d350fe1-wrapped-sq 51582.326811
+Random_Selection 56037.904393
+Poolector-wrapped-sq 68864.444718
+z3-4.8.4-d6df51951f4c-wrapped-sq 118805.020791
+Improve on Standalone by: 7.846490065324205
+----------------------------
+--------------
+ improve
+--------------
+('LIA', 'Unsat_Core_Track', 39.93792160424079)
+('LIA', 'Single_Query_Track', 18.94095736243428)
+('QF_ALIA', 'Single_Query_Track', 32.32687520520943)
+('QF_AUFLIA', 'Unsat_Core_Track', 27.310025309470756)
+('QF_AUFLIA', 'Single_Query_Track', 6.754936192895061)
+('QF_AUFBVNIA', 'Incremental_Track', 2.1747587181004584e-14)
+('UFLRA', 'Incremental_Track', 33.367680085844384)
+('QF_AX', 'Unsat_Core_Track', 2.467817216207885)
+('QF_AX', 'Single_Query_Track', 0.3358924680968373)
+('AUFLIRA', 'Single_Query_Track', 24.25170039231373)
+('QF_BV', 'Unsat_Core_Track', 4.779422613499844)
+('QF_NRA', 'Unsat_Core_Track', 43.00875284349828)
+('UFIDL', 'Unsat_Core_Track', 40.22336102856449)
+('UFIDL', 'Single_Query_Track', 79.43224617611997)
+('UFNIA', 'Single_Query_Track', 41.11595195774645)
+('QF_FP', 'Single_Query_Track', 17.174085505828756)
+('QF_ABV', 'Unsat_Core_Track', 10.088681202492573)
+('QF_ABV', 'Incremental_Track', 40.624959507178566)
+('QF_AUFNIA', 'Single_Query_Track', 58.34121138742877)
+('QF_UFLRA', 'Incremental_Track', 26.58295071910646)
+('LRA', 'Incremental_Track', 1.1542891678988635e-14)
+('QF_AUFBV', 'Incremental_Track', 57.09316944593412)
+('QF_AUFBV', 'Challenge_Track_incremental', 1.7203798093166296e-14)
+('NIA', 'Single_Query_Track', 28.86263519935732)
+('QF_LRA', 'Single_Query_Track', 9.638981781125878)
+('QF_UFNRA', 'Unsat_Core_Track', 3.3108278797012645)
+('BV', 'Unsat_Core_Track', 15.406727522739839)
+('BV', 'Single_Query_Track', 16.16780268242873)
+('QF_ANIA', 'Incremental_Track', 0.23909926524796693)
+('QF_BVFP', 'Single_Query_Track', 9.628074025263906)
+('QF_UFLIA', 'Single_Query_Track', 0.3174101251175253)
+('QF_UF', 'Unsat_Core_Track', 2.163677545021867)
+('QF_UFBV', 'Single_Query_Track', 7.846490065324205)
+--------------
+ hurt
+--------------
+('BVFP', 'Incremental_Track', -1.1577944844001917e-14)
+('BVFP', 'Single_Query_Track', -5480.304970607175)
+('QF_LIRA', 'Unsat_Core_Track', -0.05515900110278943)
+('QF_LIRA', 'Single_Query_Track', -1937.9587380315727)
+('LIA', 'Incremental_Track', -0.9830870867869576)
+('QF_ALIA', 'Unsat_Core_Track', -1.3368160123506096e-14)
+('QF_ALIA', 'Incremental_Track', -911.7930727081001)
+('QF_LIA', 'Unsat_Core_Track', -28.758351384500806)
+('QF_LIA', 'Incremental_Track', 0.0)
+('QF_LIA', 'Single_Query_Track', -3.6913685052198026)
+('QF_AUFLIA', 'Incremental_Track', -0.5891749897837246)
+('AUFLIA', 'Unsat_Core_Track', -45.57358418335968)
+('AUFLIA', 'Single_Query_Track', -164.9176059152142)
+('QF_IDL', 'Single_Query_Track', -0.6485026011037569)
+('QF_RDL', 'Single_Query_Track', -3.799261865214017)
+('UFDTLIA', 'Single_Query_Track', -44.73056491898074)
+('UFLRA', 'Unsat_Core_Track', 0.0)
+('UFLRA', 'Single_Query_Track', -19524.12879894671)
+('QF_UFNIA', 'Unsat_Core_Track', -60549.28188918035)
+('QF_UFNIA', 'Single_Query_Track', -44732.4944323858)
+('QF_BV', 'Challenge_Track_non-incremental', -699.2329527175056)
+('QF_BV', 'Incremental_Track', -0.5882088056828015)
+('QF_BV', 'Challenge_Track_incremental', 0.0)
+('QF_NRA', 'Single_Query_Track', -18.041975067928615)
+('UFBV', 'Single_Query_Track', -79.8774490585999)
+('UFNIA', 'Unsat_Core_Track', -4636.509631798043)
+('QF_ABV', 'Challenge_Track_non-incremental', 0.0)
+('QF_ABV', 'Challenge_Track_incremental', -14.126606592677152)
+('FP', 'Single_Query_Track', -578.4750946547173)
+('QF_AUFNIA', 'Unsat_Core_Track', -0.7896458605062662)
+('AUFNIRA', 'Unsat_Core_Track', -2158.9579033767495)
+('AUFNIRA', 'Incremental_Track', -7251.5506430974365)
+('AUFNIRA', 'Single_Query_Track', -488.732218672826)
+('QF_UFLRA', 'Unsat_Core_Track', -0.27116977724200286)
+('QF_UFLRA', 'Single_Query_Track', -0.2288355232294249)
+('LRA', 'Single_Query_Track', -70.62680868720662)
+('QF_NIA', 'Unsat_Core_Track', -3.0341843658728354)
+('QF_NIA', 'Incremental_Track', -5.014994457185026)
+('QF_AUFBV', 'Unsat_Core_Track', -18.52844849915063)
+('QF_AUFBV', 'Challenge_Track_non-incremental', -48.22656325055529)
+('QF_AUFBV', 'Single_Query_Track', -24.776910832275746)
+('QF_LRA', 'Unsat_Core_Track', -6.044794479917441)
+('QF_LRA', 'Incremental_Track', -30.483643904496653)
+('QF_UFNRA', 'Single_Query_Track', -1817.2366644666947)
+('ALIA', 'Incremental_Track', 0.0)
+('ALIA', 'Single_Query_Track', -17.615737202660537)
+('NRA', 'Single_Query_Track', -5580.983886544613)
+('UF', 'Unsat_Core_Track', -8011.97704997901)
+('UF', 'Single_Query_Track', -1092.891780678816)
+('BV', 'Incremental_Track', 0.0)
+('QF_ANIA', 'Unsat_Core_Track', -1219.4628341549)
+('QF_ANIA', 'Single_Query_Track', -673.0419116082279)
+('AUFDTLIA', 'Single_Query_Track', -127.11079805367801)
+('QF_UFLIA', 'Unsat_Core_Track', 0.0)
+('QF_UFLIA', 'Incremental_Track', -5.646260461733778)
+('UFDT', 'Single_Query_Track', -4.41101652620276)
+('QF_UF', 'Incremental_Track', 0.0)
+('QF_UF', 'Single_Query_Track', -14.866889679474067)
+('QF_UFBV', 'Unsat_Core_Track', -64.91345808646406)
+('QF_UFBV', 'Incremental_Track', -66.3230466365911)

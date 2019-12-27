@@ -1,0 +1,347 @@
+NRA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 297624.9246719999
+NRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 825647.40896
+NRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+Yices-2.6.1-wrapped-sq 835240.9705400001
+NRA smt-comp/2019/results/Single_Query_Track vampire-4.3-smt 204885.26319199993
+NRA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 107430.18925399997
+NRA smt-comp/2019/results/Single_Query_Track z3-4.7.1 108453.22403
+NRA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 108672.03418200003
+NRA smt-comp/2019/results/Single_Query_Track Virtual Best 9698.315306
+NRA smt-comp/2019/results/Single_Query_Track Random Selection 384425.65904
+NRA smt-comp/2019/results/Single_Query_Track SMTZILLA 107430.18925399997
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 423.014466
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 40.222034000000015
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track mathsat-5.5.2-linux-x86_64-Unsat-Core 201.25285000000005
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track smtinterpol-2.5-514-wrapped-uc 1270.4029400000002
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 124.79981599999996
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track Virtual Best 40.222034000000015
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track Random Selection 364.29315799999983
+QF_UFLRA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 40.222034000000015
+QF_ALIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 668527.5548160002
+QF_ALIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 16642.307536000008
+QF_ALIA smt-comp/2019/results/Single_Query_Track Yices 2.6.0 122.96142599999993
+QF_ALIA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 115.56746999999999
+QF_ALIA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 1698.5226779999996
+QF_ALIA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 1180801.5501240003
+QF_ALIA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 50587.13933199999
+QF_ALIA smt-comp/2019/results/Single_Query_Track Virtual Best 99.85976000000001
+QF_ALIA smt-comp/2019/results/Single_Query_Track Random Selection 308944.58048999996
+QF_ALIA smt-comp/2019/results/Single_Query_Track SMTZILLA 115.56746999999999
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 86410.11439000003
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track mathsat-20190601-wrapped-uc 48029.371128000006
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track mathsat-na-20190601-wrapped-uc 48839.68300000002
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track z3-4.7.1 9893.165388000005
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 10579.572191999996
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track Virtual Best 15.286888000000006
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track Random Selection 38493.21182200001
+QF_UFNIA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 9893.165388000005
+AUFNIRA smt-comp/2019/results/Incremental_Track CVC4 451323.52098000003
+AUFNIRA smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 441742.3424480001
+AUFNIRA smt-comp/2019/results/Incremental_Track UltimateEliminator+MathSAT-5.5.4-wrapped-inc 1584000.0
+AUFNIRA smt-comp/2019/results/Incremental_Track UltimateEliminator+Yices-2.6.1-wrapped-inc 1584000.0
+AUFNIRA smt-comp/2019/results/Incremental_Track z3 451234.5132560001
+AUFNIRA smt-comp/2019/results/Incremental_Track Virtual Best 422451.0307640001
+AUFNIRA smt-comp/2019/results/Incremental_Track Random Selection 892913.3959379997
+AUFNIRA smt-comp/2019/results/Incremental_Track SMTZILLA 441710.94981800014
+QF_LRA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 127485.29015999998
+QF_LRA smt-comp/2019/results/Unsat_Core_Track SMTInterpol-2.5-19-g0d39cdee 265075.6395600001
+QF_LRA smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 395076.4901600003
+QF_LRA smt-comp/2019/results/Unsat_Core_Track smtinterpol-2.5-514-wrapped-uc 504375.92428
+QF_LRA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 263128.7907120002
+QF_LRA smt-comp/2019/results/Unsat_Core_Track Virtual Best 76767.58201999997
+QF_LRA smt-comp/2019/results/Unsat_Core_Track Random Selection 272665.2950180002
+QF_LRA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 127485.29015999998
+LIA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 18.935412
+LIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+MathSAT-5.5.4-wrapped-uc 1767891.33294
+LIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+SMTInterpol-wrapped-uc 1769116.79398
+LIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+Yices-2.6.1-wrapped-uc 1910408.76174
+LIA smt-comp/2019/results/Unsat_Core_Track z3-4.7.1 38416.626374
+LIA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 38416.6937
+LIA smt-comp/2019/results/Unsat_Core_Track Virtual Best 11.153847999999998
+LIA smt-comp/2019/results/Unsat_Core_Track Random Selection 912207.0400439999
+LIA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 18.935412
+QF_AX smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 4421.012598000001
+QF_AX smt-comp/2019/results/Unsat_Core_Track Yices 2.6.0 11.761567999999993
+QF_AX smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 11.777660000000001
+QF_AX smt-comp/2019/results/Unsat_Core_Track smtinterpol-2.5-514-wrapped-uc 750.1735260000002
+QF_AX smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 55.15423399999999
+QF_AX smt-comp/2019/results/Unsat_Core_Track Virtual Best 11.404364000000003
+QF_AX smt-comp/2019/results/Unsat_Core_Track Random Selection 361.0149840000001
+QF_AX smt-comp/2019/results/Unsat_Core_Track SMTZILLA 11.700145999999995
+QF_UFBV smt-comp/2019/results/Single_Query_Track Boolector 100079.84417199995
+QF_UFBV smt-comp/2019/results/Single_Query_Track Boolector-wrapped-sq 84961.35157599996
+QF_UFBV smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 109164.65362200001
+QF_UFBV smt-comp/2019/results/Single_Query_Track Poolector-wrapped-sq 150418.729436
+QF_UFBV smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 52642.53930400001
+QF_UFBV smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 252610.04158200003
+QF_UFBV smt-comp/2019/results/Single_Query_Track Virtual Best 5071.274874000002
+QF_UFBV smt-comp/2019/results/Single_Query_Track Random Selection 148948.4714459999
+QF_UFBV smt-comp/2019/results/Single_Query_Track SMTZILLA 51237.115052
+BV smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 53148.205948
+BV smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+MathSAT-5.5.4-wrapped-uc 2236800.0
+BV smt-comp/2019/results/Unsat_Core_Track z3-4.7.1 242663.165784
+BV smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 250770.2842539999
+BV smt-comp/2019/results/Unsat_Core_Track Virtual Best 29902.820918
+BV smt-comp/2019/results/Unsat_Core_Track Random Selection 676201.4509400001
+BV smt-comp/2019/results/Unsat_Core_Track SMTZILLA 53148.205948
+QF_NRA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 349145.4975380001
+QF_NRA smt-comp/2019/results/Unsat_Core_Track master-2018-06-10-b19c840-proofs-unsat_cores 358656.88506399986
+QF_NRA smt-comp/2019/results/Unsat_Core_Track mathsat-20190601-wrapped-uc 429073.803666
+QF_NRA smt-comp/2019/results/Unsat_Core_Track mathsat-na-20190601-wrapped-uc 425049.2204279999
+QF_NRA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 748410.847702
+QF_NRA smt-comp/2019/results/Unsat_Core_Track Virtual Best 293755.28746599995
+QF_NRA smt-comp/2019/results/Unsat_Core_Track Random Selection 487846.5769459999
+QF_NRA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 349145.4975380001
+QF_RDL smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 363822.1864220002
+QF_RDL smt-comp/2019/results/Single_Query_Track Yices 2.6.0 325674.7275260001
+QF_RDL smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 325218.4767900001
+QF_RDL smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 567697.8513199997
+QF_RDL smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 383003.7395339998
+QF_RDL smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 382096.3957939999
+QF_RDL smt-comp/2019/results/Single_Query_Track Virtual Best 324140.82318600005
+QF_RDL smt-comp/2019/results/Single_Query_Track Random Selection 385872.6384079999
+QF_RDL smt-comp/2019/results/Single_Query_Track SMTZILLA 325218.4767900001
+QF_FP smt-comp/2019/results/Single_Query_Track COLIBRI 10_06_18 v2038 657661.196362
+QF_FP smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 718753.1020220004
+QF_FP smt-comp/2019/results/Single_Query_Track colibri 2176-fixed-config-file-wrapped-sq 505630.6840500003
+QF_FP smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 1023589.5741840006
+QF_FP smt-comp/2019/results/Single_Query_Track Virtual Best 227814.42362599995
+QF_FP smt-comp/2019/results/Single_Query_Track Random Selection 694737.380906
+QF_FP smt-comp/2019/results/Single_Query_Track SMTZILLA 505630.6840500003
+QF_LIA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 900419.3138740001
+QF_LIA smt-comp/2019/results/Unsat_Core_Track SMTInterpol-2.5-19-g0d39cdee 214967.75020200008
+QF_LIA smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 241112.394104
+QF_LIA smt-comp/2019/results/Unsat_Core_Track smtinterpol-2.5-514-wrapped-uc 227873.36198399996
+QF_LIA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 376650.65947599994
+QF_LIA smt-comp/2019/results/Unsat_Core_Track Virtual Best 166236.08170000004
+QF_LIA smt-comp/2019/results/Unsat_Core_Track Random Selection 433346.10563800024
+QF_LIA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 214967.75020200008
+AUFDTLIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 429895.12567999976
+AUFDTLIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 92433.80288800005
+AUFDTLIA smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 46199.394953999974
+AUFDTLIA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 912396.0229280001
+AUFDTLIA smt-comp/2019/results/Single_Query_Track Virtual Best 40414.732584
+AUFDTLIA smt-comp/2019/results/Single_Query_Track Random Selection 325948.58065199986
+AUFDTLIA smt-comp/2019/results/Single_Query_Track SMTZILLA 46199.394953999974
+UFDTLIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 2344851.8120239996
+UFDTLIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 988140.9209339996
+UFDTLIA smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 890257.1496240003
+UFDTLIA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 2222290.2629240006
+UFDTLIA smt-comp/2019/results/Single_Query_Track Virtual Best 848823.0972780001
+UFDTLIA smt-comp/2019/results/Single_Query_Track Random Selection 1741403.3807260003
+UFDTLIA smt-comp/2019/results/Single_Query_Track SMTZILLA 890257.1496240003
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 77885.13460399999
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 29132.159460000006
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track z3-4.7.1 23249.458025999993
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 23557.715205999993
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track Virtual Best 13159.157095999999
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track Random Selection 41824.107128000025
+QF_UFBV smt-comp/2019/results/Unsat_Core_Track SMTZILLA 23249.458025999993
+LIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 75.32157200000002
+LIA smt-comp/2019/results/Single_Query_Track ProB-wrapped-sq 2430725.2474800004
+LIA smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 2134366.79704
+LIA smt-comp/2019/results/Single_Query_Track UltimateEliminator+SMTInterpol-wrapped-sq 2130427.6318399985
+LIA smt-comp/2019/results/Single_Query_Track UltimateEliminator+Yices-2.6.1-wrapped-sq 2486668.95472
+LIA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 1872098.7150039999
+LIA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 1549787.900808
+LIA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 2217602.089486
+LIA smt-comp/2019/results/Single_Query_Track z3-4.7.1 30.732864000000035
+LIA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 29.806392000000027
+LIA smt-comp/2019/results/Single_Query_Track Virtual Best 22.695218000000004
+LIA smt-comp/2019/results/Single_Query_Track Random Selection 1431110.8644000005
+LIA smt-comp/2019/results/Single_Query_Track SMTZILLA 29.806392000000027
+QF_UFLIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 2269753.024732
+QF_UFLIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 636.1875019999999
+QF_UFLIA smt-comp/2019/results/Single_Query_Track Yices 2.6.0 61.250093999999976
+QF_UFLIA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 62.70424
+QF_UFLIA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 2245.4289580000013
+QF_UFLIA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 411911.946538
+QF_UFLIA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 131.24526800000007
+QF_UFLIA smt-comp/2019/results/Single_Query_Track Virtual Best 39.528658000000014
+QF_UFLIA smt-comp/2019/results/Single_Query_Track Random Selection 400092.37234200013
+QF_UFLIA smt-comp/2019/results/Single_Query_Track SMTZILLA 61.250093999999976
+QF_AX smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 1605909.7557459995
+QF_AX smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 142.56058199999993
+QF_AX smt-comp/2019/results/Single_Query_Track Yices 2.6.0 8.507998000000008
+QF_AX smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 8.291343999999999
+QF_AX smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 802.0618419999998
+QF_AX smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 51.566368000000026
+QF_AX smt-comp/2019/results/Single_Query_Track Virtual Best 8.098711999999997
+QF_AX smt-comp/2019/results/Single_Query_Track Random Selection 314486.93479400006
+QF_AX smt-comp/2019/results/Single_Query_Track SMTZILLA 8.291343999999999
+QF_UFNIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 1737629.1810979997
+QF_UFNIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 48605.64189399999
+QF_UFNIA smt-comp/2019/results/Single_Query_Track Yices 2.6.0 279013.94689200004
+QF_UFNIA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 279139.1293280001
+QF_UFNIA smt-comp/2019/results/Single_Query_Track mathsat-20190601-wrapped-sq 298830.94957199966
+QF_UFNIA smt-comp/2019/results/Single_Query_Track mathsat-na-20190601-wrapped-sq 397354.704454
+QF_UFNIA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 288740.621726
+QF_UFNIA smt-comp/2019/results/Single_Query_Track Virtual Best 15.878401999999994
+QF_UFNIA smt-comp/2019/results/Single_Query_Track Random Selection 413788.6944019998
+QF_UFNIA smt-comp/2019/results/Single_Query_Track SMTZILLA 48605.64189399999
+AUFNIRA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 2536895.8060540007
+AUFNIRA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 2282817.8436020003
+AUFNIRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 491311.5724600001
+AUFNIRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+Yices-2.6.1-wrapped-sq 481586.40763999976
+AUFNIRA smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 2323105.403618
+AUFNIRA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 2404303.36352
+AUFNIRA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 912460.8526239998
+AUFNIRA smt-comp/2019/results/Single_Query_Track Virtual Best 3022.9027020000008
+AUFNIRA smt-comp/2019/results/Single_Query_Track Random Selection 1695150.4236899996
+AUFNIRA smt-comp/2019/results/Single_Query_Track SMTZILLA 481586.40763999976
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 459.5102219999998
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track Yices 2.6.2-wrapped-uc 29.285480000000003
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track master-2018-06-10-b19c840-proofs-unsat_cores 445.46106800000007
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track smtinterpol-2.5-514-wrapped-uc 966.08344
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 52.35361400000003
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track Virtual Best 20.690870000000004
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track Random Selection 484.1935039999999
+QF_AUFLIA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 29.285480000000003
+QF_UF smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 906.3383740000012
+QF_UF smt-comp/2019/results/Incremental_Track Yices 2.6.2 Incremental-wrapped-inc 190.79091599999987
+QF_UF smt-comp/2019/results/Incremental_Track smtinterpol-2.5-514-wrapped-inc 3125.191728
+QF_UF smt-comp/2019/results/Incremental_Track z3-4.7.4-wrapped-inc 510.4148599999994
+QF_UF smt-comp/2019/results/Incremental_Track Virtual Best 190.79091599999987
+QF_UF smt-comp/2019/results/Incremental_Track Random Selection 1233.3596960000004
+QF_UF smt-comp/2019/results/Incremental_Track SMTZILLA 190.79091599999987
+QF_UFLIA smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 794646.2106679998
+QF_UFLIA smt-comp/2019/results/Incremental_Track Yices 2.6.2 Incremental-wrapped-inc 759098.7286539999
+QF_UFLIA smt-comp/2019/results/Incremental_Track Z3 661162.7416919996
+QF_UFLIA smt-comp/2019/results/Incremental_Track smtinterpol-2.5-514-wrapped-inc 952489.724158
+QF_UFLIA smt-comp/2019/results/Incremental_Track z3 780983.1512319997
+QF_UFLIA smt-comp/2019/results/Incremental_Track Virtual Best 613795.0928059998
+QF_UFLIA smt-comp/2019/results/Incremental_Track Random Selection 735375.5436900001
+QF_UFLIA smt-comp/2019/results/Incremental_Track SMTZILLA 661162.7416919996
+QF_BVFP smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 18009.197932000003
+QF_BVFP smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 16531.94371199998
+QF_BVFP smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 81380.91033399994
+QF_BVFP smt-comp/2019/results/Single_Query_Track Virtual Best 7286.467975999996
+QF_BVFP smt-comp/2019/results/Single_Query_Track Random Selection 36831.883636
+QF_BVFP smt-comp/2019/results/Single_Query_Track SMTZILLA 16531.94371199998
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 136460.81530799984
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+MathSAT-5.5.4-wrapped-uc 5049600.0
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+Yices-2.6.1-wrapped-uc 5049600.0
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track master-2018-06-10-b19c840-proofs-unsat_cores 145210.02926600003
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 128247.81473400003
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track Virtual Best 61785.02408600001
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track Random Selection 2135145.1612600004
+AUFNIRA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 128247.81473400003
+QF_UFLRA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 3349539.342166
+QF_UFLRA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 20914.892779999987
+QF_UFLRA smt-comp/2019/results/Single_Query_Track Yices 2.6.0 9935.003652000003
+QF_UFLRA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 9926.737116000004
+QF_UFLRA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 9298.43657999999
+QF_UFLRA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 19497.542923999987
+QF_UFLRA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 10175.119141999996
+QF_UFLRA smt-comp/2019/results/Single_Query_Track Virtual Best 4112.848976000005
+QF_UFLRA smt-comp/2019/results/Single_Query_Track Random Selection 554014.1485160001
+QF_UFLRA smt-comp/2019/results/Single_Query_Track SMTZILLA 9298.43657999999
+QF_LRA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 585014.4548780003
+QF_LRA smt-comp/2019/results/Single_Query_Track CVC4-SymBreak_03_06_2019-wrapped-sq 772797.6625740002
+QF_LRA smt-comp/2019/results/Single_Query_Track Ctrl-Ergo-2019-wrapped-sq 1560288.0223600005
+QF_LRA smt-comp/2019/results/Single_Query_Track OpenSMT-wrapped-sq 1409608.8904200003
+QF_LRA smt-comp/2019/results/Single_Query_Track SPASS-SATT-wrapped-sq 336507.6495459998
+QF_LRA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 489264.25045400014
+QF_LRA smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 541788.3421679997
+QF_LRA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 940617.4702700002
+QF_LRA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 711593.1323399998
+QF_LRA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 1185318.0905419993
+QF_LRA smt-comp/2019/results/Single_Query_Track Virtual Best 265457.8211120001
+QF_LRA smt-comp/2019/results/Single_Query_Track Random Selection 848243.4445899995
+QF_LRA smt-comp/2019/results/Single_Query_Track SMTZILLA 336507.6495459998
+QF_ABV smt-comp/2019/results/Incremental_Track Boolector 183331.19100599995
+QF_ABV smt-comp/2019/results/Incremental_Track Boolector incremental-wrapped-inc 245617.04353199995
+QF_ABV smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 180849.34484200002
+QF_ABV smt-comp/2019/results/Incremental_Track Yices 2.6.2 Incremental-wrapped-inc 89792.69071
+QF_ABV smt-comp/2019/results/Incremental_Track z3 1240195.7997060001
+QF_ABV smt-comp/2019/results/Incremental_Track Virtual Best 79042.21760999999
+QF_ABV smt-comp/2019/results/Incremental_Track Random Selection 486129.59876799956
+QF_ABV smt-comp/2019/results/Incremental_Track SMTZILLA 89792.69071
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track Alt-Ergo-SMTComp-2019-wrapped-sq 2898032.001679999
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 1422.7565879999993
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track Yices 2.6.0 37.35087600000006
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 34.64975200000002
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 1684.1531259999992
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 4953603.075365998
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 134.42235600000004
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track Virtual Best 21.147218000000034
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track Random Selection 1146501.0902460003
+QF_AUFLIA smt-comp/2019/results/Single_Query_Track SMTZILLA 34.64975200000002
+BV smt-comp/2019/results/Single_Query_Track Boolector-wrapped-sq 1315885.0798740005
+BV smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 1151660.0901699997
+BV smt-comp/2019/results/Single_Query_Track Poolector-wrapped-sq 1216122.2325759996
+BV smt-comp/2019/results/Single_Query_Track Q3B-wrapped-sq 848866.0451519992
+BV smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 4682801.509639999
+BV smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 1067177.8253300004
+BV smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 1314520.589959999
+BV smt-comp/2019/results/Single_Query_Track Virtual Best 211211.16606799987
+BV smt-comp/2019/results/Single_Query_Track Random Selection 1606032.39879
+BV smt-comp/2019/results/Single_Query_Track SMTZILLA 848866.0451519992
+UFLRA smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 8976000.0
+UFLRA smt-comp/2019/results/Incremental_Track UltimateEliminator+MathSAT-5.5.4-wrapped-inc 8976000.0
+UFLRA smt-comp/2019/results/Incremental_Track UltimateEliminator+SMTInterpol-wrapped-inc 8976000.0
+UFLRA smt-comp/2019/results/Incremental_Track UltimateEliminator+Yices-2.6.1-wrapped-inc 8976000.0
+UFLRA smt-comp/2019/results/Incremental_Track Z3 3858299.15611
+UFLRA smt-comp/2019/results/Incremental_Track smtinterpol-2.5-514-wrapped-inc 8976000.0
+UFLRA smt-comp/2019/results/Incremental_Track z3 597619.2286800003
+UFLRA smt-comp/2019/results/Incremental_Track Virtual Best 594898.3636260006
+UFLRA smt-comp/2019/results/Incremental_Track Random Selection 7089916.093
+UFLRA smt-comp/2019/results/Incremental_Track SMTZILLA 597619.2286800003
+LRA smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 1971219.7398799995
+LRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 3451778.919760002
+LRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+SMTInterpol-wrapped-sq 3406548.27082
+LRA smt-comp/2019/results/Single_Query_Track UltimateEliminator+Yices-2.6.1-wrapped-sq 5130639.2117599975
+LRA smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 7187453.911734002
+LRA smt-comp/2019/results/Single_Query_Track vampire-4.4-smtcomp-wrapped-sq 7632775.753291998
+LRA smt-comp/2019/results/Single_Query_Track z3-4.7.1 900750.2822000005
+LRA smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 750077.9718199996
+LRA smt-comp/2019/results/Single_Query_Track Virtual Best 150863.63046399987
+LRA smt-comp/2019/results/Single_Query_Track Random Selection 3892054.67236
+LRA smt-comp/2019/results/Single_Query_Track SMTZILLA 750077.9718199996
+QF_IDL smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 1866324.439904001
+QF_IDL smt-comp/2019/results/Single_Query_Track ProB-wrapped-sq 8379002.5532599995
+QF_IDL smt-comp/2019/results/Single_Query_Track Yices 2.6.0 1216629.7006480002
+QF_IDL smt-comp/2019/results/Single_Query_Track Yices 2.6.2-wrapped-sq 1224635.870938001
+QF_IDL smt-comp/2019/results/Single_Query_Track smtinterpol-2.5-514-wrapped-sq 3718416.0289539983
+QF_IDL smt-comp/2019/results/Single_Query_Track veriT-wrapped-sq 2938199.707141998
+QF_IDL smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 1125786.5987279988
+QF_IDL smt-comp/2019/results/Single_Query_Track Virtual Best 880999.4151879994
+QF_IDL smt-comp/2019/results/Single_Query_Track Random Selection 2857791.7890799986
+QF_IDL smt-comp/2019/results/Single_Query_Track SMTZILLA 1125786.5987279988
+QF_UFBV smt-comp/2019/results/Incremental_Track Boolector 6158.038767999992
+QF_UFBV smt-comp/2019/results/Incremental_Track Boolector incremental-wrapped-inc 11330.533181999997
+QF_UFBV smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 75099.673384
+QF_UFBV smt-comp/2019/results/Incremental_Track Yices 2.6.2 Incremental-wrapped-inc 11152.566842
+QF_UFBV smt-comp/2019/results/Incremental_Track z3-4.7.4-wrapped-inc 36258.330358000036
+QF_UFBV smt-comp/2019/results/Incremental_Track Virtual Best 1325.7692940000006
+QF_UFBV smt-comp/2019/results/Incremental_Track Random Selection 17305.09905800003
+QF_UFBV smt-comp/2019/results/Incremental_Track SMTZILLA 6158.038767999992
+FP smt-comp/2019/results/Single_Query_Track CVC4-2019-06-03-d350fe1-wrapped-sq 2559821.500442001
+FP smt-comp/2019/results/Single_Query_Track UltimateEliminator+MathSAT-5.5.4-wrapped-sq 8284.933120000003
+FP smt-comp/2019/results/Single_Query_Track master-2018-06-10-b19c840-competition-default 2714936.952990001
+FP smt-comp/2019/results/Single_Query_Track z3-4.8.4-d6df51951f4c-wrapped-sq 1486562.906596001
+FP smt-comp/2019/results/Single_Query_Track Virtual Best 2952.9711260000004
+FP smt-comp/2019/results/Single_Query_Track Random Selection 1763446.219114001
+FP smt-comp/2019/results/Single_Query_Track SMTZILLA 8284.933120000003
+AUFLIA smt-comp/2019/results/Unsat_Core_Track CVC4-uc-2019-06-03-d350fe1-wrapped-uc 932438.3236559996
+AUFLIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+MathSAT-5.5.4-wrapped-uc 11942406.58852
+AUFLIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+SMTInterpol-wrapped-uc 11942406.70394
+AUFLIA smt-comp/2019/results/Unsat_Core_Track UltimateEliminator+Yices-2.6.1-wrapped-uc 11952000.0
+AUFLIA smt-comp/2019/results/Unsat_Core_Track master-2018-06-10-b19c840-proofs-unsat_cores 844837.1837499996
+AUFLIA smt-comp/2019/results/Unsat_Core_Track z3-4.8.4-d6df51951f4c-wrapped-uc 993443.3843380006
+AUFLIA smt-comp/2019/results/Unsat_Core_Track Virtual Best 549176.6794779993
+AUFLIA smt-comp/2019/results/Unsat_Core_Track Random Selection 6398491.044932002
+AUFLIA smt-comp/2019/results/Unsat_Core_Track SMTZILLA 844837.1837499996
+QF_BV smt-comp/2019/results/Incremental_Track Boolector incremental-wrapped-inc 149868.3852280002
+QF_BV smt-comp/2019/results/Incremental_Track Boolector-ReasonLS-wrapped-inc 12393600.0
+QF_BV smt-comp/2019/results/Incremental_Track CVC4-inc-2019-06-03-d350fe1-wrapped-inc 12393600.0
+QF_BV smt-comp/2019/results/Incremental_Track CVC4-inc-fixed-2019-06-26-0e351fa-wrapped-inc 248496.76592000035
+QF_BV smt-comp/2019/results/Incremental_Track MathSAT 200854.70300200017
+QF_BV smt-comp/2019/results/Incremental_Track MinkeyRink MT-wrapped-inc 172181.72263400006
+QF_BV smt-comp/2019/results/Incremental_Track MinkeyRink ST-wrapped-inc 129407.38799800008
+QF_BV smt-comp/2019/results/Incremental_Track Yices 2.6.2 Incremental-wrapped-inc 147788.0294659999
+QF_BV smt-comp/2019/results/Incremental_Track stp-incremental-2019-v2-wrapped-inc 144200.81697399978
+QF_BV smt-comp/2019/results/Incremental_Track stp-mt-wrapped-inc 1304618.7245300007
+QF_BV smt-comp/2019/results/Incremental_Track z3-4.7.4-wrapped-inc 617643.9366459996
+QF_BV smt-comp/2019/results/Incremental_Track Virtual Best 108657.81732199996
+QF_BV smt-comp/2019/results/Incremental_Track Random Selection 2437345.0506980014
+QF_BV smt-comp/2019/results/Incremental_Track SMTZILLA 129407.38799800008

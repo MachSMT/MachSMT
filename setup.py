@@ -5,22 +5,18 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name         = 'banditfuzz',
+    name         = 'smtzilla',
     version      = '0.1',
-    description  = 'Fuzzer for SMTLIB 2.x solvers.',
-    author       = 'Joe Scott, Federico Mora',
-    author_email = 'joseph.scott@uwaterloo.ca, fmora@cs.toronto.edu',
-    url          = 'https://github.com/j29scott/BanditFuzz',
+    description  = 'An algorithm selection tool for SMT-LIB solvers',
+    author       = 'Joe Scott, Aina Niemetz, Mathias Preiner, Vijay Ganesh',
+    author_email = 'joseph.scott@uwaterloo.ca',
+    url          = 'https://github.com/j29scott/smtzilla',
     scripts      = [
-        'bin/banditfuzz_bug',
-        'bin/banditfuzz_eval',
-        'bin/banditfuzz_train',
-        'bin/banditfuzz_rt_rngfuzz',
-        'bin/banditfuzz_rt_mutation',
-        'bin/banditfuzz_bug_random',
+        'bin/smtzilla_build',
+        'bin/smtzilla_select',
     ],
     packages     = find_packages(),
     package_dir  = {
-        'banditfuzz': 'banditfuzz',
+        'smtzilla': 'smtzilla',
     },
 )

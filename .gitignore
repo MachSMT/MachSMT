@@ -1,3 +1,5 @@
 *.smt2
 bin/*
 *__pycache__*
+lib/*
+*smtzilla.egg-info*

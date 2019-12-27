@@ -1,3 +1,3 @@
-benchmarks/*
+*.smt2
 bin/*
 *__pycache__*

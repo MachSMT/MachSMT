@@ -31,7 +31,7 @@ def get_core_features(file_path):
 def get_features(file_path,theory,track):
     features = get_core_features(file_path)
 
-    functions = [o for o in getmembers(smtzilla.extra_features as extra_features) if isfunction(o[1])]
+    functions = [o for o in getmembers(extra_features as extra_features) if isfunction(o[1])]
     for f smtzilla.in functions:
         v = f(file_path,theory,track)
         if v != None:

@@ -1,5 +1,3 @@
-
-
 keyword_list = [
     ##SMT-LIB
     'as',

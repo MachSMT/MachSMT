@@ -2,7 +2,7 @@ from sklearn.model_selection import LeaveOneOut,KFold
 from smtzilla.compute_features import get_features,get_check_sat
 import multiprocessing.dummy as mp
 from progress.bar import Bar
-from db import get_inst_path
+from smtzilla.search import get_inst_path
 
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,3 +1,4 @@
+import os,glob
 def get_inst_path(theory,instance):
     path = 'benchmarks/' + theory + '/'
     instance_name = instance

@@ -36,42 +36,13 @@ for theory in db.db:
     if not os.path.isdir(root+'lib/'+theory):
         os.mkdir(root+'lib/'+theory)
     for track in db.db[theory]:
-        if theory == 'QF_UFIDL' or theory == 'UFLIA':
-            lm = LearnedModel(
-                theory=theory,
-                track=track,
-                db=db.db[theory][track],
-                model_maker=model_maker
-            )
-            lm.calc_features()
-            lm.eval_and_build()
-            lm.plot()
-
-
-# import time
-# tic = time.time()
-# lm = LearnedModel(
-#     theory='UFIDL',
-#     track='smt-comp/2019/results/Single_Query_Track',
-#     db=db.db['UFIDL']['smt-comp/2019/results/Single_Query_Track'],
-#     model_maker=model_maker
-# )
-# lm.calc_features()
-# lm.eval_and_build()
-# lm.plot()
-# print("TIME: " + str(time.time() - tic))
-
-# for theory,track,n in theory_track_N_pairs:
-#     print(theory,track,n)
-#     if theory == 'QF_UFIDL' or theory == 'UFLIA' or n < 75:
-#         print("Skipping")
-#         continue
-#     lm = LearnedModel(
-#         theory=theory,
-#         track=track,
-#         db=db.db[theory][track],
-#         model_maker=model_maker
-#     )      
-#     lm.calc_features()
-#     lm.eval_and_build()
-#     lm.plot()
+        lm = LearnedModel(
+            theory=theory,
+            track=track,
+            db=db.db[theory][track],
+            model_maker=model_maker
+        )
+        lm.calc_features()
+        lm.eval_and_build()
+        lm.plot()
+        pickle.dump(lm, open( root+'lib/'+theory + '/' + track.split('/')[-1], "wb" ))

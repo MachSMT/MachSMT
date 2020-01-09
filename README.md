@@ -16,4 +16,8 @@ To build a model for a specific theory/track, SMTZILLA expects acces to all benc
 
 For timing analysis, please clone the [SMT-COMP's repository](https://github.com/SMT-COMP/smt-comp) in the root of the SMTZILLA repo, and decompress the timing analysis csv files.
 
-Running `smtzilla_build` will build models for all theories/tracks. However this can be narrowed to theories/tracks of interest by running it as `smtzilla_build --theory THEORY --track TRACK`
+Running `smtzilla_build` will build models for all theories/tracks. However this can be narrowed to theories/tracks of interest by running it as `smtzilla_build --theory THEORY --track TRACK`.
+
+The SMTZILLA pipeline allows for custom regression algorithms to be used, and can be easily deployed of they follow the scikit style. To modify, see `smtzilla/model_maker.py`.
+
+Further, the SMTZILLA pipeline strongly encourages the use of community features and can easily be added with minimal lines of code. For more, see `smtzilla/extra_features.py`.

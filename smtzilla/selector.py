@@ -1,5 +1,5 @@
 from sklearn.model_selection import LeaveOneOut,KFold
-from smtzilla.compute_features import get_features,get_check_sat
+from smtzilla.compute_features import get_features,get_check_sat,get_feature_names
 import multiprocessing.dummy as mp
 from progress.bar import Bar
 from smtzilla.search import get_inst_path
@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
-import pdb
+import pdb,os,sys
 
 WALL_TIMEOUT = 2400
 TIMEOUT = 2000
@@ -24,14 +24,16 @@ class LearnedModel:
         self.Y = None
         self.selections = None
         self.solvers = None
+        self.inputs = None
         self.random_selections = None
         self.theory = theory
         self.track = track
         self.solvers = None
         self.is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
         self.greedy = False
-        self.greedy_solver = None
+        self.best_solver = None
         self.lm = {}
+        self.scoring = {}
 
     def get_score(self,solver,inst):
         if not self.is_incr and self.db[solver][inst]['result'] != self.db[solver][inst]['expected']:
@@ -72,10 +74,10 @@ class LearnedModel:
         solvers = list(solvers)
         solvers.sort()
         self.solvers = solvers
-        self.X = [ None for i in inputs ]
-        self.Y = [ None for i in inputs ]
+        self.inputs = list(inputs)
+        self.X = [ None for i in self.inputs]
+        self.Y = [ None for i in self.inputs]
         bar = Bar('Computing Features for theory=' + self.theory + '\ttrack=' + self.track, max=len(inputs))
-
 
         def mp_call(index_instance):
             index = index_instance[0]
@@ -83,21 +85,27 @@ class LearnedModel:
             self.X[index] = get_features(file_path=get_inst_path(self.theory,instance),theory=self.theory,track=self.track)
             times = []
             for solver in self.solvers:
-                v = self.get_score(solver,instance)
+                v = self.get_score(solver,instance) ##DO NOT NEED TO CHECK AGAINST TIMEOUT HERE
                 times.append(np.log(max(0.001,v)))
             self.Y[index] = times
             bar.next()
-
-        with mp.Pool(min(len(inputs),12)) as pool:
-            pool.map(mp_call,list(enumerate(inputs)))
+        with mp.Pool(min(len(self.inputs),12)) as pool:
+            pool.map(mp_call,list(enumerate(self.inputs)))
         bar.finish()
 
     def eval(self):
         self.X = np.array(self.X)
         self.Y = np.array(self.Y)
-        self.selections = np.zeros(len(self.X))
-        self.random_selections = np.zeros(len(self.X))
-        bar = Bar('Fitting theory=' + self.theory + '\ttrack=' + self.track, max=len(self.X))
+        self.log_score_predictions = []
+        for i in range(len(self.X)):
+            self.log_score_predictions.append([None for solver in self.solvers])
+        self.selections = [None for i in range(len(self.X))]
+        self.random_selections = [None for i in range(len(self.X))]
+
+        k = len(self.X)
+        if k > 150:
+            k = 100
+        bar = Bar('Fitting theory=' + self.theory + '\ttrack=' + self.track, max=k)
 
         def mp_call(train_test_index):
             train_index = train_test_index[0]
@@ -105,55 +113,61 @@ class LearnedModel:
             features_train, features_test = self.X[train_index], self.X[test_index]
             labels_train, labels_test = self.Y[train_index], self.Y[test_index]
             models = {}
-            pred = []
             for i in range(len(self.solvers)):
-                pca = len(self.X) > 10
-                models[self.solvers[i]] = self.model_maker(pca)
+                models[self.solvers[i]] = self.model_maker(n_points=len(self.X))
                 models[self.solvers[i]].fit(features_train,labels_train[:,i])
-                pred.append(models[self.solvers[i]].predict(features_test))
-            c=0
-            for it in test_index:
-                predictions = [pred[i][c] for i in range(len(self.solvers))]
-                solver_index = np.argmin(predictions)
-                self.selections[it] = np.exp(self.Y[it,solver_index])
+                for j in range(len(test_index)):
+                    self.log_score_predictions[test_index[j]][i] = models[self.solvers[i]].predict(features_test[j].reshape(1, -1))[0]
+            bar.next()
 
-                random_index = np.random.choice(len(self.solvers))
-                self.random_selections[it] = np.exp(self.Y[it,random_index])
-                bar.next()
+        ##K FOLD CROSS VALIDATION
         with mp.Pool(min(len(self.X), 12)) as pool:
-            pool.map(mp_call,KFold(n_splits=min(10,len(self.X)),shuffle=True).split(self.X))
-        for solver in self.solvers:
-            pca = len(self.X) > 10
-            self.lm[solver] = self.model_maker(pca)
-            self.lm[solver].fit(self.X,self.Y)
+            pool.map(mp_call,KFold(n_splits=k, shuffle=True).split(self.X))
+        for i in range(len(self.X)):
+            self.selections[i] = self.solvers[np.argmin(self.log_score_predictions[i])]
+            self.random_selections[i] = np.random.choice(self.solvers)
+        #FIT EVERYTHING
         bar.finish()
-        self.greedify()
 
-    def greedify(self):
-        best_solver = None
+    def build(self):
+        c=0
+        for solver in self.solvers:
+            self.lm[solver] = self.model_maker(len(self.X))
+            self.lm[solver].fit(self.X,self.Y[:,c])
+            c += 1
+
+    def baseline(self):
+        self.best_solver = None
         best_par2 = float('+inf')
         for solver in self.solvers:
             par2 = 0.0
-            for inst in self.db[solver]:
+            for inst in self.inputs:
                 par2 += self.get_score(solver,inst)
             if par2 < best_par2:
-                best_par2, best_solver = par2,solver
+                best_par2, self.best_solver = par2,solver
         my_par2 = 0.0
-        for v in self.selections:
-            my_par2 += v
+        for it in range(len(self.selections)):
+            my_par2 += self.get_score(solver=self.selections[it],inst=self.inputs[it])
+
         if best_par2 < my_par2:
-            print("GREEDY ACTIVE", self.theory, self.track)
+            ##Failed to learn, force greedy solution
+            print("Failed to improve, enabling Greedy Selection")
+            self.selections = [self.best_solver for i in range(len(self.X))]
             self.greedy = True
-            self.greedy_solver = best_solver
-            self.selections = [self.get_score(best_solver,inst) for inst in self.db[best_solver]]
-        
+        else:
+            print("Observe improvement of: " + str(round(100.0 * abs(best_par2 - my_par2) / my_par2)) + "%")
 
     def mk_plots(self):
         plt.cla()
         plt.clf()
-
         plot_data = []
         
+        if not os.path.exists('results'):
+            os.mkdir('results')
+        if not os.path.exists('results/'+self.theory):
+            os.mkdir('results/' + self.theory)
+        if not os.path.exists('results/' + self.theory +'/' + self.track.split('/')[-1] ):
+            os.mkdir('results/' + self.theory +'/' + self.track.split('/')[-1])
         #individual solvers
         for solver in self.solvers:
             rt = []
@@ -171,13 +185,12 @@ class LearnedModel:
         plot_data.append(('Virtual Best', vb))
 
         #Random Solver
-        plot_data.append(('Random Selection', self.random_selections))
+        plot_data.append(('Random Selection', [self.get_score(solver=self.random_selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
 
 
         #SMTZILLA
-        plot_data.append(('SMTZILLA', self.selections))
+        plot_data.append(('SMTZILLA', [self.get_score(solver=self.selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
         
-        logfile = open('par2_log.txt', 'a')
         import itertools
         marker = itertools.cycle((',', '+', '.', 'o', '*')) 
         colors = itertools.cycle(('b','g','r','c','m','y')) 
@@ -188,24 +201,58 @@ class LearnedModel:
                 plt.plot([v for v in d[1] if v < TIMEOUT], label=d[0],marker=next(marker),color=next(colors))
             else:
                 plt.plot([v for v in d[1] if v < TIMEOUT], label=d[0],color='purple',marker='d')
-            par2 = sum(d[1])
-            for v in d[1]:
-                if v >= TIMEOUT:
-                    par2 += WALL_TIMEOUT * 2.0
-                else:
-                    par2 += v
-            print(self.theory, self.track,d[0], par2,file=logfile)
+            self.scoring[d[0]] = sum(d[1])
 
         plt.legend()
-        plt.savefig('figs/' + self.theory + '_' +self.track.split('/')[-1] + '.png',dpi=700)
+        plt.savefig('results/' + self.theory +'/' + self.track.split('/')[-1] + '/plot.png',dpi=700)
         plt.cla()
         plt.clf()
 
+    def log(self):
+        track = self.track
+        if not os.path.exists('results'):
+            os.mkdir('results')
+        if not os.path.exists('results/'+self.theory):
+            os.mkdir('results/' + self.theory)
+        if not os.path.exists('results/' + self.theory +'/' + self.track.split('/')[-1] ):
+            os.mkdir('results/' + self.theory +'/' + self.track.split('/')[-1])
+        with open('results/' + self.theory +'/' + self.track.split('/')[-1] + '/selections.csv','w') as file:
+            features = get_feature_names()
+            file.write('instance,')
+            for f in features:
+                file.write(f + ',')
+            file.write('selection\n')
+            for it in range(len(self.X)):
+                file.write(self.inputs[it] + ',')
+                for v in self.X[it,]:
+                    file.write(str(v) + ',')
+                file.write(self.selections[it] + '\n')
+        
+        with open('results/' + self.theory + '/' + self.track.split('/')[-1] + '/par2.csv','w') as file:
+            data = []
+            for solver in self.scoring:
+                data.append((solver,self.scoring[solver]))
+            data.sort(key=lambda x:x[1])
+            file.write('solver,score\n')
+            for solver,par2 in data:
+                file.write(solver + ',' + str(par2) + '\n')
+            
     def predict(self, file):
         if self.greedy:
-            return self.greedy_solver
-        X = get_features(file_path=file,theory=self.theory,track=self.track)
+            return self.best_solver
+        X = np.array(get_features(file_path=file,theory=self.theory,track=self.track))
         Y = []
         for solver in self.solvers:
-            Y.append(self.lm[solver].predict(X))
+            Y.append(self.lm[solver].predict(X.reshape(1, -1))[0])
         return self.solvers[np.argmin(Y)]
+
+    def run(self):
+        self.calc_features()
+        if len(self.X) < 5:
+            print("Not enough inputs to build model.")
+            return
+        self.eval()
+        self.build()
+        self.baseline()
+        self.mk_plots()
+        self.log()

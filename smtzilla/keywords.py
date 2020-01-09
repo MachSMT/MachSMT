@@ -4,7 +4,6 @@ keyword_list = [
     'let',
     'forall',
     'exists'
-    '!',
     'set-logic',
     'set-option',
     'set-info',

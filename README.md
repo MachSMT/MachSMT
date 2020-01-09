@@ -7,5 +7,6 @@ SMTZILLA can be installed easily via the command `sudo python3 setup.py install`
 * smtzilla_select - the primary interface to SMTZILLA's algorithm selection
 * smtzilla_build  - a script to learn models for algorithm selection in SMTZILLA's pipeline.
 
-# Installation
+# smtzilla_select
 
+# smtzilla_build

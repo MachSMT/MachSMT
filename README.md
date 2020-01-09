@@ -8,7 +8,6 @@ SMTZILLA can be installed easily via the command `sudo python3 setup.py install`
 * smtzilla_build  - a script to learn models for algorithm selection in SMTZILLA's pipeline.
 
 # smtzilla_select
-
-`smtzilla_select --file FILE --theory THEORY --track TRACK`
+The algorithm selection script can be ran with the following syntax: `smtzilla_select --file FILE --theory THEORY --track TRACK`. SMTZilla will then print the name of the solver it selects to have the shortest runtime. 
 
 # smtzilla_build

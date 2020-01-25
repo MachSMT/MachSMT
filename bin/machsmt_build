@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 import os,pickle,argparse,pdb,sys
-from machsmt.db import DB
-from machsmt.model_maker import model_maker
-from machsmt.selector import LearnedModel
+from smtzilla.db import DB
+from smtzilla.model_maker import model_maker
+from smtzilla.selector import LearnedModel
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-theory', '--theory',type=str,default=None )
 parser.add_argument('-track', '--track',type=str,default=None)
 args = parser.parse_args()
-root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of machsmt repo
+root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of smtzilla repo
 os.chdir(root)
 if not os.path.isdir(root+'lib'):
     os.mkdir(root+'lib')

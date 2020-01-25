@@ -1,11 +1,46 @@
 import pdb,os,glob,sys,copy
 from progress.bar import Bar
 from smtzilla.search import get_inst_path
+from smtzilla.compute_features import get_check_sat
+
+WALL_TIMEOUT = 2400
+TIMEOUT = 2398
 
 class DB:
     def __init__(self):
         self.db = {}
         self.paths = {}
+
+    def compute_score(self,theory,track,solver,inst):
+        is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
+
+        if self.db[theory][track][solver][inst]['result'].find('unknown') != -1:
+            return 2.0 * WALL_TIMEOUT
+        if not is_incr and self.db[theory][track][solver][inst]['result'] != self.db[theory][track][solver][inst]['expected']:
+            if self.db[theory][track][solver][inst]['expected'].lower().find('unknown') != -1:
+                return float(self.db[theory][track][solver][inst]['wallclock time'])
+            elif  self.db[theory][track][solver][inst]['result'].lower().find('unknown') >= 0:
+                return 2.0 * WALL_TIMEOUT
+            else:
+                print("WRONG ANSWER!", solver, inst, theory, track, self.db[theory][track][solver][inst]['result'] ,self.db[theory][track][solver][inst]['expected'])
+                return 10.0 * WALL_TIMEOUT
+        elif is_incr:
+            if int(self.db[theory][track][solver][inst]['wrong-answers']) != 0:
+                print("WRONG ANSWER!", solver, inst, theory, track)
+                return 10.0 * WALL_TIMEOUT
+            if get_check_sat(get_inst_path(theory,inst)) == int(self.db[theory][track][solver][inst]['correct-answers']):
+                if float(self.db[theory][track][solver][inst]['wallclock time']) < TIMEOUT:
+                    return float(self.db[theory][track][solver][inst]['wallclock time'])
+                else:
+                    return 2.0 * WALL_TIMEOUT
+            else:
+                return 2.0 * WALL_TIMEOUT
+        else:
+            if float(self.db[theory][track][solver][inst]['wallclock time']) < TIMEOUT:
+                return float(self.db[theory][track][solver][inst]['wallclock time'])
+            else:
+                return 2.0 * WALL_TIMEOUT
+            return float(self.db[theory][track][solver][inst]['wallclock time'])
 
     def add(self,theory,track,solver,instance,data):
         if theory not in self.db:

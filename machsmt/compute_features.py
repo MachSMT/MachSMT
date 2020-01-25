@@ -1,6 +1,6 @@
 from inspect import getmembers, isfunction
-import smtzilla.extra_features as extra_features
-from smtzilla.keywords import keyword_list
+import machsmt.extra_features as extra_features
+from machsmt.keywords import keyword_list
 import time
 kw2indx = dict( (keyword_list[i],i) for i in range(len(keyword_list)))
 cached_counts = {}
@@ -9,9 +9,6 @@ cached_checksats = {}
 COUNT_TIMEOUT = 1.0
 
 def get_syntactic_count_features(file_path):
-    if file_path in cached_counts:
-        print("Cache :)")
-        return cached_counts[file_path]
     tic = time.time()
     features = [0.0] * len(keyword_list)
     n = 0
@@ -32,12 +29,18 @@ def get_syntactic_count_features(file_path):
                 break
         features.append(n)      ##Total Counts
         features.append(v)      ##Timeout?
-    cached_counts[file_path] = features
     return features
 
+cache = {}
 def get_features(file_path,theory,track):
-    features = get_syntactic_count_features(file_path)
+    if file_path not in cache:
+        cache[file_path] = {}
+    if theory not in cache[file_path]:
+        cache[file_path][theory] = {}
+    if track not in cache[file_path][theory]:
+        cache[file_path][theory][track] = {}
 
+    features = get_syntactic_count_features(file_path)
     functions = [o for o in getmembers(extra_features) if isfunction(o[1])]
     for f in functions:
         tic = time.time()
@@ -45,6 +48,8 @@ def get_features(file_path,theory,track):
         if v != None:
             features.append(v)
             features.append(time.time() - tic)
+
+    cache[file_path][theory][track] = features
     return features
 
 def get_feature_names():

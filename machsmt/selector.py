@@ -19,7 +19,7 @@ USE_EXTRA_FEATURES=True ##NOT IMPLEMENTED
 EXTRA_CAP=True
 EXTRA_MAX=10000
 
-num_cores = 12
+num_cores = multiprocessing.cpu_count()
 
 class LearnedModel:
     def __init__(self,theory,track,db,model_maker):
@@ -45,36 +45,8 @@ class LearnedModel:
         self.scoring = {}
         self.use_core = None
 
-    def get_score(self,solver,inst):
 
-        if self.db[solver][inst]['result'].find('unknown') != -1:
-            return 2.0 * WALL_TIMEOUT
-
-        if not self.is_incr and self.db[solver][inst]['result'] != self.db[solver][inst]['expected']:
-            if self.db[solver][inst]['expected'].lower().find('unknown') != -1:
-                return float(self.db[solver][inst]['wallclock time'])
-            elif  self.db[solver][inst]['result'].lower().find('unknown') >= 0:
-                return 2.0 * WALL_TIMEOUT
-            else:
-                print("WRONG ANSWER!", solver, inst, self.theory, self.track, self.db[solver][inst]['result'] ,self.db[solver][inst]['expected'])
-                return 10.0 * WALL_TIMEOUT
-        elif self.is_incr:
-            if int(self.db[solver][inst]['wrong-answers']) != 0:
-                print("WRONG ANSWER!", solver, inst, self.theory, self.track)
-                return 10.0 * WALL_TIMEOUT
-            if get_check_sat(get_inst_path(self.theory,inst)) == int(self.db[solver][inst]['correct-answers']):
-                if float(self.db[solver][inst]['wallclock time']) < TIMEOUT:
-                    return float(self.db[solver][inst]['wallclock time'])
-                else:
-                    return 2.0 * WALL_TIMEOUT
-            else:
-                return 2.0 * WALL_TIMEOUT
-        else:
-            if float(self.db[solver][inst]['wallclock time']) < TIMEOUT:
-                return float(self.db[solver][inst]['wallclock time'])
-            else:
-                return 2.0 * WALL_TIMEOUT
-            return float(self.db[solver][inst]['wallclock time'])
+    ## Computes features 
 
     def calc_features(self,use_full_db,full_db):
         inputs = set()
@@ -103,7 +75,7 @@ class LearnedModel:
                 times.append(np.log(max(0.001,v)))
             self.Y[index] = times
             bar.next()
-        with mp.Pool(min(len(self.inputs),1)) as pool:
+        with mp.Pool(min(len(self.inputs),num_cores)) as pool:
             pool.map(mp_call,list(enumerate(self.inputs)))
         bar.finish()
 
@@ -168,6 +140,15 @@ class LearnedModel:
             self.extra_Y[solver] = [v for v in bonus_input_par_Y if v != None]
         bar.finish()
 
+
+    ## Main evaluation tool
+    ## This is where we get our results from, deployment comes later
+    ## Builds do types of EHM
+    ## 1) Just over the track                   //in code this is refered to as 'core' (sorry for bad names)
+    ## 2) Over track + cross over theories      //in code this is refered to as 'div' 
+    ## Pick best one by score
+    ## Fail to improve => greedy selection
+
     def eval(self):
         self.X = np.array(self.X)
         self.Y = np.array(self.Y)
@@ -180,8 +161,8 @@ class LearnedModel:
         self.random_selections = [None for i in range(len(self.X))]
 
         k = len(self.X)
-        if k > 150:
-            k = 10
+        if k > 5:
+            k = 5
         bar = Bar('Fitting Core -- theory=' + self.theory + '\ttrack=' + self.track, max=k)
 
         def mp_call(train_test_index):
@@ -233,6 +214,8 @@ class LearnedModel:
             self.random_selections[i] = np.random.choice(self.solvers)
         bar.finish()
 
+
+    ## Build deployment model
     def build(self):
         c=0
         if self.use_core == False:
@@ -244,6 +227,9 @@ class LearnedModel:
             self.lm[self.solvers[i]] = self.model_maker(len(self.X))
             self.lm[self.solvers[i]].fit(self.X,sY)
 
+
+    ## Computes performance between 'core' and 'div'
+    ## 
     def baseline(self):
         self.best_solver = None
         best_par2 = float('+inf')
@@ -272,6 +258,7 @@ class LearnedModel:
                 self.use_core = False
                 self.selections = self.selections_div
 
+    ## Makes plots in results
     def mk_plots(self):
         plt.cla()
         plt.clf()
@@ -326,6 +313,7 @@ class LearnedModel:
         pickle.dump(plot_data, open('results/'+self.theory + '/' + self.track.split('/')[-1] + '/plot_data.p' , "wb" ))
 
 
+    ##Makes CSVs in results 
     def log(self):
         track = self.track
         if not os.path.exists('results'):
@@ -354,7 +342,9 @@ class LearnedModel:
             file.write('solver,score\n')
             for solver,par2 in data:
                 file.write(solver + ',' + str(par2) + '\n')
-            
+    
+
+    ## Final testing procedure
     def predict(self, file):
         if self.greedy:
             return self.best_solver
@@ -364,10 +354,12 @@ class LearnedModel:
             Y.append(self.lm[solver].predict(X.reshape(1, -1))[0])
         return self.solvers[np.argmin(Y)]
 
+
+    ##Main function
     def run(self,use_full_data=False,full_db=None):
         self.calc_features(use_full_data,full_db)
         if len(self.X) < 5:
-            print("Not enough inputs to build model.")
+            print("Track too small to consider (only " + len(self.X) " inputs)")
             return
         self.eval()
         self.build()

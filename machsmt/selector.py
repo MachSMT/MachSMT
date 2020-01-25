@@ -1,8 +1,10 @@
 from sklearn.model_selection import LeaveOneOut,KFold
-from smtzilla.compute_features import get_features,get_check_sat,get_feature_names
-import multiprocessing.dummy as mp
+from machsmt.compute_features import get_features,get_check_sat,get_feature_names
+import multiprocessing.dummy as mp ##?? other doesn't work for whatever reason...
 from progress.bar import Bar
-from smtzilla.search import get_inst_path
+from machsmt.search import get_inst_path
+from machsmt.db import get_db
+import machsmt.settings as settings
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,12 +15,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 import pdb,os,sys,random,pickle
 
-WALL_TIMEOUT = 2400
-TIMEOUT = 2398
-USE_EXTRA_FEATURES=True ##NOT IMPLEMENTED
-EXTRA_CAP=True
-EXTRA_MAX=10000
-
+import multiprocessing 
 num_cores = multiprocessing.cpu_count()
 
 class LearnedModel:
@@ -48,7 +45,7 @@ class LearnedModel:
 
     ## Computes features 
 
-    def calc_features(self,use_full_db,full_db):
+    def calc_features(self,):
         inputs = set()
         solvers = set()
         for solver in self.db:
@@ -57,6 +54,7 @@ class LearnedModel:
             solvers.add(solver)
             for inst in self.db[solver]:
                 inputs.add(inst)
+        full_db = get_db()
         solvers = list(solvers)
         solvers.sort()
         self.solvers = solvers
@@ -65,57 +63,83 @@ class LearnedModel:
         self.Y = [ None for i in self.inputs]
         bar = Bar('Computing Features for theory=' + self.theory + '\ttrack=' + self.track, max=len(inputs))
 
+
+        mutex = mp.Lock()
+        mutex2= mp.Lock()
+
         def mp_call(index_instance):
             index = index_instance[0]
             instance = index_instance[1]
             self.X[index] = get_features(file_path=get_inst_path(self.theory,instance),theory=self.theory,track=self.track)
             times = []
             for solver in self.solvers:
-                v = self.get_score(solver,instance) ##DO NOT NEED TO CHECK AGAINST TIMEOUT HERE
+                v = full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=instance)
                 times.append(np.log(max(0.001,v)))
             self.Y[index] = times
+            mutex.acquire()
             bar.next()
+            mutex.release()
         with mp.Pool(min(len(self.inputs),num_cores)) as pool:
             pool.map(mp_call,list(enumerate(self.inputs)))
         bar.finish()
 
-        if use_full_db:
-            it=0
-            logics = ['A', 'AX', 'BV', 'FP', 'I', 'UF', 'DL', 'UF']
-            common = []
-            for theory in full_db.db:
-                for l in logics:
-                    if self.theory.find(l) != -1 and theory.find(l) != -1 and self.theory != theory:
-                        common.append(theory)
-            print(common)
-            bonus_inputs = {}
-            for theory in common:
-                for track in full_db.db[theory]:
-                    for solver in full_db.db[theory][track]:
-                        if solver in self.solvers:
-                            if solver not in self.extra_X:
-                                self.extra_X[solver] = []
-                                self.extra_Y[solver] = []
-                                bonus_inputs[solver] = []
-                            for instance in full_db.db[theory][track][solver]:
-                                self.extra_X[solver].append(None)
-                                self.extra_Y[solver].append(None)
-                                bonus_inputs[solver].append((instance,theory,track,solver))
-                                it+=1
 
-        if EXTRA_CAP:
-            it=0
-            for solver in self.solvers:
-                if solver in bonus_inputs and len(bonus_inputs[solver]) > EXTRA_MAX:
-                    random.shuffle(bonus_inputs[solver])
-                    bonus_inputs[solver] = [bonus_inputs[solver][i] for i in range(EXTRA_MAX)]
-                    self.extra_X[solver] = [None] * EXTRA_MAX
-                    self.extra_Y[solver] = [None] * EXTRA_MAX
-                    it += EXTRA_MAX
-                else:
-                    if solver not in bonus_inputs:
-                        continue
-                    it += len(bonus_inputs[solver])
+        ## COMPUTE MOST SIMILAR LOGICS
+        it=0
+        logics = ['A', 'AX', 'BV', 'FP', 'NIA', 'LIA', 'NRA', 'LRA' 'UF', 'DL', 'UF', 'QF']
+        common = []
+        for theory in full_db.db:
+            for l in logics:
+                if l and 'A':
+                    if (l in self.theory[:-1]) and (l in theory[:-1]) and self.theory != theory:
+                        common.append(theory)
+                elif (l in self.theory) and (l in theory) and self.theory != theory:
+                    common.append(theory)
+        
+        def diff(theory):
+            #pdb.set_trace()
+            ret = 0
+            for l in logics:
+                if l == 'A':
+                    if (l in self.theory[:-1]) and (l in theory[:-1]): 
+                        ret += 1
+                elif (l in self.theory) and (l in theory): 
+                    ret += 1
+            return ret
+        
+        common.sort(key=diff)
+        print([(t,diff(t)) for t in common])
+        bonus_inputs = {}
+        for theory in common:
+            for track in full_db.db[theory]:
+                for solver in full_db.db[theory][track]:
+                    sit = 0
+                    if solver in self.solvers:
+                        if solver not in self.extra_X:
+                            self.extra_X[solver] = []
+                            self.extra_Y[solver] = []
+                            bonus_inputs[solver] = []
+                        for instance in full_db.db[theory][track][solver]:
+                            self.extra_X[solver].append(None)
+                            self.extra_Y[solver].append(None)
+                            bonus_inputs[solver].append((instance,theory,track,solver))
+                            it+=1
+                            sit+=1
+                            if sit > settings.EXTRA_MAX: break
+
+
+        it=0
+        for solver in self.solvers:
+            if solver in bonus_inputs and len(bonus_inputs[solver]) > settings.EXTRA_MAX:
+                random.shuffle(bonus_inputs[solver])
+                bonus_inputs[solver] = [bonus_inputs[solver][i] for i in range(settings.EXTRA_MAX)]
+                self.extra_X[solver] = [None] * settings.EXTRA_MAX
+                self.extra_Y[solver] = [None] * settings.EXTRA_MAX
+                it += settings.EXTRA_MAX
+            else:
+                if solver not in bonus_inputs:
+                    continue
+                it += len(bonus_inputs[solver])
                     
         
         bar = Bar('Computing Extra Features for Theory=' + self.theory + '\tTrack=' + self.track, max=it)
@@ -129,7 +153,10 @@ class LearnedModel:
             solver = args[3]
             bonus_input_par_X[index] = get_features(file_path=get_inst_path(theory,instance),theory=theory,track=track)
             bonus_input_par_Y[index] = np.log(max(0.001,full_db.compute_score(theory=theory,track=track,solver=solver,inst=instance)))
+            
+            mutex2.acquire()
             bar.next()
+            mutex2.release()
 
         for solver in bonus_inputs:
             bonus_input_par_X = [None] * it
@@ -164,7 +191,8 @@ class LearnedModel:
         if k > 5:
             k = 5
         bar = Bar('Fitting Core -- theory=' + self.theory + '\ttrack=' + self.track, max=k)
-
+        mutex = mp.Lock()
+        mutex2= mp.Lock()
         def mp_call(train_test_index):
             train_index = train_test_index[0]
             test_index = train_test_index[1]
@@ -176,7 +204,9 @@ class LearnedModel:
                 models[self.solvers[i]].fit(features_train,labels_train[:,i])
                 for j in range(len(test_index)):
                     self.log_score_predictions_core[test_index[j]][i] = models[self.solvers[i]].predict(features_test[j].reshape(1, -1))[0]
+            mutex.acquire()
             bar.next()
+            mutex.release()
         
 
         def mp_call2(train_test_index):
@@ -195,16 +225,18 @@ class LearnedModel:
                 models[self.solvers[i]].fit(X,Y)
                 for j in range(len(test_index)):
                     self.log_score_predictions_div[test_index[j]][i] = models[self.solvers[i]].predict(features_test[j].reshape(1, -1))[0]
+            mutex2.acquire()
             bar.next()
+            mutex2.release()
 
         ##K FOLD CROSS VALIDATION
-        with mp.Pool(min(len(self.X), 12)) as pool:
+        with mp.Pool(min(len(self.X), num_cores)) as pool:
             pool.map(mp_call,KFold(n_splits=k, shuffle=True).split(self.X))
         bar.finish()
 
         bar = Bar('Fitting Div -- theory=' + self.theory + '\ttrack=' + self.track, max=k)
 
-        with mp.Pool(min(len(self.X), 12)) as pool:
+        with mp.Pool(min(len(self.X), num_cores)) as pool:
             pool.map(mp_call2,KFold(n_splits=k, shuffle=True).split(self.X))
         bar.finish()
         self.selections_core, self.selections_div = [None] * len(self.X), [None] * len(self.X)
@@ -232,17 +264,18 @@ class LearnedModel:
     ## 
     def baseline(self):
         self.best_solver = None
+        full_db = get_db()
         best_par2 = float('+inf')
         for solver in self.solvers:
             par2 = 0.0
             for inst in self.inputs:
-                par2 += self.get_score(solver,inst)
+                par2 += full_db.compute_score(theory=self.theory, track=self.track, solver=solver, inst=inst)
             if par2 < best_par2:
                 best_par2, self.best_solver = par2,solver
         my_par2_core, my_par2_div = 0.0 , 0.0
         for it in range(len(self.selections)):
-            my_par2_core += self.get_score(solver=self.selections_core[it],inst=self.inputs[it])
-            my_par2_div  += self.get_score(solver=self.selections_div[it],inst=self.inputs[it])
+            my_par2_core += full_db.compute_score(theory=self.theory, track=self.track, solver=self.selections_core[it], inst=self.inputs[it])
+            my_par2_div  += full_db.compute_score(theory=self.theory, track=self.track, solver=self.selections_div[it], inst=self.inputs[it])
         if best_par2 < min(my_par2_core, my_par2_div):
             ##Failed to learn, force greedy solution
             print("Failed to improve, enabling Greedy Selection")
@@ -263,6 +296,7 @@ class LearnedModel:
         plt.cla()
         plt.clf()
         plot_data = []
+        full_db = get_db()
         
         if not os.path.exists('results'):
             os.mkdir('results')
@@ -274,7 +308,7 @@ class LearnedModel:
         for solver in self.solvers:
             rt = []
             for inst in self.db[solver]:
-                rt.append(self.get_score(solver,inst))
+                rt.append(full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=inst))
             plot_data.append((solver,rt))
         
         #vb solver
@@ -282,16 +316,16 @@ class LearnedModel:
         for inst in self.db[self.solvers[0]]:
             vb_rt = float('+inf')
             for solver in self.solvers:
-                vb_rt = min(vb_rt, self.get_score(solver,inst))
+                vb_rt = min(vb_rt, full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=inst))
             vb.append(vb_rt)
         plot_data.append(('Virtual Best', vb))
 
         #Random Solver
-        plot_data.append(('Random Selection', [self.get_score(solver=self.random_selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
+        plot_data.append(('Random Selection', [full_db.compute_score(theory=self.theory,track=self.track,solver=self.random_selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
 
 
-        #SMTZILLA
-        plot_data.append(('SMTZILLA', [self.get_score(solver=self.selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
+        #machsmt
+        plot_data.append(('MachSMT', [full_db.compute_score(theory=self.theory,track=self.track,solver=self.selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
         
         import itertools
         marker = itertools.cycle((',', '+', '.', 'o', '*')) 
@@ -299,10 +333,10 @@ class LearnedModel:
 
         for d in plot_data:
             d[1].sort()
-            if d[0] != 'SMTZILLA':
-                plt.plot([v for v in d[1] if v < TIMEOUT], label=d[0],marker=next(marker),color=next(colors))
+            if d[0] != 'MachSMT':
+                plt.plot([v for v in d[1] if v < settings.TIMEOUT], label=d[0],marker=next(marker),color=next(colors))
             else:
-                plt.plot([v for v in d[1] if v < TIMEOUT], label=d[0],color='purple',marker='d')
+                plt.plot([v for v in d[1] if v < settings.TIMEOUT], label=d[0],color='purple',marker='d')
             self.scoring[d[0]] = sum(d[1])
 
         plt.legend()
@@ -354,12 +388,11 @@ class LearnedModel:
             Y.append(self.lm[solver].predict(X.reshape(1, -1))[0])
         return self.solvers[np.argmin(Y)]
 
-
     ##Main function
-    def run(self,use_full_data=False,full_db=None):
-        self.calc_features(use_full_data,full_db)
-        if len(self.X) < 5:
-            print("Track too small to consider (only " + len(self.X) " inputs)")
+    def run(self):
+        self.calc_features()
+        if len(self.X) < 5: ##Awkward place to check... fix soon
+            print("Track too small to consider (only " + str(len(self.X)) + " inputs)")
             return
         self.eval()
         self.build()

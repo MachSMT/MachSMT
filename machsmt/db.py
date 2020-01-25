@@ -1,10 +1,8 @@
-import pdb,os,glob,sys,copy
+import pdb,os,glob,sys,copy,pickle
 from progress.bar import Bar
-from smtzilla.search import get_inst_path
-from smtzilla.compute_features import get_check_sat
-
-WALL_TIMEOUT = 2400
-TIMEOUT = 2398
+from machsmt.search import get_inst_path
+from machsmt.compute_features import get_check_sat
+import machsmt.settings as settings
 
 class DB:
     def __init__(self):
@@ -13,33 +11,53 @@ class DB:
 
     def compute_score(self,theory,track,solver,inst):
         is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
+        is_unsat_core = track.lower().find('unsat_core') != -1
+        is_model_valid= track.lower().find('model')
+        # time_column = 'cpu time' if sequential else 'wallclock time'
+
+        # e,n,w,c = 0,0,0,0
+
+        # ## Compute e
+        # if is_incr:
+        #     e = int(self.db[theory][track][solver][inst]['wrong-answers'])
+
+        # else:
+        #     pass
+        # ## Compute n
+
+
+        # ## Compute w
+        # w = self.db[theory][track][solver][inst]['wallclock time']
+        # ## Compute c
+        # c = self.db[theory][track][solver][inst]['cpu time']
+
 
         if self.db[theory][track][solver][inst]['result'].find('unknown') != -1:
-            return 2.0 * WALL_TIMEOUT
+            return 2.0 * settings.WALL_TIMEOUT
         if not is_incr and self.db[theory][track][solver][inst]['result'] != self.db[theory][track][solver][inst]['expected']:
             if self.db[theory][track][solver][inst]['expected'].lower().find('unknown') != -1:
                 return float(self.db[theory][track][solver][inst]['wallclock time'])
             elif  self.db[theory][track][solver][inst]['result'].lower().find('unknown') >= 0:
-                return 2.0 * WALL_TIMEOUT
+                return 2.0 * settings.WALL_TIMEOUT
             else:
                 print("WRONG ANSWER!", solver, inst, theory, track, self.db[theory][track][solver][inst]['result'] ,self.db[theory][track][solver][inst]['expected'])
-                return 10.0 * WALL_TIMEOUT
+                return 10.0 * settings.WALL_TIMEOUT
         elif is_incr:
             if int(self.db[theory][track][solver][inst]['wrong-answers']) != 0:
                 print("WRONG ANSWER!", solver, inst, theory, track)
-                return 10.0 * WALL_TIMEOUT
+                return 10.0 * settings.WALL_TIMEOUT
             if get_check_sat(get_inst_path(theory,inst)) == int(self.db[theory][track][solver][inst]['correct-answers']):
-                if float(self.db[theory][track][solver][inst]['wallclock time']) < TIMEOUT:
+                if float(self.db[theory][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
                     return float(self.db[theory][track][solver][inst]['wallclock time'])
                 else:
-                    return 2.0 * WALL_TIMEOUT
+                    return 2.0 * settings.WALL_TIMEOUT
             else:
-                return 2.0 * WALL_TIMEOUT
+                return 2.0 * settings.WALL_TIMEOUT
         else:
-            if float(self.db[theory][track][solver][inst]['wallclock time']) < TIMEOUT:
+            if float(self.db[theory][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
                 return float(self.db[theory][track][solver][inst]['wallclock time'])
             else:
-                return 2.0 * WALL_TIMEOUT
+                return 2.0 * settings.WALL_TIMEOUT
             return float(self.db[theory][track][solver][inst]['wallclock time'])
 
     def add(self,theory,track,solver,instance,data):
@@ -184,4 +202,18 @@ class DB:
             for track in self.db[theory]:
                 print("\t" + track)
                 for solver in self.db[theory][track]:
-                    print("\t\t" + solver + "\t" + str(len(self.db[theory][track][solver]))) 
+                    print("\t\t" + solver + "\t" + str(len(self.db[theory][track][solver])))
+
+
+db = None
+def get_db():
+    global db
+    if db == None:
+        if not os.path.exists('lib/db.p'):
+            db = DB()
+            db.build()
+            db.tidy()
+            pickle.dump(db, open( "lib/db.p", "wb" ))    
+        else:
+            db = pickle.load(open( "lib/db.p", "rb" ))
+    return db

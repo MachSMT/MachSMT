@@ -1,51 +1,43 @@
 #!/usr/bin/python3
 import os,pickle,argparse,pdb,sys
-from smtzilla.db import DB
-from smtzilla.model_maker import model_maker
-from smtzilla.selector import LearnedModel
+from machsmt.db import DB
+from machsmt.model_maker import model_maker
+from machsmt.selector import LearnedModel
+from machsmt.db import get_db
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-theory', '--theory',type=str,default=None )
 parser.add_argument('-track', '--track',type=str,default=None)
 args = parser.parse_args()
-root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of smtzilla repo
+root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of machsmt repo
 os.chdir(root)
 if not os.path.isdir(root+'lib'):
     os.mkdir(root+'lib')
 
-db = None
-if not os.path.exists(root+'lib/db.p'):
-    db = DB()
-    db.build()
-    db.tidy()
-    pickle.dump(db, open( root+"lib/db.p", "wb" ))    
-else:
-    db = pickle.load(open( root+"lib/db.p", "rb" ))
-
-if args.theory != None and args.theory not in db.db:
+if args.theory != None and args.theory not in get_db().db:
     print('Theory: ' + args.theory + ' not found')
     sys.exit(1)
-if args.track != None and args.track not in db.db[args.theory]:
+if args.track != None and args.track not in get_db().db[args.theory]:
     print('Track: ' + args.track + ' not found.')
     sys.exit(1)
 
-for theory in db.db:
+for theory in get_db().db:
     # if theory == 'QF_UFIDL' or theory == 'UFLIA':   ##weird bug with retrieving full file path for these theories. will fix soon.
     #     continue
     if args.theory != None and theory != args.theory:
         continue
     if not os.path.isdir(root+'lib/'+theory):
         os.mkdir(root+'lib/'+theory)
-    for track in db.db[theory]:
+    for track in get_db().db[theory]:
         if args.track != None and track != args.track:
             continue
         lm = LearnedModel(
             theory=theory,
             track=track,
-            db=db.db[theory][track],
+            db=get_db().db[theory][track],
             model_maker=model_maker
         )
-        lm.run(use_full_data=True,full_db=db)
+        lm.run()
         pickle.dump(lm, open( root+'lib/'+theory + '/' + track.split('/')[-1], "wb" ))
 
 print("Termination.")

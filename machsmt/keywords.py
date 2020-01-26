@@ -104,7 +104,7 @@ keyword_list = [
     'Float32',
     'Float64',
     'Float128',
-    'fp'
+    'fp',
 
     'roundNearestTiesToEven',
     'roundNearestTiesToAway',

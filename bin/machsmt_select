@@ -2,7 +2,7 @@
 import argparse,os,sys,pickle
 parser = argparse.ArgumentParser()
 parser.add_argument('-file', '--file',type=str, required=True)
-parser.add_argument('-theory', '--theory',type=str,required=True )
+parser.add_argument('-logic', '--logic',type=str,required=True )
 parser.add_argument('-track', '--track',type=str,required=True)
 args = parser.parse_args()
 
@@ -18,8 +18,8 @@ if not os.path.exists('lib'):
     print("No models found on system.")
     sys.exit(1)
 
-if not os.path.exists('lib/' + args.theory):
-    print("Could not find learned model for theory: " + args.theory)
+if not os.path.exists('lib/' + args.logic):
+    print("Could not find learned model for logic: " + args.logic)
     sys.exit(1)
 
 
@@ -27,9 +27,9 @@ track = args.track
 if track.find('/') != -1:
     track = track.split('/')[-1]
 
-if not os.path.exists('lib/' + args.theory + '/' + track):
-    print("No model for track: " + args.track + ', in theory: ' + args.theory)
+if not os.path.exists('lib/' + args.logic + '/' + track):
+    print("No model for track: " + args.track + ', in logic: ' + args.logic)
     sys.exit(1)
 
-lm = pickle.load( open( 'lib/' + args.theory + '/' + track, "rb" ))
+lm = pickle.load( open( 'lib/' + args.logic + '/' + track, "rb" ))
 print(lm.predict(args.file))

@@ -6,7 +6,7 @@ from machsmt.selector import LearnedModel
 from machsmt.db import get_db
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-theory', '--theory',type=str,default=None )
+parser.add_argument('-logic', '--logic',type=str,default=None )
 parser.add_argument('-track', '--track',type=str,default=None)
 args = parser.parse_args()
 root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of machsmt repo
@@ -14,30 +14,30 @@ os.chdir(root)
 if not os.path.isdir(root+'lib'):
     os.mkdir(root+'lib')
 
-if args.theory != None and args.theory not in get_db().db:
-    print('Theory: ' + args.theory + ' not found')
+if args.logic != None and args.logic not in get_db().db:
+    print('logic: ' + args.logic + ' not found')
     sys.exit(1)
-if args.track != None and args.track not in get_db().db[args.theory]:
+if args.track != None and args.track not in get_db().db[args.logic]:
     print('Track: ' + args.track + ' not found.')
     sys.exit(1)
 
-for theory in get_db().db:
-    # if theory == 'QF_UFIDL' or theory == 'UFLIA':   ##weird bug with retrieving full file path for these theories. will fix soon.
+for logic in get_db().db:
+    # if logic == 'QF_UFIDL' or logic == 'UFLIA':   ##weird bug with retrieving full file path for these theories. will fix soon.
     #     continue
-    if args.theory != None and theory != args.theory:
+    if args.logic != None and logic != args.logic:
         continue
-    if not os.path.isdir(root+'lib/'+theory):
-        os.mkdir(root+'lib/'+theory)
-    for track in get_db().db[theory]:
+    if not os.path.isdir(root+'lib/'+logic):
+        os.mkdir(root+'lib/'+logic)
+    for track in get_db().db[logic]:
         if args.track != None and track != args.track:
             continue
         lm = LearnedModel(
-            theory=theory,
+            logic=logic,
             track=track,
-            db=get_db().db[theory][track],
+            db=get_db().db[logic][track],
             model_maker=model_maker
         )
         lm.run()
-        pickle.dump(lm, open( root+'lib/'+theory + '/' + track.split('/')[-1], "wb" ))
+        pickle.dump(lm, open( root+'lib/'+logic + '/' + track.split('/')[-1], "wb" ))
 
 print("Termination.")

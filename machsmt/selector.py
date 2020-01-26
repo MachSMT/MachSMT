@@ -19,7 +19,7 @@ import multiprocessing
 num_cores = multiprocessing.cpu_count()
 
 class LearnedModel:
-    def __init__(self,theory,track,db,model_maker):
+    def __init__(self,logic,track,db,model_maker):
         self.db = db
         self.model_maker = model_maker
         self.X = None
@@ -32,7 +32,7 @@ class LearnedModel:
         self.solvers = None
         self.inputs = None
         self.random_selections = None
-        self.theory = theory
+        self.logic = logic
         self.track = track
         self.solvers = None
         self.is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
@@ -61,7 +61,7 @@ class LearnedModel:
         self.inputs = list(inputs)
         self.X = [ None for i in self.inputs]
         self.Y = [ None for i in self.inputs]
-        bar = Bar('Computing Features for theory=' + self.theory + '\ttrack=' + self.track, max=len(inputs))
+        bar = Bar('Computing Features for logic=' + self.logic + '\ttrack=' + self.track, max=len(inputs))
 
 
         mutex = mp.Lock()
@@ -70,10 +70,10 @@ class LearnedModel:
         def mp_call(index_instance):
             index = index_instance[0]
             instance = index_instance[1]
-            self.X[index] = get_features(file_path=get_inst_path(self.theory,instance),theory=self.theory,track=self.track)
+            self.X[index] = get_features(file_path=get_inst_path(self.logic,instance),logic=self.logic,track=self.track)
             times = []
             for solver in self.solvers:
-                v = full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=instance)
+                v = full_db.compute_score(logic=self.logic,track=self.track,solver=solver,inst=instance)
                 times.append(np.log(max(0.001,v)))
             self.Y[index] = times
             mutex.acquire()
@@ -88,41 +88,41 @@ class LearnedModel:
         it=0
         logics = ['A', 'AX', 'BV', 'FP', 'NIA', 'LIA', 'NRA', 'LRA' 'UF', 'DL', 'UF', 'QF']
         common = []
-        for theory in full_db.db:
+        for logic in full_db.db:
             for l in logics:
                 if l and 'A':
-                    if (l in self.theory[:-1]) and (l in theory[:-1]) and self.theory != theory:
-                        common.append(theory)
-                elif (l in self.theory) and (l in theory) and self.theory != theory:
-                    common.append(theory)
+                    if (l in self.logic[:-1]) and (l in logic[:-1]) and self.logic != logic:
+                        common.append(logic)
+                elif (l in self.logic) and (l in logic) and self.logic != logic:
+                    common.append(logic)
         
-        def diff(theory):
+        def diff(logic):
             #pdb.set_trace()
             ret = 0
             for l in logics:
                 if l == 'A':
-                    if (l in self.theory[:-1]) and (l in theory[:-1]): 
+                    if (l in self.logic[:-1]) and (l in logic[:-1]): 
                         ret += 1
-                elif (l in self.theory) and (l in theory): 
+                elif (l in self.logic) and (l in logic): 
                     ret += 1
             return ret
         
         common.sort(key=diff)
         print([(t,diff(t)) for t in common])
         bonus_inputs = {}
-        for theory in common:
-            for track in full_db.db[theory]:
-                for solver in full_db.db[theory][track]:
+        for logic in common:
+            for track in full_db.db[logic]:
+                for solver in full_db.db[logic][track]:
                     sit = 0
                     if solver in self.solvers:
                         if solver not in self.extra_X:
                             self.extra_X[solver] = []
                             self.extra_Y[solver] = []
                             bonus_inputs[solver] = []
-                        for instance in full_db.db[theory][track][solver]:
+                        for instance in full_db.db[logic][track][solver]:
                             self.extra_X[solver].append(None)
                             self.extra_Y[solver].append(None)
-                            bonus_inputs[solver].append((instance,theory,track,solver))
+                            bonus_inputs[solver].append((instance,logic,track,solver))
                             it+=1
                             sit+=1
                             if sit > settings.EXTRA_MAX: break
@@ -142,17 +142,17 @@ class LearnedModel:
                 it += len(bonus_inputs[solver])
                     
         
-        bar = Bar('Computing Extra Features for Theory=' + self.theory + '\tTrack=' + self.track, max=it)
+        bar = Bar('Computing Extra Features for logic=' + self.logic + '\tTrack=' + self.track, max=it)
 
         def mp_call2(index_args):
             index = index_args[0]
             args = index_args[1]
             instance = args[0]
-            theory = args[1]
+            logic = args[1]
             track = args[2]
             solver = args[3]
-            bonus_input_par_X[index] = get_features(file_path=get_inst_path(theory,instance),theory=theory,track=track)
-            bonus_input_par_Y[index] = np.log(max(0.001,full_db.compute_score(theory=theory,track=track,solver=solver,inst=instance)))
+            bonus_input_par_X[index] = get_features(file_path=get_inst_path(logic,instance),logic=logic,track=track)
+            bonus_input_par_Y[index] = np.log(max(0.001,full_db.compute_score(logic=logic,track=track,solver=solver,inst=instance)))
             
             mutex2.acquire()
             bar.next()
@@ -190,7 +190,7 @@ class LearnedModel:
         k = len(self.X)
         if k > 5:
             k = 5
-        bar = Bar('Fitting Core -- theory=' + self.theory + '\ttrack=' + self.track, max=k)
+        bar = Bar('Fitting Core -- logic=' + self.logic + '\ttrack=' + self.track, max=k)
         mutex = mp.Lock()
         mutex2= mp.Lock()
         def mp_call(train_test_index):
@@ -234,7 +234,7 @@ class LearnedModel:
             pool.map(mp_call,KFold(n_splits=k, shuffle=True).split(self.X))
         bar.finish()
 
-        bar = Bar('Fitting Div -- theory=' + self.theory + '\ttrack=' + self.track, max=k)
+        bar = Bar('Fitting Div -- logic=' + self.logic + '\ttrack=' + self.track, max=k)
 
         with mp.Pool(min(len(self.X), num_cores)) as pool:
             pool.map(mp_call2,KFold(n_splits=k, shuffle=True).split(self.X))
@@ -269,13 +269,13 @@ class LearnedModel:
         for solver in self.solvers:
             par2 = 0.0
             for inst in self.inputs:
-                par2 += full_db.compute_score(theory=self.theory, track=self.track, solver=solver, inst=inst)
+                par2 += full_db.compute_score(logic=self.logic, track=self.track, solver=solver, inst=inst)
             if par2 < best_par2:
                 best_par2, self.best_solver = par2,solver
         my_par2_core, my_par2_div = 0.0 , 0.0
         for it in range(len(self.selections)):
-            my_par2_core += full_db.compute_score(theory=self.theory, track=self.track, solver=self.selections_core[it], inst=self.inputs[it])
-            my_par2_div  += full_db.compute_score(theory=self.theory, track=self.track, solver=self.selections_div[it], inst=self.inputs[it])
+            my_par2_core += full_db.compute_score(logic=self.logic, track=self.track, solver=self.selections_core[it], inst=self.inputs[it])
+            my_par2_div  += full_db.compute_score(logic=self.logic, track=self.track, solver=self.selections_div[it], inst=self.inputs[it])
         if best_par2 < min(my_par2_core, my_par2_div):
             ##Failed to learn, force greedy solution
             print("Failed to improve, enabling Greedy Selection")
@@ -300,15 +300,15 @@ class LearnedModel:
         
         if not os.path.exists('results'):
             os.mkdir('results')
-        if not os.path.exists('results/'+self.theory):
-            os.mkdir('results/' + self.theory)
-        if not os.path.exists('results/' + self.theory +'/' + self.track.split('/')[-1] ):
-            os.mkdir('results/' + self.theory +'/' + self.track.split('/')[-1])
+        if not os.path.exists('results/'+self.logic):
+            os.mkdir('results/' + self.logic)
+        if not os.path.exists('results/' + self.logic +'/' + self.track.split('/')[-1] ):
+            os.mkdir('results/' + self.logic +'/' + self.track.split('/')[-1])
         #individual solvers
         for solver in self.solvers:
             rt = []
             for inst in self.db[solver]:
-                rt.append(full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=inst))
+                rt.append(full_db.compute_score(logic=self.logic,track=self.track,solver=solver,inst=inst))
             plot_data.append((solver,rt))
         
         #vb solver
@@ -316,16 +316,16 @@ class LearnedModel:
         for inst in self.db[self.solvers[0]]:
             vb_rt = float('+inf')
             for solver in self.solvers:
-                vb_rt = min(vb_rt, full_db.compute_score(theory=self.theory,track=self.track,solver=solver,inst=inst))
+                vb_rt = min(vb_rt, full_db.compute_score(logic=self.logic,track=self.track,solver=solver,inst=inst))
             vb.append(vb_rt)
         plot_data.append(('Virtual Best', vb))
 
         #Random Solver
-        plot_data.append(('Random Selection', [full_db.compute_score(theory=self.theory,track=self.track,solver=self.random_selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
+        plot_data.append(('Random Selection', [full_db.compute_score(logic=self.logic,track=self.track,solver=self.random_selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
 
 
         #machsmt
-        plot_data.append(('MachSMT', [full_db.compute_score(theory=self.theory,track=self.track,solver=self.selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
+        plot_data.append(('MachSMT', [full_db.compute_score(logic=self.logic,track=self.track,solver=self.selections[it],inst=self.inputs[it]) for it in range(len(self.X))]))
         
         import itertools
         marker = itertools.cycle((',', '+', '.', 'o', '*')) 
@@ -340,11 +340,11 @@ class LearnedModel:
             self.scoring[d[0]] = sum(d[1])
 
         plt.legend()
-        plt.savefig('results/' + self.theory +'/' + self.track.split('/')[-1] + '/plot.png',dpi=700)
+        plt.savefig('results/' + self.logic +'/' + self.track.split('/')[-1] + '/plot.png',dpi=700)
         plt.cla()
         plt.clf()
 
-        pickle.dump(plot_data, open('results/'+self.theory + '/' + self.track.split('/')[-1] + '/plot_data.p' , "wb" ))
+        pickle.dump(plot_data, open('results/'+self.logic + '/' + self.track.split('/')[-1] + '/plot_data.p' , "wb" ))
 
 
     ##Makes CSVs in results 
@@ -352,11 +352,11 @@ class LearnedModel:
         track = self.track
         if not os.path.exists('results'):
             os.mkdir('results')
-        if not os.path.exists('results/'+self.theory):
-            os.mkdir('results/' + self.theory)
-        if not os.path.exists('results/' + self.theory +'/' + self.track.split('/')[-1] ):
-            os.mkdir('results/' + self.theory +'/' + self.track.split('/')[-1])
-        with open('results/' + self.theory +'/' + self.track.split('/')[-1] + '/selections.csv','w') as file:
+        if not os.path.exists('results/'+self.logic):
+            os.mkdir('results/' + self.logic)
+        if not os.path.exists('results/' + self.logic +'/' + self.track.split('/')[-1] ):
+            os.mkdir('results/' + self.logic +'/' + self.track.split('/')[-1])
+        with open('results/' + self.logic +'/' + self.track.split('/')[-1] + '/selections.csv','w') as file:
             features = get_feature_names()
             file.write('instance,')
             for f in features:
@@ -368,7 +368,7 @@ class LearnedModel:
                     file.write(str(v) + ',')
                 file.write(self.selections[it] + '\n')
         
-        with open('results/' + self.theory + '/' + self.track.split('/')[-1] + '/par2.csv','w') as file:
+        with open('results/' + self.logic + '/' + self.track.split('/')[-1] + '/par2.csv','w') as file:
             data = []
             for solver in self.scoring:
                 data.append((solver,self.scoring[solver]))
@@ -382,7 +382,7 @@ class LearnedModel:
     def predict(self, file):
         if self.greedy:
             return self.best_solver
-        X = np.array(get_features(file_path=file,theory=self.theory,track=self.track))
+        X = np.array(get_features(file_path=file,logic=self.logic,track=self.track))
         Y = []
         for solver in self.solvers:
             Y.append(self.lm[solver].predict(X.reshape(1, -1))[0])

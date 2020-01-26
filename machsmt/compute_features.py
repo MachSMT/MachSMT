@@ -32,24 +32,24 @@ def get_syntactic_count_features(file_path):
     return features
 
 cache = {}
-def get_features(file_path,theory,track):
+def get_features(file_path,logic,track):
     if file_path not in cache:
         cache[file_path] = {}
-    if theory not in cache[file_path]:
-        cache[file_path][theory] = {}
-    if track not in cache[file_path][theory]:
-        cache[file_path][theory][track] = {}
+    if logic not in cache[file_path]:
+        cache[file_path][logic] = {}
+    if track not in cache[file_path][logic]:
+        cache[file_path][logic][track] = {}
 
     features = get_syntactic_count_features(file_path)
     functions = [o for o in getmembers(extra_features) if isfunction(o[1])]
     for f in functions:
         tic = time.time()
-        v = f(file_path,theory,track)
+        v = f(file_path,logic,track)
         if v != None:
             features.append(v)
             features.append(time.time() - tic)
 
-    cache[file_path][theory][track] = features
+    cache[file_path][logic][track] = features
     return features
 
 def get_feature_names():

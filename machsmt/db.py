@@ -9,7 +9,7 @@ class DB:
         self.db = {}
         self.paths = {}
 
-    def compute_score(self,theory,track,solver,inst):
+    def compute_score(self,logic,track,solver,inst):
         is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
         is_unsat_core = track.lower().find('unsat_core') != -1
         is_model_valid= track.lower().find('model')
@@ -19,7 +19,7 @@ class DB:
 
         # ## Compute e
         # if is_incr:
-        #     e = int(self.db[theory][track][solver][inst]['wrong-answers'])
+        #     e = int(self.db[logic][track][solver][inst]['wrong-answers'])
 
         # else:
         #     pass
@@ -27,49 +27,49 @@ class DB:
 
 
         # ## Compute w
-        # w = self.db[theory][track][solver][inst]['wallclock time']
+        # w = self.db[logic][track][solver][inst]['wallclock time']
         # ## Compute c
-        # c = self.db[theory][track][solver][inst]['cpu time']
+        # c = self.db[logic][track][solver][inst]['cpu time']
 
 
-        if self.db[theory][track][solver][inst]['result'].find('unknown') != -1:
+        if self.db[logic][track][solver][inst]['result'].find('unknown') != -1:
             return 2.0 * settings.WALL_TIMEOUT
-        if not is_incr and self.db[theory][track][solver][inst]['result'] != self.db[theory][track][solver][inst]['expected']:
-            if self.db[theory][track][solver][inst]['expected'].lower().find('unknown') != -1:
-                return float(self.db[theory][track][solver][inst]['wallclock time'])
-            elif  self.db[theory][track][solver][inst]['result'].lower().find('unknown') >= 0:
+        if not is_incr and self.db[logic][track][solver][inst]['result'] != self.db[logic][track][solver][inst]['expected']:
+            if self.db[logic][track][solver][inst]['expected'].lower().find('unknown') != -1:
+                return float(self.db[logic][track][solver][inst]['wallclock time'])
+            elif  self.db[logic][track][solver][inst]['result'].lower().find('unknown') >= 0:
                 return 2.0 * settings.WALL_TIMEOUT
             else:
-                print("WRONG ANSWER!", solver, inst, theory, track, self.db[theory][track][solver][inst]['result'] ,self.db[theory][track][solver][inst]['expected'])
+                print("WRONG ANSWER!", solver, inst, logic, track, self.db[logic][track][solver][inst]['result'] ,self.db[logic][track][solver][inst]['expected'])
                 return 10.0 * settings.WALL_TIMEOUT
         elif is_incr:
-            if int(self.db[theory][track][solver][inst]['wrong-answers']) != 0:
-                print("WRONG ANSWER!", solver, inst, theory, track)
+            if int(self.db[logic][track][solver][inst]['wrong-answers']) != 0:
+                print("WRONG ANSWER!", solver, inst, logic, track)
                 return 10.0 * settings.WALL_TIMEOUT
-            if get_check_sat(get_inst_path(theory,inst)) == int(self.db[theory][track][solver][inst]['correct-answers']):
-                if float(self.db[theory][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
-                    return float(self.db[theory][track][solver][inst]['wallclock time'])
+            if get_check_sat(get_inst_path(logic,inst)) == int(self.db[logic][track][solver][inst]['correct-answers']):
+                if float(self.db[logic][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
+                    return float(self.db[logic][track][solver][inst]['wallclock time'])
                 else:
                     return 2.0 * settings.WALL_TIMEOUT
             else:
                 return 2.0 * settings.WALL_TIMEOUT
         else:
-            if float(self.db[theory][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
-                return float(self.db[theory][track][solver][inst]['wallclock time'])
+            if float(self.db[logic][track][solver][inst]['wallclock time']) < settings.TIMEOUT:
+                return float(self.db[logic][track][solver][inst]['wallclock time'])
             else:
                 return 2.0 * settings.WALL_TIMEOUT
-            return float(self.db[theory][track][solver][inst]['wallclock time'])
+            return float(self.db[logic][track][solver][inst]['wallclock time'])
 
-    def add(self,theory,track,solver,instance,data):
-        if theory not in self.db:
-            self.db[theory] = {}
-        if track not in self.db[theory]:
-            self.db[theory][track] = {}
-        if solver not in self.db[theory][track]:
-            self.db[theory][track][solver] = {}
-        if instance not in self.db[theory][track][solver]:
-            self.db[theory][track][solver][instance] = None
-        self.db[theory][track][solver][instance] = data
+    def add(self,logic,track,solver,instance,data):
+        if logic not in self.db:
+            self.db[logic] = {}
+        if track not in self.db[logic]:
+            self.db[logic][track] = {}
+        if solver not in self.db[logic][track]:
+            self.db[logic][track][solver] = {}
+        if instance not in self.db[logic][track][solver]:
+            self.db[logic][track][solver][instance] = None
+        self.db[logic][track][solver][instance] = data
 
     def build(self,year=2019):
         dir = 'smt-comp/' + str(year) + '/results/'
@@ -93,13 +93,13 @@ class DB:
                     line = line.split(',')
                     line[-1] = line[-1][:-1]
                     theory_benchmark = line[benchmark_indx].split('/')
-                    theory = theory_benchmark[1]
+                    logic = theory_benchmark[1]
                     solver = line[solver_indx]
                     benchmark = ''
                     for i in range(2,len(theory_benchmark)):
                         benchmark += theory_benchmark[i]
                     val = dict((header[i],line[i]) for i in range(len(header)))
-                    self.add(theory,f.split('.')[0],solver,benchmark,val)
+                    self.add(logic,f.split('.')[0],solver,benchmark,val)
                     it+=1
 
     def tidy(self):
@@ -107,29 +107,29 @@ class DB:
         #self.clean_benchmarks()
         self.checker()
 
-    def solver_merger(self,theory,track,solver_0,solver_1,new_name):
-        self.db[theory][track][new_name] = {}
-        for instance in self.db[theory][track][solver_0]:
-            self.add(theory,track,new_name,instance,self.db[theory][track][solver_0][instance])
-        for instance in self.db[theory][track][solver_1]:
-            self.add(theory,track,new_name,instance,self.db[theory][track][solver_1][instance])
-        self.db[theory][track].pop(solver_0)
-        self.db[theory][track].pop(solver_1)
+    def solver_merger(self,logic,track,solver_0,solver_1,new_name):
+        self.db[logic][track][new_name] = {}
+        for instance in self.db[logic][track][solver_0]:
+            self.add(logic,track,new_name,instance,self.db[logic][track][solver_0][instance])
+        for instance in self.db[logic][track][solver_1]:
+            self.add(logic,track,new_name,instance,self.db[logic][track][solver_1][instance])
+        self.db[logic][track].pop(solver_0)
+        self.db[logic][track].pop(solver_1)
 
     
     def checker(self):
         pass
 
     def clean_solvers(self):
-        for theory in self.db:
-            for track in self.db[theory]:
-                solver_counts = dict( (solver , len(self.db[theory][track][solver]))  for solver in self.db[theory][track])
+        for logic in self.db:
+            for track in self.db[logic]:
+                solver_counts = dict( (solver , len(self.db[logic][track][solver]))  for solver in self.db[logic][track])
                 if min(list(solver_counts.values())) != max(list(solver_counts.values())):
-                    print('Inconsistent solving counts for: ' + theory + ' ' + track, solver_counts,flush=True)
+                    print('Inconsistent solving counts for: ' + logic + ' ' + track, solver_counts,flush=True)
                     z3_solvers_wrapped = [solver for solver in solver_counts if solver.lower().find('z3') != -1 and solver.lower().find('wrap') != -1]
                     if len(z3_solvers_wrapped) == 2:
-                        self.solver_merger(theory,track,z3_solvers_wrapped[0],z3_solvers_wrapped[1],'z3')
-                        solver_counts = dict( (solver , len(self.db[theory][track][solver]))  for solver in self.db[theory][track])
+                        self.solver_merger(logic,track,z3_solvers_wrapped[0],z3_solvers_wrapped[1],'z3')
+                        solver_counts = dict( (solver , len(self.db[logic][track][solver]))  for solver in self.db[logic][track])
                         if min(list(solver_counts.values())) == max(list(solver_counts.values())):
                             print("auto-fixed.")
                             continue
@@ -143,33 +143,33 @@ class DB:
         inputs = set()
         
         print("Enumerating Inputs.", flush=True)
-        for theory in self.db:
-             for track in self.db[theory]:
-                 first_solver = list(self.db[theory][track].keys())[0]
-                 for solver in self.db[theory][track]:
-                     assert len(self.db[theory][track][solver]) == len(self.db[theory][track][first_solver])
-                     for instance in self.db[theory][track][first_solver]:
-                         inputs.add((theory,instance))
+        for logic in self.db:
+             for track in self.db[logic]:
+                 first_solver = list(self.db[logic][track].keys())[0]
+                 for solver in self.db[logic][track]:
+                     assert len(self.db[logic][track][solver]) == len(self.db[logic][track][first_solver])
+                     for instance in self.db[logic][track][first_solver]:
+                         inputs.add((logic,instance))
         bar = Bar('Checking Existence of Inputs', max=len(inputs))
         remove = set()
-        for theory,instance in inputs:
-            v = get_inst_path(theory,instance)
+        for logic,instance in inputs:
+            v = get_inst_path(logic,instance)
             if v == None:
                 remove.add(instance)
             bar.next()
         bar.finish()
         print("Total to be removed: " + str(len(remove)),flush=True)
         tmp_db = copy.deepcopy(self.db)
-        for theory in self.db:
-             for track in self.db[theory]:
-                 for solver in self.db[theory][track]:
+        for logic in self.db:
+             for track in self.db[logic]:
+                 for solver in self.db[logic][track]:
                      for instance in remove:
-                         if instance in self.db[theory][track][solver]:
-                             tmp_db[theory][track][solver].pop(instance)
+                         if instance in self.db[logic][track][solver]:
+                             tmp_db[logic][track][solver].pop(instance)
         self.db = tmp_db
 
-    def get_inst_path(self,theory,instance):
-        path = 'benchmarks/' + theory + '/'
+    def get_inst_path(self,logic,instance):
+        path = 'benchmarks/' + logic + '/'
         instance_name = instance
         if os.path.exists(path + '/' + instance):
             return path + '/' + instance
@@ -192,17 +192,17 @@ class DB:
         if os.path.exists(path + '/' + instance_name):
             return path + '/' + instance_name
         else:
-            print("Failed to find: " + theory + ',' + instance)
+            print("Failed to find: " + logic + ',' + instance)
             return None
 
 
     def summary(self):
-        for theory in self.db:
-            print(theory)
-            for track in self.db[theory]:
+        for logic in self.db:
+            print(logic)
+            for track in self.db[logic]:
                 print("\t" + track)
-                for solver in self.db[theory][track]:
-                    print("\t\t" + solver + "\t" + str(len(self.db[theory][track][solver])))
+                for solver in self.db[logic][track]:
+                    print("\t\t" + solver + "\t" + str(len(self.db[logic][track][solver])))
 
 
 db = None

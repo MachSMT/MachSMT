@@ -4,17 +4,17 @@ use_cache = True
 cache = {}
 n=0
 
-def get_inst_path(theory,instance):
+def get_inst_path(logic,instance):
     global n,cache
-    if theory in cache and instance in cache[theory]:
-        return cache[theory][instance]
+    if logic in cache and instance in cache[logic]:
+        return cache[logic][instance]
     if n == 0 and use_cache:
         if os.path.exists('lib/fs.p'):
             cache = pickle.load(open('lib/fs.p','rb'))
 
-    ret = get_inst_path_core(theory,instance,path='benchmarks/' + theory + '/', instance_name=instance)
+    ret = get_inst_path_core(logic,instance,path='benchmarks/' + logic + '/', instance_name=instance)
     if ret == None:
-        print("Failed to find: " + theory + ',' + instance)
+        print("Failed to find: " + logic + ',' + instance)
         raise RuntimeError
     n+=1
     if n%1000 == 0:
@@ -22,7 +22,7 @@ def get_inst_path(theory,instance):
         n+=1
     return ret
 
-def get_inst_path_core(theory,instance,path, instance_name):
+def get_inst_path_core(logic,instance,path, instance_name):
     if os.path.exists(path + '/' + instance_name):
         return path + '/' + instance_name
     else:
@@ -33,7 +33,7 @@ def get_inst_path_core(theory,instance,path, instance_name):
                 canidates.append(dir)
         canidates.sort(key=lambda x: len(x),reverse=True)
         for c in canidates:
-            ret = get_inst_path_core(theory,instance,path = path + c + '/', instance_name = instance_name[len(c):])
+            ret = get_inst_path_core(logic,instance,path = path + c + '/', instance_name = instance_name[len(c):])
             if ret == None:
                 continue
             else:

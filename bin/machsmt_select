@@ -1,35 +1,49 @@
 #!/usr/bin/python3
 import argparse,os,sys,pickle
-parser = argparse.ArgumentParser()
-parser.add_argument('-file', '--file',type=str, required=True)
-parser.add_argument('-logic', '--logic',type=str,required=True )
-parser.add_argument('-track', '--track',type=str,required=True)
-args = parser.parse_args()
 
-if not os.path.exists(args.file):
-    print("Could not find file.")
+def die(msg):
+    print("[machsmt] Error: {}".format(msg))
     sys.exit(1)
 
-file = os.path.abspath(args.file)
-root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of smtzilla repo
-os.chdir(root)
+if __name__ == "__main__":
 
-if not os.path.exists('lib'):
-    print("No models found on system.")
-    sys.exit(1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--file',  type=str, required=True,
+            help = "the input SMT2 file to select a solver for")
+    parser.add_argument('-l', '--logic', type=str, required=True,
+            help = "the SMT2 logic the given SMT2 input is in (the logic to "\
+                    "load the EHM model for)")
+    parser.add_argument('-t', '--track', type=str, required=True,
+            help = "the scoring system to base the selection on (based on the " \
+                   "tracks and scoring system of SMT-COMP 2019), one of "\
+                   "'Single_Query_Track', 'Incremental_Track', "\
+                   "'Unsat_Core_Track', 'Challenge_Track_non-incremental', "\
+                   "'Challenge_Track_incremental'")
+    args = parser.parse_args()
 
-if not os.path.exists('lib/' + args.logic):
-    print("Could not find learned model for logic: " + args.logic)
-    sys.exit(1)
+    if not os.path.exists(args.file):
+        die("Could not find file '{}'".format(args.file))
+    if os.path.isdir(args.file):
+        die("Given input file is a directory")
+
+    file = os.path.abspath(args.file)
+    root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of smtzilla repo
+    os.chdir(root)
+
+    if not os.path.exists('lib'):
+        die("No models found on system, expected in directory 'lib'.")
+
+    if not os.path.exists('lib/' + args.logic):
+        die("Could not find learned model for logic '{}'".format(args.logic))
 
 
-track = args.track
-if track.find('/') != -1:
-    track = track.split('/')[-1]
+    track = args.track
+    if track.find('/') != -1:
+        track = track.split('/')[-1]
 
-if not os.path.exists('lib/' + args.logic + '/' + track):
-    print("No model for track: " + args.track + ', in logic: ' + args.logic)
-    sys.exit(1)
+    if not os.path.exists('lib/' + args.logic + '/' + track):
+        die("No model for track '{}', in logic '{}' ".format(
+                    args.track, args.logic))
 
-lm = pickle.load( open( 'lib/' + args.logic + '/' + track, "rb" ))
-print(lm.predict(args.file))
+    lm = pickle.load( open( 'lib/' + args.logic + '/' + track, "rb" ))
+    print(lm.predict(args.file))

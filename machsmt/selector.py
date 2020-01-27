@@ -83,7 +83,6 @@ class LearnedModel:
             pool.map(mp_call,list(enumerate(self.inputs)))
         bar.finish()
 
-
         ## COMPUTE MOST SIMILAR LOGICS
         it=0
         logics = ['A', 'AX', 'BV', 'FP', 'NIA', 'LIA', 'NRA', 'LRA' 'UF', 'DL', 'UF', 'QF']
@@ -106,7 +105,8 @@ class LearnedModel:
                 elif (l in self.logic) and (l in logic): 
                     ret += 1
             return ret
-        
+        if settings.EXTRA_MAX == 0:
+            return
         common.sort(key=diff)
         print([(t,diff(t)) for t in common])
         bonus_inputs = {}

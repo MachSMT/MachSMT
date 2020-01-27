@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import os,pickle,argparse,pdb,sys
+import machsmt.settings as settings
 from machsmt.db import DB
 from machsmt.model_maker import model_maker
 from machsmt.selector import LearnedModel
@@ -8,6 +9,7 @@ from machsmt.db import get_db
 parser = argparse.ArgumentParser()
 parser.add_argument('-logic', '--logic',type=str,default=None )
 parser.add_argument('-track', '--track',type=str,default=None)
+parser.add_argument('--limit-training',action='store_true')
 args = parser.parse_args()
 root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of machsmt repo
 os.chdir(root)
@@ -20,10 +22,10 @@ if args.logic != None and args.logic not in get_db().db:
 if args.track != None and args.track not in get_db().db[args.logic]:
     print('Track: ' + args.track + ' not found.')
     sys.exit(1)
+if args.limit_training:
+    settings.EXTRA_MAX=0
 
 for logic in get_db().db:
-    # if logic == 'QF_UFIDL' or logic == 'UFLIA':   ##weird bug with retrieving full file path for these theories. will fix soon.
-    #     continue
     if args.logic != None and logic != args.logic:
         continue
     if not os.path.isdir(root+'lib/'+logic):

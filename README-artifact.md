@@ -1,5 +1,9 @@
 # MachSMT Artifact for CAV'20 AE
 
+Joseph Scott, Aina Niemetz, Mathias Preiner, and Vijay Ganesh
+
+Please see the latest version of our [paper here.](google.com)
+
 ## Setup Steps
 
 1. Clone repository

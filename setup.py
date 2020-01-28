@@ -19,4 +19,9 @@ setup(
     package_dir  = {
         'machsmt': 'machsmt',
     },
+    install_requires=[
+        'matplotlib',
+        'progress',
+        'scikit-learn'
+    ],
 )

@@ -13,8 +13,9 @@ def get_syntactic_count_features(file_path):
     features = [0.0] * len(keyword_list)
     n = 0
     v = -1.0
-    with open(file_path,'r') as file:
+    with open(file_path,'rb') as file:
         for line in file:
+            line = line.decode()
             line = line.replace('(', ' ( ')
             line = line.replace(')', ' ) ')
             if line.find(';') != -1:

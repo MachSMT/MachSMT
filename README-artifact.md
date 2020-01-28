@@ -26,7 +26,7 @@ Please see the latest version of our [paper here.](google.com)
 
 4. Run a `machsmt` container in interactive mode.
   ```
-  mkdir results
+  mkdir results lib
   docker run --rm \
     -v $(pwd)/results:/home/machsmt/results \
     -v $(pwd)/lib:/home/machsmt/lib \

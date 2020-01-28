@@ -1,6 +1,5 @@
 # MachSMT Artifact for CAV'20 AE
 
-
 ## Setup Steps
 
 1. Clone repository
@@ -41,11 +40,65 @@
 ## Artifact Description
 
 
+* `machsmt_select` - the primary interface to MachSMT's algorithm selection
+* `machsmt_build`  - a script to learn models for algorithm selection in MachSMT's pipeline.
+
+
+#### machsmt_build
+
+Building a learned algorithm selection model has two dependencies:
+* Appropriate SMT-LIB Benchmarks
+* SMT-COMP Timing Analysis
+
+To build a model for a specific logic and track, MachSMT expects acces to all benchmarks for said theory and track and will look for them in the  `benchmarks/`  repository in the root of the MachSMT repo. To do so, please download theories of interest from the [SMT-LIB initiative's benchmark page](http://smtlib.cs.uiowa.edu/benchmarks.shtml), and unzip the file. It is important the file structure within the downloaded zip file remains intact.
+
+For timing analysis, please clone the [SMT-COMP's repository](https://github.com/SMT-COMP/smt-comp) in the root of the MachSMT repo, and decompress the timing analysis csv files.
+
+Running `machsmt_build` will build models for all theories/tracks. However this can be narrowed to theories/tracks of interest by running it as:
+
+```machsmt_build --logic LOGIC --track TRACK --limit-training```
+
+By default, MachSMT will try to use runtime analysis from similar divisions and tracks. If benchmarks from similar tracks are not available, it is encouraged to use `--limit-training` flag. However, in the presence of the entirity of the SMT-LIB benchmark database, this flag can be disabled for potential performance improvement. 
+
+`machsmt_build` allows for users to adjust the anatomy of the regression model and further add additional features to its pipeline. 
+
+###### machsmt/extra_features.py
+
+We provide an interface for users to add extra features when building learned models for MachSMT. An extra feature can be added easily to the MachSMT pipeline by including an additional python method that computes said feature given the filepath to an instance. Additional methods in `machsmt/extra_features.py` will be automatically included in the MachSMT pipeline. For more, please see the documentation in this file.
+
+#### machsmt/model_maker.py
+
+The internall regressor within machsmt can be adjusted to any regressor for the EHM can be adjusted to any scikit styled regressor. The interface for this is in `machsmt/model_maker.py`. In this file, a single method can be found that returns an instance of an regressor. This file can be modified appropriately to user needs for his target application. The only requirement is the MachSMT pipeline presupposes the returned regressor object has a `fit(X,Y)` and `predict(X)` attributes to it.  
+
+##### machsmt_select
+The algorithm selection script can be ran with the following syntax: `machsmt_select --file FILE --theory THEORY --track TRACK`. MachSMT will then print the name of the solver it selects to have the shortest runtime. MachSMT presupposes a `lib/` directory created by `machsmt_build` in the root of the MachSMT repo. These can be built independently, but we provide ours [here](https://www.dropbox.com/s/773l8axaxbah2yv/lib.zip?dl=1).
+
+
 ## Artifact Instructions
 
+We provide a short script `demo.sh` to demonstrate our tool and reporoduce several results that were included in the paper. Due to the large nature of the SMT-LIB benchmarks (100GB>), in our docker, we will only include a small fragment, but enough to closely reproduce four figures.
 
+As with all machine learning, it can be very difficult to precisely reproduce all results. Further, we could not include the entirity of the SMT-LIB benchmarks and run all experiments in `demo.sh` with the `--limit-training`
+
+`demo.sh` will do the following:
+* Using `machsmt_build`
+    * Construct full learned models for (in `lib/`)
+        *  BV SQ
+        *  QF_NRA SQ
+        *  UFNIA UC
+        *  QF_UFBV SQ
+    * Seperately, Using Cross Validation as described in the paper:
+        * Reproduce Cactus plots for:
+            * Figure 1
+            * Figure 2
+            * Figure 3
+            * Figure 4
+        * Provide a csv of PAR-2 for above logics and tracks
+        * Provide a csv all instance wise computed features and solver selected 
+* Using `machsmt_select`
+    * Make selections for all benchmarks in the above tracks
 ### TODO
 
 * Benchmarks only contain benchmarks that were used in SMT-COMP'19 to cut down
-  the artifact size
+  the artifact size ("note that this would result in training and then testing over the same data" -joe)
 * 

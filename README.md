@@ -21,3 +21,11 @@ Running `machsmt_build` will build models for all theories/tracks. However this 
 The MachSMT pipeline allows for custom regression algorithms to be used, and can be easily deployed of they follow the scikit style. To modify, see `machsmt/model_maker.py`.
 
 Further, the MachSMT pipeline strongly encourages the use of community features and can easily be added with minimal lines of code. For more, see `machsmt/extra_features.py`.
+
+# machsmt/extra_features.py
+
+We provide an interface for users to add extra features when building learned models for MachSMT. Extra features can be added by simply inserting python methods into the `machsmt/extra_features.py`. For more, please see the documentation in this file.
+
+# machsmt/model_maker.py
+
+The internall regressor within machsmt can be adjusted to any regressor that uses scikit styled syntax. 

@@ -13,7 +13,7 @@
   cd MachSMT
   ```
 
-3. Build docker image `machsmt`. This will take approx. XX minutes.
+3. Build docker image `machsmt`. This will take approx. 3-5 minutes.
   ```
   docker build -t machsmt --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) .
   ```

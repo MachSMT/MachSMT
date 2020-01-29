@@ -94,28 +94,40 @@ We provide a short script `demo.sh` to demonstrate our tool and reproduce
 several results that were included in the paper. Due to the large nature of the
 SMT-LIB benchmark repository (>100GB), we will only provide the benchmarks
 required to closely reproduce the four cactus plots in our paper.
-The artifact prodives benchmarks for the logics BV, QF_NRA, UFNIA, and QF_UFBV,
-where BV contains *all* SMT-LIB benchmarks and QF_NRA, UFNIA, and QF_UFBV
-contain only the benchmarks used in SMT-COMP'19 in order to reduce the size of
-the artifact.
+
+The artifact provides benchmarks for the logics BV, QF_NRA, UFNIA, and QF_UFBV.
+For BV we provide *all* SMT-LIB benchmarks to allow `demo.sh` and reviewers to
+conveniently execute algorithm selection (script `machsmt_select`) on benchmarks
+not included in our evaluation. Logics QF_NRA, UFNIA, and QF_UFBV contain only
+the benchmarks used in SMT-COMP'19 (which is a subset of the benchmark sets in
+SMT-LIB) in order to reduce the size of the artifact.
+
+In order to test algorithm selection on benchmarks from SMT-LIB not included
+in the artifact, download benchmarks of interest from the [SMT-LIB initiative's
+benchmark page](http://smtlib.cs.uiowa.edu/benchmarks.shtml).
 
 As with all machine learning, it can be very difficult to reproduce all results
-precisely. Further, we could not include the entirety of the SMT-LIB benchmarks
-and run all experiments in `demo.sh` with the `--limit-training` option.
+precisely. Further, reproducing the entire experimental evaluation of our paper
+takes up to 12 hours on a single Intel i7-4790 with 16GB of RAM, which is
+clearly out of scope for this artifact. Since were not able to include the
+entirety of the SMT-LIB benchmarks due to space constraints, we run all
+experiments in `demo.sh` with the MachSMT's `--limit-training` option.
 
-`demo.sh` will do the following:
+Script `demo.sh` performs the following steps:
+
 * Call `machsmt_build`
     * Construct full learned models for the following logics and store them in
       directory `lib/`.
-        * BV SQ
-        * QF_NRA SQ
-        * UFNIA UC
-        * QF_UFBV SQ
+        * BV in the Single Query Track (SQ)
+        * QF_NRA in the Single Query Track (SQ)
+        * UFNIA in the Unsat Core Track (UC)
+        * QF_UFBV in the Single Query Track (SQ)
     * Separately, using Cross Validation as described in our paper:
         * Reproduce cactus plots for figures 1-4.
-        * Provide a csv of PAR-2 for above logics and tracks
-        * Provide a csv all instance wise computed features and solver selected
-* Call `machsmt_select` on random BV benchmarks
+        * Provide a csv of PAR-2 for above logics and tracks.
+        * Provide a csv of all instance-wise computed features and the selected
+          solver.
+* Call `machsmt_select` on random BV benchmarks:
     * Make selections for 100 random BV benchmarks.
 
 

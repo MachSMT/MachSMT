@@ -1,28 +1,52 @@
-## Build and evaluate learned models
+#!/usr/bin/env bash
 
-## Following creates a results/ folder that
-## contains cactus plots and par2
-## scores, plus a log of features
-## and each  selection made
+build_all=
 
-## further, a lib/ folder will be made
-## to save all models. We further
-## provide our learned models for
-## all logics and tracks. However,
-## for space, they can't be fit into
-## this VM
+usage() {
+cat << EOF
+usage: $0 [-h|-a]
 
-machsmt_build -logic BV       -track smt-comp/2019/results/Single_Query_Track --limit-training
-machsmt_build -logic QF_NRA   -track smt-comp/2019/results/Single_Query_Track --limit-training
-machsmt_build -logic QF_UFBV  -track smt-comp/2019/results/Single_Query_Track --limit-training
-machsmt_build -logic UFNIA    -track smt-comp/2019/results/Unsat_Core_Track   --limit-training
+-h       print this message and exit
+-a       build models and generate data for BV, QF_NRA, QF_UFBV, and UFNIA
 
+By default $0 builds the model and generates the data for BV only.
+EOF
+  exit 0
+}
 
-## Demonstration of how to use MachSMT
-## Here make selections over all benchmarks
-## in the SMT-LIB BV benchmark database
-
-for file in $(find benchmarks/BV -name "*.smt2")
+while [ $# -gt 0 ]
 do
-  machsmt_select -f $file -l BV -t smt-comp/2019/results/Single_Query_Track
+  opt=$1
+  case $opt in
+      -h|--help) usage;;
+      -a) build_all=yes;;
+ esac
+ shift
+done
+
+# 1) Build and evaluate learned models.
+#
+# The build process creates the results directory, which contains cactus plots,
+# par2 scores, and a log file of features and each solver selections.
+# Further, it also creates the lib/ folder will be made to save all models. We further provide
+# our learned models for all logics and tracks. However, for space, they can't
+# be fit into this VM.
+
+machsmt_build -logic BV -track smt-comp/2019/results/Single_Query_Track --limit-training
+
+if [ -n "$build_all" ]; then
+  machsmt_build -logic QF_UFBV -track smt-comp/2019/results/Single_Query_Track --limit-training
+  machsmt_build -logic QF_NRA  -track smt-comp/2019/results/Single_Query_Track --limit-training
+  machsmt_build -logic UFNIA   -track smt-comp/2019/results/Unsat_Core_Track   --limit-training
+fi
+
+
+# 2) Demonstration of how to use MachSMT.
+#
+# Here we make selections over all benchmarks in the SMT-LIB BV benchmark
+# database.
+
+for benchmark in $(find benchmarks/BV -name "*.smt2")
+do
+  machsmt_select -f $benchmark -l BV -t smt-comp/2019/results/Single_Query_Track
 done

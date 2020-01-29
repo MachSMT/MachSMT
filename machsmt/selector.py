@@ -36,7 +36,6 @@ class LearnedModel:
         self.track = track
         self.solvers = None
         self.is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
-        self.greedy = False
         self.best_solver = None
         self.lm = {}
         self.scoring = {}
@@ -174,7 +173,6 @@ class LearnedModel:
     ## 1) Just over the track                   //in code this is refered to as 'core' (sorry for bad names)
     ## 2) Over track + cross over theories      //in code this is refered to as 'div' 
     ## Pick best one by score
-    ## Fail to improve => greedy selection
 
     def eval(self):
         self.X = np.array(self.X)
@@ -279,8 +277,7 @@ class LearnedModel:
         if best_par2 < min(my_par2_core, my_par2_div):
             ##Failed to learn, force greedy solution
             print("Failed to improve, enabling Greedy Selection")
-            self.selections = [self.best_solver for i in range(len(self.X))]
-            self.greedy = True
+            #self.selections = [self.best_solver for i in range(len(self.X))]
         else:
             print("Observe CORE improvement of: " + str(round(100.0 * (best_par2 - my_par2_core) / my_par2_core)) + "%",flush=True)
             print("Observe DIV  improvement of: " + str(round(100.0 * (best_par2 - my_par2_div) / my_par2_div)) + "%",flush=True)
@@ -380,8 +377,6 @@ class LearnedModel:
 
     ## Final testing procedure
     def predict(self, file):
-        if self.greedy:
-            return self.best_solver
         X = np.array(get_features(file_path=file,logic=self.logic,track=self.track))
         Y = []
         for solver in self.solvers:

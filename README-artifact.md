@@ -43,7 +43,6 @@ Please see the latest version of our [paper here.](google.com)
 
 ## Artifact Description
 
-
 * `machsmt_select` - the primary interface to MachSMT's algorithm selection
 * `machsmt_build`  - a script to learn models for algorithm selection in MachSMT's pipeline.
 
@@ -155,8 +154,8 @@ which is structued as follows:
 ```
 
 * `par2.csv` contains the computed PAR-2 score for all solvers, including
-  MachSMT and the virtual best solver for <logic> in <track>.
-* `plot.png` corresponds to the cactus plot for <logic> in <track>
+  MachSMT and the virtual best solver for `<logic>` in `<track>`.
+* `plot.png` corresponds to the cactus plot for `<logic>` in `<track>`
 * `plot_data.p`
 * `selections.csv` contains the extracted feature information and the selected
   solver per benchmark
@@ -164,5 +163,7 @@ which is structued as follows:
 
 ### Reproducing all results
 
+The following steps are required to reproduce all results from the paper.
+
 1. Download all SMT-LIB logics into `benchmarks`
-2. Run `machsmt_build`
+2. Run `machsmt_build` (without options)

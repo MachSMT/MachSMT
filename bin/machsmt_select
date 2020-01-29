@@ -1,8 +1,10 @@
-#!/usr/bin/python3
-import argparse,os,sys,pickle
+#!/usr/bin/env python3
+
+import machsmt.settings as settings
+import argparse, os, sys, pickle
 
 def die(msg):
-    print("[machsmt] Error: {}".format(msg))
+    print("[machsmt_select] Error: {}".format(msg))
     sys.exit(1)
 
 if __name__ == "__main__":
@@ -27,13 +29,12 @@ if __name__ == "__main__":
         die("Given input file is a directory")
 
     file = os.path.abspath(args.file)
-    root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of smtzilla repo
-    os.chdir(root)
 
-    if not os.path.exists('lib'):
-        die("No models found on system, expected in directory 'lib'.")
+    if not os.path.exists(settings.LIB_DIR):
+        die("No models found on system, expected in directory '{}'.".format(
+            settings.LIB_DIR))
 
-    if not os.path.exists('lib/' + args.logic):
+    if not os.path.exists(os.path.join(settings.LIB_DIR, args.logic)):
         die("Could not find learned model for logic '{}'".format(args.logic))
 
 
@@ -41,9 +42,10 @@ if __name__ == "__main__":
     if track.find('/') != -1:
         track = track.split('/')[-1]
 
-    if not os.path.exists('lib/' + args.logic + '/' + track):
+    if not os.path.exists(os.path.join(settings.LIB_DIR, args.logic, track)):
         die("No model for track '{}', in logic '{}' ".format(
                     args.track, args.logic))
 
-    lm = pickle.load( open( 'lib/' + args.logic + '/' + track, "rb" ))
-    print(lm.predict(args.file))
+    with open(os.path.join(settings.LIB_DIR, args.logic, track), 'rb') as infile:
+        lm = pickle.load(infile)
+        print(lm.predict(args.file))

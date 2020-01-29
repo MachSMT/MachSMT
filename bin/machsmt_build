@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import os,pickle,argparse,pdb,sys
 import machsmt.settings as settings
 from machsmt.db import DB
@@ -6,38 +7,48 @@ from machsmt.model_maker import model_maker
 from machsmt.selector import LearnedModel
 from machsmt.db import get_db
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-logic', '--logic',type=str,default=None )
-parser.add_argument('-track', '--track',type=str,default=None)
-parser.add_argument('--limit-training',action='store_true')
-args = parser.parse_args()
-root = os.path.dirname(os.path.realpath(__file__))[:-3] ##(safely?) navigate to root of machsmt repo
-os.chdir(root)
-if not os.path.isdir(root+'lib'):
-    os.mkdir(root+'lib')
-
-if args.logic != None and args.logic not in get_db().db:
-    print('logic: ' + args.logic + ' not found')
+def die(msg):
+    print("[machsmt_build] Error: {}".format(msg))
     sys.exit(1)
-if args.track != None and args.track not in get_db().db[args.logic]:
-    print('Track: ' + args.track + ' not found.')
-    sys.exit(1)
-if args.limit_training:
-    settings.EXTRA_MAX=0
 
-for logic in get_db().db:
-    if args.logic != None and logic != args.logic:
-        continue
-    if not os.path.isdir(root+'lib/'+logic):
-        os.mkdir(root+'lib/'+logic)
-    for track in get_db().db[logic]:
-        if args.track != None and track != args.track:
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-logic', '--logic', type=str, default=None)
+    parser.add_argument('-track', '--track', type=str, default=None)
+    parser.add_argument('--limit-training', action='store_true')
+    args = parser.parse_args()
+
+    if not os.path.isdir(settings.LIB_DIR):
+        os.mkdir(settings.LIB_DIR)
+
+    if args.logic != None and args.logic not in get_db().db:
+        die('logic: ' + args.logic + ' not found')
+
+    if args.track != None and args.track not in get_db().db[args.logic]:
+        die('Track: ' + args.track + ' not found.')
+        sys.exit(1)
+
+    if args.limit_training:
+        settings.EXTRA_MAX = 0
+
+    for logic in get_db().db:
+        if args.logic != None and logic != args.logic:
             continue
-        lm = LearnedModel(
-            logic=logic,
-            track=track,
-            db=get_db().db[logic][track],
-            model_maker=model_maker
-        )
-        lm.run()
-        pickle.dump(lm, open( root+'lib/'+logic + '/' + track.split('/')[-1], "wb" ))
+
+        if not os.path.isdir(os.path.join(settings.LIB_DIR, logic)):
+            os.mkdir(os.path.join(settings.LIB_DIR, logic))
+
+        for track in get_db().db[logic]:
+            if args.track != None and track != args.track:
+                continue
+            lm = LearnedModel(
+                logic=logic,
+                track=track,
+                db=get_db().db[logic][track],
+                model_maker=model_maker
+            )
+            lm.run()
+            track_name = track.split('/')[-1]
+            with open(os.path.join(settings.LIB_DIR, logic, track_name), 'wb') as outfile:
+                pickle.dump(lm, outfile)

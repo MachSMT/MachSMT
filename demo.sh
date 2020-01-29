@@ -61,6 +61,6 @@ i=1
 for benchmark in $(find benchmarks/BV -name "*.smt2" | shuf | head -n $num_benchmarks)
 do
   echo -n "$i/$num_benchmarks Select solver on $benchmark: "
-  machsmt_select -f "$benchmark" -l BV -t smt-comp/2019/results/Single_Query_Track
+  machsmt_select lib/BV/Single_Query_Track "$benchmark"
   ((i++))
 done

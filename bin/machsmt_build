@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-import os,pickle,argparse,pdb,sys
+import argparse
+import os
+import pickle
+import sys
+
 import machsmt.settings as settings
 from machsmt.db import DB
 from machsmt.model_maker import model_maker

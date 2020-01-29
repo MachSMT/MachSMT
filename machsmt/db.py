@@ -11,26 +11,6 @@ class DB:
 
     def compute_score(self,logic,track,solver,inst):
         is_incr = track.lower().find('incremental') != -1 and track.lower().find('non-incremental') == -1
-        is_unsat_core = track.lower().find('unsat_core') != -1
-        is_model_valid= track.lower().find('model')
-        # time_column = 'cpu time' if sequential else 'wallclock time'
-
-        # e,n,w,c = 0,0,0,0
-
-        # ## Compute e
-        # if is_incr:
-        #     e = int(self.db[logic][track][solver][inst]['wrong-answers'])
-
-        # else:
-        #     pass
-        # ## Compute n
-
-
-        # ## Compute w
-        # w = self.db[logic][track][solver][inst]['wallclock time']
-        # ## Compute c
-        # c = self.db[logic][track][solver][inst]['cpu time']
-
 
         if self.db[logic][track][solver][inst]['result'].find('unknown') != -1:
             return 2.0 * settings.WALL_TIMEOUT

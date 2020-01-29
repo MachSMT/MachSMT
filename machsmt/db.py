@@ -120,6 +120,13 @@ class DB:
     def checker(self):
         pass
 
+    # In the some divisions of the Incremental and Challenge (incremental)
+    # track of SMT-COMP 2019, StarExec had an issue where a wrong name was
+    # displayed for solver Z3 4.8.4 as Z3 4.7.4
+    # (see https://github.com/StarExec/StarExec/issues/269).
+    # We fix this by merging the results (if possible) when the overall number
+    # of entries for a Z3 configuration in a division does not match the number
+    # of the number of entries of the other solvers.
     def clean_solvers(self):
         for logic in self.db:
             for track in self.db[logic]:

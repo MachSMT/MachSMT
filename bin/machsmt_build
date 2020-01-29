@@ -41,5 +41,3 @@ for logic in get_db().db:
         )
         lm.run()
         pickle.dump(lm, open( root+'lib/'+logic + '/' + track.split('/')[-1], "wb" ))
-
-print("Termination.")

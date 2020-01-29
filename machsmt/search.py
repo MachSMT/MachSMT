@@ -1,5 +1,7 @@
 import os,glob,pdb,pickle,sys
 
+import machsmt.settings as settings
+
 use_cache = True
 cache = {}
 n=0
@@ -8,9 +10,11 @@ def get_inst_path(logic,instance):
     global n,cache
     if logic in cache and instance in cache[logic]:
         return cache[logic][instance]
+    fs_file = os.path.join(settings.LIB_DIR, 'fs.p')
     if n == 0 and use_cache:
-        if os.path.exists('lib/fs.p'):
-            cache = pickle.load(open('lib/fs.p','rb'))
+        if os.path.exists(fs_file):
+            with open(fs_file, 'rb') as infile:
+                cache = pickle.load(infile)
 
     ret = get_inst_path_core(logic,instance,path='benchmarks/' + logic + '/', instance_name=instance)
     if ret == None:
@@ -18,7 +22,8 @@ def get_inst_path(logic,instance):
         raise RuntimeError
     n+=1
     if n%1000 == 0:
-        pickle.dump(cache,open('lib/fs.p','wb'))
+        with open(fs_file, 'wb') as outfile:
+            pickle.dump(cache, outfile)
         n+=1
     return ret
 

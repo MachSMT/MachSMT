@@ -291,26 +291,32 @@ class LearnedModel:
                 self.use_core = False
                 self.selections = self.selections_div
 
+
+    def get_results_path(self):
+        dirs = [settings.RESULTS_DIR,
+                self.logic,
+                self.track.split('/')[-1]]
+        path = ''
+        for d in dirs:
+            path = os.path.join(path, d)
+            if not os.path.exists(path):
+                os.mkdir(path)
+        return path
+
     ## Makes plots in results
     def mk_plots(self):
         plt.cla()
         plt.clf()
         plot_data = []
         full_db = get_db()
-        
-        if not os.path.exists('results'):
-            os.mkdir('results')
-        if not os.path.exists('results/'+self.logic):
-            os.mkdir('results/' + self.logic)
-        if not os.path.exists('results/' + self.logic +'/' + self.track.split('/')[-1] ):
-            os.mkdir('results/' + self.logic +'/' + self.track.split('/')[-1])
+
         #individual solvers
         for solver in self.solvers:
             rt = []
             for inst in self.db[solver]:
                 rt.append(full_db.compute_score(logic=self.logic,track=self.track,solver=solver,inst=inst))
             plot_data.append((solver,rt))
-        
+
         #vb solver
         vb = []
         for inst in self.db[self.solvers[0]]:
@@ -340,23 +346,17 @@ class LearnedModel:
             self.scoring[d[0]] = sum(d[1])
 
         plt.legend()
-        plt.savefig('results/' + self.logic +'/' + self.track.split('/')[-1] + '/plot.png',dpi=700)
+        plt.savefig(os.path.join(self.get_results_path(), 'plot.png'),dpi=700)
         plt.cla()
         plt.clf()
 
-        pickle.dump(plot_data, open('results/'+self.logic + '/' + self.track.split('/')[-1] + '/plot_data.p' , "wb" ))
+        pickle.dump(plot_data, open(os.path.join(self.get_results_path(), 'plot_data.p'), "wb" ))
 
 
     ##Makes CSVs in results 
     def log(self):
         track = self.track
-        if not os.path.exists('results'):
-            os.mkdir('results')
-        if not os.path.exists('results/'+self.logic):
-            os.mkdir('results/' + self.logic)
-        if not os.path.exists('results/' + self.logic +'/' + self.track.split('/')[-1] ):
-            os.mkdir('results/' + self.logic +'/' + self.track.split('/')[-1])
-        with open('results/' + self.logic +'/' + self.track.split('/')[-1] + '/selections.csv','w') as file:
+        with open(os.path.join(self.get_results_path(), 'selections.csv'),'w') as file:
             features = get_feature_names()
             file.write('instance,')
             for f in features:
@@ -368,7 +368,7 @@ class LearnedModel:
                     file.write(str(v) + ',')
                 file.write(self.selections[it] + '\n')
         
-        with open('results/' + self.logic + '/' + self.track.split('/')[-1] + '/par2.csv','w') as file:
+        with open(os.path.join(self.get_results_path(), 'par2.csv'),'w') as file:
             data = []
             for solver in self.scoring:
                 data.append((solver,self.scoring[solver]))

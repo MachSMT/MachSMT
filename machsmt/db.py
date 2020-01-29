@@ -215,11 +215,14 @@ db = None
 def get_db():
     global db
     if db == None:
-        if not os.path.exists('lib/db.p'):
+        db_file = os.path.join(settings.LIB_DIR, 'db.p')
+        if not os.path.exists(db_file):
             db = DB()
             db.build()
             db.tidy()
-            pickle.dump(db, open( "lib/db.p", "wb" ))    
+            with open(db_file, 'wb') as outfile:
+                pickle.dump(db, outfile)
         else:
-            db = pickle.load(open( "lib/db.p", "rb" ))
+            with open(db_file, 'rb') as infile:
+                db = pickle.load(infile)
     return db

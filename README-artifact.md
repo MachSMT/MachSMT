@@ -4,14 +4,14 @@ Joseph Scott, Aina Niemetz, Mathias Preiner, and Vijay Ganesh
 
 ## Setup Steps
 
-1. Clone repository
+1. Unpack artifact archive
   ```
-  git clone https://github.com/j29scott/MachSMT.git
+  tar xJf machsmt-artifact.tar.xz
   ```
 
 2. Change directory
   ```
-  cd MachSMT
+  cd machsmt-artifact
   ```
 
 3. Build the docker image `machsmt`. This will take approx. 3-5 minutes.

@@ -107,7 +107,6 @@ class LearnedModel:
         if settings.EXTRA_MAX == 0:
             return
         common.sort(key=diff)
-        print([(t,diff(t)) for t in common])
         bonus_inputs = {}
         for logic in common:
             for track in full_db.db[logic]:
@@ -279,15 +278,16 @@ class LearnedModel:
             print("Failed to improve, enabling Greedy Selection")
             #self.selections = [self.best_solver for i in range(len(self.X))]
         else:
-            print("Observe CORE improvement of: " + str(round(100.0 * (best_par2 - my_par2_core) / my_par2_core)) + "%",flush=True)
-            print("Observe DIV  improvement of: " + str(round(100.0 * (best_par2 - my_par2_div) / my_par2_div)) + "%",flush=True)
+            # print("Observe CORE improvement of: " + str(round(100.0 * (best_par2 - my_par2_core) / my_par2_core)) + "%",flush=True)
+            # print("Observe DIV  improvement of: " + str(round(100.0 * (best_par2 - my_par2_div) / my_par2_div)) + "%",flush=True)
             if my_par2_core < my_par2_div:
                 self.use_core = True
                 self.selections = self.selections_core
+                print("Observe improvement of: " + str(round(100.0 * (best_par2 - my_par2_core) / my_par2_core)) + "%",flush=True)
             else:
                 self.use_core = False
                 self.selections = self.selections_div
-
+                print("Observe improvement of: " + str(round(100.0 * (best_par2 - my_par2_div) / my_par2_div)) + "%",flush=True)
 
     def get_results_path(self):
         dirs = [settings.RESULTS_DIR,
@@ -394,3 +394,19 @@ class LearnedModel:
         self.baseline()
         self.mk_plots()
         self.log()
+
+        ## Delete unneeded data to reduce .p size
+        self.db = None
+        self.model_maker = None
+        self.X = None
+        self.Y = None
+        self.extra_X = None
+        self.extra_Y = None
+        self.selections_core = None
+        self.selections_div  = None
+        self.selections = None
+        self.inputs = None
+        self.random_selections = None
+        self.is_incr = None
+        self.scoring = None
+        self.use_core = None

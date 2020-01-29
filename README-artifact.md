@@ -2,8 +2,6 @@
 
 Joseph Scott, Aina Niemetz, Mathias Preiner, and Vijay Ganesh
 
-Please see the latest version of our [TODO paper here. TODO](google.com)
-
 ## Setup Steps
 
 1. Clone repository

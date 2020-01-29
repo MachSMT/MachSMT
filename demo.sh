@@ -32,6 +32,11 @@ done
 # our learned models for all logics and tracks. However, for space, they can't
 # be fit into this VM.
 
+echo
+echo "Build and evaluate models"
+echo "========================="
+echo
+
 machsmt_build -logic BV -track smt-comp/2019/results/Single_Query_Track --limit-training
 
 if [ -n "$build_all" ]; then
@@ -46,7 +51,16 @@ fi
 # Here we make selections over all benchmarks in the SMT-LIB BV benchmark
 # database.
 
-for benchmark in $(find benchmarks/BV -name "*.smt2")
+num_benchmarks=100
+echo
+echo "Call machsmt_select on $num_benchmarks random benchmarks"
+echo "========================================================"
+echo
+
+i=1
+for benchmark in $(find benchmarks/BV -name "*.smt2" | shuf | head -n $num_benchmarks)
 do
-  machsmt_select -f $benchmark -l BV -t smt-comp/2019/results/Single_Query_Track
+  echo -n "$i/$num_benchmarks Select solver on $benchmark: "
+  machsmt_select -f "$benchmark" -l BV -t smt-comp/2019/results/Single_Query_Track
+  ((i++))
 done

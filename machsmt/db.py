@@ -74,7 +74,7 @@ class DB:
     def build(self,year=2019):
         dir = 'smt-comp/' + str(year) + '/results/'
         data_files = glob.glob(dir + '*.csv')
-        print("Building DB based on the following files: " + str(data_files))
+        print("Building DB based on the following result files: \n  {}".format('\n  '.join(data_files)))
         header = []
         benchmark_indx = None
         solver_index   = None
@@ -85,7 +85,6 @@ class DB:
                     if it == 0:
                         header = line.split(',')
                         header[-1] = header[-1][:-1]
-                        print(header)
                         benchmark_indx = header.index('benchmark')
                         solver_indx    = header.index('solver')
                         it+=1
@@ -132,19 +131,19 @@ class DB:
             for track in self.db[logic]:
                 solver_counts = dict( (solver , len(self.db[logic][track][solver]))  for solver in self.db[logic][track])
                 if min(list(solver_counts.values())) != max(list(solver_counts.values())):
-                    print('Inconsistent solving counts for: ' + logic + ' ' + track, solver_counts,flush=True)
+                    #print('Inconsistent solving counts for: {} {}'.format(logic, track), solver_counts,flush=True)
                     z3_solvers_wrapped = [solver for solver in solver_counts if solver.lower().find('z3') != -1 and solver.lower().find('wrap') != -1]
                     if len(z3_solvers_wrapped) == 2:
                         self.solver_merger(logic,track,z3_solvers_wrapped[0],z3_solvers_wrapped[1],'z3')
                         solver_counts = dict( (solver , len(self.db[logic][track][solver]))  for solver in self.db[logic][track])
                         if min(list(solver_counts.values())) == max(list(solver_counts.values())):
-                            print("auto-fixed.")
+                            #print("auto-fixed.")
                             continue
-                        
+
                     print("FAILED TO AUTO FIX.")
                     sys.exit(1)
 
-        print("Finished Cleaning Solvers!")
+        #print("Finished Cleaning Solvers!")
 
     def clean_benchmarks(self):
         inputs = set()

@@ -80,7 +80,7 @@ The algorithm selection script can be run as follows:
 
 ```machsmt_select --file FILE --logic LOGIC --track TRACK```
 
-where `FILE` corresponds to a benchmark in `LOGIC` and 
+where `FILE` corresponds to a benchmark in `LOGIC` for track `TRACK`.
 
 MachSMT will then print the name of the solver it selects to have the shortest
 runtime. MachSMT presupposes a `lib/` directory created by `machsmt_build` in

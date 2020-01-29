@@ -2,7 +2,7 @@
 
 Joseph Scott, Aina Niemetz, Mathias Preiner, and Vijay Ganesh
 
-Please see the latest version of our [paper here.](google.com)
+Please see the latest version of our [TODO paper here. TODO](google.com)
 
 ## Setup Steps
 
@@ -129,11 +129,15 @@ The following steps are required to reproduce all results from the paper.
 
 ## Artifact Description
 
+MachSMT provides the following two scripts:
+
 * `machsmt_select` - the primary interface to MachSMT's algorithm selection
 * `machsmt_build`  - a script to learn models for algorithm selection in MachSMT's pipeline.
 
+These script can be found in directory `bin`.
 
-#### machsmt_build
+
+### `machsmt_build`
 
 Building a learned algorithm selection model has two dependencies:
 * Appropriate SMT-LIB Benchmarks
@@ -151,7 +155,7 @@ By default, MachSMT will try to use runtime analysis from similar divisions and 
 
 `machsmt_build` allows for users to adjust the anatomy of the regression model and further add additional features to its pipeline. 
 
-###### machsmt/extra_features.py
+#### machsmt/extra_features.py
 
 We provide an interface for users to add extra features when building learned models for MachSMT. An extra feature can be added easily to the MachSMT pipeline by including an additional python method that computes said feature given the filepath to an instance. Additional methods in `machsmt/extra_features.py` will be automatically included in the MachSMT pipeline. For more, please see the documentation in this file.
 
@@ -159,7 +163,7 @@ We provide an interface for users to add extra features when building learned mo
 
 The internal regressor within machsmt can be adjusted to any regressor for the EHM can be adjusted to any scikit styled regressor. The interface for this is in `machsmt/model_maker.py`. In this file, a single method can be found that returns an instance of a regressor. This file can be modified appropriately to user needs for their target application. The only requirement is the MachSMT pipeline presupposes the returned regressor object has a `fit(X, Y)` and `predict(X)` attributes to it.  
 
-##### machsmt_select
+### `machsmt_select`
 
 The algorithm selection script can be run as follows:
 

@@ -8,7 +8,7 @@ MachSMT can be installed easily via the command `sudo python3 setup.py install` 
 * machsmt_build  - a script to learn models for algorithm selection in MachSMT's pipeline.
 
 # machsmt_select
-The algorithm selection script can be ran with the following syntax: `machsmt_select --file FILE --logic LOGIC --track TRACK`. MachSMT will then print the name of the solver it selects to have the shortest runtime. MachSMT presupposes a `lib/` directory created by `machsmt_build` in the root of the MachSMT repo. These can be built independently, but we provide ours [here](https://www.dropbox.com/s/hbeidctzpwilinb/lib.zip?dl=1).
+The algorithm selection script can be ran with the following syntax: `machsmt_select MODEL INPUT`. MachSMT will then print the name of the solver it selects to have the shortest runtime. The models can be either built independently or prebuilt models can be downloaded [here](https://www.dropbox.com/s/hbeidctzpwilinb/lib.zip?dl=1).
 
 # machsmt_build
 

@@ -167,11 +167,12 @@ The internal regressor within machsmt can be adjusted to any regressor for the E
 
 The algorithm selection script can be run as follows:
 
-```machsmt_select --file FILE --logic LOGIC --track TRACK```
+```machsmt_select MODEL INPUT```
 
-where `FILE` corresponds to a benchmark in `LOGIC` for track `TRACK`.
+where `MODEL` corresponds to the learned EHMs built by `machsmt_build` that
+should be used for predicting a solver on benchmark `INPUT`.
 
 MachSMT will then print the name of the solver it selects to have the shortest
-runtime. MachSMT presupposes a `lib/` directory created by `machsmt_build` in
-the root of the MachSMT repo. These can be built independently. We also provide
-all models used in our paper [here](https://www.dropbox.com/s/773l8axaxbah2yv/lib.zip?dl=1).
+runtime.  The models can be either built independently with `machsmt_build` or
+all models used in our paper can be downloaded
+[here](https://www.dropbox.com/s/773l8axaxbah2yv/lib.zip?dl=1).

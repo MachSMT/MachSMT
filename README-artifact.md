@@ -111,7 +111,11 @@ which is structued as follows:
 
 * `par2.csv` contains the computed PAR-2 score for all solvers, including
   MachSMT and the virtual best solver for `<logic>` in `<track>`.
-* `plot.png` corresponds to the cactus plot for `<logic>` in `<track>`
+* `plot.png` corresponds to the cactus plot for `<logic>` in `<track>`.
+   **Note** that the solver names from the generated plots in the artifact and
+   the plots in the paper differ. We manually cleaned up the solver names in
+   the paper, whereas the generated plots show the raw names as specified in
+   the csv result files.
 * `plot_data.p`
 * `selections.csv` contains the extracted feature information and the selected
   solver per benchmark

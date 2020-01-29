@@ -145,7 +145,7 @@ Building a learned algorithm selection model has two dependencies:
 
 To build a model for a specific logic and track, MachSMT expects access to all benchmarks for said logic and track and will look for them in the  `benchmarks/`  repository in the root of the MachSMT repo. To do so, please download logics of interest from the [SMT-LIB initiative's benchmark page](http://smtlib.cs.uiowa.edu/benchmarks.shtml), and unzip the file. It is important the file structure within the downloaded zip file remains intact.
 
-For timing analysis, please clone the [SMT-COMP's repository](https://github.com/SMT-COMP/smt-comp) at the root of the MachSMT repo, and decompress the timing analysis csv files.
+For timing analysis, please clone the [SMT-COMP's repository](https://github.com/SMT-COMP/smt-comp) at the root of the MachSMT repo, and decompress the timing analysis csv files. However, arbitrary timing analysis can be used as long as the csv header contains the following headers: 'result', 'expected', 'cpu time', 'wallclock time', 'correct-answers', and'wrong-answers'.
 
 Running `machsmt_build` will build models for all logics and tracks. However, this can be narrowed to logics and tracks of interest by running it as:
 

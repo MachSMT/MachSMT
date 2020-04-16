@@ -73,7 +73,7 @@ class DB:
                         header[-1] = header[-1][:-1]
                         benchmark_indx = header.index('benchmark')
                         solver_indx    = header.index('solver')
-                        it+=1
+                        it += 1
                         continue
                     line = line.split(',')
                     line[-1] = line[-1][:-1]
@@ -203,6 +203,7 @@ class DB:
                 return ret
         except IndexError:
             print("Invalid Index: ")
+
 def working_database():
     global _working_database
     if _working_database == None:

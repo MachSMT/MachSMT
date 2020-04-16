@@ -46,7 +46,7 @@ if __name__ == '__main__':
             lm = LearnedModel(
                 logic=logic,
                 track=track,
-                db=working_database().db[logic][track],
+                db=working_database()[logic,track],
                 model_maker=model_maker
             )
             lm.run()

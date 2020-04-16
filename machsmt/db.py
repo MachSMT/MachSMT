@@ -4,7 +4,13 @@ from machsmt.search import get_inst_path
 from machsmt.compute_features import get_check_sat
 import machsmt.settings as settings
 
+from machsmt.util import die
+
+_working_database = None
+
+
 class DB:
+
     def __init__(self):
         self.db = {}
         self.paths = {}
@@ -58,10 +64,10 @@ class DB:
         header = []
         benchmark_indx = None
         solver_index   = None
-        for f in data_files:
-            with open(f,'r') as file:
+        for data_file in data_files:
+            with open(data_file,'r') as file:
                 it = 0
-                for line in file.readlines():
+                for line in file:
                     if it == 0:
                         header = line.split(',')
                         header[-1] = header[-1][:-1]
@@ -78,12 +84,11 @@ class DB:
                     for i in range(2,len(theory_benchmark)):
                         benchmark += theory_benchmark[i]
                     val = dict((header[i],line[i]) for i in range(len(header)))
-                    self.add(logic,f.split('.')[0],solver,benchmark,val)
+                    self.add(logic,data_file.split('.')[0],solver,benchmark,val)
                     it+=1
 
     def tidy(self):
         self.clean_solvers()
-        #self.clean_benchmarks()
         self.checker()
 
     def solver_merger(self,logic,track,solver_0,solver_1,new_name):
@@ -95,7 +100,6 @@ class DB:
         self.db[logic][track].pop(solver_0)
         self.db[logic][track].pop(solver_1)
 
-    
     def checker(self):
         pass
 
@@ -117,7 +121,6 @@ class DB:
                         self.solver_merger(logic,track,z3_solvers_wrapped[0],z3_solvers_wrapped[1],'z3')
                         solver_counts = dict( (solver , len(self.db[logic][track][solver]))  for solver in self.db[logic][track])
                         if min(list(solver_counts.values())) == max(list(solver_counts.values())):
-                            #print("auto-fixed.")
                             continue
 
                     print("FAILED TO AUTO FIX.")
@@ -181,7 +184,6 @@ class DB:
             print("Failed to find: " + logic + ',' + instance)
             return None
 
-
     def summary(self):
         for logic in self.db:
             print(logic)
@@ -190,19 +192,28 @@ class DB:
                 for solver in self.db[logic][track]:
                     print("\t\t" + solver + "\t" + str(len(self.db[logic][track][solver])))
 
-
-db = None
-def get_db():
-    global db
-    if db == None:
+    def __getitem__(self, index):
+        try:
+            if isinstance(index,str):
+                return self.db[index]
+            elif isinstance(index,tuple):
+                ret = self.db
+                for k in index:
+                    ret = ret[k]
+                return ret
+        except IndexError:
+            print("Invalid Index: ")
+def working_database():
+    global _working_database
+    if _working_database == None:
         db_file = os.path.join(settings.LIB_DIR, 'db.p')
         if not os.path.exists(db_file):
-            db = DB()
-            db.build()
-            db.tidy()
+            _working_database = DB()
+            _working_database.build()
+            _working_database.tidy()
             with open(db_file, 'wb') as outfile:
-                pickle.dump(db, outfile)
+                pickle.dump(_working_database, outfile)
         else:
             with open(db_file, 'rb') as infile:
                 db = pickle.load(infile)
-    return db
+    return _working_database

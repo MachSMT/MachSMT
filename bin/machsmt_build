@@ -6,14 +6,11 @@ import pickle
 import sys
 
 import machsmt.settings as settings
-from machsmt.db import DB
+from machsmt.db import working_database
 from machsmt.model_maker import model_maker
 from machsmt.selector import LearnedModel
-from machsmt.db import get_db
 
-def die(msg):
-    print("[machsmt_build] Error: {}".format(msg))
-    sys.exit(1)
+from machsmt.util import die
 
 if __name__ == '__main__':
 
@@ -26,30 +23,30 @@ if __name__ == '__main__':
     if not os.path.isdir(settings.LIB_DIR):
         os.mkdir(settings.LIB_DIR)
 
-    if args.logic != None and args.logic not in get_db().db:
+    if args.logic != None and args.logic not in working_database().db:
         die('logic: ' + args.logic + ' not found')
 
-    if args.track != None and args.track not in get_db().db[args.logic]:
+    if args.track != None and args.track not in working_database().db[args.logic]:
         die('Track: ' + args.track + ' not found.')
         sys.exit(1)
 
     if args.limit_training:
         settings.EXTRA_MAX = 0
 
-    for logic in get_db().db:
+    for logic in working_database().db:
         if args.logic != None and logic != args.logic:
             continue
 
         if not os.path.isdir(os.path.join(settings.LIB_DIR, logic)):
             os.mkdir(os.path.join(settings.LIB_DIR, logic))
 
-        for track in get_db().db[logic]:
+        for track in working_database().db[logic]:
             if args.track != None and track != args.track:
                 continue
             lm = LearnedModel(
                 logic=logic,
                 track=track,
-                db=get_db().db[logic][track],
+                db=working_database().db[logic][track],
                 model_maker=model_maker
             )
             lm.run()

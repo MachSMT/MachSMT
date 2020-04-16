@@ -3,7 +3,7 @@ from machsmt.compute_features import get_features,get_check_sat,get_feature_name
 import multiprocessing.dummy as mp ##?? other doesn't work for whatever reason...
 from progress.bar import Bar
 from machsmt.search import get_inst_path
-from machsmt.db import get_db
+from machsmt.db import working_database
 import machsmt.settings as settings
 
 import numpy as np
@@ -53,7 +53,7 @@ class LearnedModel:
             solvers.add(solver)
             for inst in self.db[solver]:
                 inputs.add(inst)
-        full_db = get_db()
+        full_db = working_database()
         solvers = list(solvers)
         solvers.sort()
         self.solvers = solvers

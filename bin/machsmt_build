@@ -1,55 +1,34 @@
 #!/usr/bin/env python3
 
-import argparse
-import os
-import pickle
-import sys
+import argparse,os,pickle,sys
 
 import machsmt.settings as settings
-from machsmt.db import working_database
-from machsmt.model_maker import model_maker
-from machsmt.selector import LearnedModel
+from machsmt.db import build_database
+# from machsmt.model_maker import model_maker
+# from machsmt.selector import LearnedModel
 
 from machsmt.util import die
 
 if __name__ == '__main__':
+    if not len(sys.argv) > 1: die("Please provide a csv file(s)")
+    build_database()    
+    # for logic in working_database().db:
+    #     if args.logic != None and logic != args.logic:
+    #         continue
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-logic', '--logic', type=str, default=None)
-    parser.add_argument('-track', '--track', type=str, default=None)
-    parser.add_argument('--limit-training', action='store_true')
-    args = parser.parse_args()
+    #     if not os.path.isdir(os.path.join(settings.LIB_DIR, logic)):
+    #         os.mkdir(os.path.join(settings.LIB_DIR, logic))
 
-    if not os.path.isdir(settings.LIB_DIR):
-        os.mkdir(settings.LIB_DIR)
-
-    if args.logic != None and args.logic not in working_database().db:
-        die('logic: ' + args.logic + ' not found')
-
-    if args.track != None and args.track not in working_database().db[args.logic]:
-        die('Track: ' + args.track + ' not found.')
-        sys.exit(1)
-
-    if args.limit_training:
-        settings.EXTRA_MAX = 0
-
-    for logic in working_database().db:
-        if args.logic != None and logic != args.logic:
-            continue
-
-        if not os.path.isdir(os.path.join(settings.LIB_DIR, logic)):
-            os.mkdir(os.path.join(settings.LIB_DIR, logic))
-
-        for track in working_database().db[logic]:
-            if args.track != None and track != args.track:
-                continue
-            lm = LearnedModel(
-                logic=logic,
-                track=track,
-                db=working_database()[logic,track],
-                model_maker=model_maker
-            )
-            lm.run()
-            track_name = track.split('/')[-1]
-            with open(os.path.join(settings.LIB_DIR, logic, track_name), 'wb') as outfile:
-                pickle.dump(lm, outfile)
+    #     for track in working_database().db[logic]:
+    #         if args.track != None and track != args.track:
+    #             continue
+    #         lm = LearnedModel(
+    #             logic=logic,
+    #             track=track,
+    #             db=working_database()[logic,track],
+    #             model_maker=model_maker
+    #         )
+    #         lm.run()
+    #         track_name = track.split('/')[-1]
+    #         with open(os.path.join(settings.LIB_DIR, logic, track_name), 'wb') as outfile:
+    #             pickle.dump(lm, outfile)

@@ -1,6 +1,6 @@
 *.smt2
 *__pycache__*
-lib/*
+*.dat
 *.egg-info*
 results/*
 arxiv/*

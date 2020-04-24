@@ -2,7 +2,6 @@ from sklearn.model_selection import LeaveOneOut,KFold
 from machsmt.compute_features import get_features,get_check_sat,get_feature_names
 import multiprocessing.dummy as mp ##?? other doesn't work for whatever reason...
 from progress.bar import Bar
-from machsmt.search import get_inst_path
 from machsmt.db import working_database
 import machsmt.settings as settings
 

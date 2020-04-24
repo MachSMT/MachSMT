@@ -4,7 +4,7 @@ This is the repo for MachSMT.
 
 https://sites.google.com/view/machsmt
 
-MachSMT can be installed easily via the command `sudo python3 setup.py install` (as requirements.txt is not prepared, you may need to install a few pip3 packages). This will install two scripts:
+MachSMT can be installed easily via the command `sudo python3 setup.py install`. This will install two scripts:
 
 * machsmt_select - the primary interface to MachSMT's algorithm selection
 * machsmt_build  - a script to learn models for algorithm selection in MachSMT's pipeline.

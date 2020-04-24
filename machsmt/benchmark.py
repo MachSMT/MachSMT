@@ -15,6 +15,7 @@ class Benchmark:
             die("Could not find: " + path)
         self.features = None
         self.theory = None
+        self.timeout = False
 
     def compute_features(self):
         start = time.time()
@@ -24,13 +25,14 @@ class Benchmark:
         def get_constructs(sexpr):
             ret = {}
             for v in sexpr:
-                if time.time() - start > settings.FEATURE_CALC_TIMEOUT: return
+                if time.time() - start > settings.FEATURE_CALC_TIMEOUT:
+                    self.timeout = True
+                    return
                 if isinstance(v,str) and v in keyword_to_index: self.features[keyword_to_index[v]] += 1.0
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
 
-        with open(self.path) as infile:
-            tokenizer = SExprTokenizer(infile.read())
+            tokenizer = SExprTokenizer(self.path)
             for sexpr in tokenizer:
                 get_constructs(sexpr)
 

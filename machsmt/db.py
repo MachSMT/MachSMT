@@ -15,6 +15,7 @@ def build_database():
     else: 
         with open(settings.LIB_DIR + '/db.dat', 'rb') as infile:
             benchmarks,solvers = pickle.load(infile)
+            print("Loaded DB.")
             return
     n_lines,it_lines = 0,0
     for file in sys.argv[1:]: 

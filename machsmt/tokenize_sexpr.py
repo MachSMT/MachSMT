@@ -3,9 +3,9 @@
 import argparse
 
 class SExprTokenizer:
-    def __init__(self, data):
-        self.data = data
-        self.index = 0
+    def __init__(self, infile):
+        with open(infile,'r') as file:
+            self.file = file
 
     def __iter__(self):
         return self
@@ -24,12 +24,10 @@ class SExprTokenizer:
         cur_string_literal = []
         cur_token = None
 
-        max_num_chars = len(self.data)
-
-        while self.index < max_num_chars:
-            char = self.data[self.index]
-            self.index += 1
-
+        while True:
+            char = file.read(1)
+            if not char: break
+            
             # Handle string literals
             if char == '"' or cur_string_literal:
                 cur_string_literal.append(char)

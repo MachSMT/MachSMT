@@ -34,6 +34,7 @@ class Benchmark:
 
             tokenizer = SExprTokenizer(self.path)
             for sexpr in tokenizer:
+                if self.timeout: break
                 get_constructs(sexpr)
 
 

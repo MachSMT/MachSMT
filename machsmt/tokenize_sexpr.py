@@ -4,8 +4,7 @@ import argparse
 
 class SExprTokenizer:
     def __init__(self, infile):
-        with open(infile,'r') as file:
-            self.file = file
+        self.file = open(infile,'r')
 
     def __iter__(self):
         return self
@@ -13,6 +12,7 @@ class SExprTokenizer:
     def __next__(self):
         token = self.tokenize()
         if token is None:
+            self.file.close()
             raise StopIteration
         return token
 
@@ -25,7 +25,7 @@ class SExprTokenizer:
         cur_token = None
 
         while True:
-            char = file.read(1)
+            char = self.file.read(1)
             if not char: break
             
             # Handle string literals
@@ -114,12 +114,10 @@ def main():
     ap.add_argument('input')
     args = ap.parse_args()
 
-    with open(args.input) as infile:
-        contents = infile.read()
-        tokenizer = SExprTokenizer(contents)
+    tokenizer = SExprTokenizer(args.input)
 
-        for sexpr in tokenizer:
-            print(sexpr)
+    for sexpr in tokenizer:
+        print(sexpr)
 
 
 if __name__ == '__main__':

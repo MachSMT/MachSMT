@@ -8,3 +8,7 @@ RESULTS_DIR = 'results'
 SAVE_DB = True
 USE_GRAMMATICAL_CONSTRUCT_FEATURES = True
 FEATURE_CALC_TIMEOUT = 1.0
+
+import multiprocessing
+CORES = multiprocessing.cpu_count()
+# CORES = 1

@@ -1,6 +1,7 @@
 logic_list = [
     'ABVFP',
     'ALIA',
+    'ANIA',
     'AUFBVDTLIA',
     'AUFDTLIA',
     'AUFLIA',
@@ -23,6 +24,7 @@ logic_list = [
     'QF_AUFNIA',
     'QF_AX',
     'QF_BV',
+    'QF_AUFBVNIA',
     'QF_BVFP',
     'QF_BVFPLRA',
     'QF_DT',

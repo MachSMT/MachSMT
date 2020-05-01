@@ -13,10 +13,8 @@ def get_inst_path_core(logic,instance,path, instance_name):
     canidates.sort(key=lambda x: len(x),reverse=True)
     for dir in canidates:
         ret = get_inst_path_core(logic,instance,path = path + dir + '/', instance_name = instance_name[len(dir):])
-        if ret == None:
-            continue
-        else:
-            return ret
+        if ret != None: return ret
+    return None
 
 def get_smtlib_file(path):
     split = path.split('/')
@@ -26,3 +24,4 @@ def get_smtlib_file(path):
             ret = get_inst_path_core(logic,inst,path=settings.SMTLIB_BENCHMARKS_DB + '/' +  logic + '/', instance_name=inst)
             if ret == None: raise FileNotFoundError
             else: return ret
+    raise FileNotFoundError

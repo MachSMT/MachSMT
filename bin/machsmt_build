@@ -1,34 +1,41 @@
 #!/usr/bin/env python3
 
-import argparse,os,pickle,sys
+import argparse,os,pickle,sys,pdb
 
 import machsmt.settings as settings
-from machsmt.db import build_database
-# from machsmt.model_maker import model_maker
-# from machsmt.selector import LearnedModel
 
+from machsmt.db import DB
+from machsmt.model_builder import ModelBuilder
 from machsmt.util import die
 
 if __name__ == '__main__':
-    if not len(sys.argv) > 1: die("Please provide a csv file(s)")
-    build_database()    
-    # for logic in working_database().db:
-    #     if args.logic != None and logic != args.logic:
-    #         continue
 
-    #     if not os.path.isdir(os.path.join(settings.LIB_DIR, logic)):
-    #         os.mkdir(os.path.join(settings.LIB_DIR, logic))
+    ## Setup parser
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", "--data-files",
+                    metavar="files[,files...]",
+                    action="store",
+                    dest="files",
+                    default=None,
+                    nargs='+',
+                    help="Input Data files containing solver, benchmark, runtime pairs")
 
-    #     for track in working_database().db[logic]:
-    #         if args.track != None and track != args.track:
-    #             continue
-    #         lm = LearnedModel(
-    #             logic=logic,
-    #             track=track,
-    #             db=working_database()[logic,track],
-    #             model_maker=model_maker
-    #         )
-    #         lm.run()
-    #         track_name = track.split('/')[-1]
-    #         with open(os.path.join(settings.LIB_DIR, logic, track_name), 'wb') as outfile:
-    #             pickle.dump(lm, outfile)
+
+    args = parser.parse_args()
+    db = DB()
+
+    ## Try to load a preexisting DB
+    try:
+        db.load()
+    except FileNotFoundError:
+        print("No database found.")
+        if args.files == None: die("No input files to build database from!")
+    
+    ## Build DB on new Data
+    if args.files != None: db.build(args.files)
+
+    ## Build models
+    ModelBuilder(db).build()
+
+    ##END OF SCRIPT
+    print("Successfully Built MachSMT!")

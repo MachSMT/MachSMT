@@ -4,7 +4,7 @@
 
 import sys,argparse,pdb,sys,traceback
 from machsmt.benchmark import Benchmark
-import multiprocessing.dummy as mp
+import multiprocessing as mp
 
 TIMEOUT = 2400
 attributes = 'benchmark', 'solver', 'wallclock time', 'result', 'expected','correct-answers','wrong-answers'
@@ -43,10 +43,15 @@ for file in args.files:
 # random.shuffle(data_points)
 print("benchmark,solver,score",flush=True)  # output header
 mutex = mp.Lock()
+
+benchmarks = {}
+
 def mp_call(point):
     try:
+        b = None
         b = Benchmark(point['benchmark'])
-        b.parse()
+        if b.path in benchmarks: b = benchmarks[b.path]
+        else: b.parse()
         score = None
         if 'result' in point and point['result'] == '--': ##treat '--' as unknown
             point['result'] = 'starexec-unknown'
@@ -64,6 +69,7 @@ def mp_call(point):
             score = float(point['wallclock time']) + (2 * TIMEOUT / b.check_sats) * (b.check_sats - int(point['correct-answers'])) + 10 * TIMEOUT * int(point['wrong-answers'])
         mutex.acquire()
         print(b.path + ',' + point['solver'] + ',' + str(score),flush=True)
+        if b.path not in benchmarks: benchmarks[b.path] = b
         mutex.release()
     except Exception as ex:
         traceback.print_exception(type(ex), ex, ex.__traceback__)

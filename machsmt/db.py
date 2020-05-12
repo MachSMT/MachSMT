@@ -13,14 +13,18 @@ class DB:
         self.solvers = {}
 
 
-    def get_solvers(self):
-        for solver in self.solvers: yield solver
+    def get_solvers(self): 
+        for solver in self.solvers:
+            if solver.lower().find('par4') == -1: yield solver
 
-    def get_benchmarks(self):
-        for benchmark in self.benchmarks: yield str(benchmark)
+    def get_benchmarks(self,solver=None): 
+        for benchmark in self.benchmarks: 
+            if solver == None: yield benchmark
+            else:
+                assert solver in self.solvers
+                if benchmark in self.solvers[solver].benchmarks:
+                    yield benchmark
 
-    
-    ##TODO FIX STORAGE TO USE SETS INSTEAD OF STR
     def __getitem__(self,key):
         if isinstance(key,str):
             if key in self.benchmarks and key in self.solvers: die("Database Error: Solver benchmark overlap.")
@@ -37,6 +41,7 @@ class DB:
             if key[1] in self.benchmarks: b = key[1]
             if s == None or b == None: raise IndexError
             return self.solvers[s].benchmarks[b]
+
     def load(self):
         print("Trying to load existing database.")
         if not os.path.exists(settings.LIB_DIR + '/db.dat'): raise FileNotFoundError
@@ -51,7 +56,6 @@ class DB:
             with open(settings.LIB_DIR + '/db.dat', 'wb') as outfile:
                 pickle.dump((self.benchmarks,self.solvers), outfile)
         
-
     def build(self,files):
         if isinstance(files,str): files = [files]
         
@@ -62,17 +66,24 @@ class DB:
 
         bar = Bar('Indexing Input Files', max=n_lines)
         for csvfile in files:
-            benchmark_indx, solver_indx, score_indx = None,None,None
+            ## SQ Data
+            benchmark,solver,wallclock_time,result,expected = None,None,None,None,None
+            ##INC Data
+            benchmark,solver,wallclock_time,result,wrong_answers,correct_answers = None,None,None,None,None,None
+            ##Data Type
+            is_sq, is_inc = False,False
+
             with open(csvfile,'r') as file:
                 it_file = 0
                 for line in file:
                     line,it_file,it_lines  = line.split(','),it_file+1,it_lines+1
-                    if it_file == 1: benchmark_indx, solver_indx, score_indx = line.index('benchmark'), line.index('solver'), line.index('wallclock time')
+                    if len(line) > 0 and len(line[-1]) > 0 and line[-1][-1] == '\n': line[-1] = line[-1][:-1]
+                    if it_file == 1: benchmark_indx, solver_indx, score_indx = line.index('benchmark'), line.index('solver'), line.index('score')
                     else:
                         benchmark,solver,score = line[benchmark_indx], line[solver_indx], float(line[score_indx])
                         if benchmark not in self.benchmarks: self.benchmarks[benchmark] = Benchmark(benchmark)
                         if solver not in self.solvers: self.solvers[solver] = Solver(solver)
-                        self.solvers[solver].add_benchmark(self.benchmarks[benchmark],score)
+                        self.solvers[solver].add_benchmark(benchmark,score)
                     bar.next()
         bar.finish()
 
@@ -97,4 +108,4 @@ class DB:
 
         with mp.Pool(settings.CORES) as pool:
             pool.map(mp_call,enumerate(self.benchmarks.keys()))
-        self.save()
+        bar.finish()

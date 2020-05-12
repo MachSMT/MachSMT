@@ -6,13 +6,15 @@ from machsmt.smtlib import grammatical_construct_list,logic_list
 
 keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
 
+sys.setrecursionlimit(10**3)
+
+
 class Benchmark:
-    def __init__(self,path:str):
-        self.name = path
+    def __init__(self,name:str):
+        self.name = name
         try:
-            self.path = path if os.path.exists(path) else get_smtlib_file(path)
-        except FileNotFoundError:
-            die("Could not find: " + path)
+            self.path = name if os.path.exists(name) else get_smtlib_file(name)
+        except FileNotFoundError: die("Could not find: " + name)
         self.features = None
         self.theory = None
         self.timeout = False
@@ -20,11 +22,23 @@ class Benchmark:
         self.track = 'UNKNOWN' ## 'SQ' or 'INC'
         self.family = None
         self.check_sats = 0
+        self.score = None
+        self.graph = None
+
+    def make_graph(self):
+        #recursion handle
+        def build_graph(sexpr,depth,max_depth=10):
+            pass
+        for sexpr in SExprTokenizer(self.path):
+            if sexpr[0] == 'assert':
+                pass
+        pass
+
 
     ## Compute Features up to a timeout
     def compute_features(self):
         start = time.time()
-        self.features = [0.0] * len(grammatical_construct_list)
+        self.features = [0] * len(grammatical_construct_list)
 
         #recursion handle
         def get_constructs(sexpr):
@@ -33,14 +47,15 @@ class Benchmark:
                 if time.time() - start > settings.FEATURE_CALC_TIMEOUT:
                     self.timeout = True
                     return
-                if isinstance(v,str) and v in keyword_to_index: self.features[keyword_to_index[v]] += 1.0
+                if isinstance(v,str): 
+                    if v in keyword_to_index: self.features[keyword_to_index[v]] += 1
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
-
-            tokenizer = SExprTokenizer(self.path)
-            for sexpr in tokenizer:
-                if self.timeout: break
-                get_constructs(sexpr)
+        tokenizer = SExprTokenizer(self.path)
+        for sexpr in tokenizer:
+            if self.timeout: break
+            try:                    get_constructs(sexpr)
+            except RecursionError:  pass
 
     ## Get and if necessary, compute features.
     def get_features(self):
@@ -60,7 +75,6 @@ class Benchmark:
         self.track = 'SQ' if self.check_sats == 1 else 'INC'
 
     def __str__(self): return self.name
-    # def __str__(self): return self.path
 
     __repr__ = __str__
 

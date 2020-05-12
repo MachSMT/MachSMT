@@ -1,10 +1,14 @@
 import os,glob,pdb,pickle,sys
 import machsmt.settings as settings
 from machsmt.smtlib import logic_list
+import __main__
 
-def die(msg):
-    print("[machsmt_build] Error: {}".format(msg))
+def die(*msg):
+    print("[machsmt] Error: {}".format(msg))
     sys.exit(1)
+
+def warning(*msg):
+    print("[machsmt] warning: {}".format(msg))
 
 def get_inst_path_core(logic,instance,path, instance_name):
     if os.path.exists(path + '/' + instance_name): return path + instance_name

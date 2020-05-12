@@ -10,5 +10,7 @@ USE_GRAMMATICAL_CONSTRUCT_FEATURES = True
 FEATURE_CALC_TIMEOUT = 1.0
 
 import multiprocessing
-CORES = multiprocessing.cpu_count()
+CORES = multiprocessing.cpu_count() * 2
+
+K_FOLD = 10
 # CORES = 1

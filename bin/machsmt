@@ -1,39 +1,22 @@
 #!/usr/bin/env python3
 
-import argparse
-import os
-import pickle
-import sys
-
-def die(msg):
-    print("[machsmt_select] Error: {}".format(msg))
-    sys.exit(1)
-
-def check_file(file):
-    if not os.path.exists(file):
-        die("Could not find input file '{}'".format(args.input))
-    if os.path.isdir(args.input):
-        die("Given input file is a directory")
+import argparse,os,sys,glob,pickle
+import numpy as np
+from machsmt.util import die
+from machsmt.benchmark import Benchmark
+import machsmt.settings as settings
 
 if __name__ == "__main__":
+    if len(sys.argv) <= 1: die("Please provide a file to make a prediction on.")
+    for file in sys.argv[1:]:
+        if not os.path.exists(file): die("Could not find: " + str(file))
+        b = Benchmark(file)
+        b.parse()
+        b.compute_features()
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('model', type=str,
-                        help="Learned model to be used for solver selection")
-    parser.add_argument('input', type=str,
-                        help="SMT2 input file to select a solver for")
-
-    args = parser.parse_args()
-
-    if not os.path.isfile(args.input):
-        die("Could not find input file '{}'".format(args.input))
-    if os.path.isdir(args.input):
-        die("Given input file is a directory")
-    if not os.path.isfile(args.model):
-        die("Could not find learned model '{}'".format(args.model))
-    if os.path.isdir(args.model):
-        die("Given learned model is a directory")
-
-    with open(args.model, 'rb') as infile:
-        lm = pickle.load(infile)
-        print(lm.predict(args.input))
+        logic,track = b.logic,b.track
+        models = glob.glob(settings.LIB_DIR + '/tracks/' + logic + '/' + track + '/*.p')
+        predictions = []
+        for model in models:
+            predictions.append(pickle.load(open(model, "rb")).predict(np.array(b.get_features()).reshape(1, -1)))
+        print(models[np.argmin(predictions)].split('/')[-1].replace('.p',''))

@@ -1,56 +1,97 @@
-import pdb,os,sys,random,pickle,os,glob
+import pdb,os,sys,random,pickle,os,glob,itertools,traceback
 import numpy as np
-from machsmt.model_maker import mk_regressor
 import machsmt.settings as settings
 from machsmt.util import die,warning
 from machsmt.benchmark import Benchmark
 from sklearn.model_selection import LeaveOneOut,KFold
 from progress.bar import Bar
-from machsmt.smtlib import logic_list
+from machsmt.smtlib import logic_list,get_theories
 import matplotlib.pyplot as plt
+import multiprocessing.dummy as mp
+
+from machsmt.predictor import *
 
 class ModelEvaluator:
+    ##Init
     def __init__(self,db):
         self.db = db
-        self.structure = {}
-        self.solver_predictions = {}
-        self.logic_track_predictions  = {}
+        self.structure = None
+        self.smtcomp = None
+        self.smtcomp_plot_data = None
+        self.plot_data = None
 
-        self.smt_comp = {}
+        self.predictors = {
+            "MachSMT-S":    SolverPredictor(self.db),
+            "MachSMT-LT":   LogicTrackPredictor(self.db),
+            # "MachSMT-LTC":  LogicTrackPredictor(self.db,common=True),
+            "MachSMT-PWS":  PairwisePredictor(self.db),
+        }
 
-    def parse_smt_comp(self):
-        for file in glob.glob('smt-comp/2019/results/*.csv'):
-            with open(file) as infile:
-                self.smt_comp[file]               = {}
-                header = None
-                bench,solver = None,None
-                hasher = {}
-                for it,line in enumerate(infile):
-                    if it == 0: 
-                        header = line.split(',')
-                        bench,solver = header.index('benchmark'),header.index('solver')
-                    else:
-                        line = line.split(',')
-                        logic = None
-                        for v in line[bench].split('/'):
-                            if v in logic_list: 
-                                logic = v
-                                break
-                        assert logic != None
-                        if logic not in self.smt_comp[file]:
-                             self.smt_comp[file][logic] = {}
-                             self.smt_comp[file][logic]['benchmarks']   = set()
-                             self.smt_comp[file][logic]['solvers']      = set()
-                        if line[bench] not in hasher: hasher[line[bench]] = Benchmark(line[bench]).path
-                        if line[solver].lower().find('par4') == -1:
-                            self.smt_comp[file][logic]['benchmarks'].add(hasher[line[bench]])
-                            self.smt_comp[file][logic]['solvers'].add(line[solver])
+    ## Parse SMT data, and load plot data
+    def parse_smtcomp(self):
+        ## Build data structure of all data
+        if self.smtcomp == None:
+            print("Loading SMT COMP data for comparisons.")
+            self.smtcomp = {}
+            for file in glob.glob('smt-comp/2019/results/*.csv'):
+                with open(file) as infile:
+                    self.smtcomp[file]               = {}
+                    header = None
+                    bench,solver = None,None
+                    hasher = {}
+                    for it,line in enumerate(infile):
+                        if it == 0: 
+                            header = line.split(',')
+                            bench,solver = header.index('benchmark'),header.index('solver')
+                        else:
+                            line = line.split(',')
+                            logic = None
+                            for v in line[bench].split('/'):
+                                if v in logic_list: 
+                                    logic = v
+                                    break
+                            assert logic != None
+                            if logic not in self.smtcomp[file]:
+                                self.smtcomp[file][logic] = {}
+                                self.smtcomp[file][logic]['benchmarks']   = set()
+                                self.smtcomp[file][logic]['solvers']      = set()
+                            if line[bench] not in hasher: hasher[line[bench]] = Benchmark(line[bench]).path
+                            if line[solver].lower().find('par4') != -1: continue
+                            self.smtcomp[file][logic]['benchmarks'].add(hasher[line[bench]])
+                            self.smtcomp[file][logic]['solvers'].add(line[solver])
+            self.save()
 
+        ## Populate Plot Data
+        self.smtcomp_plot_data = {}
+        for file in self.smtcomp:
+            self.smtcomp_plot_data[file] = {}
+            for logic in self.smtcomp[file]:
+                self.smtcomp_plot_data[file][logic] = {}
+                solvers = list(self.smtcomp[file][logic]['solvers'])
+                benchmarks = set(self.smtcomp[file][logic]['benchmarks'])
+
+                common_benchmarks = set(benchmarks)
+                N = len(common_benchmarks)
+                for solver in solvers:
+                    solver_benchmarks = set(b for b in self.db.get_benchmarks(solver) if b in benchmarks)
+                    common_benchmarks = set(b for b in common_benchmarks if b in solver_benchmarks)
+                    if len(benchmarks) - len(solver_benchmarks) != 0: warning("Solver [" + solver + '] missing: ' + str(len(benchmarks) - len(solver_benchmarks)) + "/" + str(len(benchmarks)) + " benchmarks.",logic,file)
+                if N - len(common_benchmarks) > 0: warning("Lost " + str(N - len(common_benchmarks)) +  "/" + str(len(benchmarks)) + " benchmarks.",logic,file)
+
+                ## Generate virtual best data lines
+                self.smtcomp_plot_data[file][logic]['Virtual Best'] = {}
+                for solver in solvers:
+                    self.smtcomp_plot_data[file][logic][solver] = {}
+                    for benchmark in common_benchmarks:
+                        self.smtcomp_plot_data[file][logic][solver][benchmark] = self.db[solver,benchmark]
+                        self.smtcomp_plot_data[file][logic]['Virtual Best'][benchmark] = self.db[solver,benchmark] if benchmark not in self.smtcomp_plot_data[file][logic]['Virtual Best'] else min(self.smtcomp_plot_data[file][logic]['Virtual Best'][benchmark],self.db[solver,benchmark])
+
+    ##set up structure and reuslts dir
     def organize(self):
         if not os.path.exists(settings.RESULTS_DIR): os.mkdir(settings.RESULTS_DIR)
         if not os.path.exists(settings.RESULTS_DIR + '/solvers'): os.mkdir(settings.RESULTS_DIR + '/solvers')
         if not os.path.exists(settings.RESULTS_DIR + '/tracks'):  os.mkdir(settings.RESULTS_DIR + '/tracks')
-
+        self.structure = {}
         for solver in self.db.get_solvers():
             for benchmark in self.db.get_benchmarks(solver):
                 if self.db[benchmark].logic not in self.structure: self.structure[self.db[benchmark].logic] = {}
@@ -64,127 +105,34 @@ class ModelEvaluator:
                 if not os.path.exists(settings.RESULTS_DIR + '/tracks/' + logic + '/' + track): 
                     os.mkdir(settings.RESULTS_DIR + '/tracks/' + logic + '/' + track)
 
-    def eval_solver_ehms(self):
-        N = 0
-        for solver in self.db.get_solvers(): 
-            self.solver_predictions[solver] = {}
-            N += 1
-
-        bar = Bar('Building Solver EHMs', max=N)
-        for solver in self.db.get_solvers():
-            X, Y = [],[]
-            benchmarks = list(self.db.get_benchmarks(solver))
-            for benchmark in benchmarks:
-                X.append(self.db[benchmark].get_features())
-                Y.append(self.db[solver,benchmark])
-            if len(X) < settings.K_FOLD:
-                warning("Not enough data to evaluate EHM.",solver)
-                continue
-            ##
-            X,Y = np.array(X), np.log(np.array(Y)+1)
-            for train, test in KFold(n_splits=settings.K_FOLD,shuffle=True).split(X):
-                predictions = mk_regressor(n_samples = len(X[train]), n_features = len(X[0])).fit(X[train],Y[train]).predict(X[test])
-                for it, indx in enumerate(test):
-                    self.solver_predictions[solver][benchmarks[indx]] = predictions[it]
-            bar.next()
-        bar.finish()
-
-    def eval_logic_track_ehms(self):
-        N = 0
-        for logic in self.structure:
-            self.logic_track_predictions[logic] = {}
-            for track in self.structure[logic]:
-                self.logic_track_predictions[logic][track]= {}
-                for solver in self.structure[logic][track]:
-                    self.logic_track_predictions[logic][track][solver] = {}
-                    N += 1
-
-        bar = Bar('Building Track EHMs', max=N)
-        for logic in self.structure:
-            for track in self.structure[logic]:
-                for solver in self.structure[logic][track]:
-                    X, Y = [],[]
-                    all_benchmarks = list(self.db.get_benchmarks(solver))
-                    benchmarks = []
-                    for benchmark in all_benchmarks:
-                        if self.db[benchmark].logic == logic and self.db[benchmark].track == track:
-                            X.append(self.db[benchmark].get_features())
-                            Y.append(self.db[solver,benchmark])
-                            benchmarks.append(benchmark)
-                    if len(X) < settings.K_FOLD:
-                        warning("Not enough data to evaluate EHM.",solver,logic,track)
-                        continue
-                    ##
-                    X,Y = np.array(X), np.log(np.array(Y)+1)
-                    for train, test in KFold(n_splits=settings.K_FOLD,shuffle=True).split(X):
-                        predictions = mk_regressor(n_samples = len(X[train]), n_features = len(X[0])).fit(X[train],Y[train]).predict(X[test])
-                        for it, indx in enumerate(test):
-                            self.logic_track_predictions[logic][track][solver][benchmarks[indx]] = predictions[it]
-                    bar.next()
-        bar.finish()
-
-    def plotter(self):
-        plot_data = {}
-        for file in self.smt_comp:
-            plot_data[file] = {}
-            for logic in self.smt_comp[file]:
-                plot_data[file][logic] = {}
-                solvers = list(self.smt_comp[file][logic]['solvers'])
-                benchmarks = self.smt_comp[file][logic]['benchmarks']
-
-                common_benchmarks = set(benchmarks)
-                N = len(common_benchmarks)
-                for solver in solvers:
-                    solver_benchmarks = set(self.db.get_benchmarks(solver))
-                    common_benchmarks = set(b for b in common_benchmarks if b in solver_benchmarks)
-                if len(common_benchmarks) < settings.K_FOLD:
-                    warning("Not enough data to evaluate EHM.",file,logic)
-                    continue
-
-                warning("Lost " + str(N - len(common_benchmarks)) + " benchmarks.",logic,file)
-                
-                ## Generate virtual best + solver data lines
-                plot_data[file][logic]['Virtual Best'] = {}
-                for solver in solvers:
-                    plot_data[file][logic][solver] = {}
-                    for benchmark in common_benchmarks:
-                        plot_data[file][logic][solver][benchmark] = self.db[solver,benchmark]
-                        plot_data[file][logic]['Virtual Best'][benchmark] = self.db[solver,benchmark] if benchmark not in plot_data[file][logic]['Virtual Best'] else min(plot_data[file][logic]['Virtual Best'][benchmark],self.db[solver,benchmark])
-                
-                ## MachSMT lines
-                plot_data[file][logic]['MachSMT'] = {}
-                # plot_data[file][logic]['MachSMT - solver'] = {}
-                for benchmark in common_benchmarks:
-                    predicted_times = []
-                    for solver in solvers:
+    ## Construct results directory
+    def smtcomp_plotter(self,logics=None):
+        for file in self.smtcomp_plot_data:
+            for logic in (self.smtcomp_plot_data[file] if logics == None else logics):
+                solver = list(self.smtcomp_plot_data[file][logic].keys())[0]
+                for benchmark in self.smtcomp_plot_data[file][logic][solver]:
+                    for predictor in self.predictors:
+                        if predictor not in self.smtcomp_plot_data[file][logic]:  self.smtcomp_plot_data[file][logic][predictor] = {}
                         try:
-                            predicted_times.append(self.logic_track_predictions[logic][self.db[benchmark].track][solver][benchmark])         
+                            self.smtcomp_plot_data[file][logic][predictor][benchmark] = self.predictors[predictor].predictions[benchmark]
                         except:
-                            warning("Missing prediction: ", logic,benchmark,solver)
-                            predicted_times.append(float('inf'))
+                            die("Missing: ", file, logic, predictor,benchmark)
 
-                        # try:
-                        #     predicted_times.append(self.solver_predictions[solver][benchmark])
-                        # except:
-                        #     warning("Missing prediction: ", logic,benchmark,solver)
-                        #     predicted_times.append(float('inf'))
-                    plot_data[file][logic]['MachSMT'][benchmark] = self.db[benchmark,solvers[np.argmin(predicted_times)]]
 
-        import itertools
         marker = itertools.cycle((',', '+', '.', 'o', '*'))
         colors = itertools.cycle(('b','g','r','c','m','y')) 
 
         ### MAKE SMT COMP DATA
         if not os.path.exists(settings.RESULTS_DIR + '/smt-comp'):  os.mkdir(settings.RESULTS_DIR + '/smt-comp')
-        for file in plot_data:
+        for file in self.smtcomp_plot_data:
             if not os.path.exists(settings.RESULTS_DIR + '/smt-comp/' + file.split('/')[-1].replace('.csv','')):  os.mkdir(settings.RESULTS_DIR + '/smt-comp/' + file.split('/')[-1].replace('.csv',''))
-            for logic in plot_data[file]:
+            for logic in self.smtcomp_plot_data[file]:
                 score_data = []
                 if not os.path.exists(settings.RESULTS_DIR + '/smt-comp/' + file.split('/')[-1].replace('.csv','') + '/' + logic):  os.mkdir(settings.RESULTS_DIR + '/smt-comp/' + file.split('/')[-1].replace('.csv','') + '/' + logic)
                 plt.cla()
                 plt.clf()
-                for solver in plot_data[file][logic]:
-                    scores = list(plot_data[file][logic][solver].values())
+                for solver in self.smtcomp_plot_data[file][logic]:
+                    scores = list(self.smtcomp_plot_data[file][logic][solver].values())
                     scores.sort()
                     plt.plot(scores,label=solver,marker=next(marker),color=next(colors))
                     score_data.append((solver,sum(scores)))
@@ -195,24 +143,74 @@ class ModelEvaluator:
                     score_file.write("solver,score\n")
                     for solver,score in score_data:
                         score_file.write(solver + "," + str(score) + "\n")
+                with open(settings.RESULTS_DIR + '/smt-comp/' + file.split('/')[-1].replace('.csv','') + '/' + logic + '/loss.csv','w') as loss_file:
+                    best_machsmt,score = None,float('+inf')
+                    for solver in self.smtcomp_plot_data[file][logic]:
+                        if solver.find('MachSMT') == -1: continue
+                        s = sum(self.smtcomp_plot_data[file][logic][solver].values())
+                        if s < score:
+                            score,best_machsmt = s,solver
+                    if best_machsmt == None:
+                        warning("Can't find MachSMT for: " + logic, file)
+                        continue
 
+
+                    loss_data = []
+                    loss_file.write('benchmark,loss\n')
+                    for benchmark in self.smtcomp_plot_data[file][logic][best_machsmt]: loss_data.append((benchmark, self.smtcomp_plot_data[file][logic][best_machsmt][benchmark] - self.smtcomp_plot_data[file][logic]['Virtual Best'][benchmark]))
+                    loss_data.sort(key=lambda v:v[1],reverse=True)
+                    for benchmark,val in loss_data: loss_file.write(benchmark + ',' + str(val) + '\n')
+
+    ## Save everything
     def save(self):
         with open(settings.RESULTS_DIR + '/data.p', 'wb') as outfile:
-            pickle.dump((self.structure, self.solver_predictions, self.logic_track_predictions, self.smt_comp), outfile)
+            pickle.dump(
+                (
+                    self.structure,
+                    self.smtcomp,
+                    self.smtcomp_plot_data,
+                    self.plot_data,
+                    self.predictors,
+                ), 
+            
+            outfile)
 
+    ## Load save
     def load(self):
+        tmp_predictors = self.predictors
         if not os.path.exists(settings.RESULTS_DIR + '/data.p'): raise FileNotFoundError
         with open(settings.RESULTS_DIR + '/data.p', 'rb') as infile:
-            self.structure, self.solver_predictions, self.logic_track_predictions, self.smt_comp = pickle.load(infile)
+                    self.structure,\
+                    self.smtcomp,\
+                    self.smtcomp_plot_data,\
+                    self.plot_data,\
+                    = pickle.load(infile)
+        self.predictors
+        for val in tmp_predictors:
+            self.predictors[val] = tmp_predictors[val]
 
-    def run(self,rerun=False):
-        if rerun or not os.path.exists(settings.RESULTS_DIR + '/data.p'):
-            self.parse_smt_comp()
-            self.organize()
-            self.eval_logic_track_ehms()
-            self.eval_solver_ehms()
-            self.save()
-        else: self.load()
-        self.eval_logic_track_ehms()
-        # self.eval_solver_ehms()
-        self.plotter()
+    ## Main Method
+    def run(self, logics = None):
+        try:
+            self.load()
+        except:
+            print("Building from scratch.")
+        self.parse_smtcomp()
+        self.organize()
+        run = {
+            "MachSMT-S":    False,
+            "MachSMT-T":    False,
+            "MachSMT-L":    False,
+            "MachSMT-LT":   False,
+            "MachSMT-LTC":  False,
+            "MachSMT-PWS":  True
+        }
+        for algo in run:
+            try:
+                if run[algo]: self.predictors[algo].eval(logics)
+            except Exception as ex:
+                traceback.print_exception(type(ex), ex, ex.__traceback__)
+            finally:
+                self.save()
+        if True: self.smtcomp_plotter(logics)
+        self.save()

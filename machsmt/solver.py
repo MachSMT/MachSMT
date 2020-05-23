@@ -11,9 +11,6 @@ class Solver:
     def remove_benchmark(self, benchmark):
         if benchmark in self.benchmarks: self.benchmarks.pop(benchmark)
 
-    # def get_benchmarks(self):
-    #     for benchmark in self.benchmarks: yield benchmark ## fix so casting isn't necessary
-
     def get_score(self,benchmark): return self.benchmarks[benchmark]
 
     def __getitem__(self,key): return self.get_score(key)

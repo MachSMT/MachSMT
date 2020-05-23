@@ -20,11 +20,20 @@ if __name__ == '__main__':
                     nargs='+',
                     help="Input Data files containing solver, benchmark, runtime pairs")
 
+    parser.add_argument("-l", "--lib-directory",
+                metavar="lib",
+                action="store",
+                dest="lib",
+                default=None,
+                type=str,
+                help="Input Data files containing solver, benchmark, runtime pairs")
 
     args = parser.parse_args()
+
+    if args.lib != None: settings.LIB_DIR = args.lib
+
     db = DB()
 
-    ## Try to load a preexisting DB
     try:
         db.load()
     except FileNotFoundError:

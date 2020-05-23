@@ -6,15 +6,10 @@ from machsmt.smtlib import grammatical_construct_list,logic_list
 
 keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
 
-sys.setrecursionlimit(10**3)
-
-
 class Benchmark:
     def __init__(self,name:str):
         self.name = name
-        try:
-            self.path = name if os.path.exists(name) else get_smtlib_file(name)
-        except FileNotFoundError: die("Could not find: " + name)
+        self.path = name if os.path.exists(name) else get_smtlib_file(name)
         self.features = None
         self.theory = None
         self.timeout = False
@@ -24,6 +19,7 @@ class Benchmark:
         self.check_sats = 0
         self.score = None
         self.graph = None
+        self.parsed = False
 
     def make_graph(self):
         #recursion handle
@@ -66,13 +62,16 @@ class Benchmark:
     # full parsing of input file.
     # compute logic, track, # check-sat
     def parse(self):
+        if self.parsed: return
         tokenizer = SExprTokenizer(self.path)
         for sexpr in tokenizer:
+            # print(sexpr)
             if len(sexpr) > 0 and sexpr[0]  == 'check-sat': self.check_sats += 1
             if len(sexpr) >= 2 and sexpr[0] == 'set-logic': self.logic = sexpr[1]
         assert self.logic in logic_list or self.logic == 'ALL'
         assert self.check_sats >= 1
         self.track = 'SQ' if self.check_sats == 1 else 'INC'
+        self.parsed=True
 
     def __str__(self): return self.name
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import argparse
+import argparse,pdb
 
 class SExprTokenizer:
     def __init__(self, infile):
@@ -29,7 +29,7 @@ class SExprTokenizer:
             if not char: break
             
             # Handle string literals
-            if char == '"' or cur_string_literal:
+            if (char == '"' or cur_string_literal) and not cur_comment:
                 cur_string_literal.append(char)
                 # TODO: Escaped quotes "A "" B "" C" is one string literal
                 if char == '"' and len(cur_string_literal) > 1:
@@ -40,10 +40,11 @@ class SExprTokenizer:
 
             # Handle piped symbols
             if char == '|' or cur_quoted_symbol:
+                if len(cur_comment) > 0: continue
                 cur_quoted_symbol.append(char)
                 if char == '|' and len(cur_quoted_symbol) > 1:
                     # Piped symbols only appear in s-expressions
-                    assert cur_expr is not None
+                    if cur_expr == None: cur_expr = []
                     cur_expr.append(''.join(cur_quoted_symbol))
                     cur_quoted_symbol = []
                 continue
@@ -102,7 +103,6 @@ class SExprTokenizer:
             # Append to current token
             elif cur_token is not None:
                 cur_token.append(char)
-
         assert not exprs
         assert cur_token is None
         return None

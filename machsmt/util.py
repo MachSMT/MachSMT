@@ -8,7 +8,7 @@ def die(*msg):
     sys.exit(1)
 
 def warning(*msg):
-    print("[machsmt] warning: {}".format(msg))
+    print("[machsmt] warning: {}".format(msg),file=sys.stdout,flush=True)
 
 def get_inst_path_core(logic,instance,path, instance_name):
     if os.path.exists(path + '/' + instance_name): return path + instance_name

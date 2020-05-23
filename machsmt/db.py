@@ -3,7 +3,7 @@ from progress.bar import Bar
 import machsmt.settings as settings
 from machsmt.benchmark import Benchmark
 from machsmt.solver import Solver 
-from machsmt.util import die
+from machsmt.util import die,warning
 import multiprocessing.dummy as mp ##?? other doesn't work for whatever reason...
 
 class DB:
@@ -12,35 +12,89 @@ class DB:
         self.benchmarks = {}
         self.solvers = {}
 
-
-    def get_solvers(self): 
+    def get_solvers(self,benchmark=None,logic=None,track=None): 
         for solver in self.solvers:
-            if solver.lower().find('par4') == -1: yield solver
+            if benchmark != None and benchmark not in self.solvers[solver].benchmarks: continue
+            if logic != None:
+                ok = False
+                for bench in self.get_benchmarks(solver):
+                    if self.benchmarks[bench].logic == logic:
+                        ok = True
+                        break
+                if not ok: continue
+            if track != None:
+                ok = False
+                for bench in self.solvers[solver].benchmarks:
+                    if self.benchmarks[bench].track == track:
+                        ok = True
+                        break
+                if not ok: continue
+            yield solver
 
-    def get_benchmarks(self,solver=None): 
-        for benchmark in self.benchmarks: 
-            if solver == None: yield benchmark
-            else:
-                assert solver in self.solvers
-                if benchmark in self.solvers[solver].benchmarks:
-                    yield benchmark
+    def get_logics(self):
+        ret = set()
+        for benchmark in self.get_benchmarks():
+            ret.add(self.benchmarks[benchmark].logic)
+        return ret
+
+    def get_tracks(self,logic=None):
+        ret = set()
+        for benchmark in self.get_benchmarks():
+            if logic == None: ret.add(self.benchmarks[benchmark].track)
+            elif self.benchmarks[benchmark].logic == logic: ret.add(self.benchmarks[benchmark].track)
+        return ret
+
+    def get_benchmarks(self,solver=None,logic=None,track=None): 
+        for benchmark in self.benchmarks:
+            if solver != None:
+                if benchmark not in self.solvers[solver].benchmarks: continue
+            if logic != None:
+                if self.benchmarks[benchmark].logic != logic: continue
+            if track != None:
+                if self.benchmarks[benchmark].track != track: continue
+
+            yield benchmark
+
+    def get_logics(self):
+        ret = set()
+        for benchmark in self.get_benchmarks():
+            ret.add(self.benchmarks[benchmark].logic)
+        return ret
+
+    def get_best_solver(self,logic,track,benchmark):
+        scores = {}
+        for solver in self.get_solvers(logic=logic,track=track):
+            try:
+                scores[solver] = sum([self[solver,v] for v in self.get_benchmarks(solver=solver,logic=logic,track=track)]) / len(list(self.get_benchmarks(solver=solver,logic=logic,track=track)))
+            except ZeroDivisionError:
+                scores[solver] = float('+inf')
+        while len(scores) > 0:
+            best = max(scores,key=lambda v:v[1])
+            if benchmark != None and benchmark not in self.solvers[best].benchmarks:
+                scores.pop(best)
+            else: return max(scores,key=lambda v:v[1])
 
     def __getitem__(self,key):
         if isinstance(key,str):
             if key in self.benchmarks and key in self.solvers: die("Database Error: Solver benchmark overlap.")
             elif key in self.benchmarks: return self.benchmarks[key]
             elif key in self.solvers: return self.solvers[key]
-            else: raise IndexError
-        if   len(key) == 0: raise IndexError
+            else: raise IndexError("Could not find: " + str(key) + " in database.")
+        if   len(key) == 0: raise IndexError("Could not find: " + str(key) + " in database.")
         elif len(key) == 1: return self[key[0]]
         elif len(key) == 2:
             s,b = None,None
             if key[0] in self.solvers: s = key[0]
             if key[1] in self.solvers: s = key[1]
-            if key[0] in self.benchmarks: b = key[0]
-            if key[1] in self.benchmarks: b = key[1]
-            if s == None or b == None: raise IndexError
-            return self.solvers[s].benchmarks[b]
+            if s == None:
+                raise IndexError("Could not find: " + str(key) + " in database.")
+            if   key[0] in self.solvers[s].benchmarks:  b = key[0]
+            elif key[1] in self.solvers[s].benchmarks:  b = key[1]
+            else: IndexError("Could not find: " + str(key) + " in database.")
+            try:
+                return self.solvers[s].benchmarks[b]
+            except:
+                pdb.set_trace()
 
     def load(self):
         print("Trying to load existing database.")
@@ -80,11 +134,13 @@ class DB:
                     if len(line) > 0 and len(line[-1]) > 0 and line[-1][-1] == '\n': line[-1] = line[-1][:-1]
                     if it_file == 1: benchmark_indx, solver_indx, score_indx = line.index('benchmark'), line.index('solver'), line.index('score')
                     else:
-                        benchmark,solver,score = line[benchmark_indx], line[solver_indx], float(line[score_indx])
-                        if benchmark not in self.benchmarks: self.benchmarks[benchmark] = Benchmark(benchmark)
-                        if solver not in self.solvers: self.solvers[solver] = Solver(solver)
-                        self.solvers[solver].add_benchmark(benchmark,score)
-                    bar.next()
+                        try:
+                            benchmark,solver,score = line[benchmark_indx], line[solver_indx], float(line[score_indx])
+                            if benchmark not in self.benchmarks: self.benchmarks[benchmark] = Benchmark(benchmark)
+                            if solver not in self.solvers: self.solvers[solver] = Solver(solver)
+                            self.solvers[solver].add_benchmark(benchmark,score)
+                            bar.next()
+                        except FileNotFoundError: pdb.set_trace()
         bar.finish()
 
         bar = Bar('Parsing Benchmark Files', max=len(self.benchmarks))

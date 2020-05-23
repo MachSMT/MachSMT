@@ -8,9 +8,14 @@ RESULTS_DIR = 'results'
 SAVE_DB = True
 USE_GRAMMATICAL_CONSTRUCT_FEATURES = True
 FEATURE_CALC_TIMEOUT = 1.0
+N_PCA_COMPONENTS = 30
+
+EVAL_YEAR = 2019
 
 import multiprocessing
-CORES = multiprocessing.cpu_count() * 2
+CORES = 12
 
-K_FOLD = 10
+MIN_DATA_POINTS=25
+
+K_FOLD = 2 ## a number or 'all' to do all against one
 # CORES = 1

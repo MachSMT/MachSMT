@@ -86,7 +86,7 @@ class DB:
             try:
                 return self.solvers[s].benchmarks[b]
             except:
-                pdb.set_trace()
+                return None
 
     def __len__(self): return len(self.benchmarks)
 

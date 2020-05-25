@@ -19,7 +19,13 @@ class Greedy(Predictor):
                 for train,test in KFold(n_splits=min(len(benchmarks),settings.k)).split(benchmarks):
                     ##Train
                     for solver in solvers:
-                        scores[solver] = sum([db[solver,benchmarks[indx]] for it,indx in enumerate(train)])
+                        scores[solver] = 0
+                        for it,indx in enumerate(train):
+                            if db[solver,benchmarks[indx]] == None:
+                                scores[solver] = settings.timeout * 2 # not sure how to handle this....
+                            else:
+                                scores[solver] += db[solver,benchmarks[indx]]
+                        sum([db[solver,benchmarks[indx]]  for it,indx in enumerate(train)])
                     ##Test
                     for it,indx in enumerate(test):
                         predictions[benchmark[it]] = {}

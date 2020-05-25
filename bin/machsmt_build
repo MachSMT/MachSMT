@@ -18,7 +18,8 @@ if __name__ == '__main__':
                     dest="files",
                     default=None,
                     nargs='+',
-                    help="Input Data files containing solver, benchmark, runtime pairs")
+                    help="Input Data files containing solver, benchmark, runtime pairs"
+    )
 
     parser.add_argument("-l", "--lib-directory",
                 metavar="lib",
@@ -26,7 +27,8 @@ if __name__ == '__main__':
                 dest="lib",
                 default=None,
                 type=str,
-                help="Input Data files containing solver, benchmark, runtime pairs")
+                help="Input Data files containing solver, benchmark, runtime pairs"
+    )
 
     args = parser.parse_args()
 

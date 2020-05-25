@@ -3,10 +3,11 @@ from sklearn.ensemble import AdaBoostRegressor,AdaBoostClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler,PolynomialFeatures
 from sklearn.neural_network import MLPRegressor
-import machsmt.settings as settings
+from ..parser import args as settings
 
 def mk_model(n_samples,classifier=False):
-    n = min(settings.N_PCA_COMPONENTS, n_samples)
+    n = min(settings.pca, n_samples)
+    n2 = min(settings.pca, n_samples)
     if n > 5:
         return make_pipeline(
                 StandardScaler(),

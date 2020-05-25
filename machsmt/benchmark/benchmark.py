@@ -1,10 +1,10 @@
 import os,pdb,sys,time
-import machsmt.settings as settings
-from machsmt.util import die,get_smtlib_file
+from machsmt.parser import args as settings
+from machsmt.util import die
 from machsmt.tokenize_sexpr import SExprTokenizer
-from machsmt.smtlib import grammatical_construct_list,logic_list
+# from ..smtlib import grammatical_construct_list,logic_list
 
-keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
+# keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
 
 class Benchmark:
     def __init__(self,name:str):

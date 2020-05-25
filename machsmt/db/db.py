@@ -1,9 +1,9 @@
 import pdb,os,glob,sys,copy,pickle
 from progress.bar import Bar
-import machsmt.settings as settings
-from machsmt.benchmark import Benchmark
-from machsmt.solver import Solver 
-from machsmt.util import die,warning
+from ..parser import args as settings
+from ..benchmark import Benchmark
+from ..solver import Solver
+from ..util import die,warning
 import multiprocessing.dummy as mp ##?? other doesn't work for whatever reason...
 
 class DB:
@@ -31,17 +31,18 @@ class DB:
                 if not ok: continue
             yield solver
 
-    def get_logics(self):
+    def get_tracks(self,solver=None,logic=None):
         ret = set()
         for benchmark in self.get_benchmarks():
-            ret.add(self.benchmarks[benchmark].logic)
-        return ret
-
-    def get_tracks(self,logic=None):
-        ret = set()
-        for benchmark in self.get_benchmarks():
-            if logic == None: ret.add(self.benchmarks[benchmark].track)
-            elif self.benchmarks[benchmark].logic == logic: ret.add(self.benchmarks[benchmark].track)
+            if solver != None and logic != None:
+                if self.benchmarks[benchmark].logic == logic and benchmark in self.solvers[solver].benchmarks:
+                    ret.add(self.benchmarks[benchmark].track)
+            elif logic != None: 
+                if self.benchmarks[benchmark].logic == logic: ret.add(self.benchmarks[benchmark].track)
+            elif solver != None:
+                if benchmark in self.solvers[solver].benchmarks:
+                    ret.add(self.benchmarks[benchmark].track)
+            else: ret.add(self.benchmarks[benchmark].track)
         return ret
 
     def get_benchmarks(self,solver=None,logic=None,track=None): 
@@ -55,24 +56,15 @@ class DB:
 
             yield benchmark
 
-    def get_logics(self):
+    def get_logics(self,solver=None,track=None):
         ret = set()
         for benchmark in self.get_benchmarks():
+            if solver != None:
+                if benchmark not in self.solvers[solver].benchmarks: continue
+            if track != None:
+                if self.benchmarks[benchmark].track != track: continue
             ret.add(self.benchmarks[benchmark].logic)
         return ret
-
-    def get_best_solver(self,logic,track,benchmark):
-        scores = {}
-        for solver in self.get_solvers(logic=logic,track=track):
-            try:
-                scores[solver] = sum([self[solver,v] for v in self.get_benchmarks(solver=solver,logic=logic,track=track)]) / len(list(self.get_benchmarks(solver=solver,logic=logic,track=track)))
-            except ZeroDivisionError:
-                scores[solver] = float('+inf')
-        while len(scores) > 0:
-            best = max(scores,key=lambda v:v[1])
-            if benchmark != None and benchmark not in self.solvers[best].benchmarks:
-                scores.pop(best)
-            else: return max(scores,key=lambda v:v[1])
 
     def __getitem__(self,key):
         if isinstance(key,str):
@@ -96,19 +88,20 @@ class DB:
             except:
                 pdb.set_trace()
 
+    def __len__(self): return len(self.benchmarks)
+
     def load(self):
         print("Trying to load existing database.")
-        if not os.path.exists(settings.LIB_DIR + '/db.dat'): raise FileNotFoundError
-        with open(settings.LIB_DIR + '/db.dat', 'rb') as infile:
+        if not os.path.exists(settings.lib + '/db.dat'): raise FileNotFoundError
+        with open(settings.lib + '/db.dat', 'rb') as infile:
             self.benchmarks, self.solvers = pickle.load(infile)
             print("Succesfully loaded database.")
             return
 
     def save(self):
-        if settings.SAVE_DB:
-            if not os.path.exists(settings.LIB_DIR): os.mkdir(settings.LIB_DIR)
-            with open(settings.LIB_DIR + '/db.dat', 'wb') as outfile:
-                pickle.dump((self.benchmarks,self.solvers), outfile)
+        if not os.path.exists(settings.lib): os.mkdir(settings.lib)
+        with open(settings.lib + '/db.dat', 'wb') as outfile:
+            pickle.dump((self.benchmarks,self.solvers), outfile)
         
     def build(self,files):
         if isinstance(files,str): files = [files]
@@ -152,7 +145,7 @@ class DB:
                 self.benchmarks[benchmark].parse()
                 self.benchmarks[benchmark].compute_features()
             except: ##Fix for crash on large inputs, TODO: FIX SO CRASH DOESN"T HAPPEN
-                print("Error parsing: " + str(benchmark), file=sys.stderr)
+                warning("Error parsing: " + str(benchmark), file=sys.stderr)
                 if benchmark in self.benchmarks: self.benchmarks.pop(benchmark)
                 for solver in self.solvers: self.solvers[solver].remove_benchmark(benchmark)
 
@@ -162,6 +155,8 @@ class DB:
             if it % 1000 == 0: self.save()
             mutex.release()
 
-        with mp.Pool(settings.CORES) as pool:
+        with mp.Pool(settings.cores) as pool:
             pool.map(mp_call,enumerate(self.benchmarks.keys()))
         bar.finish()
+
+    

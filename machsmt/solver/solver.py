@@ -1,4 +1,4 @@
-from machsmt.benchmark import Benchmark
+from ..benchmark import Benchmark
 
 class Solver:
     def __init__(self, name):

@@ -1,3 +1,8 @@
+import os,glob,pdb
+from ..db import database as db 
+OLD_DB = False
+
+
 logic_list = [
     'ABVFP',
     'ALIA',
@@ -79,11 +84,6 @@ def get_theories(logic):
         ret.append('DL')
 
     return ret
-
-
-
-
-
 
 grammatical_construct_list = [
     'as',
@@ -250,5 +250,77 @@ grammatical_construct_list = [
     'to_real',
     'to_int',
     'is_int',
-
 ]
+
+def get_inst_path_core(logic,instance,path, instance_name):
+    if os.path.exists(path + '/' + instance_name): return path + instance_name
+    directories = [v.split('/')[-2] for v in glob.glob(path+'*/')]
+    canidates = [dir for dir in directories if instance_name.startswith(dir)]
+    canidates.sort(key=lambda x: len(x),reverse=True)
+    for dir in canidates:
+        ret = get_inst_path_core(logic,instance,path = path + dir + '/', instance_name = instance_name[len(dir):])
+        if ret != None: return ret
+    return None
+
+cache = {}
+def get_smtlib_file(name):
+    global cache
+    if os.path.exists(name): return name
+    if name in cache: return cache[name] 
+    split = name.split('/')
+    for i in range(len(split)):
+        if split[i] in logic_list:
+            logic, inst = split[i], "".join([v for v in split[i+1:]])
+            ret = get_inst_path_core(logic,inst,path='benchmarks/smt-lib/non-incremental' + '/' +  logic + '/', instance_name=inst)
+            if ret == None:
+                ret = get_inst_path_core(logic,inst,path='benchmarks/smt-lib/incremental' + '/' +  logic + '/', instance_name=inst)
+            if ret == None: raise FileNotFoundError
+            if OLD_DB:
+                return ret.replace('smt-lib/incremental/','').replace('smt-lib/non-incremental/','')
+            else:
+                return ret
+    raise FileNotFoundError
+
+cache2 = {}
+def get_checksats(path):
+    global cache2
+
+    old_path = path.replace('benchmarks/smt-lib/incremental/','benchmarks/').replace('benchmarks/smt-lib/non-incremental/', 'benchmarks/')
+    try:
+        assert db[old_path].check_sats > 0      ##Index Error if not in DB
+        return db[old_path].check_sats
+    except AssertionError:
+        ret = 0
+        with open(path,'r') as infile:
+            for line in infile:
+                if line.find('check-sat') != -1:
+                    line = line[:line.find(';')]
+                    ret += line.count('check-sat')
+            return ret
+    # # old_path = path.replace('smt-lib/incremental/','').replace('smt-lib/non-incremental/','')
+    # # if old_path in db.benchmarks: return db[old_path].check_sats 
+    # if path in cache2: return cache2[path]
+    # if not os.path.exists(path):
+    #     if os.path.exists(path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/')):
+    #         path = path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/')
+    #     elif os.path.exists(path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')):
+    #         path = path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')
+    #     else:
+    #         p1,p2 = path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/'), path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')
+    #         try:
+    #             assert p1 in db.benchmarks
+    #             return db.benchmarks[p1].check_sats
+    #         except AssertionError:
+    #             assert p2 in db.benchmarks
+    #             return db.benchmarks[p2].check_sats
+    # ret = 0
+    # with open(path,'r') as infile:
+    #     for line in infile:
+    #         if line.find('check-sat') != -1:
+    #             line = line[:line.find(';')]
+    #             ret += line.count('check-sat')
+    # if ret == 0:
+    #     from ..db import database as db
+    #     ret = db[path]
+    # cache2[path] = ret
+    # return ret

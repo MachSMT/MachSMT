@@ -17,7 +17,7 @@ class DB:
             if benchmark != None and benchmark not in self.solvers[solver].benchmarks: continue
             if logic != None:
                 ok = False
-                for bench in self.get_benchmarks(solver):
+                for bench in self.get_benchmarks(solver=solver):
                     if self.benchmarks[bench].logic == logic:
                         ok = True
                         break
@@ -82,11 +82,9 @@ class DB:
                 raise IndexError("Could not find: " + str(key) + " in database.")
             if   key[0] in self.solvers[s].benchmarks:  b = key[0]
             elif key[1] in self.solvers[s].benchmarks:  b = key[1]
-            else: IndexError("Could not find: " + str(key) + " in database.")
-            try:
-                return self.solvers[s].benchmarks[b]
-            except:
-                return None
+            else: 
+                raise IndexError("Could not find: " + str(key) + " in database.")
+            return self.solvers[s].benchmarks[b]
 
     def __len__(self): return len(self.benchmarks)
 
@@ -109,7 +107,7 @@ class DB:
         n_lines,it_lines = 0,0
         for csvfile in files: 
             if not os.path.exists(csvfile): die("Could not find: " + csvfile)
-            n_lines += sum(1 for line in open(csvfile))
+            n_lines += sum(1 for line in open(csvfile)) -1 
 
         bar = Bar('Indexing Input Files', max=n_lines)
         for csvfile in files:
@@ -133,7 +131,8 @@ class DB:
                             if solver not in self.solvers: self.solvers[solver] = Solver(solver)
                             self.solvers[solver].add_benchmark(benchmark,score)
                             bar.next()
-                        except FileNotFoundError: pdb.set_trace()
+                        except FileNotFoundError:
+                            warning("Missing File: ", benchmark, "skipping for now...")
         bar.finish()
 
         bar = Bar('Parsing Benchmark Files', max=len(self.benchmarks))
@@ -145,6 +144,7 @@ class DB:
                 self.benchmarks[benchmark].parse()
                 self.benchmarks[benchmark].compute_features()
             except: ##Fix for crash on large inputs, TODO: FIX SO CRASH DOESN"T HAPPEN
+                pdb.set_trace()
                 warning("Error parsing: " + str(benchmark), file=sys.stderr)
                 if benchmark in self.benchmarks: self.benchmarks.pop(benchmark)
                 for solver in self.solvers: self.solvers[solver].remove_benchmark(benchmark)
@@ -155,7 +155,7 @@ class DB:
             if it % 1000 == 0: self.save()
             mutex.release()
 
-        with mp.Pool(settings.cores) as pool:
+        with mp.Pool(12) as pool:
             pool.map(mp_call,enumerate(self.benchmarks.keys()))
         bar.finish()
 

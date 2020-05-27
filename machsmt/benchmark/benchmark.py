@@ -2,9 +2,10 @@ import os,pdb,sys,time
 from machsmt.parser import args as settings
 from machsmt.util import die
 from machsmt.tokenize_sexpr import SExprTokenizer
-# from ..smtlib import grammatical_construct_list,logic_list
+from ..smtlib import grammatical_construct_list,logic_list,get_smtlib_file
+# import ..extra_features
 
-# keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
+keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
 
 class Benchmark:
     def __init__(self,name:str):
@@ -34,13 +35,12 @@ class Benchmark:
     ## Compute Features up to a timeout
     def compute_features(self):
         start = time.time()
-        self.features = [0] * len(grammatical_construct_list)
-
+        self.features = [0] * (len(grammatical_construct_list) + 2)
         #recursion handle
         def get_constructs(sexpr):
             ret = {}
             for v in sexpr:
-                if time.time() - start > settings.FEATURE_CALC_TIMEOUT:
+                if time.time() - start > settings.feature_timeout:
                     self.timeout = True
                     return
                 if isinstance(v,str): 
@@ -48,6 +48,10 @@ class Benchmark:
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
         tokenizer = SExprTokenizer(self.path)
+        self.features[-2] = 1 if self.timeout else -1
+        self.features[-1] = float(os.path.getsize(self.path))
+
+
         for sexpr in tokenizer:
             if self.timeout: break
             try:                    get_constructs(sexpr)

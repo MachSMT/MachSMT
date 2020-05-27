@@ -101,5 +101,13 @@ parser.add_argument("-t", "--timeout",
             help="Number of CPUs to run in parallel."
 )
 
+parser.add_argument("--feature-timeout",
+            metavar="feature_timeout",
+            action="store",
+            dest="feature_timeout",
+            default=10,
+            type=int,
+            help="Number of CPUs to run in parallel."
+)
 
 args = parser.parse_args()

@@ -43,6 +43,7 @@ class PairWise(Predictor):
                     ).predict(X[test])
                     for it, indx in enumerate(test):
                         classifications[common_benchmarks[indx]][(solver1,solver2)] = raw_predict[it]
+                bar.next()
         for benchmark in db.get_benchmarks():
             if benchmark not in classifications: continue
             scores = dict((s,0) for s in sorted(db.get_solvers(benchmark)))

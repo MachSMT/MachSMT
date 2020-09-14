@@ -6,7 +6,6 @@ from .smtlib import get_contest_data
 from .parser import args as settings
 from .util import warning
 
-
 class MachSMT:
     def __init__(self):
         ######
@@ -20,7 +19,7 @@ class MachSMT:
             predictor.SolverTrack,
             predictor.SolverLogic,
             predictor.SolverTrackLogic,
-            # predictor.PairWise,
+            predictor.PairWise,
         )
         self.smtcomp_years = 2019,  ## The following years are evaluated.
 

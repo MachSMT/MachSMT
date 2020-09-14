@@ -3,6 +3,7 @@ from machsmt.parser import args as settings
 from machsmt.util import die
 from machsmt.tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list,logic_list,get_smtlib_file
+from ..features import bonus_features
 # import ..extra_features
 
 keyword_to_index = dict( (grammatical_construct_list[i],i) for i in range(len(grammatical_construct_list)))
@@ -23,17 +24,14 @@ class Benchmark:
         self.parsed = False
 
     def make_graph(self):
-        #recursion handle
-        def build_graph(sexpr,depth,max_depth=10):
-            pass
-        for sexpr in SExprTokenizer(self.path):
-            if sexpr[0] == 'assert':
-                pass
         pass
-
 
     ## Compute Features up to a timeout
     def compute_features(self):
+        self.compute_core_features()
+        self.compute_bonus_features()
+
+    def compute_core_features(self):
         start = time.time()
         self.features = [0] * (len(grammatical_construct_list) + 2)
         #recursion handle
@@ -48,14 +46,26 @@ class Benchmark:
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
         tokenizer = SExprTokenizer(self.path)
-        self.features[-2] = 1 if self.timeout else -1
-        self.features[-1] = float(os.path.getsize(self.path))
+
+        self.features[-2] = 1 if self.timeout else -1           #feature calc timeout?
+        self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
 
         for sexpr in tokenizer:
             if self.timeout: break
             try:                    get_constructs(sexpr)
             except RecursionError:  pass
+
+    def compute_bonus_features(self):
+        for feat in bonus_features:
+            ret = feat(self.path)
+            try:
+                val = float(ret)
+                self.features.append(val)
+            except:
+                for v in ret:
+                    val = float(ret)
+                    self.features.append(val)
 
     ## Get and if necessary, compute features.
     def get_features(self):

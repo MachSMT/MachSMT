@@ -25,7 +25,7 @@ def forall_exists_vars(tokens):
 
         while visit:
             token = visit.pop()
-            if isinstance(token, list):
+            if isinstance(token, tuple):
                 if token and token[0] == 'forall':
                     num_forall_vars += len(token[1])
                     visit.append(token[2])

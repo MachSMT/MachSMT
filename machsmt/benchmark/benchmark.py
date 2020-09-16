@@ -55,7 +55,7 @@ class Benchmark:
                     return
                 if isinstance(v,str): 
                     if v in keyword_to_index: self.features[keyword_to_index[v]] += 1
-                elif isinstance(v,list): get_constructs(v)
+                elif isinstance(v,tuple): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
 
         self.features[-2] = 1 if self.timeout else -1           #feature calc timeout?

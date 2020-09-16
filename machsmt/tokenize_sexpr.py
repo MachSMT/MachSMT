@@ -79,10 +79,10 @@ class SExprTokenizer:
 
                 # Do we have nested s-expressions?
                 if exprs:
-                    exprs[-1].append(cur_expr)
+                    exprs[-1].append(tuple(cur_expr))
                     cur_expr = exprs[-1]
                 else:
-                    return cur_expr
+                    return tuple(cur_expr)
 
             # Start new token
             elif cur_token is None and char not in [' ', '\n']:

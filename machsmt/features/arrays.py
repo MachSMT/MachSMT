@@ -22,7 +22,7 @@ def count_avg_store_chain_depth(tokens):
     visit.extend(tokens)
     while visit:
         token = visit.pop()
-        if isinstance(token, list):
+        if isinstance(token, tuple):
             if token and token[0] == 'store':
                 num_stores = 0
                 l = token
@@ -35,7 +35,7 @@ def count_avg_store_chain_depth(tokens):
                 if num_stores > 1:
                     store_chains.append(num_stores)
             else:
-                visit.extend(t for t in token)
+                visit.extend(token)
 
     return sum(store_chains) / len(store_chains) if store_chains else 0
 
@@ -46,12 +46,12 @@ def count_avg_selects_per_array(tokens):
     visit.extend(tokens)
     while visit:
         token = visit.pop()
-        if isinstance(token, list):
+        if isinstance(token, tuple):
             if token and token[0] == 'select':
                 array = str(token[1])
                 if array not in arrays:
                     arrays[array] = 0
                 arrays[array] += 1
-            visit.extend(t for t in token)
+            visit.extend(token)
     num_selects = [v for k, v in arrays.items()]
     return sum(num_selects) / len(num_selects) if num_selects else 0

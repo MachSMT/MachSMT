@@ -54,4 +54,4 @@ def count_avg_selects_per_array(tokens):
                 arrays[array] += 1
             visit.extend(t for t in token)
     num_selects = [v for k, v in arrays.items()]
-    return sum(num_selects) / len(num_selects)
+    return sum(num_selects) / len(num_selects) if num_selects else 0

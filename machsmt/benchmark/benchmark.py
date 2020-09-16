@@ -32,6 +32,7 @@ class Benchmark:
     def compute_features(self):
         self.compute_core_features()
         self.compute_bonus_features()
+        self.tokens = []
 
     def compute_core_features(self):
         start = time.time()

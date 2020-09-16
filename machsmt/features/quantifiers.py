@@ -17,7 +17,6 @@ OUTPUT
 
 # TODO
 #  - avg/mean quantifier nesting level of formulas
-#  - ratio exists/forall vars
 
 def forall_exists_vars(tokens):
     num_forall_vars = 0
@@ -37,6 +36,10 @@ def forall_exists_vars(tokens):
                     visit.append(token[2])
                 else:
                     visit.extend(t for t in token)
-    return [num_forall_vars, num_exists_vars]
+    return [
+        num_forall_vars,
+        num_exists_vars,
+        num_exists_vars / num_forall_vars if num_forall_vars > 0 else 0
+      ]
 
 

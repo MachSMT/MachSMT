@@ -15,31 +15,43 @@ OUTPUT
 
 '''
 
-# TODO
-#  - avg/mean reads per array
-
 # Count average depth of store chains
 def count_avg_store_chain_depth(tokens):
     store_chains = []
     visit = []
-    for token in tokens:
-        visit.append(token)
+    visit.extend(tokens)
+    while visit:
+        token = visit.pop()
+        if isinstance(token, list):
+            if token and token[0] == 'store':
+                num_stores = 0
+                l = token
+                while l[0] == 'store':
+                    assert len(l) == 4
+                    num_stores += 1
+                    visit.append(l[2])
+                    visit.append(l[3])
+                    l = l[1]
+                if num_stores > 1:
+                    store_chains.append(num_stores)
+            else:
+                visit.extend(t for t in token)
 
-        while visit:
-            token = visit.pop()
-            if isinstance(token, list):
-                if token and token[0] == 'store':
-                    num_stores = 0
-                    l = token
-                    while l[0] == 'store':
-                        assert len(l) == 4
-                        num_stores += 1
-                        visit.append(l[2])
-                        visit.append(l[3])
-                        l = l[1]
-                    if num_stores > 1:
-                        store_chains.append(num_stores)
-                else:
-                    visit.extend(t for t in token)
-    len_stores = len(store_chains)
-    return sum(store_chains) / len(store_chains) if len_stores > 0 else 0
+    return sum(store_chains) / len(store_chains) if store_chains else 0
+
+# Count average number of selects per array
+def count_avg_selects_per_array(tokens):
+    visit = []
+    arrays = {}
+    visit.extend(tokens)
+    while visit:
+        token = visit.pop()
+        if isinstance(token, list):
+            if token and token[0] == 'select':
+                array = str(token[1])
+                if array not in arrays:
+                    arrays[array] = 0
+                arrays[array] += 1
+            visit.extend(t for t in token)
+    num_selects = [v for k, v in arrays.items()]
+    return sum(num_selects) / len(num_selects)

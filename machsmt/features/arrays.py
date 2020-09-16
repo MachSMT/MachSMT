@@ -41,5 +41,5 @@ def count_avg_store_chain_depth(tokens):
                         store_chains.append(num_stores)
                 else:
                     visit.extend(t for t in token)
-
-    return sum(store_chains) / len(store_chains)
+    len_stores = len(store_chains)
+    return sum(store_chains) / len(store_chains) if len_stores > 0 else 0

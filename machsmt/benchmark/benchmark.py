@@ -1,4 +1,5 @@
 import os,pdb,sys,time
+from collections import Iterable
 from machsmt.parser import args as settings
 from machsmt.util import die
 from machsmt.tokenize_sexpr import SExprTokenizer
@@ -58,13 +59,11 @@ class Benchmark:
     def compute_bonus_features(self):
         for feat in bonus_features:
             ret = feat(self.tokens[:])
-            try:
-                val = float(ret)
-                self.features.append(val)
-            except:
-                for v in ret:
-                    val = float(ret)
-                    self.features.append(val)
+            if isinstance(ret, Iterable):
+                for r in ret:
+                    self.features.append(float(r))
+            else:
+                self.features.append(float(ret))
 
     ## Get and if necessary, compute features.
     def get_features(self):

@@ -57,7 +57,7 @@ class Benchmark:
 
     def compute_bonus_features(self):
         for feat in bonus_features:
-            ret = feat(self.tokens)
+            ret = feat(self.tokens[:])
             try:
                 val = float(ret)
                 self.features.append(val)

@@ -10,7 +10,13 @@ The function siguature should include the following:
     file_path - absolute path to smt2 input as string
 
 OUTPUT
-    
-    A single number or an iterable of numbers 
+
+    A single number or an iterable of numbers
 
 '''
+
+# TODO
+#  - number of exists vars
+#  - number of forall vars
+#  - avg/mean quantifier nesting level of formulas
+#  - ratio exists/forall vars

@@ -10,14 +10,14 @@ The function siguature should include the following:
     file_path - absolute path to smt2 input as string
 
 OUTPUT
-    
-    A single number or an iterable of numbers 
+
+    A single number or an iterable of numbers
 
 '''
 
-def hello_world_feature(path):
-    ret = 0
-    with open(path) as file:
-        for line in file:
-            ret += line.lower().count('hello world')
-    return ret
+#def hello_world_feature(path):
+#    ret = 0
+#    with open(path) as file:
+#        for line in file:
+#            ret += line.lower().count('hello world')
+#    return ret

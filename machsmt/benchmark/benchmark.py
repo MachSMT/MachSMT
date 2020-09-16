@@ -22,6 +22,7 @@ class Benchmark:
         self.score = None
         self.graph = None
         self.parsed = False
+        self.tokens = []
 
     def make_graph(self):
         pass
@@ -45,20 +46,18 @@ class Benchmark:
                     if v in keyword_to_index: self.features[keyword_to_index[v]] += 1
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
-        tokenizer = SExprTokenizer(self.path)
 
         self.features[-2] = 1 if self.timeout else -1           #feature calc timeout?
         self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
-
-        for sexpr in tokenizer:
+        for sexpr in self.tokens:
             if self.timeout: break
             try:                    get_constructs(sexpr)
             except RecursionError:  pass
 
     def compute_bonus_features(self):
         for feat in bonus_features:
-            ret = feat(self.path)
+            ret = feat(self.tokens)
             try:
                 val = float(ret)
                 self.features.append(val)
@@ -77,8 +76,8 @@ class Benchmark:
     # compute logic, track, # check-sat
     def parse(self):
         if self.parsed: return
-        tokenizer = SExprTokenizer(self.path)
-        for sexpr in tokenizer:
+        self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
+        for sexpr in self.tokens:
             # print(sexpr)
             if len(sexpr) > 0 and sexpr[0]  == 'check-sat': self.check_sats += 1
             if len(sexpr) >= 2 and sexpr[0] == 'set-logic': self.logic = sexpr[1]

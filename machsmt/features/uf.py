@@ -16,5 +16,21 @@ OUTPUT
 '''
 
 # TODO
-#  - avg/mean UF arity
 #  - avg/mean UF applications per function
+
+# Determine average arity of UFs
+def avg_UF_arity(tokens):
+    ufs = []
+    visit = []
+    for token in tokens:
+        visit.append(token)
+        while visit:
+            token = visit.pop()
+            if isinstance(token, list):
+                if token and token[0] == 'declare-fun':
+                    ufs.append(len(token[1]))
+                else:
+                    visit.extend(t for t in token)
+    len_ufs = len(ufs)
+    return sum(ufs) / len(ufs) if len_ufs > 0 else 0
+

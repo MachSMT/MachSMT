@@ -34,7 +34,6 @@ def forall_exists_vars(tokens):
                     visit.append(token[2])
                 else:
                     visit.extend(t for t in token)
-     ])
     return [
         num_forall_vars,
         num_exists_vars,
@@ -53,7 +52,6 @@ def avg_nesting_level(tokens):
                 if token and (token[0] == 'exists' or token[0] == 'forall'):
                     num_quants = 0
                     t = token
-                    print(t[2])
                     while t[2][0] == 'exists' or t[2][0] == 'forall':
                         assert len(t) == 3
                         num_quants += 1

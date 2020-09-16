@@ -15,9 +15,6 @@ OUTPUT
 
 '''
 
-# TODO
-#  - avg/mean UF applications per function
-
 # Determine average arity and number of applications of UFs
 def avg_UF_arity_and_applications(tokens):
     ufs = []

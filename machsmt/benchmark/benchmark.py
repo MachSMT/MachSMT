@@ -1,4 +1,5 @@
 import os,pdb,sys,time
+from collections import Iterable
 from machsmt.parser import args as settings
 from machsmt.util import die
 from machsmt.tokenize_sexpr import SExprTokenizer
@@ -22,6 +23,7 @@ class Benchmark:
         self.score = None
         self.graph = None
         self.parsed = False
+        self.tokens = []
 
     def make_graph(self):
         pass
@@ -30,6 +32,7 @@ class Benchmark:
     def compute_features(self):
         self.compute_core_features()
         self.compute_bonus_features()
+        self.tokens = []
 
     def compute_core_features(self):
         start = time.time()
@@ -45,27 +48,23 @@ class Benchmark:
                     if v in keyword_to_index: self.features[keyword_to_index[v]] += 1
                 elif isinstance(v,list): get_constructs(v)
                 else: die("parsing error on: " + self.path + " " + str(type(v)))
-        tokenizer = SExprTokenizer(self.path)
 
         self.features[-2] = 1 if self.timeout else -1           #feature calc timeout?
         self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
-
-        for sexpr in tokenizer:
+        for sexpr in self.tokens:
             if self.timeout: break
             try:                    get_constructs(sexpr)
             except RecursionError:  pass
 
     def compute_bonus_features(self):
         for feat in bonus_features:
-            ret = feat(self.path)
-            try:
-                val = float(ret)
-                self.features.append(val)
-            except:
-                for v in ret:
-                    val = float(ret)
-                    self.features.append(val)
+            ret = feat(self.tokens[:])
+            if isinstance(ret, Iterable):
+                for r in ret:
+                    self.features.append(float(r))
+            else:
+                self.features.append(float(ret))
 
     ## Get and if necessary, compute features.
     def get_features(self):
@@ -77,8 +76,8 @@ class Benchmark:
     # compute logic, track, # check-sat
     def parse(self):
         if self.parsed: return
-        tokenizer = SExprTokenizer(self.path)
-        for sexpr in tokenizer:
+        self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
+        for sexpr in self.tokens:
             # print(sexpr)
             if len(sexpr) > 0 and sexpr[0]  == 'check-sat': self.check_sats += 1
             if len(sexpr) >= 2 and sexpr[0] == 'set-logic': self.logic = sexpr[1]

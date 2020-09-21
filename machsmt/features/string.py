@@ -10,7 +10,9 @@ The function siguature should include the following:
     file_path - absolute path to smt2 input as string
 
 OUTPUT
-    
-    A single number or an iterable of numbers 
+
+    A single number or an iterable of numbers
 
 '''
+
+# TODO

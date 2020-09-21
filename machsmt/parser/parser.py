@@ -33,7 +33,7 @@ parser.add_argument("-k", "--k-fold-value",
             metavar="k",
             action="store",
             dest="k",
-            default=multiprocessing.cpu_count(),
+            default=5,
             type=int,
             help="K Fold Cross Validation parameter",
 )

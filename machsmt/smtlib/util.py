@@ -3,65 +3,8 @@ import os,glob,pdb
 OLD_DB = False
 
 
-logic_list = [
-    'ABVFP',
-    'ALIA',
-    'ANIA',
-    'AUFBVDTLIA',
-    'AUFDTLIA',
-    'AUFLIA',
-    'AUFLIRA',
-    'AUFNIA',
-    'AUFNIRA',
-    'BV',
-    'BVFP',
-    'FP',
-    'LIA',
-    'LRA',
-    'NIA',
-    'NRA',
-    'QF_ABV',
-    'QF_ABVFP',
-    'QF_ALIA',
-    'QF_ANIA',
-    'QF_AUFBV',
-    'QF_AUFLIA',
-    'QF_AUFNIA',
-    'QF_AX',
-    'QF_BV',
-    'QF_AUFBVNIA',
-    'QF_BVFP',
-    'QF_BVFPLRA',
-    'QF_DT',
-    'QF_FP',
-    'QF_FPLRA',
-    'QF_IDL',
-    'QF_LIA',
-    'QF_LIRA',
-    'QF_LRA',
-    'QF_NIA',
-    'QF_NIRA',
-    'QF_NRA',
-    'QF_RDL',
-    'QF_S',
-    'QF_SLIA',
-    'QF_UF',
-    'QF_UFBV',
-    'QF_UFIDL',
-    'QF_UFLIA',
-    'QF_UFLRA',
-    'QF_UFNIA',
-    'QF_UFNRA',
-    'UF',
-    'UFBV',
-    'UFDT',
-    'UFDTLIA',
-    'UFDTNIA',
-    'UFIDL',
-    'UFLIA',
-    'UFLRA',
-    'UFNIA',
-]
+logic_list = ['ABV', 'ABVFP', 'ABVFPLRA', 'ALIA', 'ANIA', 'AUFBVDTLIA', 'AUFBVDTNIA', 'AUFDTLIA', 'AUFDTLIRA', 'AUFDTNIRA', 'AUFFPDTLIRA', 'AUFFPDTNIRA', 'AUFLIA', 'AUFLIRA', 'AUFNIA', 'AUFNIRA', 'BV', 'BVFP', 'BVFPLRA', 'FP', 'FPLRA', 'LIA', 'LRA', 'NIA', 'NRA', 'QF_ABV', 'QF_ABVFP', 'QF_ABVFPLRA', 'QF_ALIA', 'QF_ANIA', 'QF_AUFBV', 'QF_AUFBVLIA', 'QF_AUFBVNIA', 'QF_AUFLIA', 'QF_AUFNIA', 'QF_AX', 'QF_BV', 'QF_BVFP', 'QF_BVFPLRA', 'QF_DT', 'QF_FP', 'QF_FPLRA', 'QF_IDL', 'QF_LIA', 'QF_LIRA', 'QF_LRA', 'QF_NIA', 'QF_NIRA', 'QF_NRA', 'QF_RDL', 'QF_S', 'QF_SLIA', 'QF_UF', 'QF_UFBV', 'QF_UFBVLIA', 'QF_UFFP', 'QF_UFIDL', 'QF_UFLIA', 'QF_UFLRA', 'QF_UFNIA', 'QF_UFNRA', 'UF', 'UFBV', 'UFDT', 'UFDTLIA', 'UFDTLIRA', 'UFDTNIA', 'UFDTNIRA', 'UFFPDTLIRA', 'UFFPDTNIRA', 'UFIDL', 'UFLIA', 'UFLRA', 'UFNIA', 'UFNRA']
+
 
 def get_theories(logic):
     _logic = logic[:].replace('QF_','').replace('IA','I').replace('RA','R')
@@ -297,30 +240,3 @@ def get_checksats(path):
                     line = line[:line.find(';')]
                     ret += line.count('check-sat')
             return ret
-    # # old_path = path.replace('smt-lib/incremental/','').replace('smt-lib/non-incremental/','')
-    # # if old_path in db.benchmarks: return db[old_path].check_sats 
-    # if path in cache2: return cache2[path]
-    # if not os.path.exists(path):
-    #     if os.path.exists(path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/')):
-    #         path = path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/')
-    #     elif os.path.exists(path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')):
-    #         path = path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')
-    #     else:
-    #         p1,p2 = path.replace('benchmarks/', 'benchmarks/smt-lib/incremental/'), path.replace('benchmarks/', 'benchmarks/smt-lib/non-incremental/')
-    #         try:
-    #             assert p1 in db.benchmarks
-    #             return db.benchmarks[p1].check_sats
-    #         except AssertionError:
-    #             assert p2 in db.benchmarks
-    #             return db.benchmarks[p2].check_sats
-    # ret = 0
-    # with open(path,'r') as infile:
-    #     for line in infile:
-    #         if line.find('check-sat') != -1:
-    #             line = line[:line.find(';')]
-    #             ret += line.count('check-sat')
-    # if ret == 0:
-    #     from ..db import database as db
-    #     ret = db[path]
-    # cache2[path] = ret
-    # return ret

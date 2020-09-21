@@ -1,52 +1,23 @@
 #!/usr/bin/env python3
+import sys,traceback,pdb
+from machsmt.parser import args as settings
+from machsmt.db import database as db
+from machsmt.util import die,warning
+from machsmt import MachSMT
 
-import argparse,os,pickle,sys,pdb
-
-import machsmt.settings as settings
-
-from machsmt.db import DB
-from machsmt.model_builder import ModelBuilder
-from machsmt.util import die
+def main():
+    if not settings.lib: warning("Please provide a lib directory.",help=True)
+    try: db.load()
+    except FileNotFoundError: warning("No DB found. Will attempt to produce a new one.")
+    db.build(settings.files)
+    db.save()
 
 if __name__ == '__main__':
-
-    ## Setup parser
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--data-files",
-                    metavar="files[,files...]",
-                    action="store",
-                    dest="files",
-                    default=None,
-                    nargs='+',
-                    help="Input Data files containing solver, benchmark, runtime pairs"
-    )
-
-    parser.add_argument("-l", "--lib-directory",
-                metavar="lib",
-                action="store",
-                dest="lib",
-                default=None,
-                type=str,
-                help="Input Data files containing solver, benchmark, runtime pairs"
-    )
-
-    args = parser.parse_args()
-
-    if args.lib != None: settings.LIB_DIR = args.lib
-
-    db = DB()
-
     try:
-        db.load()
-    except FileNotFoundError:
-        print("No database found.")
-        if args.files == None: die("No input files to build database from!")
-    
-    ## Build DB on new Data
-    if args.files != None: db.build(args.files)
-
-    ## Build models
-    ModelBuilder(db).build()
-
-    ##END OF SCRIPT
-    print("Successfully Built MachSMT!")
+        main()
+        print("Completed build without error.")
+    except:
+        extype, value, tb = sys.exc_info()
+        if settings.debug:
+            traceback.print_exc()
+            pdb.post_mortem(tb)

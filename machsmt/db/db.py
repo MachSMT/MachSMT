@@ -155,7 +155,7 @@ class DB:
             it += 1
             if it % 1000 == 0: self.save()
             mutex.release()
-        with mp.Pool(1) as pool:
+        with mp.Pool(os.num_cores()) as pool:
             pool.map(mp_call,enumerate(self.benchmarks.keys()))
         bar.finish()
    

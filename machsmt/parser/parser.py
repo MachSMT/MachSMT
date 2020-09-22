@@ -74,6 +74,15 @@ parser.add_argument("-rng",
             help="Library directory, save state of the database of machsmt"
 )
 
+parser.add_argument("--semantic-features",
+            metavar="semantic_features",
+            action="store",
+            dest="semantic_features",
+            default=True,
+            type=bool,
+            help="Run with semantic features"
+)
+
 parser.add_argument("-debug",
             metavar="debug",
             action="store",

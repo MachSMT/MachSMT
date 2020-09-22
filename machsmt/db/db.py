@@ -1,4 +1,4 @@
-import pdb,os,glob,sys,copy,pickle
+import pdb,os,glob,sys,copy,pickle, traceback
 from progress.bar import Bar
 from ..parser import args as settings
 from ..benchmark import Benchmark
@@ -144,6 +144,7 @@ class DB:
                 self.benchmarks[benchmark].parse()
                 self.benchmarks[benchmark].compute_features()
             except: ##Fix for crash on large inputs, TODO: FIX SO CRASH DOESN"T HAPPEN
+                traceback.print_exc()
                 pdb.set_trace()
                 warning("Error parsing: " + str(benchmark), file=sys.stderr)
                 if benchmark in self.benchmarks: self.benchmarks.pop(benchmark)
@@ -154,7 +155,7 @@ class DB:
             it += 1
             if it % 1000 == 0: self.save()
             mutex.release()
-        with mp.Pool(os.cpu_count()) as pool:
+        with mp.Pool(1) as pool:
             pool.map(mp_call,enumerate(self.benchmarks.keys()))
         bar.finish()
    

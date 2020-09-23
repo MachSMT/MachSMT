@@ -38,6 +38,15 @@ parser.add_argument("-k", "--k-fold-value",
             help="K Fold Cross Validation parameter",
 )
 
+parser.add_argument("-profile",
+            metavar="profile",
+            action="store",
+            dest="profile",
+            default=False,
+            type=bool,
+            help="Profile MachSMT"
+)
+
 parser.add_argument("-min", "--min-datapoints",
             metavar="min_dp",
             action="store",

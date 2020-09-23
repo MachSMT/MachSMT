@@ -27,7 +27,7 @@ class SExprTokenizer:
         while True:
             char = self.file.read(1)
             if not char: break
-            
+
             # Handle string literals
             if (char == '"' or cur_string_literal) and not cur_comment:
                 cur_string_literal.append(char)
@@ -63,6 +63,11 @@ class SExprTokenizer:
 
             # Open s-expression
             if char == '(':
+                # Check if token is not yet consumed
+                if cur_token is not None:
+                    cur_expr.append(''.join(cur_token))
+                    cur_token = None
+
                 cur_expr = []
                 exprs.append(cur_expr)
 

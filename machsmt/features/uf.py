@@ -26,7 +26,7 @@ def avg_UF_arity_and_applications(tokens):
             token = visit.pop()
             if isinstance(token, list):
                 if token and token[0] == 'declare-fun':
-                    assert(len(token) == 4)
+                    # assert(len(token) == 4)
                     assert(isinstance(token[2], list))
                     ufs.append(token[1])
                     arity.append(len(token[2]))

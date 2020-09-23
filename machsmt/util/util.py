@@ -19,7 +19,7 @@ def warning(*args,**kwargs):
     print()
     if settings.wall: sys.exit(1)
 
-def die(*args,help=True,**kwargs):
+def die(*args,help=False,**kwargs):
     if help: help_msg()
     print("[machsmt] error:", end = ' ')
     for arg in args:

@@ -4,7 +4,7 @@ from ..parser import args as settings
 from ..benchmark import Benchmark
 from ..solver import Solver
 from ..util import die,warning
-from multiprocessing import Pool
+from multiprocessing import Pool, Lock
 
 def process_benchmark(filename):
     try:
@@ -144,7 +144,7 @@ class DB:
         bar.finish()
 
         bar = Bar('Parsing Benchmark Files', max=len(self.benchmarks))
-        mutex = mp.Lock()
+        mutex = Lock()
         it = 0
         def mp_call(it_benchmark):
             it,benchmark = it_benchmark

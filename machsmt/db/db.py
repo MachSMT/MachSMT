@@ -106,13 +106,12 @@ class DB:
             return
 
     def save(self):
-        if not os.path.exists(settings.lib): os.mkdir(settings.lib)
+        if not os.path.exists(settings.lib): os.makedirs(settings.lib)
         with open(settings.lib + '/db.dat', 'wb') as outfile:
             pickle.dump((self.benchmarks,self.solvers), outfile)
         
     def build(self,files):
         if isinstance(files,str): files = [files]
-        
         n_lines,it_lines = 0,0
         for csvfile in files: 
             if not os.path.exists(csvfile): die("Could not find: " + csvfile)
@@ -145,18 +144,31 @@ class DB:
         bar.finish()
 
         bar = Bar('Parsing Benchmark Files', max=len(self.benchmarks))
-        try:
-            with Pool(processes=os.cpu_count()) as pool:
-                for _, res in enumerate(pool.imap_unordered(process_benchmark, self.benchmarks.keys(), 1)):
-                    if res:
-                        filename = res[0]
-                        benchmark = res[1]
-                        self.benchmarks[filename] = benchmark
-                    else:
-                        warning("Error processing benchmark {}. Skipping for now...".format(filename))
-                    bar.next()
-        except KeyboardInterrupt:
-            pass
-        bar.finish()
+        mutex = mp.Lock()
+        it = 0
+        def mp_call(it_benchmark):
+            it,benchmark = it_benchmark
+            try:
+                print('START', benchmark)
+                self.benchmarks[benchmark].parse()
+                self.benchmarks[benchmark].compute_features()
+            except: ##Fix for crash on large inputs, TODO: FIX SO CRASH DOESN"T HAPPEN
+                traceback.print_exc()
+                pdb.set_trace()
+                warning("Error parsing: " + str(benchmark), file=sys.stderr)
+                if benchmark in self.benchmarks: self.benchmarks.pop(benchmark)
+                for solver in self.solvers: self.solvers[solver].remove_benchmark(benchmark)
 
-        self.save()
+            mutex.acquire()
+            bar.next()
+            it += 1
+            if it % 1000 == 0: self.save()
+            mutex.release()
+            print('END', benchmark)
+        # with mp.Pool(os.cpu_count()) as pool:
+        #     pool.map(mp_call,enumerate(self.benchmarks.keys())) ## why does this hang?????? :(
+        for it,benchmark in enumerate(self.benchmarks):
+            mp_call((it,benchmark))
+        bar.finish()
+   
+   

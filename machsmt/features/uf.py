@@ -45,7 +45,7 @@ def avg_UF_arity_and_applications(tokens):
                         apps[token[0]] += 1
                     else:
                        apps[token[0]] = 0
-                    visit.append(token[1])
+                    if len(token) > 1: visit.append(token[1])
                 else:
                     visit.extend(t for t in token)
     len_apps = len(apps)

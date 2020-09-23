@@ -69,7 +69,7 @@ class Benchmark:
     def compute_bonus_features(self):
         for feat in bonus_features:
             try:
-                ret = func_timeout(timeout=settings.feature_timeout, func=feat, kwargs={'tokens':self.tokens[:]})
+                ret = func_timeout(timeout=settings.feature_timeout / len(bonus_features), func=feat, kwargs={'tokens':self.tokens[:]})
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(float(r))

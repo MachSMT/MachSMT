@@ -48,7 +48,7 @@ def avg_nesting_level(tokens):
         visit.append(token)
         while visit:
             token = visit.pop()
-            if isinstance(token, list):
+            if isinstance(token, tuple):
                 if token and (token[0] == 'exists' or token[0] == 'forall'):
                     num_quants = 0
                     t = token

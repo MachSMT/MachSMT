@@ -43,9 +43,13 @@ def count_avg_store_chain_depth(tokens):
 def count_avg_selects_per_array(tokens):
     visit = []
     arrays = {}
+    cache = set()
     visit.extend(tokens)
     while visit:
         token = visit.pop()
+        if token in cache:
+            continue
+        cache.add(token)
         if isinstance(token, tuple):
             if token and token[0] == 'select':
                 array = str(token[1])

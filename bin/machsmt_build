@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys,traceback,pdb
+import sys,traceback,pdb,cProfile
 from machsmt.parser import args as settings
 from machsmt.db import database as db
 from machsmt.util import die,warning
@@ -14,7 +14,8 @@ def main():
 
 if __name__ == '__main__':
     try:
-        main()
+        if settings.profile: cProfile.run('main()')
+        else: main()
         print("Completed build without error.")
     except:
         extype, value, tb = sys.exc_info()

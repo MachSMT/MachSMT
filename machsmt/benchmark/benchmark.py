@@ -75,7 +75,7 @@ class Benchmark:
                         self.features.append(float(r))
                 else:
                     self.features.append(float(ret))
-            except (RecursionError, FunctionTimedOut):
+            except (RecursionError, FunctionTimedOut) as e:
                 ret = feat([])
                 if isinstance(ret, Iterable):
                     for r in ret:

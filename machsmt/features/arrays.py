@@ -15,15 +15,23 @@ OUTPUT
 
 '''
 
-# Count average depth of store chains
-def count_avg_store_chain_depth(tokens):
+def array_features(tokens):
     store_chains = []
     visit = []
+    arrays = {}
     visit.extend(tokens)
     while visit:
         token = visit.pop()
         if isinstance(token, tuple):
-            if token and token[0] == 'store':
+            # avg. number of selects per array feature
+            if token and token[0] == 'select':
+                array = token[1]
+                if array not in arrays:
+                    arrays[array] = 0
+                arrays[array] += 1
+                visit.extend(token)
+            # avg. store chain depth feature
+            elif token and token[0] == 'store':
                 num_stores = 0
                 l = token
                 while l[0] == 'store':
@@ -37,21 +45,16 @@ def count_avg_store_chain_depth(tokens):
             else:
                 visit.extend(token)
 
-    return sum(store_chains) / len(store_chains) if store_chains else 0
+    features = []
+    if store_chains:
+        features.append(sum(store_chains) / len(store_chains))
+    else:
+        features.append(0)
 
-# Count average number of selects per array
-def count_avg_selects_per_array(tokens):
-    visit = []
-    arrays = {}
-    visit.extend(tokens)
-    while visit:
-        token = visit.pop()
-        if isinstance(token, tuple):
-            if token and token[0] == 'select':
-                array = token[1]
-                if array not in arrays:
-                    arrays[array] = 0
-                arrays[array] += 1
-            visit.extend(token)
     num_selects = [v for k, v in arrays.items()]
-    return sum(num_selects) / len(num_selects) if num_selects else 0
+    if num_selects:
+        features.append(sum(num_selects) / len(num_selects))
+    else:
+        features.append(0)
+
+    return features

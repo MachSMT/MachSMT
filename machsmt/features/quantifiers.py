@@ -15,49 +15,42 @@ OUTPUT
 
 '''
 
-# Count total number of exists and forall variables, and their ratio
-def forall_exists_vars(tokens):
+def quantifier_features(tokens):
+
     num_forall_vars = 0
     num_exists_vars = 0
-    visit = []
-    for token in tokens:
-        visit.append(token)
+    quant_chains = []
 
-        while visit:
-            token = visit.pop()
-            if isinstance(token, tuple):
-                if token and token[0] == 'forall':
-                    num_forall_vars += len(token[1])
-                    visit.append(token[2])
-                elif token and token[0] == 'exists':
-                    num_exists_vars += len(token[1])
-                    visit.append(token[2])
+    visit = tokens[:]
+    while visit:
+        sexpr = visit.pop()
+        if sexpr and isinstance(sexpr, tuple):
+            if sexpr[0] in ('forall', 'exists'):
+
+                # Count total number of exists and forall variables, and their
+                # ratio.
+                if sexpr[0] == 'forall':
+                    num_forall_vars += len(sexpr[1])
+                    visit.append(sexpr[2])
                 else:
-                    visit.extend(t for t in token)
-    return [
+                    num_exists_vars += len(sexpr[1])
+                    visit.append(sexpr[2])
+
+                # Determine average quantifier nesting level
+                num_quants = 1
+                sexpr  = sexpr[2]
+                while isinstance(sexpr, tuple) and sexpr[0] in ('exists', 'forall'):
+                    assert len(sexpr) == 3
+                    num_quants += 1
+                    sexpr = sexpr[2]
+                quant_chains.append(num_quants)
+            else:
+                visit.extend(sexpr)
+
+    features = [
         num_forall_vars,
         num_exists_vars,
         num_exists_vars / num_forall_vars if num_forall_vars > 0 else 0
       ]
-
-# Determine average quantifier nesting level
-def avg_nesting_level(tokens):
-    quant_chains = []
-    visit = []
-    for token in tokens:
-        visit.append(token)
-        while visit:
-            token = visit.pop()
-            if isinstance(token, tuple):
-                if token and (token[0] == 'exists' or token[0] == 'forall'):
-                    num_quants = 0
-                    t = token
-                    while t[2][0] == 'exists' or t[2][0] == 'forall':
-                        assert len(t) == 3
-                        num_quants += 1
-                        t = t[2]
-                    quant_chains.append(num_quants)
-                else:
-                    visit.extend(t for t in token)
-    len_quants = len(quant_chains)
-    return sum(quant_chains) / len(quant_chains) if len_quants > 0 else 0
+    features.append(sum(quant_chains) / len(quant_chains) if quant_chains else 0)
+    return features

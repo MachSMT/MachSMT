@@ -19,31 +19,40 @@ def array_features(tokens):
     store_chains = []
     visit = []
     arrays = {}
-    visit.extend(tokens)
-    while visit:
-        token = visit.pop()
-        if isinstance(token, tuple):
-            # avg. number of selects per array feature
-            if token and token[0] == 'select':
-                array = token[1]
-                if array not in arrays:
-                    arrays[array] = 0
-                arrays[array] += 1
-                visit.extend(token)
-            # avg. store chain depth feature
-            elif token and token[0] == 'store':
-                num_stores = 0
-                l = token
-                while l[0] == 'store':
-                    assert len(l) == 4
-                    num_stores += 1
-                    visit.append(l[2])
-                    visit.append(l[3])
-                    l = l[1]
-                if num_stores > 1:
-                    store_chains.append(num_stores)
-            else:
-                visit.extend(token)
+
+    for sexpr in tokens:
+        # No need to traverse if no arrays present
+        if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
+            and sexpr[1] != 'ALL' \
+            and not sexpr[1].startswith('A') \
+            and not sexpr[1].startswith('QF_A'):
+            break
+
+        visit.append(sexpr)
+        while visit:
+            token = visit.pop()
+            if isinstance(token, tuple):
+                # avg. number of selects per array feature
+                if token and token[0] == 'select':
+                    array = token[1]
+                    if array not in arrays:
+                        arrays[array] = 0
+                    arrays[array] += 1
+                    visit.extend(token)
+                # avg. store chain depth feature
+                elif token and token[0] == 'store':
+                    num_stores = 0
+                    l = token
+                    while l[0] == 'store':
+                        assert len(l) == 4
+                        num_stores += 1
+                        visit.append(l[2])
+                        visit.append(l[3])
+                        l = l[1]
+                    if num_stores > 1:
+                        store_chains.append(num_stores)
+                else:
+                    visit.extend(token)
 
     features = []
     if store_chains:

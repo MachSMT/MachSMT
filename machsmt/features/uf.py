@@ -22,6 +22,11 @@ def uf_features(tokens):
     visit = []
     apps = {}
     for sexpr in tokens:
+        # No need to traverse if no quantifiers present
+        if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
+            and sexpr[1] != 'ALL' \
+            and 'UF' not in sexpr[1]:
+            break
         # collect UFs (declare-fun ...)
         if sexpr and sexpr[0] == 'declare-fun':
             assert len(sexpr) == 4

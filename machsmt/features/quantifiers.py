@@ -21,31 +21,38 @@ def quantifier_features(tokens):
     num_exists_vars = 0
     quant_chains = []
 
-    visit = tokens[:]
-    while visit:
-        sexpr = visit.pop()
-        if sexpr and isinstance(sexpr, tuple):
-            if sexpr[0] in ('forall', 'exists'):
+    visit = []
+    for sexpr in tokens:
+        # No need to traverse if no quantifiers present
+        if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
+            and sexpr[1] != 'ALL' \
+            and sexpr[1].startswith('QF_'):
+            break
 
-                # Count total number of exists and forall variables, and their
-                # ratio.
-                if sexpr[0] == 'forall':
-                    num_forall_vars += len(sexpr[1])
-                    visit.append(sexpr[2])
+        visit.append(sexpr)
+        while visit:
+            sexpr = visit.pop()
+            if sexpr and isinstance(sexpr, tuple):
+                if sexpr[0] in ('forall', 'exists'):
+                    # Count total number of exists and forall variables, and their
+                    # ratio.
+                    if sexpr[0] == 'forall':
+                        num_forall_vars += len(sexpr[1])
+                        visit.append(sexpr[2])
+                    else:
+                        num_exists_vars += len(sexpr[1])
+                        visit.append(sexpr[2])
+
+                    # Determine average quantifier nesting level
+                    num_quants = 1
+                    sexpr  = sexpr[2]
+                    while isinstance(sexpr, tuple) and sexpr[0] in ('exists', 'forall'):
+                        assert len(sexpr) == 3
+                        num_quants += 1
+                        sexpr = sexpr[2]
+                    quant_chains.append(num_quants)
                 else:
-                    num_exists_vars += len(sexpr[1])
-                    visit.append(sexpr[2])
-
-                # Determine average quantifier nesting level
-                num_quants = 1
-                sexpr  = sexpr[2]
-                while isinstance(sexpr, tuple) and sexpr[0] in ('exists', 'forall'):
-                    assert len(sexpr) == 3
-                    num_quants += 1
-                    sexpr = sexpr[2]
-                quant_chains.append(num_quants)
-            else:
-                visit.extend(sexpr)
+                    visit.extend(sexpr)
 
     features = [
         num_forall_vars,

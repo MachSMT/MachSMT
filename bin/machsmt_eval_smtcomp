@@ -14,7 +14,7 @@ def main():
     machsmt.load()
     machsmt.eval()
     machsmt.save()
-    machsmt.compile_reuslts()
+    machsmt.compile_results_smtcomp()
 
 if __name__ == '__main__':
     try:

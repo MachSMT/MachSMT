@@ -1,7 +1,7 @@
 import os,pdb,sys,time,traceback
 from collections import Iterable
 from machsmt.parser import args as settings
-from machsmt.util import die
+from machsmt.util import die, warning
 from machsmt.tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list,logic_list,get_smtlib_file
 from ..features import bonus_features
@@ -68,20 +68,25 @@ class Benchmark:
 
     def compute_bonus_features(self):
         for feat in bonus_features:
+            timeout = settings.feature_timeout / len(bonus_features)
             try:
-                ret = func_timeout(timeout=settings.feature_timeout / len(bonus_features), func=feat, kwargs={'tokens':self.tokens[:]})
+                ret = func_timeout(timeout=timeout,
+                                   func=feat,
+                                   kwargs={'tokens':self.tokens[:]})
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(float(r))
                 else:
                     self.features.append(float(ret))
-            except (RecursionError, FunctionTimedOut) as e:
+            except FunctionTimedOut as e:
                 ret = feat([])
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(-1.0)
                 else:
                     self.features.append(-1.0)
+                warning('Timeout after {} seconds of {} on {}'.format(
+                            timeout, feat.__name__, self.name))
             except Exception as e:
                 traceback.print_exc()
                 die('Error in feature calculation.')

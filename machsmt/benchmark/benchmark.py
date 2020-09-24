@@ -52,6 +52,7 @@ class Benchmark:
         start = time.time()
 
         self.compute_core_features()
+
         if settings.semantic_features: self.compute_bonus_features()
 
         self.total_feature_time = time.time() - start

@@ -83,13 +83,10 @@ parser.add_argument("-rng",
             help="Library directory, save state of the database of machsmt"
 )
 
-parser.add_argument("--semantic-features",
-            metavar="semantic_features",
-            action="store",
-            dest="semantic_features",
-            default=True,
-            type=bool,
-            help="Run with semantic features"
+parser.add_argument('--no-semantic-features', 
+                    action='store_false',
+                    dest="semantic_features",
+                    help="Generate benchmarks with width 128"
 )
 
 parser.add_argument("-debug",
@@ -117,6 +114,24 @@ parser.add_argument("-t", "--timeout",
             default=2400,
             type=int,
             help="Number of CPUs to run in parallel."
+)
+
+parser.add_argument('--smt-comp-year',
+            metavar="smtcomp_year",
+            action="store",
+            dest="smtcomp_year",
+            default=2020,
+            type=int,
+            help="SMT-COMP Evaluation year"
+)
+
+parser.add_argument('--smt-comp-loc',
+            metavar="smtcomp_loc",
+            action="store",
+            dest="smtcomp_loc",
+            default='smt-comp',
+            type=str,
+            help="SMT-COMP github location"
 )
 
 parser.add_argument("--feature-timeout",

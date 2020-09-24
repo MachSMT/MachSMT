@@ -32,14 +32,10 @@ def avg_UF_arity_and_applications(tokens):
     len_arity = len(arity)
     avg_arity = sum(arity) / len(arity) if len_arity > 0 else 0
     apps = {}
-    cache = set()
     for token in tokens:
         visit.append(token)
         while visit:
             token = visit.pop()
-            if token in cache:
-                continue
-            cache.add(token)
             if isinstance(token, tuple):
                 if token and token[0] in ufs:
                     if token[0] in apps:

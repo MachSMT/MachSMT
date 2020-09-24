@@ -20,15 +20,11 @@ def forall_exists_vars(tokens):
     num_forall_vars = 0
     num_exists_vars = 0
     visit = []
-    cache = set()
     for token in tokens:
         visit.append(token)
 
         while visit:
             token = visit.pop()
-            if token in cache:
-                continue
-            cache.add(token)
             if isinstance(token, tuple):
                 if token and token[0] == 'forall':
                     num_forall_vars += len(token[1])
@@ -48,14 +44,10 @@ def forall_exists_vars(tokens):
 def avg_nesting_level(tokens):
     quant_chains = []
     visit = []
-    cache = set()
     for token in tokens:
         visit.append(token)
         while visit:
             token = visit.pop()
-            if token in cache:
-                continue
-            cache.add(token)
             if isinstance(token, tuple):
                 if token and (token[0] == 'exists' or token[0] == 'forall'):
                     num_quants = 0

@@ -44,41 +44,44 @@ class Benchmark:
         self.tokens = []
 
     def compute_core_features(self):
-        start = time.time()
         self.features = [0] * (len(grammatical_construct_list) + 2)
-        #recursion handle
-        def get_constructs(sexpr):
-            ret = {}
-            for v in sexpr:
-                if time.time() - start > settings.feature_timeout:
-                    self.timeout = True
-                    return
-                if isinstance(v,str): 
-                    if v in keyword_to_index: self.features[keyword_to_index[v]] += 1
-                elif isinstance(v,tuple): get_constructs(v)
-                else: die("parsing error on: " + self.path + " " + str(type(v)))
-
-        self.features[-2] = 1 if self.timeout else -1           #feature calc timeout?
         self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
-        for sexpr in self.tokens:
-            if self.timeout: break
-            try:                    get_constructs(sexpr)
-            except RecursionError:  pass
+        def count_occurrences(sexprs, features):
+            visit = sexprs[:]
+            while visit:
+                cur = visit.pop()
+                if isinstance(cur, tuple):
+                    visit.extend(cur)
+                elif isinstance(cur, str):
+                    if cur in keyword_to_index:
+                        features[keyword_to_index[cur]] += 1
+                else:
+                    die("parsing error on: {} {}".format(self.path,
+                                                         str(type(cur))))
+
+        try:
+            func_timeout(timeout=settings.feature_timeout,
+                         func=count_occurrences,
+                         args=(self.tokens, self.features))
+        except FunctionTimedOut:
+            warning('Timeout after {} seconds of compute_core_features on {}'.format(
+                        settings.feature_timeout, self.name))
+            self.features[-2] = 1
 
     def compute_bonus_features(self):
+        timeout = settings.feature_timeout / len(bonus_features)
         for feat in bonus_features:
-            timeout = settings.feature_timeout / len(bonus_features)
             try:
                 ret = func_timeout(timeout=timeout,
                                    func=feat,
-                                   kwargs={'tokens':self.tokens[:]})
+                                   args=(self.tokens[:],))
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(float(r))
                 else:
                     self.features.append(float(ret))
-            except FunctionTimedOut as e:
+            except FunctionTimedOut:
                 ret = feat([])
                 if isinstance(ret, Iterable):
                     for r in ret:

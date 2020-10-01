@@ -67,15 +67,7 @@ class Benchmark:
         self.total_feature_time = time.time() - start
         self.tokens = []
 
-<<<<<<< HEAD
     def compute_core_features(self):
-||||||| 8668b12
-    def compute_core_features(self):
-        start = time.time()
-=======
-    def compute_core_features(self): ##TODO: replace with a proper traversal, get rid of recursion catch!!!!
-        start = time.time()
->>>>>>> better_eval
         self.features = [0] * (len(grammatical_construct_list) + 2)
         self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
@@ -106,44 +98,15 @@ class Benchmark:
         timeout = settings.feature_timeout / len(bonus_features)
         for feat in bonus_features:
             try:
-<<<<<<< HEAD
                 ret = func_timeout(timeout=timeout,
                                    func=feat,
                                    args=(self.tokens[:],))
-||||||| 8668b12
-                ret = func_timeout(timeout=timeout,
-                                   func=feat,
-                                   kwargs={'tokens':self.tokens[:]})
-=======
-                ret = func_timeout(
-                    timeout=settings.feature_timeout / len(bonus_features), 
-                    func=feat, 
-                    kwargs={'tokens':self.tokens[:]},
-                )
->>>>>>> better_eval
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(float(r))
                 else:
                     self.features.append(float(ret))
-<<<<<<< HEAD
             except FunctionTimedOut:
-||||||| 8668b12
-            except FunctionTimedOut as e:
-=======
-                fail = False
-            except RecursionError:
-                fail = True
-                warning(f"Recursion limit hit on {self.name} with feature {feat}. Treating as timeout.")
-            except FunctionTimedOut:
-                fail = True
-                warning('Timeout after {} seconds of {} on {}'.format(
-                            timeout, feat.__name__, self.name))
-            except Exception as e:
-                traceback.print_exc()
-                die('Error in feature calculation.')
-            if fail:
->>>>>>> better_eval
                 ret = feat([])
                 if isinstance(ret, Iterable):
                     for r in ret:

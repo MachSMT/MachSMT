@@ -23,6 +23,7 @@ class SExprTokenizer:
         cur_comment = []
         cur_string_literal = []
         cur_token = None
+        whitespace_chars = [' ', '\t', '\n']
 
         while True:
             char = self.file.read(1)
@@ -90,11 +91,11 @@ class SExprTokenizer:
                     return tuple(cur_expr)
 
             # Start new token
-            elif cur_token is None and char not in [' ', '\n']:
+            elif cur_token is None and char not in whitespace_chars:
                 cur_token = [char]
 
             # Close current token
-            elif cur_token and char in [' ', '\n']:
+            elif cur_token and char in whitespace_chars:
                 token = ''.join(cur_token)
 
                 # Append token to current sexpr

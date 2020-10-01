@@ -14,7 +14,7 @@ n_iter_no_change = 30
 def mk_model(n_samples,classifier=False):
     n = min(n_samples,settings.pca)
     return make_pipeline(
-        #     StandardScaler(),
-        #     PCA(n_components=n),
-            (MLPRegressor() if not classifier else AdaBoostClassifier())
+            StandardScaler(),
+            PCA(n_components=n),
+            (AdaBoostRegressor() if not classifier else AdaBoostClassifier())
     )

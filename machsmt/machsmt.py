@@ -7,18 +7,15 @@ from .parser import args as settings
 from .util import warning
 
 class MachSMT:
-
     ##Initializer
     def __init__(self):
         self.predictors = (         
             predictor.Random,       
             predictor.Oracle,
             predictor.Greedy,
-            predictor.Solver,
-            # predictor.SolverTrack,
+            # predictor.Solver,
             predictor.SolverLogic,
-            # predictor.SolverTrackLogic,
-            predictor.PairWise,
+            # predictor.PairWise,
         )
 
         ##Storage
@@ -32,9 +29,6 @@ class MachSMT:
     def eval(self,predictors=[],logics=[],tracks=[]):
         benchmarks = []
         predictors = (v() for v in self.predictors) if not predictors else predictors
-        for logic in (logics if logics else db.get_logics()):
-            for track in  (tracks if tracks else db.get_tracks()):
-                benchmarks += db.get_benchmarks(logic=logic,track=track)
         for pred in predictors: 
             if pred.__class__.__name__ not in self.predictions:
                 self.predictions[pred.__class__.__name__] = pred.eval()
@@ -136,7 +130,7 @@ class MachSMT:
     def mk_loss_file(self,benchmarks,loc):
         for algo in self.predictions.keys():
             with open(loc + algo + '_loss.csv','w') as lossfile:
-                lossfile.write('benchmark,prediction,loss')
+                lossfile.write('benchmark,prediction,loss\n')
                 loss_data = []
                 for benchmark in benchmarks:
                     try:
@@ -155,7 +149,7 @@ class MachSMT:
                         )
                     )
                 for benchmark,prediction,loss in sorted(loss_data,key=lambda p: p[2], reverse=True):
-                    lossfile.write(benchmark + ',' + prediction + ',' + str(loss) + '\n')
+                    lossfile.write(f"{benchmark},{prediction},{loss}\n")
 
 
     def mk_scatter(self,plot_data,loc):

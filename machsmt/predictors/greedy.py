@@ -13,7 +13,10 @@ class Greedy(Predictor):
         predictions = {} #returned data structure 
                          #benchmark x solver x  predicted time
         for track in db.get_tracks():
-            for logic in db.get_logics(track=track):
+            logics = set(db.get_logics(track=track))
+            if settings.logics:
+                logics.intersection(set(settings.logics))
+            for logic in logics:
                 scores = dict((solver,0.0) for solver in db.get_solvers(logic=logic, track=track))
                 benchmarks = sorted(db.get_benchmarks(logic=logic, track=track))
                 solvers    = sorted(db.get_solvers(logic=logic, track=track))
@@ -22,7 +25,7 @@ class Greedy(Predictor):
                     for solver in solvers:
                         predictions[benchmarks[0]][solver] = random.random() * settings.timeout
                     continue
-                for train,test in KFold(n_splits=min(len(benchmarks),settings.k)).split(benchmarks):
+                for train,test in KFold(n_splits=min(len(benchmarks),settings.k),shuffle=True,random_state=settings.rng).split(benchmarks):
                     ##Train
                     for solver in solvers:
                         scores[solver] = 0

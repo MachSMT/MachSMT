@@ -160,6 +160,25 @@ parser.add_argument('--eval-logic',
             help="Evaluation Logic"
 )
 
+parser.add_argument("--logics",
+                metavar="logics[,logics...]",
+                action="store",
+                dest="logics",
+                default=[],
+                nargs='+',
+                help="Logics to evaluate"
+)
+
+parser.add_argument("--predictors",
+                metavar="predictors[,predictors...]",
+                action="store",
+                dest="predictors",
+                default=[],
+                nargs='+',
+                help="predictors to evaluate"
+)
+
+
 parser.add_argument("--feature-timeout",
             metavar="feature_timeout",
             action="store",

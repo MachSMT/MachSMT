@@ -37,7 +37,7 @@ class PairWise(Predictor):
                     bar.next()
                     continue
                 X,Y = np.array(X), np.array(Y)
-                for train, test in KFold(n_splits=settings.k,shuffle=True).split(X):
+                for train, test in KFold(n_splits=settings.k,shuffle=True,random_state=settings.rng).split(X):
                     raw_predict = mk_model(n_samples = len(X[train]),classifier=True).fit(
                         X[train],Y[train]
                     ).predict(X[test])

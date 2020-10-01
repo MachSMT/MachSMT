@@ -30,7 +30,7 @@ class Solver(Predictor):
                 continue
             
             X,Y = np.array(X), np.log(np.array(Y)+1.0)
-            for train, test in KFold(n_splits=settings.k).split(X):
+            for train, test in KFold(n_splits=settings.k,shuffle=True,random_state=settings.rng).split(X):
                 raw_predictions = mk_model(n_samples = len(X[train])).fit(X[train],Y[train]).predict(X[test])
                 for it, indx in enumerate(test):
                     predictions[benchmarks[indx]][solver] = np.exp(raw_predictions[it]) - 1.0

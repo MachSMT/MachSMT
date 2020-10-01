@@ -113,6 +113,11 @@ class Benchmark:
                         self.features.append(-1.0)
                 else:
                     self.features.append(-1.0)
+                warning('Timeout after {} seconds of {} on {}'.format(
+                            timeout, feat.__name__, self.name))
+            except Exception as e:
+                traceback.print_exc()
+                die('Error in feature calculation on {}.'.format(self.name))
 
 
     ## Get and if necessary, compute features.

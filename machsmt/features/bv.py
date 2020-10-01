@@ -29,8 +29,8 @@ def feature_adder_chains(tokens):
             cur = visit.pop()
             if isinstance(cur, str) and \
                cur in lets and cur not in lets_visit_cache:
-                cur = lets.get(cur)
                 lets_visit_cache.add(cur)
+                cur = lets.get(cur)
             if isinstance(cur, tuple):
                 # avg. store chain depth feature
                 if cur and cur[0] == 'bvadd':
@@ -68,8 +68,8 @@ def feature_adder_chains(tokens):
             # Only visit let symbols once
             if isinstance(cur, str) and \
                cur in lets and cur not in lets_visit_cache:
-                cur = lets.get(cur)
                 lets_visit_cache.add(cur)
+                cur = lets.get(cur)
             if isinstance(cur, tuple):
                 # map symbols to sexpr (let binder)
                 if cur and cur[0] == 'let':

@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+import sys,traceback,pdb
+from machsmt.parser import args as settings
+from machsmt.db import database as db
+from machsmt.util import die,help_msg
+from machsmt import MachSMT
+
+def main():
+    if not settings.lib: die("Please provide a lib directory.",help=True)
+    try: db.load()
+    except FileNotFoundError: die("No database found.",help=True)
+
+    machsmt = MachSMT()
+    machsmt.load()
+    machsmt.eval()
+    machsmt.save()
+    machsmt.compile_results_smtcomp()
+
+if __name__ == '__main__':
+    try:
+        main()
+        print("Completed evaluation without error.")
+    except:
+        if settings.debug:
+            extype, value, tb = sys.exc_info()
+            traceback.print_exc()
+            pdb.post_mortem(tb)
+        else:
+            die("Failed")

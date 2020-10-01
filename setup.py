@@ -12,6 +12,7 @@ setup(
     scripts      = [
         'bin/machsmt_build',
         'bin/machsmt_eval',
+        'bin/machsmt_eval_smtcomp',
         'bin/machsmt',
     ],
     packages     = find_packages(),

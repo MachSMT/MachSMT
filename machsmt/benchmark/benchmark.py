@@ -31,19 +31,51 @@ class Benchmark:
     def make_graph(self):
         pass
 
+    def get_logic(self):
+        if not self.parsed: self.parse()
+        return self.logic
+
+    def get_track(self):
+        if not self.parsed: self.parse()
+        return self.track
+
+
+    def traverse_tokens(self,yield_tuples=True): ## bit buggy checking in for now.
+        if not self.tokens: self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
+        cache = set()
+        visit = self.tokens[:]
+        # visit.reverse()
+        while visit:
+            token = visit.pop()
+            if token in cache: continue
+            if isinstance(token, tuple):
+                visit.extend(token)
+                cache.add(token)
+                if yield_tuples: continue
+            yield token
+        self.tokens = []
+
     ## Compute Features up to a timeout
-    def compute_features(self):
-        if not hasattr(self,'tokens'): self.tokens = [] #?????????????????????????????????????????
+    def compute_features(self): 
         if not self.tokens: self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
         start = time.time()
 
         self.compute_core_features()
+
         if settings.semantic_features: self.compute_bonus_features()
 
         self.total_feature_time = time.time() - start
         self.tokens = []
 
+<<<<<<< HEAD
     def compute_core_features(self):
+||||||| 8668b12
+    def compute_core_features(self):
+        start = time.time()
+=======
+    def compute_core_features(self): ##TODO: replace with a proper traversal, get rid of recursion catch!!!!
+        start = time.time()
+>>>>>>> better_eval
         self.features = [0] * (len(grammatical_construct_list) + 2)
         self.features[-1] = float(os.path.getsize(self.path))   #benchmark file size
 
@@ -69,30 +101,55 @@ class Benchmark:
                         settings.feature_timeout, self.name))
             self.features[-2] = 1
 
+
     def compute_bonus_features(self):
         timeout = settings.feature_timeout / len(bonus_features)
         for feat in bonus_features:
             try:
+<<<<<<< HEAD
                 ret = func_timeout(timeout=timeout,
                                    func=feat,
                                    args=(self.tokens[:],))
+||||||| 8668b12
+                ret = func_timeout(timeout=timeout,
+                                   func=feat,
+                                   kwargs={'tokens':self.tokens[:]})
+=======
+                ret = func_timeout(
+                    timeout=settings.feature_timeout / len(bonus_features), 
+                    func=feat, 
+                    kwargs={'tokens':self.tokens[:]},
+                )
+>>>>>>> better_eval
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(float(r))
                 else:
                     self.features.append(float(ret))
+<<<<<<< HEAD
             except FunctionTimedOut:
+||||||| 8668b12
+            except FunctionTimedOut as e:
+=======
+                fail = False
+            except RecursionError:
+                fail = True
+                warning(f"Recursion limit hit on {self.name} with feature {feat}. Treating as timeout.")
+            except FunctionTimedOut:
+                fail = True
+                warning('Timeout after {} seconds of {} on {}'.format(
+                            timeout, feat.__name__, self.name))
+            except Exception as e:
+                traceback.print_exc()
+                die('Error in feature calculation.')
+            if fail:
+>>>>>>> better_eval
                 ret = feat([])
                 if isinstance(ret, Iterable):
                     for r in ret:
                         self.features.append(-1.0)
                 else:
                     self.features.append(-1.0)
-                warning('Timeout after {} seconds of {} on {}'.format(
-                            timeout, feat.__name__, self.name))
-            except Exception as e:
-                traceback.print_exc()
-                die('Error in feature calculation.')
 
 
     ## Get and if necessary, compute features.
@@ -104,7 +161,6 @@ class Benchmark:
     # full parsing of input file.
     # compute logic, track, # check-sat
     def parse(self):
-        if not hasattr(self,'tokens'): self.tokens = [] #?????????????????????????????????????????
         if self.parsed: return
         self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
         for sexpr in self.tokens:

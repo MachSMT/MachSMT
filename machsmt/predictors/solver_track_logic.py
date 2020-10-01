@@ -13,7 +13,7 @@ class SolverTrackLogic(Predictor):
          super().__init__(*args,**kwargs)
 
     def eval(self,benchmarks):
-        bar = Bar('Building Solver EHMs', max=len(list(db.get_solvers())))
+        bar = Bar('Building Solver/Track/Logic EHMs', max=len(list(db.get_solvers())))
         predictions = {}
         N = 0
         for solver in db.get_solvers():
@@ -25,7 +25,7 @@ class SolverTrackLogic(Predictor):
             for track in db.get_tracks(solver=solver):
                 for logic in db.get_logics(solver=solver,track=track):
                     X, Y = [],[]
-                    benchmarks = list(db.get_benchmarks(solver=solver,logic=logic,track=track))
+                    bench = list(db.get_benchmarks(solver=solver,logic=logic,track=track))
                     for benchmark in benchmarks:
                         X.append(db[benchmark].get_features())
                         Y.append(db[solver,benchmark])

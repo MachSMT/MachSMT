@@ -13,7 +13,7 @@ class SolverTrack(Predictor):
          super().__init__(*args,**kwargs)
 
     def eval(self,benchmarks):
-        bar = Bar('Building Solver EHMs', max=len(list(db.get_solvers())))
+        bar = Bar('Building Solver/Track EHMs', max=len(list(db.get_solvers())))
         predictions = {}
         N = 0
         for solver in db.get_solvers():

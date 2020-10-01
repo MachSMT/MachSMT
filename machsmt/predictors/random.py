@@ -6,11 +6,11 @@ class Random(Predictor):
     def __init__(self,*args,**kwargs):
          super().__init__(*args,**kwargs)
 
-    def eval(self,benchmarks):
+    def eval(self):
         predictions = {}
-        for benchmark in benchmarks:
+        for benchmark in db.get_benchmarks():
             predictions[benchmark] = {}
-            for solver in db.get_solvers(benchmark):
+            for solver in db.get_solvers(benchmark=benchmark):
                 predictions[benchmark][solver] = settings.timeout * random.random()
         return predictions
 

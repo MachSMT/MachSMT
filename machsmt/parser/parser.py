@@ -1,4 +1,4 @@
-import argparse,multiprocessing
+import argparse,os
 
 parser = argparse.ArgumentParser()
 
@@ -47,20 +47,22 @@ parser.add_argument("-profile",
             help="Profile MachSMT"
 )
 
-parser.add_argument("-min", "--min-datapoints",
-            metavar="min_dp",
+parser.add_argument("--min-datapoints",
+            metavar="min_datapoints",
             action="store",
-            dest="min_dp",
-            default=25,
+            dest="min_datapoints",
+            default=10,
             type=int,
             help="Minimum number of datapoints needed to build MachSMT.",
 )
+
+
 
 parser.add_argument("-c", "--num_cpus",
             metavar="cores",
             action="store",
             dest="cores",
-            default=5,
+            default=os.cpu_count(),
             type=int,
             help="Number of CPUs to run in parallel."
 )
@@ -69,7 +71,7 @@ parser.add_argument("-pca", "--pca-diminsions",
             metavar="pca",
             action="store",
             dest="pca",
-            default=5,
+            default=35,
             type=int,
             help="Number of diminsions in PCA",
 )
@@ -87,6 +89,12 @@ parser.add_argument('--no-semantic-features',
                     action='store_false',
                     dest="semantic_features",
                     help="Generate benchmarks with width 128"
+)
+
+parser.add_argument('--run-all-eval', 
+                    action='store_true',
+                    dest="rerun_eval",
+                    help="Rerun and overwrite evaluation"
 )
 
 parser.add_argument("-debug",
@@ -125,6 +133,15 @@ parser.add_argument('--smt-comp-year',
             help="SMT-COMP Evaluation year"
 )
 
+parser.add_argument('--smt-comp-files',
+            metavar="smtcomp_files",
+            action="store",
+            dest="smtcomp_files",
+            default=2020,
+            type=int,
+            help="SMT-COMP Evaluation year"
+)
+
 parser.add_argument('--smt-comp-loc',
             metavar="smtcomp_loc",
             action="store",
@@ -132,6 +149,15 @@ parser.add_argument('--smt-comp-loc',
             default='smt-comp',
             type=str,
             help="SMT-COMP github location"
+)
+
+parser.add_argument('--eval-logic',
+            metavar="eval_logic",
+            action="store",
+            dest="eval_logic",
+            default=None,
+            type=str,
+            help="Evaluation Logic"
 )
 
 parser.add_argument("--feature-timeout",

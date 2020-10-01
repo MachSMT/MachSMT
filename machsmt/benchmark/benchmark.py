@@ -31,6 +31,15 @@ class Benchmark:
     def make_graph(self):
         pass
 
+    def get_logic(self):
+        if not self.parsed: self.parse()
+        return self.logic
+
+    def get_track(self):
+        if not self.parsed: self.parse()
+        return self.track
+
+
     def traverse_tokens(self,yield_tuples=True): ## bit buggy checking in for now.
         if not self.tokens: self.tokens = [sexpr for sexpr in SExprTokenizer(self.path)]
         cache = set()

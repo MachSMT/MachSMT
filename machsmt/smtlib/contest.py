@@ -1,11 +1,12 @@
-import glob,csv 
+import glob,csv,pdb
 from .util import logic_list,get_smtlib_file,get_checksats
 from ..parser import args as settings
 from ..util import die,warning
 
-def get_contest_data(year):
+def get_contest_data(files):
     ## Build data structure of all data
     smtcomp = {}
+    pdb.set_trace()
     loc = 'smt-comp/' + str(year) + '/csv/' if year != 2019 else 'smt-comp/' + str(year) + '/results/'
     for file in glob.glob(loc + '*.csv'):
         track = file.split('.')[0]

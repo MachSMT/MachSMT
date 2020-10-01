@@ -12,7 +12,7 @@ class PairWise(Predictor):
     def __init__(self,*args,**kwargs):
          super().__init__(*args,**kwargs)
 
-    def eval(self,benchmarks):
+    def eval(self):
         N = 0
         predictions,classifications = {},{}
         for solver1 in sorted(db.get_solvers()):
@@ -32,8 +32,8 @@ class PairWise(Predictor):
                     if benchmark not in predictions: 
                         predictions[benchmark] = {}
                         classifications[benchmark] = {}
-                if len(X) < settings.min_dp:
-                    warning("Not enough data to evaluate. " +str(len(X)) +'/' + str(settings.min_dp),solver1,solver2)
+                if len(X) < settings.min_datapoints:
+                    warning("Not enough data to evaluate. " +str(len(X)) +'/' + str(settings.min_datapoints),solver1,solver2)
                     bar.next()
                     continue
                 X,Y = np.array(X), np.array(Y)
@@ -54,7 +54,7 @@ class PairWise(Predictor):
                     if classifications[benchmark][(solver1,solver2)] == 1: scores[solver1] += 1
                     else: scores[solver2] += 1
             best = max(scores,key=lambda v:scores[v])
-            predictions[benchmark][best] = 0 # this sets the prediction... will clean up later... its late :)
+            predictions[benchmark][best] = -100000 # this sets the prediction... will clean up later... its late :)
         return predictions
 
     def build(self,benchmarks):

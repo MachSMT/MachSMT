@@ -12,13 +12,13 @@ class SolverLogic(Predictor):
     def __init__(self,*args,**kwargs):
          super().__init__(*args,**kwargs)
 
-    def eval(self,benchmarks):
-        bar = Bar('Building Solver EHMs', max=len(list(db.get_solvers())))
+    def eval(self):
+        bar = Bar('Building Solver/Logic EHMs', max=len(list(db.get_solvers())))
         predictions = {}
         N = 0
-        for solver in db.get_solvers():
-            for logic in db.get_logics(solver=solver):
-                N += 1
+        for solver in db.get_solvers():                 ##This calculation is incorrect
+            for logic in db.get_logics(solver=solver):  ##But I'm not sure why
+                N += 1                                  ##2020 sq returns 327 but only 61
         bar = Bar('Building Solver EHMs', max=N)
         for solver in db.get_solvers():
             for logic in db.get_logics(solver=solver):
@@ -28,8 +28,8 @@ class SolverLogic(Predictor):
                     X.append(db[benchmark].get_features())
                     Y.append(db[solver,benchmark])
                     if benchmark not in predictions: predictions[benchmark] = {}
-                if len(X) < settings.min_dp:
-                    warning("Not enough data to evaluate. " +str(len(X)) +'/' + str(settings.min_dp),solver,logic)
+                if len(X) < settings.min_datapoints:
+                    warning("Not enough data to evaluate. " +str(len(X)) +'/' + str(settings.min_datapoints),solver,logic)
                     bar.next()
                     continue
                 X,Y = np.array(X), np.log(np.array(Y)+1.0)

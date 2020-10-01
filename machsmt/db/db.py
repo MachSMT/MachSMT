@@ -145,7 +145,7 @@ class DB:
 
         bar = Bar('Parsing Benchmark Files', max=len(self.benchmarks))
         try:
-            with Pool(processes=os.cpu_count()) as pool:
+            with Pool(processes=settings.cores) as pool:
                 for _, res in enumerate(pool.imap_unordered(process_benchmark, self.benchmarks.keys(), 1)):
                     if res:
                         filename = res[0]

@@ -113,7 +113,7 @@ class MachSMT:
                     for benchmark in common_benchmarks:
                         try:
                             best = min(self.predictions[algo][benchmark],key=self.predictions[algo][benchmark].get)
-                            plot_data[algo].append(db[best,benchmark])
+                            plot_data[algo].append(db[best,benchmark] + db[benchmark].total_feature_time)
                         except:
                             warning('Missing prediction:' , algo, benchmark)
                             best = min(self.predictions['Greedy'][benchmark],key=self.predictions['Greedy'][benchmark].get) ##go with greedy on missing data.

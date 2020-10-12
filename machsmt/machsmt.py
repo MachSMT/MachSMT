@@ -10,13 +10,16 @@ class MachSMT:
     ##Initializer
     def __init__(self):
         self.predictors = (         
-            predictor.Random,       
-            predictor.Oracle,
-            predictor.Greedy,
-            # predictor.Solver,
-            predictor.SolverLogic,
-            # predictor.PairWise,
+            predictor.Random,       #0
+            predictor.Oracle,       #1
+            predictor.Greedy,       #2
+            predictor.Solver,       #3
+            predictor.SolverLogic,  #4
+            predictor.PairWise,     #5
         )
+        self.default_predictor = 4
+
+        self.core_predictor = None
 
         ##Storage
         self.predictions = {}   ## Map of Predictor x Benchmark x Solver x Predicted Time
@@ -32,6 +35,19 @@ class MachSMT:
         for pred in predictors: 
             if pred.__class__.__name__ not in self.predictions:
                 self.predictions[pred.__class__.__name__] = pred.eval()
+
+    def build(self):
+        self.core_predictor = self.predictors[self.default_predictor]()
+        self.core_predictor.build()
+        with open(settings.lib + '/default.dat', 'wb') as outfile:
+            pickle.dump(self.core_predictor, outfile)
+
+    def predict(self,benchmark):
+        if self.core_predictor == None:
+            if not os.path.exists(settings.lib + '/default.dat'): raise FileNotFoundError
+            with open(settings.lib + '/default.dat', 'rb') as infile:
+                self.core_predictor = pickle.load(infile)
+        self.core_predictor.predict(benchmark)
 
     ##Save everything
     def save(self):
@@ -72,7 +88,10 @@ class MachSMT:
     def compile_results(self):
         ##Now, what is in DB
         for track in sorted(db.get_tracks()):
-            for logic in sorted(db.get_logics(track=track)):
+            logics = set(sorted(db.get_logics(track=track)))
+            if settings.logics:
+                logics = logics.intersection(set(settings.logics))
+            for logic in logics:
                 division_benchmarks = set(db.get_benchmarks(track=track,logic=logic))
                 common_benchmarks   = set(db.get_benchmarks(track=track,logic=logic))
                 for solver in sorted(db.get_solvers(logic=logic,track=track)):
@@ -100,22 +119,44 @@ class MachSMT:
                             best = min(self.predictions['Greedy'][benchmark],key=self.predictions['Greedy'][benchmark].get) ##go with greedy on missing data.
                             plot_data[algo].append(db[best,benchmark])
                 loc = settings.results+ '/' + track+'/'+logic + '/'
-                self.mk_plot(plot_data, title='MachSMT Evaluation -- ' + logic + ' ' + track, loc=loc)
+                if logic == "QF_BVFP": pdb.set_trace()
+                self.mk_plots(plot_data, title='MachSMT Evaluation -- ' + logic + ' ' + track, loc=loc)
                 self.mk_score_file(plot_data,loc=loc)
                 self.mk_loss_file(benchmarks=common_benchmarks, loc=loc)
 
 
 
-    def mk_plot(self,plot_data,title,loc):
+    def mk_plots(self,plot_data,title,loc):
         plt.cla()
         plt.clf()
         marker = itertools.cycle((',', '+', 'o', '*'))
         colors = itertools.cycle(('b','g','r','c','m','y'))
         for solver in plot_data:
-            plt.plot(sorted((v for v in sorted(plot_data[solver]) if v != None)), label=solver,marker=next(marker),color=next(colors))
+            Y = sorted((v for v in sorted(plot_data[solver]) if v != None))
+            X = list(range(1,len(Y)+1))
+            plt.plot(X,Y,label=solver,marker=next(marker),color=next(colors))
         plt.legend()
         os.makedirs(loc,exist_ok=True)
+        plt.xlabel("Number of benchmarks Solved")
+        plt.ylabel("Score")
+        plt.title(title)
         plt.savefig(loc+'cactus.png',dpi=1000)
+
+        plt.cla()
+        plt.clf()
+        marker = itertools.cycle((',', '+', 'o', '*'))
+        colors = itertools.cycle(('b','g','r','c','m','y'))
+        for solver in plot_data:
+            Y = sorted((v for v in sorted(plot_data[solver]) if v != None))
+            X = list(range(1,len(Y)+1))
+            plt.plot(Y,X,label=solver,marker=next(marker),color=next(colors))
+        plt.legend()
+        os.makedirs(loc,exist_ok=True)
+        plt.ylabel("Number of benchmarks Solved")
+        plt.xlabel("Score")
+        plt.title(title)
+        plt.savefig(loc+'cdf.png',dpi=1000)
+
 
     def mk_score_file(self,plot_data,loc):
         with open(loc + 'scores.csv','w') as scorefile:

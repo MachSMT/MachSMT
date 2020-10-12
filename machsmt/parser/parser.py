@@ -2,6 +2,15 @@ import argparse,os
 
 parser = argparse.ArgumentParser()
 
+
+parser.add_argument("benchmark",
+                action="store",
+                # dest="input_benchmark",
+                default=None,
+                nargs='?',
+                help="Input benchmark to be predicted"
+)
+
 parser.add_argument("-f", "--data-files",
                 metavar="files[,files...]",
                 action="store",
@@ -33,7 +42,7 @@ parser.add_argument("-k", "--k-fold-value",
             metavar="k",
             action="store",
             dest="k",
-            default=5,
+            default=10,
             type=int,
             help="K Fold Cross Validation parameter",
 )
@@ -123,6 +132,8 @@ parser.add_argument("-t", "--timeout",
             type=int,
             help="Number of CPUs to run in parallel."
 )
+
+parser.add_argument
 
 parser.add_argument('--smt-comp-year',
             metavar="smtcomp_year",

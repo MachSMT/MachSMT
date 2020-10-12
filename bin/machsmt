@@ -1,22 +1,31 @@
 #!/usr/bin/env python3
-
-import argparse,os,sys,glob,pickle
-import numpy as np
-from machsmt.util import die
+import sys,traceback,pdb,cProfile
+from machsmt.parser import args as settings
+from machsmt.db import database as db
 from machsmt.benchmark import Benchmark
-import machsmt.settings as settings
+from machsmt.util import die,warning
+from machsmt import MachSMT
 
-if __name__ == "__main__":
-    if len(sys.argv) <= 1: die("Please provide a file to make a prediction on.")
-    for file in sys.argv[1:]:
-        if not os.path.exists(file): die("Could not find: " + str(file))
-        b = Benchmark(file)
-        b.parse()
-        b.compute_features()
+def main():
+    # if not settings.lib: warning("Please provide a lib directory.",help=True)
+    # try: db.load()
+    # except FileNotFoundError: warning("No DB found. Will attempt to produce a new one.")
+    # db.build(settings.files)
+    # db.save()
+    if settings.benchmark == None: die("Please specify an input benchmark")
+    try:
+        bench = Benchmark(settings.benchmark)
+    except FileNotFoundError: die("Could not find specified file.")
 
-        logic,track = b.logic,b.track
-        models = glob.glob(settings.LIB_DIR + '/tracks/' + logic + '/' + track + '/*.p')
-        predictions = []
-        for model in models:
-            predictions.append(pickle.load(open(model, "rb")).predict(np.array(b.get_features()).reshape(1, -1)))
-        print(models[np.argmin(predictions)].split('/')[-1].replace('.p',''))
+    machsmt = MachSMT()
+    machsmt.predict(bench)
+
+if __name__ == '__main__':
+    try:
+        if settings.profile: cProfile.run('main()')
+        else: main()
+    except:
+        extype, value, tb = sys.exc_info()
+        if settings.debug:
+            traceback.print_exc()
+            pdb.post_mortem(tb)

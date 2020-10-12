@@ -48,11 +48,9 @@ parser.add_argument("-k", "--k-fold-value",
 )
 
 parser.add_argument("-profile",
-            metavar="profile",
-            action="store",
+            action="store_true",
             dest="profile",
             default=False,
-            type=bool,
             help="Profile MachSMT"
 )
 

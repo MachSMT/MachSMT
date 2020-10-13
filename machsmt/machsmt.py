@@ -16,6 +16,7 @@ class MachSMT:
             predictor.Solver,       #3
             predictor.SolverLogic,  #4
             predictor.PairWise,     #5
+            predictor.PairWiseLogic
         )
         self.default_predictor = 4
 

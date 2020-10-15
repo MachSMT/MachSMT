@@ -6,11 +6,14 @@ from machsmt.util import die,warning
 from machsmt import MachSMT
 
 def main():
-    if not settings.lib: warning("Please provide a lib directory.",help=True)
+    # if not settings.lib: warning("Please provide a lib directory.",help=True)
     try: db.load()
     except FileNotFoundError: warning("No DB found. Will attempt to produce a new one.")
     db.build(settings.files)
     db.save()
+
+    machsmt = MachSMT()
+    machsmt.build()
 
 if __name__ == '__main__':
     try:

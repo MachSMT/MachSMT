@@ -11,10 +11,11 @@ def main():
     except FileNotFoundError: die("No database found.",help=True)
 
     machsmt = MachSMT()
-    machsmt.load()
+    if not settings.rerun_eval:
+        machsmt.load()
     machsmt.eval()
     machsmt.save()
-    machsmt.compile_results_provided()
+    machsmt.compile_results()
 
 if __name__ == '__main__':
     try:

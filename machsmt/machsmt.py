@@ -173,7 +173,7 @@ class MachSMT:
                 name = 'SMTInterpol'
             elif name.startswith('Yices 2.6.2'):
                 name = 'Yices 2.6.2'
-            elif name.startswith('vampire')
+            elif name.startswith('vampire'):
                 name = 'Vampire'
 
             return name

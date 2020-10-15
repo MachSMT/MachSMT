@@ -163,16 +163,18 @@ class MachSMT:
                 name = 'CVC4 (2018)'
             elif name.startswith('CVC4-2019') or name == 'CVC4-sq-final':
                 name = 'CVC4'
+            elif name == 'z3-4.7.1':
+                name = 'Z3 (2018)'
             elif name.startswith('z3'):
                 name = 'Z3'
-            elif name.startswith('Ultimate'):
-                name = 'UltimateEliminator'
             elif name.startswith('COLIBRI'):
                 name = 'COLIBRI'
             elif name.startswith('smtinterpol'):
                 name = 'SMTInterpol'
             elif name.startswith('Yices 2.6.2'):
                 name = 'Yices 2.6.2'
+            elif name.startswith('vampire')
+                name = 'Vampire'
 
             return name
 

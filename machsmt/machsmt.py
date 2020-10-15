@@ -124,31 +124,18 @@ class MachSMT:
                         plot_data[algo].append(score)
                 loc = settings.results+ '/' + track+'/'+logic + '/'
                 # if logic == "QF_BVFP": pdb.set_trace()
-                self.mk_plots(plot_data, title='MachSMT Evaluation -- ' + logic + ' ' + track, loc=loc)
+                self.mk_plots(plot_data, title='\\textbf{{{} ({})}}'.format(logic, track), loc=loc)
                 self.mk_score_file(plot_data,loc=loc)
                 self.mk_loss_file(benchmarks=common_benchmarks, loc=loc)
 
 
-
     def mk_plots(self,plot_data,title,loc):
-        #from stackoverflow
 
-        lim_axis = True
-        legend = False
-        cactus_x = [560, 800]
-        cactus_y = [-5, 1200]
         max_score = 1200
 
-        def reorderLegend(ax=None,order=None,unique=False):
-            ax=plt.gca()
-            handles, labels = ax.get_legend_handles_labels()
-            labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0])) # sort both labels and handles by labels
-            if order is not None: # Sort according to a given list (not necessarily complete)
-                keys=dict(zip(order,range(len(order))))
-                labels, handles = zip(*sorted(zip(labels, handles), key=lambda t,keys=keys: keys.get(t[0],np.inf)))
-            if unique:  labels, handles= zip(*unique_everseen(zip(labels,handles), key = labels)) # Keep only the first of each handle
-            ax.legend(handles, labels)
-            return(handles, labels)
+        # Escape _ for latex
+        title = title.replace('_', '\\_')
+
         aliases = {
             'Random':'MachSMT-Random',
             'Oracle': 'Virtual Best Solver',
@@ -158,12 +145,6 @@ class MachSMT:
             'PairWise': 'MachSMT-SolverPWC',
             'PairWiseLogic': 'MachSMT-SolverLogicPWC',
         }
-        aliased_data = {}
-        for k in plot_data:
-            if k not in aliases:
-                aliased_data[k] = plot_data[k]
-            else:
-                aliased_data[aliases[k]] = plot_data[k]
 
         color_markers = {
             'MachSMT-Random': ('olive', 'x'),
@@ -174,63 +155,71 @@ class MachSMT:
             'MachSMT-SolverPWC': ('cyan', 's'),
             'MachSMT-SolverLogicPWC': ('red', '2'),
         }
-        plt.cla()
-        plt.clf()
-        markers= itertools.cycle((',', '+', 'o', '*'))
-        colors = itertools.cycle(('b','g','r','c','m','y'))
-        for solver in aliased_data:
-            Y = sorted((v for v in aliased_data[solver] if v < max_score))
-            X = list(range(1,len(Y)+1))
-            solver_name = solver if solver not in aliases else aliases[solver]
-            color,marker = (next(colors),next(markers)) if solver not in color_markers else color_markers[solver]
-            plt.plot(X,Y,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=6)
-        os.makedirs(loc,exist_ok=True)
-        plt.xlabel("Number of benchmarks Solved")
-        plt.ylabel("Wallclock Runtime")
-        plt.title(title)
-        if legend: 
-            plt.legend()
-            reorderLegend(order=sorted(aliased_data.keys(),key=lambda s: sum(aliased_data[s])))
 
-        if legend:
-            handles,labels = plt.gca().get_legend_handles_labels()
-            fig_legend = plt.figure(figsize=(10,10))
-            axi = fig_legend.add_subplot(111)            
-            fig_legend.legend(handles, labels, loc='center', scatterpoints = 1)
-            axi.xaxis.set_visible(False)
-            axi.yaxis.set_visible(False)
-            # fig_legend.canvas.draw()
-            fig_legend.savefig(loc+'asdf.png',dpi=1000)
+        def cleanup_solver_name(name):
+            name = name.replace('-wrapped-sq', '')
 
-        
-        if lim_axis:
-            plt.xlim(cactus_x) 
-            plt.ylim(cactus_y) 
-        plt.savefig(loc+'cactus.png',dpi=1000)
-        
+            if name.startswith('master-2018'):
+                name = 'CVC4 (2018)'
+            elif name.startswith('CVC4-2019') or name == 'CVC4-sq-final':
+                name = 'CVC4'
+            elif name.startswith('z3'):
+                name = 'Z3'
+            elif name.startswith('Ultimate'):
+                name = 'UltimateEliminator'
+            elif name.startswith('COLIBRI'):
+                name = 'COLIBRI'
+            elif name.startswith('smtinterpol'):
+                name = 'SMTInterpol'
+            elif name.startswith('Yices 2.6.2'):
+                name = 'Yices 2.6.2'
 
-        plt.cla()
-        plt.clf()
-        marker = itertools.cycle((',', '+', 'o', '*'))
-        colors = itertools.cycle(('b','g','r','c','m','y'))
-        for solver in aliased_data:
-            Y = sorted((v for v in aliased_data[solver] if v < max_score))
-            X = list(range(1,len(Y)+1))
-            solver_name = solver if solver not in aliases else aliases[solver]
-            color,marker = (next(colors),next(markers),) if solver not in color_markers else color_markers[solver]
-            plt.plot(Y,X,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=6)
-        if legend: 
-            plt.legend()
-            reorderLegend(order=sorted(aliased_data.keys(),key=lambda s: sum(aliased_data[s])))
-        os.makedirs(loc,exist_ok=True)
-        
-        if lim_axis:
-            plt.ylim(cactus_x) 
-            plt.xlim(cactus_y) 
-        plt.ylabel("Number of benchmarks Solved")
-        plt.xlabel("Wallclock Runtime")
-        plt.title(title)
-        plt.savefig(loc+'cdf.png',dpi=1000)
+            return name
+
+        aliased_data = {}
+        for k in plot_data:
+            if k not in aliases:
+                aliased_data[k] = plot_data[k]
+            else:
+                aliased_data[aliases[k]] = plot_data[k]
+
+
+        plt.rc('text', usetex=True)
+        os.makedirs(loc, exist_ok=True)
+
+        # Sort solvers by number of solved instances
+        ranked_solvers = sorted(aliased_data, key=lambda s: sum(t < max_score for t in aliased_data[s]), reverse=True)
+        for plot_type in ('cdf', 'cactus'):
+            plt.cla()
+            plt.clf()
+
+            markers = itertools.cycle((',', '+', 'o', '*'))
+            colors = itertools.cycle(('b','g','r','c','m','y'))
+
+            # sort by number of solved instances
+            for solver in ranked_solvers:
+                X = sorted(v for v in aliased_data[solver] if v < max_score)
+                Y = list(range(1,len(X)+1))
+                solver_name = aliases.get(solver, cleanup_solver_name(solver))
+                color,marker = color_markers.get(solver, (next(colors),next(markers),))
+
+                if plot_type == 'cactus':
+                    X, Y = Y, X
+
+                plt.plot(X,Y,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=3)
+
+            xlabel = '\\textbf{Wallclock Runtime [s]}'
+            ylabel = '\\textbf{Solved Benchmarks}'
+            lloc = 'lower right'
+            if plot_type == 'cactus':
+                lloc = 'upper left'
+                xlabel, ylabel = ylabel, xlabel
+
+            plt.legend(loc=lloc, prop={'size': 7})
+            plt.xlabel(xlabel)
+            plt.ylabel(ylabel)
+            plt.title(title)
+            plt.savefig(loc+'{}.png'.format(plot_type), dpi=1000, bbox_inches='tight')
 
 
     def mk_score_file(self,plot_data,loc):

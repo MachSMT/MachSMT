@@ -60,4 +60,5 @@ def quantifier_features(tokens):
         num_exists_vars / num_forall_vars if num_forall_vars > 0 else 0
       ]
     features.append(sum(quant_chains) / len(quant_chains) if quant_chains else 0)
+
     return features

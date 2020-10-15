@@ -54,6 +54,13 @@ parser.add_argument("-profile",
             help="Profile MachSMT"
 )
 
+parser.add_argument("-include-feature-times",
+            action="store_true",
+            dest="include_feature_times",
+            default=False,
+            help="Include Feature calculation times in the evaluation"
+)
+
 parser.add_argument("--min-datapoints",
             metavar="min_datapoints",
             action="store",

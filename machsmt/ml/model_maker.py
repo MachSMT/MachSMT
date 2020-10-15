@@ -19,7 +19,6 @@ ada_args = {
     'n_estimators':500,
     'loss': 'linear',
     'random_state': settings.rng,
-
 }
 
 

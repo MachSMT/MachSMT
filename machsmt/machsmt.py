@@ -5,6 +5,7 @@ from .db import database as db
 from .smtlib import get_contest_data
 from .parser import args as settings
 from .util import warning
+import numpy as np
 
 class MachSMT:
     ##Initializer
@@ -16,7 +17,7 @@ class MachSMT:
             predictor.Solver,       #3
             predictor.SolverLogic,  #4
             predictor.PairWise,     #5
-            predictor.PairWiseLogic
+            predictor.PairWiseLogic #6
         )
         self.default_predictor = 4
 
@@ -64,7 +65,6 @@ class MachSMT:
                 os.makedirs(os.path.join(settings.lib, 'smtcomp'))
             except FileExistsError: 
                 pass
-
             with open(os.path.join(settings.lib, 'smtcomp', f"{self.smtcomp_year}.dat"),'wb') as outfile:
                 pickle.dump(self.smtcomp_data, outfile)
     
@@ -114,13 +114,16 @@ class MachSMT:
                     for benchmark in common_benchmarks:
                         try:
                             best = min(self.predictions[algo][benchmark],key=self.predictions[algo][benchmark].get)
-                            plot_data[algo].append(db[best,benchmark] + db[benchmark].total_feature_time)
+                            score = db[best,benchmark]
                         except:
                             warning('Missing prediction:' , algo, benchmark)
                             best = min(self.predictions['Greedy'][benchmark],key=self.predictions['Greedy'][benchmark].get) ##go with greedy on missing data.
-                            plot_data[algo].append(db[best,benchmark])
+                        score = db[best,benchmark]
+                        if algo != 'Oracle' and settings.include_feature_times:
+                            score += db[benchmark].total_feature_time
+                        plot_data[algo].append(score)
                 loc = settings.results+ '/' + track+'/'+logic + '/'
-                if logic == "QF_BVFP": pdb.set_trace()
+                # if logic == "QF_BVFP": pdb.set_trace()
                 self.mk_plots(plot_data, title='MachSMT Evaluation -- ' + logic + ' ' + track, loc=loc)
                 self.mk_score_file(plot_data,loc=loc)
                 self.mk_loss_file(benchmarks=common_benchmarks, loc=loc)
@@ -128,33 +131,104 @@ class MachSMT:
 
 
     def mk_plots(self,plot_data,title,loc):
+        #from stackoverflow
+
+        lim_axis = True
+        legend = False
+        cactus_x = [560, 800]
+        cactus_y = [-5, 1200]
+        max_score = 1200
+
+        def reorderLegend(ax=None,order=None,unique=False):
+            ax=plt.gca()
+            handles, labels = ax.get_legend_handles_labels()
+            labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0])) # sort both labels and handles by labels
+            if order is not None: # Sort according to a given list (not necessarily complete)
+                keys=dict(zip(order,range(len(order))))
+                labels, handles = zip(*sorted(zip(labels, handles), key=lambda t,keys=keys: keys.get(t[0],np.inf)))
+            if unique:  labels, handles= zip(*unique_everseen(zip(labels,handles), key = labels)) # Keep only the first of each handle
+            ax.legend(handles, labels)
+            return(handles, labels)
+        aliases = {
+            'Random':'MachSMT-Random',
+            'Oracle': 'Virtual Best Solver',
+            'Greedy':'MachSMT-Greedy',
+            'Solver':'MachSMT-SolverEHM',
+            'SolverLogic': 'MachSMT-SolverLogicEHM',
+            'PairWise': 'MachSMT-SolverPWC',
+            'PairWiseLogic': 'MachSMT-SolverLogicPWC',
+        }
+        aliased_data = {}
+        for k in plot_data:
+            if k not in aliases:
+                aliased_data[k] = plot_data[k]
+            else:
+                aliased_data[aliases[k]] = plot_data[k]
+
+        color_markers = {
+            'MachSMT-Random': ('olive', 'x'),
+            'Virtual Best Solver': ('black', '+'),
+            'MachSMT-Greedy': ('olive', '|'),
+            'MachSMT-SolverEHM': ('green', 'p'),
+            'MachSMT-SolverLogicEHM': ('purple', '*'),
+            'MachSMT-SolverPWC': ('cyan', 's'),
+            'MachSMT-SolverLogicPWC': ('red', '2'),
+        }
         plt.cla()
         plt.clf()
-        marker = itertools.cycle((',', '+', 'o', '*'))
+        markers= itertools.cycle((',', '+', 'o', '*'))
         colors = itertools.cycle(('b','g','r','c','m','y'))
-        for solver in plot_data:
-            Y = sorted((v for v in sorted(plot_data[solver]) if v != None))
+        for solver in aliased_data:
+            Y = sorted((v for v in aliased_data[solver] if v < max_score))
             X = list(range(1,len(Y)+1))
-            plt.plot(X,Y,label=solver,marker=next(marker),color=next(colors))
-        plt.legend()
+            solver_name = solver if solver not in aliases else aliases[solver]
+            color,marker = (next(colors),next(markers)) if solver not in color_markers else color_markers[solver]
+            plt.plot(X,Y,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=6)
         os.makedirs(loc,exist_ok=True)
         plt.xlabel("Number of benchmarks Solved")
-        plt.ylabel("Score")
+        plt.ylabel("Wallclock Runtime")
         plt.title(title)
+        if legend: 
+            plt.legend()
+            reorderLegend(order=sorted(aliased_data.keys(),key=lambda s: sum(aliased_data[s])))
+
+        if legend:
+            handles,labels = plt.gca().get_legend_handles_labels()
+            fig_legend = plt.figure(figsize=(10,10))
+            axi = fig_legend.add_subplot(111)            
+            fig_legend.legend(handles, labels, loc='center', scatterpoints = 1)
+            axi.xaxis.set_visible(False)
+            axi.yaxis.set_visible(False)
+            # fig_legend.canvas.draw()
+            fig_legend.savefig(loc+'asdf.png',dpi=1000)
+
+        
+        if lim_axis:
+            plt.xlim(cactus_x) 
+            plt.ylim(cactus_y) 
         plt.savefig(loc+'cactus.png',dpi=1000)
+        
 
         plt.cla()
         plt.clf()
         marker = itertools.cycle((',', '+', 'o', '*'))
         colors = itertools.cycle(('b','g','r','c','m','y'))
-        for solver in plot_data:
-            Y = sorted((v for v in sorted(plot_data[solver]) if v != None))
+        for solver in aliased_data:
+            Y = sorted((v for v in aliased_data[solver] if v < max_score))
             X = list(range(1,len(Y)+1))
-            plt.plot(Y,X,label=solver,marker=next(marker),color=next(colors))
-        plt.legend()
+            solver_name = solver if solver not in aliases else aliases[solver]
+            color,marker = (next(colors),next(markers),) if solver not in color_markers else color_markers[solver]
+            plt.plot(Y,X,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=6)
+        if legend: 
+            plt.legend()
+            reorderLegend(order=sorted(aliased_data.keys(),key=lambda s: sum(aliased_data[s])))
         os.makedirs(loc,exist_ok=True)
+        
+        if lim_axis:
+            plt.ylim(cactus_x) 
+            plt.xlim(cactus_y) 
         plt.ylabel("Number of benchmarks Solved")
-        plt.xlabel("Score")
+        plt.xlabel("Wallclock Runtime")
         plt.title(title)
         plt.savefig(loc+'cdf.png',dpi=1000)
 
@@ -192,7 +266,6 @@ class MachSMT:
                     )
                 for benchmark,prediction,loss in sorted(loss_data,key=lambda p: p[2], reverse=True):
                     lossfile.write(f"{benchmark},{prediction},{loss}\n")
-
 
     def mk_scatter(self,plot_data,loc):
         for algo in self.predictions:

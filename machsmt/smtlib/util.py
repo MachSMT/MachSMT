@@ -127,7 +127,6 @@ grammatical_construct_list = [
 
     ##FP
     'RoundingMode',
-    'Real',
     'FloatingPoint',
     'Float16',
     'Float32',
@@ -193,6 +192,7 @@ grammatical_construct_list = [
     'to_real',
     'to_int',
     'is_int',
+    'Real',
 ]
 
 def get_inst_path_core(logic,instance,path, instance_name):

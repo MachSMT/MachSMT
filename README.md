@@ -64,6 +64,7 @@ Script `demo.sh` performs the following steps:
         * QF_BVFPLRA in the Single Query Track (SQ)
         * QF_LIA in the Single Query Track (SQ)
         * QF_UFBV in the Single Query Track (SQ)
+        
     **Note** By default, only BV is processed. To process all use the -a option on `demo.sh`
 
 * Call `machsmt_eval`
@@ -94,13 +95,13 @@ which is structued as follows:
   results
     |- <track>
        |- <logic>
-          |- scoress.csv
+          |- scores.csv
           |- cactus.png
           |- cdf.png
           |- *_loss.csv
 ```
 
-* `scoress.csv` contains the computed PAR-2 score for all solvers, including
+* `scores.csv` contains the computed PAR-2 score for all solvers, including
   MachSMT and the virtual best solver (denoted as Oracle) for `<logic>` in `<track>`.
 * `cactus.png,cdf.png` corresponds to the cactus/cdf plots for `<logic>` in `<track>`.
    **Note** that the solver names from the generated plots in the artifact and

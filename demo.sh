@@ -14,7 +14,13 @@ machsmt_build -f smt-comp-data/smtcomp_2019.csv smt-comp-data/smtcomp_2020.csv -
 
 machsmt_eval -l lib
 
+
+# 3) Example MachSMT Usage
+# This process evaluates machsmt under kfold cross validation
+# based the preprocessing of the previous step.
+
 i=1
+num_benchmarks=10
 for benchmark in $(find benchmarks/smt-lib/non-incremental/BV -name "*.smt2" | shuf | head -n $num_benchmarks)
 do
   echo -n "$i/$num_benchmarks Select solver on $benchmark: "

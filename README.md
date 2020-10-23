@@ -1,4 +1,4 @@
-# MachSMT Artifact for CAV'20 AE
+# MachSMT Artifact for TACAS'21 AE
 
 Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
 
@@ -31,16 +31,8 @@ Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
 We provide a short script `demo.sh` to demonstrate our tool and reproduce
 several results that were included in the paper. Due to the large nature of the
 SMT-LIB benchmark repository (>100GB), we will only provide the benchmarks
-required to closely reproduce the four cactus plots in our paper.
-
-The artifact provides benchmarks for the logics BV, QF_NRA, UFNIA, and QF_UFBV.
-For BV we provide *all* SMT-LIB benchmarks to allow `demo.sh` and reviewers to
-conveniently execute algorithm selection (script `machsmt_select`) on benchmarks
-not included in our evaluation. Logics QF_NRA, UFNIA, and QF_UFBV contain only
-the benchmarks used in SMT-COMP'19 (which is a subset of the benchmark sets in
-SMT-LIB) in order to reduce the size of the artifact. By default `demo.sh` will
-generate models and data for BV SQ only to reduce the runtime of the artifact.
-To produce models and data for all of the above logics use option `-a`.
+required to closely reproduce all plots in our paper.The artifact provides
+benchmarks for the logics BV, NRA, QF_BVFPLRA, QF_LIA, and QF_UFBV.
 
 In order to test algorithm selection on benchmarks from SMT-LIB not included
 in the artifact, download benchmarks of interest from the [SMT-LIB initiative's
@@ -50,8 +42,8 @@ As with all machine learning, it can be very difficult to reproduce all results
 precisely. Further, reproducing the entire experimental evaluation of our paper
 takes up to 12 hours on a single Intel i7-4790 with 16GB of RAM, which is
 clearly out of scope for this artifact. Since were not able to include the
-entirety of the SMT-LIB benchmarks due to space constraints, we run all
-experiments in `demo.sh` with the MachSMT's `--limit-training` option.
+entirety of the SMT-LIB benchmarks due to space constraints, we only include
+the aforementioned logics in this artifact.
 
 Script `demo.sh` performs the following steps:
 
@@ -59,15 +51,14 @@ Script `demo.sh` performs the following steps:
     * Construct full learned models for the following logics and store them in
       directory `lib/`.
         * BV in the Single Query Track (SQ)
-        * QF_NRA in the Single Query Track (SQ) (with option `-a`)
-        * UFNIA in the Unsat Core Track (UC) (with option `-a`)
-        * QF_UFBV in the Single Query Track (SQ) (with option `-a`)
+        * QF_NRA in the Single Query Track (SQ)
+        * UFNIA in the Unsat Core Track (UC)
+        * QF_UFBV in the Single Query Track (SQ)
     * Separately, using Cross Validation as described in our paper:
-        * Reproduce cactus plots for figures 1-4.
+        * Reproduce cactus plots for figures 2-6.
         * Provide a csv of PAR-2 for above logics and tracks.
-        * Provide a csv of all instance-wise computed features and the selected
-          solver.
-* Call `machsmt_select` on random BV benchmarks:
+
+* Call `machsmt` on random BV benchmarks:
     * Make selections for 100 random BV benchmarks.
 
 ### Directory structure of the artifact
@@ -146,9 +137,9 @@ By default, MachSMT will try to use runtime analysis from similar divisions and 
 
 #### machsmt/extra_features.py
 
-We provide an interface for users to add extra features when building learned models for MachSMT. An extra feature can be added easily to the MachSMT pipeline by including an additional python method that computes said feature given the filepath to an instance. Additional methods in `machsmt/extra_features.py` will be automatically included in the MachSMT pipeline. For more, please see the documentation in this file.
+We provide an interface for users to add extra features when building learned models for MachSMT. An extra feature can be added easily to the MachSMT pipeline by including an additional python method that computes said feature given the filepath to an instance. Additional methods in `machsmt/features/` will be automatically included in the MachSMT pipeline. For more, please see the examples in the directory.
 
-#### machsmt/model_maker.py
+#### machsmt/ml/model_maker.py
 
 The internal regressor within machsmt can be adjusted to any regressor for the EHM can be adjusted to any scikit styled regressor. The interface for this is in `machsmt/model_maker.py`. In this file, a single method can be found that returns an instance of a regressor. This file can be modified appropriately to user needs for their target application. The only requirement is the MachSMT pipeline presupposes the returned regressor object has a `fit(X, Y)` and `predict(X)` attributes to it.  
 

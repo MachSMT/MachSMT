@@ -6,7 +6,7 @@ Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
 
 1. Change directory
   ```
-  cd machsmt-artifact
+  cd machsmt_artifact
   ```
 
 2. Set permission on installation and demonstration scripts

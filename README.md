@@ -14,16 +14,29 @@ Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
   cd machsmt-artifact
   ```
 
+2. Set permission on installation and demonstration scripts
+  ```
+  chmod 755 install.sh
+  chmod 755 demo.sh
+  ```
+
 3. Install MachSMT
   ```
   sudo ./install.sh
   ```
+  **Note** This script installs all the dependencies of MachSMT. The artifact
+  includes a `depends` directory in which all the pip requirements are saved.
+  This artifact assumes access to Python3.8 and pip3 20.0.0
 
 4. Run MachSMT
   ```
   ./demo.sh
   ```
-  **Note** asdf
+  **Note** This script provides a demonstration of MachSMT. Specifically, this
+  script produces all cactus/cdf plots in the paper from scratch. This script 
+  builds MachSMT on the select logics, evaluates under k-fold cross validation,
+  and provides example ussage on how to use MachSMT to make predictions on  smt2
+  benchmarks
 
 
 ## Artifact Instructions
@@ -36,7 +49,8 @@ benchmarks for the logics BV, NRA, QF_BVFPLRA, QF_LIA, and QF_UFBV.
 
 In order to test algorithm selection on benchmarks from SMT-LIB not included
 in the artifact, download benchmarks of interest from the [SMT-LIB initiative's
-benchmark page](http://smtlib.cs.uiowa.edu/benchmarks.shtml).
+benchmark page](http://smtlib.cs.uiowa.edu/benchmarks.shtml). For latest competition
+timing analysis, see [the smt-comp github repo](https://github.com/smt-comp)
 
 As with all machine learning, it can be very difficult to reproduce all results
 precisely. Further, reproducing the entire experimental evaluation of our paper
@@ -48,8 +62,8 @@ the aforementioned logics in this artifact.
 Script `demo.sh` performs the following steps:
 
 * Call `machsmt_build`
-    * Construct full learned models for the following logics and store them in
-      directory `lib/`.
+    * Perform feature preprocessing and constructs full learned models for
+    the following logics and store them in directory `lib/`.
         * BV in the Single Query Track (SQ)
         * QF_NRA in the Single Query Track (SQ)
         * UFNIA in the Unsat Core Track (UC)

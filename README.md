@@ -121,7 +121,7 @@ The following steps are required to reproduce all results from the paper.
 2. Run `machsmt_build` (without options)
 
 
-## Artifact Description
+## Binary Description and Extending MachSMT
 
 MachSMT provides the following two scripts:
 

@@ -76,7 +76,7 @@ Script `demo.sh` performs the following steps:
 * Call `machsmt` on random BV benchmarks:
     * Make selections for 10 random BV benchmarks.
 
-### Directory structure of the artifact
+## Directory structure of the artifact
 
 
 ### Directory structure of `lib`

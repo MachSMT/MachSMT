@@ -104,10 +104,6 @@ which is structued as follows:
 * `scores.csv` contains the computed PAR-2 score for all solvers, including
   MachSMT and the virtual best solver (denoted as Oracle) for `<logic>` in `<track>`.
 * `cactus.png,cdf.png` corresponds to the cactus/cdf plots for `<logic>` in `<track>`.
-   **Note** that the solver names from the generated plots in the artifact and
-   the plots in the paper differ. We manually cleaned up the solver names in
-   the paper, whereas the generated plots show the raw names as specified in
-   the csv result files.
 * `*_loss.csv` contains the benchmark wise loss of each predictor. These csv files
   show which benchmarks a particular learnt variant of MachSMT struggles with compared
   to the virtual best solver

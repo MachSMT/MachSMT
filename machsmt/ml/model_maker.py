@@ -17,7 +17,7 @@ dnn_args = {
 
 ada_args = {
     'n_estimators':500,
-    'loss': 'linear',
+    # 'loss': 'linear',
     'random_state': settings.rng,
 }
 
@@ -26,8 +26,8 @@ def mk_model(n_samples,classifier=False):
     n = min(n_samples,settings.pca)
     return make_pipeline(
             StandardScaler(),
-            # PCA(n_components=n),
-           (AdaBoostRegressor() if not classifier else AdaBoostClassifier())
+            PCA(n_components=n),
+           (AdaBoostRegressor(**ada_args) if not classifier else AdaBoostClassifier(**ada_args))
         #    (MLPRegressor(**dnn_args) if not classifier else MLPClassifier(**dnn_args))
 
     )

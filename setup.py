@@ -22,6 +22,7 @@ setup(
     install_requires=[
         'matplotlib',
         'progress',
-        'scikit-learn'
+        'scikit-learn',
+	'func_timeout',
     ],
 )

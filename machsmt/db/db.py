@@ -1,4 +1,4 @@
-import pdb,os,glob,sys,copy,pickle, traceback
+import pdb,os,glob,sys,copy,pickle, csv
 from progress.bar import Bar
 from ..parser import args as settings
 from ..benchmark import Benchmark
@@ -131,7 +131,11 @@ class DB:
                 for line in file:
                     line,it_file,it_lines  = line.split(','),it_file+1,it_lines+1
                     if len(line) > 0 and len(line[-1]) > 0 and line[-1][-1] == '\n': line[-1] = line[-1][:-1]
-                    if it_file == 1: benchmark_indx, solver_indx, score_indx = line.index('benchmark'), line.index('solver'), line.index('score')
+                    if it_file == 1: 
+                        try:
+                            benchmark_indx, solver_indx, score_indx = line.index('benchmark'), line.index('solver'), line.index('score')
+                        except:
+                            die("MachSMT requires input csv to have the following headers: {benchmark, solver, score}")
                     else:
                         try:
                             benchmark,solver,score = line[benchmark_indx], line[solver_indx], float(line[score_indx])

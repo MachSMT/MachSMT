@@ -123,8 +123,8 @@ class MachSMT:
                             score += db[benchmark].total_feature_time
                         plot_data[algo].append(score)
                 loc = settings.results+ '/' + track+'/'+logic + '/'
-                # if logic == "QF_BVFP": pdb.set_trace()
-                self.mk_plots(plot_data, title='\\textbf{{{} ({})}}'.format(logic, track), loc=loc)
+                if logic == "QF_BVFP": continue 
+                self.mk_plots(plot_data, title=f'{logic} ({track})', loc=loc)
                 self.mk_score_file(plot_data,loc=loc)
                 self.mk_loss_file(benchmarks=common_benchmarks, loc=loc)
 
@@ -186,7 +186,7 @@ class MachSMT:
                 aliased_data[aliases[k]] = plot_data[k]
 
 
-        plt.rc('text', usetex=True)
+        plt.rc('text', usetex=False) ##setting false for artifact only!
         os.makedirs(loc, exist_ok=True)
 
         # Sort solvers by number of solved instances
@@ -210,8 +210,8 @@ class MachSMT:
 
                 plt.plot(X,Y,label=solver_name,marker=marker,color=color,markevery=1,linewidth=1, markersize=3)
 
-            xlabel = '\\textbf{Wallclock Runtime [s]}'
-            ylabel = '\\textbf{Solved Benchmarks}'
+            xlabel = 'Wallclock Runtime [s]'
+            ylabel = 'Solved Benchmarks'
             lloc = 'lower right'
             if plot_type == 'cactus':
                 lloc = 'upper left'

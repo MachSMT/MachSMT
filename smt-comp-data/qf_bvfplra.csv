@@ -1,0 +1,505 @@
+benchmark,solver,score
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_4.smt2,COLIBRI 20.5.25,0.325495
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_4.smt2,CVC4-sq-final,0.533627
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_4.smt2,MathSAT5,0.288003
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0882_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.435367
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0882_true-unreach-call.c_1.smt2,CVC4-sq-final,0.026156
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0882_true-unreach-call.c_1.smt2,MathSAT5,0.01798
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,0.367526
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_3.smt2,CVC4-sq-final,0.129526
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_3.smt2,MathSAT5,0.250375
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_4.smt2,COLIBRI 20.5.25,0.320149
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_4.smt2,CVC4-sq-final,0.017671
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_4.smt2,MathSAT5,0.018232
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.485535
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,313.117
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,770.508
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,6.0761
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,1122.85
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0920b_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.493959
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0920b_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0182891
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0920b_true-unreach-call.c_0.smt2,MathSAT5,0.0184581
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0270a_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,0.352342
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0270a_true-unreach-call.c_3.smt2,CVC4-sq-final,0.0160059
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0270a_true-unreach-call.c_3.smt2,MathSAT5,0.017371
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_0.smt2,COLIBRI 20.5.25,0.312819
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_0.smt2,CVC4-sq-final,0.0167271
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_0.smt2,MathSAT5,0.016812
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.460486
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0423531
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_0.smt2,MathSAT5,0.028675
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_3.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_3.smt2,CVC4-sq-final,0.818951
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_3.smt2,MathSAT5,1.07083
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.871685
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_0.smt2,COLIBRI 20.5.25,0.976218
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_0.smt2,CVC4-sq-final,0.424473
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_0.smt2,MathSAT5,0.178845
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_10.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_10.smt2,CVC4-sq-final,0.734067
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_10.smt2,MathSAT5,0.814543
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_0.smt2,COLIBRI 20.5.25,0.388133
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_0.smt2,CVC4-sq-final,0.044122
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_0.smt2,MathSAT5,0.0248339
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.352111
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0154701
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_0.smt2,MathSAT5,0.0174491
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_1.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_1.smt2,CVC4-sq-final,1.8959
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_1.smt2,MathSAT5,2.28239
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.v+lhb-reducer.c_3.smt2,COLIBRI 20.5.25,0.515896
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.v+lhb-reducer.c_3.smt2,CVC4-sq-final,0.805619
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.v+lhb-reducer.c_3.smt2,MathSAT5,1.91937
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0832_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,0.389022
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0832_true-unreach-call.c_3.smt2,CVC4-sq-final,0.014953
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0832_true-unreach-call.c_3.smt2,MathSAT5,0.0187351
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.495822
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_2.smt2,CVC4-sq-final,0.0172521
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_2.smt2,MathSAT5,0.018423
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.964976
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,2.85061
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,68.2138
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_4.smt2,COLIBRI 20.5.25,0.33348
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_4.smt2,CVC4-sq-final,0.021789
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_4.smt2,MathSAT5,0.0188071
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.961204
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,1.52055
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,29.6839
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,1.36157
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,33.175
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,2.5098
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.975202
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,6.08713
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_1_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,21.6879
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.066
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,416.873
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,182.676
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_0.smt2,COLIBRI 20.5.25,0.360567
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_0.smt2,CVC4-sq-final,0.0676059
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_0.smt2,MathSAT5,0.0291221
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.47197
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,258.675
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_3_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,567.758
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_5.smt2,COLIBRI 20.5.25,0.378599
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_5.smt2,CVC4-sq-final,0.019414
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_5.smt2,MathSAT5,0.018489
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_7.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_7.smt2,CVC4-sq-final,1.91382
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_7.smt2,MathSAT5,2.18473
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_1.smt2,COLIBRI 20.5.25,0.334844
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_1.smt2,CVC4-sq-final,0.057486
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_1.smt2,MathSAT5,0.144395
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,0.395116
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_3.smt2,CVC4-sq-final,0.014492
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_3.smt2,MathSAT5,0.0181371
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,22.6547
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,3.41225
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,2.6141
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,8.61659
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_0.smt2,COLIBRI 20.5.25,0.331545
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_0.smt2,CVC4-sq-final,0.016917
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_0.smt2,MathSAT5,0.0183941
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_1.smt2,COLIBRI 20.5.25,0.335743
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_1.smt2,CVC4-sq-final,0.0148639
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_1.smt2,MathSAT5,0.0168591
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_5_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.64602
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_5_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,274.227
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_5_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,6.7574
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_4_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.429334
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_4_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,384.069
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_4_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,6.74021
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.64857
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4.17381
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0883_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.443076
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0883_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0189199
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0883_true-unreach-call.c_1.smt2,MathSAT5,0.017491
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.66124
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4.14356
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.319556
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_2.smt2,CVC4-sq-final,0.0934299
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_2.smt2,MathSAT5,0.029089
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0165519
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_1.smt2,MathSAT5,0.017341
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,12.486
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,5.19083
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_8_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,24.4643
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_0.smt2,CVC4-sq-final,0.822213
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_0.smt2,MathSAT5,0.876265
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,13.2345
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,15.56
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_6_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,139.247
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_8.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_8.smt2,CVC4-sq-final,0.730502
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_8.smt2,MathSAT5,0.740938
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,COLIBRI 20.5.25,0.639783
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,CVC4-sq-final,0.0244881
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,MathSAT5,0.0182331
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,12.9155
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,12.5151
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_7_false-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,502.835
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,2.48927
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,24.694
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0686b_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.364741
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0686b_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0160479
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0686b_true-unreach-call.c_0.smt2,MathSAT5,0.0174651
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.49122
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,845.332
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,530.226
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_0.smt2,COLIBRI 20.5.25,0.317624
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_0.smt2,CVC4-sq-final,0.058359
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float21_true-unreach-call.i_0.smt2,MathSAT5,0.147273
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,CVC4-sq-final,0.0255269
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,MathSAT5,0.0172831
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.31793
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_2.smt2,CVC4-sq-final,0.115371
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_2.smt2,MathSAT5,0.0305719
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.383258
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_2.smt2,CVC4-sq-final,0.014412
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_2.smt2,MathSAT5,0.0174811
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.362613
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_0.smt2,CVC4-sq-final,0.613247
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_0.smt2,MathSAT5,0.427087
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_1.smt2,COLIBRI 20.5.25,0.333946
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_1.smt2,CVC4-sq-final,0.017657
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_1.smt2,MathSAT5,0.018495
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_0.smt2,COLIBRI 20.5.25,0.330063
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_0.smt2,CVC4-sq-final,0.014874
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c.p+cfa-reducer.c_0.smt2,MathSAT5,0.018497
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,COLIBRI 20.5.25,0.31575
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,CVC4-sq-final,0.0176031
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_bad_false-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,MathSAT5,0.0176689
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_0.smt2,COLIBRI 20.5.25,0.358614
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_0.smt2,CVC4-sq-final,0.0685911
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_2_false-unreach-call_true-termination.i_0.smt2,MathSAT5,0.0295359
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_2.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_2.smt2,CVC4-sq-final,1.75264
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_2.smt2,MathSAT5,2.084
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_0.smt2,COLIBRI 20.5.25,0.458928
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_0.smt2,CVC4-sq-final,0.017983
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c.p+cfa-reducer.c_0.smt2,MathSAT5,0.0189999
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Rump_double_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.378868
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Rump_double_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,0.025332
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Rump_double_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,0.017965
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_9.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_9.smt2,CVC4-sq-final,0.72654
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_9.smt2,MathSAT5,0.739621
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.38284
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0158191
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_0.smt2,MathSAT5,0.0184821
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_5.smt2,COLIBRI 20.5.25,0.316024
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_5.smt2,CVC4-sq-final,0.0163039
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_5.smt2,MathSAT5,0.018026
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330a_true-unreach-call.c_8.smt2,COLIBRI 20.5.25,0.344959
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330a_true-unreach-call.c_8.smt2,CVC4-sq-final,0.107222
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330a_true-unreach-call.c_8.smt2,MathSAT5,0.0717441
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.35958
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_7_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.382378
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_2.smt2,CVC4-sq-final,0.129131
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_2.smt2,MathSAT5,0.246133
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_5.smt2,COLIBRI 20.5.25,0.970202
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_5.smt2,CVC4-sq-final,0.421028
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_5.smt2,MathSAT5,0.178634
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_11.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_11.smt2,CVC4-sq-final,1.80814
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_11.smt2,MathSAT5,2.08558
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.438274
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0187759
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_1.smt2,MathSAT5,0.017565
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_1.smt2,COLIBRI 20.5.25,0.317525
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_1.smt2,CVC4-sq-final,0.016144
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_1.smt2,MathSAT5,0.017984
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_17.smt2,COLIBRI 20.5.25,0.388806
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_17.smt2,CVC4-sq-final,0.0592221
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0833_true-unreach-call.c_17.smt2,MathSAT5,0.026444
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_1.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_1.smt2,CVC4-sq-final,0.432395
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_1.smt2,MathSAT5,0.179686
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_poly_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.322754
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_poly_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,1.6768
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_poly_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4.48483
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0260_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.348606
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0260_true-unreach-call.c_2.smt2,CVC4-sq-final,0.015816
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0260_true-unreach-call.c_2.smt2,MathSAT5,0.017301
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.313057
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_1.smt2,CVC4-sq-final,0.015259
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0684a_true-unreach-call.c_1.smt2,MathSAT5,0.027902
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/arctan_Pade_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.360974
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/arctan_Pade_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,6.4452
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/arctan_Pade_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,19.6143
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.446544
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.426634
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_0.smt2,CVC4-sq-final,0.018973
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_0.smt2,MathSAT5,0.017894
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_4.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_4.smt2,CVC4-sq-final,1.8651
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_4.smt2,MathSAT5,2.06696
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0872a_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.444669
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0872a_true-unreach-call.c_4.smt2,CVC4-sq-final,0.0190049
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0872a_true-unreach-call.c_4.smt2,MathSAT5,0.0180049
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490b_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.580915
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490b_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0162829
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490b_true-unreach-call.c_1.smt2,MathSAT5,0.0165919
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_1.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_1.smt2,CVC4-sq-final,0.828513
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_1.smt2,MathSAT5,0.876104
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_3.smt2,COLIBRI 20.5.25,0.328618
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_3.smt2,CVC4-sq-final,0.0157409
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_3.smt2,MathSAT5,0.0181251
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.338336
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_2.smt2,CVC4-sq-final,0.016093
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_2.smt2,MathSAT5,0.0173109
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.319179
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_1.smt2,CVC4-sq-final,0.115401
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_1.smt2,MathSAT5,0.029649
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.324259
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,0.019676
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,0.01865
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_3.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_3.smt2,CVC4-sq-final,0.795685
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_3.smt2,MathSAT5,1.0301
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_0.smt2,CVC4-sq-final,1.74477
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_0.smt2,MathSAT5,2.07837
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_7.smt2,COLIBRI 20.5.25,0.318084
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_7.smt2,CVC4-sq-final,0.017209
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_7.smt2,MathSAT5,0.017978
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.368497
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c_0.smt2,CVC4-sq-final,0.0173831
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/inv_Newton_false-unreach-call.c_0.smt2,MathSAT5,0.0171789
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_2.smt2,COLIBRI 20.5.25,0.328842
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_2.smt2,CVC4-sq-final,1.53004
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Newton_pseudoconstant_true-unreach-call.c_2.smt2,MathSAT5,1.19307
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_1.smt2,COLIBRI 20.5.25,0.324276
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_1.smt2,CVC4-sq-final,0.62948
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_1.smt2,MathSAT5,0.758536
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0520_true-unreach-call.c_6.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0520_true-unreach-call.c_6.smt2,CVC4-sq-final,0.0897311
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0520_true-unreach-call.c_6.smt2,MathSAT5,0.0708511
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.49877
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0189449
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_0.smt2,MathSAT5,0.018788
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.351009
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,2.07251
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter2_set_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,6.79934
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0971_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.356185
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0971_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0143011
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0971_true-unreach-call.c_1.smt2,MathSAT5,0.018091
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.4947
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,557.752
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,228.162
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.502771
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_2_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_4.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_4.smt2,CVC4-sq-final,0.819693
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_4.smt2,MathSAT5,1.02585
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_3.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_3.smt2,CVC4-sq-final,0.723716
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_3.smt2,MathSAT5,0.831996
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,0.35158
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_3.smt2,CVC4-sq-final,0.824073
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0920b_true-unreach-call.c_3.smt2,MathSAT5,0.426847
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0320_true-unreach-call.c_8.smt2,COLIBRI 20.5.25,0.357469
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0320_true-unreach-call.c_8.smt2,CVC4-sq-final,0.03858
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0320_true-unreach-call.c_8.smt2,MathSAT5,0.024976
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_0.smt2,CVC4-sq-final,0.892933
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_for_false-unreach-call.i_0.smt2,MathSAT5,0.894047
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.368893
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,3.18828
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,20.9358
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0931_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.456669
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0931_true-unreach-call.c_0.smt2,CVC4-sq-final,0.019339
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0931_true-unreach-call.c_0.smt2,MathSAT5,0.0184371
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_3.smt2,COLIBRI 20.5.25,0.969967
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_3.smt2,CVC4-sq-final,0.422797
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_3.smt2,MathSAT5,0.181011
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.371912
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_4.smt2,CVC4-sq-final,0.130126
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_4.smt2,MathSAT5,0.252092
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/cos_polynomial_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.360285
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/cos_polynomial_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/cos_polynomial_true-unreach-call_true-termination.c_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,175.38
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_2.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_2.smt2,CVC4-sq-final,0.8266
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_while_true-unreach-call.i_2.smt2,MathSAT5,1.04677
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,CVC4-sq-final,0.0248299
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_bad_while_false-unreach-call.i_AllErrorsAtOnce_Iteration3_TraceCheck_0.smt2,MathSAT5,0.0184619
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_6.smt2,COLIBRI 20.5.25,0.316955
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_6.smt2,CVC4-sq-final,0.0176141
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_6.smt2,MathSAT5,0.018493
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.350173
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_8_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,471.98
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0931_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.525219
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0931_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0277791
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0931_true-unreach-call.c_0.smt2,MathSAT5,0.017801
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_0.smt2,COLIBRI 20.5.25,0.325557
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_0.smt2,CVC4-sq-final,0.611791
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float-div1_true-unreach-call.i_0.smt2,MathSAT5,0.763702
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.364521
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_0.smt2,CVC4-sq-final,0.625854
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_0.smt2,MathSAT5,0.67591
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0960b_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.488347
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0960b_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0180571
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0960b_true-unreach-call.c_1.smt2,MathSAT5,0.0182071
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,1.90218
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,2.07357
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.37492
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_1.smt2,CVC4-sq-final,0.030696
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_1.smt2,MathSAT5,0.020632
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0661a_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.3169
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0661a_true-unreach-call.c_0.smt2,CVC4-sq-final,0.01535
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0661a_true-unreach-call.c_0.smt2,MathSAT5,0.0172739
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_8.smt2,COLIBRI 20.5.25,0.534132
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_8.smt2,CVC4-sq-final,0.017119
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0470_true-unreach-call.c_8.smt2,MathSAT5,0.0171269
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_8.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_8.smt2,CVC4-sq-final,0.041024
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_8.smt2,MathSAT5,0.0494369
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.414613
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sine_6_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,156.351
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_2.smt2,COLIBRI 20.5.25,0.317832
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_2.smt2,CVC4-sq-final,0.0168009
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_bad_false-unreach-call.i_2.smt2,MathSAT5,0.01774
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_9.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_9.smt2,CVC4-sq-final,1.92135
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/trunc_nondet_2_true-unreach-call.i_9.smt2,MathSAT5,2.22267
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_2.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_2.smt2,CVC4-sq-final,0.445468
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Float_div_true-unreach-call.i_2.smt2,MathSAT5,0.190584
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_5.smt2,COLIBRI 20.5.25,0.378291
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_5.smt2,CVC4-sq-final,0.128574
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_interval_true-unreach-call.c_5.smt2,MathSAT5,0.257458
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490a_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.512031
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490a_true-unreach-call.c_1.smt2,CVC4-sq-final,0.016441
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0490a_true-unreach-call.c_1.smt2,MathSAT5,0.025841
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970a_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.50194
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970a_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0175901
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970a_true-unreach-call.c_0.smt2,MathSAT5,0.018191
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.325299
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,CVC4-sq-final,1.6673
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,MathSAT5,1.23041
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_4.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_4.smt2,CVC4-sq-final,0.835781
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/digits_for_true-unreach-call.i_4.smt2,MathSAT5,1.0643
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.363523
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_0.smt2,CVC4-sq-final,0.600625
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_0.smt2,MathSAT5,0.426363
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.447799
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0411081
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0930_true-unreach-call.c_1.smt2,MathSAT5,0.027918
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.p+cfa-reducer.c_0.smt2,COLIBRI 20.5.25,0.419401
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.p+cfa-reducer.c_0.smt2,CVC4-sq-final,0.791901
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/filter1_true-unreach-call.c.p+cfa-reducer.c_0.smt2,MathSAT5,1.78886
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.321775
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_1.smt2,CVC4-sq-final,0.115788
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_Householder_constant_true-unreach-call.c_1.smt2,MathSAT5,0.0306559
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970b_true-unreach-call.c_1.smt2,COLIBRI 20.5.25,0.48353
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970b_true-unreach-call.c_1.smt2,CVC4-sq-final,0.0179971
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0970b_true-unreach-call.c_1.smt2,MathSAT5,0.0184451
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_7.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_7.smt2,CVC4-sq-final,0.0596859
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_7.smt2,MathSAT5,0.0268009
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_0.smt2,COLIBRI 20.5.25,0.344514
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_0.smt2,CVC4-sq-final,0.031811
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_0.smt2,MathSAT5,0.0250071
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,7.099
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_4_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_2.smt2,COLIBRI 20.5.25,0.331166
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_2.smt2,CVC4-sq-final,0.0175961
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Muller_Kahan_true-unreach-call_true-termination.c_2.smt2,MathSAT5,0.0187011
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0960a_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.506126
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0960a_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0184611
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/float_req_bl_0960a_true-unreach-call.c_0.smt2,MathSAT5,0.0181929
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_4.smt2,CVC4-sq-final,0.0163459
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0550b_true-unreach-call.c_4.smt2,MathSAT5,0.0179271
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.496006
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,867.971
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/square_5_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,664.377
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_0.smt2,COLIBRI 20.5.25,0.515016
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_0.smt2,CVC4-sq-final,0.0202551
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/sqrt_biNewton_pseudoconstant_true-unreach-call.c_0.smt2,MathSAT5,0.019273
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,0.414005
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,563.226
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_1_1_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,COLIBRI 20.5.25,5.31729
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/newton_2_3_true-unreach-call_true-termination.i_AllErrorsAtOnce_Iteration1_TraceCheck_0.smt2,MathSAT5,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_3.smt2,COLIBRI 20.5.25,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_3.smt2,CVC4-sq-final,0.0167421
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/double_req_bl_0530a_true-unreach-call.c_3.smt2,MathSAT5,0.0171501
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_true-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,COLIBRI 20.5.25,0.317737
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_true-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,CVC4-sq-final,0.0177209
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20190429-UltimateAutomizerSvcomp2019/Double_div_true-unreach-call.i_AllErrorsAtOnce_Iteration2_TraceCheck_0.smt2,MathSAT5,0.0170561
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.443109
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,CVC4-sq-final,0.0167321
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4.smt2,MathSAT5,0.0183429
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_315.smt2,COLIBRI 20.5.25,0.325461
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_315.smt2,CVC4-sq-final,0.014979
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_315.smt2,MathSAT5,0.017897
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.371871
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_4.smt2,CVC4-sq-final,0.0150551
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_4.smt2,MathSAT5,0.018044
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_422.smt2,COLIBRI 20.5.25,0.331238
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_422.smt2,CVC4-sq-final,0.014811
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_422.smt2,MathSAT5,0.0181261
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_true-unreach-call.c_11.smt2,COLIBRI 20.5.25,0.399872
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_true-unreach-call.c_11.smt2,CVC4-sq-final,0.04222
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_true-unreach-call.c_11.smt2,MathSAT5,0.024891
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_188.smt2,COLIBRI 20.5.25,0.369514
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_188.smt2,CVC4-sq-final,1.75377
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_188.smt2,MathSAT5,1.58977
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_446.smt2,COLIBRI 20.5.25,0.326452
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_446.smt2,CVC4-sq-final,0.0148111
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_446.smt2,MathSAT5,0.0176551
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.398167
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_4.smt2,CVC4-sq-final,0.018253
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_4.smt2,MathSAT5,0.0186809
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_interval_true-unreach-call.c_4.smt2,COLIBRI 20.5.25,0.398076
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_interval_true-unreach-call.c_4.smt2,CVC4-sq-final,0.0164509
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_interval_true-unreach-call.c_4.smt2,MathSAT5,0.018578
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_68.smt2,COLIBRI 20.5.25,0.326444
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_68.smt2,CVC4-sq-final,0.0152509
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_68.smt2,MathSAT5,0.017862
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_430.smt2,COLIBRI 20.5.25,0.327797
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_430.smt2,CVC4-sq-final,0.0146699
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_430.smt2,MathSAT5,0.0172689
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_274.smt2,COLIBRI 20.5.25,0.396743
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_274.smt2,CVC4-sq-final,0.0164429
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_274.smt2,MathSAT5,0.0185961
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_set_true-unreach-call.c_11.smt2,COLIBRI 20.5.25,0.444659
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_set_true-unreach-call.c_11.smt2,CVC4-sq-final,0.041308
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/filter2_set_true-unreach-call.c_11.smt2,MathSAT5,0.024529
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_414.smt2,COLIBRI 20.5.25,0.32767
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_414.smt2,CVC4-sq-final,0.015123
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_414.smt2,MathSAT5,0.017998
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_179.smt2,COLIBRI 20.5.25,0.328777
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_179.smt2,CVC4-sq-final,0.018116
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_179.smt2,MathSAT5,0.017739
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/2019-Gudemann/refPred1.smt2,COLIBRI 20.5.25,1.88379
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/2019-Gudemann/refPred1.smt2,CVC4-sq-final,4800
+benchmarks/smt-lib/non-incremental/QF_BVFPLRA/2019-Gudemann/refPred1.smt2,MathSAT5,51.0077

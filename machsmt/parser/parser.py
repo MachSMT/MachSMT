@@ -2,7 +2,6 @@ import argparse,os
 
 parser = argparse.ArgumentParser()
 
-
 parser.add_argument("benchmark",
                 action="store",
                 # dest="input_benchmark",
@@ -52,6 +51,13 @@ parser.add_argument("-profile",
             dest="profile",
             default=False,
             help="Profile MachSMT"
+)
+
+parser.add_argument("-parallel",
+            action="store_true",
+            dest="parallel",
+            default=False,
+            help="Enable multiprocessing"
 )
 
 parser.add_argument("-include-feature-times",
@@ -203,5 +209,7 @@ parser.add_argument("--feature-timeout",
             type=int,
             help="Number of CPUs to run in parallel."
 )
+
+
 
 args = parser.parse_args()

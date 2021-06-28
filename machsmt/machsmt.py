@@ -16,8 +16,8 @@ class MachSMT:
             predictor.Greedy,       #2
             predictor.Solver,       #3
             predictor.SolverLogic,  #4
-            predictor.PairWise,     #5
-            predictor.PairWiseLogic #6
+            # predictor.PairWise,     #5
+            # predictor.PairWiseLogic #6
         )
         self.default_predictor = 4
 
@@ -123,7 +123,6 @@ class MachSMT:
                             score += db[benchmark].total_feature_time
                         plot_data[algo].append(score)
                 loc = settings.results+ '/' + track+'/'+logic + '/'
-                if logic == "QF_BVFP": continue 
                 self.mk_plots(plot_data, title=f'{logic} ({track})', loc=loc)
                 self.mk_score_file(plot_data,loc=loc)
                 self.mk_loss_file(benchmarks=common_benchmarks, loc=loc)

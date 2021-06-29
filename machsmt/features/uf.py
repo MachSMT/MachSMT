@@ -37,7 +37,7 @@ def uf_features(tokens):
         while visit:
             sexpr = visit.pop()
             if sexpr and isinstance(sexpr, tuple):
-                if sexpr[0] in ufs:
+                if isinstance(sexpr[0], str) and sexpr[0] in ufs:
                     if sexpr[0] not in apps:
                        apps[sexpr[0]] = 0
                     apps[sexpr[0]] += 1

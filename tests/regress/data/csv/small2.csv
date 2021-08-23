@@ -1,0 +1,5 @@
+benchmark,solver,score
+benchmarks/c.smt2,solvers/s1.sh,50
+benchmarks/d.smt2,solvers/s1.sh,100
+benchmarks/c.smt2,solvers/s2.sh,10
+benchmarks/d.smt2,solvers/s2.sh,20

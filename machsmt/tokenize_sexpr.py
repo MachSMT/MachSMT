@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
-import argparse,pdb
+import argparse
+import pdb
+
 
 class SExprTokenizer:
     def __init__(self, infile):
-        self.file = open(infile,'r')
+        self.file = open(infile, 'r')
 
     def __iter__(self):
         return self
@@ -27,7 +29,8 @@ class SExprTokenizer:
 
         while True:
             char = self.file.read(1)
-            if not char: break
+            if not char:
+                break
 
             # Handle string literals
             if (char == '"' or cur_string_literal) and not cur_comment:
@@ -41,11 +44,13 @@ class SExprTokenizer:
 
             # Handle piped symbols
             if char == '|' or cur_quoted_symbol:
-                if len(cur_comment) > 0: continue
+                if len(cur_comment) > 0:
+                    continue
                 cur_quoted_symbol.append(char)
                 if char == '|' and len(cur_quoted_symbol) > 1:
                     # Piped symbols only appear in s-expressions
-                    if cur_expr == None: cur_expr = []
+                    if cur_expr is None:
+                        cur_expr = []
                     cur_expr.append(''.join(cur_quoted_symbol))
                     cur_quoted_symbol = []
                 continue

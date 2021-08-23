@@ -1,2 +1,0 @@
-class MachSMTException(Exception):
-    pass

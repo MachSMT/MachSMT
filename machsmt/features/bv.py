@@ -17,6 +17,7 @@ OUTPUT
 
 import statistics
 
+
 def feature_adder_chains(tokens):
 
     # Traverse adders only, appends adder leafs to to_visit stack.
@@ -49,15 +50,14 @@ def feature_adder_chains(tokens):
                 else:
                     to_visit.extend(cur)
 
-
     adder_chains = []
     visit = []
-    chains = {} # maps adder to number of nested adders below
+    chains = {}  # maps adder to number of nested adders below
     for sexpr in tokens:
         # No need to traverse if no bit-vectors present
         if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
-            and sexpr[1] != 'ALL' \
-            and 'BV' not in sexpr[1]:
+                and sexpr[1] != 'ALL' \
+                and 'BV' not in sexpr[1]:
             break
 
         lets = {}

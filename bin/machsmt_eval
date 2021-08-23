@@ -1,30 +1,27 @@
 #!/usr/bin/env python3
-import sys,traceback,pdb
-from machsmt.parser import args as settings
-from machsmt.db import database as db
-from machsmt.util import die,help_msg
-from machsmt import MachSMT
+import sys
+import traceback
+import pdb
+import cProfile
+from machsmt import MachSMT, warning, die, DataBase, config, Evaluator
+
 
 def main():
-    if not settings.lib: die("Please provide a lib directory.",help=True)
-    try: db.load()
-    except FileNotFoundError: die("No database found.",help=True)
+    if config.files:
+        mach = MachSMT(config.files)
+    else:
+        mach = MachSMT.load(config.lib)
+    Evaluator(mach).run()
 
-    machsmt = MachSMT()
-    if not settings.rerun_eval:
-        machsmt.load()
-    machsmt.eval()
-    machsmt.save()
-    machsmt.compile_results()
 
 if __name__ == '__main__':
     try:
-        main()
-        print("Completed evaluation without error.")
-    except:
-        if settings.debug:
-            extype, value, tb = sys.exc_info()
-            traceback.print_exc()
-            pdb.post_mortem(tb)
+        if config.profile:
+            cProfile.run('main()')
         else:
-            die("Failed")
+            main()
+    except BaseException:
+        extype, value, tb = sys.exc_info()
+        traceback.print_exc()
+        if config.debug:
+            pdb.post_mortem(tb)

@@ -1,0 +1,1 @@
+from .config import CONFIG_OBJ as config

@@ -1,2 +1,2 @@
-from .util      import logic_list,get_theories,grammatical_construct_list,get_smtlib_file,get_checksats
-from .contest   import *
+from .util import get_theories
+from .constructs import grammatical_construct_list

@@ -15,6 +15,7 @@ OUTPUT
 
 '''
 
+
 def quantifier_features(tokens):
 
     num_forall_vars = 0
@@ -25,8 +26,8 @@ def quantifier_features(tokens):
     for sexpr in tokens:
         # No need to traverse if no quantifiers present
         if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
-            and sexpr[1] != 'ALL' \
-            and sexpr[1].startswith('QF_'):
+                and sexpr[1] != 'ALL' \
+                and sexpr[1].startswith('QF_'):
             break
 
         visit.append(sexpr)
@@ -45,7 +46,7 @@ def quantifier_features(tokens):
 
                     # Determine average quantifier nesting level
                     num_quants = 1
-                    sexpr  = sexpr[2]
+                    sexpr = sexpr[2]
                     while isinstance(sexpr, tuple) and sexpr[0] in ('exists', 'forall'):
                         assert len(sexpr) == 3
                         num_quants += 1
@@ -58,7 +59,8 @@ def quantifier_features(tokens):
         num_forall_vars,
         num_exists_vars,
         num_exists_vars / num_forall_vars if num_forall_vars > 0 else 0
-      ]
-    features.append(sum(quant_chains) / len(quant_chains) if quant_chains else 0)
+    ]
+    features.append(sum(quant_chains) / len(quant_chains)
+                    if quant_chains else 0)
 
     return features

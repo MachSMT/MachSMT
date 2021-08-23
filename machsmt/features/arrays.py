@@ -15,6 +15,7 @@ OUTPUT
 
 '''
 
+
 def array_features(tokens):
     store_chains = []
     visit = []
@@ -23,9 +24,9 @@ def array_features(tokens):
     for sexpr in tokens:
         # No need to traverse if no arrays present
         if isinstance(sexpr, tuple) and sexpr[0] == 'set-logic' \
-            and sexpr[1] != 'ALL' \
-            and not sexpr[1].startswith('A') \
-            and not sexpr[1].startswith('QF_A'):
+                and sexpr[1] != 'ALL' \
+                and not sexpr[1].startswith('A') \
+                and not sexpr[1].startswith('QF_A'):
             break
 
         visit.append(sexpr)

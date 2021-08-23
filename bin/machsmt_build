@@ -1,27 +1,24 @@
 #!/usr/bin/env python3
-import sys,traceback,pdb,cProfile
-from machsmt.parser import args as settings
-from machsmt.db import database as db
-from machsmt.util import die,warning
-from machsmt import MachSMT
+import sys
+import traceback
+import pdb
+import cProfile
+from machsmt import MachSMT, warning, die, DataBase, config
+
 
 def main():
-    # if not settings.lib: warning("Please provide a lib directory.",help=True)
-    try: db.load()
-    except FileNotFoundError: warning("No DB found. Will attempt to produce a new one.")
-    db.build(settings.files)
-    db.save()
+    machsmt = MachSMT(config.files)
+    machsmt.save(config.lib)
 
-    machsmt = MachSMT()
-    machsmt.build()
 
 if __name__ == '__main__':
     try:
-        if settings.profile: cProfile.run('main()')
-        else: main()
-        print("Completed build without error.")
-    except:
+        if config.profile:
+            cProfile.run('main()')
+        else:
+            main()
+    except BaseException:
         extype, value, tb = sys.exc_info()
-        if settings.debug:
-            traceback.print_exc()
+        traceback.print_exc()
+        if config.debug:
             pdb.post_mortem(tb)

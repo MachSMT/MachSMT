@@ -1,0 +1,5 @@
+benchmark,solver,joe
+benchmarks/a.smt2,solvers/s1.sh,5
+benchmarks/b.smt2,solvers/s1.sh,10
+benchmarks/a.smt2,solvers/s2.sh,1
+benchmarks/b.smt2,solvers/s2.sh,2

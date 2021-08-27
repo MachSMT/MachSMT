@@ -1,11 +1,11 @@
 import os
 import time
 from collections import Iterable
-from machsmt.config import config
 from machsmt.util import die, warning
 from machsmt.tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list
 from ..features import bonus_features
+from ..config import config
 from func_timeout import func_timeout, FunctionTimedOut
 
 keyword_to_index = dict((grammatical_construct_list[i], i) for i in range(

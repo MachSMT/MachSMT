@@ -3,7 +3,6 @@ import os
 from machsmt.database import DataBase
 from machsmt.exceptions import MachSMT_BadCSVError, MachSMT_IncompleteDataError
 
-
 def nav_to_data_dir():
     loc = os.path.dirname(os.path.abspath(__file__))
     os.chdir(loc)

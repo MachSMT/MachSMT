@@ -1,13 +1,8 @@
 from machsmt import benchmark
 from machsmt.selectors import Greedy, GreedyLogic, EHM, EHMLogic
-from sklearn.model_selection import train_test_split
-import os
-import pickle
 import pdb
 import pickle
-import itertools
-import random
-import copy
+import os
 from typing import Iterable
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,12 +41,11 @@ class MachSMT:
             if self.multi_logic:
                 self.selectors['GreedyLogic'] = GreedyLogic(self.db)
         if config.pwc:
-            raise NotImplementedError
-
+            raise NotImplementedError ## currently cut due to lack of performance
         self.training_scores = {}
 
     def train(self, benchmarks=None):
-        if not benchmarks:
+        if benchmarks is None:
             benchmarks = self.db.get_benchmarks()
         predictions = dict(
             (name, algo.eval(benchmarks))
@@ -64,17 +58,19 @@ class MachSMT:
             self.training_scores[algo_name] = 0
             for it, solver in enumerate(algo_predictions):
                 self.training_scores[algo_name] += solver.get_score(benchmarks[it])
-
-    def predict(self, benchmarks):
+        
+    def predict(self, benchmarks=None, include_scores = False):
+        if benchmarks is None:
+            benchmarks = self.db.get_benchmarks()        
         best_selector = min(self.training_scores, key=self.training_scores.get)
-        return self.selectors[best_selector].predict(benchmarks)
+        return self.selectors[best_selector].predict(benchmarks, include_scores)
 
     @staticmethod
     def load(path):
         f = open(path, 'rb')
         tmp_dict = pickle.load(f)
         f.close()          
-        ret = MachSMT(DataBase())
+        ret = MachSMT(DataBase(build_on_init=False))
         ret.__dict__.update(tmp_dict) 
         return ret
 

@@ -8,13 +8,14 @@ from machsmt import MachSMT, warning, die, DataBase, config
 
 def main():
     machsmt = MachSMT(config.files)
+    machsmt.train()
     machsmt.save(config.lib)
 
 
 if __name__ == '__main__':
     try:
         if config.profile:
-            cProfile.run('main()')
+            cProfile.run('main()', sort=2)
         else:
             main()
     except BaseException:

@@ -3,28 +3,27 @@ class PortfolioRegressor:
     def __init__(self, regressors={}) -> None:
         self.regressors = regressors
         self.best = None
+        self.scores = {}
 
     def add_regressor(self, name, regressor): 
         self.regressors[name] = regressor
 
     def eval(self, X, Y):
-        best = float('inf')
-        ret = None
+        self.scores = {}
+        Ys = {}
         for it, regressor in enumerate(self.regressors):
-            Y_ = self.regressors[regressor].eval(X, Y)
-            score = self.regressors[regressor].metrics(Y, Y_)['mean_squared_error']
-            if score < best:
-                best = score
-                self.best = regressor
-                ret = Y_
-        return ret
+            Ys[regressor] = self.regressors[regressor].eval(X, Y)
+            self.scores[regressor] = self.regressors[regressor].metrics(Y, Ys[regressor])['r2_score']
+        self.best = max(self.scores,key=self.scores.get)
+        return Ys[self.best]
 
     def train(self, X, Y):
-        if not self.best:
-            self.eval(X, Y)
+        self.eval(X, Y)
         return self.regressors[self.best].train(X, Y)
 
     def predict(self, X):
-        if not self.best:
-            raise ValueError
         return self.regressors[self.best].predict(X)
+
+    def __str__(self):
+        return f'PortfolioRegressor({self.best=})'
+    __repr__ = __str__

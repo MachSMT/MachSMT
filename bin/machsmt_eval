@@ -7,17 +7,18 @@ from machsmt import MachSMT, warning, die, DataBase, config, Evaluator
 
 
 def main():
+    pdb.set_trace()
     if config.files:
         mach = MachSMT(config.files)
     else:
         mach = MachSMT.load(config.lib)
-    Evaluator(mach).run()
-
+    Evaluator(mach.db).run()
+    pdb.set_trace()
 
 if __name__ == '__main__':
     try:
         if config.profile:
-            cProfile.run('main()')
+            cProfile.run('main()', sort=2)
         else:
             main()
     except BaseException:

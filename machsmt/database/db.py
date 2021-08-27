@@ -7,7 +7,7 @@ from ..benchmark import Benchmark
 from ..solver import Solver
 from ..util import warning, die
 from ..exceptions import MachSMT_BadCSVError
-from multiprocessing.pool import Pool
+from multiprocessing.pool import ThreadPool as Pool
 
 def process_benchmark(benchmark):
     benchmark.parse()
@@ -15,10 +15,10 @@ def process_benchmark(benchmark):
 
 class DataBase:
 
-    def __init__(self, files=[]):
+    def __init__(self, files=[], build_on_init=True):
         self.benchmarks = {}
         self.solvers = {}
-        self.build(files)
+        if build_on_init: self.build(files)
 
     def get_solver(self, solver_name): return self.solvers[solver_name]
 
@@ -82,7 +82,6 @@ class DataBase:
             files = [files]
         for file in files:
             self.parse_csv_file(file)
-
         bar = Bar('Processing Benchmark Files', max=len(self.benchmarks))
         with Pool(processes=config.cores) as pool:
             for _, parsed_benchmark in enumerate(

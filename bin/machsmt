@@ -8,17 +8,23 @@ from machsmt.config import config
 
 
 def main():
-    if not config.benchmarks:
+    if len(config.benchmarks) == 0:
         die("Please specify an input benchmark")
 
-    machsmt = MachSMT()
-    machsmt.predict(bench)
+    machsmt = MachSMT.load(config.lib)
+    predictions, scores = machsmt.predict(config.benchmarks,include_scores = True)
+
+    for it, benchmark in enumerate(config.benchmarks):
+        print(benchmark)
+        print(f"\tMachSMT selects: {predictions[it].get_name()}")
+        for solver in sorted(scores[it], key=scores[it].get, reverse=True):
+            print(f"\t\t{solver}   {round(100 * scores[it][solver], 3)}%")
 
 
 if __name__ == '__main__':
     try:
         if config.profile:
-            cProfile.run('main()')
+            cProfile.run('main()', sort=2)
         else:
             main()
     except BaseException:

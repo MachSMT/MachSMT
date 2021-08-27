@@ -1,6 +1,7 @@
 import argparse
 import os
 
+def implies (A, B): return (not A) or B
 
 class Config:
     def __init__(self, args) -> None:
@@ -10,8 +11,7 @@ class Config:
         self.check()
 
     def check(self):
-        pass
-
+        assert True # TODO: CLI arg checking that is unittesting friendly
 
 parser = argparse.ArgumentParser()
 
@@ -19,9 +19,10 @@ parser.add_argument("benchmarks",
                     action="store",
                     # dest="input_benchmark",
                     default=[],
-                    nargs='?',
-                    help="Input benchmark to be predicted"
+                    nargs='*',
+                    help="Input benchmark(s) to be predicted"
                     )
+
 
 parser.add_argument("-f", "--data-files",
                     metavar="files[,files...]",
@@ -50,11 +51,29 @@ parser.add_argument("-r", "--results-directory",
                     help="Results directory, save results of machsmt"
                     )
 
+parser.add_argument("--max-score",
+                    metavar="max_score",
+                    action="store",
+                    dest="max_score",
+                    default=60,
+                    type=int,
+                    help="Max Score for Evaluation",
+                    )
+
+parser.add_argument("--par-N",
+                    metavar="par_n",
+                    action="store",
+                    dest="par_n",
+                    default=2,
+                    type=int,
+                    help="K Fold Cross Validation parameter",
+                    )
+
 parser.add_argument("-k", "--k-fold-value",
                     metavar="k",
                     action="store",
                     dest="k",
-                    default=5,
+                    default=2,
                     type=int,
                     help="K Fold Cross Validation parameter",
                     )
@@ -75,11 +94,11 @@ parser.add_argument("-c", '-j', "--num_cpus",
                     help="Number of CPUs to run in parallel."
                     )
 
-parser.add_argument("-pca", "--pca-diminsions",
-                    metavar="pca",
+parser.add_argument("-min_datapoints", "--min_datapoints",
+                    metavar="min_datapoints",
                     action="store",
-                    dest="pca",
-                    default=35,
+                    dest="min_datapoints",
+                    default=5,
                     type=int,
                     help="Number of diminsions in PCA",
                     )
@@ -102,6 +121,7 @@ parser.add_argument('--no-semantic-features',
 parser.add_argument('-d', '-debug', '--debug',
                     action='store_true',
                     dest="debug",
+                    default=True,
                     help="Debug mode -- enter PDB on exception"
                     )
 
@@ -120,7 +140,7 @@ parser.add_argument("-greedy", "--greedy",
                     dest="greedy",
                     default=True,
                     type=bool,
-                    help="Run with Greedy Selection"
+                    help="Enable greedy selectors when unperformant"
                     )
 
 parser.add_argument("-pwc", "--pairwise-comparator",
@@ -138,6 +158,6 @@ parser.add_argument("--feature-timeout",
                     dest="feature_timeout",
                     default=10,
                     type=int,
-                    help="Number of CPUs to run in parallel."
+                    help="Feature timeout"
                     )
 CONFIG_OBJ = Config(parser.parse_args())

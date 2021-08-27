@@ -2,7 +2,9 @@ import unittest
 import os
 from machsmt import MachSMT,DataBase
 from machsmt.exceptions import MachSMT_IncompleteDataError
+from machsmt import config
 
+config.min_datapoints = 0
 ##"github actions" to integrate regression testing
 
 def nav_to_data_dir():

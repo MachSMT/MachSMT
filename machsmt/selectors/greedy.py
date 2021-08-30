@@ -27,28 +27,32 @@ class Greedy(Selector):
         super().predict(benchmarks, include_predictions)
         ret = self.name_to_solver([self.best] * len(benchmarks))
         if include_predictions:
-            score_ret = [self.scores] * len(benchmarks)
             return ret, [self.score_soft_max(self.score_flip)] * len(benchmarks)
         return self.name_to_solver([self.best] * len(benchmarks))
 
 class GreedyLogic(Selector):
     def __init__(self, db):
         super().__init__(db)
-        self.ans = dict((logic, Greedy(db)) for logic in self.db.get_logics())
+        self.lm = dict((logic, Greedy(db)) for logic in self.db.get_logics())
 
     def train(self, benchmarks):
         super().train(benchmarks)
-        scores = dict(
-            (logic, dict((solver.get_name(), 0) for solver in benchmarks[0].get_solvers()))
-            for logic in self.db.get_logics())
+        logic_benchmark = dict((logic, []) for logic in self.lm)
         for benchmark in benchmarks:
-            logic = benchmark.get_logic()
-            for solver in benchmark.get_solvers():
-                name = solver.get_name()
-                scores[logic][name] += benchmark.get_score(solver)
-        for logic in self.db.get_logics():
-            self.ans[logic] = min(scores[logic], key=scores[logic].get)
-
+            logic_benchmark[benchmark.get_logic()].append(benchmark)
+        for logic in self.lm:
+            self.lm[logic].train(logic_benchmark[logic])
+        
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
-        return self.name_to_solver([self.ans[benchmark.get_logic()] for benchmark in benchmarks])
+        ret_solver, ret_predictions = [], []
+        for benchmark in benchmarks:
+            ret = self.lm[benchmark.get_logic()].predict()
+            if include_predictions:
+                ret_solver.append(ret[0])
+                ret_predictions.append(ret[0])
+            else:
+                ret_solver.append(ret)
+        if include_predictions:
+            return ret_solver, ret_predictions
+        return ret_solver

@@ -33,9 +33,9 @@ class MachSMT:
         self.multi_logic = len(self.db.get_logics()) > 1
 
         self.selectors = {}
-        self.selectors['EHM'] = EHM(self.db)
-        if self.multi_logic:
-            self.selectors['EHMLogic'] = EHMLogic(self.db)
+        # self.selectors['EHM'] = EHM(self.db)
+        # if self.multi_logic:
+        #     self.selectors['EHMLogic'] = EHMLogic(self.db)
         if config.greedy:
             self.selectors['Greedy'] = Greedy(self.db)
             if self.multi_logic:

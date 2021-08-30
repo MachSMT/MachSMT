@@ -12,7 +12,11 @@ def main():
         die("Please specify an input benchmark")
 
     machsmt = MachSMT.load(config.lib)
-    predictions, scores = machsmt.predict(config.benchmarks,include_scores = True)
+
+    benchmarks = [Benchmark(benchmark) for benchmark in config.benchmarks]
+    for benchmark in benchmarks: benchmark.parse()
+    
+    predictions, scores = machsmt.predict(benchmarks,include_scores = True)
 
     for it, benchmark in enumerate(config.benchmarks):
         print(benchmark)

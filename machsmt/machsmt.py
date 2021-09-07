@@ -100,7 +100,6 @@ class MachSMT:
             ret.selectors = selectors
             ret.db = db
             ret.training_scores = training_scores
-        print(ret.training_scores)
         return ret
 
     def save(self, path):

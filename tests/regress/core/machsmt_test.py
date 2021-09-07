@@ -53,7 +53,7 @@ class MachSMT_Test(unittest.TestCase):
         nav_to_data_dir()
         mach = MachSMT(['csv/large.csv'])
         mach.train()
-        p, d = mach.predict(mach.db.get_benchmarks(),include_scores=True)
+        p, d = mach.predict(mach.db.get_benchmarks(),include_predictions=True)
         self.assertTrue(isinstance(p, list))
         self.assertTrue(isinstance(d, list))
         for val in d:

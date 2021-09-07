@@ -4,7 +4,6 @@ from .base import Selector
 from ..config import config
 from ..util import warning
 from ..ml import mk_regressor
-from .greedy import GreedyLogic
 import random
 import pdb
 
@@ -25,15 +24,24 @@ class EHM(Selector):
 
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
-        ret = [None for _ in benchmarks]
-        solvers = sorted(self.lm.keys())
         X, _ = self.mk_tabular_data(benchmarks)
         predicted_times = {}
         for solver, lm in self.lm.items():
             predicted_times[solver] = lm.predict(X)
-        for it, _ in enumerate(benchmarks):
-            bench_predictions = [predicted_times[solver][it] for solver in solvers]
-            ret[it] = self.db.get_solver(solvers[np.argmin(bench_predictions)])
+        ret, ret_pred = [], []
+        for it, benchmark in enumerate(benchmarks):
+            pred_dict = dict(
+                (self.name_to_solver(solver), predicted_times[solver][it])
+                for solver in self.lm
+            )
+            ret.append(
+                min(pred_dict, key=pred_dict.get)
+            )
+            ret_pred.append(
+                self.score_soft_max(pred_dict)
+            )
+        if include_predictions:
+            return ret, ret_pred
         return ret
 
 class EHMLogic(Selector):
@@ -51,9 +59,14 @@ class EHMLogic(Selector):
 
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
-        ret = []
+        ret_solver, ret_predictions = [], []
         for benchmark in benchmarks:
-            ret.append(
-                self.lm[benchmark.get_logic()].predict([benchmark])[0]
-            )
-        return ret
+            ret = self.lm[benchmark.get_logic()].predict([benchmark], include_predictions=include_predictions)
+            if include_predictions:
+                ret_solver.append(ret[0][0])
+                ret_predictions.append(ret[1][0])
+            else:
+                ret_solver.append(ret[0])
+        if include_predictions:
+            return ret_solver, ret_predictions
+        return ret_solver

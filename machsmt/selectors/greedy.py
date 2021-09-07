@@ -18,16 +18,11 @@ class Greedy(Selector):
 
         self.best = min(self.scores, key=self.scores.get)
 
-        #convert 
-        self.score_flip = dict((solver, -score) for solver, score in self.scores.items())
-        low, high = min(self.score_flip.values()), max(self.score_flip.values())
-        for solver in self.score_flip: self.score_flip[solver] = (self.score_flip[solver] - low) / (high - low)
-
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
         ret = self.name_to_solver([self.best] * len(benchmarks))
         if include_predictions:
-            return ret, [self.score_soft_max(self.score_flip)] * len(benchmarks)
+            return ret, [self.score_soft_max(self.scores, negate=True)] * len(benchmarks)
         return self.name_to_solver([self.best] * len(benchmarks))
 
 class GreedyLogic(Selector):
@@ -47,12 +42,12 @@ class GreedyLogic(Selector):
         super().predict(benchmarks, include_predictions)
         ret_solver, ret_predictions = [], []
         for benchmark in benchmarks:
-            ret = self.lm[benchmark.get_logic()].predict()
+            ret = self.lm[benchmark.get_logic()].predict([benchmark])
             if include_predictions:
-                ret_solver.append(ret[0])
-                ret_predictions.append(ret[0])
+                ret_solver.append(ret[0][0])
+                ret_predictions.append(ret[1][0])
             else:
-                ret_solver.append(ret)
+                ret_solver.append(ret[0])
         if include_predictions:
             return ret_solver, ret_predictions
         return ret_solver

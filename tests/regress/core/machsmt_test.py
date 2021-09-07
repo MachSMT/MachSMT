@@ -49,6 +49,19 @@ class MachSMT_Test(unittest.TestCase):
         self.assertTrue(isinstance(p, list))
         self.assertEqual(len(p), len(mach.db.get_benchmarks()))
 
+    def test_predict_2(self):
+        nav_to_data_dir()
+        mach = MachSMT(['csv/large.csv'])
+        mach.train()
+        p, d = mach.predict(mach.db.get_benchmarks(),include_scores=True)
+        self.assertTrue(isinstance(p, list))
+        self.assertTrue(isinstance(d, list))
+        for val in d:
+            self.assertAlmostEqual(sum(val.values()), 1.0)
+        self.assertEqual(len(p), len(mach.db.get_benchmarks()))
+        self.assertEqual(len(d), len(mach.db.get_benchmarks()))
+
+
     def test_save(self):
         nav_to_data_dir()
         self.assertTrue(not os.path.exists('main.machsmt'))

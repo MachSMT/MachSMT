@@ -33,21 +33,25 @@ class Selector:
             for solver in benchmark.get_solvers():
                 score = benchmark.get_score(solver) + 1
                 if score > config.max_score:
-                    score = 5 * config.max_score
+                    score = 10 * config.max_score
                 Y_out[solver.get_name()].append(score)
         X_out = np.array(X_out)
         for solver in self.db.get_solvers():
-            Y_out[solver.get_name()] = np.log(np.array(Y_out[solver.get_name()]).reshape(-1, 1))
+            Y_out[solver.get_name()] = np.log(np.array(Y_out[solver.get_name()]).reshape(-1, 1)).ravel()
         return X_out, Y_out
 
     def name_to_solver(self, names):
+        if isinstance(names, str): 
+            return self.db.get_solver(names)
+
         return [self.db.get_solver(name) for name in names]
 
-    def score_soft_max(self, data):
+    def score_soft_max(self, data, negate = False):
         if isinstance(data, list):
             return [self.score_soft_max(v) for v in data]
         elif isinstance(data, dict):
-            denon = sum(np.exp(v) for v in data.values())
+            denon = sum(np.exp(-v) for v in data.values())
             for key in data:
-                data[key] = np.exp(data[key]) / denon
+                data[key] = np.exp(-data[key]) / denon
             return data
+        else: raise ValueError

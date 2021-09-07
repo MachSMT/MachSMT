@@ -1,7 +1,7 @@
 
 class PortfolioRegressor:
-    def __init__(self, regressors={}) -> None:
-        self.regressors = regressors
+    def __init__(self, regressors = None) -> None:
+        self.regressors = {} if regressors is None else regressors
         self.best = None
         self.scores = {}
 
@@ -13,8 +13,8 @@ class PortfolioRegressor:
         Ys = {}
         for it, regressor in enumerate(self.regressors):
             Ys[regressor] = self.regressors[regressor].eval(X, Y)
-            self.scores[regressor] = self.regressors[regressor].metrics(Y, Ys[regressor])['r2_score']
-        self.best = max(self.scores,key=self.scores.get)
+            self.scores[regressor] = self.regressors[regressor].metrics(Y, Ys[regressor])['mean_squared_error']
+        self.best = min(self.scores, key=self.scores.get)
         return Ys[self.best]
 
     def train(self, X, Y):

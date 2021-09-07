@@ -8,7 +8,7 @@ from machsmt import MachSMT, warning, die, DataBase, config
 
 def main():
     machsmt = MachSMT(config.files)
-    machsmt.train()
+    # machsmt.train()
     machsmt.save(config.lib)
 
 

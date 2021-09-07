@@ -11,7 +11,8 @@ def main():
         mach = MachSMT(config.files)
     else:
         mach = MachSMT.load(config.lib)
-    Evaluator(mach.db).run()
+    Evaluator(mach).run()
+
 
 if __name__ == '__main__':
     try:

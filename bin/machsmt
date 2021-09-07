@@ -14,15 +14,16 @@ def main():
     machsmt = MachSMT.load(config.lib)
 
     benchmarks = [Benchmark(benchmark) for benchmark in config.benchmarks]
-    for benchmark in benchmarks: benchmark.parse()
-    
-    predictions, scores = machsmt.predict(benchmarks,include_scores = True)
+    for benchmark in benchmarks:
+        benchmark.parse()
+
+    predictions, scores = machsmt.predict(benchmarks, include_predictions=True)
 
     for it, benchmark in enumerate(config.benchmarks):
         print(benchmark)
         print(f"\tMachSMT selects: {predictions[it].get_name()}")
         for solver in sorted(scores[it], key=scores[it].get, reverse=True):
-            print(f"\t\t{solver}   {round(100 * scores[it][solver], 3)}%")
+            print(f"\t\t{solver.get_name()}   {round(100 * scores[it][solver], 3)}%")
 
 
 if __name__ == '__main__':

@@ -8,9 +8,9 @@ from ..solver import Solver
 from sklearn.model_selection import KFold
 
 class Evaluator:
-    def __init__(self, db) -> None:
-        self.db = db
-        self.mach = MachSMT(self.db)
+    def __init__(self, machsmt) -> None:
+        self.machsmt = machsmt
+        self.db = machsmt.db
         self.mach_predictions = []
 
     def mk_plot_data(self, benchmarks):
@@ -19,7 +19,6 @@ class Evaluator:
             for solver in self.db.get_solvers()
         )
         ret['Virtual Best'] = []
-        ret['MachSMT'] = []
         for it, benchmark in enumerate(benchmarks):
             scores = []
             for solver in self.db.get_solvers():
@@ -27,8 +26,14 @@ class Evaluator:
                     solver=solver, benchmark=benchmark
                 ))
                 ret[solver.get_name()].append(scores[-1])
-            ret['MachSMT'].append(self.mach_predictions[it])
             ret['Virtual Best'].append(min(scores))
+        for selector in self.machsmt.selectors:
+            dict_name = f'MachSMT--{selector}'
+            ret[dict_name] = []
+            solvers = self.machsmt.predict(benchmarks, selector=selector)
+            ret[dict_name] = [self.db.get_score(solver=solver, benchmark=benchmark)
+                for solver, benchmark in zip(solvers, benchmarks)
+            ] 
         return ret
         
     def mk_plot(self,plot_data,title,loc):
@@ -41,7 +46,7 @@ class Evaluator:
         os.makedirs(loc, exist_ok=True)
 
         # Sort solvers by number of solved instances
-        ranked_solvers = sorted(plot_data, key=lambda s: sum(t < max_score for t in plot_data[s]), reverse=True)
+        ranked_solvers = sorted(plot_data, key=lambda s: sum(t for t in plot_data[s]))
         for plot_type in ('cdf', 'cactus'):
             plt.cla()
             plt.clf()
@@ -80,7 +85,7 @@ class Evaluator:
             for solver in plot_data
         )
         cols = ['Solver', 'Par-2 Score', 'Improvement']
-        mach_score = data['MachSMT']
+        mach_score = data['MachSMT--EHM']
         with open(path, 'w') as outcsv:
             out = csv.DictWriter(outcsv, fieldnames=cols)
             out.writeheader()
@@ -96,27 +101,17 @@ class Evaluator:
             data = self.mk_plot_data(benchmarks=benchmarks)
             self.mk_plot(data, title=f'{logic=}',loc=f"{config.results}/{logic}")
             self.mk_par2_file(data,path=f"{config.results}/{logic}/scores.csv")
-        benchmarks = self.db.get_benchmarks()
-        data = self.mk_plot_data(benchmarks=benchmarks)
-        self.mk_plot(data, title=f'All Benchmarks',loc=f"{config.results}/ALL")
-        self.mk_par2_file(data,path=f"{config.results}/ALL/scores.csv")
+        # benchmarks = self.db.get_benchmarks()
+        # data = self.mk_plot_data(benchmarks=benchmarks)
+        # self.mk_plot(data, title=f'All Benchmarks',loc=f"{config.results}/ALL")
+        # self.mk_par2_file(data,path=f"{config.results}/ALL/scores.csv")
 
     def run(self):
-        self.mach.train()
-        predictions = self.mach.predict()
-        self.mach_predictions = [
-            self.db.get_score(solver,benchmark) 
-            for solver,benchmark in zip(predictions, self.db.get_benchmarks())
-        ]
+        # self.mach.train()
+        # self.benchmarks = self.db.get_benchmarks()
+        # solvers, scores = self.machsmt.predict(self.benchmarks, include_scores=True)
+        # self.mach_predictions = [
+        #     self.db.get_score(solver, benchmark)
+        #     for solver, benchmark in zip(solvers, self.benchmarks)
+        # ]
         self.dump()
-
-    # def k_fold(self, benchmarks):
-    #     benchmarks = np.array(benchmarks)
-    #     ret = [None for _ in benchmarks]
-    #     k_fold_args = {'n_splits': config.k, 'shuffle': True, 'random_state': config.rng}
-    #     for train, test in KFold(**k_fold_args).split(benchmarks):
-    #         self.mach.train(benchmarks=benchmarks[train])
-    #         pred = self.mach.predict(benchmarks=benchmarks[test])
-    #         for it, indx in enumerate(test):
-    #             ret[indx] = pred[it]
-    #     return ret

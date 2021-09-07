@@ -14,7 +14,6 @@ def process_benchmark(benchmark):
     return benchmark
 
 class DataBase:
-
     def __init__(self, files=[], build_on_init=True):
         self.benchmarks = {}
         self.solvers = {}

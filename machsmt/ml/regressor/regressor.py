@@ -81,4 +81,6 @@ class Regressor:
         self.lm.fit(X, Y.ravel())
 
     def predict(self, X):
-        return self.lm.predict(X)
+        ret = self.lm.predict(X)
+        print(ret)
+        return ret

@@ -18,9 +18,9 @@ class StackRegressor:
             RobustScaler(),
             StackingRegressor(
                 estimators=[
-                    ('ridge-10', make_pipeline(PCA(n_components=10), RidgeCV())),
-                    ('ridge-25', make_pipeline(PCA(n_components=25), RidgeCV())),
-                    ('ridge-50', make_pipeline(PCA(n_components=50), RidgeCV())),
+                    # ('ridge-10', make_pipeline(PCA(n_components=10), RidgeCV())),
+                    # ('ridge-25', make_pipeline(PCA(n_components=25), RidgeCV())),
+                    # ('ridge-50', make_pipeline(PCA(n_components=50), RidgeCV())),
                     ('ridge', make_pipeline(RidgeCV())),
 
                     # ('sgd-10', make_pipeline(PCA(n_components=10), SGDRegressor(max_iter=max_iter))),
@@ -39,9 +39,9 @@ class StackRegressor:
                     # ('elastic', make_pipeline(ElasticNetCV(max_iter=max_iter))),
 
 
-                    ('ada-10', make_pipeline(PCA(n_components=10), AdaBoostRegressor())),
-                    ('ada-25', make_pipeline(PCA(n_components=25), AdaBoostRegressor())),
-                    ('ada-50', make_pipeline(PCA(n_components=50), AdaBoostRegressor())),
+                    # ('ada-10', make_pipeline(PCA(n_components=10), AdaBoostRegressor())),
+                    # ('ada-25', make_pipeline(PCA(n_components=25), AdaBoostRegressor())),
+                    # ('ada-50', make_pipeline(PCA(n_components=50), AdaBoostRegressor())),
                     ('ada', make_pipeline(AdaBoostRegressor())),
 
 
@@ -55,7 +55,7 @@ class StackRegressor:
             )
         )
         # self.lm = make_pipeline(RobustScaler(), AdaBoostRegressor())
-        # self.lm = make_pipeline(RobustScaler(), MLPRegressor(hidden_layer_sizes=(1000, 1000, 250, 50), activation='relu', max_iter=max_iter, n_iter_no_change=max_iter, validation_fraction=0, early_stopping=False, tol=0, verbose=True))
+        #self.lm = make_pipeline(RobustScaler(), MLPRegressor(hidden_layer_sizes=(100, 100, 50, 10), activation='relu', max_iter=max_iter, n_iter_no_change=max_iter, validation_fraction=0, early_stopping=False, tol=0))
     def train(self, X, Y):
         self.lm.fit(X,Y)
 

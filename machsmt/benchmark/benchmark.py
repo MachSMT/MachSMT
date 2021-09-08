@@ -122,7 +122,7 @@ class Benchmark:
         assert not hasattr(self, 'tokens')
 
     def __str__(self): 
-        return f"Benchmark({self.path=}, {len(self.solvers)=}, {self.logic=})"
+        return f"Benchmark(self.path={self.path}, len(self.solvers)={len(self.solvers)}, self.logic={self.logic})"
     __repr__ = __str__
 
     def __hash__(self):

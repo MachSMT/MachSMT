@@ -141,4 +141,5 @@ class DataBase:
 
         return True
 
-    def __str__(self): return f"DataBase({len(self.benchmarks)=} {len(self.solvers)=})"
+    def __str__(self):
+        return f"DataBase(len(self.benchmarks)={len(self.benchmarks)} len(self.solvers)={len(self.solvers)})"

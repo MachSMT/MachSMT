@@ -29,7 +29,7 @@ class Regressor:
         self.lm = self.mk_model()
 
     def __str__(self):
-        return f"Regressor({self.algo=}, {self.algo_args=}, {self.algo_kwargs=}, {self.pca=}, {self.n_pca=})"
+        return f"Regressor(self.algo={self.algo}, self.algo_args={self.algo_args}, self.algo_kwargs={self.algo_kwargs}, self.pca={self.pca}, self.n_pca={self.n_pca})"
     __repr__ = __str__
 
     def mk_model(self, use_pca=True):

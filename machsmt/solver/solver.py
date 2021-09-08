@@ -41,5 +41,5 @@ class Solver:
     def __contains__(self, key):
         return key.get_path() in self.benchmarks
 
-    def __str__(self): return f"Solver({self.name=} {len(self.benchmarks)=})"
+    def __str__(self): return f"Solver(self.name={self.name} len(self.benchmarks)={len(self.benchmarks)})"
     __repr__ = __str__

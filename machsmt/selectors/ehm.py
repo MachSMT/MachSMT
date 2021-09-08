@@ -17,7 +17,7 @@ class EHM(Selector):
         super().train(benchmarks)
         X, Y = self.mk_tabular_data(benchmarks)
         if len(X) < config.min_datapoints:
-            raise MachSMT_InsufficientData(f"Insufficient data {len(X)=} < {config.min_datapoints=}")
+            raise MachSMT_InsufficientData(f"Insufficient data len(X)={len(X)} < config.min_datapoints={config.min_datapoints}")
         for solver in self.lm:
             self.lm[solver] = mk_regressor()
             self.lm[solver].train(X, Y[solver])

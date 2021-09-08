@@ -25,5 +25,5 @@ class PortfolioRegressor:
         return self.regressors[self.best].predict(X)
 
     def __str__(self):
-        return f'PortfolioRegressor({self.best=})'
+        return f'PortfolioRegressor(self.best={self.best})'
     __repr__ = __str__

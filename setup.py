@@ -22,6 +22,7 @@ setup(
         'matplotlib',
         'progress',
         'scikit-learn',
+        'scikit-learn-intelex',
         'func_timeout',
     ],
 )

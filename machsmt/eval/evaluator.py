@@ -122,7 +122,6 @@ class Evaluator:
             for solver in solvers:
                 alloc = round(1200 * pred[solver])
                 score = self.db.get_score(benchmark=benchmark, solver=solver)
-                # if score > 1: pdb.set_trace()
                 if score > 60: 
                     score = 1200
                 if score < alloc:
@@ -135,6 +134,9 @@ class Evaluator:
         ret['cvc5'] = cvc5_comp_scores
         ret['machsmt'] = mach_raw_scores
         ret['machsmt-alloc'] = mach_alloc_scores
+        for solver in self.db.get_solvers():
+            ret[solver.get_name()] = [self.db.get_score(solver, benchmark) if self.db.get_score(solver, benchmark) < 60 else 1200 for benchmark in benchmarks]
+        # ret['Virtual Best'] = [min(cvc5_comp_scores[it], mach_raw_scores[it], mach_alloc_scores[it]) for it in range(len(benchmarks))]
         return ret
 
     def mk_plot_data(self, benchmarks):

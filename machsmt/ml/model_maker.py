@@ -6,8 +6,8 @@ from sklearn.neural_network import MLPRegressor
 from ..util import warning
 import random
 
-from sklearnex import patch_sklearn
-patch_sklearn(verbose=True)
+# from sklearnex import patch_sklearn
+# patch_sklearn(verbose=True)
 
 
 def mk_regressor():

@@ -59,6 +59,10 @@ class DataBase:
         return tuple(sorted(ret))
 
     def get_score(self, solver, benchmark):
+        if isinstance(solver, str):
+            solver = self.solvers[solver]
+        if isinstance(benchmark, str):
+            benchmark = self.benchmarks[benchmark]
         return self.solvers[solver.get_name()].scores[benchmark.get_path()]
 
     def __len__(self): return len(self.benchmarks)

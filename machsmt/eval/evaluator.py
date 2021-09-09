@@ -163,6 +163,7 @@ class Evaluator:
         return ret
 
     def mk_plot(self,plot_data,title,loc, max_score = config.max_score):
+        return
         max_score = max_score
 
         # Escape _ for latex

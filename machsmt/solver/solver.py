@@ -24,7 +24,7 @@ class Solver:
             self.scores.pop(benchmark.get_path())
 
     def get_benchmarks(self):
-        return tuple(sorted(self.benchmarks.values(), key=lambda b: b.get_path()))
+        return sorted(self.benchmarks.values(), key=lambda b: b.get_path())
 
     def get_logics(self):
         ret = set()

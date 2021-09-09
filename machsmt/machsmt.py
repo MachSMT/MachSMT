@@ -3,6 +3,7 @@ from machsmt.selectors import Greedy, GreedyLogic, EHM, EHMLogic
 import pdb
 import pickle
 import os
+import lzma
 from typing import Iterable
 import matplotlib.pyplot as plt
 import numpy as np
@@ -93,18 +94,25 @@ class MachSMT:
         # return ret_solv
 
     @staticmethod
-    def load(path):
+    def load(path, with_db = True):
         ret = MachSMT(DataBase(build_on_init=False))
         with open(path, 'rb') as f:
-            selectors, db, training_scores = pickle.load(f)
-            ret.selectors = selectors
-            ret.db = db
-            ret.training_scores = training_scores
+            ret.selectors = pickle.load(f)
+            if with_db:
+                ret.db = pickle.load(f)
+                ret.training_scores = pickle.load(f)
+            else:
+                ret.training_scores = {}
         return ret
 
     def save(self, path):
         with open(path, 'wb') as f:
-            pickle.dump(
-                (self.selectors, self.db, self.training_scores)
-                , f)
+            pickle.dump(self.selectors, f)
+            pickle.dump(self.db, f)
+            pickle.dump(self.training_scores, f)        
         # f.close()
+
+        # with open(path, 'wb') as f:
+        #     pickle.dump(
+        #         (self.selectors, self.db, self.training_scores)
+        #         , f)

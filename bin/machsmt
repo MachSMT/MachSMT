@@ -11,7 +11,7 @@ def main():
     if len(config.benchmarks) == 0:
         die("Please specify an input benchmark")
 
-    machsmt = MachSMT.load(config.lib)
+    machsmt = MachSMT.load(config.lib,with_db=False)
 
     benchmarks = [Benchmark(benchmark) for benchmark in config.benchmarks]
     for benchmark in benchmarks:

@@ -7,8 +7,10 @@ from machsmt import MachSMT, warning, die, DataBase, config
 
 
 def main():
-    machsmt = MachSMT(config.files)
-    # machsmt.train()
+    if len(config.files) > 0 :
+        machsmt = MachSMT(config.files)
+    elif config.debug:
+        machsmt = MachSMT.load(config.lib)
     machsmt.save(config.lib)
 
 

@@ -11,29 +11,23 @@ import pdb
 class EHM(Selector):
     def __init__(self, db):
         super().__init__(db)
-        self.lm = dict((solver.get_name(), None) for solver in self.db.get_solvers())
+        self.lm = mk_regressor()
 
     def train(self, benchmarks):
         super().train(benchmarks)
         X, Y = self.mk_tabular_data(benchmarks)
         if len(X) < config.min_datapoints:
             raise MachSMT_InsufficientData(f"Insufficient data len(X)={len(X)} < config.min_datapoints={config.min_datapoints}")
-        for solver in self.lm:
-            self.lm[solver] = mk_regressor()
-            self.lm[solver].train(X, Y[solver])
+        self.lm.train(X,Y)
 
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
-        X, _ = self.mk_tabular_data(benchmarks)
-        predicted_times = {}
-        for solver, lm in self.lm.items():
-            predicted_times[solver] = lm.predict(X)
         ret, ret_pred = [], []
-        for it, benchmark in enumerate(benchmarks):
-            pred_dict = dict(
-                (self.name_to_solver(solver), predicted_times[solver][it])
-                for solver in self.lm
-            )
+        X, _ = self.mk_tabular_data(benchmarks)
+        predicted_times = self.lm.predict(X)
+        for it, (benchmark, times) in enumerate(zip(benchmarks, predicted_times)):
+            pred_dict = dict((solver, time) for solver, time in zip(self.db.get_solvers(), times))
+
             ret.append(
                 min(pred_dict, key=pred_dict.get)
             )

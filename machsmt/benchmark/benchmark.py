@@ -29,7 +29,7 @@ class Benchmark:
         return self.path
 
     def get_solvers(self):
-        return list(self.solvers.values())
+        return sorted(self.solvers.values(), key=lambda p: p.get_name())
 
     def add_solver(self, solver, score):
         self.solvers[solver.get_name()] = solver

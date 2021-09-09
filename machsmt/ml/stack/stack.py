@@ -1,3 +1,4 @@
+from numpy import e
 from sklearn.ensemble import StackingRegressor
 from sklearn.linear_model import RidgeCV, SGDRegressor, LassoCV, ElasticNetCV
 from sklearn.svm import SVR
@@ -8,9 +9,12 @@ from sklearn.ensemble import AdaBoostRegressor
 from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.neural_network import MLPRegressor
+from ...config import config
+import numpy as np
 
+import time , pdb
 
-max_iter= 250
+MAX_ITER = 10
 
 class StackRegressor:
     def __init__(self):
@@ -45,7 +49,7 @@ class StackRegressor:
                     ('ada', make_pipeline(AdaBoostRegressor())),
 
 
-                    ('dnn', MLPRegressor(hidden_layer_sizes=(50, 50), activation='relu', max_iter=max_iter,validation_fraction=0.0))
+                    ('dnn', MLPRegressor(hidden_layer_sizes=(1000, 1000, 200, 200, 200, 200), activation='relu', max_iter=MAX_ITER, n_iter_no_change=MAX_ITER, validation_fraction=0, early_stopping=False, tol=0, verbose=True, warm_start=True,learning_rate='constant', learning_rate_init=10**-5))
                 ],
                 final_estimator=make_pipeline(RobustScaler(), AdaBoostRegressor()),
                 verbose=True,
@@ -55,9 +59,18 @@ class StackRegressor:
             )
         )
         # self.lm = make_pipeline(RobustScaler(), AdaBoostRegressor())
-        #self.lm = make_pipeline(RobustScaler(), MLPRegressor(hidden_layer_sizes=(100, 100, 50, 10), activation='relu', max_iter=max_iter, n_iter_no_change=max_iter, validation_fraction=0, early_stopping=False, tol=0))
+        # self.lm = make_pipeline(RobustScaler(), MLPRegressor(hidden_layer_sizes=(1000, 1000, 200, 200, 200, 200), activation='relu', max_iter=MAX_ITER, n_iter_no_change=MAX_ITER, validation_fraction=0, early_stopping=False, tol=0, verbose=True, warm_start=True,learning_rate='constant', learning_rate_init=10**-5))
     def train(self, X, Y):
-        self.lm.fit(X,Y)
-
+        mlp = self.lm
+        mlp.learning_rate_init = np.random.choice([10 ** -x for x in [5, 6, 7]])
+        mlp.batch_size = np.random.choice([32, 64, 128, 256, 512, 1024])
+        mlp.max_iter = MAX_ITER
+        max_time = 60
+        start = time.time()
+        while time.time() - start < 60:
+            mlp.fit(X,Y)
+            mlp.set_params(mlpregressor__batch_size=np.random.choice([32, 64, 128, 256, 512, 1024]))
+            mlp.set_params(mlpregressor__learning_rate_init=np.random.choice([10 ** -x for x in [5, 6, 7]]))
+        print(f"finished {config.lib}")
     def predict(self, X):
         return self.lm.predict(X)

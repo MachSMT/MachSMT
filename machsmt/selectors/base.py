@@ -27,18 +27,17 @@ class Selector:
         return ret
 
     def mk_tabular_data(self, benchmarks):
-        X_out, Y_out = [], dict((solver.get_name(), []) for solver in self.db.get_solvers())
+        X_out, Y_out = [], []
         for benchmark in benchmarks:
             X_out.append(benchmark.get_features())
+            y = []
             for solver in benchmark.get_solvers():
                 score = benchmark.get_score(solver) + 1
                 if score > config.max_score:
-                    score = 10 * config.max_score
-                Y_out[solver.get_name()].append(score)
-        X_out = np.array(X_out)
-        for solver in self.db.get_solvers():
-            Y_out[solver.get_name()] = np.log(np.array(Y_out[solver.get_name()]).reshape(-1, 1)).ravel()
-        return X_out, Y_out
+                    score = 2 * config.max_score
+                y.append(score)
+            Y_out.append(y)
+        return np.array(X_out), np.log(np.array(Y_out))
 
     def name_to_solver(self, names):
         if isinstance(names, str): 

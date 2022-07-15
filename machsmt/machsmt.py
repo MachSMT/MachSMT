@@ -136,23 +136,23 @@ class MachSMT:
         title = title.replace('_', '\\_')
 
         aliases = {
-            'Random':'MachSMT-Random',
-            'Oracle': 'Virtual Best Solver',
-            'Greedy':'MachSMT-Greedy',
-            'Solver':'MachSMT-SolverEHM',
-            'SolverLogic': 'MachSMT-SolverLogicEHM',
-            'PairWise': 'MachSMT-SolverPWC',
-            'PairWiseLogic': 'MachSMT-SolverLogicPWC',
+            'Random':'Mach-Random',
+            'Oracle': 'VBS',
+            'Greedy':'Mach-Greedy',
+            'Solver':'Mach-EHM',
+            'SolverLogic': 'Mach-LogicEHM',
+            'PairWise': 'Mach-PWC',
+            'PairWiseLogic': 'Mach-LogicPWC',
         }
 
         color_markers = {
-            'MachSMT-Random': ('olive', 'x'),
-            'Virtual Best Solver': ('black', '+'),
-            'MachSMT-Greedy': ('olive', '|'),
-            'MachSMT-SolverEHM': ('green', 'p'),
-            'MachSMT-SolverLogicEHM': ('purple', '*'),
-            'MachSMT-SolverPWC': ('cyan', 's'),
-            'MachSMT-SolverLogicPWC': ('red', '2'),
+            'Mach-Random': ('olive', 'x'),
+            'VBS': ('black', '+'),
+            'Mach-Greedy': ('olive', '|'),
+            'Mach-EHM': ('green', 'p'),
+            'Mach-LogicEHM': ('purple', '*'),
+            'Mach-PWC': ('cyan', 's'),
+            'Mach-LogicPWC': ('red', '2'),
         }
 
         def cleanup_solver_name(name):
@@ -172,6 +172,10 @@ class MachSMT:
                 name = 'SMTInterpol'
             elif name.startswith('Yices 2.6.2'):
                 name = 'Yices 2.6.2'
+            elif name.startswith('vampire-4.3'):
+                name = 'Vampire (2018)'
+            elif name.startswith('vampire-4.4'):
+                name = 'Vampire (2019)'
             elif name.startswith('vampire'):
                 name = 'Vampire'
 

@@ -96,7 +96,6 @@ class Benchmark:
     def compute_bonus_features(self):
         timeout = settings.feature_timeout / len(bonus_features)
         for feat in bonus_features:
-            print(f"trying bonus feature: {feat}")
             try:
                 ret = func_timeout(timeout=timeout,
                                    func=feat,
@@ -118,7 +117,6 @@ class Benchmark:
             except Exception as e:
                 traceback.print_exc()
                 die('Error in feature calculation on {}.'.format(self.name))
-            print(f"finished {feat}")
 
     ## Get and if necessary, compute features.
     def get_features(self):

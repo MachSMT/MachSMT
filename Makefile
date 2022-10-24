@@ -1,5 +1,5 @@
 install:
-	pip3 install -r requirements.txt
+#	pip3 install -r requirements.txt
 	sudo python3 setup.py develop #TODO: make this less invasive. 
 	make test
 

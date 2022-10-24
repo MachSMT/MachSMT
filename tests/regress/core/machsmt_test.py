@@ -5,7 +5,6 @@ from machsmt.exceptions import MachSMT_IncompleteDataError
 from machsmt import config
 
 config.min_datapoints = 0
-##"github actions" to integrate regression testing
 
 def nav_to_data_dir():
     loc = os.path.dirname(os.path.abspath(__file__))
@@ -53,7 +52,7 @@ class MachSMT_Test(unittest.TestCase):
         nav_to_data_dir()
         mach = MachSMT(['csv/large.csv'])
         mach.train()
-        p, d = mach.predict(mach.db.get_benchmarks(),include_predictions=True)
+        p, d = mach.predict(mach.db.get_benchmarks(), include_predictions=True)
         self.assertTrue(isinstance(p, list))
         self.assertTrue(isinstance(d, list))
         for val in d:

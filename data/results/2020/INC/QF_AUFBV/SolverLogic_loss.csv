@@ -1,0 +1,31 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/zipcpu-zipmmu-compact.smt2,Bitwuzla,2335.6722139999997
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/picorv32-pcregs-compact.smt2,Yices (2019),1274.745
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/VexRiscv-regch0-15-compact.smt2,MathSAT5,582.3435
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutAX_QF_AUFBV.smt2,Yices (2019),571.6653846153845
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/picorv32-check-compact.smt2,Z3,188.6969
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/zipcpu-busdelay-compact.smt2,Yices,126.00929999999998
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/ponylink-slaveTXlen-unsat-compact.smt2,Yices,3.0885999999999996
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/43_1a_cilled_ok_nondet_linux-43_1a-drivers--mtd--devices--phram.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Bitwuzla,1.173247
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--mtd--mtdoops.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Bitwuzla,0.9172699999999999
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/43_1a_cilled_ok_nondet_linux-43_1a-drivers--w1--slaves--w1_ds2433.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Bitwuzla,0.599331
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--w1--slaves--w1_ds2431.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Z3,0.29874199999999995
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--mtd--tests--mtd_pagetest.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Z3,0.25095500000000004
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--rtc--rtc-wm831x.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Bitwuzla,0.247791
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--mtd--tests--mtd_subpagetest.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Z3,0.16759799999999997
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/VexRiscv-regch0-20-compact.smt2,Yices,0.08999999999991815
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/VexRiscv-regch0-30-compact.smt2,MathSAT5,0.06999999999993634
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutCX_QF_AUFBV.smt2,Yices,0.05999999999994543
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/substructure_addressing_true-unreach-label.c.files_smt-query.0.smt2,Bitwuzla,0.0388691
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--usb--serial--usb_debug.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Bitwuzla,0.028076
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutAY_QF_AUFBV.smt2,Yices,0.009999999999990905
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019B/marlann_compute_fail1_QF_AUFBV.smt2,Yices,0.00784000000000007
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019B/marlann_compute_fail2_QF_AUFBV.smt2,Yices (2019),0.006549999999999834
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/43_1a_cilled_ok_nondet_linux-43_1a-drivers--mtd--mtdoops.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices,0.004107000000000083
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutCY_QF_AUFBV.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFBV/20190307-CPAchecker_kInduction-SoSy_Lab/array_in_global_struct_init_true-unreach-label.c.files_smt-query.0.smt2,Bitwuzla,0.0
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutBY_QF_AUFBV.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019B/marlann_compute_pass_QF_AUFBV.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/ponylink-slaveTXlen-sat-compact.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_AUFBV/2018-Wolf-fmbench/zipcpu-pfcache-compact.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutBX_QF_AUFBV.smt2,Yices,0.0

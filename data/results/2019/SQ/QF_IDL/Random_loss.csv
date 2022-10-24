@@ -1,0 +1,1043 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/min_max/MinMax_live_bgmc002.smt2,ProB,4799.99106393
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen9-1.smt2,ProB,4799.99072906
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s16.smt2,ProB,4799.99056603
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO2-7-PO2.smt2,ProB,4799.99047705
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s12.smt2,ProB,4799.9899869
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=10-height=10-density=0.01-run=3.smt2,ProB,4799.9849439
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_live_blmc004.smt2,ProB,4799.9838819
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop14-2-7-7-2-4-12.smt2,ProB,4799.983716
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=10-height=10-density=0.01-run=4.smt2,ProB,4799.982777
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-5.induction.cvc.smt2,ProB,4799.9819219
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_safe_blmc004.smt2,ProB,4799.9806169
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s11.smt2,ProB,4799.980524
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.11.3.i.a.u.smt2,ProB,4799.9795431
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s15.smt2,ProB,4799.979395
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.100.graph.smt2,ProB,4799.9789471
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_bgmc008.smt2,ProB,4799.976251
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc003.smt2,ProB,4799.976066
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-17.smt2,ProB,4799.9757981
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_2_mkspan1009.smt2,ProB,4799.972345
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-16.smt2,ProB,4799.971794
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-8.smt2,ProB,4799.966924
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=17-height=17-density=0.01-run=1.smt2,ProB,4799.9654619
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-13.induction.cvc.smt2,ProB,4799.9649651
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc005.smt2,ProB,4799.964719
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_2_mkspan1000.smt2,ProB,4799.96232
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_1_mkspan1004.smt2,ProB,4799.9590541
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc006.smt2,ProB,4799.9586581
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_1_mkspan1036.smt2,ProB,4799.9548509
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=21-height=21-density=0.01-run=2.smt2,ProB,4799.949472
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop14-2-7-7-4-4-12.smt2,ProB,4799.946192
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-19.cvc.smt2,ProB,4799.942105
+/data/SMT-LIB-non-incremental/QF_IDL/parity/26.200.graph.smt2,ProB,4799.939373
+/data/SMT-LIB-non-incremental/QF_IDL/parity/30.200.graph.smt2,ProB,4799.9341839
+/data/SMT-LIB-non-incremental/QF_IDL/parity/10.200.graph.smt2,ProB,4799.9297749
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_7_mkspan620.smt2,ProB,4799.9252239
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-22.cvc.smt2,ProB,4799.9186701
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s9.smt2,ProB,4799.9065579
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc012.smt2,ProB,4799.9028421
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-30.cvc.smt2,ProB,4799.89801
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER10-7-ninc.smt2,ProB,4799.852646
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_1_mkspan1001.smt2,ProB,4799.850583
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.300.graph.smt2,ProB,4799.832347
+/data/SMT-LIB-non-incremental/QF_IDL/parity/31.300.graph.smt2,ProB,4799.830223
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.300.graph.smt2,ProB,4799.823168
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-36.cvc.smt2,ProB,4799.820503
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_40_200_1235844018_0_k=4_unsat.gph.smt2,ProB,4799.776768
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop40-2-20-20-2-4-12.smt2,ProB,4799.771532
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.50.steps.9.asp.smt2,ProB,4799.766754
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_50_250_1235336870_0_k=8_sat.gph.smt2,ProB,4799.753822
+/data/SMT-LIB-non-incremental/QF_IDL/parity/15.400.graph.smt2,ProB,4799.745039
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/dimitri_yorick.57.steps.7.asp.smt2,ProB,4799.731804
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-40.cvc.smt2,ProB,4799.699183
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_45_250_1235855661_0_k=4_unsat.gph.smt2,ProB,4799.694126
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_6_mkspan948.smt2,SMTInterpol,4799.682883
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-35.cvc.smt2,ProB,4799.673858
+/data/SMT-LIB-non-incremental/QF_IDL/parity/22.400.graph.smt2,ProB,4799.672053
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_8_mkspan954.smt2,ProB,4799.668482
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_1_mkspan962.smt2,ProB,4799.659377
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen75-1.smt2,SMTInterpol,4799.615809
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_5_mkspan946.smt2,ProB,4799.608728
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-20.smt2,ProB,4799.59625
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_8_mkspan893.smt2,SMTInterpol,4799.58197
+/data/SMT-LIB-non-incremental/QF_IDL/parity/12.500.graph.smt2,ProB,4799.568001
+/data/SMT-LIB-non-incremental/QF_IDL/parity/10.500.graph.smt2,veriT,4799.561795
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=14-height=14-density=0.01-run=3.smt2,ProB,4799.492699
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_3_mkspan872.smt2,ProB,4799.480214
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen86-1.smt2,SMTInterpol,4799.478078
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen78-1.smt2,SMTInterpol,4799.475882
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.51.steps.12.asp.smt2,ProB,4799.436916
+/data/SMT-LIB-non-incremental/QF_IDL/parity/09.400.graph.smt2,ProB,4799.432288
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.500.graph.smt2,ProB,4799.425064
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen98-1.smt2,veriT,4799.420766
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-8-ninc.smt2,ProB,4799.367512
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_1_mkspan937.smt2,ProB,4799.349103
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen92-1.smt2,SMTInterpol,4799.32684
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling145.smt2,ProB,4799.301912
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in3.smt2,ProB,4799.278732
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_2_mkspan925.smt2,ProB,4799.236445
+/data/SMT-LIB-non-incremental/QF_IDL/parity/18.600.graph.smt2,ProB,4799.235589
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.600.graph.smt2,veriT,4799.223698
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen86-1.smt2,SMTInterpol,4799.220551
+/data/SMT-LIB-non-incremental/QF_IDL/parity/24.600.graph.smt2,ProB,4799.19633
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.700.graph.smt2,ProB,4799.085633
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.14.10.i.a.u.smt2,ProB,4799.0724
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen98-1.smt2,veriT,4798.99512
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen99-1.smt2,SMTInterpol,4798.99369
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.3.schur.lp.smt2,ProB,4798.97229
+/data/SMT-LIB-non-incremental/QF_IDL/parity/19.700.graph.smt2,ProB,4798.90694
+/data/SMT-LIB-non-incremental/QF_IDL/parity/02.700.graph.smt2,veriT,4798.8762
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen80-1.smt2,SMTInterpol,4798.87029
+/data/SMT-LIB-non-incremental/QF_IDL/parity/05.700.graph.smt2,veriT,4798.86282
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_6_mkspan1547.smt2,ProB,4798.73174
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop38-2-19-19-4-4-12.smt2,SMTInterpol,4798.69197
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.800.graph.smt2,ProB,4798.66443
+/data/SMT-LIB-non-incremental/QF_IDL/parity/17.700.graph.smt2,ProB,4798.66102
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_100_400_1159666138_6.lp.smt2,Yices (2018),4798.55513
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.6.schur.lp.smt2,ProB,4798.5351
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.800.graph.smt2,ProB,4798.50608
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=24.smt2,SMTInterpol,4798.49806
+/data/SMT-LIB-non-incremental/QF_IDL/parity/29.800.graph.smt2,veriT,4798.43019
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1412.smt2,ProB,4798.41288
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1330.smt2,ProB,4798.39374
+/data/SMT-LIB-non-incremental/QF_IDL/parity/14.700.graph.smt2,SMTInterpol,4798.28065
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1247.smt2,ProB,4798.26971
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1266.smt2,SMTInterpol,4798.26611
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.17.2.i.a.u.smt2,ProB,4798.17309
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1268.smt2,veriT,4797.98265
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.17.3.i.a.u.smt2,ProB,4797.85746
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/dimitri_yorick.51.steps.11.asp.smt2,SMTInterpol,4797.69998
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1174.smt2,CVC4,4797.68241
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_10_mkspan1251.smt2,ProB,4797.62035
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1166.smt2,veriT,4797.60717
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1332.smt2,SMTInterpol,4797.50971
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-15.base.cvc.smt2,ProB,4797.48935
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1251.smt2,SMTInterpol,4797.46196
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1276.smt2,ProB,4797.28312
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1248.smt2,veriT,4797.24175
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_100_400_1159666138_19.lp.smt2,Yices,4797.16789
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1201.smt2,veriT,4797.15933
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_6_mkspan1214.smt2,CVC4,4797.12833
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1258.smt2,CVC4,4797.09051
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_18_18_14.lp.smt2,SMTInterpol,4796.89533
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_10_mkspan1242.smt2,CVC4,4796.87621
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_100_400_1159666138_1.lp.smt2,Yices (2018),4796.67261
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop46-2-23-23-4-4-12.smt2,SMTInterpol,4796.10779
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15puzzle_ins.lp.smt2,ProB,4796.08794
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1295.smt2,ProB,4795.80507
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1249.smt2,SMTInterpol,4795.78347
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.17.5.i.a.u.smt2,ProB,4795.76189
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_6_mkspan1209.smt2,ProB,4795.50981
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_100_400_1159666138_5.lp.smt2,veriT,4795.19945
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1294.smt2,ProB,4795.19737
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_14.lp.smt2,CVC4,4795.05106
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=27.smt2,ProB,4793.82445
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop40-2-20-20-2-4-9.smt2,SMTInterpol,4793.3723
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop52-2-26-26-4-4-12.smt2,SMTInterpol,4791.28867
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=8-height=8-colours=12.smt2,veriT,4790.88161
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_25_300_1235843609_0_k=5_v=7_e=40_sat.gph.smt2,veriT,4789.6963
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a3.3.2.asp.smt2,SMTInterpol,4787.5978
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_70_300_1155482584_12.lp.smt2,SMTInterpol,4784.5492
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.77_7.smt2,ProB,4783.4974
+/data/SMT-LIB-non-incremental/QF_IDL/asp/DisjunctiveScheduling/disjunctiveScheduling.in9.smt2,Z3,4782.5698
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=10.smt2,CVC4,4780.6809
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721326070.dat.smt2,SMTInterpol,4780.5583
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.6.schur.lp.smt2,ProB,4780.4818
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721328612.dat.smt2,ProB,4780.1497
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_6.lp.smt2,ProB,4779.6469
+/data/SMT-LIB-non-incremental/QF_IDL/asp/DisjunctiveScheduling/disjunctiveScheduling.in7.smt2,SMTInterpol,4778.0386
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=9-height=9-colours=6.smt2,veriT,4776.942
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=9-height=9-colours=12.smt2,ProB,4774.5812
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_21_150_1235870252_0_k=3_v=10_e=20_unsat.gph.smt2,SMTInterpol,4774.102
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_0_mkspan1054.smt2,SMTInterpol,4772.7736
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a7.3.3.asp.smt2,SMTInterpol,4771.9123
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_65_500_1235857888_0_k=5_unsat.gph.smt2,ProB,4769.7623
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen16-1.smt2,CVC4,4767.9681
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init2.smt2,ProB,4766.8446
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_100_400_1159666138_3.lp.smt2,Yices,4766.6869
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop56-2-28-28-2-4-9.smt2,ProB,4765.914
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.15.2.i.a.u.smt2,ProB,4763.9259
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721303981.dat.smt2,SMTInterpol,4763.9085
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_2_mkspan1006.smt2,ProB,4762.9168
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721259656.dat.smt2,ProB,4762.6859
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721284464.dat.smt2,SMTInterpol,4762.4191
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_0_mkspan1016.smt2,SMTInterpol,4761.8495
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721330060.dat.smt2,SMTInterpol,4758.7362
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_0.lp.smt2,ProB,4753.8069
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/tsp_rand_70_300_1155482584_11.lp.smt2,SMTInterpol,4752.5578
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_55_250_1235855873_0_k=7_unsat.gph.smt2,ProB,4748.2979
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_200_800_1159728969_6.lp.smt2,Yices (2018),4738.7796
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=10-height=10-colours=11.smt2,Z3,4736.8977
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=10-height=10-colours=5.smt2,SMTInterpol,4735.2842
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=10-height=10-colours=7.smt2,CVC4,4729.6167
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop54-2-27-27-4-4-12.smt2,SMTInterpol,4724.1545
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=10-height=10-colours=10.smt2,CVC4,4703.9944
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-25.base.cvc.smt2,veriT,4692.533
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_17_17_02.lp.smt2,ProB,4692.187
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init11.smt2,ProB,4673.932
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen43-1.smt2,CVC4,4652.536
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_15.lp.smt2,CVC4,4651.389
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.110_7.smt2,veriT,4630.291
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_7.lp.smt2,SMTInterpol,4598.572
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_6.lp.smt2,ProB,4587.19
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_200_800_1159728969_14.lp.smt2,CVC4,4575.382
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721315836.dat.smt2,SMTInterpol,4569.799
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-32.base.cvc.smt2,SMTInterpol,4554.805
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-30.base.cvc.smt2,ProB,4543.947
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_20_20_16.lp.smt2,veriT,4535.312
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_19_19_19.lp.smt2,ProB,4510.148
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-33.base.cvc.smt2,SMTInterpol,4455.244
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_12.lp.smt2,Yices,4432.035
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_05.lp.smt2,ProB,4361.214
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_200_800_1159728969_11.lp.smt2,CVC4,4279.746
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_90_600_1235859689_0_k=10_sat.gph.smt2,Yices,4276.488
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.13.x.13.b.5.a.15_sat.data.smt2,SMTInterpol,4268.654
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=31.smt2,Yices (2018),4255.4529999999995
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-34.base.cvc.smt2,CVC4,4207.242
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_8.lp.smt2,veriT,3981.581
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-38.base.cvc.smt2,veriT,3917.929
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_80_500_1235848939_0_k=9_sat.gph.smt2,veriT,3877.125
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.14.x.14.b.8.a.40_unsat.data.smt2,Z3,3828.5969999999998
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.14.x.14.b.8.a.30_unsat.data.smt2,ProB,3769.76
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Zantema_z053.srs_slice-8_constraint-227740.smt2,veriT,3629.67
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/relative_zr10.srs_slice-5_constraint-295501.smt2,CVC4,3529.58
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=145-density=0.1-instance=10.smt2,veriT,3471.7799999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_200_800_1159728969_10.lp.smt2,Yices,3253.49
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_12.lp.smt2,SMTInterpol,3108.92
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop20-2-10-10-4-4-11.smt2,ProB,3095.7799999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_20_20_04.lp.smt2,veriT,2982.5299999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=9.smt2,ProB,2945.49
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.15.x.15.b.10.a.20_sat.data.smt2,Yices,2901.85
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_22_22_17.lp.smt2,ProB,2894.44
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-14-ninc.smt2,ProB,2889.6
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1352.smt2,CVC4,2260.15647
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.97_7.smt2,veriT,2259.172
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop58-2-29-29-2-4-12.smt2,veriT,2247.509486
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=9-height=9-colours=14.smt2,CVC4,2194.8238
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_30_300_1235855358_0_k=6_v=6_e=30_sat.gph.smt2,veriT,2083.03615
+/data/SMT-LIB-non-incremental/QF_IDL/parity/19.400.graph.smt2,veriT,2069.678083
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen69-1.smt2,veriT,1727.6764389999998
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen69-1.smt2,veriT,1716.031491
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling142.smt2,Yices,1686.2111
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/scen08.smt2,veriT,1622.6803
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.87_7.smt2,veriT,1310.8971
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen35-1.smt2,CVC4,1207.0216200000002
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen63-1.smt2,veriT,1130.879318
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_19_19_14.lp.smt2,Z3,1126.958
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen15-1.smt2,Yices (2018),1029.0952399999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_7_mkspan891.smt2,veriT,849.762931
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-13-ninc.smt2,Yices (2018),820.7950000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=8-height=8-colours=11.smt2,CVC4,819.4027
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen61-1.smt2,veriT,736.413464
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_2_mkspan1010.smt2,SMTInterpol,718.1811399999999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/14.600.graph.smt2,SMTInterpol,716.571761
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sudoku/sudoku.in5.smt2,CVC4,658.6488999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.19.schur.lp.smt2,Yices,638.027
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop52-2-26-26-2-4-12.smt2,SMTInterpol,624.416692
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/tsp_rand_70_300_1155482584_7.lp.smt2,veriT,602.8816999999999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen59-1.smt2,veriT,595.2881699999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.13.x.13.b.7.a.30_sat.data.smt2,Yices,594.641
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-23.base.cvc.smt2,SMTInterpol,553.0609
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.14.schur.lp.smt2,Yices (2018),531.9739999999999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen57-1.smt2,veriT,527.606127
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.14.x.14.r.3.886831626.391915.data_k=2_l=6_sat.gph.smt2,SMTInterpol,510.95450000000005
+/data/SMT-LIB-non-incremental/QF_IDL/parity/27.300.graph.smt2,veriT,476.824816
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_1_mkspan949.smt2,veriT,476.744326
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_1_mkspan638.smt2,SMTInterpol,431.664074
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_16.lp.smt2,veriT,365.1767
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_1_mkspan1048.smt2,CVC4,326.22069999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_20_100_1235402004_0_k=6_v=4_e=4_sat.gph.smt2,Z3,324.64369999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.113_7.smt2,Z3,305.57730000000004
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-38.induction.cvc.smt2,veriT,304.73409300000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=7-height=7-colours=15.smt2,CVC4,296.59904
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_5_mkspan949.smt2,CVC4,293.962896
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/tsp_rand_70_300_1155482584_8.lp.smt2,veriT,281.09202999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in9.smt2,veriT,269.498623
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in10.smt2,veriT,267.98566700000003
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_9_mkspan914.smt2,veriT,265.42263
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen97-1.smt2,CVC4,258.927861
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER10-11-ninc.smt2,SMTInterpol,242.31156
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.37.steps.13.asp.smt2,veriT,241.80880000000002
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_0_mkspan1012.smt2,veriT,236.47080000000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721319768.dat.smt2,CVC4,234.0073
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_1_mkspan943.smt2,CVC4,231.04996699999998
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.4.schur.lp.smt2,Yices,229.0093
+/data/SMT-LIB-non-incremental/QF_IDL/parity/01.700.graph.smt2,CVC4,228.60602
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_18_18_04.lp.smt2,Yices,224.327
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721343626.dat.smt2,Z3,224.1546
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_1_mkspan1054.smt2,SMTInterpol,219.90089
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sudoku/sudoku.in8.smt2,Z3,214.8684
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_0_mkspan1013.smt2,SMTInterpol,205.583608
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=4.smt2,SMTInterpol,202.9999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen51-1.smt2,veriT,201.53151200000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/tsp_rand_70_300_1155482584_9.lp.smt2,veriT,198.70020000000002
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_2_mkspan1011.smt2,veriT,196.59361
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_1_mkspan1052.smt2,SMTInterpol,193.42568999999997
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_0_mkspan1009.smt2,SMTInterpol,191.39983
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in5.smt2,CVC4,190.28587000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_18.lp.smt2,Z3,186.7115
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init4.smt2,veriT,184.53959999999998
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_6_mkspan933.smt2,CVC4,184.457691
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_70_300_1155482584_8.lp.smt2,CVC4,181.00771
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_70_250_1235844252_0_k=13_sat.gph.smt2,CVC4,178.85744
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-center-time=25.smt2,veriT,173.25327
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_1_mkspan641.smt2,SMTInterpol,173.159772
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j6_per0_0_mkspan1057.smt2,SMTInterpol,172.185109
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_4_mkspan941.smt2,CVC4,163.353431
+/data/SMT-LIB-non-incremental/QF_IDL/parity/19.500.graph.smt2,SMTInterpol,162.574562
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_1_mkspan1047.smt2,SMTInterpol,156.32090000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.20.schur.lp.smt2,Z3,141.65640000000002
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen68-1.smt2,CVC4,132.221219
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=5.smt2,SMTInterpol,129.5663
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop28-2-14-14-2-4-9.smt2,veriT,129.193104
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_8_mkspan1139.smt2,veriT,125.143797
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_6_mkspan1175.smt2,veriT,117.049549
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=27.smt2,veriT,116.98192
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop32-2-16-16-4-4-12.smt2,veriT,112.98371
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER13-12-ninc.smt2,Z3,104.7393
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=25.smt2,Z3,104.188499
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen74-1.smt2,CVC4,103.211282
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a7.3.0.tweaked.5.asp.smt2,CVC4,100.772675
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop34-2-17-17-4-4-12.smt2,CVC4,98.727358
+/data/SMT-LIB-non-incremental/QF_IDL/parity/28.200.graph.smt2,veriT,92.66217999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-4-ninc.smt2,ProB,90.45530710000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_22_22_08.lp.smt2,Yices,89.69999999999982
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.127_7.smt2,Z3,89.464
+/data/SMT-LIB-non-incremental/QF_IDL/parity/08.400.graph.smt2,SMTInterpol,89.146722
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.10.a.25_unsat.data.smt2,Yices (2018),86.07459
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.10.x.10.b.5.a.20_unsat.data.smt2,veriT,82.91976000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=3.smt2,Yices,81.7514
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a7.3.4.tweaked.5.asp.smt2,veriT,80.98508
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_2_mkspan1012.smt2,CVC4,80.82625
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.13.x.13.b.7.a.10_unsat.data.smt2,SMTInterpol,79.41749999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER5-6-ninc.smt2,ProB,78.2166211
+/data/SMT-LIB-non-incremental/QF_IDL/parity/16.800.graph.smt2,Z3,74.05949
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a2.9.38.asp.smt2,veriT,73.96214
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/altair1.48.asp.smt2,SMTInterpol,73.89636
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.37.steps.14.asp.smt2,Z3,67.8135
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.800.graph.smt2,Z3,66.10122
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=18-height=18-density=0.01-run=3.smt2,CVC4,65.874
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.600.graph.smt2,SMTInterpol,62.497175
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.700.graph.smt2,CVC4,60.5377
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.93_7.smt2,CVC4,57.2521
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.11.asp.smt2,SMTInterpol,54.79438699999999
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-22.base.cvc.smt2,CVC4,52.9652
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.200.graph.smt2,veriT,52.663566900000006
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-4-ninc.smt2,ProB,52.651457
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen64-1.smt2,CVC4,51.595084
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.13.schur.lp.smt2,Z3,50.28647
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.18.5.i.a.u.smt2,Z3,48.589600000000004
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen42-1.smt2,SMTInterpol,47.966839
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.80_7.smt2,CVC4,47.435
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen41-1.smt2,veriT,46.171749999999996
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-20.induction.cvc.smt2,veriT,43.770794
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.300.graph.smt2,SMTInterpol,43.125733000000004
+/data/SMT-LIB-non-incremental/QF_IDL/parity/17.600.graph.smt2,SMTInterpol,42.158436
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_7_mkspan1144.smt2,SMTInterpol,42.123927
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-11-ninc.smt2,Z3,40.151
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_1_mkspan1055.smt2,CVC4,39.884678
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen56-1.smt2,CVC4,39.553191
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.54.asp.smt2,SMTInterpol,36.9015
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.5.schur.lp.smt2,SMTInterpol,36.823911
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen55-1.smt2,CVC4,36.248355000000004
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.500.graph.smt2,CVC4,36.206406
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=19-height=19-density=0.01-run=5.smt2,Z3,35.853673099999995
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.14.x.14.r.3.886831626.391915.data_k=3_l=5_sat.gph.smt2,CVC4,35.43748
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.35.asp.smt2,SMTInterpol,33.564882000000004
+/data/SMT-LIB-non-incremental/QF_IDL/parity/20.800.graph.smt2,CVC4,33.06918
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop28-2-14-14-2-4-12.smt2,veriT,32.128846100000004
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/penrose.35.asp.smt2,veriT,30.753972
+/data/SMT-LIB-non-incremental/QF_IDL/parity/15.700.graph.smt2,CVC4,30.669369999999997
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop18-2-9-9-4-4-11.smt2,SMTInterpol,29.899
+/data/SMT-LIB-non-incremental/QF_IDL/parity/28.600.graph.smt2,SMTInterpol,29.670695
+/data/SMT-LIB-non-incremental/QF_IDL/parity/23.700.graph.smt2,Z3,29.384559999999997
+/data/SMT-LIB-non-incremental/QF_IDL/parity/24.700.graph.smt2,Z3,29.18996
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-12-ninc.smt2,CVC4,28.7608591
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-19.induction.cvc.smt2,veriT,28.499442000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.34.steps.14.asp.smt2,SMTInterpol,28.491153
+/data/SMT-LIB-non-incremental/QF_IDL/parity/30.800.graph.smt2,CVC4,28.41801
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.41.lp.smt2,veriT,28.416885
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.13.schur.lp.smt2,SMTInterpol,24.722519
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop50-2-25-25-4-4-12.smt2,Z3,24.701790000000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a7.3.4.tweaked.4.asp.smt2,Z3,24.58146
+/data/SMT-LIB-non-incremental/QF_IDL/parity/01.300.graph.smt2,SMTInterpol,24.369659000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721345259.dat.smt2,Yices (2018),24.347
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.41.asp.smt2,SMTInterpol,23.995706
+/data/SMT-LIB-non-incremental/QF_IDL/parity/08.700.graph.smt2,CVC4,22.26475
+/data/SMT-LIB-non-incremental/QF_IDL/parity/08.600.graph.smt2,CVC4,21.869626
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen46-1.smt2,CVC4,20.562178099999997
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.700.graph.smt2,CVC4,19.97262
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen34-1.smt2,SMTInterpol,19.341554000000002
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen19-1.smt2,SMTInterpol,19.313455
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_1_mkspan1018.smt2,CVC4,18.876501
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.700.graph.smt2,Z3,18.35491
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init13.smt2,CVC4,17.933999999999997
+/data/SMT-LIB-non-incremental/QF_IDL/parity/01.600.graph.smt2,Z3,17.197680000000002
+/data/SMT-LIB-non-incremental/QF_IDL/parity/29.600.graph.smt2,CVC4,16.580080000000002
+/data/SMT-LIB-non-incremental/QF_IDL/parity/09.600.graph.smt2,CVC4,16.50758
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen34-1.smt2,veriT,16.275942
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_5_mkspan640.smt2,veriT,16.134741
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_0_mkspan1001.smt2,CVC4,15.902256999999999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/27.400.graph.smt2,CVC4,15.590083
+/data/SMT-LIB-non-incremental/QF_IDL/parity/27.500.graph.smt2,CVC4,15.539347
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_2_mkspan1053.smt2,CVC4,15.469942000000001
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop36-2-18-18-2-4-12.smt2,SMTInterpol,15.110948
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_0_mkspan1014.smt2,veriT,14.962721
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-17.base.cvc.smt2,Yices,14.73194
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_2_mkspan1041.smt2,veriT,14.58324
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.16.lp.smt2,veriT,14.183762
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER9-10-ninc.smt2,CVC4,13.848781899999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_50_250_1235842610_0_k=6_unsat.gph.smt2,CVC4,13.58821
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-10-ninc.smt2,veriT,13.491780000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init7.smt2,Yices (2018),13.295499999999997
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop20-2-10-10-4-4-12.smt2,CVC4,12.9187079
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-37.induction.cvc.smt2,SMTInterpol,12.87055
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/penrose.45.asp.smt2,SMTInterpol,12.766736000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/altair1.10.asp.smt2,CVC4,12.53299
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_9_mkspan595.smt2,CVC4,12.3967829
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-4-ninc.smt2,ProB,12.393428100000001
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.600.graph.smt2,Z3,12.289399000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.2.lp.smt2,veriT,11.791466
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=30.smt2,Yices (2018),11.778599999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=2.smt2,veriT,11.6642851
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_70_250_1235844252_0_k=10_unsat.gph.smt2,Yices (2018),11.360000000000014
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1169.smt2,Z3,10.905180000000001
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen77-1.smt2,ProB,10.646716000000001
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen94-1.smt2,ProB,10.476457
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_7_mkspan624.smt2,CVC4,10.3709019
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/penrose.60.asp.smt2,SMTInterpol,10.302913
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.5.schur.lp.smt2,Yices (2018),10.23713
+/data/SMT-LIB-non-incremental/QF_IDL/parity/16.700.graph.smt2,CVC4,9.653786
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen88-1.smt2,Z3,9.598733000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.2.schur.lp.smt2,CVC4,9.47914
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_2_mkspan1052.smt2,Z3,9.339383
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.14.2.i.a.u.smt2,CVC4,9.01588
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a8.7.5.asp.smt2,CVC4,8.826316
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen31-1.smt2,SMTInterpol,8.7397939
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-14.base.cvc.smt2,Yices,8.68002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.47.asp.smt2,CVC4,8.242314
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.8.schur.lp.smt2,veriT,8.016
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.500.graph.smt2,Z3,7.676117999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/altair1.16.asp.smt2,Z3,7.420450000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1261.smt2,Z3,7.356579999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_2_mkspan1027.smt2,veriT,7.266450000000001
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.400.graph.smt2,CVC4,7.064235999999999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen82-1.smt2,ProB,6.630146
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.40.steps.14.asp.smt2,veriT,6.554953
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.57.steps.15.asp.smt2,veriT,6.39815
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j6_per0_0_mkspan1051.smt2,Yices (2018),6.342439999999999
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-12.base.cvc.smt2,veriT,6.241046
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-48.cvc.smt2,veriT,6.226058
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen10-1.smt2,SMTInterpol,5.9512649
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.200.graph.smt2,SMTInterpol,5.940005
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.20.lp.smt2,CVC4,5.925636
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_20_100_1235851242_0_k=3_v=15_e=25_sat.gph.smt2,veriT,5.670687
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc010.smt2,CVC4,5.507611
+/data/SMT-LIB-non-incremental/QF_IDL/parity/15.500.graph.smt2,Z3,5.500357
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen73-1.smt2,ProB,5.320042
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen24-1.smt2,SMTInterpol,5.22698
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=21-height=21-density=0.01-run=1.smt2,SMTInterpol,4.9631889
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_10_mkspan1241.smt2,Z3,4.70048
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sudoku/sudoku.in3.smt2,ProB,4.652379000000001
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-15.smt2,SMTInterpol,4.5342199999999995
+/data/SMT-LIB-non-incremental/QF_IDL/parity/29.200.graph.smt2,SMTInterpol,4.453874
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/scen09.smt2,SMTInterpol,4.30294
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen27-1.smt2,veriT,4.218732999999999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/19.200.graph.smt2,SMTInterpol,4.181978
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen65-1.smt2,ProB,4.018796999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.40.lp.smt2,CVC4,3.975293
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen28-1.smt2,SMTInterpol,3.9361460000000004
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1313.smt2,Z3,3.91124
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_bgmc010.smt2,ProB,3.8879170000000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.11.x.11.r.3.712566045.949579.data_k=3_l=3_unsat.gph.smt2,SMTInterpol,3.8862321
+/data/SMT-LIB-non-incremental/QF_IDL/parity/18.300.graph.smt2,CVC4,3.725898
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen19-1.smt2,SMTInterpol,3.635319
+/data/SMT-LIB-non-incremental/QF_IDL/parity/28.300.graph.smt2,CVC4,3.6113660000000003
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen53-1.smt2,ProB,3.6053610000000003
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.16.3.i.a.u.smt2,Z3,3.5380529999999997
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-9.induction.cvc.smt2,veriT,3.5358810000000003
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_2_mkspan1001.smt2,veriT,3.524668
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-13.smt2,SMTInterpol,3.524626
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc015.smt2,CVC4,3.485903
+/data/SMT-LIB-non-incremental/QF_IDL/parity/31.400.graph.smt2,SMTInterpol,3.449922
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721325949.dat.smt2,Z3,3.39916
+/data/SMT-LIB-non-incremental/QF_IDL/parity/29.300.graph.smt2,CVC4,3.370077
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-3-ninc.smt2,ProB,3.3628999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/11.400.graph.smt2,Z3,3.330423
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen57-1.smt2,ProB,3.2231970000000003
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_2_mkspan1059.smt2,CVC4,3.1841950000000003
+/data/SMT-LIB-non-incremental/QF_IDL/parity/24.300.graph.smt2,CVC4,3.136248
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-28.cvc.smt2,SMTInterpol,3.0894869
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc010.smt2,ProB,3.0597691
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.400.graph.smt2,Z3,3.0366020000000002
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-20.cvc.smt2,SMTInterpol,2.992137
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen56-1.smt2,ProB,2.926174
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc011.smt2,SMTInterpol,2.8212269
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc002.smt2,ProB,2.8174601
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen21-1.smt2,SMTInterpol,2.8005120999999997
+/data/SMT-LIB-non-incremental/QF_IDL/parity/30.400.graph.smt2,Z3,2.762915
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_2_mkspan1048.smt2,Z3,2.7470999999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=19-height=19-density=0.01-run=3.smt2,SMTInterpol,2.6979771
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER9-3-ninc.smt2,ProB,2.656923
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop26-2-13-13-2-4-12.smt2,CVC4,2.5476
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1600.smt2,Z3,2.49832
+/data/SMT-LIB-non-incremental/QF_IDL/parity/26.100.graph.smt2,veriT,2.439181
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen95-1.smt2,Z3,2.4084190000000003
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_1_mkspan1000.smt2,veriT,2.311059
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s4.smt2,SMTInterpol,2.2865450999999997
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1413.smt2,Z3,2.26185
+/data/SMT-LIB-non-incremental/QF_IDL/parity/22.200.graph.smt2,CVC4,2.2376741
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-36.induction.cvc.smt2,Yices (2018),2.23396
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER13-6-ninc.smt2,SMTInterpol,2.217703
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.36.steps.10.asp.smt2,CVC4,2.188009
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_blmc000.smt2,ProB,2.173331
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen20-1.smt2,CVC4,2.1494001000000003
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s8.smt2,SMTInterpol,2.0594751000000002
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER7-6-ninc.smt2,SMTInterpol,1.8866100000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=15-height=15-density=0.01-run=4.smt2,veriT,1.8567
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER6-6-ninc.smt2,SMTInterpol,1.841242
+/data/SMT-LIB-non-incremental/QF_IDL/parity/14.800.graph.smt2,veriT,1.7411159999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_2_mkspan1019.smt2,veriT,1.7379740000000001
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s5.smt2,veriT,1.6820750000000002
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-7.induction.cvc.smt2,veriT,1.669734
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen30-1.smt2,ProB,1.6298780000000002
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO2-5-PO2.smt2,ProB,1.62749202
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.57.steps.12.asp.smt2,CVC4,1.6252470000000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.70.steps.13.asp.smt2,CVC4,1.6242189999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.10.schur.lp.smt2,veriT,1.605788
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc000.smt2,ProB,1.5996929
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_70_300_1155482584_5.lp.smt2,Yices (2018),1.523299999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=8-height=8-colours=13.smt2,Yices,1.4916999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen13-1.smt2,ProB,1.48308511
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen16-1.smt2,ProB,1.4821671
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop22-2-11-11-2-4-12.smt2,CVC4,1.475514
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/CELAR7_SUB4.smt2,veriT,1.472421
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen25-1.smt2,CVC4,1.4659599
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_5_mkspan947.smt2,Z3,1.443686
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_bgmc010.smt2,SMTInterpol,1.4296771
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/20.14.schur.lp.smt2,Z3,1.4255000000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=15-height=15-density=0.01-run=2.smt2,Yices (2018),1.42161
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a9.8.11.asp.smt2,CVC4,1.4072600000000002
+/data/SMT-LIB-non-incremental/QF_IDL/parity/05.200.graph.smt2,CVC4,1.3877349
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_2_mkspan919.smt2,Z3,1.3421130000000001
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop60-2-30-30-4-4-12.smt2,Yices (2018),1.3404999999999987
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/dimitri_yorick.59.steps.8.asp.smt2,CVC4,1.3212699999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.45.steps.12.asp.smt2,CVC4,1.312547
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-5-ninc.smt2,SMTInterpol,1.2809869
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/CELAR6_SUB4.smt2,veriT,1.2809639
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-18.induction.cvc.smt2,CVC4,1.276395
+/data/SMT-LIB-non-incremental/QF_IDL/parity/31.200.graph.smt2,CVC4,1.2483111
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s9.smt2,SMTInterpol,1.19746095
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1570.smt2,Z3,1.1952999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/parity/21.100.graph.smt2,SMTInterpol,1.180875
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.12.10.i.a.u.smt2,Z3,1.165321
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s7.smt2,CVC4,1.0983759
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_2_mkspan918.smt2,Z3,1.09575
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-10.base.cvc.smt2,CVC4,1.073541
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop10-2-5-5-4-4-11.smt2,SMTInterpol,1.066521
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1525.smt2,Z3,1.0324900000000001
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.76.steps.13.asp.smt2,Z3,1.0274900000000002
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s13.smt2,SMTInterpol,1.0179041
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_2_mkspan1017.smt2,Z3,1.01168
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/dimitri_yorick.55.steps.9.asp.smt2,Z3,1.00485
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc003.smt2,SMTInterpol,0.9922850000000001
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen21-1.smt2,veriT,0.985921
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_blmc005.smt2,CVC4,0.9779988999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=10-height=10-density=0.01-run=1.smt2,SMTInterpol,0.9657901
+/data/SMT-LIB-non-incremental/QF_IDL/parity/10.300.graph.smt2,Z3,0.9467049999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Fastfood/a5.8.80.asp.smt2,Yices,0.9360999999999997
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s2.smt2,CVC4,0.9201531
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=15-height=15-density=0.01-run=3.smt2,Yices,0.911866
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc007.smt2,CVC4,0.904924
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.13.10.i.a.u.smt2,veriT,0.8750880000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_10_mkspan906.smt2,Z3,0.873486
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721325133.dat.smt2,Z3,0.8683099999999997
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.19.asp.smt2,Z3,0.8433120000000001
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.400.graph.smt2,Z3,0.842961
+/data/SMT-LIB-non-incremental/QF_IDL/parity/05.100.graph.smt2,veriT,0.8365231000000001
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.13.5.i.a.u.smt2,Z3,0.829577
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER5-5-ninc.smt2,SMTInterpol,0.8257241000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_10_mkspan910.smt2,Z3,0.810692
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER10-4-ninc.smt2,SMTInterpol,0.806727
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/dimitri_yorick.54.steps.12.asp.smt2,Z3,0.781439
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.11.2.i.a.u.smt2,CVC4,0.772962
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-47.cvc.smt2,veriT,0.7643479999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER13-3-ninc.smt2,SMTInterpol,0.749578
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/trisquares.49.asp.smt2,Z3,0.7490699999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_live_bgmc007.smt2,SMTInterpol,0.736503
+/data/SMT-LIB-non-incremental/QF_IDL/parity/12.300.graph.smt2,Z3,0.72949
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_6_mkspan963.smt2,Z3,0.713258
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen22-1.smt2,CVC4,0.7064169
+/data/SMT-LIB-non-incremental/QF_IDL/parity/20.100.graph.smt2,veriT,0.7006261
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_2_mkspan1056.smt2,veriT,0.6986760000000001
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_bgmc006.smt2,SMTInterpol,0.6977369
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-31.cvc.smt2,CVC4,0.691246
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_safe_blmc004.smt2,SMTInterpol,0.683433
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER8-8-ninc.smt2,Yices,0.679111
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen81-1.smt2,Z3,0.678771
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_safe_blmc004.smt2,CVC4,0.6776749999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_safe_blmc000.smt2,SMTInterpol,0.6625989999999999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen62-1.smt2,Z3,0.639606
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_safe_blmc003.smt2,SMTInterpol,0.6239729
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_safe_bgmc004.smt2,SMTInterpol,0.6063869000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_9_mkspan1153.smt2,Z3,0.600157
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen53-1.smt2,Z3,0.5752390000000001
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_live_blmc000.smt2,SMTInterpol,0.56328399
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_2_mkspan1057.smt2,Z3,0.5442509
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO4-11-PO4.smt2,Z3,0.5362629999999999
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop16-2-8-8-2-4-12.smt2,CVC4,0.5351220000000001
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s20.smt2,CVC4,0.5281929999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.73.steps.9.asp.smt2,Z3,0.5267440000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_9_mkspan930.smt2,Z3,0.516453
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b01_tf_20/ckt_PROP0_tf_20.smt2,SMTInterpol,0.5121420999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-13-ninc.smt2,Yices (2018),0.5000279999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc015.smt2,Z3,0.498784
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO4-4-PO4.smt2,CVC4,0.49342800000000003
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-29.induction.cvc.smt2,Yices (2018),0.49118300000000004
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop54-2-27-27-2-4-12.smt2,Z3,0.48818300000000014
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop8-2-4-4-2-4-9.smt2,Z3,0.48646700000000004
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/parallel_search/ParallelSearch_safe_blmc000.smt2,SMTInterpol,0.48264703
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_blmc006.smt2,veriT,0.473092
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_9_PROP7/ckt_PROP7_tf_9.smt2,SMTInterpol,0.46074902
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.10.10.i.a.u.smt2,CVC4,0.4513401
+/data/SMT-LIB-non-incremental/QF_IDL/parity/12.400.graph.smt2,veriT,0.44783600000000007
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s20.smt2,veriT,0.428909
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s18.smt2,veriT,0.42267
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721332568.dat.smt2,Yices,0.41980000000000217
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-17.smt2,CVC4,0.389771
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop10-2-5-5-2-4-9.smt2,CVC4,0.3878349
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_15.lp.smt2,Yices (2018),0.37599999999999767
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s6.smt2,CVC4,0.3633201
+/data/SMT-LIB-non-incremental/QF_IDL/parity/16.100.graph.smt2,CVC4,0.36173710000000003
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/fast_max/FastMax_live_bgmc000.smt2,SMTInterpol,0.34477999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.200.graph.smt2,Z3,0.3107149
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-13.base.cvc.smt2,Z3,0.30643
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.69.steps.14.asp.smt2,Yices (2018),0.3045499999999999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/22.100.graph.smt2,CVC4,0.2866129
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO4-8-PO4.smt2,veriT,0.268515
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop56-2-28-28-2-4-12.smt2,Z3,0.266767
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-6.base.cvc.smt2,CVC4,0.262094
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_safe_blmc001.smt2,CVC4,0.2560881
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_bgmc010.smt2,CVC4,0.245976
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen18-1.smt2,veriT,0.24249900000000002
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s1.smt2,CVC4,0.24114899999999997
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc008.smt2,Z3,0.23240509999999998
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc011.smt2,veriT,0.2317841
+/data/SMT-LIB-non-incremental/QF_IDL/parity/11.800.graph.smt2,Yices,0.2316499999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721325287.dat.smt2,Yices (2018),0.2287499999999998
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER10-5-ninc.smt2,CVC4,0.218878
+/data/SMT-LIB-non-incremental/QF_IDL/parity/31.800.graph.smt2,Yices,0.21541999999999994
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop12-2-6-6-4-4-12.smt2,veriT,0.2147181
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/CELAR6_SUB1.smt2,CVC4,0.20857199999999998
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_20/ckt_PROP5_tf_20.smt2,CVC4,0.2030831
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-43.cvc.smt2,Z3,0.19621100000000002
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.10.2.i.a.u.smt2,Z3,0.1926
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_0_mkspan1018.smt2,Yices,0.19000999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721326970.dat.smt2,veriT,0.1863000000000028
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER13-7-ninc.smt2,Z3,0.182479
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.800.graph.smt2,Yices,0.18067999999999995
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s9.smt2,veriT,0.173668
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1243.smt2,Yices (2018),0.1704699999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc005.smt2,Z3,0.1703429
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen32-1.smt2,Z3,0.16789489999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc006.smt2,Z3,0.16706189999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_bgmc006.smt2,CVC4,0.1634429
+/data/SMT-LIB-non-incremental/QF_IDL/parity/12.700.graph.smt2,Yices,0.1523699999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/min_max/MinMax_live_blmc002.smt2,CVC4,0.1470069
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen15-1.smt2,veriT,0.14589500000000002
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_0_mkspan1057.smt2,Yices,0.14385000000000048
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-7-ninc.smt2,Z3,0.142679
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.31.lp.smt2,Yices,0.14260099999999987
+/data/SMT-LIB-non-incremental/QF_IDL/parity/11.100.graph.smt2,CVC4,0.14192290000000002
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1242.smt2,Yices (2018),0.13199000000000005
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen30-1.smt2,Z3,0.129371
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc005.smt2,veriT,0.12755
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-41.cvc.smt2,Z3,0.11901400000000006
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop48-2-24-24-4-4-12.smt2,Yices (2018),0.11546000000000012
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-6-ninc.smt2,Z3,0.11027709999999999
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=12-height=12-density=0.01-run=1.smt2,Z3,0.108516
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1296.smt2,Yices (2018),0.10578000000000021
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER6-4-ninc.smt2,CVC4,0.1053211
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s8.smt2,Z3,0.09984409999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER8-7-ninc.smt2,Z3,0.09961799999999998
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-center-time=26.smt2,Yices (2018),0.09782999999999964
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-10.smt2,Z3,0.09782890000000001
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_bgmc005.smt2,CVC4,0.0935099
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1298.smt2,Yices (2018),0.09317999999999982
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO3-10-PO3.smt2,veriT,0.09248
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-8.cvc.smt2,CVC4,0.0902059
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-5-ninc.smt2,Z3,0.0887439
+/data/SMT-LIB-non-incremental/QF_IDL/parity/13.200.graph.smt2,veriT,0.08680189999999999
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.600.graph.smt2,Yices,0.08369500000000007
+/data/SMT-LIB-non-incremental/QF_IDL/parity/30.600.graph.smt2,Yices,0.08239200000000002
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop20-2-10-10-2-4-12.smt2,Z3,0.0716669
+/data/SMT-LIB-non-incremental/QF_IDL/parity/31.500.graph.smt2,Yices,0.07062100000000004
+/data/SMT-LIB-non-incremental/QF_IDL/parity/17.500.graph.smt2,Yices,0.06920699999999991
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER5-3-ninc.smt2,CVC4,0.06880702999999999
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-33.induction.cvc.smt2,Z3,0.06662599999999996
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_bgmc009.smt2,veriT,0.0658809
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_bgmc005.smt2,Z3,0.06567899999999999
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_30/ckt_PROP1_tf_30.smt2,Z3,0.06549390000000001
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_6_mkspan1225.smt2,Yices (2018),0.06537999999999977
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s17.smt2,Z3,0.0642368
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=10-height=10-density=0.01-run=2.smt2,Z3,0.0641651
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-6.induction.cvc.smt2,Z3,0.061808100000000005
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1370.smt2,Yices (2018),0.05937999999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_blmc002.smt2,veriT,0.059358999999999995
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER6-7-ninc.smt2,Z3,0.059018100000000004
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1335.smt2,Yices (2018),0.05898000000000003
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_25/ckt_PROP1_tf_25.smt2,Z3,0.057993
+/data/SMT-LIB-non-incremental/QF_IDL/cellar/CELAR7_SUB2.smt2,Z3,0.057827100000000006
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO3-4-PO3.smt2,Z3,0.055685
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per20_2_mkspan1004.smt2,Yices,0.05500700000000003
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_30/ckt_PROP8_tf_30.smt2,Z3,0.053444900000000004
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER8-3-ninc.smt2,Z3,0.0528688
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1261.smt2,Yices (2018),0.052729999999999944
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/linear_search/LinearSearch_live_blmc004.smt2,CVC4,0.05234195
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen93-1.smt2,Yices (2018),0.052139999999999964
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen38-1.smt2,Z3,0.049367900000000006
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_safe_bgmc004.smt2,Z3,0.0489849
+/data/SMT-LIB-non-incremental/QF_IDL/sep/misc/ring2-100.smt2,veriT,0.046384
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_live_bgmc004.smt2,Z3,0.04559091
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_live_blmc002.smt2,Z3,0.045482800000000004
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_bgmc003.smt2,Z3,0.04316009
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_bgmc006.smt2,veriT,0.040383
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc004.smt2,Z3,0.0400961
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc002.smt2,veriT,0.0397622
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_live_bgmc003.smt2,Z3,0.03965317
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen70-1.smt2,Yices (2018),0.03961799999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER6-2-ninc.smt2,Z3,0.03956108
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen83-1.smt2,Yices (2018),0.03882800000000003
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-8.smt2,Z3,0.037957
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-invalid-9.smt2,Z3,0.03776307
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc002.smt2,veriT,0.0376811
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen13-1.smt2,veriT,0.03697808
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_live_blmc002.smt2,Z3,0.03586305
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_15/ckt_PROP2_tf_15.smt2,Z3,0.03581413
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER4-2-ninc.smt2,Z3,0.03515321
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_live_blmc003.smt2,Z3,0.03410099
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_bgmc005.smt2,veriT,0.0335261
+/data/SMT-LIB-non-incremental/QF_IDL/parity/20.400.graph.smt2,Yices,0.03331899999999999
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop8-2-4-4-2-4-12.smt2,Z3,0.032933199999999996
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO2-3-PO2.smt2,Z3,0.03220406000000001
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_bgmc002.smt2,CVC4,0.031005030000000003
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_live_bgmc002.smt2,Z3,0.029469000000000002
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_bgmc000.smt2,Z3,0.0290059
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-15.cvc.smt2,veriT,0.028694000000000004
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_live_bgmc000.smt2,Z3,0.02851421
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s2.smt2,Z3,0.027887099999999998
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc013.smt2,Yices (2018),0.025946999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-8.base.cvc.smt2,Yices (2018),0.025768999999999986
+/data/SMT-LIB-non-incremental/QF_IDL/parity/03.400.graph.smt2,Yices,0.025441999999999965
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b01_tf_15/ckt_PROP0_tf_15.smt2,CVC4,0.024986900000000003
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.10.3.i.a.u.smt2,veriT,0.024372900000000003
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-16.smt2,Yices (2018),0.022687999999999986
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO3-2-PO3.smt2,veriT,0.021129000000000002
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.44.lp.smt2,Yices (2018),0.02099899999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER6-3-ninc.smt2,veriT,0.02088001
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.16.5.i.a.u.smt2,Yices,0.01980000000000004
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_9_mkspan900.smt2,Yices (2018),0.01890699999999995
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_2_mkspan1079.smt2,Z3,0.018761100000000003
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO2-6-PO2.smt2,veriT,0.018120070000000002
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_live_bgmc002.smt2,veriT,0.017714
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-26.induction.cvc.smt2,Yices,0.01760700000000004
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER12-1-ninc.smt2,veriT,0.015412949999999998
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER4-3-ninc.smt2,veriT,0.013987999999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/parallel_search/ParallelSearch_live_bgmc002.smt2,Yices (2018),0.011891859999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_8_mkspan923.smt2,Yices (2018),0.011517
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_8_mkspan908.smt2,Yices (2018),0.011351
+/data/SMT-LIB-non-incremental/QF_IDL/parity/16.300.graph.smt2,Yices,0.010433999999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_2_mkspan948.smt2,Yices (2018),0.009792999999999996
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b02_tf_15/ckt_PROP0_tf_15.smt2,veriT,0.008861869999999999
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen48-1.smt2,Yices (2018),0.008574899999999996
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER7-1-ninc.smt2,veriT,0.008543000000000002
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-18.cvc.smt2,Yices (2018),0.0074819
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc016.smt2,Yices (2018),0.006997000000000003
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc011.smt2,Yices (2018),0.006594000000000003
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.50.steps.10.asp.smt2,Yices,0.0063710000000000155
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen40-1.smt2,Yices (2018),0.006048999999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per20_2_mkspan1003.smt2,Yices (2018),0.005850000000000022
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-8.induction.cvc.smt2,Yices (2018),0.005517000000000001
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-30.induction.cvc.smt2,Yices,0.005317999999999989
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen25-1.smt2,Yices (2018),0.0052138999999999935
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per0_2_mkspan1049.smt2,Yices (2018),0.005117000000000038
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s18.smt2,Yices (2018),0.004362000000000005
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GeneralizedSlitherlink/altair1.37.asp.smt2,Yices (2018),0.00374999999999992
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_1_mkspan654.smt2,Yices (2018),0.0036260000000000042
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s13.smt2,Yices (2018),0.0036189999999999972
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s4.smt2,Yices (2018),0.0035269999999999954
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen26-1.smt2,Yices (2018),0.0032401000000000027
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen37-1.smt2,Yices (2018),0.0031220999999999957
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_10/ckt_PROP3_tf_10.smt2,Yices (2018),0.0031012
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per10_2_mkspan1034.smt2,Yices (2018),0.003045000000000006
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.200.graph.smt2,Yices,0.003019900000000006
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen33-1.smt2,Yices (2018),0.003019899999999999
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per20_0_mkspan1008.smt2,Yices (2018),0.0025400999999999965
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.74.steps.13.asp.smt2,Yices,0.0024999999999999467
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-7.cvc.smt2,Yices (2018),0.0021308099999999986
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j7_per10_2_mkspan1055.smt2,Yices (2018),0.001988
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen24-1.smt2,Yices (2018),0.0019848999999999978
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.11.10.i.a.u.smt2,Yices (2018),0.0018920999999999938
+/data/SMT-LIB-non-incremental/QF_IDL/parity/17.200.graph.smt2,Yices,0.0016690000000000038
+/data/SMT-LIB-non-incremental/QF_IDL/diamonds/diamonds.12.2.i.a.u.smt2,Yices,0.0016400000000000858
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO3-8-PO3.smt2,Yices (2018),0.0015639
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_25/ckt_PROP5_tf_25.smt2,Yices,0.0015632000000000042
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-15.induction.cvc.smt2,Yices,0.0014960000000000112
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_blmc007.smt2,Yices (2018),0.001480000000000009
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen23-1.smt2,Yices (2018),0.0014149999999999996
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s5.smt2,Yices (2018),0.0013950999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen15-1.smt2,Yices (2018),0.0013310000000000006
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_20/ckt_PROP2_tf_20.smt2,Yices,0.0012899
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen20-1.smt2,Yices (2018),0.0012482000000000014
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_safe_blmc001.smt2,Yices,0.0012320999999999999
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc006.smt2,Yices,0.0009811999999999946
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER13-4-ninc.smt2,Yices (2018),0.000895
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen22-1.smt2,Yices (2018),0.0008910999999999988
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_blmc008.smt2,Yices,0.0007988999999999913
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-9.smt2,Yices (2018),0.000685100000000001
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_25/ckt_PROP8_tf_25.smt2,Yices,0.0006621000000000005
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_bgmc011.smt2,Yices (2018),0.0006511999999999976
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen14-1.smt2,Yices (2018),0.0006441199999999998
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-invalid-7.smt2,Yices (2018),0.0005509499999999997
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc004.smt2,Yices (2018),0.0005280000000000007
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/min_max/MinMax_safe_bgmc003.smt2,Yices (2018),0.0005170299999999999
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO3-3-PO3.smt2,Yices,0.0005038999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/min_max/MinMax_live_blmc000.smt2,Yices (2018),0.00042000000000000023
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-2-ninc.smt2,Yices (2018),0.00038000000000000013
+/data/SMT-LIB-non-incremental/QF_IDL/parity/08.100.graph.smt2,Yices (2018),0.0003051000000000026
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/linear_search/LinearSearch_live_bgmc005.smt2,Yices,0.00029093999999999995
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c175_s8.smt2,Yices,0.00022199999999999998
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-10.smt2,Yices (2018),0.00016517000000000094
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/insertion_sort/InsertionSort_live_bgmc004.smt2,Yices (2018),0.00013589999999999956
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_bgmc004.smt2,Yices,0.00010990000000000132
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/binary_search/BinarySearch_safe_bgmc001.smt2,Yices (2018),0.0001071500000000003
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_10/ckt_PROP2_tf_10.smt2,Yices,8.290000000000033e-05
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc009.smt2,Yices,7.010000000000002e-05
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER9-1-ninc.smt2,Yices,4.498000000000002e-05
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/binary_search/BinarySearch_safe_blmc001.smt2,Yices (2018),4.395000000000093e-05
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc000.smt2,Yices (2018),3.699999999999884e-05
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.23.lp.smt2,Yices (2018),2.199999999996649e-05
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen55-1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_5_mkspan1003.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-11.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_bgmc003.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Zantema_z058.srs_slice-8_constraint-227540.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen86-1.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_15_75_1235849326_0_k=3_v=7_e=30_sat.gph.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen74-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork4_live_bgmc003.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-invalid-8.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init5.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/gp10_03_mkspan1080.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen61-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphPartitioning/rand_25_200_1235404333_0_k=5_v=5_e=4_unsat.gph.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling100.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop22-2-11-11-2-4-9.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER3-4-ninc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_20/ckt_PROP3_tf_20.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen45-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen44-1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/04.300.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1258.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop32-2-16-16-2-4-9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Marche_turing_copy.srs_slice-6_constraint-467782.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen100-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/KnightTour/knightTour.in07.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen17-1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/15Puzzle/15-puzzle.init14.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop60-2-30-30-4-4-11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling141.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/01.200.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop44-2-22-22-4-4-11.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=7-height=7-colours=14.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen71-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen94-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-39.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j8_per0_1_mkspan1038.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen89-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1157.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1576.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/random.8.lp.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/08.800.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_2_mkspan593.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=31.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc013.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_bgmc005.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop44-2-22-22-2-4-12.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/KnightTour/knightTour.in08.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER9-2-ninc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen27-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1160.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen96-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen72-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen71-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/29.100.graph.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen43-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen98-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen77-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1191.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen9-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=4.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-22.induction.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen78-1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-27.induction.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop46-2-23-23-4-4-11.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/07.300.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-10-ninc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/binary_search/BinarySearch_safe_blmc002.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/28.500.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen97-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-28.base.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/20.300.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.12.x.12.r.4.274529373.784913.data_k=4_l=4_sat.gph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen94-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen79-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/23.800.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen21-1.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=10-height=10-colours=15.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen83-1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen50-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_blmc006.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/12.100.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-12.induction.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Zantema_z024.srs_slice-7_constraint-250889.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.5.a.25_sat.data.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop28-2-14-14-4-4-11.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop20-2-10-10-2-4-9.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Marche_turing_copy.srs_slice-7_constraint-442642.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen87-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc008.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop36-2-18-18-2-4-9.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop10-2-5-5-2-4-12.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/21.500.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop56-2-28-28-4-4-11.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc007.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_19_19_15.lp.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/post_office/PO2-8-PO2.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Zantema_z047.srs_slice-7_constraint-251639.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HamiltonianPath/gryzzles.6.lp.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-center-time=31.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.120_7.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/DisjunctiveScheduling/disjunctiveScheduling.in1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop26-2-13-13-4-4-11.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sal/bakery/inf-bakery-mutex-15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen71-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER14-1-ninc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/10.600.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc005.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen31-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen80-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Zantema_z033.srs_slice-7_constraint-311148.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WeightBoundedDominatingSet/rand_200_800_1159728969_9.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop44-2-22-22-2-4-9.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_22_22_09.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.17.x.17.b.10.a.25_unsat.data.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen76-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/RTCL/b13_tf_25/ckt_PROP2_tf_25.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.5.a.30_sat.data.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/22.600.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.67.steps.10.asp.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_22_22_19.lp.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.13.x.13.r.3.541669225.993881.data_k=2_l=6_sat.gph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop14-2-7-7-2-4-9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_blmc007.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_safe_bgmc003.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling138.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1155.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/KnightTour/knightTour.in02.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_18_18_13.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen53-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop50-2-25-25-4-4-11.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sal/lpsat/lpsat-goal-19.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER11-1-ninc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=125-density=0.1-instance=9.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/mathsat/fischer/FISCHER4-4-ninc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling139.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_9_mkspan597.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen52-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_bgmc006.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/HierarchicalClustering/xy.15.x.15.r.4.10790636.1242605.data_k=4_l=4_sat.gph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Sokoban/duthen-990602.29.steps.11.asp.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop58-2-29-29-2-4-9.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/bcnscheduling/bcnscheduling140.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop54-2-27-27-4-4-11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.14.x.14.b.8.a.20_unsat.data.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_19_19_17.lp.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen42-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j6_per0_0_mkspan1045.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/23.300.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.16.schur.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/j6_per0_0_mkspan1055.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_20_20_15.lp.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_safe_blmc012.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c210_s10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen38-1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/buble_sort/BubbleSort_live_blmc004.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/05.500.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/16.600.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/tsp_rand_70_300_1155482584_14.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen30-1.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_18_18_11.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/18.200.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=19-height=19-density=0.01-run=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen54-1.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/sep/misc/abz5-900.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop42-2-21-21-4-4-11.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Hanoi/mgs_towers-hanoi.90_7.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_13.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_1_mkspan938.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=32.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/super_queen/super_queen72-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/n_queen/queen51-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-center-time=30.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen73-1.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_15x15_4_mkspan935.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen48-1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc009.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/BlockedNQueens/156.48.1960.36.1721310593.dat.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen88-1.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/binary_search/BinarySearch_live_blmc002.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.400.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.10.a.20_unsat.data.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen57-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/TravellingSalesperson/rand_80_340_1159656267_4.lp.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop24-2-12-12-2-4-9.smt2,ProB,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/partition/Partition_live_bgmc004.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/WireRouting/wire.15.x.15.b.11.25.a.45_sat.data.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_5_mkspan644.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/selection_sort/SelectionSort_live_blmc003.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop42-2-21-21-2-4-9.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.1.schur.lp.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/fuzzy-matrix/Marche_turing_mult.srs_slice-8_constraint-726108.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/25.100.graph.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/DTP/DTP_k2_n35_c245_s1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_07.lp.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen23-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/qlock/qlock-4-10-21.induction.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/KnightTour/knightTour.in01.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/MazeGeneration/maze-generation-width=16-height=16-density=0.01-run=5.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/ConnectedDominatingSet/rand_50_250_1235842610_0_k=7_sat.gph.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen72-1.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop32-2-16-16-2-4-12.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/queens_bench/toroidal_bench/toroidal_queen56-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/schedulingIDL/tai_10x10_1_mkspan637.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/EdgeMatching/edge-matching-width=7-height=7-colours=12.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/SchurNumbers/15.8.schur.lp.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_18.lp.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc001.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/job_shop/jobshop38-2-19-19-2-4-12.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/Averest/sorting_network/SortingNetwork8_safe_blmc008.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/planning/plan-21.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=7.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/parity/06.100.graph.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=24.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=150-density=0.1-instance=2.smt2,ProB,0.0

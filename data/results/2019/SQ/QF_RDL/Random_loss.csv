@@ -1,0 +1,248 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-18.smt2,SMTInterpol,4791.6251
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-17.smt2,SMTInterpol,4785.0408
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-16.smt2,SMTInterpol,4775.9642
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-19.base.cvc.smt2,SMTInterpol,1132.9351
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-18.smt2,veriT,1102.0788
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn4_850.smt2,CVC4,639.035
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-16.induction.cvc.smt2,SMTInterpol,428.54683
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_700.smt2,Z3,388.05319999999995
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-14.induction.cvc.smt2,SMTInterpol,320.36736
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-11.smt2,SMTInterpol,310.14536
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-15.base.cvc.smt2,SMTInterpol,214.02522000000002
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-13.induction.cvc.smt2,SMTInterpol,167.724938
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-15.smt2,veriT,156.10989999999998
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-15.induction.cvc.smt2,SMTInterpol,143.48345999999998
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-19.smt2,veriT,143.0711
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn1_950.smt2,veriT,133.66617
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_800.smt2,SMTInterpol,103.859995
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-20.smt2,Yices (2018),87.10799999999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-19.smt2,Yices (2018),84.29999999999998
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb01_1000.smt2,Z3,74.03880000000001
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-17.smt2,Yices (2018),63.65990000000001
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn3_828.smt2,Yices (2018),58.080000000000155
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-17.base.cvc.smt2,CVC4,53.61772
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb10_944.smt2,SMTInterpol,48.33564
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn3_750.smt2,veriT,47.191309
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-13.smt2,CVC4,42.35309
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-12.smt2,Yices (2018),41.79842
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-16.base.cvc.smt2,Z3,36.50983
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb01_1100.smt2,veriT,33.14768
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-7.smt2,SMTInterpol,30.495326
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-12.induction.cvc.smt2,veriT,29.19235
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-14.smt2,CVC4,24.7581
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-13.base.cvc.smt2,Z3,23.51833
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-9.induction.cvc.smt2,veriT,17.30267
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-7.induction.cvc.smt2,SMTInterpol,16.536136000000003
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn3_950.smt2,Yices (2018),14.447000000000003
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb04_1005.smt2,CVC4,13.274327000000001
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn1_827.smt2,Yices (2018),11.86099999999999
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-12.base.cvc.smt2,Z3,11.704877
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-20.base.cvc.smt2,veriT,10.069499999999998
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-5.smt2,veriT,8.9258279
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb05_887.smt2,SMTInterpol,7.64649
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-17.induction.cvc.smt2,Z3,7.1953700000000005
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb02_900.smt2,SMTInterpol,6.991748
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-70.smt2,SMTInterpol,6.38918
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-13.smt2,SMTInterpol,6.312963
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-15.smt2,Yices (2018),6.21035
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa/skdmxa-3x3-10.smt2,CVC4,6.163114
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb10_1000.smt2,SMTInterpol,5.8977450000000005
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn1_750.smt2,CVC4,5.675249
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz5_1200.smt2,CVC4,5.65894
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb03_1100.smt2,veriT,5.486268
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb04_1100.smt2,SMTInterpol,5.3499771
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb03_1005.smt2,Yices (2018),5.096199999999996
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-12.smt2,SMTInterpol,4.974061
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_500.smt2,CVC4,4.956405
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-11.base.cvc.smt2,Z3,4.923039999999999
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb07_397.smt2,veriT,4.81496
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-7.base.cvc.smt2,CVC4,4.792066
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb06_900.smt2,SMTInterpol,4.526728
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn2_950.smt2,Yices (2018),4.504400000000004
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-12.smt2,CVC4,4.25265
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-5.induction.cvc.smt2,veriT,3.362502
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-10.base.cvc.smt2,Z3,3.317181
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-4.smt2,SMTInterpol,3.1912990999999997
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-14.smt2,Yices,2.9905200000000005
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb08_930.smt2,CVC4,2.9331699999999996
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-7.smt2,SMTInterpol,2.748217
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb10_900.smt2,CVC4,2.682378
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-8.smt2,SMTInterpol,2.581178
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-10.smt2,SMTInterpol,2.468568
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb06_1000.smt2,Yices (2018),2.4388000000000005
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-20.smt2,Yices (2018),2.2708499999999994
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb05_900.smt2,CVC4,2.2148339999999997
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb06_1010.smt2,Yices (2018),2.1876999999999995
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-9.smt2,Yices (2018),2.18182
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb08_1000.smt2,CVC4,2.175548
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking20.smt2,SMTInterpol,2.091474
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-19.smt2,CVC4,1.92156
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb02_888.smt2,Z3,1.792265
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-18.smt2,CVC4,1.65961
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-8.induction.cvc.smt2,Z3,1.614588
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-8.base.cvc.smt2,Z3,1.580628
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb09_1100.smt2,SMTInterpol,1.5505058999999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-11.smt2,CVC4,1.4072000000000002
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-7.smt2,SMTInterpol,1.4018991
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-90.smt2,Yices (2018),1.3651800000000005
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb04_950.smt2,veriT,1.287374
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb05_700.smt2,SMTInterpol,1.0889710000000001
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-6.smt2,SMTInterpol,1.059792
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-6.induction.cvc.smt2,Z3,0.947083
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb09_934.smt2,veriT,0.9434000000000002
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-07.smt2,SMTInterpol,0.9401558999999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-14.smt2,CVC4,0.8538530000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-30.smt2,CVC4,0.852668
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb06_1200.smt2,CVC4,0.8454609
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-16.smt2,Yices,0.8405360000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking08.smt2,SMTInterpol,0.8366859999999999
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa/skdmxa-3x3-20.smt2,Yices,0.8343000000000007
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-10.smt2,Yices,0.8013280000000002
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb05_800.smt2,Z3,0.7754289999999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-15.smt2,Yices (2018),0.7347680000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking06.smt2,SMTInterpol,0.730843
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-18.base.cvc.smt2,Yices,0.7294800000000006
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb07_430.smt2,CVC4,0.676792
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz6_900.smt2,CVC4,0.6591619999999999
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb09_1000.smt2,veriT,0.6422460000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-width-2.smt2,SMTInterpol,0.6350819799999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-17.smt2,veriT,0.600525
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb01_1059.smt2,Yices (2018),0.5448500000000003
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-4.smt2,SMTInterpol,0.50899107
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-5.base.cvc.smt2,Z3,0.5038509999999999
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb03_1200.smt2,Z3,0.49435799999999996
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-2.smt2,SMTInterpol,0.49343307000000003
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb02_800.smt2,CVC4,0.457722
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-20.induction.cvc.smt2,Yices,0.44510000000000005
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking17.smt2,CVC4,0.4396901
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz6_943.smt2,veriT,0.42878
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking14.smt2,CVC4,0.36977909999999997
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-20.smt2,veriT,0.3134829
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb03_850.smt2,Z3,0.3083171
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking13.smt2,CVC4,0.2576399
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-19.induction.cvc.smt2,Yices,0.2440699999999998
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-10.smt2,CVC4,0.2299029
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking21.smt2,Z3,0.22601999999999997
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz5_1400.smt2,veriT,0.197071
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb04_850.smt2,veriT,0.18334799999999998
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-6.base.cvc.smt2,veriT,0.17741599999999996
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking16.smt2,veriT,0.16176610000000002
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking07.smt2,CVC4,0.159167
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-40.smt2,Yices (2018),0.15417500000000006
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb07_550.smt2,Z3,0.14699510000000002
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz6_1000.smt2,veriT,0.1407081
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-4.smt2,CVC4,0.1337569
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking19.smt2,Z3,0.12934210000000002
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-05.smt2,CVC4,0.12180509999999999
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb08_700.smt2,Z3,0.111482
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking12.smt2,veriT,0.096181
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking04.smt2,CVC4,0.09223709
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-08.smt2,Z3,0.0873971
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-2.smt2,CVC4,0.08551386999999999
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking10.smt2,Z3,0.08466599999999999
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz5_1000.smt2,Z3,0.07627310000000001
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz5_1234.smt2,Yices (2018),0.07390000000000008
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz6_800.smt2,Z3,0.0724182
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking11.smt2,veriT,0.0717739
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb02_1000.smt2,veriT,0.06919
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb02_700.smt2,Z3,0.0687122
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking05.smt2,Z3,0.064374
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-03.smt2,Z3,0.06323079
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb10_800.smt2,veriT,0.06138590000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-width-5.smt2,Yices (2018),0.06097800000000003
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-4.smt2,Z3,0.057185099999999996
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-3.smt2,Z3,0.055980100000000005
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-5.smt2,Z3,0.049427900000000004
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-5.smt2,Z3,0.046282000000000004
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb07_330.smt2,veriT,0.0435919
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-6.smt2,Yices (2018),0.03573799999999999
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-04.smt2,veriT,0.028851
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-11.induction.cvc.smt2,Yices,0.024348000000000036
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb01_1200.smt2,Yices (2018),0.01744799999999999
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-6.smt2,Yices (2018),0.015623899999999996
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-width-4.smt2,Yices (2018),0.013418100000000002
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb08_830.smt2,Yices (2018),0.012947000000000014
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb01_900.smt2,Yices (2018),0.01185
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-3.smt2,veriT,0.011367099999999998
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking02.smt2,Yices (2018),0.010247000000000001
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-09.smt2,Yices (2018),0.006093999999999995
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb05_1000.smt2,Yices (2018),0.005179000000000003
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-8.smt2,Yices (2018),0.004631999999999997
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb04_1200.smt2,Yices (2018),0.0041729
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-width-3.smt2,Yices (2018),0.003243199999999998
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb09_800.smt2,Yices (2018),0.0031069999999999987
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking15.smt2,Yices (2018),0.0029180000000000005
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-3.smt2,Yices (2018),0.00044778000000000005
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-9.smt2,veriT,0.0003100999999999937
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking03.smt2,Yices (2018),2.2209999999999938e-05
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_670.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv11_2983.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv13_3104.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv14_2800.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv11_2900.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv12_2900.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv14_2895.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-11.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa/skdmxa-3x3-15.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb09_900.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv11_3050.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn1_850.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-18.induction.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-14.base.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-9.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv11_2988.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv13_3200.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv12_2972.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-60.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-80.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tms-2-3-light-06.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-20.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv12_3050.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz6_1100.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn3_860.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn2_910.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-9.base.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv13_3000.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking22.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-13.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa/skdmxa-3x3-5.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-8.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_600.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-depth-3.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn2_890.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb03_950.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer3-mutex-7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn2_862.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv14_3000.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn4_919.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv12_3004.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb06_1100.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv11_2992.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn4_950.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz5_1300.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_667.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn1_887.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn3_894.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/cooking09.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn4_1000.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-matrix2x2.pddl.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv14_2885.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv12_2990.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv13_3150.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer6-mutex-16.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn4_969.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/swv14_2905.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb08_888.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/SMT-Temporal-Planning-Benchmarks/tempo-width-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/skdmxa2/skdmxa-3x3-10.induction.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb07_250.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/abz7_691.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-2.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/yn2_750.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/scheduling/orb10_1100.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_RDL/sal/fischer9-mutex-10.smt2,Z3,0.0

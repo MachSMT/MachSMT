@@ -1,0 +1,73 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-2.smt2,UE+MathSAT,2399.967834
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-6.smt2,CVC4,2399.9635249
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-1.smt2,CVC4,2399.9633999
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-9.smt2,UE+MathSAT,2399.961481
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-10.smt2,UE+MathSAT,2399.9609161
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-3.smt2,CVC4,2399.9291231
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-4.smt2,UE+MathSAT,2399.902769
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-5.smt2,CVC4,2399.866634
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/ethernet-fixpoint-1.smt2,UE+MathSAT,2399.849813
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-2.smt2,UE+MathSAT,2399.741991
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/usb-phy-fixpoint-2.smt2,UE+MathSAT,2399.622959
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-4.smt2,Z3,2399.607278
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/ethernet-fixpoint-2.smt2,UE+MathSAT,2399.345356
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/usb-phy-fixpoint-3.smt2,UE+MathSAT,2399.041628
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-5.smt2,UE+MathSAT,2398.42482
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/usb-phy-fixpoint-4.smt2,CVC4,2397.89198
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/usb-phy-fixpoint-5.smt2,CVC4,2397.09322
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/ethernet-fixpoint-4.smt2,UE+MathSAT,2393.84065
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-3-fixpoint-2.smt2,CVC4,35.607934
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/pi-bus-fixpoint-1.smt2,CVC4,9.017988
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-10.smt2,CVC4,8.8587339
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-8.smt2,CVC4,7.673806
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-9.smt2,UE+MathSAT,3.66565
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-5.smt2,CVC4,3.042752
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/usb-phy-fixpoint-1.smt2,CVC4,2.545503
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-6.smt2,Z3,1.3854900000000003
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/pi-bus-fixpoint-3.smt2,Z3,0.41929000000000016
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-9.smt2,Z3 (2018),0.16221499999999994
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/pi-bus-fixpoint-2.smt2,Z3 (2018),0.15193200000000007
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-3.smt2,Z3 (2018),0.092561
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-7.smt2,Z3 (2018),0.086445
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-6.smt2,Z3 (2018),0.05828899999999998
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-1.smt2,Z3 (2018),0.019070100000000006
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-8.smt2,Z3 (2018),0.0057351
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-5.smt2,Z3 (2018),0.005197800000000002
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-1.smt2,Z3 (2018),0.0036679000000000017
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-7.smt2,Z3 (2018),0.0033168999999999976
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-4.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/AR-fixpoint-6.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-10.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-3.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-9.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-7.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-6.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-4.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-10.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-4.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-7.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-7.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-3-fixpoint-3.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/itc-b13-fixpoint-8.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-5.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-5.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/ethernet-fixpoint-3.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-2-fixpoint-4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-8.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/sdlx-fixpoint-3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-swap1-fixpoint-7.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/cache-coherence-3-fixpoint-1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-equiv-fixpoint-8.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFBV/wintersteiger/fmsd13/fixpoint/small-pipeline-fixpoint-9.smt2,Z3,0.0

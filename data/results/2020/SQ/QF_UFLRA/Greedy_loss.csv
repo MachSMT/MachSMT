@@ -1,0 +1,433 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.rekcba_ctm_true-unreach-call.1.c.smt2,Yices,1546.717
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_fib_false-unreach-call.i.smt2,SMTInterpol (2019),110.03572
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_fib_longer_false-unreach-call.i.smt2,SMTInterpol (2019),82.4887
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_stack_false-unreach-call.i.smt2,SMTInterpol (2019),16.515700000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_14.smt2,SMTInterpol (2019),13.850902000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_23.smt2,SMTInterpol (2019),12.387317
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_17.smt2,SMTInterpol (2019),9.061611999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_18.smt2,SMTInterpol (2019),8.8902071
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-32_7a-drivers--net--usb--hso.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),8.2777
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_17.smt2,SMTInterpol (2019),6.7600639
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_28.smt2,SMTInterpol (2019),6.252057
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-drivers--infiniband--hw-cxgb3--iw_cxgb3.ko-main.cil.out.c.smt2,SMTInterpol (2019),6.225742
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_13.smt2,SMTInterpol (2019),5.951029
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_12.smt2,SMTInterpol (2019),5.11651
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_18.smt2,SMTInterpol (2019),4.9804169
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_68.smt2,SMTInterpol (2019),4.7606021
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem04_00_true-unreach-call.c.smt2,SMTInterpol (2019),4.715742
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_24.smt2,SMTInterpol (2019),4.167594
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7_cilled_false-unreach-call_const_ok_linux-32_1-drivers--media--video--mem2mem_testdev.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),4.1273599999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_28.smt2,SMTInterpol (2019),4.0139331
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_20.smt2,SMTInterpol (2019),3.892771
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem19_60_false-unreach-call.c.smt2,SMTInterpol (2019),3.6546529999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.rekh_ctm_true-unreach-call.1.c.smt2,SMTInterpol (2019),3.5673619999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_14.smt2,SMTInterpol (2019),3.48099
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.rekh_ctm_true-unreach-call.2.c.smt2,SMTInterpol (2019),3.406755
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_71.smt2,SMTInterpol (2019),3.3525641
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_12.smt2,SMTInterpol (2019),3.023744
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_13.smt2,SMTInterpol (2019),2.896258
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_21.smt2,SMTInterpol (2019),2.8481851
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_73.smt2,SMTInterpol (2019),2.773801
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_11.smt2,SMTInterpol (2019),2.7280151
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_01.smt2,SMTInterpol (2019),2.7008531000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_11.smt2,SMTInterpol (2019),2.6926569
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_16.smt2,SMTInterpol (2019),2.6432159
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_24.smt2,SMTInterpol (2019),2.6006661
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_15.smt2,SMTInterpol (2019),2.5780609
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem13_60_false-unreach-call.c.smt2,SMTInterpol (2019),2.5729029
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_16.smt2,SMTInterpol (2019),2.5167201
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_01.smt2,SMTInterpol (2019),2.468601
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_26.smt2,SMTInterpol (2019),2.3877629999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_48.smt2,SMTInterpol (2019),2.317357
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_09.smt2,SMTInterpol (2019),2.3009751
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_25.smt2,SMTInterpol (2019),2.286683
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_16.smt2,SMTInterpol (2019),2.2270689
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_56.smt2,SMTInterpol (2019),2.2177871000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product50_false-unreach-call.cil.c.smt2,SMTInterpol (2019),1.9939349
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_41.smt2,SMTInterpol (2019),1.9886280000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_22.smt2,SMTInterpol (2019),1.9654609
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_00.smt2,SMTInterpol (2019),1.9262241
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_93.smt2,SMTInterpol (2019),1.9220629
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_43.smt2,SMTInterpol (2019),1.9188869000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_19.smt2,SMTInterpol (2019),1.9165109
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem03_30_true-unreach-call.c.smt2,SMTInterpol (2019),1.8462331
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_90.smt2,SMTInterpol (2019),1.8390789
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_87.smt2,SMTInterpol (2019),1.7983551
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_12.smt2,SMTInterpol (2019),1.7924679000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--leds--leds-bd2802.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),1.7556900000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_80.smt2,SMTInterpol (2019),1.721662
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem17_60_false-unreach-call.c.smt2,SMTInterpol (2019),1.6668791
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_14.smt2,SMTInterpol (2019),1.662705
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_24.smt2,SMTInterpol (2019),1.656177
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_12.smt2,SMTInterpol (2019),1.588988
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_70.smt2,SMTInterpol (2019),1.552968
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_82.smt2,SMTInterpol (2019),1.5405959
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_67.smt2,SMTInterpol (2019),1.4990318999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--rtc--rtc-r9701.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),1.4912271000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-drivers--misc--phantom.ko-main.cil.out.c.smt2,SMTInterpol (2019),1.46965
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_53.smt2,SMTInterpol (2019),1.4636679
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_78.smt2,SMTInterpol (2019),1.441688
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_21.smt2,SMTInterpol (2019),1.3660991
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_46.smt2,SMTInterpol (2019),1.361588
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_04.smt2,SMTInterpol (2019),1.3228981000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_84.smt2,SMTInterpol (2019),1.3002141
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--leds--leds-lp5521.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),1.296348
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_27.smt2,SMTInterpol (2019),1.2943869000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_41.smt2,SMTInterpol (2019),1.2590189999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_26.smt2,SMTInterpol (2019),1.2370731
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_18.smt2,SMTInterpol (2019),1.233924
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_23.smt2,SMTInterpol (2019),1.233506
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_93.smt2,SMTInterpol (2019),1.2301220000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_32.smt2,SMTInterpol (2019),1.2006401
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_02.smt2,SMTInterpol (2019),1.1990239
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.diskperf_false-unreach-call.i.cil.c.smt2,SMTInterpol (2019),1.1937469
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem01_00_true-unreach-call.c.smt2,SMTInterpol (2019),1.1893010000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_72.smt2,SMTInterpol (2019),1.184145
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--media--video--videobuf-vmalloc.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),1.179697
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_25.smt2,SMTInterpol (2019),1.161465
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_56.smt2,SMTInterpol (2019),1.154126
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_39.smt2,SMTInterpol (2019),1.1534191
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_96.smt2,SMTInterpol (2019),1.1367159999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_34.smt2,SMTInterpol (2019),1.126038
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_98.smt2,SMTInterpol (2019),1.1156268999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_15.smt2,SMTInterpol (2019),1.1099599
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_22.smt2,SMTInterpol (2019),1.1079888999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_60.smt2,SMTInterpol (2019),1.1055761
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_67.smt2,SMTInterpol (2019),1.0991020999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_22.smt2,SMTInterpol (2019),1.098717
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_95.smt2,SMTInterpol (2019),1.094077
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_17.smt2,SMTInterpol (2019),1.0658710999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_15.smt2,SMTInterpol (2019),1.0542379
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec27_product13_true-unreach-call.cil.c.smt2,SMTInterpol (2019),1.0330100000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_10.smt2,SMTInterpol (2019),1.0325501
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_19.smt2,SMTInterpol (2019),1.028562
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_10.smt2,SMTInterpol (2019),1.0244149
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_05.smt2,SMTInterpol (2019),1.0149400000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_80.smt2,SMTInterpol (2019),1.0136521
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_17.smt2,SMTInterpol (2019),1.01342
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_17.smt2,SMTInterpol (2019),1.0086131
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_89.smt2,SMTInterpol (2019),1.0076479999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_44.smt2,SMTInterpol (2019),1.0067758999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_22.smt2,SMTInterpol (2019),1.005097
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_33.smt2,SMTInterpol (2019),1.000066
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_16.smt2,SMTInterpol (2019),0.9979229
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_28.smt2,SMTInterpol (2019),0.9931251000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_53.smt2,SMTInterpol (2019),0.984648
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--input--joystick--spaceorb.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.9782779000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_83.smt2,SMTInterpol (2019),0.974426
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_14.smt2,SMTInterpol (2019),0.9702301
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_47.smt2,SMTInterpol (2019),0.9622679
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_81.smt2,SMTInterpol (2019),0.957444
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_38.smt2,SMTInterpol (2019),0.9563801000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_57.smt2,SMTInterpol (2019),0.9559559999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_24.smt2,SMTInterpol (2019),0.9500191
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_17.smt2,SMTInterpol (2019),0.934859
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_14.smt2,SMTInterpol (2019),0.9325391
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_20.smt2,SMTInterpol (2019),0.931341
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_21.smt2,SMTInterpol (2019),0.9308911
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_71.smt2,SMTInterpol (2019),0.9110081
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_59.smt2,SMTInterpol (2019),0.9085919
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_29.smt2,SMTInterpol (2019),0.906667
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_64.smt2,SMTInterpol (2019),0.9065501
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_91.smt2,SMTInterpol (2019),0.906246
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_67.smt2,SMTInterpol (2019),0.9024699
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_90.smt2,SMTInterpol (2019),0.9018769000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_09.smt2,SMTInterpol (2019),0.8964551000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--staging--telephony--ixj_pcmcia.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.8922570000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_19.smt2,SMTInterpol (2019),0.890679
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_24.smt2,SMTInterpol (2019),0.8902431000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_25.smt2,SMTInterpol (2019),0.8868299000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--rtc--rtc-m41t94.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.8825609
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_97.smt2,SMTInterpol (2019),0.881702
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_19.smt2,SMTInterpol (2019),0.8811669000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--touchscreen--cyttsp_spi.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.8785181
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_60.smt2,SMTInterpol (2019),0.8731729
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_83.smt2,SMTInterpol (2019),0.8680699999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_11.smt2,SMTInterpol (2019),0.8660961
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_31.smt2,SMTInterpol (2019),0.8645898999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_29.smt2,SMTInterpol (2019),0.8606469
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_61.smt2,SMTInterpol (2019),0.8588290000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_17.smt2,SMTInterpol (2019),0.8574639999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_47.smt2,SMTInterpol (2019),0.8566368999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem02_30_true-unreach-call.c.smt2,SMTInterpol (2019),0.8550110000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_94.smt2,SMTInterpol (2019),0.853934
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_36.smt2,SMTInterpol (2019),0.8538851
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product61_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.8510120000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--misc--apanel.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.8437211
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_25.smt2,SMTInterpol (2019),0.836453
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_58.smt2,SMTInterpol (2019),0.8358841
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_37.smt2,SMTInterpol (2019),0.8352431
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_18.smt2,SMTInterpol (2019),0.8285639
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_28.smt2,SMTInterpol (2019),0.8126059
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_59.smt2,SMTInterpol (2019),0.806948
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_27.smt2,SMTInterpol (2019),0.8069478999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_45.smt2,SMTInterpol (2019),0.8029801
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem02_00_true-unreach-call.c.smt2,SMTInterpol (2019),0.8026241
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_10.smt2,SMTInterpol (2019),0.8014420999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem02_10_true-unreach-call.c.smt2,SMTInterpol (2019),0.7988270000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_26.smt2,SMTInterpol (2019),0.7987801000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_11.smt2,SMTInterpol (2019),0.7913610999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_59.smt2,SMTInterpol (2019),0.7913471
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_86.smt2,SMTInterpol (2019),0.790811
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_21.smt2,SMTInterpol (2019),0.7880021
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_25.smt2,SMTInterpol (2019),0.7818741
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_54.smt2,SMTInterpol (2019),0.7811419000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product62_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.781135
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_49.smt2,SMTInterpol (2019),0.7755321000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_66.smt2,SMTInterpol (2019),0.7725521
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_21.smt2,SMTInterpol (2019),0.7713888999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_99.smt2,SMTInterpol (2019),0.7690691000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--joystick--magellan.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.7688579
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_66.smt2,SMTInterpol (2019),0.768434
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_21.smt2,SMTInterpol (2019),0.7680651
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem14_60_false-unreach-call.c.smt2,SMTInterpol (2019),0.7680338999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--misc--vmw_balloon.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.765186
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_16.smt2,SMTInterpol (2019),0.76142
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product45_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.7606440999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_17.smt2,SMTInterpol (2019),0.7597440000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_22.smt2,SMTInterpol (2019),0.753802
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_75.smt2,SMTInterpol (2019),0.7537138999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-nova-t-usb2.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.751957
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_13.smt2,SMTInterpol (2019),0.7517809999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product62_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.7514059
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_87.smt2,SMTInterpol (2019),0.751205
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_24.smt2,SMTInterpol (2019),0.7431331
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_13.smt2,SMTInterpol (2019),0.739999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product64_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.736446
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--input--joystick--turbografx.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.7363659
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_10.smt2,SMTInterpol (2019),0.7325861
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--input--joystick--magellan.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.731966
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_86.smt2,SMTInterpol (2019),0.731414
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_29.smt2,SMTInterpol (2019),0.7285200000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--mtd--ubi--gluebi.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.7270431
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product54_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.726221
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product61_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.725795
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_81.smt2,SMTInterpol (2019),0.7244261
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_88.smt2,SMTInterpol (2019),0.723218
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_20.smt2,SMTInterpol (2019),0.7205429999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_14.smt2,SMTInterpol (2019),0.7195799
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_28.smt2,SMTInterpol (2019),0.7185178999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_94.smt2,SMTInterpol (2019),0.7149019999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--watchdog--cpu5wdt.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.7126958999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_55.smt2,SMTInterpol (2019),0.7119951
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product62_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.709661
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_56.smt2,SMTInterpol (2019),0.7089351
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_20.smt2,SMTInterpol (2019),0.7078848999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_97.smt2,SMTInterpol (2019),0.706713
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_26.smt2,SMTInterpol (2019),0.7063410999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_51.smt2,SMTInterpol (2019),0.7037379
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_92.smt2,SMTInterpol (2019),0.7035171
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_73.smt2,SMTInterpol (2019),0.70304393
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product53_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.7027909999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-ce6230.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.7027551000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_85.smt2,SMTInterpol (2019),0.7026871
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_13.smt2,SMTInterpol (2019),0.7026110999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem10_00_true-unreach-call.c.smt2,SMTInterpol (2019),0.698868
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_14.smt2,SMTInterpol (2019),0.698681
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_24.smt2,SMTInterpol (2019),0.6895749
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--keyboard--newtonkbd.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.6893
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_49.smt2,SMTInterpol (2019),0.6885009000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_23.smt2,SMTInterpol (2019),0.688288
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_26.smt2,SMTInterpol (2019),0.687492
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_12.smt2,SMTInterpol (2019),0.6868321
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_18.smt2,SMTInterpol (2019),0.6860210000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product54_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6859280999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--keyboard--stowaway.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.6852301
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_33.smt2,SMTInterpol (2019),0.6844889000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--media--dvb--dvb-usb--dvb-usb-vp7045.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.6839859
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product60_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6812769
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_54.smt2,SMTInterpol (2019),0.680923
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_34.smt2,SMTInterpol (2019),0.6807151
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_13.smt2,SMTInterpol (2019),0.6798699
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_50.smt2,SMTInterpol (2019),0.679134
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_16.smt2,SMTInterpol (2019),0.674334
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_98.smt2,SMTInterpol (2019),0.6706928999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-drivers--regulator--isl6271a-regulator.ko-main.cil.out.c.smt2,SMTInterpol (2019),0.668916
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem10_10_true-unreach-call.c.smt2,SMTInterpol (2019),0.6653969999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product48_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6593690999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_20.smt2,SMTInterpol (2019),0.6569590999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_83.smt2,SMTInterpol (2019),0.656073
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product39_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.655384
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_06.smt2,SMTInterpol (2019),0.653393
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_41.smt2,SMTInterpol (2019),0.6530091
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product38_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.650933
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product31_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6503611
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_67.smt2,SMTInterpol (2019),0.6501068999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_11.smt2,SMTInterpol (2019),0.6496541
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_40.smt2,SMTInterpol (2019),0.6489
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-au6610.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.648859
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_24.smt2,SMTInterpol (2019),0.6478381
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_04.smt2,SMTInterpol (2019),0.646683
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product55_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6463890999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_12.smt2,SMTInterpol (2019),0.6445590000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_13.smt2,SMTInterpol (2019),0.64409205
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product42_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.639964
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product21_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6394989
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_93.smt2,SMTInterpol (2019),0.639481
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_52.smt2,SMTInterpol (2019),0.637935
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_84.smt2,SMTInterpol (2019),0.637812
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_22.smt2,SMTInterpol (2019),0.6341688999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_16.smt2,SMTInterpol (2019),0.63318
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.sll_to_dll_rev_false-unreach-call.i.smt2,SMTInterpol (2019),0.6320311000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_23.smt2,SMTInterpol (2019),0.63161
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product47_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6315341
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_21.smt2,SMTInterpol (2019),0.6285971
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_19.smt2,SMTInterpol (2019),0.6274389
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_22.smt2,SMTInterpol (2019),0.625977
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_72.smt2,SMTInterpol (2019),0.624428
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_64.smt2,SMTInterpol (2019),0.623158
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_10.smt2,SMTInterpol (2019),0.6185511
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product44_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.617679
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product51_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6152308999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_28.smt2,SMTInterpol (2019),0.6142529999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_90.smt2,SMTInterpol (2019),0.6134689999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_89.smt2,SMTInterpol (2019),0.611545
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_27.smt2,SMTInterpol (2019),0.60906
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_24.smt2,SMTInterpol (2019),0.6081661
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_78.smt2,SMTInterpol (2019),0.607932
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_39.smt2,SMTInterpol (2019),0.6076908999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_62.smt2,SMTInterpol (2019),0.606218
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_28.smt2,SMTInterpol (2019),0.6057819999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_26.smt2,SMTInterpol (2019),0.6039570000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_11.smt2,SMTInterpol (2019),0.6037721
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_27.smt2,SMTInterpol (2019),0.6036258999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product36_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.6030159
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_76.smt2,SMTInterpol (2019),0.6001601
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_47.smt2,SMTInterpol (2019),0.597572
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product16_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.595615
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_15.smt2,SMTInterpol (2019),0.5954359
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_48.smt2,SMTInterpol (2019),0.5947479
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_39.smt2,SMTInterpol (2019),0.593963
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_96.smt2,SMTInterpol (2019),0.5916299
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_55.smt2,SMTInterpol (2019),0.58994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_29.smt2,SMTInterpol (2019),0.58873789
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_36.smt2,SMTInterpol (2019),0.5840770999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_18.smt2,SMTInterpol (2019),0.58286002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_82.smt2,SMTInterpol (2019),0.5826541000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_14.smt2,SMTInterpol (2019),0.5817309
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_45.smt2,SMTInterpol (2019),0.5816490000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_35.smt2,SMTInterpol (2019),0.5809159
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product27_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5801179
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_28.smt2,SMTInterpol (2019),0.5788869
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_03.smt2,SMTInterpol (2019),0.5788011
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product43_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5787061
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_49.smt2,SMTInterpol (2019),0.5779551
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_48.smt2,SMTInterpol (2019),0.5772419
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_95.smt2,SMTInterpol (2019),0.57723
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_29.smt2,SMTInterpol (2019),0.576837
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_13.smt2,SMTInterpol (2019),0.5756519
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_82.smt2,SMTInterpol (2019),0.5735231
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_54.smt2,SMTInterpol (2019),0.5726259
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product33_true-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5723290999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_61.smt2,SMTInterpol (2019),0.572101
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_57.smt2,SMTInterpol (2019),0.5703209
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_49.smt2,SMTInterpol (2019),0.5700609
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_27.smt2,SMTInterpol (2019),0.569976
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_26.smt2,SMTInterpol (2019),0.5699091000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_23.smt2,SMTInterpol (2019),0.5697951
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_42.smt2,SMTInterpol (2019),0.5694501
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_15.smt2,SMTInterpol (2019),0.5686108999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product05_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5673520999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_15.smt2,SMTInterpol (2019),0.567315
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_64.smt2,SMTInterpol (2019),0.5671531
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_50.smt2,SMTInterpol (2019),0.5652591
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_94.smt2,SMTInterpol (2019),0.5643459
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_79.smt2,SMTInterpol (2019),0.56411
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_20.smt2,SMTInterpol (2019),0.56364
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_16.smt2,SMTInterpol (2019),0.5630721
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_11.smt2,SMTInterpol (2019),0.5630040000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_86.smt2,SMTInterpol (2019),0.5625879
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_10.smt2,SMTInterpol (2019),0.561058
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_42.smt2,SMTInterpol (2019),0.5577
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product15_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5569851
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_97.smt2,SMTInterpol (2019),0.556747
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_73.smt2,SMTInterpol (2019),0.5553381
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_23.smt2,SMTInterpol (2019),0.55532
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-usbat.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.5516071
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product07_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.551436
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_19.smt2,SMTInterpol (2019),0.5497509
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_64.smt2,SMTInterpol (2019),0.5486021
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_20.smt2,SMTInterpol (2019),0.5430319
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_99.smt2,SMTInterpol (2019),0.5426619
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_13.smt2,SMTInterpol (2019),0.5381739200000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_10.smt2,SMTInterpol (2019),0.5368698900000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_22.smt2,SMTInterpol (2019),0.5360881
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-sddr55.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.5313701000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_44.smt2,SMTInterpol (2019),0.5302060000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_26.smt2,SMTInterpol (2019),0.5264229
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_59.smt2,SMTInterpol (2019),0.5233511
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_27.smt2,SMTInterpol (2019),0.5229531
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_23.smt2,SMTInterpol (2019),0.5195650999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product29_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.518753
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_12.smt2,SMTInterpol (2019),0.517507
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_14.smt2,SMTInterpol (2019),0.5143069
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_89.smt2,SMTInterpol (2019),0.5126050000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product34_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.511829
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.s3_srvr.blast.15_false-unreach-call.i.cil.c.smt2,SMTInterpol (2019),0.5117819
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product33_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.511549
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product11_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5112731
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_95.smt2,SMTInterpol (2019),0.5067059899999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product25_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5065861
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product35_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5016789
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product10_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.5011581
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_31.smt2,SMTInterpol (2019),0.49991209999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product02_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.49984103999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_80.smt2,SMTInterpol (2019),0.49973000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_03.smt2,SMTInterpol (2019),0.49784589999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_29.smt2,SMTInterpol (2019),0.497786
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product01_false-unreach-call.cil.c.smt2,SMTInterpol (2019),0.49677390000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.test_locks_15_true-unreach-call_false-termination.c.smt2,SMTInterpol (2019),0.49468990000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0300_10_24.smt2,SMTInterpol (2019),0.488605
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_17.smt2,SMTInterpol (2019),0.486664
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_22.smt2,SMTInterpol (2019),0.4848061
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_63.smt2,SMTInterpol (2019),0.4838721
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-freecom.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,SMTInterpol (2019),0.48270810000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_93.smt2,SMTInterpol (2019),0.4790669
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0250_10_11.smt2,SMTInterpol (2019),0.4724269
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0300_10_18.smt2,SMTInterpol (2019),0.46486900000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_15.smt2,SMTInterpol (2019),0.4595949
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.test_locks_13_true-unreach-call.c.smt2,SMTInterpol (2019),0.45336699999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_55.smt2,Yices,0.0677451
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_08.smt2,Yices,0.015540900000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product13_false-unreach-call.cil.c.smt2,Yices,0.010525099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_12.smt2,Yices,0.004144100000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_87.smt2,Yices,0.000735099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_23.smt2,Yices,0.00010490000000000499
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_88.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.rekcba_ctm_true-unreach-call.4.c.smt2,SMTInterpol (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_98.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_32.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_03.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--misc--sgi-xp--xp.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_68.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_72.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_29.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem14_00_true-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_60.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_94.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_fib_true-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_96.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_28.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_82.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_14.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_60.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_22.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_27.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_82.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_92.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_73.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product59_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_88.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product25_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_16.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product46_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_05.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_21.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_27.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem01_30_true-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product24_false-unreach-call.cil.c.smt2,Yices,0.0

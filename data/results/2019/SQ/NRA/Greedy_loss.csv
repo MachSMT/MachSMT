@@ -1,0 +1,94 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/NRA/keymaera/FTRM-entry-tang-feasible-node1796.smt2,Vampire,4799.980981
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsli-alert.proof-node2416.smt2,Z3 (2018),4799.9751441
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node54870.smt2,Z3,4799.9727551
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsli.proof-node2282.smt2,Z3 (2018),4799.972241
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-essentials-live2.proof-node640.smt2,Vampire,4799.9637219
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-essentials-live-range2.proof-node577.smt2,Vampire,4799.9635751
+/data/SMT-LIB-non-incremental/NRA/keymaera/controllability-lemma-node1346.smt2,Vampire,4799.9609439
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-d-braking-node1346.smt2,Vampire,4799.960823
+/data/SMT-LIB-non-incremental/NRA/keymaera/to_right-node1083.smt2,Vampire,4799.9606619
+/data/SMT-LIB-non-incremental/NRA/keymaera/controllability-lemma-disturbed.proof-node770.smt2,Vampire,4799.9593851
+/data/SMT-LIB-non-incremental/NRA/keymaera/controllability-lemma-disturbed-node4537.smt2,Vampire,4799.95928
+/data/SMT-LIB-non-incremental/NRA/keymaera/controllability-lemma-disturbed-node5255.smt2,Vampire,4799.9591211
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-essentials-live-range2.proof-node1046.smt2,Vampire,4799.94849
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsli.proof-node2308.smt2,Z3 (2018),4799.9152499
+/data/SMT-LIB-non-incremental/NRA/keymaera/train_goal6-node8607.smt2,Z3,4798.01913
+/data/SMT-LIB-non-incremental/NRA/keymaera/train_goal3-node5717.smt2,Z3 (2018),4797.2922
+/data/SMT-LIB-non-incremental/NRA/keymaera/safety-lemma-node9082.smt2,Z3 (2018),4796.20267
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsl.proof-node2228.smt2,Z3 (2018),4722.7403
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node8745.smt2,Z3,1520.524016
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node43393.smt2,Vampire,33.7300889
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node3896.smt2,Vampire,13.508826899999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-node5840.smt2,Vampire,6.0110570999999995
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-inv-node6622.smt2,Vampire,3.6909469
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node39751.smt2,Z3,2.8292819000000002
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node31555.smt2,Z3 (2018),2.1613891
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node38802.smt2,Z3 (2018),1.9110209
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node16159.smt2,Vampire,1.7118801000000001
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node11162.smt2,Vampire,1.437196
+/data/SMT-LIB-non-incremental/NRA/keymaera/reactivity-lemma-node4238.smt2,Vampire,1.0606459
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-essentials-live2.proof-node1001.smt2,Vampire,0.7611831
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsl.proof-node1748.smt2,Z3 (2018),0.500275
+/data/SMT-LIB-non-incremental/NRA/keymaera/dynamic_reaction_to_static_bounds.proof-node829.smt2,Vampire,0.422362
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node34026.smt2,Vampire,0.382912
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node13822.smt2,Vampire,0.370325
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node21498.smt2,Vampire,0.2781841
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node14168.smt2,Vampire,0.2718571
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node31529.smt2,Vampire,0.2090631
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node11384.smt2,Vampire,0.1990871
+/data/SMT-LIB-non-incremental/NRA/keymaera/dynamic_reaction_to_static_bounds.proof-node839.smt2,Vampire,0.1572729
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node41056.smt2,Vampire,0.15601
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node48386.smt2,Vampire,0.14711800000000003
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node52405.smt2,Vampire,0.1453199
+/data/SMT-LIB-non-incremental/NRA/keymaera/rbc-controllability-characterisation-node3299.smt2,Vampire,0.142724
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node47513.smt2,Vampire,0.1358421
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node6708-new.smt2,Vampire,0.1274861
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node6709-new.smt2,Vampire,0.1267991
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-node6060.smt2,Vampire,0.126488
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node14896.smt2,Vampire,0.12208609999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node6708.smt2,Vampire,0.11735989999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node12553.smt2,Vampire,0.1091609
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node10280.smt2,Vampire,0.10875189999999998
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node48732.smt2,Vampire,0.105069
+/data/SMT-LIB-non-incremental/NRA/keymaera/binary_driver-2007-10-09-node13792.smt2,Vampire,0.10318089999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node6709.smt2,Vampire,0.0957519
+/data/SMT-LIB-non-incremental/NRA/keymaera/controllability-lemma-node2220.smt2,Vampire,0.09188189999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/dccs-example-node3895.smt2,Vampire,0.08691200000000002
+/data/SMT-LIB-non-incremental/NRA/keymaera/dynamic_reaction_to_static_bounds.proof-node849.smt2,Vampire,0.08690600000000001
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node44023.smt2,Vampire,0.08473689999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node37527.smt2,Vampire,0.0844791
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node28742.smt2,Vampire,0.0834309
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node32507.smt2,Vampire,0.07900589999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node46858.smt2,Vampire,0.078468
+/data/SMT-LIB-non-incremental/NRA/keymaera/rbc-controllability-characterisation-node3243.smt2,Vampire,0.07322
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-inv-node6248.smt2,Vampire,0.06633700000000001
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node50605.smt2,Z3,0.06422000000000001
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node23371.smt2,Vampire,0.063832
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-d-braking-node2220.smt2,Vampire,0.06285289999999999
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node41402.smt2,Vampire,0.0627652
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node5581.smt2,Z3 (2018),0.057550000000000004
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-inv-node6638.smt2,Z3 (2018),0.050768
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node12517.smt2,Z3 (2018),0.0466358
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node32249.smt2,Z3,0.031091999999999998
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsl.proof-node1722.smt2,Z3,0.027913199999999996
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node41456.smt2,Z3 (2018),0.026277000000000002
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node37008.smt2,Z3 (2018),0.025418100000000002
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node40206.smt2,Z3 (2018),0.024127899999999997
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node53595.smt2,Z3 (2018),0.023364
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node20279.smt2,Z3 (2018),0.023094899999999998
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node25171.smt2,Z3 (2018),0.02189
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node11126.smt2,Z3 (2018),0.0180789
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node1479.smt2,Z3 (2018),0.017813199999999998
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node3855.smt2,Z3 (2018),0.0170971
+/data/SMT-LIB-non-incremental/NRA/keymaera/vsli-alert.proof-node2442.smt2,Vampire,0.01666100000000001
+/data/SMT-LIB-non-incremental/NRA/keymaera/ETCS-essentials-node4106.smt2,Z3 (2018),0.0061260000000000064
+/data/SMT-LIB-non-incremental/NRA/keymaera/accelerating-node2100.smt2,Z3 (2018),0.005858000000000002
+/data/SMT-LIB-non-incremental/NRA/keymaera/bouncing-ball-simple-node5981.smt2,Z3,0.0011731999999999992
+/data/SMT-LIB-non-incremental/NRA/keymaera/to_left-node1505.smt2,Z3,0.000998900000000004
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node29839.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/NRA/keymaera/dynamic_reaction_to_static_bounds.proof-node819.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node3891.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/NRA/keymaera/reactivity-lemma-node2938.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/NRA/keymaera/intersection-example-onelane.proof-node38396.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/NRA/keymaera/safety-lemma-node13046.smt2,Vampire,0.0

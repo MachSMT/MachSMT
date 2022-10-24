@@ -1,0 +1,468 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00020_009.cvc.smt2,Alt-Ergo,2399.9909701
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00010_006.cvc.smt2,Alt-Ergo,2399.99082892
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3499861634082508558.smt2,Alt-Ergo,2399.99078096
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00006_003.cvc.smt2,veriT,2399.99005491
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00030_004.cvc.smt2,veriT,2399.989962
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00040_004.cvc.smt2,veriT,2399.9898021
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00010_007.cvc.smt2,Alt-Ergo,2399.9897531
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00010_001.cvc.smt2,Alt-Ergo,2399.9897369
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/fb_var_27_8.smt2,veriT,2399.989489
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4507059480007023557.smt2,veriT,2399.9894821
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2180380275580545420.smt2,veriT,2399.989469
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00040_005.cvc.smt2,Alt-Ergo,2399.9892741
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00020_002.cvc.smt2,Alt-Ergo,2399.9892619
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t3_pp_sf_ai_00003_001.cvc.smt2,Alt-Ergo,2399.9891459
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00050_006.cvc.smt2,Alt-Ergo,2399.9891349
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00020_007.cvc.smt2,Alt-Ergo,2399.989098
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00040_007.cvc.smt2,veriT,2399.989027
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00005_006.cvc.smt2,veriT,2399.98885
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00009_002.cvc.smt2,veriT,2399.988836
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00010_008.cvc.smt2,Alt-Ergo,2399.9887851
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00009_008.cvc.smt2,Alt-Ergo,2399.9882339
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00030_007.cvc.smt2,Alt-Ergo,2399.9876099
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00010_009.cvc.smt2,veriT,2399.9874169
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00006_008.cvc.smt2,veriT,2399.987382
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00020_003.cvc.smt2,Alt-Ergo,2399.9873729
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4503191635050547935.smt2,Alt-Ergo,2399.987233
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00002_009.cvc.smt2,veriT,2399.987185
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00040_001.cvc.smt2,Alt-Ergo,2399.9871719
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00040_006.cvc.smt2,Alt-Ergo,2399.987008
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5695631438254231329.smt2,Alt-Ergo,2399.986975
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t3_pp_nf_ai_00007_001.cvc.smt2,veriT,2399.9869631
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00050_006.cvc.smt2,Alt-Ergo,2399.986887
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00005_003.cvc.smt2,Alt-Ergo,2399.9866219
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00006_007.cvc.smt2,veriT,2399.986399
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00030_007.cvc.smt2,veriT,2399.9857741
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00050_005.cvc.smt2,veriT,2399.985619
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00020_005.cvc.smt2,veriT,2399.98531
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00050_008.cvc.smt2,veriT,2399.98486
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00010_006.cvc.smt2,veriT,2399.9847859
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00030_008.cvc.smt2,veriT,2399.984686
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00060_005.cvc.smt2,Alt-Ergo,2399.984644
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00002_003.cvc.smt2,veriT,2399.9841231
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00010_004.cvc.smt2,veriT,2399.9839361
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00040_004.cvc.smt2,veriT,2399.9836279
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4507590573018277494.smt2,Alt-Ergo,2399.983597
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00050_007.cvc.smt2,Alt-Ergo,2399.9829199
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00006_005.cvc.smt2,Alt-Ergo,2399.982898
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00050_003.cvc.smt2,veriT,2399.982751
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00007_002.cvc.smt2,veriT,2399.9822671
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00010_006.cvc.smt2,veriT,2399.9821251
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t1_pp_sf_ai_00005_001.cvc.smt2,veriT,2399.981644
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00008_009.cvc.smt2,Alt-Ergo,2399.9816311
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00007_007.cvc.smt2,veriT,2399.981052
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00050_003.cvc.smt2,veriT,2399.980818
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00040_005.cvc.smt2,Alt-Ergo,2399.9804941
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00005_004.cvc.smt2,Alt-Ergo,2399.980182
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00040_009.cvc.smt2,Alt-Ergo,2399.979816
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00050_006.cvc.smt2,Alt-Ergo,2399.979635
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00040_003.cvc.smt2,Alt-Ergo,2399.979507
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00020_009.cvc.smt2,veriT,2399.9794471
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00040_009.cvc.smt2,veriT,2399.979335
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00050_007.cvc.smt2,Alt-Ergo,2399.9791279
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t1_pp_nf_ai_00009_001.cvc.smt2,veriT,2399.9790181
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00009_002.cvc.smt2,veriT,2399.978805
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00010_003.cvc.smt2,veriT,2399.97876
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00010_008.cvc.smt2,veriT,2399.9786771
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00005_002.cvc.smt2,veriT,2399.9784359
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00007_002.cvc.smt2,veriT,2399.9781791
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00050_008.cvc.smt2,veriT,2399.977617
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00008_007.cvc.smt2,veriT,2399.9764381
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00020_007.cvc.smt2,veriT,2399.9763031
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00040_001.cvc.smt2,veriT,2399.9761289
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00040_007.cvc.smt2,veriT,2399.9751071
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00060_006.cvc.smt2,veriT,2399.974743
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00060_006.cvc.smt2,Alt-Ergo,2399.974284
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00030_002.cvc.smt2,Alt-Ergo,2399.97304
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00050_004.cvc.smt2,veriT,2399.9723129
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00009_007.cvc.smt2,veriT,2399.9694461
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00009_001.cvc.smt2,veriT,2399.9672129
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t1_pp_sf_ai_00009_001.cvc.smt2,veriT,2399.9655439
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00030_003.cvc.smt2,Alt-Ergo,2399.965048
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00030_009.cvc.smt2,Alt-Ergo,2399.964869
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/dlx-pc.smt2,veriT,2399.964797
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00030_004.cvc.smt2,veriT,2399.9644161
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00008_008.cvc.smt2,veriT,2399.9633031
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00050_003.cvc.smt2,veriT,2399.961199
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00050_001.cvc.smt2,Alt-Ergo,2399.960431
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00040_002.cvc.smt2,veriT,2399.955476
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00010_003.cvc.smt2,veriT,2399.9535871
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00050_003.cvc.smt2,veriT,2399.9520889
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00050_008.cvc.smt2,veriT,2399.94912
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00060_002.cvc.smt2,veriT,2399.9450619
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00060_005.cvc.smt2,veriT,2399.9435161
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00060_008.cvc.smt2,veriT,2399.938272
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00040_009.cvc.smt2,veriT,2399.9263449
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00030_009.cvc.smt2,Alt-Ergo,391.199051
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00030_007.cvc.smt2,Alt-Ergo,152.839569
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00050_006.cvc.smt2,Alt-Ergo,15.295054
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00040_001.cvc.smt2,Alt-Ergo,7.5057049
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00060_008.cvc.smt2,CVC4,5.092344
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00060_007.cvc.smt2,MathSAT5,4.7997449
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00060_002.cvc.smt2,MathSAT5,4.070312100000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00010_003.cvc.smt2,CVC4,3.529032
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00010_001.cvc.smt2,SMTInterpol,3.311341
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00060_008.cvc.smt2,MathSAT5,3.0811791
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00050_006.cvc.smt2,CVC4,2.61662
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00060_009.cvc.smt2,SMTInterpol,2.5731141
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00060_002.cvc.smt2,SMTInterpol,2.3244890000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00009_006.cvc.smt2,SMTInterpol,2.123961
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00060_008.cvc.smt2,SMTInterpol,1.829815
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00040_009.cvc.smt2,Alt-Ergo,1.7456070000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00005_007.cvc.smt2,Alt-Ergo,1.6216711
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00006_003.cvc.smt2,Alt-Ergo,1.595873
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00050_007.cvc.smt2,MathSAT5,1.5102041000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00050_002.cvc.smt2,SMTInterpol,1.39172
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00005_004.cvc.smt2,Alt-Ergo,1.2196799999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00050_009.cvc.smt2,SMTInterpol,1.214948
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00008_002.cvc.smt2,SMTInterpol,0.8197479
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00030_004.cvc.smt2,Alt-Ergo,0.7498218999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00010_001.cvc.smt2,SMTInterpol,0.7253571
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00040_005.cvc.smt2,SMTInterpol,0.715192
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00030_005.cvc.smt2,Alt-Ergo,0.7054509
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00030_005.cvc.smt2,Alt-Ergo,0.6882450999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00030_005.cvc.smt2,SMTInterpol,0.6091511
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00030_004.cvc.smt2,CVC4,0.607968
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00030_009.cvc.smt2,SMTInterpol,0.599979
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00010_006.cvc.smt2,SMTInterpol,0.533203
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00030_008.cvc.smt2,CVC4,0.531519
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00020_008.cvc.smt2,SMTInterpol,0.5048311
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00060_003.cvc.smt2,SMTInterpol,0.409804
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00005_004.cvc.smt2,SMTInterpol,0.3989631
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00005_002.cvc.smt2,SMTInterpol,0.3882979
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00010_007.cvc.smt2,SMTInterpol,0.3822639
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00020_005.cvc.smt2,SMTInterpol,0.379753
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00040_005.cvc.smt2,SMTInterpol,0.370201
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00040_002.cvc.smt2,SMTInterpol,0.36522099999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00010_003.cvc.smt2,SMTInterpol,0.3649249
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00010_003.cvc.smt2,SMTInterpol,0.36452690000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00010_003.cvc.smt2,SMTInterpol,0.363571
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00060_009.cvc.smt2,SMTInterpol,0.362828
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00010_009.cvc.smt2,SMTInterpol,0.362653
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_nf_ni_00050_004.cvc.smt2,SMTInterpol,0.3625389
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00050_007.cvc.smt2,SMTInterpol,0.3621569
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00006_006.cvc.smt2,SMTInterpol,0.35598998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_nf_ni_00040_004.cvc.smt2,SMTInterpol,0.3482131
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00030_009.cvc.smt2,SMTInterpol,0.3476589
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00009_001.cvc.smt2,MathSAT5,0.3474511
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00005_006.cvc.smt2,SMTInterpol,0.340555
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1441273869767862168.smt2,SMTInterpol,0.3391559
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_nf_ni_00030_007.cvc.smt2,SMTInterpol,0.3304631
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00010_004.cvc.smt2,Alt-Ergo,0.329888
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00004_007.cvc.smt2,SMTInterpol,0.3210071
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00010_004.cvc.smt2,SMTInterpol,0.3035571
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00002_008.cvc.smt2,SMTInterpol,0.301414
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt7811725335601850819.smt2,SMTInterpol,0.29387789999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00004_004.cvc.smt2,SMTInterpol,0.29001809999999995
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00060_008.cvc.smt2,MathSAT5,0.28735299999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4514744799427321218.smt2,SMTInterpol,0.2868651
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00003_008.cvc.smt2,SMTInterpol,0.28439
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1525565934219293349.smt2,SMTInterpol,0.282238
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3341546682240303433.smt2,SMTInterpol,0.2808419
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00002_003.cvc.smt2,SMTInterpol,0.279364
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5732050528631778495.smt2,SMTInterpol,0.2730399
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt862348610184470396.smt2,SMTInterpol,0.2688229
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00007_002.cvc.smt2,CVC4,0.265085
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00008_008.cvc.smt2,MathSAT5,0.2565709
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00006_008.cvc.smt2,MathSAT5,0.24482990000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00060_004.cvc.smt2,Yices,0.24459899999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00030_001.cvc.smt2,MathSAT5,0.231841
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00010_004.cvc.smt2,MathSAT5,0.2317831
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00020_004.cvc.smt2,Alt-Ergo,0.22089709999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00020_006.cvc.smt2,CVC4,0.20306696
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00020_001.cvc.smt2,CVC4,0.198419
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00060_005.cvc.smt2,Yices (2019),0.1611849
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00030_009.cvc.smt2,MathSAT5,0.1603929
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00060_004.cvc.smt2,MathSAT5,0.156348
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00009_004.cvc.smt2,CVC4,0.1538021
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00060_006.cvc.smt2,Yices,0.149148
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00010_007.cvc.smt2,MathSAT5,0.1415069
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00060_001.cvc.smt2,Yices,0.140348
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00060_009.cvc.smt2,CVC4,0.13994209999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00060_009.cvc.smt2,Yices,0.1353549
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00010_008.cvc.smt2,Alt-Ergo,0.12787605
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00050_009.cvc.smt2,Yices,0.123477
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00007_008.cvc.smt2,CVC4,0.10951
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00050_004.cvc.smt2,CVC4,0.10540609999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00050_005.cvc.smt2,CVC4,0.103018
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00040_003.cvc.smt2,MathSAT5,0.10216009999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00060_002.cvc.smt2,Yices (2019),0.09740099999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00050_007.cvc.smt2,MathSAT5,0.0932459
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00007_001.cvc.smt2,MathSAT5,0.09281
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00008_006.cvc.smt2,Z3,0.09151890000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00050_004.cvc.smt2,MathSAT5,0.08509910000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00009_003.cvc.smt2,MathSAT5,0.08368310000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00050_005.cvc.smt2,MathSAT5,0.0833231
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00050_001.cvc.smt2,Yices,0.0790041
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00050_002.cvc.smt2,Yices,0.0784951
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00008_006.cvc.smt2,MathSAT5,0.076654
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00050_007.cvc.smt2,Yices,0.0741049
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00040_002.cvc.smt2,MathSAT5,0.0738871
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00007_003.cvc.smt2,MathSAT5,0.0703209
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00040_002.cvc.smt2,MathSAT5,0.0691721
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00030_005.cvc.smt2,MathSAT5,0.0668661
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00006_001.cvc.smt2,Alt-Ergo,0.066283
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00050_006.cvc.smt2,Yices (2019),0.0640022
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_nf_ni_00050_009.cvc.smt2,Yices (2019),0.0637279
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00050_006.cvc.smt2,CVC4,0.0599108
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00050_009.cvc.smt2,MathSAT5,0.05633817000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00030_009.cvc.smt2,MathSAT5,0.055577999999999995
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00009_006.cvc.smt2,MathSAT5,0.0552281
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00050_001.cvc.smt2,MathSAT5,0.053943099999999994
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00050_008.cvc.smt2,Yices (2019),0.05371200000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00040_001.cvc.smt2,CVC4,0.0536229
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00040_005.cvc.smt2,CVC4,0.0531511
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00010_003.cvc.smt2,CVC4,0.052892999999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00007_003.cvc.smt2,MathSAT5,0.0518741
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00050_002.cvc.smt2,Yices,0.05026
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00010_005.cvc.smt2,Alt-Ergo,0.049575900000000006
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00009_008.cvc.smt2,Z3,0.045674200000000005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4885496405062058007.smt2,Z3,0.044902899999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4037084432145914526.smt2,Z3,0.0439408
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00006_007.cvc.smt2,MathSAT5,0.04363612
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00006_009.cvc.smt2,MathSAT5,0.0434919
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/fb_var_33_6.smt2,CVC4,0.0406509
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00050_001.cvc.smt2,Z3,0.0379769
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00006_003.cvc.smt2,MathSAT5,0.03787093
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00030_006.cvc.smt2,MathSAT5,0.037829100000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00030_004.cvc.smt2,MathSAT5,0.037317199999999995
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00060_003.cvc.smt2,CVC4,0.0369761
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00040_006.cvc.smt2,Yices,0.0359322
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00030_003.cvc.smt2,Yices (2019),0.0350599
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00030_006.cvc.smt2,MathSAT5,0.03220097
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00040_002.cvc.smt2,Yices (2019),0.030849100000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3698555390396458023.smt2,Alt-Ergo,0.030810990000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00040_006.cvc.smt2,Yices (2019),0.030671
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00040_007.cvc.smt2,Yices (2019),0.030573000000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_nf_ni_00020_009.cvc.smt2,MathSAT5,0.028550999999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00020_006.cvc.smt2,MathSAT5,0.028508000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00007_003.cvc.smt2,Z3,0.0280071
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00002_005.cvc.smt2,Alt-Ergo,0.027886799999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00040_008.cvc.smt2,CVC4,0.0278632
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00050_002.cvc.smt2,CVC4,0.0256871
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00020_006.cvc.smt2,Z3,0.025071120000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00007_009.cvc.smt2,Z3,0.024401100000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1611612768507250801.smt2,Z3,0.02373002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00008_004.cvc.smt2,Z3,0.0235991
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00050_004.cvc.smt2,Yices,0.0235709
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00020_008.cvc.smt2,Z3,0.022998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00010_004.cvc.smt2,Z3,0.022935
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00010_001.cvc.smt2,Z3,0.022442999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00040_001.cvc.smt2,Z3,0.022359999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/read7.smt2,Z3,0.022041900000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00008_003.cvc.smt2,CVC4,0.022036900000000005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00040_003.cvc.smt2,Z3,0.022010000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00060_009.cvc.smt2,CVC4,0.0218509
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00060_002.cvc.smt2,Z3,0.0218012
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00003_001.cvc.smt2,Z3,0.0216018
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00010_006.cvc.smt2,Z3,0.0214892
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/fb_var_5_12.smt2,MathSAT5,0.0214139
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t3_pp_sf_ai_00005_001.cvc.smt2,Z3,0.020774
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00030_001.cvc.smt2,Z3,0.020257000000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00010_008.cvc.smt2,CVC4,0.020074899999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00020_003.cvc.smt2,Z3,0.019919100000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00004_005.cvc.smt2,Z3,0.019910900000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8855116929086333489.smt2,Z3,0.019106099999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00010_009.cvc.smt2,Z3,0.019005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00020_008.cvc.smt2,Z3,0.0189689
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1355996306873782731.smt2,Z3,0.018963099999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00010_005.cvc.smt2,Z3,0.0189319
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00010_002.cvc.smt2,CVC4,0.0188389
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00030_009.cvc.smt2,Z3,0.018612899999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00020_002.cvc.smt2,Z3,0.0185111
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00010_004.cvc.smt2,MathSAT5,0.018476
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00003_005.cvc.smt2,Z3,0.0184642
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/pp-invariant.smt2,Z3,0.0183591
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00020_002.cvc.smt2,Z3,0.018195999999999997
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00020_007.cvc.smt2,CVC4,0.018108
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00020_007.cvc.smt2,Z3,0.017914
+/data/SMT-LIB-non-incremental/QF_AUFLIA/array_benchmarks/misc/pipeline-invalid.smt2,Yices,0.017805100000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00020_007.cvc.smt2,Z3,0.0174049
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00030_005.cvc.smt2,CVC4,0.0170042
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00040_005.cvc.smt2,Yices (2019),0.016667100000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00020_003.cvc.smt2,Yices,0.016449
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00040_002.cvc.smt2,Yices (2019),0.0152621
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt182987599385075282.smt2,Yices (2019),0.015129
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00010_005.cvc.smt2,MathSAT5,0.014929989999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00010_008.cvc.smt2,CVC4,0.014691899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t1_pp_nf_ai_00006_001.cvc.smt2,Yices (2019),0.014131
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5562411513078936721.smt2,Alt-Ergo,0.014104000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2638042934975705528.smt2,Yices (2019),0.014006
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00007_006.cvc.smt2,CVC4,0.013680900000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00003_006.cvc.smt2,Yices (2019),0.013473999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t1_pp_sf_ai_00004_001.cvc.smt2,MathSAT5,0.013140099999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00003_001.cvc.smt2,Z3,0.012846000000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_nf_ni_00010_002.cvc.smt2,MathSAT5,0.0128009
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00040_006.cvc.smt2,Yices (2019),0.012549999999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00010_006.cvc.smt2,MathSAT5,0.012399000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00030_004.cvc.smt2,CVC4,0.01234906
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6395525940490892471.smt2,MathSAT5,0.012341839999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00002_001.cvc.smt2,Z3,0.012311800000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00004_006.cvc.smt2,MathSAT5,0.012142799999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt436905341138176170.smt2,MathSAT5,0.012091
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3204289262029909600.smt2,Alt-Ergo,0.011866900000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00040_008.cvc.smt2,Z3,0.011778800000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00010_005.cvc.smt2,Yices (2019),0.011763999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00003_007.cvc.smt2,Z3,0.011043999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00020_004.cvc.smt2,Yices,0.011036100000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00030_002.cvc.smt2,CVC4,0.010996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1284056365933344272.smt2,Yices,0.0108688
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00002_006.cvc.smt2,MathSAT5,0.01039995
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00004_007.cvc.smt2,CVC4,0.010330000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00008_004.cvc.smt2,Yices,0.010235000000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00002_006.cvc.smt2,CVC4,0.0101451
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2524590214650541314.smt2,MathSAT5,0.010064880000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4277905976004114414.smt2,MathSAT5,0.009988100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00006_004.cvc.smt2,Z3,0.009845900000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00030_005.cvc.smt2,Z3,0.009687000000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00010_009.cvc.smt2,MathSAT5,0.0093011
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00030_006.cvc.smt2,Yices,0.009275799999999994
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00030_009.cvc.smt2,Yices (2019),0.009187899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00005_005.cvc.smt2,Yices (2019),0.009167100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2946635118515808081.smt2,MathSAT5,0.009144900000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3010346108910513369.smt2,MathSAT5,0.008589199999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00030_006.cvc.smt2,Yices,0.008524999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00060_004.cvc.smt2,CVC4,0.008391
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2905633022829326820.smt2,veriT,0.007968000000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3372199210070462891.smt2,MathSAT5,0.0078949
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00005_007.cvc.smt2,Yices (2019),0.0078849
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00005_008.cvc.smt2,CVC4,0.0078061
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5759472278662243112.smt2,Yices (2019),0.007561000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00008_004.cvc.smt2,Yices (2019),0.00745
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00008_003.cvc.smt2,Yices (2019),0.007367099999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/cvc/pp-pc-s2i.smt2,CVC4,0.007360200000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00010_009.cvc.smt2,CVC4,0.007110100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt7034109130135749243.smt2,Yices (2019),0.007046
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2349554521575265533.smt2,CVC4,0.0069859
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3708937932107853478.smt2,MathSAT5,0.006962100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00010_002.cvc.smt2,Yices (2019),0.006924200000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8233570541221801360.smt2,MathSAT5,0.0067589
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1364854746565558653.smt2,CVC4,0.006171899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6985556550088020826.smt2,MathSAT5,0.006149
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00020_006.cvc.smt2,CVC4,0.006015899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_sf_ai_00006_002.cvc.smt2,Yices,0.005653999999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00005_004.cvc.smt2,CVC4,0.0054091
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2360244902319652454.smt2,MathSAT5,0.0051199999999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt7175394277113951989.smt2,CVC4,0.004968800000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3587125020666388275.smt2,CVC4,0.004967939999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00040_002.cvc.smt2,Yices (2019),0.004633799999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00005_001.cvc.smt2,CVC4,0.004598
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00005_005.cvc.smt2,Yices,0.004526899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t3_pp_nf_ai_00008_001.cvc.smt2,Yices (2019),0.004458899999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt9111281160760624293.smt2,Yices (2019),0.004331900000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_nf_ni_00010_001.cvc.smt2,Yices (2019),0.004191900000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00002_005.cvc.smt2,Yices (2019),0.004113200000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00050_005.cvc.smt2,Yices,0.004011899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00030_004.cvc.smt2,Z3,0.0038948999999999998
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00030_007.cvc.smt2,Yices (2019),0.0037170999999999992
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8706308851182253950.smt2,CVC4,0.003554999999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6614798558121277247.smt2,Yices,0.0032928000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6456719111248078638.smt2,veriT,0.0032251500000000013
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt7523130558871236757.smt2,veriT,0.0032078999999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4572245676070776514.smt2,Yices (2019),0.003029800000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00005_009.cvc.smt2,Yices,0.002897799999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00030_008.cvc.smt2,Z3,0.002895999999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00030_002.cvc.smt2,Z3,0.0027560000000000015
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5385891397487700209.smt2,CVC4,0.0027408000000000016
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00010_001.cvc.smt2,Yices,0.002541100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00020_003.cvc.smt2,Yices (2019),0.002515
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00040_004.cvc.smt2,Yices (2019),0.002437
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00006_003.cvc.smt2,Yices,0.0023729999999999984
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2561940327326492283.smt2,Yices (2019),0.0022450000000000005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00010_003.cvc.smt2,Yices,0.0022431000000000013
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00009_009.cvc.smt2,Yices (2019),0.002197899999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8755060589107111188.smt2,Yices (2019),0.0021639999999999993
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2561449432101481323.smt2,Yices (2019),0.0020429000000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00009_005.cvc.smt2,Yices,0.0019010999999999993
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ni_00060_001.cvc.smt2,Z3,0.001810100000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00040_004.cvc.smt2,Yices (2019),0.0018100999999999985
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8908367221374111203.smt2,veriT,0.001741900000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00060_005.cvc.smt2,Yices (2019),0.0016951000000000015
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1171825036458049994.smt2,Yices,0.001566989999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00008_007.cvc.smt2,Yices (2019),0.0015200000000000005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2468388263826893998.smt2,Yices,0.0014619000000000004
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t3_pp_nf_ai_00003_001.cvc.smt2,Yices,0.001361000000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6977760194528203096.smt2,Yices,0.0012481000000000003
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4697298586713226690.smt2,veriT,0.001188100000000001
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8289280324694207722.smt2,veriT,0.000985999999999999
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2256856461941224445.smt2,veriT,0.0009230999999999996
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_nf_ai_00009_008.cvc.smt2,Yices,0.0007121000000000002
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00009_004.cvc.smt2,Yices,0.000666900000000005
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00002_002.cvc.smt2,Yices,0.0004881000000000017
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt5066516013081219368.smt2,veriT,0.00038689999999999905
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2384827473142460326.smt2,Yices,0.00030909999999999965
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00020_001.cvc.smt2,Yices (2019),0.0001260000000000011
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ni_00060_004.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00005_008.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_nf_ai_00003_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4955949051970003181.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00010_001.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00009_005.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00060_006.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00060_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00010_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00006_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt1495354633285877311.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00060_006.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00010_005.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00060_007.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00004_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_nf_ni_00020_008.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00010_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt4625083610563501181.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_nf_ai_00020_005.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_t1_pp_sf_ai_00007_001.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00030_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00020_009.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt3580158146100843999.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00060_003.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00007_006.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00004_009.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00060_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00030_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00003_004.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00007_007.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ai_00020_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00007_006.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ni_00040_007.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00009_006.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00050_009.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_np_sf_ni_00020_009.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ai_00050_003.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00030_001.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00060_003.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00050_006.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ai_00030_003.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ni_00040_008.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00007_009.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2621433222940787538.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_sf_ni_00040_008.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt672151100080778092.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_np_sf_ni_00010_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00030_003.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00004_004.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_pp_sf_ni_00040_009.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storeinv/storeinv_invalid_t1_pp_nf_ai_00010_001.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_sf_ai_00002_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00004_002.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t1_pp_nf_ai_00010_005.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt6557511902038258587.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00060_007.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt8422912073068378811.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t1_pp_nf_ai_00005_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_invalid_t3_pp_sf_ai_00007_001.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t1_np_sf_ni_00020_007.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_sf_ni_00060_006.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00040_002.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_np_sf_ni_00030_006.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_nf_ai_00020_007.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_sf_ai_00050_006.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00010_008.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ni_00040_009.cvc.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_invalid_t3_pp_nf_ni_00010_001.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/20170829-Rodin/smt2931782982977550988.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t1_pp_nf_ai_00040_003.cvc.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t2_np_nf_ni_00010_001.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/swap/swap_t3_pp_sf_ai_00004_009.cvc.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFLIA/storecomm/storecomm_t3_pp_sf_ai_00040_004.cvc.smt2,Z3,0.0

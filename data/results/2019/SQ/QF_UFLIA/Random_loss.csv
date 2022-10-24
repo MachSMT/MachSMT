@@ -1,0 +1,301 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_13_13.smt2,Alt-Ergo,4799.99094298
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-10-4-3-1-3.smt2,Alt-Ergo,4799.99093389
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-09-4-5-5-4.smt2,Alt-Ergo,4799.9908929
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-09-4-3-5-5.smt2,Alt-Ergo,4799.9908399
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-05-5-3-1-1.smt2,Alt-Ergo,4799.99080399
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-11-5-2-2-2.smt2,Alt-Ergo,4799.99077609
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_14_19.smt2,Alt-Ergo,4799.9906139
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-07-3-4-4-3.smt2,Alt-Ergo,4799.99046594
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-10-5-2-5-3.smt2,Alt-Ergo,4799.99031796
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_13_18.smt2,Alt-Ergo,4799.99013708
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-05-3-1-5-3.smt2,Alt-Ergo,4799.9899071
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-07-3-4-1-2.smt2,Alt-Ergo,4799.9896021
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_07.smt2,Alt-Ergo,4799.989536
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-12-5-3-4-4.smt2,Alt-Ergo,4799.9893659
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_28_28.smt2,Alt-Ergo,4799.9881889
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-09-1-5-4-2.smt2,veriT,4799.98778
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-05-5-5-1-3.smt2,Alt-Ergo,4799.9876769
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-20-1-1-2-2.smt2,Alt-Ergo,4799.9876079
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-15-4-1-3-1.smt2,veriT,4799.9875531
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-14-2-1-4-4.smt2,Alt-Ergo,4799.9874091
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-10-4-5-2-3.smt2,veriT,4799.9873901
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-20-2-2-4-4.smt2,Alt-Ergo,4799.9871709
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-14-2-4-3-1.smt2,Alt-Ergo,4799.9866841
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-06-1-1-2-4.smt2,Alt-Ergo,4799.986573
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-06-2-3-1-3.smt2,Alt-Ergo,4799.9855261
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_18_18.smt2,Alt-Ergo,4799.985102
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_17.smt2,Alt-Ergo,4799.984843
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_18.smt2,Alt-Ergo,4799.984841
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-17-2-2-5-1.smt2,Alt-Ergo,4799.9846871
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_11.smt2,Alt-Ergo,4799.979768
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_12_17.smt2,Alt-Ergo,4799.9758789
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-15-3-1-3-4.smt2,Alt-Ergo,4799.975345
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_17.smt2,Alt-Ergo,4799.974451
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_18.smt2,Alt-Ergo,4799.972863
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-06-4-3-2-1.smt2,Alt-Ergo,4799.967707
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_40_50.smt2,veriT,4799.940317
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_35_55.smt2,veriT,4799.92071
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_16_26.smt2,Alt-Ergo,4799.673666
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_20_40.smt2,Alt-Ergo,4797.52454
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_35_35.smt2,veriT,2394.7789479
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_18_38.smt2,Alt-Ergo,960.5750499999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_19_19.smt2,veriT,755.5706519
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_21_31.smt2,veriT,534.90937
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_17_27.smt2,veriT,258.7466521
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-07-3-4-2-3.smt2,veriT,162.79781395999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-17-4-2-1-5.smt2,veriT,98.4651681
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_22_42.smt2,SMTInterpol,76.45457999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-12-3-4-4-3.smt2,veriT,69.36154808
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-15-5-3-4-1.smt2,veriT,66.33289905999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-16-2-4-2-5.smt2,veriT,56.780214949999994
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-15-1-1-3-3.smt2,veriT,53.07489795
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-13-3-4-2-3.smt2,veriT,45.67923398
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-10-4-4-3-1.smt2,veriT,43.8533401
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_11_16.smt2,veriT,43.163466
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-20-5-5-1-5.smt2,veriT,40.844864
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-16-4-1-1-5.smt2,veriT,36.2148489
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-12-2-5-3-4.smt2,veriT,26.3328249
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-15-4-2-1-4.smt2,veriT,20.4961861
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-09-1-2-1-3.smt2,veriT,17.21495594
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-06-4-4-5-5.smt2,veriT,14.06334112
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-16-3-5-2-4.smt2,veriT,13.871951099999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-10-3-4-2-2.smt2,veriT,13.73257894
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-16-4-4-4-1.smt2,veriT,13.087128
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_8_13.smt2,veriT,12.014097
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-13-5-3-2-1.smt2,veriT,10.70035592
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-13-4-1-4-5.smt2,veriT,10.420287
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-17-5-5-3-5.smt2,SMTInterpol,8.40997191
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-13-2-4-5-3.smt2,veriT,5.7314021
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_09.smt2,CVC4,4.9689951
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_04.smt2,CVC4,4.42557511
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-06-5-5-4-1.smt2,veriT,4.33662598
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_22_32.smt2,SMTInterpol,4.1667941
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_38_48.smt2,SMTInterpol,3.6185031
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-18-3-3-4-1.smt2,Alt-Ergo,2.8306659
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-19-4-5-1-1.smt2,Alt-Ergo,2.8029830000000002
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-20-1-1-5-2.smt2,SMTInterpol,2.2633058999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_10_20.smt2,CVC4,1.8656940999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard12.smt2,CVC4,1.8254919
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_12.smt2,CVC4,1.5477809
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_14.smt2,CVC4,1.4866851
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-19-3-4-2-4.smt2,Alt-Ergo,1.4027919
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-19-3-3-3-4.smt2,SMTInterpol,1.3987089
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-18-2-2-5-3.smt2,SMTInterpol,1.3323839
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_13.smt2,CVC4,1.2965241
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard20.smt2,SMTInterpol,1.2898599000000002
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard14.smt2,Alt-Ergo,1.223879
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_15_15.smt2,SMTInterpol,1.1989421
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_11_21.smt2,SMTInterpol,1.1943370999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_26_26.smt2,SMTInterpol,1.1746141
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard18.smt2,SMTInterpol,1.1384041
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-15-3-2-1-5.smt2,SMTInterpol,1.1324919999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-16-3-4-1-5.smt2,veriT,1.1237481
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-14-2-3-3-3.smt2,SMTInterpol,1.114163
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_13.smt2,CVC4,1.08088889
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_31_41.smt2,SMTInterpol,1.0576828999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-10-2-5-3-2.smt2,SMTInterpol,0.9521781
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-17-2-1-4-1.smt2,SMTInterpol,0.7680139
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-14-2-4-1-4.smt2,SMTInterpol,0.7507829
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-19-1-4-1-2.smt2,SMTInterpol,0.748421
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_19.smt2,SMTInterpol,0.7117399
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_9_19.smt2,CVC4,0.686277
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium10.smt2,SMTInterpol,0.6689239
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-09-4-2-3-5.smt2,SMTInterpol,0.659918
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_15.smt2,CVC4,0.631846
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_13.smt2,SMTInterpol,0.6276031
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard9.smt2,SMTInterpol,0.6267639
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-12-3-1-5-2.smt2,SMTInterpol,0.616734
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-17-4-1-2-2.smt2,SMTInterpol,0.614791
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-12-4-2-4-5.smt2,SMTInterpol,0.60667793
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-19-3-1-4-1.smt2,SMTInterpol,0.60637993
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard8.smt2,SMTInterpol,0.583254
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-19-5-3-2-5.smt2,SMTInterpol,0.574346
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_32_32.smt2,Z3,0.559715
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_36_56.smt2,Z3,0.537566
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-09-3-2-3-2.smt2,SMTInterpol,0.5323490200000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_19.smt2,SMTInterpol,0.529074
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-13-4-4-2-1.smt2,SMTInterpol,0.51854596
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-12-4-1-1-4.smt2,SMTInterpol,0.517225
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-05-2-1-2-3.smt2,SMTInterpol,0.50877991
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_08.smt2,SMTInterpol,0.5005531
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_08.smt2,SMTInterpol,0.49257097000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_06.smt2,SMTInterpol,0.4829311
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-13-2-3-1-3.smt2,Alt-Ergo,0.475014
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_10.smt2,SMTInterpol,0.470246
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_08.smt2,SMTInterpol,0.44526588
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-08-1-1-5-3.smt2,SMTInterpol,0.422628
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_34_44.smt2,Z3,0.3911959
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_03.smt2,SMTInterpol,0.38435396000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-10-3-5-2-5.smt2,veriT,0.301955
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-05-2-5-4-2.smt2,CVC4,0.28657099999999996
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_35_45.smt2,CVC4,0.2843249
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-07-4-2-4-4.smt2,veriT,0.257293
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_34_54.smt2,CVC4,0.2499489
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard6.smt2,CVC4,0.15648410000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-13-2-1-3-1.smt2,CVC4,0.15262689999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-11-4-3-2-2.smt2,CVC4,0.14277394
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard11.smt2,Z3,0.137207
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_7_12.smt2,CVC4,0.13483012
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_17.smt2,CVC4,0.1230031
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium16.smt2,CVC4,0.106487
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-15-4-4-5-5.smt2,Z3,0.10307803
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-20-5-1-5-1.smt2,Alt-Ergo,0.10093807
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_12.smt2,CVC4,0.094645
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-17-5-2-4-4.smt2,Z3,0.09452089999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-20-3-5-3-5.smt2,CVC4,0.0907239
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-16-3-1-4-1.smt2,Z3,0.0874781
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_05.smt2,CVC4,0.086965
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-09-3-4-4-3.smt2,Alt-Ergo,0.080405
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-16-4-4-1-4.smt2,Z3,0.0788649
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-08-5-3-1-5.smt2,CVC4,0.0769629
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-20-5-1-5-4.smt2,CVC4,0.07549587999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_14.smt2,CVC4,0.07405603
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-19-3-4-4-1.smt2,Z3,0.0692462
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_9_14.smt2,Z3,0.06789619999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-14-2-3-3-5.smt2,Z3,0.06601800000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-13-4-5-2-4.smt2,Z3,0.06576090000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-07-5-1-2-1.smt2,CVC4,0.0655608
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-08-4-5-2-5.smt2,Z3,0.06446999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium20.smt2,Z3,0.0636091
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-18-5-5-3-2.smt2,CVC4,0.0634201
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-06-3-4-5-1.smt2,Z3,0.061962920000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-11-3-3-4-5.smt2,CVC4,0.058617
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_14_14.smt2,Z3,0.05838812
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_20.smt2,Z3,0.058299000000000004
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium17.smt2,Z3,0.058248900000000006
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-15-4-4-1-5.smt2,Z3,0.058080900000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-07-3-1-5-5.smt2,Z3,0.05802811000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-13-4-2-1-3.smt2,Z3,0.0577839
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_38_58.smt2,CVC4,0.05768000000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_20.smt2,veriT,0.05761
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_18.smt2,Z3,0.057009
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-12-3-1-3-4.smt2,Z3,0.05597798
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-08-5-1-1-4.smt2,Z3,0.055916020000000004
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_16.smt2,Z3,0.05546619999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_19.smt2,Z3,0.055464000000000006
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_23_33.smt2,Z3,0.055004
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-11-4-2-2-1.smt2,Z3,0.05498482
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-13-5-5-4-5.smt2,Z3,0.0542709
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-10-5-5-5-4.smt2,CVC4,0.054056999999999994
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_11.smt2,Z3,0.053986000000000006
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-09-4-2-1-5.smt2,Z3,0.053528900000000004
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-08-3-2-1-3.smt2,Z3,0.053472950000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-09-1-5-4-4.smt2,Z3,0.0531309
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_09.smt2,Z3,0.052877900000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_10.smt2,Z3,0.05261199999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-05-2-4-4-5.smt2,Z3,0.05240502
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium12.smt2,Z3,0.052072
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-11-2-4-1-5.smt2,Z3,0.05099611
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_06.smt2,Z3,0.05037292
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-07-4-1-1-5.smt2,Z3,0.05031103000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_09.smt2,Z3,0.049869
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_07.smt2,Z3,0.049852900000000006
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-08-4-4-4-2.smt2,Z3,0.04911594
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_05.smt2,CVC4,0.04884884
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_05.smt2,Z3,0.047665
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-17-1-5-1-5.smt2,Alt-Ergo,0.04705582
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-07-4-5-1-2.smt2,Alt-Ergo,0.04632015
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-06-4-1-5-3.smt2,Z3,0.0458809
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-19-1-4-2-1.smt2,Alt-Ergo,0.045624040000000005
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_6_6.smt2,Z3,0.0455238
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-13-5-3-5-5.smt2,Z3,0.045024829999999995
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-12-2-2-3-4.smt2,CVC4,0.04351018
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-07-1-4-1-3.smt2,CVC4,0.04161208
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-05-5-2-1-5.smt2,CVC4,0.036519039999999996
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-11-4-4-1-3.smt2,CVC4,0.0341731
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-08-3-4-3-5.smt2,CVC4,0.03184
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-06-1-5-3-2.smt2,CVC4,0.03139892
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-08-2-2-4-5.smt2,CVC4,0.030134930000000004
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard5.smt2,veriT,0.02740284
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-07-3-2-3-1.smt2,CVC4,0.024913820000000003
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_12.smt2,veriT,0.016595199999999997
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-18-1-2-1-5.smt2,CVC4,0.01636393
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_20.smt2,veriT,0.015472900000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-17-2-2-4-1.smt2,CVC4,0.012764950000000002
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_15.smt2,veriT,0.011877200000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-09-3-5-5-3.smt2,CVC4,0.0108469
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-10-2-4-5-3.smt2,Yices,0.010355000000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_08.smt2,veriT,0.009813100000000002
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_10.smt2,veriT,0.009503900000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-06-2-2-5-1.smt2,Yices,0.00261722
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-18-1-1-4-1.smt2,Yices (2018),0.0023978999999999997
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_06_20.smt2,Yices (2018),0.0022699
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_8_8.smt2,Yices (2018),0.002194980000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_10_15.smt2,Yices,0.0021359100000000013
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_29_39.smt2,Yices (2018),0.001979100000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-19-14-3-3-5-3.smt2,Yices (2018),0.0019509999999999979
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-10-1-4-2-5.smt2,Yices,0.0019329499999999993
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_20_30.smt2,Yices (2018),0.0015720999999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_37_37.smt2,Yices (2018),0.0015399999999999997
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium18.smt2,Yices (2018),0.0015270999999999983
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-16-2-2-1-4.smt2,Yices,0.00124114
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-17-5-2-2-5.smt2,Yices (2018),0.0010770000000000016
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_16.smt2,Yices (2018),0.0010439999999999998
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_12.smt2,Yices (2018),0.0009239999999999995
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_25_25.smt2,Yices (2018),0.000876
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-09-5-1-2-5.smt2,Yices (2018),0.0008500000000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-05-5-4-1-5.smt2,Yices (2018),0.0008080000000000014
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_25_35.smt2,Yices (2018),0.0008011000000000008
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-13-14-4-5-4-2.smt2,Yices (2018),0.0007428000000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-06-4-5-4-1.smt2,Yices (2018),0.0006850699999999994
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_23_23.smt2,Yices (2018),0.0006679999999999985
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_17_17.smt2,Yices (2018),0.0005541000000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-18-1-3-1-2.smt2,Yices (2018),0.00047720000000000054
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-19-3-3-4-4.smt2,Yices (2018),0.0004551099999999999
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-10-5-3-2-1.smt2,Yices (2018),0.00042790000000000016
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_14_24.smt2,Yices (2018),0.00040220000000000533
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-07-1-2-1-1.smt2,Yices (2018),0.0003941000000000014
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_32_52.smt2,Yices (2018),0.00037799999999999986
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-07-1-1-4-2.smt2,Yices (2018),0.000298940000000001
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_06.smt2,Yices (2018),0.00028409999999999894
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/medium/medium14.smt2,Yices (2018),0.00019179999999999892
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-09-3-5-5-3.smt2,Yices (2018),0.00017505999999999945
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-11-13-4-4-5-2.smt2,Yices (2018),0.00010481999999999853
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_10.smt2,Yices,8.390000000000133e-05
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-15-2-2-4-2.smt2,Yices,6.989999999999948e-05
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_39_39.smt2,Yices (2018),5.6000000000000494e-05
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-18-1-3-1-3.smt2,Yices (2018),3.39900000000011e-05
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-10-09-1-4-4-1.smt2,Yices (2018),1.2980000000000977e-05
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_09.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_24_34.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_27_27.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_15_25.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_26_46.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/EufLaArithmetic/hard/hard10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_07_11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_08_11.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-14-06-4-4-1-2.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-18-4-2-3-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-14-3-5-4-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_21_21.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-18-4-1-3-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-17-5-4-5-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_30_40.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_17_37.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-07-16-2-4-3-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_28_38.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-15-2-3-4-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-20-5-1-4-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-07-1-3-3-2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-15-17-2-1-1-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-16-11-2-1-5-2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-18-17-4-5-2-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-12-05-3-3-5-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-05-11-2-5-3-2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-15-5-3-2-3.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_15_20.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_10_15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_36_36.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_05_18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-20-18-3-4-5-4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-17-12-3-4-4-1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-18-1-3-4-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-08-20-3-2-4-5.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_29_49.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-09-10-5-1-5-2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Hash/hash_sat_09_04.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/wisas/xs_11_11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLIA/mathsat/Wisa/xs-06-08-5-1-5-3.smt2,Yices,0.0

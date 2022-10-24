@@ -1,0 +1,803 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_178.smt2,SMTInterpol,2399.986035
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_071.smt2,SMTInterpol,2399.9860339
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_141.smt2,SMTInterpol,2399.9856431
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_099.smt2,SMTInterpol,2399.9855861
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_155.smt2,Vampire,2399.9855419
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_247.smt2,SMTInterpol,2399.985511
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_218.smt2,SMTInterpol,2399.985402
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_058.smt2,Vampire,2399.9853571
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_141.smt2,SMTInterpol,2399.985223
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_079.smt2,SMTInterpol,2399.9852201
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_079.smt2,SMTInterpol,2399.98516
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_219.smt2,SMTInterpol,2399.98508
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_193.smt2,Vampire,2399.9849449
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_282.smt2,Vampire,2399.984912
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_3.smt2,SMTInterpol,2399.9848859
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_014.smt2,SMTInterpol,2399.984881
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_155.smt2,SMTInterpol,2399.9848749
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_006.smt2,SMTInterpol,2399.984797
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_110.smt2,Vampire,2399.9847761
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_247.smt2,Vampire,2399.984768
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_273.smt2,SMTInterpol,2399.9845969
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_215.smt2,Vampire,2399.982029
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_175.smt2,SMTInterpol,2399.981777
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_166.smt2,SMTInterpol,2399.9817141
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_111.smt2,SMTInterpol,2399.980899
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_203.smt2,SMTInterpol,2399.9808761
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_11.smt2,SMTInterpol,2399.980874
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_1.smt2,Vampire,2399.9808001
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_14.smt2,Vampire,2399.980687
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_216.smt2,SMTInterpol,2399.980545
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_13.smt2,SMTInterpol,2399.980179
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_23.smt2,Vampire,2399.980156
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_008.smt2,SMTInterpol,2399.979699
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_10.smt2,SMTInterpol,2399.9795259
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_105.smt2,SMTInterpol,2399.9793949
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_6.smt2,SMTInterpol,2399.9793179
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_133.smt2,SMTInterpol,2399.9790369
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_18.smt2,Vampire,2399.9789881
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_5.smt2,SMTInterpol,2399.978959
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_216.smt2,SMTInterpol,2399.9789061
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_8.smt2,SMTInterpol,2399.978773
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_025.smt2,SMTInterpol,2399.978585
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_224.smt2,Vampire,2399.978566
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_189.smt2,Vampire,2399.9785619
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_082.smt2,Vampire,2399.978083
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_33.smt2,Vampire,2399.977942
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_23.smt2,Vampire,2399.977675
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_175.smt2,SMTInterpol,2399.977672
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_181.smt2,SMTInterpol,2399.977544
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_6.smt2,SMTInterpol,2399.977452
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_30.smt2,SMTInterpol,2399.977386
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_099.smt2,SMTInterpol,2399.977157
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_150.smt2,Vampire,2399.976842
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_137.smt2,SMTInterpol,2399.976585
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_049.smt2,SMTInterpol,2399.976152
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_242.smt2,Vampire,2399.9756179
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_107.smt2,Vampire,2399.9752321
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_256.smt2,Vampire,2399.975115
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_126.smt2,Vampire,2399.97507
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_64.smt2,SMTInterpol,2399.9749939
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_126.smt2,SMTInterpol,2399.9745021
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_086.smt2,Vampire,2399.974462
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_176.smt2,SMTInterpol,2399.9739689
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_042.smt2,Vampire,2399.9737
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_49.smt2,SMTInterpol,2399.973564
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_205.smt2,Vampire,2399.973409
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_22.smt2,SMTInterpol,2399.973297
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_042.smt2,UE+MathSAT,2399.973108
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_26.smt2,Vampire,2399.9727669
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_21.smt2,SMTInterpol,2399.9724741
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_092.smt2,SMTInterpol,2399.971695
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_023.smt2,SMTInterpol,2399.9714341
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_024.smt2,SMTInterpol,2399.9709871
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_088.smt2,Vampire,2399.9705889
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_139.smt2,Vampire,2399.970376
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_252.smt2,Vampire,2399.970235
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_300.smt2,Vampire,2399.97018
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_118.smt2,Vampire,2399.9701649
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_067.smt2,Vampire,2399.9699871
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_298.smt2,Vampire,2399.9697999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_191.smt2,SMTInterpol,2399.9697779
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_057.smt2,SMTInterpol,2399.969735
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_188.smt2,Vampire,2399.9696991
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_5.smt2,Vampire,2399.969542
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_091.smt2,SMTInterpol,2399.9694189
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_149.smt2,SMTInterpol,2399.9694181
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_060.smt2,Vampire,2399.969364
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_298.smt2,SMTInterpol,2399.9690061
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_138.smt2,Vampire,2399.968915
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_075.smt2,SMTInterpol,2399.9688891
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_80.smt2,Vampire,2399.9687021
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_195.smt2,SMTInterpol,2399.9685071
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_283.smt2,Vampire,2399.9682901
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_2.smt2,SMTInterpol,2399.968049
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_119.smt2,Vampire,2399.967637
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_195.smt2,UE+MathSAT,2399.9670499
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_091.smt2,SMTInterpol,2399.9670371
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_65.smt2,UE+MathSAT,2399.967008
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_209.smt2,Vampire,2399.9668491
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_109.smt2,SMTInterpol,2399.9664611
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_5.smt2,SMTInterpol,2399.9664079
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_246.smt2,SMTInterpol,2399.966095
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_077.smt2,SMTInterpol,2399.9660729
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_245.smt2,Vampire,2399.9645191
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_125.smt2,UE+MathSAT,2399.964443
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_13.smt2,SMTInterpol,2399.963648
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_38.smt2,UE+MathSAT,2399.9636139
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_79.smt2,SMTInterpol,2399.9634759
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_151.smt2,UE+MathSAT,2399.9632231
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_036.smt2,UE+MathSAT,2399.9632029
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_167.smt2,UE+MathSAT,2399.962947
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_202.smt2,UE+MathSAT,2399.962805
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_042.smt2,UE+MathSAT,2399.9627521
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_064.smt2,UE+MathSAT,2399.96237
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_184.smt2,UE+MathSAT,2399.9617579
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_116.smt2,UE+MathSAT,2399.9615431
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_026.smt2,UE+MathSAT,2399.9615119
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_029.smt2,UE+MathSAT,2399.9612441
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_018.smt2,UE+MathSAT,2399.9612069
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_217.smt2,UE+MathSAT,2399.9610499
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_135.smt2,UE+MathSAT,2399.960847
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_110.smt2,UE+MathSAT,2399.9606979
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_206.smt2,SMTInterpol,2399.960348
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_053.smt2,SMTInterpol,2399.9595719
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_42.smt2,UE+MathSAT,2399.9595081
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_069.smt2,SMTInterpol,2399.9585969
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_45.smt2,Vampire,2399.958545
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_46.smt2,Vampire,2399.9581989
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_045.smt2,SMTInterpol,2399.9581541
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_59.smt2,SMTInterpol,2399.958125
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_53.smt2,Vampire,2399.958111
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_290.smt2,SMTInterpol,2399.9576681
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_60.smt2,UE+MathSAT,2399.957276
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_40.smt2,Vampire,2399.957265
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_47.smt2,SMTInterpol,2399.956936
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_41.smt2,UE+MathSAT,2399.95678
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_48.smt2,UE+MathSAT,2399.956734
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_103.smt2,Vampire,2399.9565221
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_42.smt2,Vampire,2399.956507
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_021.smt2,Vampire,2399.956165
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_039.smt2,Vampire,2399.955974
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_114.smt2,UE+MathSAT,2399.955776
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_30.smt2,UE+MathSAT,2399.9554091
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_30.smt2,UE+MathSAT,2399.95519
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_255.smt2,SMTInterpol,2399.9551001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_035.smt2,Vampire,2399.9542791
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_37.smt2,SMTInterpol,2399.95347
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_35.smt2,UE+MathSAT,2399.9533159
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_113.smt2,Vampire,2399.9513099
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_164.smt2,UE+MathSAT,2399.9507379
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_174.smt2,Vampire,2399.9505441
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_144.smt2,UE+MathSAT,2399.9499861
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_047.smt2,SMTInterpol,2399.9498729
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_268.smt2,Vampire,2399.9495639
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_031.smt2,SMTInterpol,2399.949226
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_194.smt2,Vampire,2399.948515
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_009.smt2,Vampire,2399.948211
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_241.smt2,Vampire,2399.946759
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_122.smt2,Vampire,2399.946718
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_192.smt2,UE+MathSAT,2399.946382
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_21.smt2,Vampire,2399.946255
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_254.smt2,UE+MathSAT,2399.9460231
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_020.smt2,Vampire,2399.9443879
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_086.smt2,UE+MathSAT,2399.943002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_265.smt2,UE+MathSAT,2399.940628
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_174.smt2,Vampire,2399.9396981
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_102.smt2,SMTInterpol,2399.9379281
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_198.smt2,UE+MathSAT,2399.937659
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_124.smt2,UE+MathSAT,2399.936791
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_106.smt2,SMTInterpol,2399.936782
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_095.smt2,SMTInterpol,2399.9316211
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_207.smt2,SMTInterpol,2399.9309109
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_233.smt2,Z3,2399.930484
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_200.smt2,SMTInterpol,2399.930087
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_29.smt2,Vampire,2399.9185081
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_294.smt2,SMTInterpol,2399.9178359
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_041.smt2,SMTInterpol,2399.9155331
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_070.smt2,SMTInterpol,2399.912317
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_161.smt2,Vampire,2399.906555
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_54.smt2,UE+MathSAT,2399.9058109
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_205.smt2,SMTInterpol,2399.895564
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_046.smt2,Vampire,2399.889573
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_281.smt2,Vampire,2399.887944
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_1.smt2,UE+MathSAT,2399.879034
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_104.smt2,SMTInterpol,2399.87614
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_275.smt2,SMTInterpol,2399.870898
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_239.smt2,SMTInterpol,2399.867642
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_084.smt2,Z3 (2019),2399.856388
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_161.smt2,Vampire,2399.851098
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_025.smt2,SMTInterpol,2399.837985
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_086.smt2,SMTInterpol,2399.823769
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_281.smt2,SMTInterpol,2399.808112
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_259.smt2,SMTInterpol,2399.804079
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_162.smt2,UE+MathSAT,2399.777263
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_190.smt2,Vampire,2399.762919
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_28.smt2,SMTInterpol,2399.744943
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_225.smt2,Z3,2399.720844
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_165.smt2,Vampire,2399.674108
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_65.smt2,UE+MathSAT,2399.657444
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_201.smt2,Vampire,2399.600366
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_212.smt2,UE+MathSAT,2399.490698
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_045.smt2,SMTInterpol,2399.474305
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_018.smt2,SMTInterpol,2399.454929
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_070.smt2,Vampire,2399.446537
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_037.smt2,Vampire,2399.415974
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_037.smt2,CVC4,2399.343179
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_271.smt2,Z3 (2019),2399.330061
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_169.smt2,SMTInterpol,2399.146173
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_248.smt2,CVC4,2399.101675
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_235.smt2,CVC4,2399.099729
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_260.smt2,CVC4,2399.071667
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_030.smt2,Vampire,2399.053916
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_157.smt2,SMTInterpol,2398.89056
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_130.smt2,UE+MathSAT,2398.85342
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_113.smt2,CVC4,2398.83434
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_072.smt2,SMTInterpol,2398.8066
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_203.smt2,Vampire,2398.79995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_056.smt2,UE+MathSAT,2398.62723
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_135.smt2,SMTInterpol,2398.45431
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_177.smt2,SMTInterpol,2398.44898
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_083.smt2,SMTInterpol,2398.34956
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_56.smt2,Vampire,2398.15926
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_017.smt2,SMTInterpol,2398.0804
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_017.smt2,Vampire,2397.98149
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_111.smt2,SMTInterpol,2397.72079
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_052.smt2,CVC4,2397.67656
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_082.smt2,CVC4,2397.56067
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_169.smt2,Vampire,2397.54782
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_289.smt2,UE+MathSAT,2397.47998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_296.smt2,SMTInterpol,2397.47678
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_027.smt2,SMTInterpol,2397.47325
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_029.smt2,Vampire,2397.45158
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_182.smt2,CVC4,2397.44748
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_289.smt2,Vampire,2397.36609
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_172.smt2,CVC4,2397.36032
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_197.smt2,SMTInterpol,2397.32664
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_166.smt2,CVC4,2397.31177
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_164.smt2,CVC4,2397.16633
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_036.smt2,CVC4,2397.09098
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_164.smt2,SMTInterpol,2397.05988
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_179.smt2,Z3,2396.88766
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_257.smt2,CVC4,2396.84449
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_157.smt2,SMTInterpol,2396.67241
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_109.smt2,SMTInterpol,2396.52928
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_107.smt2,SMTInterpol,2396.52246
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_095.smt2,Vampire,2396.38669
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_151.smt2,SMTInterpol,2396.27586
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_052.smt2,SMTInterpol,2396.20696
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_052.smt2,SMTInterpol,2396.19172
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_209.smt2,CVC4,2395.99949
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_127.smt2,UE+MathSAT,2395.55854
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_227.smt2,SMTInterpol,2394.99276
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_198.smt2,Vampire,2394.87696
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_238.smt2,Z3 (2019),2394.83998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_292.smt2,SMTInterpol,2393.93625
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_208.smt2,CVC4,2393.7623
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_096.smt2,UE+MathSAT,2389.6033
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_208.smt2,CVC4,2389.601
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_253.smt2,Vampire,2388.9277
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_001.smt2,Z3,2388.5257
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_200.smt2,Vampire,2387.5011
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_036.smt2,CVC4,2385.9786
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_118.smt2,CVC4,2384.6242
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_173.smt2,UE+MathSAT,2384.0275
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_106.smt2,CVC4,2383.4638
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_134.smt2,CVC4,2381.3958
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_246.smt2,UE+MathSAT,2376.9833
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_222.smt2,UE+MathSAT,2373.2517
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_096.smt2,Vampire,2372.3391
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_292.smt2,Vampire,2370.3443
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_283.smt2,SMTInterpol,2367.8542
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_197.smt2,Z3,2364.5867
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_106.smt2,SMTInterpol,2364.5773
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_096.smt2,Z3,2335.1454
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_224.smt2,SMTInterpol,2315.6715
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_118.smt2,Vampire,2239.601
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_180.smt2,UE+MathSAT,2228.9809999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_175.smt2,CVC4,2221.845
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_083.smt2,SMTInterpol,2221.3
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_061.smt2,SMTInterpol,2206.632
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_034.smt2,SMTInterpol,2179.601
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_023.smt2,UE+MathSAT,2139.192
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_010.smt2,CVC4,2115.274
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_278.smt2,Vampire,2094.492
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_050.smt2,Vampire,2024.5149999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_098.smt2,CVC4,1984.274
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_148.smt2,UE+MathSAT,1933.1390000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_242.smt2,Z3,1924.656
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_211.smt2,Z3,1798.1799999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_026.smt2,Vampire,1795.608
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_165.smt2,Z3,1621.887
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_199.smt2,Vampire,1567.594
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_194.smt2,CVC4,1408.422
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_106.smt2,SMTInterpol,1290.45
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_153.smt2,CVC4,1228.43
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_221.smt2,CVC4,1169.752863
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_278.smt2,Vampire,1166.8767149
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_057.smt2,Z3,1093.713696
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_240.smt2,Z3,1070.5211061
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_222.smt2,Z3 (2019),1017.266519
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_160.smt2,Z3 (2019),957.7072541
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_119.smt2,Z3,894.45253
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_244.smt2,Z3,881.919677
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_267.smt2,Z3,855.147747
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_027.smt2,Z3 (2019),674.6077240000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_183.smt2,Z3,611.515
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_062.smt2,Vampire,555.40034
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_185.smt2,CVC4,538.9382469
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_001.smt2,Z3,509.230382
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_041.smt2,Z3,454.89390000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_108.smt2,CVC4,400.05452
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_257.smt2,CVC4,390.81647
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_216.smt2,CVC4,363.395627
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_126.smt2,Z3,357.72905
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_254.smt2,CVC4,355.4715401
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_107.smt2,CVC4,340.17207590000004
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_24.smt2,Vampire,338.760514
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_130.smt2,Z3,337.088475
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_015.smt2,Vampire,318.2174661
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_149.smt2,UE+MathSAT,216.7021349
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_143.smt2,Vampire,203.1328579
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_180.smt2,UE+MathSAT,198.925902
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_144.smt2,UE+MathSAT,187.6933879
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_4_2.smt2,UE+MathSAT,163.4507581
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_139.smt2,UE+MathSAT,143.087364
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_26.smt2,Vampire,134.10301909999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_282.smt2,Z3 (2019),127.86756
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_259.smt2,UE+MathSAT,105.110877
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_150.smt2,Vampire,103.4344571
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_011.smt2,Vampire,91.711463
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_029.smt2,Z3 (2019),82.81777
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_195.smt2,Z3,82.51499999999999
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_4_5.smt2,UE+MathSAT,76.4310039
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_173.smt2,UE+MathSAT,75.375987
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_179.smt2,Vampire,74.623101
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_034.smt2,Vampire,69.9803071
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_050.smt2,Vampire,67.5614049
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_187.smt2,UE+MathSAT,63.57099999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_068.smt2,Vampire,63.5253899
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_49.smt2,UE+MathSAT,60.894006000000005
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_199.smt2,Z3 (2019),60.487263
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_121.smt2,Z3,53.197018899999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_055.smt2,Vampire,44.911662899999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_261.smt2,Z3,44.4574769
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_182.smt2,Vampire,44.234652
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_291.smt2,Z3,43.592572999999994
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_31.smt2,Z3 (2019),42.469225
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_271.smt2,Z3 (2019),42.3167729
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_080.smt2,Vampire,41.5644331
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_260.smt2,Vampire,41.3652779
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_199.smt2,Vampire,41.022472
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_094.smt2,CVC4,39.972708999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_273.smt2,Vampire,39.459311
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_34.smt2,UE+MathSAT,31.564493
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_257.smt2,CVC4,27.43602
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_294.smt2,Z3,26.323347000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_270.smt2,Z3,24.905124
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_050.smt2,Z3 (2019),23.640700000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_013.smt2,UE+MathSAT,23.1419161
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_059.smt2,Z3 (2019),21.03254
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_104.smt2,UE+MathSAT,19.0435099
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_132.smt2,Z3,17.050759
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_240.smt2,Z3 (2019),15.46466
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_227.smt2,Z3,15.3863611
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_020.smt2,Z3 (2019),15.117899999999992
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_080.smt2,Z3,14.379444
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_210.smt2,UE+MathSAT,13.017707999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_220.smt2,Z3 (2019),12.82163
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_4_6.smt2,UE+MathSAT,12.3001399
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_277.smt2,Z3 (2019),12.246538
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_224.smt2,Z3,12.19794
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_094.smt2,UE+MathSAT,12.101567
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_012.smt2,Z3 (2019),9.459294
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_119.smt2,Z3,9.381632
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_056.smt2,Z3 (2019),8.68484
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_184.smt2,Z3 (2019),8.654470100000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_059.smt2,Z3,8.520140000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_174.smt2,Z3,8.2538961
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_18.smt2,UE+MathSAT,7.644257
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_173.smt2,Z3,7.0267
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_029.smt2,Z3,6.9636
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_169.smt2,UE+MathSAT,6.745896
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_093.smt2,Z3 (2019),6.6052261
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_199.smt2,Z3,6.259567
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_128.smt2,Z3,6.200446
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_42.smt2,UE+MathSAT,5.860451
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_29.smt2,UE+MathSAT,5.4121051
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_085.smt2,Z3,5.2040439
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_025.smt2,Z3,5.185706
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_24.smt2,UE+MathSAT,5.130855
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_267.smt2,Z3 (2019),4.776184
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_180.smt2,Z3 (2019),4.676214000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_027.smt2,Z3 (2019),4.564994899999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_100.smt2,Z3 (2019),4.5205341
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_160.smt2,CVC4,4.173909999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_093.smt2,Z3,3.7662409
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_51.smt2,CVC4,3.650958
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_084.smt2,UE+MathSAT,3.5151820000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_228.smt2,UE+MathSAT,3.494008
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_204.smt2,Z3 (2019),3.425789
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_52.smt2,CVC4,3.382002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_091.smt2,Z3,3.2387889
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_044.smt2,Z3,3.21148
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_125.smt2,UE+MathSAT,3.1146249
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_081.smt2,Z3,3.0809100000000003
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_7.smt2,UE+MathSAT,3.0771571
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_187.smt2,Z3,2.948964
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_045.smt2,Z3,2.91198
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_228.smt2,UE+MathSAT,2.869425
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_19.smt2,UE+MathSAT,2.803205
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_18.smt2,UE+MathSAT,2.7882130000000003
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_25.smt2,UE+MathSAT,2.7843661
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_261.smt2,Z3 (2019),2.7678138999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_240.smt2,Z3 (2019),2.6752899999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_228.smt2,UE+MathSAT,2.6189131000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_089.smt2,CVC4,2.56222
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_8.smt2,UE+MathSAT,2.5432229
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_181.smt2,UE+MathSAT,2.5336651
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_084.smt2,UE+MathSAT,2.5320789
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_12.smt2,UE+MathSAT,2.528786
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_195.smt2,Vampire,2.5282651
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_262.smt2,Z3,2.50714
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_294.smt2,Z3 (2019),2.483357
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_083.smt2,UE+MathSAT,2.474829
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_067.smt2,UE+MathSAT,2.4663630000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_293.smt2,UE+MathSAT,2.4597140000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_238.smt2,UE+MathSAT,2.442054
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_7.smt2,UE+MathSAT,2.440532
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_170.smt2,UE+MathSAT,2.430891
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_125.smt2,UE+MathSAT,2.4246051
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_262.smt2,UE+MathSAT,2.412982
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_138.smt2,UE+MathSAT,2.4062219999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_233.smt2,UE+MathSAT,2.4057549
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_030.smt2,UE+MathSAT,2.402483
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_069.smt2,UE+MathSAT,2.4024089999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_145.smt2,UE+MathSAT,2.4018579
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_263.smt2,UE+MathSAT,2.4013119
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_058.smt2,UE+MathSAT,2.3759651
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_129.smt2,UE+MathSAT,2.375328
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_153.smt2,UE+MathSAT,2.3747671
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_067.smt2,UE+MathSAT,2.3713089999999997
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_9.smt2,UE+MathSAT,2.3712279
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_163.smt2,UE+MathSAT,2.3708229000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_061.smt2,Z3,2.3665389
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_247.smt2,UE+MathSAT,2.3657510999999998
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_12.smt2,UE+MathSAT,2.35248
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_156.smt2,UE+MathSAT,2.3458080000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_087.smt2,UE+MathSAT,2.3392228999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_080.smt2,Z3 (2019),2.3173619000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_155.smt2,UE+MathSAT,2.3019989
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_064.smt2,UE+MathSAT,2.300824
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_8.smt2,UE+MathSAT,2.3001431
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_232.smt2,UE+MathSAT,2.288186
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_077.smt2,UE+MathSAT,2.28818
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_055.smt2,UE+MathSAT,2.279973
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_219.smt2,UE+MathSAT,2.2524589
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_092.smt2,Z3,2.2454259000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_055.smt2,UE+MathSAT,2.2330959999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_172.smt2,Z3,2.219961
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_101.smt2,UE+MathSAT,2.2179451
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_100.smt2,UE+MathSAT,2.1652970000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_180.smt2,Z3,2.1119081
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_046.smt2,UE+MathSAT,1.879562
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_230.smt2,Z3 (2019),1.8773641
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_023.smt2,UE+MathSAT,1.76032
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_154.smt2,Z3,1.6769100000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_151.smt2,Vampire,1.6749561
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_024.smt2,Z3,1.525938
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_047.smt2,UE+MathSAT,1.46423
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_025.smt2,Z3,1.4642
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_077.smt2,Vampire,1.4116779
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_028.smt2,Z3 (2019),1.266428
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_152.smt2,Z3,1.09551
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_031.smt2,Z3,1.0926420000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_277.smt2,Vampire,1.0800559
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_012.smt2,Z3,1.0782629000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_001.smt2,UE+MathSAT,0.9543999999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_093.smt2,Z3 (2019),0.858939
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_045.smt2,Vampire,0.8110780999999999
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_25.smt2,Z3,0.7830459999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_292.smt2,SMTInterpol,0.749807
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_136.smt2,UE+MathSAT,0.7281699999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_143.smt2,Vampire,0.7079711
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_244.smt2,SMTInterpol,0.653454
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_044.smt2,SMTInterpol,0.642696
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_130.smt2,Z3,0.6239931
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_071.smt2,SMTInterpol,0.6188340999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_107.smt2,Z3 (2019),0.6166241
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_057.smt2,SMTInterpol,0.6136571
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_17.smt2,SMTInterpol,0.6056671
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_298.smt2,SMTInterpol,0.5892979
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_021.smt2,Z3,0.586533
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_143.smt2,SMTInterpol,0.585898
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_300.smt2,SMTInterpol,0.5779799
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_061.smt2,SMTInterpol,0.5732619
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_258.smt2,SMTInterpol,0.560478
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_148.smt2,SMTInterpol,0.5529581
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_149.smt2,Z3 (2019),0.5296628999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_143.smt2,Z3,0.51485
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_161.smt2,Z3,0.4839639
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_152.smt2,SMTInterpol,0.4530721
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_148.smt2,Z3 (2019),0.44492600000000004
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_16.smt2,Z3 (2019),0.41190200000000005
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_073.smt2,Vampire,0.3920149
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_111.smt2,Z3,0.388927
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_216.smt2,Z3 (2019),0.3719641
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_066.smt2,Z3 (2019),0.36348990000000003
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_26.smt2,Z3,0.3218009
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_003.smt2,Z3 (2019),0.30861710000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_160.smt2,Z3,0.29947189999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_273.smt2,Z3,0.274308
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_207.smt2,Z3 (2019),0.2708239
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_24.smt2,Z3 (2019),0.22691300000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_210.smt2,Z3,0.2204369
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_25.smt2,Vampire,0.2097809
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_122.smt2,Z3 (2019),0.206744
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_007.smt2,Vampire,0.194851
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_39.smt2,CVC4,0.19012900000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_102.smt2,Vampire,0.1848291
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_259.smt2,CVC4,0.16108999999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_038.smt2,Z3,0.1532021
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_207.smt2,Vampire,0.1393559
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_228.smt2,Z3,0.1373699
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_274.smt2,Z3,0.1321191
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_115.smt2,Z3,0.129559
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_122.smt2,Z3,0.126968
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_117.smt2,Z3 (2019),0.12665690000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_123.smt2,Z3 (2019),0.1223449
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_12.smt2,Z3 (2019),0.1153319
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_129.smt2,Vampire,0.1087429
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_290.smt2,Z3 (2019),0.1076319
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_016.smt2,CVC4,0.10606600000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_259.smt2,Z3 (2019),0.09718689999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_024.smt2,Vampire,0.08333689999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_089.smt2,Z3 (2019),0.072746
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_36.smt2,CVC4,0.07212399999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_285.smt2,Z3 (2019),0.07070399999999999
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_104.smt2,Vampire,0.06805800000000001
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_58.smt2,CVC4,0.0672101
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_176.smt2,Z3,0.058380999999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_017.smt2,Z3 (2019),0.0583501
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_291.smt2,Z3,0.0574411
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_113.smt2,Z3,0.057277
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_030.smt2,Z3,0.0572069
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_245.smt2,Z3 (2019),0.053731999999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_285.smt2,Z3,0.053585999999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_054.smt2,Z3,0.05227710000000001
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_2.smt2,CVC4,0.0471629
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_177.smt2,Z3 (2019),0.04481600000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_263.smt2,Z3 (2019),0.044427
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_129.smt2,Z3,0.041747900000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_222.smt2,Z3 (2019),0.0411671
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_013.smt2,Z3 (2019),0.03866700000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_147.smt2,Z3 (2019),0.036719
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_068.smt2,Z3 (2019),0.034643900000000005
+/data/SMT-LIB-non-incremental/LRA/tptp/NUM907=1.smt2,Vampire,0.0346199
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_272.smt2,Z3,0.0342799
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_182.smt2,Z3 (2019),0.0321808
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_093.smt2,Z3,0.030233000000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_029.smt2,Z3,0.0302012
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_164.smt2,Z3 (2019),0.030128199999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_189.smt2,Z3,0.029241
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_093.smt2,Z3 (2019),0.028522999999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_215.smt2,Z3 (2019),0.028219000000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_117.smt2,Z3,0.026633800000000006
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_287.smt2,Z3 (2019),0.026439899999999995
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_186.smt2,Z3 (2019),0.026371200000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_055.smt2,Z3 (2019),0.026000100000000005
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_214.smt2,Z3 (2019),0.025772999999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_181.smt2,Z3 (2019),0.025627000000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_053.smt2,Z3 (2019),0.025040000000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_226.smt2,Z3 (2019),0.024658100000000002
+/data/SMT-LIB-non-incremental/LRA/keymaera/water_tank-node5020.smt2,Z3 (2019),0.024617800000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_045.smt2,Z3,0.022542899999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_094.smt2,Z3,0.022481900000000003
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_1.smt2,Z3 (2019),0.0220618
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_192.smt2,Z3,0.0220408
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_13.smt2,Z3 (2019),0.021866200000000002
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_14.smt2,Z3 (2019),0.021863
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_086.smt2,Z3 (2019),0.021677800000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_098.smt2,Z3 (2019),0.021605199999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_297.smt2,Z3,0.021494
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_284.smt2,Z3,0.021177
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_8.smt2,Z3 (2019),0.021035100000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_064.smt2,Z3,0.0209231
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_2.smt2,Z3 (2019),0.020888999999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_053.smt2,Z3,0.0207612
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_9.smt2,Z3 (2019),0.020738
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_5.smt2,Z3,0.0207311
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_101.smt2,Z3,0.020590999999999998
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_014.smt2,Z3,0.020547000000000003
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_005.smt2,Z3,0.0202552
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_46.smt2,Z3 (2019),0.0202349
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_237.smt2,Z3,0.0202219
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_30.smt2,Z3 (2019),0.0196529
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_48.smt2,Z3 (2019),0.0194398
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_202.smt2,Z3,0.0194259
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_003.smt2,Z3 (2019),0.019148000000000005
+/data/SMT-LIB-non-incremental/LRA/keymaera/water_tank-node18157.smt2,Z3,0.019084999999999998
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_10.smt2,Z3,0.019008900000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_092.smt2,Z3,0.018720099999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_145.smt2,Z3,0.018543000000000004
+/data/SMT-LIB-non-incremental/LRA/keymaera/water_tank-node11756.smt2,Z3,0.018454899999999996
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_34.smt2,Z3 (2019),0.018248900000000002
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_27.smt2,Z3,0.0180272
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_022.smt2,Z3 (2019),0.017661899999999994
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_148.smt2,Z3 (2019),0.0164981
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_28.smt2,Z3,0.016292100000000004
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_54.smt2,Z3 (2019),0.0161451
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_20.smt2,Z3,0.016136
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_4.smt2,Z3,0.016031000000000004
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_015.smt2,Z3 (2019),0.016
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_006.smt2,Z3 (2019),0.014792100000000002
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_33.smt2,Z3,0.0146651
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_083.smt2,Z3 (2019),0.014497900000000008
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_27.smt2,CVC4,0.014034899999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_109.smt2,Z3,0.013614000000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_163.smt2,Z3,0.012975899999999999
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_51.smt2,Z3,0.012289000000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_068.smt2,Z3,0.0120509
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_2.smt2,Z3 (2019),0.011939999999999996
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_53.smt2,Z3,0.011792199999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_002.smt2,Z3 (2019),0.011481199999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_291.smt2,CVC4,0.010176999999999999
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_23.smt2,Z3,0.009952199999999994
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_70.smt2,Z3,0.0098841
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_77.smt2,Z3,0.009119800000000004
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_71.smt2,Z3,0.0084819
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_74.smt2,Z3 (2019),0.008323999999999998
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_39.smt2,Z3 (2019),0.007823999999999998
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_28.smt2,Z3 (2019),0.007326899999999997
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_084.smt2,Z3,0.006746000000000002
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_283.smt2,Z3 (2019),0.006081900000000001
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_160.smt2,Z3 (2019),0.005532999999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_209.smt2,Z3 (2019),0.0053331
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_14.smt2,CVC4,0.0052078999999999945
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_31.smt2,CVC4,0.004106100000000001
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_38.smt2,Z3 (2019),0.003893800000000003
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_3.smt2,Z3,0.0026499999999999996
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_13.smt2,Z3,0.0016369999999999996
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_008.smt2,Z3,0.000673
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_242.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_020.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_279.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_112.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_57.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_172.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_67.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_38.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_169.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_59.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_235.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_78.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_119.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_192.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_091.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_055.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_221.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_004.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_168.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_245.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_016.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_005.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_212.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_43.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_15.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_275.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_186.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_273.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_56.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_262.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_028.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_285.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_170.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_195.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_3_2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_172.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_254.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_018.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_153.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_130.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_5_18.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_171.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_3.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_52.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_025.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_22.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_002.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_215.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_265.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_281.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_007.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_274.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_159.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_002.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_057.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_206.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_294.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_14.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_082.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_015.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_068.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_253.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_224.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_234.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_066.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_095.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_050.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_102.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_084.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_57.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_030.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_211.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_079.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/keymaera/water_tank-node7173.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_217.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_41.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_109.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_170.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_269.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_022.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_084.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_246.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_193.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_088.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_160.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_209.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_13.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_158.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_060.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_29.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_051.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_261.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_274.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_209.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_40.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_204.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_229.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_269.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_67.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_069.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_204.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_262.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_75.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_255.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_030.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_017.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_128.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_162.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_118.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_149.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_239.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_22.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_287.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_11.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_010.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_087.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_087.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_022.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_5.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_268.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_058.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_114.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_288.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_076.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_108.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_279.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_262.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_142.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_019.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_088.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_4_51.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_048.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_276.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_6_13.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_067.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_251.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_111.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_152.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_245.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_145.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_293.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir4/formula_033.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_125.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RNDPRE/RNDPRE_3_47.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_153.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_009.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir5/formula_259.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_094.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_165.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_176.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/model/model_6_68.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_3.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_293.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir1/formula_205.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_230.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir3/formula_211.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir6/formula_105.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LRA/scholl-smt08/RND/RND_4_22.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_282.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LRA/2010-Monniaux-QE/mjollnir2/formula_250.smt2,Z3,0.0

@@ -1,0 +1,300 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_4.smt2,Vampire,11999.9621959
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_11.smt2,Vampire,11999.886066
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM875=1.smt2,veriT+vite,2399.986311
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM916=1.smt2,veriT+vite,2399.986031
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI079=1.smt2,veriT,2399.9859589
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM896=1.smt2,veriT+vite,2399.985807
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM898=1.smt2,veriT+vite,2399.985658
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM893=1.smt2,veriT,2399.9853889
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI592=1.smt2,veriT,2399.9815081
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_3.smt2,SMTInterpol,2399.9811781
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_9.smt2,veriT+vite,2399.9809729
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_18.smt2,Z3 (2019),2399.9802889
+/data/SMT-LIB-non-incremental/LIA/psyco/175.smt2,veriT,2399.980164
+/data/SMT-LIB-non-incremental/LIA/psyco/062.smt2,SMTInterpol,2399.979091
+/data/SMT-LIB-non-incremental/LIA/psyco/018.smt2,SMTInterpol,2399.9788969
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_16.smt2,veriT,2399.9778679
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_18.smt2,Z3,2399.9773139
+/data/SMT-LIB-non-incremental/LIA/psyco/139.smt2,veriT+vite,2399.9763481
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_24.smt2,Z3 (2019),2399.9760141
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_2.smt2,Z3,2399.9758001
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_12.smt2,Z3 (2019),2399.9752841
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_26.smt2,Z3,2399.975222
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_13.smt2,veriT,2399.9752071
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_45.smt2,veriT+vite,2399.9751411
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_24.smt2,SMTInterpol,2399.975065
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_19.smt2,Z3 (2019),2399.9750489
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_21.smt2,veriT,2399.9747341
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_21.smt2,Z3 (2019),2399.974688
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_10.smt2,UE+MathSAT,2399.97446
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_37.smt2,Z3,2399.9743861
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_15.smt2,veriT,2399.9743159
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_34.smt2,Z3 (2019),2399.9741189
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_11.smt2,veriT+vite,2399.974112
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_25.smt2,veriT,2399.9739891
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_39.smt2,veriT+vite,2399.9732829
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_19.smt2,Z3,2399.9730411
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_35.smt2,Z3 (2019),2399.9729751
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_67.smt2,UE+MathSAT,2399.9729489
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_0.smt2,UE+MathSAT,2399.9728689
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_2.smt2,veriT+vite,2399.9727971
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_30.smt2,Z3 (2019),2399.9726429
+/data/SMT-LIB-non-incremental/LIA/psyco/108.smt2,veriT,2399.9725409
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_43.smt2,veriT+vite,2399.972538
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_3.smt2,veriT+vite,2399.9724981
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_38.smt2,Z3,2399.9721959
+/data/SMT-LIB-non-incremental/LIA/psyco/107.smt2,veriT+vite,2399.9721381
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_65.smt2,SMTInterpol,2399.971987
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_27.smt2,veriT,2399.971636
+/data/SMT-LIB-non-incremental/LIA/psyco/162.smt2,veriT,2399.971576
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_13.smt2,veriT,2399.9708221
+/data/SMT-LIB-non-incremental/LIA/psyco/163.smt2,veriT,2399.970543
+/data/SMT-LIB-non-incremental/LIA/psyco/177.smt2,SMTInterpol,2399.9704801
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_12.smt2,veriT+vite,2399.9695161
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_7.smt2,veriT,2399.9693759
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_5.smt2,SMTInterpol,2399.9691049
+/data/SMT-LIB-non-incremental/LIA/psyco/178.smt2,veriT+vite,2399.968525
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_10.smt2,SMTInterpol,2399.968332
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/s3_srvr_2_true-unreach-call_true-no-overflow_false-termination.BV.c.cil.c_0.smt2,veriT,2399.968268
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_71.smt2,veriT,2399.9682249
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_9.smt2,veriT+vite,2399.9672329
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_11.smt2,Vampire,2399.966802
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_15.smt2,SMTInterpol,2399.966683
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c_1.smt2,veriT,2399.9651249
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_1.smt2,Z3 (2019),2399.962564
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_2.smt2,SMTInterpol,2399.962481
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_0.smt2,UE+MathSAT,2399.9624171
+/data/SMT-LIB-non-incremental/LIA/psyco/106.smt2,SMTInterpol,2399.9623009
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_9.smt2,UE+MathSAT,2399.961658
+/data/SMT-LIB-non-incremental/LIA/psyco/065.smt2,SMTInterpol,2399.961487
+/data/SMT-LIB-non-incremental/LIA/psyco/021.smt2,Vampire,2399.9614759
+/data/SMT-LIB-non-incremental/LIA/psyco/011.smt2,veriT,2399.9614381
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_1.smt2,veriT,2399.961319
+/data/SMT-LIB-non-incremental/LIA/psyco/153.smt2,veriT+vite,2399.9611921
+/data/SMT-LIB-non-incremental/LIA/psyco/019.smt2,veriT,2399.9609501
+/data/SMT-LIB-non-incremental/LIA/psyco/154.smt2,Vampire,2399.9608641
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_95.smt2,veriT,2399.960407
+/data/SMT-LIB-non-incremental/LIA/psyco/166.smt2,veriT+vite,2399.960319
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_97.smt2,Z3 (2019),2399.960113
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_91.smt2,SMTInterpol,2399.960084
+/data/SMT-LIB-non-incremental/LIA/psyco/022.smt2,UE+MathSAT,2399.9596861
+/data/SMT-LIB-non-incremental/LIA/psyco/023.smt2,SMTInterpol,2399.9596691
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_1.smt2,UE+MathSAT,2399.9595709
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_70.smt2,UE+MathSAT,2399.9595011
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_87.smt2,Z3,2399.9582749
+/data/SMT-LIB-non-incremental/LIA/psyco/068.smt2,SMTInterpol,2399.958097
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_79.smt2,Z3,2399.9580291
+/data/SMT-LIB-non-incremental/LIA/psyco/129.smt2,veriT+vite,2399.9579541
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_88.smt2,veriT,2399.957873
+/data/SMT-LIB-non-incremental/LIA/psyco/143.smt2,veriT+vite,2399.9571889
+/data/SMT-LIB-non-incremental/LIA/psyco/149.smt2,Vampire,2399.9566011
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_85.smt2,veriT+vite,2399.9562591
+/data/SMT-LIB-non-incremental/LIA/psyco/155.smt2,Vampire,2399.955464
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_10.smt2,Z3 (2019),2399.955298
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_69.smt2,CVC4,2399.9548781
+/data/SMT-LIB-non-incremental/LIA/psyco/075.smt2,veriT+vite,2399.9548309
+/data/SMT-LIB-non-incremental/LIA/psyco/122.smt2,UE+MathSAT,2399.9548079
+/data/SMT-LIB-non-incremental/LIA/psyco/071.smt2,veriT+vite,2399.9547821
+/data/SMT-LIB-non-incremental/LIA/psyco/072.smt2,veriT,2399.9542461
+/data/SMT-LIB-non-incremental/LIA/psyco/073.smt2,SMTInterpol,2399.953797
+/data/SMT-LIB-non-incremental/LIA/psyco/007.smt2,veriT,2399.9536559
+/data/SMT-LIB-non-incremental/LIA/psyco/123.smt2,UE+MathSAT,2399.953519
+/data/SMT-LIB-non-incremental/LIA/psyco/114.smt2,Vampire,2399.95351
+/data/SMT-LIB-non-incremental/LIA/psyco/113.smt2,Vampire,2399.953258
+/data/SMT-LIB-non-incremental/LIA/psyco/135.smt2,SMTInterpol,2399.9528069
+/data/SMT-LIB-non-incremental/LIA/psyco/194.smt2,UE+MathSAT,2399.9527849
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_22.smt2,Z3 (2019),2399.95208
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_4.smt2,SMTInterpol,2399.9517029
+/data/SMT-LIB-non-incremental/LIA/psyco/130.smt2,veriT+vite,2399.9513931
+/data/SMT-LIB-non-incremental/LIA/psyco/092.smt2,UE+MathSAT,2399.9510429
+/data/SMT-LIB-non-incremental/LIA/psyco/173.smt2,veriT+vite,2399.9505991
+/data/SMT-LIB-non-incremental/LIA/psyco/098.smt2,Vampire,2399.950541
+/data/SMT-LIB-non-incremental/LIA/psyco/171.smt2,SMTInterpol,2399.950489
+/data/SMT-LIB-non-incremental/LIA/psyco/076.smt2,veriT+vite,2399.949797
+/data/SMT-LIB-non-incremental/LIA/psyco/015.smt2,veriT+vite,2399.9497949
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_10.smt2,Z3 (2019),2399.949486
+/data/SMT-LIB-non-incremental/LIA/psyco/034.smt2,SMTInterpol,2399.9487331
+/data/SMT-LIB-non-incremental/LIA/psyco/041.smt2,veriT,2399.9478241
+/data/SMT-LIB-non-incremental/LIA/psyco/047.smt2,UE+MathSAT,2399.9469839
+/data/SMT-LIB-non-incremental/LIA/psyco/119.smt2,veriT,2399.9468941
+/data/SMT-LIB-non-incremental/LIA/psyco/084.smt2,SMTInterpol,2399.9464179
+/data/SMT-LIB-non-incremental/LIA/psyco/049.smt2,SMTInterpol,2399.944248
+/data/SMT-LIB-non-incremental/LIA/psyco/045.smt2,veriT+vite,2399.9436421
+/data/SMT-LIB-non-incremental/LIA/psyco/044.smt2,Vampire,2399.9427219
+/data/SMT-LIB-non-incremental/LIA/psyco/096.smt2,UE+MathSAT,2399.942173
+/data/SMT-LIB-non-incremental/LIA/psyco/039.smt2,Vampire,2399.9420909
+/data/SMT-LIB-non-incremental/LIA/psyco/082.smt2,SMTInterpol,2399.9416111
+/data/SMT-LIB-non-incremental/LIA/psyco/137.smt2,veriT+vite,2399.9414451
+/data/SMT-LIB-non-incremental/LIA/psyco/026.smt2,SMTInterpol,2399.93845
+/data/SMT-LIB-non-incremental/LIA/psyco/174.smt2,Vampire,2399.937588
+/data/SMT-LIB-non-incremental/LIA/psyco/097.smt2,UE+MathSAT,2399.9366361
+/data/SMT-LIB-non-incremental/LIA/psyco/136.smt2,veriT,2399.934971
+/data/SMT-LIB-non-incremental/LIA/psyco/099.smt2,veriT+vite,2399.9333551
+/data/SMT-LIB-non-incremental/LIA/psyco/083.smt2,veriT+vite,2399.932735
+/data/SMT-LIB-non-incremental/LIA/psyco/081.smt2,UE+MathSAT,2399.9321751
+/data/SMT-LIB-non-incremental/LIA/psyco/195.smt2,veriT,2399.930347
+/data/SMT-LIB-non-incremental/LIA/psyco/033.smt2,veriT,2399.9277929
+/data/SMT-LIB-non-incremental/LIA/psyco/087.smt2,veriT+vite,2399.927489
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_2.smt2,veriT+vite,2399.926349
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_60.smt2,veriT+vite,2399.926285
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_61.smt2,veriT,2399.9262511
+/data/SMT-LIB-non-incremental/LIA/psyco/189.smt2,veriT,2399.9257071
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_59.smt2,veriT,2399.923504
+/data/SMT-LIB-non-incremental/LIA/psyco/117.smt2,UE+MathSAT,2399.9215959
+/data/SMT-LIB-non-incremental/LIA/psyco/057.smt2,Vampire,2399.921433
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_0.smt2,SMTInterpol,2399.9166259
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_18.smt2,veriT+vite,2399.9089731
+/data/SMT-LIB-non-incremental/LIA/psyco/056.smt2,UE+MathSAT,2399.9049099
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_9.smt2,veriT,2399.903879
+/data/SMT-LIB-non-incremental/LIA/psyco/058.smt2,veriT,2399.892188
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_16.smt2,UE+MathSAT,2399.889007
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_4.smt2,Z3 (2019),2399.883732
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_14.smt2,Z3,2399.828359
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_90.smt2,veriT,2311.8036
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_82.smt2,Z3,2303.7108
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_17.smt2,UE+MathSAT,2297.863
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_32.smt2,Vampire,3.7555081
+/data/SMT-LIB-non-incremental/LIA/psyco/181.smt2,UE+MathSAT,2.4188709
+/data/SMT-LIB-non-incremental/LIA/psyco/103.smt2,UE+MathSAT,2.3974368999999998
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI011=1.smt2,UE+MathSAT,2.3507971
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_378.smt2,UE+MathSAT,2.3399409999999996
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_0.smt2,UE+MathSAT,2.3371259
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI017=1.smt2,UE+MathSAT,2.3280621
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_470.smt2,UE+MathSAT,2.3175509599999997
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI027=1.smt2,UE+MathSAT,2.3030789
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI045=1.smt2,UE+MathSAT,2.2798619
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_575.smt2,UE+MathSAT,2.272694
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_473.smt2,UE+MathSAT,2.2658899
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI040=1.smt2,UE+MathSAT,2.256076
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_775.smt2,UE+MathSAT,2.2338609999999997
+/data/SMT-LIB-non-incremental/LIA/psyco/179.smt2,Vampire,1.1731619
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_0.smt2,Vampire,0.8514919
+/data/SMT-LIB-non-incremental/LIA/psyco/052.smt2,CVC4,0.6246219000000001
+/data/SMT-LIB-non-incremental/LIA/psyco/085.smt2,CVC4,0.4854991
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1357.smt2,SMTInterpol,0.3966279
+/data/SMT-LIB-non-incremental/LIA/psyco/093.smt2,CVC4,0.393918
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1723.smt2,SMTInterpol,0.39330612000000004
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_73.smt2,SMTInterpol,0.387504
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1749.smt2,SMTInterpol,0.3852609
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_728.smt2,SMTInterpol,0.38099502
+/data/SMT-LIB-non-incremental/LIA/psyco/046.smt2,CVC4,0.379286
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI590=1.smt2,SMTInterpol,0.37540399999999996
+/data/SMT-LIB-non-incremental/LIA/psyco/002.smt2,Vampire,0.36409199999999997
+/data/SMT-LIB-non-incremental/LIA/psyco/095.smt2,CVC4,0.361636
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI004=1.smt2,SMTInterpol,0.356398
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI005=1.smt2,SMTInterpol,0.3550821
+/data/SMT-LIB-non-incremental/LIA/psyco/043.smt2,CVC4,0.34967990000000004
+/data/SMT-LIB-non-incremental/LIA/psyco/020.smt2,Vampire,0.23432090000000003
+/data/SMT-LIB-non-incremental/LIA/psyco/090.smt2,CVC4,0.23145600000000002
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_6.smt2,Vampire,0.17846410000000001
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1477.smt2,Vampire,0.1677411
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1371.smt2,Vampire,0.1609179
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_4.smt2,Vampire,0.10523900000000001
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_13.smt2,Vampire,0.1002591
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1597.smt2,Vampire,0.0742531
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/MADWiFi-encode_ie_ok_true-unreach-call.i_7.smt2,Vampire,0.073396
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_725.smt2,Vampire,0.0700691
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_755.smt2,Vampire,0.0696
+/data/SMT-LIB-non-incremental/LIA/psyco/134.smt2,CVC4,0.06698499999999999
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_4.smt2,Vampire,0.059443899999999994
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_785.smt2,Z3 (2019),0.049541
+/data/SMT-LIB-non-incremental/LIA/psyco/124.smt2,CVC4,0.048860900000000006
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_16.smt2,Vampire,0.04818680000000001
+/data/SMT-LIB-non-incremental/LIA/psyco/025.smt2,CVC4,0.042743
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1798.smt2,Vampire,0.041127
+/data/SMT-LIB-non-incremental/LIA/psyco/016.smt2,CVC4,0.038888
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1795.smt2,Z3 (2019),0.03173022
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1847.smt2,Z3 (2019),0.0311271
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_887.smt2,Z3 (2019),0.031107000000000003
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1877.smt2,Z3 (2019),0.03017
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1764.smt2,Z3 (2019),0.0301439
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_2746.smt2,Z3 (2019),0.028449999999999996
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_707.smt2,Z3,0.025878099999999998
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_497.smt2,Z3,0.02582409
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1117.smt2,Z3,0.025476
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1878.smt2,Z3,0.0251542
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/byte_add_1_true-unreach-call_true-no-overflow_true-termination.i_2.smt2,Z3 (2019),0.024923
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM917=1.smt2,Z3 (2019),0.0247319
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1770.smt2,Z3,0.024117200000000002
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM871=1.smt2,Z3 (2019),0.024085000000000002
+/data/SMT-LIB-non-incremental/LIA/psyco/186.smt2,Z3 (2019),0.023899200000000002
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM874=1.smt2,Z3 (2019),0.0233201
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/byte_add_1_true-unreach-call_true-no-overflow_true-termination.i_1.smt2,Z3,0.021391900000000002
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/byte_add_1_true-unreach-call_true-no-overflow_true-termination.i_3.smt2,Z3,0.020049900000000002
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI052=1.smt2,Z3,0.0199599
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI044=1.smt2,Z3,0.0193679
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI013=1.smt2,Z3,0.019106099999999997
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI056=1.smt2,Z3,0.018678
+/data/SMT-LIB-non-incremental/LIA/psyco/158.smt2,CVC4,0.018622800000000002
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_9.smt2,Z3 (2019),0.017567
+/data/SMT-LIB-non-incremental/LIA/psyco/061.smt2,Z3,0.016660900000000003
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_14.smt2,Z3 (2019),0.0155128
+/data/SMT-LIB-non-incremental/LIA/psyco/102.smt2,Z3,0.014343900000000007
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_6.smt2,Z3 (2019),0.012948000000000001
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_8.smt2,Z3,0.012543200000000001
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1887.smt2,CVC4,0.010089
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_12.smt2,Z3 (2019),0.009624
+/data/SMT-LIB-non-incremental/LIA/psyco/161.smt2,CVC4,0.008175000000000002
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_287.smt2,CVC4,0.006756979999999999
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_7_true-unreach-call_true-no-overflow_false-termination.i_18.smt2,Z3,0.005934000000000002
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1786.smt2,CVC4,0.0057099
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_7.smt2,Z3,0.005639900000000003
+/data/SMT-LIB-non-incremental/LIA/psyco/086.smt2,Z3 (2019),0.005634
+/data/SMT-LIB-non-incremental/LIA/psyco/145.smt2,Z3 (2019),0.005486999999999999
+/data/SMT-LIB-non-incremental/LIA/psyco/126.smt2,Z3 (2019),0.005376800000000001
+/data/SMT-LIB-non-incremental/LIA/psyco/051.smt2,Z3 (2019),0.0053379
+/data/SMT-LIB-non-incremental/LIA/psyco/063.smt2,Z3 (2019),0.0051119999999999985
+/data/SMT-LIB-non-incremental/LIA/psyco/064.smt2,CVC4,0.004578899999999997
+/data/SMT-LIB-non-incremental/LIA/psyco/066.smt2,CVC4,0.004328100000000001
+/data/SMT-LIB-non-incremental/LIA/psyco/169.smt2,Z3 (2019),0.003813000000000004
+/data/SMT-LIB-non-incremental/LIA/psyco/127.smt2,Z3 (2019),0.0037741000000000025
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_73.smt2,CVC4,0.003698900000000005
+/data/SMT-LIB-non-incremental/LIA/psyco/133.smt2,Z3 (2019),0.0036832000000000045
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1707.smt2,veriT,0.00349207
+/data/SMT-LIB-non-incremental/LIA/psyco/156.smt2,Z3,0.002900799999999995
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1728.smt2,veriT,0.0018458999999999993
+/data/SMT-LIB-non-incremental/LIA/psyco/121.smt2,Z3 (2019),0.0011969000000000007
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_357.smt2,veriT,0.0006230000000000003
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI012=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_10.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1479.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/116.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_9.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem15_label00_false-unreach-call.c_3.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM897=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/176.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI054=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/024.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM899=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/implicitunsignedconversion_true-unreach-call_true-termination.c_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/142.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI039=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_75.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1737.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/187.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_766.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_5.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_2_true-unreach-call_true-no-overflow_false-termination.i_23.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_637.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM918=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/111.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_23.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/140.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_93.smt2,Z3 (2019),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/105.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1777.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_713.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1427.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/180.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call_true-termination.i_6.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_68.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_36.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/118.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem17_label54_false-unreach-call.c_5.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/jain_6_true-unreach-call_true-no-overflow_false-termination.i_18.smt2,veriT+vite,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem18_label34_false-unreach-call.c_12.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/148.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/20190429-UltimateAutomizerSvcomp2019/Problem10_label59_true-unreach-call.c_72.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM864=1.smt2,CVC4,0.0

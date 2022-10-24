@@ -1,0 +1,166 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test9_floats_why.smt2,CVC4,3199.3971818181817
+/data/SMT-LIB-incremental/AUFNIRA/aviation/size_in_bits_why.smt2,UE+MathSAT,2401.432153
+/data/SMT-LIB-incremental/AUFNIRA/aviation/arith_why.smt2,UE+MathSAT,2401.403999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/division_why.smt2,UE+MathSAT,2401.3928659000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/multi_behaviors_why.smt2,UE+MathSAT,2401.3924981
+/data/SMT-LIB-incremental/AUFNIRA/aviation/geanta3_why.smt2,UE+MathSAT,2401.352507
+/data/SMT-LIB-incremental/AUFNIRA/aviation/behavior_why.smt2,UE+MathSAT,2401.348712
+/data/SMT-LIB-incremental/AUFNIRA/aviation/addrof_local_why.smt2,UE+MathSAT,2401.3356441
+/data/SMT-LIB-incremental/AUFNIRA/aviation/roux_why.smt2,UE+MathSAT,2401.334964
+/data/SMT-LIB-incremental/AUFNIRA/aviation/geanta1_why.smt2,UE+MathSAT,2401.3308340000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dowhile_why.smt2,UE+MathSAT,2401.326971
+/data/SMT-LIB-incremental/AUFNIRA/aviation/count_bits_why.smt2,UE+MathSAT,2401.325515
+/data/SMT-LIB-incremental/AUFNIRA/aviation/sum1_why.smt2,UE+MathSAT,2401.324421
+/data/SMT-LIB-incremental/AUFNIRA/aviation/separation4_why.smt2,UE+MathSAT,2401.322131
+/data/SMT-LIB-incremental/AUFNIRA/aviation/coord_why.smt2,UE+MathSAT,2401.320493
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon4_why.smt2,UE+MathSAT,2401.314716
+/data/SMT-LIB-incremental/AUFNIRA/aviation/union_simple_why.smt2,UE+MathSAT,2401.311995
+/data/SMT-LIB-incremental/AUFNIRA/aviation/discr_union_why.smt2,UE+MathSAT,2401.311074
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber3_why.smt2,UE+MathSAT,2401.310499
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon7_why.smt2,UE+MathSAT,2401.306267
+/data/SMT-LIB-incremental/AUFNIRA/aviation/vieira1_why.smt2,UE+MathSAT,2401.286802
+/data/SMT-LIB-incremental/AUFNIRA/aviation/phase1_why.smt2,UE+MathSAT,2401.249777
+/data/SMT-LIB-incremental/AUFNIRA/aviation/interval_arith_struct_why.smt2,UE+MathSAT,2400.873913
+/data/SMT-LIB-incremental/AUFNIRA/aviation/eps_line_why.smt2,UE+MathSAT,2391.7291
+/data/SMT-LIB-incremental/AUFNIRA/aviation/false_why.smt2,UE+MathSAT,2229.5495525714286
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test4_floats_why.smt2,UE+MathSAT,2183.0028668181817
+/data/SMT-LIB-incremental/AUFNIRA/aviation/muller_why.smt2,UE+MathSAT,1651.2447196551725
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fp-test2_why.smt2,UE+MathSAT,1608.8664933333332
+/data/SMT-LIB-incremental/AUFNIRA/aviation/oct_vs_pol_why.smt2,UE+MathSAT,1601.2716679999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/check-fma_why.smt2,UE+MathSAT,1402.4053036363637
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fs384_why.smt2,Z3,1199.7187479999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/zones_why.smt2,CVC4,1198.66093
+/data/SMT-LIB-incremental/AUFNIRA/aviation/addrof_global_why.smt2,CVC4,1198.5979699999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/copy_struct_why.smt2,CVC4 (2019),1198.59492
+/data/SMT-LIB-incremental/AUFNIRA/aviation/StrCpy_why.smt2,CVC4 (2019),1198.5862899999997
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber2_why.smt2,Z3,1198.5837299999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/recursion_why.smt2,CVC4,1198.57762
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_field_why.smt2,CVC4,1198.5728599999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/min_sort_why.smt2,CVC4 (2019),1198.5716500000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/zones2_why.smt2,CVC4 (2019),1198.56929
+/data/SMT-LIB-incremental/AUFNIRA/aviation/footprint_why.smt2,CVC4,1198.5561699999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/cast_call_why.smt2,CVC4,1198.55597
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon6_why.smt2,CVC4,1198.48794
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fp-intel_why.smt2,CVC4,479.435813
+/data/SMT-LIB-incremental/AUFNIRA/aviation/heap_why.smt2,Z3,380.11307000000005
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test5_floats_why.smt2,Z3,344.111886
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test2_floats_why.smt2,Z3,239.00253999999995
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_multi_why.smt2,CVC4,2.4284499999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/vamos_why.smt2,CVC4,2.0638310000000004
+/data/SMT-LIB-incremental/AUFNIRA/aviation/interval_arith_why.smt2,CVC4 (2019),1.1450580000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/malloc_why.smt2,CVC4,1.0986660000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/shap_why.smt2,UE+MathSAT,1.024435999999696
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_struct_why.smt2,CVC4,0.891714
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_basic_why.smt2,CVC4,0.800908
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test7_floats_why.smt2,CVC4,0.7707949999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/asm_memset2_why.smt2,CVC4,0.6320599999999992
+/data/SMT-LIB-incremental/AUFNIRA/aviation/ghost_label_why.smt2,CVC4,0.5847729999999984
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test8_floats_why.smt2,CVC4,0.5568299999999908
+/data/SMT-LIB-incremental/AUFNIRA/aviation/compound_global_why.smt2,CVC4 (2019),0.52576
+/data/SMT-LIB-incremental/AUFNIRA/aviation/string_basic_why.smt2,CVC4,0.48824399999999996
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts0040_why.smt2,CVC4,0.4376350000002276
+/data/SMT-LIB-incremental/AUFNIRA/aviation/minimum_sort_why.smt2,CVC4 (2019),0.38386700000000007
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_why.smt2,CVC4,0.370664
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fs253_why.smt2,CVC4,0.3624810000000025
+/data/SMT-LIB-incremental/AUFNIRA/aviation/simple_union_why.smt2,CVC4,0.3302099999998518
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts0041_why.smt2,CVC4,0.318148
+/data/SMT-LIB-incremental/AUFNIRA/aviation/binary_search_overflows_why.smt2,CVC4,0.31200300000000425
+/data/SMT-LIB-incremental/AUFNIRA/aviation/addrof_field_why.smt2,CVC4,0.306329
+/data/SMT-LIB-incremental/AUFNIRA/aviation/separation_why.smt2,CVC4 (2019),0.26570699999999997
+/data/SMT-LIB-incremental/AUFNIRA/aviation/all_zeros_why.smt2,CVC4 (2019),0.26088500000000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/overflow_why.smt2,CVC4,0.254978
+/data/SMT-LIB-incremental/AUFNIRA/aviation/struct4_why.smt2,CVC4 (2019),0.24359599999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/duprat2_why.smt2,CVC4,0.236647
+/data/SMT-LIB-incremental/AUFNIRA/aviation/address_why.smt2,CVC4,0.23069099999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts0160_why.smt2,CVC4,0.21501199999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/addrof_param_why.smt2,CVC4,0.20959110000000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/alloca_why.smt2,CVC4 (2019),0.2039191
+/data/SMT-LIB-incremental/AUFNIRA/aviation/ref_glob_why.smt2,CVC4,0.19579000000000002
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_addr_why.smt2,CVC4,0.192617
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber9_why.smt2,CVC4 (2019),0.183157
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bresenham_why.smt2,CVC4,0.17191300000000354
+/data/SMT-LIB-incremental/AUFNIRA/aviation/switch_why.smt2,CVC4 (2019),0.159175
+/data/SMT-LIB-incremental/AUFNIRA/aviation/sum2_why.smt2,CVC4 (2019),0.151084
+/data/SMT-LIB-incremental/AUFNIRA/aviation/permut_search2_why.smt2,CVC4,0.132778
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts0041-bis_why.smt2,CVC4 (2019),0.12737800000000002
+/data/SMT-LIB-incremental/AUFNIRA/aviation/pointer_why.smt2,CVC4 (2019),0.12355699999999997
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fs350_why.smt2,CVC4,0.12109400000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber5_why.smt2,CVC4 (2019),0.11649300000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/passing_why.smt2,CVC4,0.113447
+/data/SMT-LIB-incremental/AUFNIRA/aviation/allocation_why.smt2,CVC4,0.110352
+/data/SMT-LIB-incremental/AUFNIRA/aviation/compound_local_why.smt2,CVC4 (2019),0.10724199999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/invariants_why.smt2,CVC4 (2019),0.09881999999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/mean_why.smt2,CVC4,0.0912710000000061
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts6468_why.smt2,CVC4,0.08918409999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bitvector_why.smt2,CVC4,0.08569500000000002
+/data/SMT-LIB-incremental/AUFNIRA/aviation/spec_diff_ptr_why.smt2,CVC4,0.082479
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber8_why.smt2,CVC4 (2019),0.08135200000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/negate_why.smt2,CVC4 (2019),0.07988899999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dassault_1_why.smt2,CVC4,0.07508199999999998
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber6_why.smt2,CVC4 (2019),0.07495399999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/annot_assert_why.smt2,CVC4,0.07239799999979368
+/data/SMT-LIB-incremental/AUFNIRA/aviation/roux3_why.smt2,CVC4,0.058151
+/data/SMT-LIB-incremental/AUFNIRA/aviation/struct3_why.smt2,CVC4 (2019),0.05792499999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/simple_cast_why.smt2,CVC4 (2019),0.055562000000000014
+/data/SMT-LIB-incremental/AUFNIRA/aviation/geanta2_why.smt2,CVC4 (2019),0.053894
+/data/SMT-LIB-incremental/AUFNIRA/aviation/assigns_range_why.smt2,CVC4 (2019),0.050494
+/data/SMT-LIB-incremental/AUFNIRA/aviation/labels_why.smt2,CVC4,0.04817700000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/duprat3_why.smt2,CVC4 (2019),0.04474600000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/break_why.smt2,CVC4 (2019),0.04076300000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/roux_labels_why.smt2,CVC4,0.034913
+/data/SMT-LIB-incremental/AUFNIRA/aviation/unsafe_why.smt2,CVC4 (2019),0.0322348
+/data/SMT-LIB-incremental/AUFNIRA/aviation/roux_assert_why.smt2,CVC4 (2019),0.028448000000000008
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon1_why.smt2,CVC4 (2019),0.01979900000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/continue_why.smt2,Z3,0.01822499999999999
+/data/SMT-LIB-incremental/AUFNIRA/aviation/vieira2_why.smt2,Z3,0.0177581
+/data/SMT-LIB-incremental/AUFNIRA/aviation/unsigned_why.smt2,CVC4 (2019),0.016303000000000012
+/data/SMT-LIB-incremental/AUFNIRA/aviation/pointer_union_why.smt2,CVC4 (2019),0.014215000000000005
+/data/SMT-LIB-incremental/AUFNIRA/aviation/basic_why.smt2,CVC4 (2019),0.010273999999999991
+/data/SMT-LIB-incremental/AUFNIRA/aviation/struct2_why.smt2,CVC4 (2019),0.008539999999999992
+/data/SMT-LIB-incremental/AUFNIRA/aviation/assume_why.smt2,CVC4 (2019),0.007469000000000003
+/data/SMT-LIB-incremental/AUFNIRA/aviation/param_why.smt2,Z3,0.007439000000000001
+/data/SMT-LIB-incremental/AUFNIRA/aviation/loop_inv_why.smt2,CVC4 (2019),0.006419000000000008
+/data/SMT-LIB-incremental/AUFNIRA/aviation/roux2_why.smt2,Z3,0.005984800000000012
+/data/SMT-LIB-incremental/AUFNIRA/aviation/duprat1_why.smt2,CVC4 (2019),0.0035410000000000025
+/data/SMT-LIB-incremental/AUFNIRA/aviation/inconsistent_why.smt2,Z3,0.0029869999999999897
+/data/SMT-LIB-incremental/AUFNIRA/aviation/invariant_why.smt2,Z3,0.0009450000000000014
+/data/SMT-LIB-incremental/AUFNIRA/aviation/enum_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/goto_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/null2_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fs256_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bsearch_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/nb_occ_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/separation3_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/struct_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/trace_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon5_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon3_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/r_strcpy_why.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_field_addr_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test_floats_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber1_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/phase12_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bts0094_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/overloading_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test3_floats_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/boolean_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fp-epsline_why.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/queue_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/band_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_and_field_why.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/assert_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/reverse_endian_why.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/permut_search_why.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/test1_floats_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/hd_snoob_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/struct_hack_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/varname_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/dillon9_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/union_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/weber4_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/loop_eq_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/fs249_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/bug184_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/array_ptr_why.smt2,Z3,0.0
+/data/SMT-LIB-incremental/AUFNIRA/aviation/inv_perm_minimal_why.smt2,Z3,0.0

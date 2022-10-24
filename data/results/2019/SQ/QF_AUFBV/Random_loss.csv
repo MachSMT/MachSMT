@@ -1,0 +1,42 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-pfcache-compact-mem.smt2,Poolector,4798.60578
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-zipmmu-compact-mem.smt2,Poolector,4790.50013
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-15-compact-mem.smt2,Poolector,4775.0951
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-unsat-compact-mem.smt2,CVC4,4673.089
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-sat-compact-mem.smt2,CVC4 (2018),4564.187
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/picorv32-pcregs-compact-mem.smt2,Yices,4551.126
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-20-compact-mem.smt2,Poolector,4001.196
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/picorv32-check-compact-mem.smt2,CVC4 (2018),1468.74057
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-busdelay-compact-mem.smt2,Z3,30.233220000000003
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub2.short.smt2,Z3,4.743668
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub3.short.smt2,Z3,3.9225559
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub1.short.smt2,CVC4,2.631294
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux4.short.smt2,CVC4,1.0183379000000001
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.signHash3.short.smt2,CVC4 (2018),0.5644211
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.signHash4.short.smt2,CVC4,0.5226529999999999
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.group_red1.short.smt2,Yices,0.502216
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_aux12.short.smt2,CVC4 (2018),0.49660400000000005
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_init2.short.smt2,CVC4,0.2879489
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux3.short.smt2,Z3,0.21307699999999996
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux2.short.smt2,Z3,0.211979
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_add4.short.smt2,CVC4 (2018),0.18124500000000002
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_add2.short.smt2,Poolector,0.1641629
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mul_inner4.short.smt2,Poolector,0.1628839
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_add3.short.smt2,Poolector,0.160125
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_aux11.short.smt2,Poolector,0.138417
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.signHash5.short.smt2,Z3,0.095446
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mod_div1.short.smt2,CVC4,0.0809139
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner22.short.smt2,CVC4,0.066186
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner23.short.smt2,Z3,0.0509712
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner13.short.smt2,Z3,0.03497512
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mod_div12.short.smt2,Z3,0.030212000000000003
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mod_div14.short.smt2,Z3,0.029945
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mod_div10.short.smt2,Z3,0.029405949999999997
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.verifySignature.short.smt2,CVC4,0.025646999999999975
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_add1.short.smt2,CVC4 (2018),0.01786281
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_aux1.short.smt2,Yices,0.005130000000000003
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner12.short.smt2,Yices,0.0007629000000000004
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mul_inner3.short.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_init1.short.smt2,Boolector,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_twin_mul_init.short.smt2,Boolector,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-30-compact-mem.smt2,Boolector,0.0

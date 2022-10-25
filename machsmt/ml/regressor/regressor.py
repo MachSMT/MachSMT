@@ -8,7 +8,7 @@ from sklearn.pipeline import make_pipeline
 
 import numpy as np
 
-from ...config import config
+from ...config import args
 
 class Regressor:
     def __init__(
@@ -63,8 +63,8 @@ class Regressor:
                 pass # not all Y,Y_ will work on metrics depending on their values. This is ok. 
         return ret
         
-    def eval(self, X, Y, k=config.k):
-        k_fold_args = {'n_splits': k, 'shuffle': True, 'random_state': config.rng}
+    def eval(self, X, Y, k=args.k):
+        k_fold_args = {'n_splits': k, 'shuffle': True, 'random_state': args.rng}
         Y_out = Y.copy()
         X, Y = np.array(X), np.array(Y)
         for train, test in KFold(**k_fold_args).split(X):
@@ -82,5 +82,4 @@ class Regressor:
 
     def predict(self, X):
         ret = self.lm.predict(X)
-        print(ret)
         return ret

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os, pdb, csv
 import itertools
 import numpy as np
-from ..config import config
+from ..config import args
 from .. import MachSMT
 from ..solver import Solver
 from sklearn.model_selection import KFold
@@ -162,7 +162,7 @@ class Evaluator:
             ] 
         return ret
 
-    def mk_plot(self,plot_data,title,loc, max_score = config.max_score):
+    def mk_plot(self,plot_data,title,loc, max_score = args.max_score):
         return
         max_score = max_score
 
@@ -230,17 +230,17 @@ class Evaluator:
 
     def dump(self):
         data = self.mk_experiment_plot_data(benchmarks=self.db.get_benchmarks())
-        self.mk_plot(data, title=f'cvc5 comparison',loc=f"{config.results}/cvc5",max_score=1200)
-        self.mk_par2_file(data,path=f"{config.results}/cvc5/scores.csv")        
+        self.mk_plot(data, title=f'cvc5 comparison',loc=f"{args.results}/cvc5",max_score=1200)
+        self.mk_par2_file(data,path=f"{args.results}/cvc5/scores.csv")        
         # for logic in self.db.get_logics():
         #     benchmarks = self.db.get_benchmarks(logic=logic)
         #     data = self.mk_plot_data(benchmarks=benchmarks)
-        #     self.mk_plot(data, title=f'{logic=}',loc=f"{config.results}/{logic}")
-        #     self.mk_par2_file(data,path=f"{config.results}/{logic}/scores.csv")
+        #     self.mk_plot(data, title=f'{logic=}',loc=f"{args.results}/{logic}")
+        #     self.mk_par2_file(data,path=f"{args.results}/{logic}/scores.csv")
         # benchmarks = self.db.get_benchmarks()
         # data = self.mk_plot_data(benchmarks=benchmarks)
-        # self.mk_plot(data, title=f'All Benchmarks',loc=f"{config.results}/ALL")
-        # self.mk_par2_file(data,path=f"{config.results}/ALL/scores.csv")
+        # self.mk_plot(data, title=f'All Benchmarks',loc=f"{args.results}/ALL")
+        # self.mk_par2_file(data,path=f"{args.results}/ALL/scores.csv")
 
     def run(self):
         # self.mach.train()

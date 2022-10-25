@@ -1,7 +1,7 @@
 from machsmt.exceptions.exceptions import MachSMT_InsufficientData
 import numpy as np
 from .base import Selector
-from ..config import config
+from ..config import args
 from ..util import warning
 from ..ml import mk_regressor
 import random
@@ -16,8 +16,8 @@ class EHM(Selector):
     def train(self, benchmarks):
         super().train(benchmarks)
         X, Y = self.mk_tabular_data(benchmarks)
-        if len(X) < config.min_datapoints:
-            raise MachSMT_InsufficientData(f"Insufficient data len(X)={len(X)} < config.min_datapoints={config.min_datapoints}")
+        if len(X) < args.min_datapoints:
+            raise MachSMT_InsufficientData(f"Insufficient data len(X)={len(X)} < args.min_datapoints={args.min_datapoints}")
         self.lm.train(X,Y)
 
     def predict(self, benchmarks, include_predictions=False):

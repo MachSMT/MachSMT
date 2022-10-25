@@ -1,39 +1,13 @@
 import sys
 import warnings
-from ..config import config
+from ..config import args
 
 
-def die(*args, help=False, **kwargs):
-    print("[machsmt] error:", end=' ')
-    for arg in args:
-        try:
-            print(arg, end=' ')
-        except BaseException:
-            warning("Failed to print in warning.")
-    for karg in kwargs:
-        try:
-            print("{}={}".format(karg, kwargs[karg]), end=' ')
-        except BaseException:
-            warning("Failed to print in warning.")
-    print()
-
+def die(err_msg):
+    print(f"[machsmt] error: {err_msg}")
     sys.exit(1)
 
-
-def warning(*args, **kwargs):
-    if config.wall:
-        die(*args, **kwargs)
-    print("[machsmt] warning:", end=' ')
-    for arg in args:
-        try:
-            print(arg, end=' ')
-        except BaseException:
-            warning("Failed to print in warning.")
-    for karg in kwargs:
-        try:
-            print("{}={}".format(karg, kwargs[karg]), end=' ')
-        except BaseException:
-            warning("Failed to print in warning.")
-    print()
-    if config.wall:
+def warning(err_msg):
+    print(f"[machsmt] warning: {err_msg}")
+    if args.wall:
         sys.exit(1)

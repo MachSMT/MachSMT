@@ -1,5 +1,5 @@
 from ..benchmark import Benchmark
-from ..config import config
+from ..config import args
 import numpy as np
 import pdb
 from sklearn.model_selection import KFold
@@ -18,7 +18,7 @@ class Selector:
         assert len(benchmarks) > 0
         np_bench = np.array(benchmarks)
         ret = [None for _ in benchmarks]
-        k_fold_args = {'n_splits': config.k, 'shuffle': True, 'random_state': config.rng}
+        k_fold_args = {'n_splits': args.k, 'shuffle': True, 'random_state': args.rng}
         for train, test in KFold(**k_fold_args).split(np_bench):
             self.train(benchmarks=np_bench[train])
             pred = self.predict(np_bench[test])
@@ -33,8 +33,8 @@ class Selector:
             y = []
             for solver in benchmark.get_solvers():
                 score = benchmark.get_score(solver) + 1
-                if score > config.max_score:
-                    score = 2 * config.max_score
+                if score > args.max_score:
+                    score = 2 * args.max_score
                 y.append(score)
             Y_out.append(y)
         return np.array(X_out), np.log(np.array(Y_out))

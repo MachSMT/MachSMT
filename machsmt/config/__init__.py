@@ -1,1 +1,1 @@
-from .config import CONFIG_OBJ as config
+from .config import CONFIG_OBJ as args

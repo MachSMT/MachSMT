@@ -5,7 +5,7 @@ from machsmt.util import die, warning
 from machsmt.tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list
 from ..features import bonus_features
-from ..config import config
+from ..config import args
 from func_timeout import func_timeout, FunctionTimedOut
 
 keyword_to_index = dict((grammatical_construct_list[i], i) for i in range(
@@ -47,7 +47,7 @@ class Benchmark:
 
         self.compute_core_features()
 
-        if config.semantic:
+        if args.semantic:
             self.compute_semantic_features()
 
         self.total_feature_time = time.time() - start
@@ -72,19 +72,19 @@ class Benchmark:
                     die(f"parsing error on: {self.path} {str(type(cur))}")
 
         try:
-            func_timeout(timeout=config.feature_timeout,
+            func_timeout(timeout=args.feature_timeout,
                          func=count_occurrences,
                          args=(self.tokens, self.features))
         except FunctionTimedOut:
             warning(
-                f'Timeout after {config.feature_timeout} seconds of compute_core_features on {self}')
+                f'Timeout after {args.feature_timeout} seconds of compute_core_features on {self}')
             self.features[-2] = 1
         except RecursionError:
             print(f"Recurrsion Error on :{self}")
 
     def compute_semantic_features(self):
         assert hasattr(self, 'tokens')
-        timeout = (config.feature_timeout / 2.0) / len(bonus_features)
+        timeout = (args.feature_timeout / 2.0) / len(bonus_features)
         for feat in bonus_features:
             try:
                 ret = func_timeout(timeout=timeout,

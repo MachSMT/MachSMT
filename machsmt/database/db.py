@@ -2,7 +2,7 @@ import os
 import pickle
 import csv
 from progress.bar import Bar
-from ..config import config
+from ..config import args
 from ..benchmark import Benchmark
 from ..solver import Solver
 from ..util import warning, die
@@ -18,6 +18,10 @@ class DataBase:
         self.benchmarks = {}
         self.solvers = {}
         if build_on_init: self.build(files)
+
+    def check_files(self, files):
+        for file in files:
+            assert os.path.exists(file)
 
     def get_solver(self, solver_name): return self.solvers[solver_name]
 
@@ -67,14 +71,14 @@ class DataBase:
 
     def __len__(self): return len(self.benchmarks)
 
-    def load(self, loc=config.lib, name='db.machsmt'):
+    def load(self, loc=args.lib, name='db.machsmt'):
         if not os.path.exists(loc):
             raise FileNotFoundError
         with open(f"{loc}/{name}", 'rb') as infile:
             self.benchmarks, self.solvers = pickle.load(infile)
             return
 
-    def save(self, loc=config.lib, name='db.machsmt'):
+    def save(self, loc=args.lib, name='db.machsmt'):
         if not os.path.exists(loc):
             os.makedirs(loc)
         with open(f"{loc}/{name}", 'wb') as outfile:
@@ -86,7 +90,7 @@ class DataBase:
         for file in files:
             self.parse_csv_file(file)
         bar = Bar('Processing Benchmark Files', max=len(self.benchmarks))
-        with Pool(processes=config.cores) as pool:
+        with Pool(processes=args.cores) as pool:
             for _, parsed_benchmark in enumerate(
                 pool.imap_unordered(
                     process_benchmark, self.benchmarks.values(), 1)):

@@ -1,5 +1,5 @@
 import argparse
-import os
+import os, sys
 
 def implies (A, B): return (not A) or B
 
@@ -13,7 +13,18 @@ class Config:
     def check(self):
         assert True # TODO: CLI arg checking that is unittesting friendly
 
+    def __str__(self) -> str:
+        return str(self.__dict__)
+
+    __repr__ = __str__ 
 parser = argparse.ArgumentParser()
+bin_file = sys.argv[0].split('/')[-1]
+
+if bin_file in ['machsmt']:
+    parser.add_argument("mode",
+        action="store",
+        default='predict',
+    )
 
 parser.add_argument("benchmarks",
                     action="store",
@@ -22,7 +33,6 @@ parser.add_argument("benchmarks",
                     nargs='*',
                     help="Input benchmark(s) to be predicted"
                     )
-
 
 parser.add_argument("-f", "--data-files",
                     metavar="files[,files...]",
@@ -42,7 +52,7 @@ parser.add_argument("-o", "--output",
                     help="Output datafile"
                     )
 
-parser.add_argument("-r", "--results-directory",
+parser.add_argument("-r", "--results", "--results-directory",
                     metavar="results",
                     action="store",
                     dest="results",
@@ -160,4 +170,6 @@ parser.add_argument("--feature-timeout",
                     type=int,
                     help="Feature timeout"
                     )
+
+
 CONFIG_OBJ = Config(parser.parse_args())

@@ -45,12 +45,22 @@ class Selector:
 
         return [self.db.get_solver(name) for name in names]
 
-    def score_soft_max(self, data, negate = False):
+    def score_softmin(self, data, negate = False):
         if isinstance(data, list):
-            return [self.score_soft_max(v) for v in data]
+            return [self.score_softmin(v) for v in data]
         elif isinstance(data, dict):
             denon = sum(np.exp(-v) for v in data.values())
             for key in data:
                 data[key] = np.exp(-data[key]) / denon
+            return data
+        else: raise ValueError
+        
+    def score_softmax(self, data, negate = False):
+        if isinstance(data, list):
+            return [self.score_softmax(v) for v in data]
+        elif isinstance(data, dict):
+            denon = sum(np.exp(v) for v in data.values())
+            for key in data:
+                data[key] = np.exp(data[key]) / denon
             return data
         else: raise ValueError

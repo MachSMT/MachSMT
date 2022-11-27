@@ -1,33 +1,28 @@
-from .regressor import Regressor
-from .portfolio import PortfolioRegressor
-from .stack import StackRegressor
-from sklearn.linear_model import Ridge, LinearRegression, RidgeCV
-from sklearn.neural_network import MLPRegressor
-from ..util import warning
-import random
-
-# from sklearnex import patch_sklearn
-# patch_sklearn(verbose=True)
+from .mach_scikit  import mk_scikit_classifier, mk_scikit_regressor
+from .mach_torch   import mk_torch_classifier, mk_torch_regressor
+from .mach_xgboost import mk_xgboost_classifier, mk_xgboost_regressor
+from ..config import args
 
 
-def mk_regressor():
-    # regressors = {
-    #     # 'ridge-pca5': Regressor(algo=RidgeCV, pca=True, n_pca=5),
-    #     # 'ridge-pca10': Regressor(algo=RidgeCV, pca=True, n_pca=10),
-    #     # 'ridge-pca15': Regressor(algo=RidgeCV, pca=True, n_pca=15),
-    #     # 'ridge-pca25': Regressor(algo=RidgeCV, pca=True, n_pca=20),
-    #     # 'ridge-pca50': Regressor(algo=RidgeCV, pca=True, n_pca=50),
-    #     # 'ridge': Regressor(algo=RidgeCV),
+def mk_classifier(core=None):
+    if core is None:
+        core = args.ml_core
+    if core == 'scikit':
+        return mk_scikit_classifier()
+    elif core == "torch":
+        return mk_torch_classifier()
+    elif core == 'xgboost':
+        return mk_xgboost_classifier()
+    else: raise NotImplementedError
 
-    #     # 'random': Regressor(algo=Random)
-    #     # 'ada-pca5': Regressor(pca=True, n_pca=5),
-    #     # 'ada-pca10': Regressor(pca=True, n_pca=10),
-    #     # 'ada-pca15': Regressor(pca=True, n_pca=15),
-    #     'ada-pca35': Regressor(pca=True, n_pca=35),
-    #     # 'ada-pca50': Regressor(pca=True, n_pca=50),
-    #     # 'ada': Regressor(pca=False),    
-    # }
-    # ret = PortfolioRegressor()
-    # for reg in regressors:
-    #     ret.add_regressor(reg, regressors[reg])
-    return StackRegressor()
+def mk_regressor(core=None):
+    if core is None:
+        core = args.ml_core
+    if core == 'scikit':
+        return mk_scikit_regressor()
+    elif core == "torch":
+        return mk_torch_regressor()
+    elif core == 'xgboost':
+        return mk_xgboost_regressor()
+    else: raise NotImplementedError
+    

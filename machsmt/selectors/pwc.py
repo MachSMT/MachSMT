@@ -3,31 +3,44 @@ import numpy as np
 from .base import Selector
 from ..config import args
 from ..util import warning
-from ..ml import mk_regressor
+from ..ml import mk_classifier
 import random
 import pdb
 
 
-class EHM(Selector):
+class PWC(Selector):
     def __init__(self, db):
         super().__init__(db)
-        self.lm = mk_regressor()
+        self.lms = mk_classifier()
+        self.solvers = sorted(self.db.get_solvers())
+        self.solver2idx = dict((solver, idx) for idx, solver in enumerate(self.solvers))
 
     def train(self, benchmarks):
         super().train(benchmarks)
         X, Y = self.mk_tabular_data(benchmarks)
+        self.lms = [[None for _ in self.solvers] for _ in self.solvers]
+        for it in range(len(self.solvers)):
+            for jt in range(it+1, len(self.solvers)):
+                self.lms[it][jt] = mk_classifier()
+                Y_ = [1 if y[it] < y[jt] else 0 for y in Y]
+                self.lms[it][jt].fit(X, Y_)
         if len(X) < args.min_datapoints:
             raise MachSMT_InsufficientData(f"Insufficient data len(X)={len(X)} < args.min_datapoints={args.min_datapoints}")
-        self.lm.fit(X,Y)
 
     def predict(self, benchmarks, include_predictions=False):
         super().predict(benchmarks, include_predictions)
         ret, ret_pred = [], []
         X, _ = self.mk_tabular_data(benchmarks)
-        predicted_times = self.lm.predict(X)
-        for it, (benchmark, times) in enumerate(zip(benchmarks, predicted_times)):
-            pred_dict = dict((solver, time) for solver, time in zip(self.db.get_solvers(), times))
-
+        for it, benchmark in enumerate(benchmarks):
+            tallies = {solver: 0 for solver in self.solvers}
+            for jt, solver1 in enumerate(self.solvers):
+                for kt, solver2 in enumerate(self.solvers):
+                    lm = self.lms[jt][kt]
+                    if lm is None: continue
+                    p = lm.predict(X[it].reshape(1, -1))[0]
+                    if p: tallies[solver1] += 1
+                    else: tallies[solver2] += 1
+            pred_dict = {solver:tally for solver, tally in tallies.items()}
             ret.append(
                 min(pred_dict, key=pred_dict.get)
             )
@@ -38,10 +51,10 @@ class EHM(Selector):
             return ret, ret_pred
         return ret
 
-class EHMLogic(Selector):
+class PWCLogic(Selector):
     def __init__(self, db):
         super().__init__(db)
-        self.lm = dict((logic, EHM(self.db)) for logic in db.get_logics())
+        self.lm = dict((logic, PWC(self.db)) for logic in db.get_logics())
 
     def train(self, benchmarks):
         super().train(benchmarks)

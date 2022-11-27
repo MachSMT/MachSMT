@@ -2,7 +2,7 @@ import os
 import time
 from collections import Iterable
 from machsmt.util import die, warning
-from machsmt.tokenize_sexpr import SExprTokenizer
+from .tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list
 from ..features import bonus_features
 from ..config import args
@@ -47,7 +47,7 @@ class Benchmark:
 
         self.compute_core_features()
 
-        if args.semantic:
+        if False and args.semantic:
             self.compute_semantic_features()
 
         self.total_feature_time = time.time() - start

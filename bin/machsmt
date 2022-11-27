@@ -3,37 +3,60 @@ import sys
 import traceback
 import pdb
 import cProfile
-from machsmt import MachSMT, die, Benchmark
-from machsmt.config import config
+from machsmt import MachSMT, die, args, Benchmark
 
+def build():
+   assert len(args.files) > 0, "No specified files"
+   machsmt = MachSMT(args.files)
+   machsmt.save(args.lib)
+   
+def train():
+    machsmt = MachSMT.load(args.lib)
+    machsmt.train()
+
+def eval():
+    machsmt = MachSMT.load(args.lib)
+    machsmt.eval()
+
+def predict():
+    if args.benchmark is None:
+        die("No benchmark to make predictions")
+
+    machsmt = MachSMT.load(args.lib, with_db=False)
+
+    benchmark = Benchmark(args.benchmark)
+    benchmark.parse()
+
+    predictions, scores = machsmt.predict([benchmark], include_predictions=True)
+
+    print(f"MachSMT selects: {predictions[0].get_name()}")
+    for solver in sorted(scores[0], key=scores[0].get, reverse=True):
+        print(f"   {solver.get_name():<50}   {round(100 * scores[0][solver], 3):>4}%")
 
 def main():
-    if len(config.benchmarks) == 0:
-        die("Please specify an input benchmark")
-
-    machsmt = MachSMT.load(config.lib,with_db=False)
-
-    benchmarks = [Benchmark(benchmark) for benchmark in config.benchmarks]
-    for benchmark in benchmarks:
-        benchmark.parse()
-
-    predictions, scores = machsmt.predict(benchmarks, include_predictions=True)
-
-    for it, benchmark in enumerate(config.benchmarks):
-        print(benchmark)
-        print(f"\tMachSMT selects: {predictions[it].get_name()}")
-        for solver in sorted(scores[it], key=scores[it].get, reverse=True):
-            print(f"\t\t{solver.get_name()}   {round(100 * scores[it][solver], 3)}%")
+    assert args.mode in ['build', 'eval', 'predict', 'train']
+    if args.mode == 'build':
+        build()
+    elif args.mode == 'eval':
+        eval()
+    elif args.mode == 'predict':
+        predict()
+    elif args.mode == 'train':
+        train()
+    else:
+        raise NotImplementedError
 
 
 if __name__ == '__main__':
     try:
-        if config.profile:
+        if args.profile:
             cProfile.run('main()', sort=2)
         else:
             main()
-    except BaseException:
+    except KeyboardInterrupt as ex: pass
+    except SystemExit as ex: pass
+    except Exception as ex:
         extype, value, tb = sys.exc_info()
         traceback.print_exc()
-        if config.debug:
+        if args.debug:
             pdb.post_mortem(tb)

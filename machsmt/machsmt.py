@@ -1,7 +1,7 @@
 from ast import arg
 from cmath import log
 from .benchmark.benchmark import Benchmark
-from .selectors import Greedy, GreedyLogic, EHM, EHMLogic
+from .selectors import Greedy, GreedyLogic, EHM, EHMLogic, PWC, PWCLogic
 from .solver import Solver
 import csv
 import pickle
@@ -11,7 +11,6 @@ from typing import Iterable
 import matplotlib.pyplot as plt
 import numpy as np
 
-# from .predictors import Random, Oracle, Greedy, Solver, SolverLogic
 from .util import warning, die
 from .config import args
 from .database import DataBase
@@ -47,22 +46,24 @@ class MachSMT:
         self.selectors = {}
         self.selectors['EHM'] = EHM(self.db)
         self.default_selector = 'EHM'
-        if self.multi_logic:
+        if self.multi_logic and args.logic_filter:
             self.selectors['EHMLogic'] = EHMLogic(self.db)
             self.default_selector = 'EHMLogic'
         if args.greedy:
             self.selectors['Greedy'] = Greedy(self.db)
-            if self.multi_logic:
+            if self.multi_logic and args.logic_filter:
                 self.selectors['GreedyLogic'] = GreedyLogic(self.db)
         if args.pwc:
-            raise NotImplementedError ## currently cut due to lack of performance
+            self.selectors['PWC'] = PWC(self.db)
+            if self.multi_logic and args.logic_filter:
+                self.selectors['PWCLogic'] = PWCLogic(self.db)
         
         if train_on_init: self.train()
 
     def train(self, benchmarks=None):
         if benchmarks is None:
             benchmarks = self.db.get_benchmarks()
-        for selector, algo in self.selectors.items():
+        for algo_name, algo in self.selectors.items():
             algo.train(benchmarks)
 
     def eval(self, benchmarks=None):

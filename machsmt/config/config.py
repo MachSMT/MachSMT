@@ -11,7 +11,12 @@ class Config:
         self.check()
 
     def check(self):
-        assert True # TODO: CLI arg checking that is unittesting friendly
+        if hasattr(self, 'mode'):
+            if self.mode not in ['build', 'eval', 'predict', 'train']:
+                if self.mode.split(".")[-1] == "smt2":
+                    self.benchmark = self.mode
+                    self.mode = 'predict'
+        assert self.ml_core in ['torch', 'scikit', 'xgboost']
 
     def __str__(self) -> str:
         return str(self.__dict__)
@@ -24,14 +29,15 @@ if bin_file in ['machsmt']:
     parser.add_argument("mode",
         action="store",
         default='predict',
+        nargs='?',
     )
 
-parser.add_argument("benchmarks",
+parser.add_argument("benchmark",
                     action="store",
                     # dest="input_benchmark",
-                    default=[],
-                    nargs='*',
-                    help="Input benchmark(s) to be predicted"
+                    nargs='?',
+                    default=None,
+                    help="Input benchmark to be predicted"
                     )
 
 parser.add_argument("-f", "--data-files",
@@ -43,7 +49,7 @@ parser.add_argument("-f", "--data-files",
                     help="Input Data files containing solver, benchmark, runtime pairs"
                     )
 
-parser.add_argument("-o", "--output",
+parser.add_argument("-l", "-o", "--output",
                     metavar="lib",
                     action="store",
                     dest="lib",
@@ -57,6 +63,15 @@ parser.add_argument("-r", "--results", "--results-directory",
                     action="store",
                     dest="results",
                     default="results",
+                    type=str,
+                    help="Results directory, save results of machsmt"
+                    )
+
+parser.add_argument( "--ml-core",
+                    metavar="ml_core",
+                    action="store",
+                    dest="ml_core",
+                    default="scikit",
                     type=str,
                     help="Results directory, save results of machsmt"
                     )
@@ -131,7 +146,7 @@ parser.add_argument('--no-semantic-features',
 parser.add_argument('-d', '-debug', '--debug',
                     action='store_true',
                     dest="debug",
-                    default=True,
+                    default=False,
                     help="Debug mode -- enter PDB on exception"
                     )
 
@@ -154,11 +169,9 @@ parser.add_argument("-greedy", "--greedy",
                     )
 
 parser.add_argument("-pwc", "--pairwise-comparator",
-                    metavar="pwc",
-                    action="store",
+                    action='store_true',
                     dest="pwc",
                     default=False,
-                    type=bool,
                     help="Run with PWC Selection"
                     )
 
@@ -170,6 +183,14 @@ parser.add_argument("--feature-timeout",
                     type=int,
                     help="Feature timeout"
                     )
+
+parser.add_argument("--logic-filter",
+                    action='store_true',
+                    dest="logic_filter",
+                    help="Run with Logic Filtered Models",
+                    default=False,
+                    )
+
 
 
 CONFIG_OBJ = Config(parser.parse_args())

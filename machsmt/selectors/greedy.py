@@ -22,7 +22,7 @@ class Greedy(Selector):
         super().predict(benchmarks, include_predictions)
         ret = self.name_to_solver([self.best] * len(benchmarks))
         if include_predictions:
-            return ret, [self.score_soft_max(self.scores, negate=True)] * len(benchmarks)
+            return ret, [self.score_softmin(self.scores, negate=True)] * len(benchmarks)
         return self.name_to_solver([self.best] * len(benchmarks))
 
 class GreedyLogic(Selector):

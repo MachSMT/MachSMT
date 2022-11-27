@@ -1,7 +1,7 @@
 import os
 import pickle
 import csv
-from progress.bar import Bar
+from alive_progress import alive_bar
 from ..config import args
 from ..benchmark import Benchmark
 from ..solver import Solver
@@ -89,23 +89,16 @@ class DataBase:
             files = [files]
         for file in files:
             self.parse_csv_file(file)
-        bar = Bar('Processing Benchmark Files', max=len(self.benchmarks))
-        with Pool(processes=args.cores) as pool:
-            for _, parsed_benchmark in enumerate(
-                pool.imap_unordered(
-                    process_benchmark, self.benchmarks.values(), 1)):
-                if parsed_benchmark:
-                    self.benchmarks[parsed_benchmark.get_path()] = parsed_benchmark
-                else:
-                    die(f"Error processing {parsed_benchmark}. Skipping for now...")
-                bar.next()
-        bar.finish()
-
-        # for it, (name, benchmark) in enumerate(self.benchmarks.items()):
-        #     benchmark.parse()
-        #     bar.next()
-
-        bar.finish()        
+        with alive_bar(len(self.benchmarks), title='Processing Benchmark Files') as bar:
+            with Pool(processes=args.cores) as pool:
+                for _, parsed_benchmark in enumerate(
+                    pool.imap_unordered(
+                        process_benchmark, self.benchmarks.values(), 1)):
+                    if parsed_benchmark:
+                        self.benchmarks[parsed_benchmark.get_path()] = parsed_benchmark
+                    else:
+                        die(f"Error processing {parsed_benchmark}. Skipping for now...")
+                    bar()
 
     def parse_csv_file(self, file):
         if not os.path.isfile(file):
@@ -113,25 +106,24 @@ class DataBase:
         required = ['benchmark', 'solver', 'score']
         with open(file) as csvfile:
             lines = sum(1 for line in csvfile) - 1
-        bar = Bar(f'Parsing Input File: {file}', max=lines)
-        with open(file) as csvfile:
-            reader = csv.DictReader(csvfile)
-            for req in required:
-                if req not in reader.fieldnames:
-                    raise MachSMT_BadCSVError
-            for it, row in enumerate(reader):
-                bar.next()
-                benchmark, solver, score = row['benchmark'], row['solver'], float(row['score'])
-                if not os.path.isfile(benchmark):
-                    warning(f'Skipping {file}:{it+1}, no file {benchmark}')
-                    continue
-                if benchmark not in self.benchmarks:
-                    self.benchmarks[benchmark] = Benchmark(benchmark)
-                if solver not in self.solvers:
-                    self.solvers[solver] = Solver(solver)
-                self.solvers[solver].add_benchmark(self.benchmarks[benchmark], score)
-                self.benchmarks[benchmark].add_solver(self.solvers[solver], score)
-            bar.finish()
+        with alive_bar(lines, title='Parsing Input File') as bar:
+            with open(file) as csvfile:
+                reader = csv.DictReader(csvfile)
+                for req in required:
+                    if req not in reader.fieldnames:
+                        raise MachSMT_BadCSVError
+                for it, row in enumerate(reader):
+                    benchmark, solver, score = row['benchmark'], row['solver'], float(row['score'])
+                    if not os.path.isfile(benchmark):
+                        warning(f'Skipping {file}:{it+1}, no file {benchmark}')
+                        continue
+                    if benchmark not in self.benchmarks:
+                        self.benchmarks[benchmark] = Benchmark(benchmark)
+                    if solver not in self.solvers:
+                        self.solvers[solver] = Solver(solver)
+                    self.solvers[solver].add_benchmark(self.benchmarks[benchmark], score)
+                    self.benchmarks[benchmark].add_solver(self.solvers[solver], score)
+                    bar()
 
     def is_complete(self):
         for it, benchmark in enumerate(self.get_benchmarks()):

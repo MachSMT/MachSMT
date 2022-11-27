@@ -118,7 +118,9 @@ class SExprTokenizer:
         assert cur_token is None
         return None
 
-
+    def __del__(self):
+        self.file.close()
+        
 def main():
 
     ap = argparse.ArgumentParser()

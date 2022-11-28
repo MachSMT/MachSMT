@@ -1,22 +1,52 @@
 # MachSMT Artifact STTT
 
-Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
+This repository contains the artifact evaluation of MachSMT for the STTT paper. 
 
-## Setup Steps
+## Authors
+
+* [Joseph Scott](https://www.joe-scott.net/)
+* [Aina Niemetz](https://cs.stanford.edu/~niemetz/)
+* [Mathias Preiner](https://cs.stanford.edu/~preiner/)
+* [Saeed Nejati](https://saeednj.github.io/)
+* [Vijay Ganesh (Principle Investigator)](https://ece.uwaterloo.ca/~vganesh/) 
+
+For the latest release of MachSMT please see https://github.com/MachSMT/MachSMT
+
+## Install
+
+### Prerequisites
+MachSMT requires the following software
+* python 3.6+
+* pip3
+* setuputils
+
+On a fresh Ubuntu machine, this can be done by the following:
+```bash
+sudo apt install python3
+sudo apt install python3-pip
+pip3 install setuputils
+```
+
+### Install MachSMT
+Clone this branch.
+
+```bash
+git clone https://github.com/MachSMT/MachSMT/tree/artifact machsmt_artifact
+```
 
 1. Change directory
-  ```
+  ```bash
   cd machsmt_artifact
   ```
 
 2. Set permission on installation and demonstration scripts
-  ```
+  ```bash
   chmod 755 install.sh
   chmod 755 demo.sh
   ```
 
 3. Install MachSMT
-  ```
+  ```nash
   sudo ./install.sh
   ```
   **Note** This script installs all the dependencies of MachSMT. The artifact
@@ -24,7 +54,7 @@ Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
   This artifact assumes access to Python3.8 and pip3 20.0.0
 
 4. Run MachSMT
-  ```
+  ```bash
   ./demo.sh
   ```
   **Note** This script provides a demonstration of MachSMT. Specifically, this

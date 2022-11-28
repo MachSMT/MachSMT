@@ -1,0 +1,936 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_7_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_11_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_6_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_10_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_17_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_25_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random9.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_25_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_11_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_19_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_23_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_4_4_28_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_17_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_24_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_15_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_23_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_27_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_25_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_30_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_29_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_7_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_21_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_22_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_7_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_11_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_19_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_24_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_23_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_30_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_7_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_28_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_3_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_28_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_5_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_11_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_3_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_20_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_22_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_11_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_25_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_13_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_27_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_28_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_5_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_3_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_7_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_6_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_28_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_30_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_25_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_3_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_30_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_10_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_11_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_15_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_22_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_11_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_19_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_23_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_24_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_13_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_3_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_18_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_30_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_4_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_16_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_12_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_7_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_26_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_8_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_18_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_7_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_3_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_5_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_13_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_5_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_24_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_7_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_26_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_30_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_30_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_10_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_22_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_19_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_24_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_11_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_25_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_20_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_24_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_4_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_30_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_22_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_10_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_9_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_4_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_3_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_25_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_4_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_24_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_30_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_29_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_15_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_28_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_20_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_9_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_25_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_15_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_26_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_20_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_30_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_13_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_29_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_9_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_7_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_6_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_11_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_8_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_10_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_22_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_3_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_18_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_26_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_3_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_29_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_17_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_7_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_11_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_9_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_5_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_29_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_4_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_13_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_28_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_14_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_22_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_22_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_19_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_21_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_30_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_24_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_4_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_13_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_17_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_14_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_2_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_30_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_4_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_3_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_17_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_7_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_7_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_1_random9.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_22_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_28_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_24_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_10_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_1_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_19_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_13_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_11_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_19_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_30_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_14_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_11_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_13_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_24_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_14_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_19_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_28_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_12_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_22_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_7_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_3_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_22_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_9_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_28_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_23_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_15_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_14_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_22_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_5_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_5_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_26_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_29_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_13_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_27_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_29_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_11_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_4_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_17_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_25_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_5_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_29_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_30_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_10_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_5_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_28_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_3_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_29_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_22_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_14_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_20_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_14_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_14_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_21_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_5_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_9_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_15_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_19_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_22_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_22_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_9_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_7_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random8.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_29_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_6_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_9_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_7_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_14_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_19_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_22_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_21_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_11_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_30_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_19_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_11_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_30_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_21_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_3_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_28_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_18_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_30_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_15_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_5_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_17_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_14_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_26_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_21_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_28_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_3_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_22_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_29_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_19_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_1_random10.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_22_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_7_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_14_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_21_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_4_4_14_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_24_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_8_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_29_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_12_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_15_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_28_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_7_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_20_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_5_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_19_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_21_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_25_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_19_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_9_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_24_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_13_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_14_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_22_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_23_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_25_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_15_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_22_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_27_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_12_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_19_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_23_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_20_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_4_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_29_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_25_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_29_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_7_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_20_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_21_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_13_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_17_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_7_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_13_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_16_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_12_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_11_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_23_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_10_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_28_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_23_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_27_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_14_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_27_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_12_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_19_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_17_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_3_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_7_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_29_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_21_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_27_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_8_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_5_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_1_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_20_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_29_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_5_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_24_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_13_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_24_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_21_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_20_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_5_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_12_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_11_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_5_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_19_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_10_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_21_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_29_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_24_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_17_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_5_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_29_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_4_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_23_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_7_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_11_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_25_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_3_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_30_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_11_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_13_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_30_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_14_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_15_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_3_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_5_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_28_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_12_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_28_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_7_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_22_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_17_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_3_3_23_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_28_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_30_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_15_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_4_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_5_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_17_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_23_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_14_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_7_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_22_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_18_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_7_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_7_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_4_4_29_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_19_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_26_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_8_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_4_4_12_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_27_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_7_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_13_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_25_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_14_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_15_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_3_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_17_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_23_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_11_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_1_random7.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_4_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_28_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_9_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_24_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_28_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_30_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_22_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_25_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_10_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_15_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_9_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_8_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_8_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_30_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_1_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_21_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_30_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_9_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_12_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_19_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_21_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_12_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_3_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_4_4_17_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_27_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_19_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_16_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_10_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_19_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_11_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_11_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_29_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_11_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_11_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_14_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_29_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_24_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_14_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_17_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_22_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_7_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_3_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_22_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_7_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_29_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_3_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_4_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_24_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_13_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_13_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_16_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_10_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_19_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_29_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_3_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_21_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_13_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_24_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_27_empty.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_4_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_5_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_30_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_24_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_5_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_9_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_17_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_13_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_3_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_5_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_14_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_15_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_11_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_6_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_21_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_28_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_20_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_28_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_23_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_29_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_20_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_3_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_28_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_12_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_17_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_14_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_12_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_21_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_21_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_29_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_29_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_23_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_21_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_9_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_18_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_24_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_3_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_8_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_26_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_30_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_21_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_27_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_13_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_10_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_15_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_15_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_5_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_30_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_28_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_15_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_5_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_11_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_21_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_5_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_18_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_19_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_13_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_13_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_29_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_1_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_9_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_12_random4.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_21_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_3_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_3_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_28_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_18_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_28_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_12_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_8_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_27_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_19_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_19_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_24_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_27_random10.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_17_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_7_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_6_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_24_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_7_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_25_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_14_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_10_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_23_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_25_random6.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_28_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_7_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_20_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_23_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_19_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_28_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_7_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random10.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_12_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_19_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_13_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_15_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_23_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_25_random9.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_8_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_5_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_28_random3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_10_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_22_random7.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_28_random7.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_1_1_26_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_24_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_6_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_24_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random6.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_4_4_3_random1.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_17_random4.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_26_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_27_random2.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_3_3_10_random1.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_28_random9.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/empty/bench_2_2_3_empty.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_2_2_4_random3.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_14_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_1_1_29_random1.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_10_random8.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_15_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_28_random5.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_explicit/bench_4_4_19_random2.smt2,Z3,0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_1_1_26_random8.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_3_3_22_random5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/UFLRA/asasp/hierarchy_implicit/bench_2_2_4_random1.smt2,Z3,0.0

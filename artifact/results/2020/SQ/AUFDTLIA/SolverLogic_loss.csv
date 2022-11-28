@@ -1,0 +1,148 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount24.smt2,Vampire,1919.086
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree176.smt2,Vampire,1912.991
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount36.smt2,Alt-Ergo,1912.841
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree259.smt2,Vampire,1911.876
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree490.smt2,CVC4,33.38299999999998
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree450.smt2,CVC4 (2018),31.11099999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree498.smt2,CVC4,26.15799999999996
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree506.smt2,CVC4,25.44999999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree415.smt2,CVC4,12.869202999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree485.smt2,CVC4,10.252999999999986
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree351.smt2,CVC4,9.971000000000004
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree261.smt2,CVC4 (2018),6.535000000000025
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree158.smt2,CVC4 (2018),6.182000000000016
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree375.smt2,CVC4,4.975000000000023
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree244.smt2,CVC4 (2018),4.4500000000000455
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree477.smt2,CVC4,3.979000000000042
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree371.smt2,CVC4,3.026999999999987
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree91.smt2,CVC4,2.423999999999978
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount40.smt2,CVC4,2.18100000000004
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount35.smt2,CVC4 (2018),2.001000000000033
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree466.smt2,CVC4,1.6440000000000055
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount46.smt2,CVC4,1.2749999999999773
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree474.smt2,CVC4 (2018),1.093999999999994
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree267.smt2,CVC4,0.9530000000000314
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree393.smt2,CVC4 (2018),0.6089999999999804
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount28.smt2,CVC4,0.6059999999999945
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree220.smt2,CVC4,0.4700000000000273
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree277.smt2,CVC4,0.3120000000000118
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree313.smt2,CVC4 (2018),0.29000000000002046
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount10.smt2,Alt-Ergo,0.092183
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german168.smt2,CVC4,0.077212
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree412.smt2,Alt-Ergo,0.057194
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german154.smt2,CVC4,0.03653400000000001
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german158.smt2,CVC4,0.03650199999999998
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german156.smt2,CVC4,0.034987999999999964
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german159.smt2,CVC4,0.03485300000000002
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount15.smt2,Alt-Ergo,0.0347041
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german185.smt2,CVC4,0.03245799999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german157.smt2,CVC4,0.031747000000000025
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german173.smt2,CVC4,0.031097000000000014
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german176.smt2,CVC4,0.027742000000000017
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree429.smt2,CVC4,0.026778199999999995
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german170.smt2,CVC4,0.025626000000000038
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german188.smt2,CVC4,0.02401399999999998
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german171.smt2,CVC4,0.02372599999999997
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german175.smt2,CVC4,0.020984000000000003
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree432.smt2,CVC4 (2018),0.01730899999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german190.smt2,CVC4,0.017131000000000007
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree152.smt2,CVC4,0.014163999999999996
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree357.smt2,Alt-Ergo,0.011839899999999993
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german172.smt2,CVC4 (2018),0.007722000000000007
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree349.smt2,Alt-Ergo,0.0074841000000000005
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree385.smt2,CVC4,0.0072201
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree377.smt2,CVC4,0.006067000000000003
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree336.smt2,CVC4,0.005934099999999998
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german161.smt2,CVC4,0.005723000000000006
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree138.smt2,CVC4,0.005487900000000004
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree353.smt2,CVC4,0.005438199999999997
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree365.smt2,CVC4,0.005287199999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree298.smt2,CVC4,0.004731800000000001
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree304.smt2,CVC4,0.004637999999999996
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree405.smt2,CVC4,0.004549899999999996
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree328.smt2,CVC4,0.004399000000000004
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree434.smt2,CVC4,0.004389999999999998
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree381.smt2,CVC4,0.004369100000000001
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree340.smt2,CVC4,0.004297000000000002
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree132.smt2,CVC4,0.004134899999999997
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree314.smt2,CVC4,0.004062099999999999
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree373.smt2,Alt-Ergo,0.003941
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree200.smt2,CVC4,0.0038978999999999993
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount5.smt2,CVC4,0.0038738
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree154.smt2,CVC4,0.0038708999999999966
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree389.smt2,CVC4,0.0036669000000000007
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree288.smt2,CVC4,0.003495100000000001
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree530.smt2,CVC4,0.0033969999999999972
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree253.smt2,CVC4,0.0032360999999999987
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount9.smt2,CVC4,0.0021177999999999995
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree160.smt2,CVC4 (2018),0.0018479000000000065
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german182.smt2,CVC4,0.0015320000000000333
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german180.smt2,CVC4,0.001369000000000009
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount30.smt2,CVC4,0.001121900000000002
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german164.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german167.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree347.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree397.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german160.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree359.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german152.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree269.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree369.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree416.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree166.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount31.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree355.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree522.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german187.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german151.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount33.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree184.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german179.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree119.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree461.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree192.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german174.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german148.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german165.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german181.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree410.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree343.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german184.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree387.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree403.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree303.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree101.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree399.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german186.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree136.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree142.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german178.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree228.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree361.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree144.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german189.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree509.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german163.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree111.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german149.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree134.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree162.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german183.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german150.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount26.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree345.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german153.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german146.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german169.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree525.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german177.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german162.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german155.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german147.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/refcount/refcount14.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/german/german166.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree430.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree482.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree212.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFDTLIA/20172804-Barrett/fmf-cav2013/agreement/agree122.smt2,CVC4 (2018),0.0

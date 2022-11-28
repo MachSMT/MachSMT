@@ -1,0 +1,231 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_all_e1_2706_e7_1776.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/fast_1_e8_751.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1b_e1_1139.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_3_e7_425.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_4_e2_2799_e3_1915.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/speed_e8_649.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_14_e7_3162_e1_3998.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_all_e7_591.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_5_e3_11.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e4_987_e1_1115.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_rt_e3_1770_e2_637.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_2_e2_3183_e2_3580.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_1_e1_1092.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_2.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave17.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_5.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_2_e1_3099_e1_3277.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_1_e3_389.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/peterson_all.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_2_e3_329_e4_1.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e1_917.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_4_e3_3511_e3_422.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_5_e2_2884_e2_1492.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_5_e1_2552_e7_1169.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_u1_e7_3318.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ex3_e7_590_e7_590.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_12_e2_1618_e3_2012.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/fast_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e3_1275_e5_846.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/speed_e7_207_e8_507.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_11_e1_2450.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_all_e1_388.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_3.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e3_1275_e2_454.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1a_e2_284_e3_3091.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_1_e7_606.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/swimmingpool_6_e7_10_e8_1713.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave24.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_5.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e3_4821_e2_1089.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_8_e7_3752.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1b_e3_671_e2_2131.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_4_e3_3511_e1_2375.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/PRODUCER_CONSUMER_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_1.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e2_695.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e3_314_e4_897.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_2_e2_704_e1_389.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_4_e1_4312.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_5_e2_2884.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e3_1091_e2_1317.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e2_2924_e1_768.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1_e2_1997_e7_3613_e2_3409.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MESI_3_e2_819_e6_1459.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e3_1275_e7_529.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_6_e1_152.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave35.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_all_e2_142_e7_209.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e2_2086_e3_2542.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e1_4022_e1_1759.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_6_e2_589_e2_506.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/production_cell_e7_207_e8_241.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_8_e2_3896_e3_3125.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_rt_e2_3460_e1_1455.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_4_e3_3511_e5_3248.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_6_e8_1147_e2_1326.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_all.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave19.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_2_e1_190.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MESI_3_e2_819_e4_1595.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_3.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave03.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1_e1_14612_e1_268_e7_501.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e2_2924_e3_3946.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/fast_2_e8_460_e8_1920.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_1_e7_184_e3_299.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave32.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e2_968_e3_931.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ex3_e7_655.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_2_e1_3099.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/rtp_5.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MESI_i2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave23.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_2_e3_216.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_1_e1_1092_e3_389.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e3_1091_e3_522.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e7_626.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_all_e8_856_e1_217.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ums_e8_1032.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/PRODUCER_CONSUMER_vt_e3_507.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_1.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/swimmingpool_1_e7_1621.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_2_e1_1116_e1_556.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/hysteresis_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave27.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_1_e2_3.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_3_e2_2236_e7_3681.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_2_e2_4481.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e8_33.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e3_1091_e1_1044.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_6_e3_294_e1_956.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/rtp_3.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e3_5957.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e2_968_e4_801.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_3_e1_36.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1_e1_14612_e2_2653_e7_4370.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/_6counters_e8_371_e1_448.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/steam_boiler_no_arr2_e1_17214_e5_18600.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_3_e3_207.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_1_e3_1884_e7_1875.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e3_1600_e3_2055.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_13.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_11.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_all.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_6_e2_1439_e1_954.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1a_e2_284_e2_2755.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_11_e1_2450_e1_5887.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/speed_e7_492.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_6_e3_294_e5_979.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_5_e2_405_e8_1055.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_4_e3_3511_e2_1923.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MESI_3_e3_2669.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e8_33_e7_220.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_5_e2_3018_e2_936.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ums.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_6_e7_1096_e7_2688.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_9_e7_1843_e2_1145.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_2_e1_3099_e3_2660.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/rtp_5_e7_3972.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_10_e3_144_e5_2046.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_2_e8_1118_e7_1043.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_4_e8_118_e7_178.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_4_e2_2799.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e1_1207_e3_1928.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_4_e8_118.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/peterson_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_7_e1_2192_e1_1852.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_1_e1_1092_e2_1853.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1_e1_5070.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_14_e1_5710.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_123_e7_856.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1b_e2_1192.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ILLINOIS_2_e1_834_e2_3395.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/tramway_e7_3304.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_all_e8_505_e7_2450.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_7_e2_2872_e3_2640.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_11_e1_2450_e3_2330.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1_e1_3184_e7_1888.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_1b_e1_1139_e1_1565.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_4_e3_1540_e1_5048.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_2_e1_1116_e3_287.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_5_e2_2884_e7_3594.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/swimmingpool_1.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e1_3233_e1_3123.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_6.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e3_1025.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_2_e8_926_e1_1065.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_2_e7_145_e3_222.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_1.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_2_e3_929_e3_2294.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ccp16.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_7.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave37.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e2_6104_e3_2607.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/rtp_7.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_13_e3_1418_e3_2761.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_8_e2_1692.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_2_e1_2316.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_1.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/_6counters_e8_371_e7_304.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_2_e8_926_e3_1758.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/_6counters.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_7_e3_59_e7_2122.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MESI_1.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e1_4037.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_9_e7_1843_e1_5434.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e3_1600_e2_676.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e1_586.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_luke_5.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e1_1207.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e1_3233_e2_2392.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/swimmingpool_4_e7_2197.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_5_e7_2017_e7_2326.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_10_e1_998.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e3_1117.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_9.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_5_e2_405_e3_473.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_1_e3_389_e7_358.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_3_e3_3846.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e3_4821_e1_1318.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_6_e2_589_e3_349.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_3_e7_626_e1_305.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_14_e2_3606.ec.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e2_2086_e1_3235.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_3_e8_1329.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_6_e2_3302.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_4_e2_968_e6_236.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ILLINOIS_5_e7_692_e7_2865.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_3_e3_1275_e4_164.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ums_e7_1700.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_4_e8_974.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/steam_boiler_no_arr2_e8_21449_e5_18210.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_10_e7_919_e2_3192.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/MOESI_2_e8_926.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e3_1600.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/rtp_2.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_11_e3_2076_e1_1270.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_4.ec.smt2,MathSAT5,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/microwave05.ec.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_2_e2_3183_e1_2644.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_3_e3_518_e8_922.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_2_e3_151_e3_1540.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/durationThm_2_e2_63.ec.smt2,Z3 (2018),0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_a3_e1_195.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_all_e1_1207_e2_3220.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_7_e2_2872_e2_5844.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_2_e2_3183_e3_5972.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/metros_1_e1_846_e3_1060.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_all_e1_4022_e3_3628.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/DRAGON_14_e2_3606_e7_4891.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/car_4_e7_592_e7_265.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/SYNAPSE_all_e8_251_e3_1472.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/stalmark_e7_27_e7_31.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/ticket3i_all.ec.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_UFLIA/kind/FIREFLY_1.ec.smt2,Yices,0.0

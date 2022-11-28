@@ -1,0 +1,218 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_mult_bmc15.smt2,Z3,2395.5404
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_bmc25.smt2,Z3,2391.64224
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_bmc25.smt2,CVC4,2390.78169
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_mult_bmc30.smt2,MathSAT5,2383.7419
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_mult_bmc20.smt2,Z3,2312.2918
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-unsat-compact-nomem.smt2,MathSAT5,2311.1635
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_bmc25.smt2,Z3,2186.287
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_mult_bmc25.smt2,MathSAT5,2071.762
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_shifter_bmc30.smt2,Z3,1836.705
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/picorv32-pcregs-compact-nomem.smt2,MathSAT5,1771.578
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_bmc30.smt2,MathSAT5,1758.022
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_mult_bmc30.smt2,Z3,1638.225
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-30-compact-nomem.smt2,Yices (2019),1528.2069999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_bmc30.smt2,Yices,1170.1516
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_bmc20.smt2,CVC4,682.4916
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_shifter_bmc25.smt2,Yices,213.94899999999998
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop3_ab_cti_max.smt2,Z3,134.444246
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/zipcpu-zipmmu-compact-nomem.smt2,MathSAT5,113.94168
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop2_ab_reg_max.smt2,Z3,106.74046799999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-15-compact-nomem.smt2,MathSAT5,105.4787
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.3.prop1_ab_cti_max.smt2,MathSAT5,61.38615
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_shifter_bmc15.smt2,Z3,46.5847
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lifts.6.prop1_ab_cti_max.smt2,Z3,33.302224
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop2_ab_cti_max.smt2,Z3,32.094783
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/zipcpu-busdelay-compact-nomem.smt2,Z3,28.840450000000004
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.3.prop1_ab_cti_max.smt2,Z3,23.37659
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pouring.1.prop1_ab_cti_max.smt2,Bitwuzla,23.158428
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pouring.1.prop1_ab_reg_max.smt2,Bitwuzla,22.14123
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pouring.2.prop1_ab_reg_max.smt2,MathSAT5,21.203870000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_msmie.3.prop1_ab_cti_max.smt2,Z3,19.609393
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.4.prop1_ab_cti_max.smt2,MathSAT5,15.295063
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop1_ab_cti_max.smt2,Z3,13.896296099999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.6.prop1_ab_cti_max.smt2,Z3,12.409828
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.4.prop2_ab_cti_max.smt2,Z3,12.142249999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pouring.2.prop1_ab_cti_max.smt2,CVC4,11.954682
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lamport_nonatomic.4.prop1_ab_cti_max.smt2,Z3,9.91539
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_bmc15.smt2,Yices (2019),8.9907
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lamport_nonatomic.4.prop1_ab_reg_max.smt2,Z3,7.5215529000000005
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_shifter_bmc10.smt2,MathSAT5,7.05279
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.5.prop1_ab_cti_max.smt2,Z3,6.990372
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop1_ab_cti_max.smt2,CVC4,6.518522
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop3_ab_cti_max.smt2,CVC4,6.33974
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.2.prop1_ab_cti_max.smt2,MathSAT5,6.17204
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop1_ab_cti_max.smt2,MathSAT5,5.99665
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.4.prop1_ab_cti_max.smt2,Z3,5.698245
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rether.5.prop1_ab_cti_max.smt2,Z3,5.6694059999999995
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop1_ab_reg_max.smt2,CVC4,5.614732
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop1_ab_reg_max.smt2,CVC4,5.488875999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop2_ab_reg_max.smt2,CVC4,5.370165999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop6_ab_cti_max.smt2,Z3,4.003527
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.3.prop2_ab_cti_max.smt2,CVC4,2.744886
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop3_ab_reg_max.smt2,MathSAT5,2.655252
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.2.prop2_ab_reg_max.smt2,CVC4,2.6419919999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop2_ab_cti_max.smt2,MathSAT5,2.5563391
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.1.prop2_ab_cti_max.smt2,CVC4,2.481436
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.3.prop2_ab_reg_max.smt2,CVC4,2.4583181
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop3_ab_cti_max.smt2,CVC4,2.446222
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.6.prop1_ab_reg_max.smt2,CVC4,2.4437919
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.4.prop2_ab_reg_max.smt2,CVC4,2.426171
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop3_ab_cti_max.smt2,CVC4,2.4085011
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.6.prop1_ab_reg_max.smt2,CVC4,2.3526651
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop5_ab_reg_max.smt2,CVC4,2.3133299999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.1.prop1_ab_cti_max.smt2,CVC4,2.2910279
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_bmc10.smt2,Yices,2.2642200000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop3_ab_reg_max.smt2,CVC4,2.2352359
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.1.prop1_ab_cti_max.smt2,CVC4,2.2305539999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lamport_nonatomic.5.prop1_ab_reg_max.smt2,CVC4,2.1106331
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.2.prop1_ab_cti_max.smt2,CVC4,2.09483
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_cambridge.2.prop2_ab_cti_max.smt2,Z3,2.025519
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-sat-compact-nomem.smt2,Yices,1.9879999999999995
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_bmc10.smt2,Yices (2019),1.9877900000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.2.prop1_ab_cti_max.smt2,MathSAT5,1.9231520000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_msmie.4.prop1_ab_reg_max.smt2,MathSAT5,1.9150199
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lifts.3.prop1_ab_cti_max.smt2,CVC4,1.8443100000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lifts.3.prop1_ab_cti_max.smt2,CVC4,1.828583
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop5_ab_reg_max.smt2,CVC4,1.818924
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lifts.5.prop1_ab_cti_max.smt2,CVC4,1.8011111
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lifts.5.prop1_ab_cti_max.smt2,CVC4,1.7910390999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_fischer.5.prop1_ab_cti_max.smt2,CVC4,1.7719849
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.4.prop1_ab_reg_max.smt2,CVC4,1.667526
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lifts.6.prop1_ab_reg_max.smt2,CVC4,1.4371129999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lifts.6.prop1_ab_reg_max.smt2,CVC4,1.4367
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_cambridge.2.prop1_ab_cti_max.smt2,Z3,1.4229731
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lifts.6.prop1_ab_cti_max.smt2,MathSAT5,1.3641410999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_synapse.4.prop1_ab_cti_max.smt2,CVC4,1.3213679999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop1_ab_cti_max.smt2,MathSAT5,1.2597550000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_extinction.3.prop1_ab_cti_max.smt2,CVC4,1.200599
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lamport_nonatomic.5.prop1_ab_reg_max.smt2,Z3,1.152479
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_krebs.2.prop1_ab_cti_max.smt2,CVC4,0.964502
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_collision.6.prop1_ab_cti_max.smt2,MathSAT5,0.9013469
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_msmie.4.prop1_ab_reg_max.smt2,Z3,0.873392
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.3.prop1_ab_cti_max.smt2,Yices,0.8342770000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.1.prop2_ab_reg_max.smt2,MathSAT5,0.8020789
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop2_ab_reg_max.smt2,MathSAT5,0.7995030000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lamport_nonatomic.5.prop1_ab_cti_max.smt2,Bitwuzla,0.759692
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.4.prop2_ab_reg_max.smt2,MathSAT5,0.755379
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.3.prop1_ab_cti_max.smt2,MathSAT5,0.7421969
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_fischer.4.prop1_ab_cti_max.smt2,Bitwuzla,0.6814129
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lamport_nonatomic.5.prop1_ab_cti_max.smt2,Bitwuzla,0.646656
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_synapse.4.prop1_ab_cti_max.smt2,MathSAT5,0.6049551
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_bmc10.smt2,Yices,0.57311
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.2.prop1_ab_reg_max.smt2,MathSAT5,0.5384061
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_collision.5.prop1_ab_cti_max.smt2,MathSAT5,0.535614
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_cambridge.3.prop2_ab_cti_max.smt2,MathSAT5,0.527326
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_collision.6.prop1_ab_cti_max.smt2,MathSAT5,0.5077649999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.1.prop4_ab_cti_max.smt2,MathSAT5,0.49575899999999995
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_hanoi.3.prop1_ab_cti_max.smt2,Z3,0.43724799999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.1.prop3_ab_cti_max.smt2,MathSAT5,0.435145
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.4.prop2_ab_cti_max.smt2,Bitwuzla,0.420746
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.1.prop2_ab_cti_max.smt2,Bitwuzla,0.41392699999999993
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.2.prop2_ab_cti_max.smt2,Bitwuzla,0.39342299999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop1_ab_reg_max.smt2,Bitwuzla,0.381723
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.2.prop2_ab_cti_max.smt2,Bitwuzla,0.377148
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.3.prop2_ab_cti_max.smt2,Bitwuzla,0.375039
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.1.prop2_ab_cti_max.smt2,MathSAT5,0.320764
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_lifts.4.prop1_ab_cti_max.smt2,Bitwuzla,0.313609
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.3.prop1_ab_reg_max.smt2,Z3,0.28227599999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.1.prop2_ab_reg_max.smt2,Z3,0.257518
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.3.prop2_ab_reg_max.smt2,Z3,0.2559491
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.5.prop1_ab_reg_max.smt2,Z3,0.21506909999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.5.prop1_ab_reg_max.smt2,Z3,0.2111581
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rether.5.prop1_ab_cti_max.smt2,Bitwuzla,0.20058499999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.1.prop1_ab_reg_max.smt2,Z3,0.19705500000000004
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_sokoban.3.prop1_ab_reg_max.smt2,Bitwuzla,0.19340309999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop1_ab_reg_max.smt2,Z3,0.1694099
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop1_ab_cti_max.smt2,Bitwuzla,0.16488000000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.4.prop1_ab_reg_max.smt2,Bitwuzla,0.14169299999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_loyd.2.prop1_ab_cti_max.smt2,Bitwuzla,0.13566599999999998
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop5_ab_cti_max.smt2,Bitwuzla,0.12458800000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.5.prop1_ab_cti_max.smt2,Bitwuzla,0.12201210000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.2.prop1_ab_reg_max.smt2,Bitwuzla,0.1181431
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.6.prop1_ab_reg_max.smt2,Bitwuzla,0.11639800000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.6.prop1_ab_cti_max.smt2,Bitwuzla,0.116227
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/zipcpu-pfcache-compact-nomem.smt2,Yices (2019),0.11260000000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.2.prop1_ab_cti_max.smt2,Yices,0.10771199999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.1.prop1_ab_reg_max.smt2,Z3,0.09312990000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.1.prop1_ab_cti_max.smt2,Z3,0.090337
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_collision.4.prop1_ab_cti_max.smt2,Yices (2019),0.08812510000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_needham.1.prop1_ab_reg_max.smt2,Bitwuzla,0.0857021
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.1.prop3_ab_cti_max.smt2,Yices (2019),0.084758
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.3.prop1_ab_cti_max.smt2,Yices,0.08221
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pouring.2.prop1_ab_cti_max.smt2,Yices,0.07601000000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pouring.1.prop1_ab_cti_max.smt2,Yices,0.07541199999999998
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pouring.1.prop1_ab_reg_max.smt2,Yices,0.07494400000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.2.prop1_ab_cti_max.smt2,Yices,0.053229100000000015
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.4.prop1_ab_reg_max.smt2,Bitwuzla,0.050261
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.2.prop1_ab_reg_max.smt2,Bitwuzla,0.04922099999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/picorv32-check-compact-nomem.smt2,Yices,0.037430000000000074
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.1.prop4_ab_cti_max.smt2,Z3,0.03282100000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.2.prop1_ab_cti_max.smt2,Bitwuzla,0.024121000000000004
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.1.prop2_ab_cti_max.smt2,Yices,0.023690999999999962
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_rushhour.3.prop1_ab_reg_max.smt2,Yices,0.018342000000000025
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.4.prop1_ab_reg_max.smt2,Yices,0.014444999999999986
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.1.prop1_ab_cti_max.smt2,Yices,0.013388999999999984
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_peg_solitaire.3.prop1_ab_cti_max.smt2,Yices,0.01272609999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_collision.4.prop1_ab_cti_max.smt2,Bitwuzla,0.012020000000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop2_ab_reg_max.smt2,Yices,0.011086899999999997
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_firewire_tree.2.prop3_ab_reg_max.smt2,Yices,0.010715099999999998
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.6.prop1_ab_cti_max.smt2,Yices,0.01070299999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop1_ab_reg_max.smt2,Yices,0.010159800000000004
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_plc.2.prop2_ab_reg_max.smt2,Yices,0.009571200000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_plc.1.prop2_ab_cti_max.smt2,Yices,0.009042000000000008
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop1_ab_cti_max.smt2,Yices,0.008368
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_synapse.5.prop1_ab_cti_max.smt2,Yices,0.007993100000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop2_ab_reg_max.smt2,Yices,0.007679999999999992
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop6_ab_cti_max.smt2,Yices,0.007051000000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.2.prop1_ab_reg_max.smt2,Yices,0.006682800000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_hanoi.2.prop1_ab_cti_max.smt2,Yices,0.0063111
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_cambridge.3.prop2_ab_cti_max.smt2,Yices,0.006166999999999992
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_peg_solitaire.3.prop1_ab_reg_max.smt2,Yices,0.0061259000000000036
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.3.prop1_ab_reg_max.smt2,Yices,0.006019800000000006
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop5_ab_cti_max.smt2,Yices,0.005979999999999999
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.4.prop1_ab_cti_max.smt2,Yices,0.005970000000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.1.prop1_ab_reg_max.smt2,Yices,0.005892000000000001
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_pgm_protocol.2.prop1_ab_cti_max.smt2,Yices,0.005582000000000004
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.2.prop1_ab_cti_max.smt2,Yices,0.005512000000000003
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_synapse.5.prop1_ab_cti_max.smt2,Yices,0.005407000000000009
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_cambridge.2.prop2_ab_cti_max.smt2,Yices,0.004082000000000002
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.2.prop2_ab_cti_max.smt2,Yices,0.003616000000000008
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_peg_solitaire.5.prop1_ab_reg_max.smt2,Yices,0.002597199999999994
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_needham.2.prop2_ab_reg_max.smt2,Yices,0.0019490999999999988
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_mult_bmc10.smt2,Yices (2019),0.0010099999999999554
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_msmie.3.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_bmc15.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_shifter_mult_bmc15.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop2_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_collision.5.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_extinction.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.1.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lamport_nonatomic.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_mult_bmc20.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lamport_nonatomic.4.prop1_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_sokoban.2.prop1_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.5.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.1.prop3_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_firewire_tree.2.prop2_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_mult_bmc25.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pouring.2.prop1_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_shifter_bmc20.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_lifts.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_leader_election.3.prop1_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.3.prop1_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop2_ab_reg_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_mult_bmc10.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_adder_bmc20.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_rushhour.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/btfnt/btfnt_atlas_out.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_msmie.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_bmc30.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_pgm_protocol.1.prop2_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-20-compact-nomem.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_sokoban.3.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_bmc20.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/calc2/calc2_sec2_bmc15.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_msmie.4.prop1_ab_cti_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv_bv_collision.1.prop1_ab_cti_max.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_UFBV/2018-Goel-hwbench/QF_UFBV_bv8_bv_leader_election.3.prop1_ab_cti_max.smt2,Yices (2019),0.0

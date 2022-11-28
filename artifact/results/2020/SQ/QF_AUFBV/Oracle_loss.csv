@@ -1,0 +1,35 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub1.short.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-30-compact-mem.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutAX_QF_AUFBV_NONINCR.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-15-compact-mem.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux4.short.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.signHash3.short.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-unsat-compact-mem.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_MBA_6.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_NPT_2.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-pfcache-compact-mem.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.signHash4.short.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-busdelay-compact-mem.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/VexRiscv-regch0-20-compact-mem.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/picorv32-check-compact-mem.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_O_16_32_2_2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux3.short.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_MBA_7.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutBY_QF_AUFBV_NONINCR.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/ponylink-slaveTXlen-sat-compact-mem.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.verifySignature.short.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_O_32_32_2_2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_O_32_16_2_2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub2.short.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutBX_QF_AUFBV_NONINCR.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/zipcpu-zipmmu-compact-mem.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2018E/picorv32-pcregs-compact-mem.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutCX_QF_AUFBV_NONINCR.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_NPT_1.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_C_16_32_2_2.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_full_sub3.short.smt2,Bitwuzla,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutCY_QF_AUFBV_NONINCR.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/ecc/com.galois.ecc.P384ECC64.ec_mul_aux2.short.smt2,Yices (2019),0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Gonzalvez/opStructure_O_16_24_2_2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_AUFBV/2019-Wolf-fmbench/2019A/picorv32_mutAY_QF_AUFBV_NONINCR.smt2,CVC4,0.0

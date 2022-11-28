@@ -1,0 +1,73 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/crash3.smt2,Yices (2018),28.25299999999993
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/sendOmission_lemma2.smt2,Yices (2018),3.2489999999999952
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateKojak/s3_clnt.blast.03_true-unreach-call.i.cil.c.prep.smt2,Yices,1.9350999999999985
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/sendOmission_lemma3.smt2,Z3,0.6611739999999999
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/find1+2.smt2,CVC4,0.10667410000000001
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/illinois_ca.smt2,CVC4,0.09761610000000001
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/partition_int.smt2,CVC4,0.0848
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.03_false-unreach-call.i.cil.c.smt2,Yices,0.062463999999999964
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/bakery.smt2,Z3,0.0417401
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/synapse.smt2,Z3,0.0340781
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.04_false-unreach-call.i.cil.c.smt2,Yices,0.03186500000000003
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/bakery_bogus.smt2,Yices (2018),0.01868599999999998
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/german_ca.smt2,Yices (2018),0.009714
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/futurebus.smt2,Yices (2018),0.008291999999999994
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/burns.smt2,Yices (2018),0.004920900000000006
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/max_in_array.smt2,Yices (2018),0.004654999999999999
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/binarySort.smt2,Yices (2018),0.003707000000000016
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/filter2.smt2,Yices (2018),0.003614000000000001
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/integers.smt2,Yices (2018),0.003536020000000001
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/partition.smt2,Yices (2018),0.003016899999999996
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/moesi.smt2,Yices (2018),0.0027659699999999995
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/bakery_t.smt2,Yices (2018),0.0027209999999999943
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/mesi_ca.smt2,Yices (2018),0.0026351000000000013
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/strcpy.smt2,Yices (2018),0.0026268000000000003
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/illinois.smt2,Yices (2018),0.0025781
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/ini.smt2,Yices (2018),0.0023271000000000003
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/find2.smt2,Yices (2018),0.0021261000000000023
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/berkeley.smt2,Yices (2018),0.0018881000000000002
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/find1.smt2,Yices (2018),0.0008961000000000004
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/insertionSort.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/filter1.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.13_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/crash1.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/linearSearch.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/dijkstra.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/german_07.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/szymanski.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.07_true-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.06_true-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/mux.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateKojak/s3_clnt.blast.01_true-unreach-call.i.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/filter1+2.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/szymanski_at.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.02_true-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.12_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.15_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/strcmp.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_clnt.blast.03_true-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/bakery_Lamport.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.10_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/xerox.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/crash2.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.14_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/moesi_ca.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateKojak/s3_clnt.blast.02_true-unreach-call.i.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.08_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/german_pfs.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.16_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.01_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.07_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_clnt.blast.02_true-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.06_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateKojak/s3_clnt.blast.04_true-unreach-call.i.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.09_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/jml.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/selectionSort.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/sz_fp.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/german_buggy.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/mesi.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/ultimateAutomizer/s3_srvr.blast.02_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/sendOmission_lemma1.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_AUFLIA/safari/dijkstra_1.smt2,Yices,0.0

@@ -1,0 +1,301 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard13.smt2,CVC4,4799.632434
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10i.smt2,veriT,4798.54475
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10.smt2,CVC4,4798.43574
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10ni.smt2,SMTInterpol,4798.43478
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10bi.smt2,CVC4,4798.32644
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10b.smt2,CVC4,4798.19134
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9bidw.smt2,CVC4,4798.14433
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9idw.smt2,veriT,4798.00021
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10bid.smt2,SMTInterpol,4796.5344
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10nidw.smt2,veriT,2335.0837610000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f8idw.smt2,CVC4,1043.83985
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f8bidw.smt2,CVC4,982.1118
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f8nidw.smt2,CVC4,891.23861
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10bid.smt2,veriT,771.9285169999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9.smt2,SMTInterpol,656.0923409999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/elf.rf12.smt2,veriT,345.6838
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard12.smt2,veriT,296.883919
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/ooo.rf11.smt2,veriT,288.25455999999997
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g9nidw.smt2,veriT,259.275195
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/cache.inv16.smt2,SMTInterpol,205.63168
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g9bidw.smt2,SMTInterpol,163.547619
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10i_i.smt2,CVC4,141.30611
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10i.smt2,CVC4,103.99924
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9nidw_i.smt2,CVC4,82.35763
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/ooo.rf13.smt2,Z3,70.61100000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/cache.inv14.smt2,CVC4,65.308584
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6id.smt2,CVC4,58.993091
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard10.smt2,veriT,50.944364
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.20.smt2,Z3,43.012
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.18.smt2,Z3,33.906499999999994
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/cache.inv17.smt2,Z3,26.9509
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard8.smt2,veriT,24.69839
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f7bidw.smt2,SMTInterpol,18.348925
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/cache.inv12.smt2,CVC4,15.62264
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g9b.smt2,SMTInterpol,15.311941
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7bidw.smt2,CVC4,15.274106
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10ni.smt2,SMTInterpol,13.40543
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs-bp-ex.smt2,CVC4,12.744394900000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7bidw_i.smt2,CVC4,12.058678
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10nidw.smt2,SMTInterpol,11.338830000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/bug1.smt2,CVC4,11.253001999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7nidw.smt2,CVC4,10.88214
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10bid_i.smt2,SMTInterpol,10.815090000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f7nidw.smt2,veriT,8.876727
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9bidw.smt2,SMTInterpol,7.719040000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10nid.smt2,veriT,5.8950499999999995
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g8b.smt2,CVC4,3.915225
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bid_i.smt2,SMTInterpol,3.759003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9n.smt2,CVC4,3.533604
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6idw.smt2,SMTInterpol,3.2594380000000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6idw_i.smt2,SMTInterpol,3.2449120000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10b_i.smt2,CVC4,3.223567
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc4.smt2,SMTInterpol,2.8854511
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10id.smt2,Yices (2018),2.8663600000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g9n.smt2,veriT,2.7812330000000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6.smt2,CVC4,2.7116031
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery17.smt2,SMTInterpol,2.3946751
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc8.smt2,SMTInterpol,2.2369589
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/IC-flush.smt2,Yices (2018),2.1293459
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10bidw.smt2,Yices (2018),1.98668
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8b_i.smt2,CVC4,1.905588
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f10idw.smt2,Z3,1.8803200000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10n.smt2,SMTInterpol,1.867396
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard15.smt2,SMTInterpol,1.839534
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8n.smt2,SMTInterpol,1.820394
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/cxs-bp-ex.smt2,SMTInterpol,1.7119759
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/elf.rf9.smt2,SMTInterpol,1.639488
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6n.smt2,CVC4,1.6205289999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard18.smt2,Yices,1.578357
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery10.smt2,SMTInterpol,1.486091
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6n_i.smt2,CVC4,1.4600179
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard11.smt2,SMTInterpol,1.392684
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO4.smt2,SMTInterpol,1.3484239
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6b_i.smt2,SMTInterpol,1.313623
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc2.smt2,SMTInterpol,1.2745760000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/cxs-bp-ex-inp-safety.smt2,SMTInterpol,1.2409890000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard16.smt2,Yices (2018),1.202556
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard9.smt2,SMTInterpol,1.1965819999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery11.smt2,SMTInterpol,1.1787911
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6_i.smt2,SMTInterpol,1.1729300999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file5.smt2,Yices,1.147613
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bidw_i.smt2,veriT,1.140921
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full5.smt2,SMTInterpol,1.1362120999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc1.smt2,SMTInterpol,1.0816131
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bidw.smt2,veriT,1.0699299999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6ni.smt2,SMTInterpol,1.045186
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file2.smt2,CVC4,1.0330810000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery18.smt2,CVC4,1.0310941
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7_i.smt2,SMTInterpol,1.0237311
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7n.smt2,CVC4,0.9896389999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10bid_s.smt2,SMTInterpol,0.9785809000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7.smt2,CVC4,0.9582291000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard5.smt2,SMTInterpol,0.9559
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6n.smt2,SMTInterpol,0.9416001
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/22s.smt2,CVC4,0.93772599
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7idw_s.smt2,SMTInterpol,0.9035529999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10nid_i.smt2,Yices (2018),0.87523
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/dlx1c.smt2,SMTInterpol,0.871097
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full8.smt2,SMTInterpol,0.8497979
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/10stage-flush.smt2,Yices (2018),0.8365589999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/elf.rf8.smt2,SMTInterpol,0.7985319999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs-bp-ex-safety.smt2,veriT,0.7729079
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard7.smt2,SMTInterpol,0.756398
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery2.smt2,SMTInterpol,0.7535501
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6bid.smt2,veriT,0.6498181000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8b.smt2,veriT,0.6454660000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/reverse_acyclic1.smt2,SMTInterpol,0.6336201
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9b.smt2,veriT,0.6037920000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6ni_s.smt2,SMTInterpol,0.600144
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full9.smt2,CVC4,0.592075
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9bidw_i.smt2,Z3,0.58412
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded12.smt2,CVC4,0.5833201
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6i_s.smt2,SMTInterpol,0.5801788999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10id_s.smt2,CVC4,0.578739
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/elf.rf7.smt2,SMTInterpol,0.5768879499999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/simple_cyclic4.smt2,SMTInterpol,0.5705761
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9b_i.smt2,veriT,0.564681
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard17.smt2,Yices,0.55278
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded3.smt2,SMTInterpol,0.5400920699999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/DLX/DLX1C5.smt2,CVC4,0.5353600000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/BRP/BRP6.smt2,SMTInterpol,0.48844804
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10idw_i.smt2,Z3,0.48042000000000007
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g8.smt2,veriT,0.4784759
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9bidw_s.smt2,CVC4,0.4688479
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/BRP/BRP5.smt2,SMTInterpol,0.46506391
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/ooo.tag19.smt2,Yices (2018),0.45129700000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6idw.smt2,veriT,0.4464549
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6bi.smt2,CVC4,0.4459361
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file3.smt2,veriT,0.42816299999999996
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery7.smt2,CVC4,0.42345289999999997
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9idw_s.smt2,CVC4,0.423157
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded9.smt2,CVC4,0.416211
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs-safety.smt2,veriT,0.4005091
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8nidw_s.smt2,CVC4,0.37726
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded13.smt2,veriT,0.31649700000000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7bidw_s.smt2,CVC4,0.307014
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file1.smt2,Yices,0.30301100000000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10id_i.smt2,veriT,0.3006599999999997
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc6.smt2,Z3,0.209731
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10id.smt2,Yices (2018),0.20869999999999989
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10bidw.smt2,Z3,0.18956800000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc7.smt2,veriT,0.17483390000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc5.smt2,Z3,0.1720541
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6n.smt2,veriT,0.1665371
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f8n.smt2,Z3,0.157712
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full6.smt2,CVC4,0.14413589999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6nid.smt2,Z3,0.143575
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/set_union4.smt2,CVC4,0.142292
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery16.smt2,veriT,0.1407011
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file6.smt2,Yices (2018),0.13145210000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery15.smt2,Z3,0.1308039
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery14.smt2,veriT,0.11996000000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO5.smt2,veriT,0.1164089
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/25s.smt2,Z3,0.11468109000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery12.smt2,veriT,0.11464699999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6nid_s.smt2,veriT,0.11402900000000002
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/reverse_acyclic3.smt2,CVC4,0.1130611
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7nidw.smt2,Z3,0.10685099999999992
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv6.smt2,Z3,0.103825
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10nidw_s.smt2,Z3,0.10247610000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8bidw_i.smt2,Yices (2018),0.09953000000000012
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/reverse_acyclic2.smt2,CVC4,0.095292
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9nidw_s.smt2,Z3,0.0942869
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/DLX/DLX1C4.smt2,Z3,0.09252690000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6b.smt2,Z3,0.09160909999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/ooo.rf8.smt2,Z3,0.09050699999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7n.smt2,Z3,0.085652
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery3.smt2,Z3,0.0832141
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv4.smt2,Z3,0.0826791
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10.smt2,Z3,0.080735
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6bid.smt2,Z3,0.0767869
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/8stage-flush.smt2,Z3,0.076326
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/37s.smt2,Z3,0.07212278
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/set_union1.smt2,CVC4,0.071347
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/6stage-flush.smt2,Z3,0.071036
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10i_s.smt2,Z3,0.0693431
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9_i.smt2,Z3,0.069202
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6ni.smt2,Z3,0.06753909999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/bug2.smt2,veriT,0.067459
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/DLX/DLX1C1.smt2,Z3,0.066177
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded4.smt2,Z3,0.0660258
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/BRP/BRP9.smt2,Z3,0.06516282
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/ooo.tag14.smt2,Yices (2018),0.06500700000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/BRP/BRP8.smt2,Z3,0.06322091
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6.smt2,Z3,0.057604
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6i.smt2,veriT,0.05524499999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO2.smt2,Z3,0.055228
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8.smt2,Z3,0.05249399999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8idw.smt2,Yices (2018),0.05215100000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/RTCL/b13_tf_100/b13_tf_100.smt2,veriT,0.051390000000000005
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6i.smt2,veriT,0.05049920000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/simple_cyclic2.smt2,CVC4,0.04675311
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/49s.smt2,Z3,0.046316790000000004
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/DLX/DLX1C3.smt2,veriT,0.0462008
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard4.smt2,Z3,0.0451381
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8nidw.smt2,Z3,0.036699999999999955
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/dlx1c.rwmem.smt2,veriT,0.0363722
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard6.smt2,Z3,0.033214799999999996
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/ooo.rf10.smt2,Yices (2018),0.030980000000000008
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6nid_i.smt2,Z3,0.02903599999999995
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded17.smt2,Yices,0.023938999999999988
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9b.smt2,Yices (2018),0.02339900000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6idw_s.smt2,veriT,0.0231661
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/9stage-flush.smt2,Yices (2018),0.021823000000000037
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bi_i.smt2,Yices (2018),0.021731
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery1.smt2,veriT,0.0200088
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10b.smt2,Yices,0.019778000000000018
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full3.smt2,veriT,0.01970695
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7bidw.smt2,Yices (2018),0.01930000000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded2.smt2,veriT,0.01440403
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7nidw_i.smt2,Yices (2018),0.013298000000000032
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/simple_cyclic3.smt2,veriT,0.012934
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f8.smt2,Yices (2018),0.011972999999999984
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/cache.inv15.smt2,Yices,0.011209999999999942
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10bi.smt2,Yices (2018),0.007165999999999978
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6nidw.smt2,Yices (2018),0.006067099999999992
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6nidw.smt2,Yices,0.005804999999999949
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10n.smt2,Yices (2018),0.005612000000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g8bidw.smt2,Yices (2018),0.005276000000000003
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bid.smt2,Z3,0.004157000000000077
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs-bp.smt2,Yices (2018),0.003720000000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g8idw.smt2,Yices (2018),0.0036410000000000053
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6b.smt2,Yices (2018),0.0026878000000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs.smt2,Yices (2018),0.0026351000000000013
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/cxs-bp-ex-inp.smt2,Yices (2018),0.0026228000000000085
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/fxs-bp-ex-inp.smt2,Yices (2018),0.0025190000000000073
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7idw.smt2,Yices (2018),0.0024951
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10i.smt2,Yices,0.002350999999999992
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.10.smt2,Yices (2018),0.0017729999999999968
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.14.smt2,Yices (2018),0.0017199999999999438
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10ni_i.smt2,Yices,0.0015799999999999148
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO7.smt2,Yices (2018),0.001577999999999996
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/cache.inv10.smt2,Yices,0.0015610000000000068
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO1.smt2,Yices (2018),0.001559099999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/ooo.tag10.smt2,Yices,0.0015430999999999986
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv3.smt2,Yices (2018),0.0015161000000000011
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery8.smt2,Yices (2018),0.0014879999999999997
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv1.smt2,Yices (2018),0.0014038100000000001
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6nid.smt2,Yices (2018),0.0013658999999999998
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded6.smt2,Yices (2018),0.0013150999999999996
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/ooo.rf7.smt2,Yices (2018),0.0012600000000000007
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/cxs-bp-ex-safety.smt2,Yices (2018),0.0011099999999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard3.smt2,Yices (2018),0.0010909000000000005
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bi_s.smt2,Yices (2018),0.0009189999999999997
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete/cxs.smt2,Yices (2018),0.0008538999999999977
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6bid_s.smt2,Yices (2018),0.0008158999999999996
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded8.smt2,Yices (2018),0.0007959000000000022
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/reverse_acyclic6.smt2,Yices (2018),0.0007769999999999999
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6i.smt2,Yices (2018),0.0005099000000000006
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded14.smt2,Yices (2018),0.00048509999999999526
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/43s.smt2,Yices (2018),0.00047720000000000054
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6nidw_s.smt2,Yices (2018),0.0001890999999999976
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10bi_s.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9idw.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv5.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/ibm_cache/ibm_cache_full_q_unbounded7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/sorted_list_insert_noalloc3.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/mathsat/EufLaArithmetic/vhard/vhard19.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/DLX/DLX1C2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8_i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.30.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery9.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g9idw.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8bidw_s.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g7b.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO3.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10bi.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/set_union3.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8bidw.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/aodv/aodv2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6nid.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g8n.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid2/ooo.rf12.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/elf.rf10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9nidw.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/dlx1c.rwmem1.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/OOO/OOO6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f6idw.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g6b.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10n_i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c8nidw_i.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f9n.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/f7idw.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10ni.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/uclid/q2.40.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete3/bug_file4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c6id_s.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9idw_i.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7n_i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/g10id.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/RDS/set_union2.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c7b_i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c9nidw.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/pete2/c10nidw_i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/BRP/BRP4.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFIDL/UCLID-pred/bakery/LamportBakery4.smt2,Yices,0.0

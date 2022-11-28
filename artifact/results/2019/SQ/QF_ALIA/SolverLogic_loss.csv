@@ -1,0 +1,140 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_cb19c7.smt2,veriT,4799.9892561
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_3031c9.smt2,veriT,0.47988000000000003
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.15.smt2,Yices,0.45834899999999995
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.24.smt2,Yices,0.45492099999999996
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug-20.smt2,Yices (2018),0.431383
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.26.smt2,Yices (2018),0.1575899999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.22.smt2,Yices,0.128127
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug2-15.smt2,Yices,0.12373300000000001
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.18.smt2,Yices,0.105937
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-mutex-20.smt2,Yices (2018),0.07621999999999973
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.15.smt2,Yices,0.054307900000000006
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.14.smt2,Yices,0.046171000000000004
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug-15.smt2,Yices (2018),0.04233899999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.14.smt2,Yices (2018),0.02710100000000004
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.13.smt2,Yices,0.0224651
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.12.smt2,Yices (2018),0.022009
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_46582a.smt2,veriT,0.019528919999999998
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_509c40.smt2,veriT,0.01915203
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_408ff0.smt2,veriT,0.01866802
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_22b1f2.smt2,veriT,0.01797806
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.11.smt2,Yices (2018),0.015396999999999994
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.28.smt2,Yices,0.015119999999999578
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-mutex-10.smt2,Yices (2018),0.010324
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.12.smt2,Yices,0.009596900000000005
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_fdec13.smt2,veriT,0.00621593
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_ed9849.smt2,veriT,0.006204020000000001
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_d421cb.smt2,veriT,0.005694910000000001
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_13f61c.smt2,veriT,0.005519029999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.7.smt2,Yices (2018),0.005127
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.10.smt2,Yices (2018),0.004707099999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00002_001.cvc.smt2,Yices,0.0036519199999999995
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00004_001.cvc.smt2,Yices (2018),0.003536000000000001
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.6.smt2,Yices (2018),0.0033502000000000046
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00007_001.cvc.smt2,Yices (2018),0.0030931399999999994
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_5b181b.smt2,veriT,0.0026759900000000014
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-safe-5.smt2,Yices (2018),0.00257313
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/list_search_true-unreach-call.i.smt2,Yices (2018),0.0023229999999999987
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_174f4d.smt2,veriT,0.0021670400000000003
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_7fd2c4.smt2,veriT,0.0021571000000000003
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00014_001.cvc.smt2,Yices (2018),0.0020180499999999987
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.5.smt2,Yices (2018),0.0017838999999999997
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug-5.smt2,Yices (2018),0.0017081000000000006
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_ffa5fa.smt2,veriT,0.0016860599999999996
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00012_001.cvc.smt2,Yices,0.0013490199999999994
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/misc/queue-th1-6.smt2,Yices (2018),0.0010669500000000005
+/data/SMT-LIB-non-incremental/QF_ALIA/cvc/pp-bloaddata.smt2,Yices (2018),0.0010609
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00012_001.cvc.smt2,Yices (2018),0.0010360999999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00015_001.cvc.smt2,Yices (2018),0.0009719299999999993
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00010_001.cvc.smt2,Yices (2018),0.00088506
+/data/SMT-LIB-non-incremental/QF_ALIA/piVC/piVC_f5059f.smt2,Yices,0.0008340299999999995
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.6.smt2,Yices (2018),0.0008289999999999999
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00003_001.cvc.smt2,Yices,0.0007970200000000007
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-invalid-15.smt2,Yices (2018),0.0007918999999999982
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-safe-10.smt2,Yices (2018),0.00068
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer2/m0_false-unreach-call_drivers-staging-comedi-drivers-ni_670x-ko--107_1a--adbbc36-1.c_TraceCheck_Iteration1_0.smt2,Yices (2018),0.000670999999999998
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/alternating_list_true-unreach-call.i.smt2,Yices (2018),0.0006569000000000002
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00006_001.cvc.smt2,Yices (2018),0.0005978500000000005
+/data/SMT-LIB-non-incremental/QF_ALIA/cvc/pp-bloaddata-a.smt2,Yices (2018),0.0005021000000000001
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00003_001.cvc.smt2,Yices,0.0003619999999999995
+/data/SMT-LIB-non-incremental/QF_ALIA/cvc/pp-dmem2.smt2,Yices (2018),0.0003230999999999998
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00006_001.cvc.smt2,Yices (2018),0.00031902000000000146
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00004_001.cvc.smt2,Yices (2018),0.0002651300000000006
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-invalid-10.smt2,Yices (2018),0.00014005000000000094
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00002_001.cvc.smt2,Yices,0.00012819000000000025
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00007_001.cvc.smt2,Yices (2018),4.293000000000005e-05
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00005_001.cvc.smt2,Yices,1.1099999999999999e-05
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.8.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-mutex-15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.30.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00011_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer2/m0_false-unreach-call_drivers-staging-comedi-drivers-ni_660x-ko--107_1a--adbbc36-1.c_TraceCheck_Iteration1_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.16.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00010_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer2/m0_false-unreach-call_drivers-staging-comedi-drivers-ni_6527-ko--107_1a--adbbc36-1.c_TraceCheck_Iteration1_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/cvc/read2.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.21.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.19.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.24.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer2/m0_false-unreach-call_drivers-staging-comedi-drivers-ni_65xx-ko--107_1a--adbbc36-1.c_TraceCheck_Iteration1_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-invalid-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.22.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.25.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer2/m0_false-unreach-call_drivers-staging-comedi-drivers-ni_pcidio-ko--107_1a--adbbc36-1.c_TraceCheck_Iteration1_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.21.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.20.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00013_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00013_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.8.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/merge_sort_true-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00001_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00008_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00005_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.17.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-safe-15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/splice_true-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug2-20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-mutex-5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/misc/stack-invalid-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.27.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.25.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.19.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00008_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00009_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/simple_built_from_end_true-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/dll_of_dll_false-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/dll_of_dll_true-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00001_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/UltimateAutomizer/test-0134_true-valid-memsafety.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/misc/stack-th2-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.16.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/cvc/pp-dmem-a.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00015_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-invalid-20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_np_sf_ai_00014_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/misc/queue-th2-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.28.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug-10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.27.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.29.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.17.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.26.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00009_001.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/qlock/qlock-bug2-10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.23.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.23.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/pointer/pointer-safe-20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.base.10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/ios/ios_t1_ios_bia_np_sf_ai_00011_001.cvc.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.29.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/qlock2/qlock.induction.30.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ALIA/array_benchmarks/misc/stack-th1-6.smt2,Yices,0.0

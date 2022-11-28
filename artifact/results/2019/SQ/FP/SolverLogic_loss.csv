@@ -1,0 +1,1239 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.geq.smt2,CVC4,4799.9320969
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.isNegative1.smt2,Z3,4799.443829
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.geq0.smt2,CVC4,4799.442051
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.isZero.smt2,Z3,4798.72295
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/filter1_true-unreach-call.c_281.smt2,CVC4,4798.62794
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.fma_fp.isInfinite0.smt2,Z3,4798.59269
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isNegative2.smt2,CVC4,4798.3806
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.fma_fp.isNormal2.smt2,CVC4 (2018),4797.72217
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.isSubnormal1.smt2,CVC4 (2018),4797.72155
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isNegative2.smt2,Z3,4796.29174
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isNegative2.smt2,Z3,4796.24019
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_fp.gt.smt2,CVC4 (2018),4795.37826
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.geq.smt2,CVC4 (2018),4794.75872
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.geq0.smt2,Z3,4793.72165
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isZero2.smt2,CVC4,4792.92588
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isNormal0.smt2,Z3,4792.22193
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.fma_fp.isZero2.smt2,CVC4,4791.26129
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_=1.smt2,CVC4,4776.3928
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isSubnormal0.smt2,Z3,4775.0759
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isSubnormal0.smt2,Z3,4774.9314
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_=0.smt2,CVC4,4774.84
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.mul_=.smt2,CVC4 (2018),4771.4917
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isZero0.smt2,CVC4 (2018),4765.6864
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.fma_fp.isZero0.smt2,CVC4,4760.3309
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.leq.smt2,CVC4,4759.9259
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.fma_fp.isPositive2.smt2,Z3,4756.4239
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isPositive0.smt2,CVC4,4749.6417
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isNormal0.smt2,CVC4 (2018),4743.7128
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_=.smt2,CVC4,4727.26
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.gt0.smt2,CVC4,4721.2964
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_=0.smt2,CVC4,4715.4959
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isZero0.smt2,CVC4,4711.0473
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isZero0.smt2,CVC4,4710.9837
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isZero0.smt2,CVC4,4710.6645
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isPositive0.smt2,CVC4 (2018),4702.9444
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isSubnormal1.smt2,CVC4,4688.089
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_distinct1.smt2,CVC4,4669.412
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isSubnormal1.smt2,CVC4 (2018),4661.4
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.lt1.smt2,CVC4,4614.234
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.gt1.smt2,CVC4,4603.793
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.mul_fp.lt.smt2,CVC4 (2018),4601.815
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isSubnormal0.smt2,Z3,4576.627
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.lt.smt2,CVC4 (2018),4572.566
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.isSubnormal1.smt2,CVC4 (2018),4566.119
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.geq1.smt2,CVC4,4460.97
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isNormal0.smt2,CVC4 (2018),4415.162
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isSubnormal1.smt2,CVC4 (2018),4404.557
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isSubnormal0.smt2,CVC4 (2018),4333.234
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.geq1.smt2,CVC4 (2018),4301.737
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isNegative0.smt2,CVC4,4286.722
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isSubnormal0.smt2,CVC4,4004.177
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_158.smt2,CVC4 (2018),3929.224
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_=.smt2,CVC4 (2018),3913.498
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.leq.smt2,CVC4,3648.54
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isPositive0.smt2,CVC4 (2018),3236.17
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.lt1.smt2,CVC4 (2018),3203.6400000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.geq0.smt2,CVC4,3125.87
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_=.smt2,CVC4,2595.5
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.gt.smt2,CVC4,2519.98
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isPositive0.smt2,Z3,2345.0424470000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_fp.isZero.smt2,Z3,1862.2671
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.isZero.smt2,Z3,1819.6006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isPositive0.smt2,Z3,1280.5861
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isNormal2.smt2,CVC4 (2018),905.1135
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isNormal2.smt2,Z3,570.5326
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isNegative1.smt2,Z3,542.3326780000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isPositive0.smt2,Z3,538.249774
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.gt.smt2,CVC4 (2018),461.211282
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isNormal1.smt2,Z3,359.35479999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isZero1.smt2,Z3,334.56893
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isSubnormal1.smt2,Z3,303.8397
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isNegative1.smt2,Z3,302.0046039
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.isPositive.smt2,Z3,284.750548
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isNormal2.smt2,CVC4 (2018),274.94800000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isPositive0.smt2,Z3,268.767
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.leq0.smt2,CVC4 (2018),229.61949999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.fma_fp.isPositive2.smt2,Z3,186.46874
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_tight_true-unreach-call.c_115.smt2,Z3,165.695155
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sqrt_fp.leq.smt2,Z3,161.17565
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.gt0.smt2,CVC4,147.59672799999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_distinct0.smt2,Z3,134.7707
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isNegative1.smt2,Z3,111.674096
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isPositive1.smt2,Z3,108.97972200000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isSubnormal0.smt2,CVC4,99.0921
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isSubnormal0.smt2,CVC4 (2018),90.22399999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isNormal0.smt2,Z3,88.8274
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.fma_fp.isNegative2.smt2,CVC4 (2018),75.3598
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isNegative1.smt2,Z3,71.781175
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isInfinite.smt2,CVC4 (2018),65.34734999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_distinct1.smt2,Z3,64.78800000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_distinct1.smt2,Z3,64.12300000000002
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_tight_true-unreach-call.c_116.smt2,Z3,63.691224999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_distinct1.smt2,Z3,61.115999999999985
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.add_fp.gt.smt2,CVC4 (2018),58.698710000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isZero0.smt2,Z3,52.14255
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.isSubnormal.smt2,CVC4 (2018),49.465
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.lt0.smt2,Z3,46.39505
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isPositive1.smt2,CVC4 (2018),42.97382
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isInfinite2.smt2,CVC4 (2018),39.229200000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.add_fp.geq.smt2,CVC4 (2018),38.5358
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isNaN1.smt2,Z3,36.8539
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isSubnormal0.smt2,CVC4,36.15599999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.isSubnormal.smt2,CVC4 (2018),33.83100000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isPositive0.smt2,Z3,31.62459
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isZero1.smt2,Z3,29.380640000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.isSubnormal.smt2,Z3,28.688
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.leq.smt2,Z3,27.49302
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isPositive1.smt2,Z3,26.374813
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.geq0.smt2,CVC4 (2018),26.217570000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.isNormal.smt2,CVC4,26.200000000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.isInfinite.smt2,CVC4,25.7169
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_distinct1.smt2,Z3,22.034882
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_40.smt2,Z3,20.10814
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isPositive1.smt2,Z3,19.5520929
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isNormal0.smt2,Z3,19.204099999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isZero0.smt2,Z3,18.99396
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isPositive2.smt2,Z3,18.40345
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isNormal1.smt2,Z3,17.384890000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.add_fp.lt.smt2,Z3,16.961299999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isSubnormal1.smt2,CVC4,14.6684
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isNegative0.smt2,Z3,14.615102
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isNaN0.smt2,Z3,14.60671
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isNaN0.smt2,Z3,14.43994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isNaN0.smt2,Z3,14.430900000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.isPositive.smt2,CVC4 (2018),14.2319
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.lt1.smt2,CVC4,14.13705
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.lt.smt2,CVC4 (2018),13.318298
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isNaN1.smt2,Z3,13.272590000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isPositive0.smt2,Z3,12.673801899999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.leq1.smt2,CVC4 (2018),11.3231
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.add_fp.isNegative.smt2,CVC4,10.93644
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isNormal.smt2,CVC4,10.903399999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isPositive0.smt2,Z3,9.6355419
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isPositive1.smt2,Z3,9.605925000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isZero.smt2,CVC4,9.342220000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.lt1.smt2,CVC4 (2018),8.586332
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isZero0.smt2,Z3,8.57452
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.gt.smt2,CVC4 (2018),8.358307
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isNegative0.smt2,CVC4 (2018),7.965082
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isSubnormal.smt2,CVC4 (2018),7.85311
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isInfinite1.smt2,Z3,7.368852
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isInfinite1.smt2,CVC4 (2018),7.342909999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isNormal1.smt2,Z3,7.287438999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isPositive2.smt2,CVC4 (2018),7.16184
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isPositive0.smt2,Z3,7.12638
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_distinct1.smt2,Z3,6.7596300000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.geq0.smt2,CVC4,6.691875
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),6.58791
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isNegative0.smt2,Z3,6.146467100000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.isInfinite.smt2,CVC4 (2018),6.03552
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.mul_fp.isSubnormal.smt2,CVC4 (2018),5.83111
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_fp.isNormal.smt2,CVC4 (2018),5.720609999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.geq.smt2,CVC4 (2018),5.568868999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isNormal1.smt2,Z3,5.47282
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.isPositive.smt2,CVC4 (2018),5.26207
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_=0.smt2,CVC4 (2018),5.168999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.isZero.smt2,CVC4,5.10447
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_fp.isZero.smt2,CVC4,4.876290000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isPositive1.smt2,Z3,4.6439259
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isNegative0.smt2,CVC4 (2018),4.193094
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sqrt_fp.isNaN.smt2,Z3,4.063801
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isNegative0.smt2,CVC4 (2018),3.916452
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isNegative1.smt2,Z3,3.840584
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isInfinite0.smt2,Z3,3.5884660000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.geq1.smt2,CVC4 (2018),3.3317299999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),3.237000000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isInfinite2.smt2,Z3,3.1602699999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_fp.isNormal.smt2,UE+MathSAT,2.7630029
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.lt.smt2,Z3,2.74428
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_fp.isSubnormal.smt2,UE+MathSAT,2.716887
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_fp.isPositive.smt2,UE+MathSAT,2.6607181
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_fp.isPositive.smt2,UE+MathSAT,2.6408620000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_=.smt2,Z3,2.636862
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_fp.isPositive.smt2,CVC4 (2018),2.6078699999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isZero0.smt2,Z3,2.592621
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isPositive1.smt2,Z3,2.5837000000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_=.smt2,CVC4 (2018),2.4988
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_=.smt2,Z3,2.466465
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.lt.smt2,CVC4,2.43291
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.isPositive.smt2,UE+MathSAT,2.3928439
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_fp.isSubnormal.smt2,UE+MathSAT,2.3713361
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_fp.isPositive.smt2,UE+MathSAT,2.368971
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.isNegative.smt2,UE+MathSAT,2.3689081
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.roundToIntegral_fp.isNormal.smt2,UE+MathSAT,2.3520699
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_fp.isNormal.smt2,UE+MathSAT,2.3446731
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.isNegative.smt2,UE+MathSAT,2.3436381
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.isNegative.smt2,UE+MathSAT,2.342749
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.isPositive.smt2,UE+MathSAT,2.3280351
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.isNegative.smt2,UE+MathSAT,2.3185929
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.isNaN.smt2,UE+MathSAT,2.2866801
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.isSubnormal.smt2,UE+MathSAT,2.2805798999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.neg_fp.isPositive.smt2,UE+MathSAT,2.273468
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_fp.isSubnormal.smt2,UE+MathSAT,2.269873
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_fp.isSubnormal.smt2,UE+MathSAT,2.269052
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_fp.isNegative.smt2,UE+MathSAT,2.2648209
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.isInfinite.smt2,UE+MathSAT,2.2587639999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.isSubnormal.smt2,UE+MathSAT,2.246127
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.isNegative.smt2,UE+MathSAT,2.235179
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_fp.isInfinite.smt2,Z3,2.200799999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isNormal.smt2,CVC4 (2018),2.19948
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isPositive2.smt2,CVC4 (2018),2.0336499999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isNegative0.smt2,Z3,2.003806
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_distinct0.smt2,CVC4 (2018),1.835653
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.gt0.smt2,Z3,1.8226899999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.geq0.smt2,Z3,1.74498
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isInfinite2.smt2,Z3,1.55124
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isZero0.smt2,Z3,1.4225209999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_fp.geq.smt2,Z3,1.367842
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isPositive0.smt2,Z3,1.3657651
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/filter1_true-unreach-call.c_344.smt2,Z3,1.3278370000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isNegative0.smt2,Z3,1.282734
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isNormal1.smt2,Z3,1.244691
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_distinct.smt2,CVC4 (2018),1.189540000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.isZero.smt2,CVC4 (2018),1.17889
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),1.1702800000000009
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_distinct.smt2,CVC4 (2018),1.1590299999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isNormal0.smt2,Z3,1.1368349999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_fp.isNegative.smt2,Z3,1.0774401
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.lt.smt2,CVC4 (2018),1.05987
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sqrt_fp.isSubnormal.smt2,UE+MathSAT,1.0521900000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.roundToIntegral_fp.lt.smt2,Z3,1.042735
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isInfinite2.smt2,Z3,1.023654
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isInfinite0.smt2,Z3,1.012713
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isInfinite1.smt2,Z3,0.9964299999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.geq0.smt2,Z3,0.9863300000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isInfinite0.smt2,Z3,0.9775760000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isNormal0.smt2,Z3,0.8894719999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.isNegative0.smt2,CVC4,0.875184
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.851700000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.isPositive.smt2,Z3,0.770071
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isInfinite0.smt2,Z3,0.7232109999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isNegative1.smt2,CVC4 (2018),0.7135091
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isInfinite1.smt2,Z3,0.712595
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_fp.isNormal.smt2,CVC4,0.711379
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_fp.lt.smt2,CVC4 (2018),0.708833
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.geq1.smt2,Z3,0.7076200000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.lt.smt2,CVC4 (2018),0.7076180000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isInfinite1.smt2,CVC4 (2018),0.6700999999999979
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.6311000000000035
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.isPositive1.smt2,Z3,0.6202589999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.geq.smt2,CVC4 (2018),0.616825
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_fp.isPositive.smt2,Z3,0.6009869999999999
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/float-div1_true-unreach-call.i_574.smt2,Z3,0.5851069999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.geq0.smt2,Z3,0.5661510000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isNegative.smt2,Z3,0.563029
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.add_fp.isPositive.smt2,Z3,0.533416
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isNegative.smt2,CVC4 (2018),0.4651529999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.geq.smt2,CVC4 (2018),0.450539
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isInfinite1.smt2,CVC4 (2018),0.44720000000000226
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.mul_fp.geq.smt2,Z3,0.44598400000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.leq.smt2,Z3,0.4203569
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isNormal1.smt2,Z3,0.400096
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.geq.smt2,CVC4 (2018),0.398224
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isPositive0.smt2,Z3,0.39556000000000013
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/exp_loop_true-unreach-call.c_850.smt2,Z3,0.353959
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isInfinite1.smt2,Z3,0.35237000000000007
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isNormal1.smt2,Z3,0.351199
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.isNormal0.smt2,Z3,0.350657
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.gt.smt2,Z3,0.33150799999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.gt.smt2,Z3,0.3244489
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_fp.isZero.smt2,Z3,0.30563799999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.isPositive1.smt2,Z3,0.301591
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isInfinite0.smt2,Z3,0.3009900000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.leq.smt2,Z3,0.284894
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.mul_fp.isNaN.smt2,CVC4,0.2752021
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isPositive1.smt2,Z3,0.27436000000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.mul_fp.isNaN.smt2,CVC4,0.2710331
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_fp.gt.smt2,CVC4 (2018),0.26750300000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.leq.smt2,Z3,0.2633209
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isPositive.smt2,Z3,0.26182900000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_fp.isSubnormal.smt2,Z3,0.2617679
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isNormal1.smt2,CVC4 (2018),0.257513
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.gt.smt2,Z3,0.2573591
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isNormal1.smt2,CVC4 (2018),0.25627200000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isNormal0.smt2,Z3,0.230932
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.isSubnormal.smt2,CVC4 (2018),0.2293099999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.isInfinite0.smt2,CVC4 (2018),0.22501000000000015
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.mul_distinct.smt2,Z3,0.22303000000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.isNegative0.smt2,Z3,0.22271509999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_fp.geq.smt2,Z3,0.218113
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.gt.smt2,CVC4 (2018),0.21254300000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.lt.smt2,Z3,0.21034399999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.leq.smt2,Z3,0.20865500000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isNormal2.smt2,CVC4,0.20698500000000009
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.lt.smt2,Z3,0.20459699999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.gt.smt2,CVC4,0.20362100000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isNaN0.smt2,Z3,0.1980669
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isNaN0.smt2,Z3,0.197677
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isNaN0.smt2,Z3,0.196297
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isInfinite0.smt2,CVC4,0.19287200000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.gt.smt2,Z3,0.18303599999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.gt.smt2,CVC4,0.177179
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.neg_fp.gt.smt2,CVC4,0.1764349
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_distinct0.smt2,Z3,0.17515299999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_=.smt2,CVC4,0.169505
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isNaN0.smt2,CVC4,0.160844
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isNaN0.smt2,CVC4,0.15845800000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.mul_fp.leq.smt2,Z3,0.15776799999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.leq.smt2,Z3,0.15708100000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.isPositive1.smt2,Z3,0.15594999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.geq.smt2,CVC4,0.15130899999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isNegative0.smt2,Z3,0.14222100000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.isNormal1.smt2,Z3,0.13969600000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.isNormal0.smt2,CVC4 (2018),0.13407999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_distinct1.smt2,Z3,0.13198
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.roundToIntegral_fp.gt.smt2,Z3,0.126903
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/float-div1_true-unreach-call.i_563.smt2,CVC4,0.12370999999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sqrt_fp.isZero.smt2,CVC4 (2018),0.11311399999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.11289999999999623
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.10998200000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sqrt_fp.isInfinite.smt2,CVC4 (2018),0.10535300000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.mul_fp.isPositive.smt2,Z3,0.1052239
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.lt.smt2,CVC4,0.10441689999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_fp.isNegative.smt2,Z3,0.100906
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_distinct1.smt2,Z3,0.100904
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.gt.smt2,CVC4,0.09696999999999978
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isNormal1.smt2,Z3,0.09678599999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.isZero.smt2,CVC4 (2018),0.09499500000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_distinct.smt2,Z3,0.08790590000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_fp.isInfinite.smt2,Z3,0.08731900000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isPositive1.smt2,CVC4 (2018),0.08593800000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isNormal0.smt2,CVC4 (2018),0.083654
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/exp_loop_true-unreach-call.c_219.smt2,Z3,0.08253300000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.mul_fp.isNegative.smt2,Z3,0.0814941
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isPositive1.smt2,CVC4 (2018),0.08148299999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isPositive.smt2,Z3,0.07950190000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.isInfinite.smt2,CVC4 (2018),0.07853500000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sqrt_fp.leq.smt2,Z3,0.07765090000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isNormal0.smt2,Z3,0.077151
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.isNormal.smt2,CVC4 (2018),0.07530400000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.07518999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_distinct.smt2,CVC4 (2018),0.074982
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.isNormal.smt2,Z3,0.07339010000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.roundToIntegral_distinct.smt2,Z3,0.0707801
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.add_fp.isInfinite.smt2,Z3,0.06829599999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isZero0.smt2,CVC4,0.06735999999999986
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/float-div1_true-unreach-call.i_367.smt2,CVC4,0.0665
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isNormal1.smt2,Z3,0.06364990000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.mul_fp.isPositive.smt2,Z3,0.06354599999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.isSubnormal.smt2,Z3,0.06173599999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isNaN1.smt2,CVC4,0.0608251
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.isNaN1.smt2,CVC4,0.0607581
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_fp.gt.smt2,CVC4 (2018),0.0605561
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_fp.isNormal.smt2,Z3,0.058506
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_fp.isInfinite.smt2,Z3,0.05835
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.05688799999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.leq1.smt2,Z3,0.05676199999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.isNaN.smt2,Z3,0.0566049
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isNaN0.smt2,CVC4,0.0545339
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isNormal0.smt2,Z3,0.0534751
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.add_fp.isNormal.smt2,Z3,0.05121200000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_distinct0.smt2,CVC4 (2018),0.04727999999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.abs_fp.geq.smt2,CVC4 (2018),0.043342000000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.geq.smt2,CVC4 (2018),0.0428041
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isNaN1.smt2,CVC4 (2018),0.0427271
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isInfinite1.smt2,Z3,0.042586
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_fp.geq.smt2,CVC4 (2018),0.042493100000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.gt0.smt2,Z3,0.04210999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isNaN1.smt2,CVC4 (2018),0.038976
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_39.smt2,CVC4 (2018),0.03849999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.leq.smt2,CVC4 (2018),0.038029099999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.isPositive.smt2,Z3,0.037653099999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_fp.isInfinite.smt2,CVC4 (2018),0.03754299999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.isNaN.smt2,Z3,0.03684
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_fp.isNaN.smt2,Z3,0.0367581
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.abs_fp.isNaN.smt2,Z3,0.0363381
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.isInfinite.smt2,Z3,0.036067100000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_fp.isZero.smt2,Z3,0.0359489
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.isZero.smt2,Z3,0.0358629
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_fp.isZero.smt2,Z3,0.0358371
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.abs_fp.isInfinite.smt2,Z3,0.035584000000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.fma_fp.isInfinite2.smt2,Z3,0.03339999999999854
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.roundToIntegral_fp.isNaN.smt2,Z3,0.0329822
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isNaN.smt2,Z3,0.032903
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.isInfinite.smt2,Z3,0.032863
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.abs_fp.isPositive.smt2,Z3,0.0318959
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.isPositive.smt2,Z3,0.0314239
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.isInfinite.smt2,Z3,0.03140299999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.isZero.smt2,Z3,0.031245
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.add_fp.isNormal.smt2,CVC4 (2018),0.031009999999999982
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_fp.isNaN.smt2,Z3,0.030994099999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_fp.isNaN.smt2,Z3,0.0309412
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_distinct.smt2,Z3,0.0309291
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_distinct.smt2,Z3,0.030924899999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isInfinite0.smt2,Z3,0.03063890000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_distinct.smt2,Z3,0.030562100000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isInfinite1.smt2,Z3,0.029415000000000024
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_distinct.smt2,Z3,0.029208800000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.abs_distinct.smt2,Z3,0.0292041
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_fp.geq.smt2,CVC4,0.026367100000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.lt.smt2,Z3,0.025501999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isSubnormal.smt2,Z3,0.0243709
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_fp.geq.smt2,CVC4 (2018),0.024113999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_distinct1.smt2,Z3,0.023916999999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.023769999999999847
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.isNormal.smt2,CVC4 (2018),0.023309999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_distinct0.smt2,Z3,0.022174000000000027
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.020580000000000265
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_distinct.smt2,Z3,0.0198662
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.mul_fp.isNaN.smt2,Z3,0.0198218
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.leq.smt2,Z3,0.0190141
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.isNaN.smt2,Z3,0.0185849
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.isInfinite.smt2,Z3,0.017965000000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.leq.smt2,Z3,0.017520100000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_=.smt2,Z3,0.016872899999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_fp.isZero.smt2,Z3,0.016588999999999993
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_=.smt2,Z3,0.0155758
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4 (2018),0.014788099999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_distinct.smt2,Z3,0.011874000000000023
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.gt.smt2,Z3,0.0101319
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.009604000000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_fp.isNegative.smt2,CVC4 (2018),0.008811
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.isNegative.smt2,CVC4 (2018),0.008359900000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.gt.smt2,Z3,0.008308099999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.gt.smt2,Z3,0.007676099999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.isNegative.smt2,CVC4,0.007168999999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.isNegative.smt2,CVC4,0.006902100000000008
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.006887199999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.005759999999999987
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_distinct.smt2,CVC4 (2018),0.005050899999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.isNormal.smt2,CVC4,0.004735999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_distinct.smt2,CVC4 (2018),0.004722799999999992
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isNormal0.smt2,CVC4 (2018),0.004570999999999992
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.gt.smt2,Z3,0.004407999999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.neg_fp.gt.smt2,Z3,0.004336900000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.gt.smt2,Z3,0.004276200000000001
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4,0.004265999999999992
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.gt.smt2,Z3,0.004073
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.0039258999999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_fp.isNegative.smt2,CVC4 (2018),0.0038639000000000034
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.isInfinite.smt2,Z3,0.003846000000000016
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.isNormal.smt2,CVC4,0.0038347999999999993
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_distinct.smt2,CVC4,0.0036680000000000046
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isNormal.smt2,CVC4,0.0035630999999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4,0.0035550000000000026
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.isNormal.smt2,CVC4,0.0035268999999999995
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.isNaN.smt2,CVC4,0.0034440999999999986
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.003375100000000006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.isSubnormal.smt2,CVC4,0.0032510000000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.isSubnormal.smt2,CVC4,0.0032430999999999988
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.isNormal.smt2,CVC4,0.0032230999999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_distinct.smt2,CVC4,0.0031879000000000005
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.isPositive.smt2,CVC4,0.0031422000000000012
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.isPositive.smt2,CVC4,0.0031280000000000058
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_fp.isPositive.smt2,CVC4,0.0031209999999999988
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_fp.isInfinite.smt2,CVC4,0.0030320999999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_fp.isNormal.smt2,CVC4,0.003025
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.isPositive.smt2,CVC4,0.0030209999999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.abs_fp.isNaN.smt2,CVC4,0.003005899999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.isNaN.smt2,CVC4,0.0029062000000000046
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.roundToIntegral_fp.isNaN.smt2,CVC4,0.0029061000000000017
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.roundToIntegral_fp.isNormal.smt2,CVC4,0.0029040999999999997
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.002815999999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_fp.isSubnormal.smt2,CVC4,0.0027749000000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.0027709000000000067
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.isNegative.smt2,CVC4,0.0027340000000000003
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_distinct.smt2,CVC4,0.0026879
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.geq.smt2,CVC4,0.0026489999999999986
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.roundToIntegral_distinct.smt2,CVC4,0.0026300999999999963
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_fp.leq.smt2,Z3,0.002571000000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.0024992
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.abs_fp.isPositive.smt2,CVC4,0.002484
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.isNormal.smt2,CVC4,0.002470800000000002
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.isSubnormal.smt2,CVC4,0.002378999999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_fp.isSubnormal.smt2,CVC4,0.0022861999999999986
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.isNormal.smt2,CVC4,0.0022628999999999982
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.002237099999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isNaN0.smt2,CVC4,0.0021052000000000015
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.0020201000000000004
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_distinct.smt2,CVC4,0.001918099999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.lt.smt2,Z3,0.0018629000000000007
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.isSubnormal.smt2,CVC4,0.001795999999999999
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.neg_fp.geq.smt2,CVC4,0.0016877999999999962
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isZero.smt2,CVC4,0.0014429999999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isInfinite1.smt2,CVC4,0.0014149999999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isInfinite.smt2,CVC4,0.0013939999999999994
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.lt.smt2,Z3,0.0012160000000000018
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.isZero.smt2,CVC4,0.0010841000000000045
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0010599000000000025
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_distinct.smt2,CVC4,0.0010519999999999974
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isNaN0.smt2,Z3,0.001006
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.0010042000000000106
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4 (2018),0.0008431999999999884
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isInfinite0.smt2,CVC4,0.0008100000000000052
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_fp.isInfinite.smt2,CVC4,0.0006841
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0005320000000000012
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.leq.smt2,CVC4 (2018),0.000437899999999998
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.leq.smt2,Z3,0.00023789999999999922
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.geq.smt2,CVC4,0.00021899999999999697
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_fp.isSubnormal.smt2,CVC4 (2018),0.0001799999999999996
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.0001567999999999986
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.isNegative.smt2,CVC4 (2018),6.199999999999956e-05
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),3.400000000000278e-05
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.isNegative.smt2,CVC4,1.0099999999998999e-05
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isSubnormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.isNormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.leq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1699.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isNegative1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.mul_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.neg_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isPositive2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.neg_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.isNormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isNormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.mul_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_distinct1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.geq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isPositive0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isNegative1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.mul_fp.isZero.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.isNegative.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1067.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.isSubnormal1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isPositive1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.isSubnormal.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.geq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isNegative1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/inv_square_true-unreach-call.c_72.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.isNegative.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.fma_fp.isPositive2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isSubnormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_=0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.leq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sqrt_fp.isZero.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.mul_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isPositive0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isSubnormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isPositive1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.add_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.isPositive.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.add_fp.isZero.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_=0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_=0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.roundToIntegral_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.leq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.mul_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.neg_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_fp.leq.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.fma_fp.isInfinite2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isSubnormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isInfinite1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.fma_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_=0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/exp_loop_true-unreach-call.c_1310.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_fp.isNegative.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isInfinite2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.mul_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.lt.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.fma_fp.isNormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.geq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.fma_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_fp.leq.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.mul_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isSubnormal.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isInfinite2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_112.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isNormal2.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.mul_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.neg_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.mul_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.lt1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1081.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.fma_fp.isNegative2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_=1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1466.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.mul_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.abs_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_fp.geq.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.add_fp.isNormal.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_fp.isPositive.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.roundToIntegral_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isNegative1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isNaN.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isSubnormal1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sqrt_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isNegative1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isPositive0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.isNegative1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.add_=.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isInfinite1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_=0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isSubnormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.fma_fp.isNormal2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isSubnormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isSubnormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isSubnormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1073.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isSubnormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.leq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isZero2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sub_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.fma_fp.isNegative2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.add_fp.isNegative.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.rem_fp.isSubnormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isSubnormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.geq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.neg_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isNaN1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.lt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isNormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.add_fp.isNegative.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isZero2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.add_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.mul_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isNegative2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.mul_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/exp_loop_true-unreach-call.c_679.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.isPositive.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.abs_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_tight_true-unreach-call.c_39.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isInfinite1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.roundToIntegral_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.fma_fp.isZero2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isNormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/inv_square_true-unreach-call.c_70.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.mul_fp.isPositive.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.isNegative1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_=0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isInfinite1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.geq1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.fma_fp.isNegative2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.leq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.neg_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isSubnormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sqrt_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.add_=.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isNormal2.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_distinct0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sqrt_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_fp.isNormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sqrt_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1697.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sqrt_distinct.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_38.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isNegative2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_159.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isZero1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_fp.isSubnormal.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isPositive1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.neg_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_=0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.mul_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.div_fp.geq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.rem_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sub_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.abs_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.isPositive.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.neg_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sub_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_loose_true-unreach-call.c_157.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.isNegative.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.isNegative1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.mul_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.neg_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.isNaN.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.roundToIntegral_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.fma_fp.isNormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.add_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isInfinite1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.neg_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.rem_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.neg_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.neg_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isNegative0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sub_fp.isNegative1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_distinct1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sqrt_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.roundToIntegral_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.roundToIntegral_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.rem_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.fma_fp.isNaN2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.rem_fp.isPositive1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.neg_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.mul_fp.isSubnormal.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.add_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sqrt_fp.geq.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_=0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.fma_fp.isPositive0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isNegative0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isInfinite0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.isZero.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_distinct0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_=.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.div_fp.geq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.gt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.div_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.isNormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.neg_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.add_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_877.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.abs_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.add_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_fp.leq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.geq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.sub_fp.isSubnormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.isInfinite.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.rem_fp.isPositive0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isZero1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.abs_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.fma_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.neg_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.sqrt_fp.isNaN.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.abs_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.abs_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.fma_fp.isNormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.neg_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.mul_fp.geq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.mul_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isSubnormal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sqrt_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.roundToIntegral_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.sqrt_fp.lt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.sub_fp.gt0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isPositive0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sqrt_fp.gt.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isZero0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.fma_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.add_fp.isNormal.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.neg_fp.leq.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.rem_distinct1.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_distinct1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.leq0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.sub_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.isNormal0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.neg_fp.lt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isPositive1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.add_fp.isNaN.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.leq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.sub_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.leq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.abs_fp.isNaN.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.rem_=0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1457.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.leq0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.div_fp.isPositive0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTP_fp.neg_=.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.mul_fp.gt.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isNaN0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/rlim_invariant_true-unreach-call.c_1063.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.rem_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.rem_fp.isNormal0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.div_fp.lt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.sqrt_=.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.roundToIntegral_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.rem_fp.isNegative1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.fma_fp.isZero2.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.roundToIntegral_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.abs_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.sub_fp.isZero1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.mul_=.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.neg_fp.isInfinite.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.abs_distinct.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.div_fp.isNormal1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.div_=0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.abs_fp.isNegative.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.sub_=0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.add_fp.isZero.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNA_fp.fma_fp.isNegative2.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.add_fp.isSubnormal.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.fma_fp.isInfinite2.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.mul_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTN_fp.sqrt_fp.isZero.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.sub_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNA_fp.sub_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isNormal0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RNE_fp.add_distinct.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.rem_fp.isNegative0.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.isNaN1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.neg_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNA_fp.div_fp.geq1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.div_fp.lt1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.rem_fp.isZero0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTZ_fp.fma_fp.isInfinite0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTP_fp.roundToIntegral_fp.isSubnormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.div_fp.leq0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RTP_fp.rem_fp.isPositive1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.abs_fp.geq.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTZ_fp.sub_=1.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RNE_fp.div_fp.gt0.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTZ_fp.abs_fp.isNormal.smt2,CVC4 (2018),0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/8_24_RTN_fp.div_=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/11_53_RTN_fp.sqrt_fp.isNormal.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/FP/20170501-Heizmann-UltimateAutomizer/zonotope_tight_true-unreach-call.c_38.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/FP/2019-Preiner/3_5_RNE_fp.rem_fp.isZero1.smt2,Z3,0.0

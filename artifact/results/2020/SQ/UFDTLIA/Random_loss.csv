@@ -1,0 +1,278 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal9.smt2,UE+MathSAT,2399.9723271
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal2.smt2,UE+MathSAT,2399.9718929
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal54.smt2,UE+MathSAT,2399.9708941
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal51.smt2,UE+MathSAT,2399.9700821
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal35.smt2,Alt-Ergo,2399.9386309
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal55.smt2,UE+MathSAT,2399.933342
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/11-sens-equal-k-twice.spec.smt2,Alt-Ergo,2399.898658
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg33.smt2,Alt-Ergo,2399.846512
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/2-sens-equal-sums-two-arrays.spec.smt2,UE+MathSAT,2399.758343
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/9-sens-explicit-swap-prop2.spec.smt2,CVC4 (2019),2394.30983
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal27.smt2,UE+MathSAT,2380.9099
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal53.smt2,Alt-Ergo,2380.9082
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal36.smt2,UE+MathSAT,2380.8911
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal2.smt2,Alt-Ergo,2380.8846
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal3.smt2,UE+MathSAT,2380.8817
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg3.smt2,Alt-Ergo,2380.881
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg10.smt2,Alt-Ergo,2380.8797
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal77.smt2,Alt-Ergo,2380.8765
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal60.smt2,Alt-Ergo,2380.8743
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg50.smt2,Alt-Ergo,2380.8734
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg28.smt2,UE+MathSAT,2380.8595
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal2.smt2,Alt-Ergo,2380.8392
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal65.smt2,Alt-Ergo,2380.8289
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal9.smt2,Alt-Ergo,2380.8169
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal14.smt2,UE+MathSAT,2380.8161
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal1.smt2,Alt-Ergo,2380.8151
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal51.smt2,Alt-Ergo,2380.8134
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg8.smt2,Alt-Ergo,2380.8047
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg11.smt2,UE+MathSAT,2380.7852
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal60.smt2,UE+MathSAT,2380.7384
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal2.smt2,Alt-Ergo,2380.7108
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal48.smt2,UE+MathSAT,2380.6921
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal13.smt2,Alt-Ergo,2380.6826
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal62.smt2,UE+MathSAT,2380.4059
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal43.smt2,UE+MathSAT,2376.53
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal30.smt2,UE+MathSAT,2376.0985
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal15.smt2,Alt-Ergo,2375.7903
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal67.smt2,UE+MathSAT,2363.5067
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal9.smt2,Alt-Ergo,2333.5264
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal8.smt2,UE+MathSAT,2333.1985
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal36.smt2,UE+MathSAT,2069.725
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg12.smt2,Alt-Ergo,2069.7219999999998
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg77.smt2,UE+MathSAT,2069.713
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg76.smt2,Vampire,2069.7
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg78.smt2,Vampire,2069.69
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal39.smt2,UE+MathSAT,2069.684
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg83.smt2,Vampire,2069.6639999999998
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal37.smt2,Vampire,2069.661
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg18.smt2,Vampire,2069.588
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg80.smt2,Vampire,2069.556
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg79.smt2,Vampire,2069.529
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal4.smt2,Alt-Ergo,2068.899
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal6.smt2,UE+MathSAT,2068.312
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal5.smt2,UE+MathSAT,2067.958
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal47.smt2,Vampire,2067.027
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal64.smt2,UE+MathSAT,2064.672
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal7.smt2,Alt-Ergo,2062.638
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal10.smt2,Alt-Ergo,2062.138
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal12.smt2,UE+MathSAT,2061.797
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal8.smt2,Vampire,2061.741
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal19.smt2,Alt-Ergo,2052.557
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal72.smt2,Vampire,2051.5860000000002
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal6.smt2,Vampire,2050.567
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal25.smt2,Vampire,2048.932
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal5.smt2,Alt-Ergo,2048.141
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal83.smt2,Alt-Ergo,2047.187
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal18.smt2,Alt-Ergo,2046.863
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal64.smt2,Alt-Ergo,2046.261
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal9.smt2,UE+MathSAT,2042.616
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal3.smt2,Alt-Ergo,2042.57
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg7.smt2,UE+MathSAT,2042.228
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal7.smt2,Alt-Ergo,2041.083
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal3.smt2,Alt-Ergo,2034.3319999999999
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg85.smt2,Vampire,2032.1970000000001
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal9.smt2,UE+MathSAT,1671.58
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal1.smt2,CVC4 (2019),681.6487999999999
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal16.smt2,CVC4 (2019),668.0116
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal57.smt2,CVC4 (2019),666.5790341000001
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal69.smt2,CVC4 (2019),665.129
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg27.smt2,CVC4 (2019),660.141632
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal65.smt2,CVC4 (2019),648.5364
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg48.smt2,CVC4 (2019),647.7434
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal52.smt2,CVC4 (2019),647.7048
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal46.smt2,CVC4 (2019),644.5716
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal45.smt2,CVC4 (2019),644.3788
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rev-equiv-goal3.smt2,CVC4 (2019),642.4145000000001
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal63.smt2,CVC4 (2019),641.2452
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal61.smt2,CVC4 (2019),641.2113
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg19.smt2,CVC4 (2019),641.2084
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg2.smt2,CVC4 (2019),641.1413
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal4.smt2,CVC4 (2019),359.99199999999996
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal3.smt2,CVC4 (2019),345.43299999999994
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal57.smt2,CVC4 (2019),345.393
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal17.smt2,CVC4 (2019),343.736
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal85.smt2,CVC4 (2019),342.701
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal6.smt2,CVC4,341.9335
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal2.smt2,CVC4 (2019),341.22300000000007
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg1.smt2,CVC4,339.1039
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal7.smt2,CVC4 (2019),338.663
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg16.smt2,CVC4,336.6235
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal22.smt2,CVC4 (2019),334.704
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal56.smt2,CVC4 (2019),334.123
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal56.smt2,CVC4 (2019),332.659
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal73.smt2,CVC4 (2019),332.326
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal1.smt2,CVC4 (2019),332.316
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal85.smt2,CVC4 (2019),332.262
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg22.smt2,CVC4 (2019),331.753
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal69.smt2,CVC4 (2019),331.53900000000004
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal54.smt2,CVC4 (2019),331.42
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal86.smt2,CVC4 (2019),330.153
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal26.smt2,CVC4 (2019),330.081
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal59.smt2,CVC4 (2019),330.07500000000005
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg75.smt2,CVC4 (2019),330.05600000000004
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal8.smt2,CVC4,323.4828
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal3.smt2,CVC4,320.6865
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg4.smt2,CVC4,318.494
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg14.smt2,CVC4,317.452
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal38.smt2,CVC4,315.1469
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal2.smt2,CVC4,314.20689999999996
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal5.smt2,CVC4,314.123
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rev-equiv-goal7.smt2,CVC4,311.5669
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal37.smt2,CVC4,311.2195
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal59.smt2,CVC4,311.15930000000003
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg5.smt2,CVC4,311.1583
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal29.smt2,CVC4,311.07620000000003
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal68.smt2,CVC4,310.9528
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal71.smt2,CVC4,274.4397
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal70.smt2,CVC4,273.2768
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/5-sens-two-arrays-equal-k.spec.smt2,CVC4,253.811513
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal11.smt2,CVC4 (2019),251.57171689999998
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/6-sens-diff-up-to-explicit-k.spec.smt2,CVC4,249.998786
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/non-interference/9-ni-equal-output.spec.smt2,CVC4 (2019),188.6439
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/hamming-weight/3-hw-swap-and-two-arrays.spec.smt2,Vampire,118.369
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/hamming-weight/1-hw-equal-arrays.spec.smt2,CVC4,95.52171899999999
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/nichomachus-goal5.smt2,CVC4 (2019),58.926500000000004
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal13.smt2,CVC4 (2019),31.299499999999995
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal66.smt2,Vampire,19.862786999999997
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal8.smt2,Vampire,19.0866959
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/hamming-weight/2-hw-last-position-swapped.spec.smt2,CVC4,11.066683000000001
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal14.smt2,Alt-Ergo,1.286919
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal67.smt2,Vampire,0.217417
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/non-interference/6-ni-branch-assign-equal-val.spec.smt2,Vampire,0.1268301
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal74.smt2,Vampire,0.119694
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal2.smt2,Vampire,0.0661069
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rotate-goal9.smt2,Vampire,0.0345299
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal15.smt2,CVC4 (2019),0.030838
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal7.smt2,CVC4,0.015229000000000003
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal6.smt2,Alt-Ergo,0.0031880999999999993
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal66.smt2,CVC4 (2019),0.0017280000000000004
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal6.smt2,CVC4 (2019),0.0015060000000000073
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/non-interference/4-ni-branch-on-high-twice-prop2.spec.smt2,CVC4,0.00038699999999999846
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rotate-goal8.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal87.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal82.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal80.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal14.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal78.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal5.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/10-sens-equal-k.spec.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rotate-goal7.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal27.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal12.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal7.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal35.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg9.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal84.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal15.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal7.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal8.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal77.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal11.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal10.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg25.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal23.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal12.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal81.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal6.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg86.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal6.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal7.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg20.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal20.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal4.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal9.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal58.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal18.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal3.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal75.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal31.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal70.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal17.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal13.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal33.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal16.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal48.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal76.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal18.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal28.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg49.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal5.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal3.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal7.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal76.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg21.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal74.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg17.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal47.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/7-sens-diff-up-to-explicit-k-sum.spec.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal49.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal4.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal72.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal14.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal6.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal4.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal9.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg82.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal50.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal82.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal53.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg35.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg84.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal58.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal41.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg81.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal19.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal2.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal8.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/nichomachus-goal7.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal8.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal3.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal49.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal29.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal79.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal4.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal30.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal73.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal32.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal86.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal6.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal13.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg13.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal8.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal4.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/sg/rotate-goal4.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal62.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal1.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal52.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal38.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/amortize-queue-goal10.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal75.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg32.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/non-interference/8-ni-explicit-flow-while.spec.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg6.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/hamming-weight/4-hw-swap-in-array-lemma.spec.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal10.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal61.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/heap-goal11.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal28.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal2.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal11.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal68.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/hamming-weight/4-hw-swap-in-array-full.spec.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal81.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/sg/goal-sg23.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal12.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/1-sens-equal-sums.spec.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rotate-goal9.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal34.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal50.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal5.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal84.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/leon/bsearch-tree-goal1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/isaplanner/goal20.smt2,UE+MathSAT,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/hipspec/rev-equiv-goal1.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/20172804-Barrett/induction-vmcai2015/clam/goal21.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/UFDTLIA/2019-Gleiss/sensitivity/8-sens-explicit-swap.spec.smt2,Vampire,0.0

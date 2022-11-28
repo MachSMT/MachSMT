@@ -1,0 +1,70 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/QF_LIA/ultimateKojak/bist_cell_true-unreach-call_false-termination.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/FIREFLY_rt.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem05_00_false-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/UltimateBuchiAutomizer/AliasDarteFeautrierGonnord-SAS2010-loops_true-termination.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/mem_slave_tlm.5.c.kratos.int.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/UltimateBuchiAutomizer/BradleyMannaSipma-ICALP2005-Fig1_true-termination.c.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/cd.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/MESI_all.ind_k100.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/two_counters.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pipeline.c.kratos.int.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pc_sfifo_3.c.kratos.int.ind_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy-bug-1.c.kratos.int.ind_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/PRODUCER_CONSUMER_all.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/bist_cell.c.kratos.int.ind_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/UltimateBuchiAutomizer/PodelskiRybalchenko-LICS2004-Fig1_true-termination.c.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/traffic.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/SYNAPSE_all.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/UltimateBuchiAutomizer/c.01-no-inv_true-termination.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/mem_slave_tlm.5_true-unreach-call_false-termination.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pipeline-bug.c.kratos.int.ind_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/mem_slave_tlm.5.c.kratos.int.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/SYNAPSE_all.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem08_00_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/UltimateBuchiAutomizer/GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/transmitter.10.c.kratos.int.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/metros_1.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/FIREFLY_rt.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/MESI_all.bmc_k100.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/ex3.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem09_50_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pipeline-bug.c.kratos.int.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateKojak/s3_clnt_1_true-unreach-call.cil.c.prep.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/DRAGON_all2.ind_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/speed2.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/durationThm_1.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateKojak/floppy_simpl4_false-unreach-call_true-termination.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/pipeline_true-unreach-call_false-termination.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem08_60_false-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/toy2_false-unreach-call_false-termination.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem07_00_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/hysteresis_all.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/ILLINOIS_all.bmc_k100.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy-bug-2.c.kratos.int.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy-bug-1.c.kratos.int.bmc_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/kundu.c.kratos.int.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy.c.kratos.int.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/toy1_false-unreach-call_false-termination.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/kundu.c.kratos.int.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/swimmingpool_1.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/rtp_vt.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/DRAGON_all.bmc_k100.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/token_ring.10.c.kratos.int.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pipeline.c.kratos.int.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/SYNAPSE_i1.bmc_k100.smt2,Z3,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/pc_sfifo_2_true-unreach-call_false-termination.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy.c.kratos.int.bmc_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/PRODUCER_CONSUMER_vt.ind_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem05_10_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/toy_true-unreach-call_false-termination.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/_6countern.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateKojak/s3_clnt_1_false-unreach-call.cil.c.prep.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateKojak/kundu_true-unreach-call_false-termination.cil.c.prep.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/toy-bug-2.c.kratos.int.ind_k100.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/bist_cell.c.kratos.int.bmc_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem05_50_true-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/two_counters.ind_k100.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_LIA/ultimateAutomizer/Problem04_40_false-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-incremental/QF_LIA/kratos_systemC_swmc/pc_sfifo_3.c.kratos.int.bmc_k100.smt2,SMTInterpol,0.0
+/data/SMT-LIB-incremental/QF_LIA/lustre/rtp_all.ind_k100.smt2,Yices (2018),0.0

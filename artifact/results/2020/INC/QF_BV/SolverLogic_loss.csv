@@ -1,0 +1,485 @@
+benchmark,prediction,loss
+/data/SMT-LIB-incremental/QF_BV/2019-Wolf-fmbench/2019A/picorv32_mutBX_QF_BV.smt2,LazyBV2Int,2080.0200000000004
+/data/SMT-LIB-incremental/QF_BV/2019-Wolf-fmbench/2019A/picorv32_mutCX_QF_BV.smt2,LazyBV2Int,2079.9300000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Wolf-fmbench/ponylink-slaveTXlen-sat-unrolled.smt2,STP-MergeSat,1066.8737826086956
+/data/SMT-LIB-incremental/QF_BV/2018-Wolf-fmbench/VexRiscv-regch0-20-unrolled.smt2,Yices (2019),735.1443999999999
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/toy-bug-2.c.kratos.bv64.bmc_k100.smt2,LazyBV2Int,683.8843861386139
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/toy-bug-2.c.kratos.bv64.ind_k100.smt2,Bitwuzla,534.7134653465346
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/mem_slave_tlm.5.c.kratos.bv64.bmc_k100.smt2,LazyBV2Int,522.7522772277227
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/kundu.c.kratos.bv64.ind_k100.smt2,LazyBV2Int,368.3168316831684
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/mem_slave_tlm.5.c.kratos.bv64.ind_k100.smt2,LazyBV2Int,296.9697029702975
+/data/SMT-LIB-incremental/QF_BV/2018-Wolf-fmbench/zipcpu-pfcache-unrolled.smt2,CVC4,226.9956
+/data/SMT-LIB-incremental/QF_BV/2018-Wolf-fmbench/zipcpu-busdelay-unrolled.smt2,Z3,177.5579
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/pipeline.c.kratos.bv64.bmc_k100.smt2,Yices,47.48475247524766
+/data/SMT-LIB-incremental/QF_BV/20170501-Heizmann-UltimateAutomizer/parity_true-unreach-call_true-no-overflow.i.smt2,Yices,13.010370000000002
+/data/SMT-LIB-incremental/QF_BV/20170501-Heizmann-UltimateAutomizer/jain_5_true-unreach-call_true-no-overflow.i.smt2,STP-MergeSat,8.00133
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.5.4.ufo.BOUNDED-10.pals.c.p+lhb-reducer_smt-query.0.smt2,Yices,4.984259999999999
+/data/SMT-LIB-incremental/QF_BV/20170501-Heizmann-UltimateAutomizer/gcd_1_true-unreach-call_true-no-overflow.i.smt2,Yices (2019),3.4890000000000003
+/data/SMT-LIB-incremental/QF_BV/20170501-Heizmann-UltimateAutomizer/sum_10x0_true-unreach-call_true-termination.c.smt2,MathSAT5,1.82966
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.5.2.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,STP-MergeSat,0.8299079999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_peg_solitaire.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.39123100000000005
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.1.ufo.BOUNDED-8.pals.c.v+nlh-reducer_smt-query.0.smt2,STP-MergeSat,0.35267
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.1.ufo.BOUNDED-6.pals.c.v+lhb-reducer_smt-query.0.smt2,STP-MergeSat,0.29288610000000004
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.2.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,STP-MergeSat,0.26511300000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_telephony.6.prop1_cc_ref_max.smt2,Yices,0.20640299999999998
+/data/SMT-LIB-incremental/QF_BV/2019-Wolf-fmbench/2019B/marlann_compute_cp_pass_QF_BV.smt2,Yices,0.19297800000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_protocols.4.prop1_cc_ref_max.smt2,CVC4,0.16672789999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_telephony.7.prop1_cc_ref_max.smt2,Yices,0.166366
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.1.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,STP-MergeSat,0.1627191
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_telephony.4.prop1_cc_ref_max.smt2,Yices,0.15519700000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bakery.1.prop1_cc_ref_max.smt2,CVC4,0.1514661
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/cdaudio_simpl1.cil-2_smt-query.0.smt2,STP-MergeSat,0.145407
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.4.ufo.BOUNDED-8.pals.c.v+nlh-reducer_smt-query.0.smt2,STP-MergeSat,0.144023
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_iprotocol.7.prop1_cc_ref_max.smt2,Yices,0.13196010000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_fischer.5.prop1_cc_ref_max.smt2,CVC4,0.13146390000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_iprotocol.3.prop1_cc_ref_max.smt2,Yices,0.13028800000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_fischer.6.prop1_cc_ref_max.smt2,CVC4,0.12788509999999997
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/floppy_simpl4.cil-2_smt-query.0.smt2,STP-MergeSat,0.117911
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.4.prop2_cc_ref_max.smt2,Yices (2019),0.117069
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_adding.4.prop1_cc_ref_max.smt2,STP-MergeSat,0.1136519
+/data/SMT-LIB-incremental/QF_BV/20170501-Heizmann-UltimateAutomizer/overflow_false-unreach-call1.i.smt2,Yices,0.10885999999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_iprotocol.3.prop1_cc_ref_max.smt2,Yices (2019),0.10629
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_anderson.5.prop1_cc_ref_max.smt2,Yices,0.10521000000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_needham.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.09843000000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.3.2.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,STP-MergeSat,0.0969929
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_iprotocol.6.prop1_cc_ref_max.smt2,Yices,0.094366
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport_nonatomic.4.prop1_cc_ref_max.smt2,CVC4,0.08853899999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_filters.7.prop1_cc_ref_max.smt2,CVC4,0.0857759
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_leader_filters.6.prop1_cc_ref_max.smt2,CVC4,0.08489089999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp.4.prop1_cc_ref_max.smt2,STP-MergeSat,0.08452
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_szymanski.3.prop1_cc_ref_max.smt2,CVC4,0.08276789999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_brp.6.prop1_cc_ref_max.smt2,STP-MergeSat,0.082345
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_iprotocol.5.prop1_cc_ref_max.smt2,Yices (2019),0.0820711
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_krebs.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.081191
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_telephony.1.prop1_cc_ref_max.smt2,Yices (2019),0.078466
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_seq_cc_ref_max.smt2,CVC4,0.078151
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_h_FIFO_cc_ref_max.smt2,STP-MergeSat,0.07751609999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_productSimulator.cil_smt-query.0.smt2,CVC4,0.0764281
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_brp.5.prop1_cc_ref_max.smt2,STP-MergeSat,0.075231
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_krebs.4.prop1_cc_ref_max.smt2,Yices (2019),0.07442599999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_election.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.073935
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_filters.5.prop1_cc_ref_max.smt2,CVC4,0.0717632
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_at.6.prop1_cc_ref_max.smt2,CVC4,0.0705259
+/data/SMT-LIB-incremental/QF_BV/2019-Wolf-fmbench/2019A/picorv32_mutCY_QF_BV.smt2,Bitwuzla,0.06999999999993634
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_msmie.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.06951510000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lamport.8.prop1_cc_ref_max.smt2,STP-MergeSat,0.064606
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_mcs.6.prop1_cc_ref_max.smt2,STP-MergeSat,0.0627429
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.2.prop1_cc_ref_max.smt2,Yices (2019),0.06220999999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--misc--sgi-xp--xp.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,STP-MergeSat,0.056345099999999995
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_driving_phils.4.prop1_cc_ref_max.smt2,CVC4,0.05527889999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_hanoi.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.05324200000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_rushhour.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.05282110000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bakery.5.prop1_cc_ref_max.smt2,CVC4,0.05110110000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_bakery.6.prop1_cc_ref_max.smt2,CVC4,0.050948099999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.8.prop2_cc_ref_max.smt2,STP-MergeSat,0.050926
+/data/SMT-LIB-incremental/QF_BV/2018-Mann/arbiter_cex_w8d8q8n4b10.smt2,Yices,0.04697399999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_h_BufAl_cc_ref_max.smt2,STP-MergeSat,0.045857100000000005
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_exit.4.prop1_cc_ref_max.smt2,STP-MergeSat,0.04430900000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_cambridge.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.04417600000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_firewire_tree.3.prop2_cc_ref_max.smt2,Yices,0.04197599999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_adding.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.04079289999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product48.cil_smt-query.0.smt2,CVC4,0.039837199999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_AR_cc_ref_max.smt2,STP-MergeSat,0.039460999999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sokoban.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.0393921
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.3.prop3_cc_ref_to.smt2,Yices,0.039309999999999956
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_diagonal_v_cc_ref_max.smt2,STP-MergeSat,0.038787
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_frogs.2.prop1_cc_ref_max.smt2,Yices (2019),0.03808400000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product56.cil_smt-query.0.smt2,CVC4,0.0375239
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_fischer.6.prop1_cc_ref_max.smt2,Yices,0.03545999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lamport_nonatomic.1.prop1_cc_ref_max.smt2,CVC4,0.0351909
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_train-gate.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.034989
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.1.prop2_cc_ref_to.smt2,Yices,0.03289999999999993
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_train-gate.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.0320781
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_telephony.4.prop1_cc_ref_max.smt2,Yices,0.030147000000000007
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product21.cil_smt-query.0.smt2,STP-MergeSat,0.029837799999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product16.cil_smt-query.0.smt2,CVC4,0.029657199999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_peterson.5.prop1_cc_ref_max.smt2,STP-MergeSat,0.02859389999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product07.cil_smt-query.0.smt2,CVC4,0.028406800000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.7.prop2_cc_ref_max.smt2,STP-MergeSat,0.028258000000000005
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product06.cil_smt-query.0.smt2,CVC4,0.028135999999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--misc--isl29020.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,STP-MergeSat,0.027900199999999997
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product24.cil_smt-query.0.smt2,CVC4,0.0278982
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.2.prop2_cc_ref_max.smt2,Yices (2019),0.027515899999999996
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_7a_cilled_linux-3.8-rc1-drivers--pcmcia--pcmcia_rsrc.ko-main.cil.out_smt-query.0.smt2,STP-MergeSat,0.027352900000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_leader_election.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.027201899999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product16.cil_smt-query.0.smt2,CVC4,0.026709000000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_collision.3.prop1_cc_ref_max.smt2,Yices,0.026170000000000027
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_v_FIFO_cc_ref_max.smt2,STP-MergeSat,0.025492200000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_protocols.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.025451899999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_h_FIFO_cc_ref_max.smt2,STP-MergeSat,0.024841000000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_iprotocol.2.prop1_cc_ref_max.smt2,Yices (2019),0.024065899999999987
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.7.prop5_cc_ref_max.smt2,STP-MergeSat,0.023997900000000003
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product59.cil_smt-query.0.smt2,STP-MergeSat,0.023785999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.5.prop5_cc_ref_max.smt2,STP-MergeSat,0.023375
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bakery.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.023081900000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product08.cil_smt-query.0.smt2,CVC4,0.021845000000000003
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product20.cil_smt-query.0.smt2,CVC4,0.020737
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.2.prop2_cc_ref_to.smt2,Yices,0.020435999999999954
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_telephony.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.019312999999999997
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec3_product28.cil_smt-query.0.smt2,Yices (2019),0.0191951
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_cambridge.2.prop2_cc_ref_max.smt2,Yices,0.018535999999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_telephony.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.018345
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.4.prop1_cc_ref_max.smt2,Yices,0.016702999999999968
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_frogs.5.prop1_cc_ref_max.smt2,Yices,0.016456999999999944
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_firewire_tree.3.prop3_cc_ref_max.smt2,Yices,0.01553600000000005
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.5.2.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.015051000000000037
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product24.cil_smt-query.0.smt2,STP-MergeSat,0.013665799999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.5.prop1_cc_ref_max.smt2,STP-MergeSat,0.013275000000000009
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_Heap_cc_ref_max.smt2,STP-MergeSat,0.013219999999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.4.4.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices,0.013002999999999987
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/bist_cell.cil_smt-query.0.smt2,STP-MergeSat,0.012902000000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product05.cil_smt-query.0.smt2,STP-MergeSat,0.0126389
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product01.cil_smt-query.0.smt2,STP-MergeSat,0.012320200000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product26.cil_smt-query.0.smt2,STP-MergeSat,0.012219
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_filters.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.0120901
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_mcs.5.prop1_cc_ref_max.smt2,Yices (2019),0.012064100000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_anderson.4.prop1_cc_ref_max.smt2,Yices,0.012064000000000005
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_cambridge.1.prop1_cc_ref_max.smt2,Yices (2019),0.01174
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product01.cil_smt-query.0.smt2,Yices,0.011550199999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_h_FourbyFour_cc_ref_max.smt2,Yices (2019),0.011483999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_fischer.4.prop1_cc_ref_max.smt2,STP-MergeSat,0.011312999999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.3.prop4_cc_ref_max.smt2,Yices,0.011120000000000019
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product18.cil_smt-query.0.smt2,STP-MergeSat,0.011039100000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product08.cil_smt-query.0.smt2,STP-MergeSat,0.0110311
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.3.ufo.BOUNDED-8.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.011009999999999992
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.2.prop2_cc_ref_max.smt2,Yices (2019),0.010987999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.4.prop4_cc_ref_max.smt2,Yices,0.010881999999999947
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.3.prop1_cc_ref_max.smt2,Yices,0.010770000000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--net--phy--marvell.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices (2019),0.010756
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/cdaudio_simpl1.cil-1_smt-query.0.smt2,Yices,0.010666000000000009
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_szymanski.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.01055
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.3.prop1_cc_ref_max.smt2,Yices,0.010509999999999964
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_anderson.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.010228999999999988
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product64.cil_smt-query.0.smt2,Yices,0.0101281
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_at.5.prop1_cc_ref_max.smt2,STP-MergeSat,0.010114999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_gear.2.prop1_cc_ref_max.smt2,Yices,0.01005600000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lann.6.prop1_cc_ref_max.smt2,STP-MergeSat,0.010008
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_adding.6.prop1_cc_ref_max.smt2,Yices (2019),0.009805000000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sw_state_machine_cc_ref_max.smt2,STP-MergeSat,0.009730899999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/globalVariableInitialValue_false-unreach-label.c.files_smt-query.0.smt2,Yices,0.0095421
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sw_state_machine_cc_ref_max.smt2,STP-MergeSat,0.009490099999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sokoban.1.prop1_cc_ref_max.smt2,Yices,0.00944399999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_szymanski.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.009135999999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/binary-or-optimization-3_false-unreach-label.c.files_smt-query.0.smt2,Yices (2019),0.009083100000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.4.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices,0.008994000000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_gear.1.prop3_cc_ref_max.smt2,Yices,0.008923999999999987
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_extinction.2.prop1_cc_ref_max.smt2,Yices (2019),0.008913
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_at.5.prop1_cc_ref_max.smt2,STP-MergeSat,0.008706099999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product10.cil_smt-query.0.smt2,Yices (2019),0.008402900000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.1.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices,0.008266000000000051
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.2.prop1_cc_ref_max.smt2,Yices,0.008111000000000007
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_driving_phils.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.007975099999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_hanoi.4.prop1_cc_ref_max.smt2,Yices,0.007666000000000006
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_synapse.3.prop1_cc_ref_max.smt2,Yices,0.00764200000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product11.cil_smt-query.0.smt2,STP-MergeSat,0.0076191
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sw_ball2001_cc_ref_max.smt2,Yices,0.007616899999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_anderson.8.prop1_cc_ref_max.smt2,STP-MergeSat,0.007547999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bridge.2.prop1_cc_ref_max.smt2,Yices (2019),0.0074088
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product12.cil_smt-query.0.smt2,Yices,0.0073189
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_itc99_b13_cc_ref_max.smt2,STP-MergeSat,0.0073039
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_driving_phils.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.007086899999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_krebs.1.prop1_cc_ref_max.smt2,Yices,0.007041999999999993
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product06.cil_smt-query.0.smt2,Yices (2019),0.006926999999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.3.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.006701999999999986
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_synapse.1.prop1_cc_ref_max.smt2,Yices (2019),0.0066980000000000095
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_krebs.2.prop1_cc_ref_max.smt2,Yices,0.006660000000000027
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_krebs.2.prop1_cc_ref_max.smt2,Yices,0.006514999999999993
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.6.prop6_cc_ref_max.smt2,Yices,0.006431000000000006
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product16.cil_smt-query.0.smt2,Yices (2019),0.006346099999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/signextension-1_smt-query.0.smt2,Yices,0.006285859999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_adding.2.prop1_cc_ref_max.smt2,Yices,0.0062561000000000005
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_krebs.3.prop1_cc_ref_max.smt2,Yices,0.006181999999999993
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/nested-logical-binary-operators_false-unreach-label.c.files_smt-query.0.smt2,Yices,0.0061519
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_exit.1.prop1_cc_ref_max.smt2,Yices,0.006070999999999993
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_krebs.4.prop1_cc_ref_max.smt2,Yices,0.006045999999999996
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product53.cil_smt-query.0.smt2,Yices,0.005945899999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_fischer.4.prop1_cc_ref_max.smt2,Yices,0.005841999999999986
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_plc.1.prop2_cc_ref_max.smt2,Yices,0.005754000000000009
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_plc.3.prop2_cc_ref_max.smt2,Yices,0.005658999999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lamport.6.prop1_cc_ref_max.smt2,STP-MergeSat,0.0053488999999999984
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_mcs.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.0052049
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_brp2.2.prop1_cc_ref_max.smt2,Yices,0.005162100000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_peg_solitaire.3.prop1_cc_ref_max.smt2,Yices,0.0050069999999999976
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.2.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.0049939999999999984
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lamport_nonatomic.4.prop1_cc_ref_max.smt2,STP-MergeSat,0.0049811000000000005
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bridge.1.prop1_cc_ref_max.smt2,Yices,0.004955899999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.1.prop2_cc_ref_max.smt2,Yices,0.004807000000000006
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_collision.1.prop1_cc_ref_max.smt2,Yices,0.004583000000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_fischer.2.prop1_cc_ref_max.smt2,Yices (2019),0.004554900000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.7.prop1_cc_ref_max.smt2,Yices,0.004547099999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_mcs.6.prop1_cc_ref_max.smt2,Yices (2019),0.004473900000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product23.cil_smt-query.0.smt2,STP-MergeSat,0.0044278999999999985
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_bridge.3.prop1_cc_ref_max.smt2,Yices,0.004336999999999994
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/nec11_smt-query.0.smt2,CVC4,0.004229800000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/s3_srvr_1b.cil_smt-query.0.smt2,Yices (2019),0.0041280000000000015
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport_nonatomic.3.prop1_cc_ref_max.smt2,STP-MergeSat,0.0041078
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.3.3.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.004090999999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_peg_solitaire.5.prop1_cc_ref_max.smt2,Yices,0.003956899999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_filters.2.prop1_cc_ref_max.smt2,Yices (2019),0.003902000000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_fischer.2.prop1_cc_ref_max.smt2,Yices,0.0038529999999999953
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product30.cil_smt-query.0.smt2,Yices,0.0037932000000000018
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_rushhour.2.prop1_cc_ref_max.smt2,Yices,0.0036810000000000037
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec14_product20.cil_smt-query.0.smt2,Yices,0.003674
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/alt_test_smt-query.0.smt2,Yices (2019),0.0036270999999999994
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_firewire_tree.1.prop1_cc_ref_max.smt2,Yices,0.003585900000000003
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/phases_2-1_smt-query.0.smt2,Yices (2019),0.0034971199999999994
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.4.prop1_cc_ref_max.smt2,Yices,0.0034681000000000017
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/fo_test_smt-query.0.smt2,STP-MergeSat,0.003427099999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/transmitter.16.cil_smt-query.0.smt2,Yices (2019),0.0032908999999999994
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bakery.6.prop1_cc_ref_max.smt2,Yices (2019),0.003066199999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_iprotocol.6.prop1_cc_ref_max.smt2,STP-MergeSat,0.0030139
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.7.prop2_cc_ref_max.smt2,Yices,0.0030100000000000127
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/Problem101_label02_smt-query.0.smt2,Yices,0.002923000000000009
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product05.cil_smt-query.0.smt2,Yices (2019),0.0028870000000000007
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_election.2.prop1_cc_ref_max.smt2,Yices,0.002770799999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport.2.prop1_cc_ref_max.smt2,Yices,0.0026479000000000016
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.5.prop2_cc_ref_max.smt2,Yices,0.0026409999999999906
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_mcs.4.prop1_cc_ref_max.smt2,Yices,0.0026399000000000006
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lup.1.prop1_cc_ref_max.smt2,Yices (2019),0.002606200000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_mcs.3.prop1_cc_ref_max.smt2,Yices,0.002585999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_election.3.prop1_cc_ref_max.smt2,Yices,0.0025319999999999995
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_elevator_planning.1.prop1_cc_ref_max.smt2,Yices,0.002477099999999996
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_sw_ball2004_1_cc_ref_max.smt2,Yices,0.0024720000000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_frogs.2.prop1_cc_ref_max.smt2,Yices,0.002466000000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sw_ball2001_cc_ref_max.smt2,Yices,0.002409999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lann.3.prop1_cc_ref_max.smt2,Yices (2019),0.002339000000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lamport.3.prop1_cc_ref_max.smt2,Yices (2019),0.0023309000000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_seq_cc_ref_max.smt2,Yices,0.0022820999999999987
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/43_1a_cilled_ok_nondet_linux-43_1a-drivers--misc--apds9802als.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices,0.0022340999999999993
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_anderson.2.prop1_cc_ref_max.smt2,STP-MergeSat,0.0021870000000000084
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_brp2.1.prop1_cc_ref_max.smt2,Yices,0.0021639999999999993
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lann.1.prop1_cc_ref_max.smt2,Yices,0.002143200000000005
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product06.cil_smt-query.0.smt2,Yices,0.00213
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_peg_solitaire.4.prop1_cc_ref_max.smt2,Yices,0.0020780999999999994
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_h_traffic_light_example_cc_ref_max.smt2,STP-MergeSat,0.002062999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_exit.1.prop1_cc_ref_max.smt2,Yices,0.002034099999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bakery.5.prop1_cc_ref_max.smt2,Yices,0.0020020000000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sw_loop_cc_ref_max.smt2,Yices,0.0019290000000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/struct-selfreference_false-unreach-label.c.files_smt-query.0.smt2,Yices (2019),0.0018930000000000006
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_peg_solitaire.2.prop1_cc_ref_max.smt2,Yices,0.0018869999999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.4.ufo.BOUNDED-6.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices,0.0018748999999999988
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport.3.prop1_cc_ref_max.smt2,Yices,0.0018719000000000027
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_plc.4.prop2_cc_ref_max.smt2,Yices,0.0018230999999999976
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_production_cell.2.prop1_cc_ref_max.smt2,Yices,0.0017860999999999953
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product56.cil_smt-query.0.smt2,Yices,0.0017721000000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_mcs.2.prop1_cc_ref_max.smt2,Yices,0.0017678
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_rushhour.3.prop1_cc_ref_max.smt2,Yices,0.0017660000000000037
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product12.cil_smt-query.0.smt2,Yices,0.0017531000000000005
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_cav14_example_v_cc_ref_max.smt2,Yices (2019),0.0017479000000000001
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/nested-logical-binary-operator-in-function-call_false-unreach-label.c.files_smt-query.0.smt2,Yices (2019),0.0016988900000000015
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_mcs.5.prop1_cc_ref_max.smt2,Yices,0.0016791000000000028
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product03.cil_smt-query.0.smt2,Yices (2019),0.0016598000000000012
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_szymanski.3.prop1_cc_ref_max.smt2,Yices (2019),0.001647199999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--hwmon--pmbus--max16064.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices,0.0016309999999999988
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_h_b03_cc_ref_max.smt2,Yices,0.001555899999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product21.cil_smt-query.0.smt2,Yices,0.0015130999999999999
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec13_product23.cil_smt-query.0.smt2,Yices,0.0015010000000000023
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_fischer.6.prop1_cc_ref_max.smt2,Yices,0.0014547999999999991
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product17.cil_smt-query.0.smt2,Yices,0.001412
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.8.prop5_cc_ref_max.smt2,Yices,0.001399000000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.4.prop2_cc_ref_max.smt2,Yices (2019),0.0013129999999999947
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product12.cil_smt-query.0.smt2,Yices,0.0013069999999999991
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport.7.prop1_cc_ref_max.smt2,Yices,0.0013039000000000002
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product27.cil_smt-query.0.smt2,Yices,0.0012639999999999995
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product27.cil_smt-query.0.smt2,Yices,0.0012291000000000003
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_resistance.1.prop1_cc_ref_max.smt2,Yices (2019),0.0012230000000000001
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_v_FIFO_cc_ref_max.smt2,Yices,0.0011328999999999992
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_mcs.1.prop1_cc_ref_max.smt2,Yices,0.0011070000000000038
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_gear.2.prop1_cc_ref_max.smt2,Yices,0.0010091000000000024
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sw_ball2004_1_cc_ref_max.smt2,Yices,0.0009779000000000003
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.3.ufo.BOUNDED-6.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices (2019),0.0008852000000000027
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_filters.4.prop1_cc_ref_max.smt2,Yices (2019),0.0008720000000000012
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_gear.1.prop1_cc_ref_max.smt2,Yices (2019),0.000793000000000002
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_szymanski.2.prop1_cc_ref_max.smt2,Yices (2019),0.0007909999999999983
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lup.1.prop1_cc_ref_max.smt2,Yices (2019),0.0007498999999999978
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lamport.2.prop1_cc_ref_max.smt2,Yices (2019),0.0007410999999999997
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_bit-vector_cc_ref_max.smt2,Yices (2019),0.0007220999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sw_sym_ex_cc_ref_max.smt2,Yices,0.0007109000000000004
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_bridge.2.prop1_cc_ref_max.smt2,Yices (2019),0.0006758000000000007
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_peterson.2.prop1_cc_ref_max.smt2,Yices,0.0006219000000000016
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_at.5.prop1_cc_ref_max.smt2,Yices,0.0005659000000000081
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_mcs.1.prop1_cc_ref_max.smt2,Yices (2019),0.0005471
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lup.3.prop1_cc_ref_max.smt2,Yices,0.0005420000000000008
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product13.cil_smt-query.0.smt2,Yices (2019),0.0005298999999999998
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/signextension2-2_smt-query.0.smt2,STP-MergeSat,0.0004669799999999988
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_production_cell.4.prop1_cc_ref_max.smt2,Yices,0.0004490000000000015
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product22.cil_smt-query.0.smt2,Yices,0.00041689999999999956
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_filters.6.prop1_cc_ref_max.smt2,Yices,0.0004148999999999993
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/s3_srvr_10.cil_smt-query.0.smt2,Yices,0.0003980000000000008
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--staging--zram--zram.ko-ldv_main1_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices (2019),0.0003940999999999979
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pc_sfifo_1.cil-1_smt-query.0.smt2,STP-MergeSat,0.00037799999999999986
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_pgm_protocol.2.prop1_cc_ref_max.smt2,Yices (2019),0.0003359999999999995
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_diagonal_v_cc_ref_max.smt2,Yices,0.0003071999999999988
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_train-gate.1.prop1_cc_ref_max.smt2,Yices,0.00029209999999999653
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product05.cil_smt-query.0.smt2,Yices (2019),0.0002881000000000012
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_leader_filters.5.prop1_cc_ref_max.smt2,Yices (2019),0.00028409999999999894
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_peterson.4.prop1_cc_ref_max.smt2,Yices (2019),0.00028409999999999894
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/cggmp2005b_smt-query.0.smt2,Yices,0.0002558999999999999
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_eq_sdp_v7_cc_ref_max.smt2,Yices (2019),0.00024309999999999957
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_h_b03_cc_ref_max.smt2,Yices,0.00021089999999999998
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_synabs2_cc_ref_max.smt2,Yices,0.00014500000000000277
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_STARTPALS_ActiveStandby.1.ufo.UNBOUNDED.pals_smt-query.0.smt2,Yices (2019),0.00010489999999999805
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_firewire_tree.2.prop1_cc_ref_max.smt2,Yices (2019),9.200000000000007e-05
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_h_b07_cc_ref_max.smt2,Yices (2019),4.810000000000057e-05
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_production_cell.5.prop1_cc_ref_max.smt2,Yices (2019),4.300000000000137e-05
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product31.cil_smt-query.0.smt2,Yices,2.589999999999884e-05
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product31.cil_smt-query.0.smt2,Yices (2019),1.0000000000001327e-05
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec3_product19.cil_smt-query.0.smt2,Yices,9.000000000002062e-06
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_blocks.2.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/linux-3.14_complex_emg_linux-kernel-locking-spinlock_fs-nfs-blocklayout-blocklayoutdriver.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sw_sym_ex_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product04.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_eq_sdp_v3_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_Huffman_dec_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.2.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_peg_solitaire.4.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_driving_phils.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/terminator_02-1_smt-query.0.smt2,STP-MergeSat,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product14.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product19.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cambridge.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_driving_phils.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec13_product24.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product29.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_plc.1.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_driving_phils.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lup.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_election.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product17.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_cambridge.3.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product03.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_szymanski.4.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product39.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/linux-3.14_complex_emg_linux-kernel-locking-spinlock_drivers-net-can-softing-softing.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_pgm_protocol.1.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.1.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_extinction.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_train-gate.6.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_adding.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp.3.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_frogs.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_peterson.1.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_rushhour.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.3.4.ufo.BOUNDED-6.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.1.prop5_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.3.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product32.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_cambridge.1.prop2_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.3.ufo.BOUNDED-8.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_schedule_world.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product09.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.3.prop3_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_leader_filters.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product40.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_exit.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_h_FourbyFour_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product31.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lamport.7.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lann.5.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bakery.8.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_eq_sdp_v1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product03.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_pgm_protocol.1.prop5_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_filters.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.8.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_blocks.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_peg_solitaire.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_production_cell.1.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sw_ball2004_2_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product63.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bakery.4.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_production_cell.3.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product19.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_cav14_example_v_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_msmie.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_at.2.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_firewire_tree.4.prop3_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_iprotocol.1.prop1_cc_ref_max.smt2,STP-MergeSat,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lann.3.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pc_sfifo_2.cil-2_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_frogs.5.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bridge.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_brp.4.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec3_product23.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_driving_phils.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_fischer.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_eq_sdp_v2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.4.1.ufo.BOUNDED-8.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_extinction.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_synabs2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_h_b05_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_mcs.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_gear.1.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product12.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_pgm_protocol.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/kratos_systemC_swmc/toy-bug-1.c.kratos.bv64.bmc_k100.smt2,CVC4,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_train-gate.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product24.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product44.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec3_product60.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.5.prop3_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_election.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.4.1.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Wolf-fmbench/VexRiscv-regch0-30-unrolled.smt2,Bitwuzla,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/mem_slave_tlm.1.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec5_product09.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_brp.1.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product14.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec14_product31.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product30.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_counter_cc_ref_max.smt2,STP-MergeSat,0.0
+/data/SMT-LIB-incremental/QF_BV/2019-Wolf-fmbench/2019A/picorv32_mutAY_QF_BV.smt2,Bitwuzla,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_krebs.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_filters.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_lamport.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.3.prop5_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_exit.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.3.1.ufo.UNBOUNDED.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_h_Arbiter_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.3.prop3_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_needham.3.prop2_cc_ref_to.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.6.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/simple_3-1_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_gear.1.prop4_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/binary-or-optimization_false-unreach-label.c.files_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_reader_writer.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_bakery.4.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_sw_ball2004_1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product54.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_lamport_nonatomic.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product55.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_mpeg_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_extinction.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_fischer.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_pgm_protocol.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/linux-3.14_complex_emg_linux-drivers-clk1_drivers-net-ethernet-smsc-smsc911x.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_leader_election.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product08.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_reader_writer.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_7a_cilled_linux-3.8-rc1-drivers--regulator--isl6271a-regulator.ko-main.cil.out_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_peg_solitaire.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/struct-initializer-anonymous-field_false-unreach-label.c.files_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_gear.1.prop4_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/32_1_cilled_ok_nondet_linux-3.4-32_1-drivers--edac--mce_amd_inj.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_bakery.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product22.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec2_product20.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_sokoban.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_election.3.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec1_product27.cil_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_brp2.5.prop1_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_gear.1.prop2_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_collision.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_extinction.1.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_opt-floodmax.3.2.ufo.BOUNDED-6.pals.c.v+nlh-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/pals_floodmax.5.2.ufo.UNBOUNDED.pals.c.v+lhb-reducer_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/elevator_spec14_product24.cil_smt-query.0.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_leader_election.5.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/Problem101_label22_smt-query.0.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_lann.2.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_brp.6.prop1_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv8_bv_eq_sdp_v5_cc_ref_max.smt2,Yices (2019),0.0
+/data/SMT-LIB-incremental/QF_BV/2018-Goel-hwbench/QF_BV_bv_bv_plc.3.prop2_cc_ref_max.smt2,Yices,0.0
+/data/SMT-LIB-incremental/QF_BV/20190307-CPAchecker_kInduction-SoSy_Lab/minepump_spec4_product14.cil_smt-query.0.smt2,Yices,0.0

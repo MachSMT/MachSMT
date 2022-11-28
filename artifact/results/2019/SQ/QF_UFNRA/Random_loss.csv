@@ -1,0 +1,27 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40f.smt2,Alt-Ergo,4799.872816
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s10.smt2,MathSAT,4796.90166
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f50.smt2,veriT+raSAT+Redlog,4796.12076
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m50.smt2,Alt-Ergo,4796.09282
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f25.smt2,MathSAT,4795.78333
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m99.smt2,veriT+raSAT+Redlog,4792.61932
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40s.smt2,Yices (2018),4789.6298
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s25.smt2,veriT+raSAT+Redlog,4788.9183
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s99.smt2,veriT+raSAT+Redlog,4785.5397
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f10.smt2,MathSAT,4784.0572
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40f.smt2,CVC4,4780.4612
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40m.smt2,veriT+raSAT+Redlog,4780.341
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/10u05.04.smt2,MathSAT,4751.3987
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/20u10.09.smt2,MathSAT-na,4648.453
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40u20.19.smt2,MathSAT,3619.12
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/m40.smt2,CVC4,2432.05
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f99.smt2,Yices (2018),1555.96879
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m25.smt2,Yices,661.2267899999999
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m10.smt2,Yices (2018),429.9581
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/s40.smt2,MathSAT-na,400.95088
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/m40.easy.smt2,CVC4,86.351353
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/20revert.u.smt2,Yices,39.577
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40s.smt2,MathSAT-na,21.894199999999998
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/30u15.14.smt2,Yices,12.222000000000094
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s50.smt2,MathSAT-na,5.966900000000001
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40m.smt2,CVC4,4.54206

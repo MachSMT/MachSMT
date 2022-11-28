@@ -1,0 +1,95 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/s3_clnt.blast.04_false-unreach-call.i.cil.c_AllErrorsAtOnce_Iteration6_TraceCheck_0.smt2,Alt-Ergo,2399.9811861
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_6.smt2,Alt-Ergo,2399.9804069
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_7.smt2,Alt-Ergo,2399.979714
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_14.smt2,Alt-Ergo,2399.9773341
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_13.smt2,Alt-Ergo,2399.9762771
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg40_true-unreach-call.i_AllErrorsAtOnce_Iteration17_TraceCheck_0.smt2,Alt-Ergo,2399.960948
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_1.smt2,Alt-Ergo,2399.9547069
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/diskperf_false-unreach-call.i.cil.c_1.smt2,Alt-Ergo,2399.951707
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_14.smt2,Z3,2399.9487381
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_5.smt2,Alt-Ergo,2399.948117
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_8.smt2,Z3,2399.948051
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_9.smt2,Alt-Ergo,2399.9475471
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_13.smt2,Alt-Ergo,2399.9440079
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_7.smt2,Z3,2399.9437771
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_4.smt2,Alt-Ergo,2399.943619
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/parport_true-unreach-call.i.cil.c_6.smt2,Z3,2399.940187
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_8.smt2,Alt-Ergo,2399.9344751
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_3.smt2,Alt-Ergo,2399.929169
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/kbfiltr_false-unreach-call.i.cil.c_3.smt2,Z3,2399.923811
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/kbfiltr_false-unreach-call.i.cil.c_5.smt2,Alt-Ergo,2399.9237551
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_5.smt2,Z3,2399.9128359
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_10.smt2,Alt-Ergo,2399.9106491
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/usb_urb-drivers-net-can-usb-ems_usb.ko_false-unreach-call.cil.out.i_1.smt2,Alt-Ergo,2399.908725
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_aso_false-unreach-call.2.M4.c_3.smt2,CVC4,2397.84844
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_1.smt2,CVC4 (2019),2396.88087
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_2.smt2,Z3,2396.74486
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_3.smt2,Z3,2396.74315
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_10.smt2,Z3,672.403103
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer/cs_dekker_true-unreach-call.i.smt2,MathSAT5,59.917882000000006
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_aso_false-unreach-call.2.M4.c_2.smt2,CVC4,56.54843
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer/cs_fib_true-unreach-call.i.smt2,CVC4,46.45167
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer2/linux-3.12-rc1.tar.xz-144_2a-drivers--media--usb--stk1160--stk1160.ko-entry_point_false-unreach-call.cil.out.c_TraceCheck_Iteration9_0.smt2,CVC4 (2019),37.75214
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/s3_clnt.blast.01_false-unreach-call.i.cil.c_AllErrorsAtOnce_Iteration11_TraceCheck_0.smt2,CVC4 (2019),29.4115541
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/usb_urb-drivers-hid-usbhid-usbmouse.ko_false-unreach-call.cil.out.i_AllErrorsAtOnce_Iteration21_TraceCheck_0.smt2,CVC4,25.572924
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_12.smt2,CVC4,22.702992899999998
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/diskperf_true-unreach-call.i.cil.c_1.smt2,CVC4 (2019),10.185562899999999
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_10.smt2,CVC4 (2019),10.018619900000001
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_11.smt2,CVC4 (2019),8.568033
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_aso_false-unreach-call.2.M4.c_0.smt2,Z3,6.2828100000000004
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer/cs_peterson_true-unreach-call.i.smt2,CVC4 (2019),3.293417
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer/cs_lamport_true-unreach-call.i.smt2,CVC4 (2019),2.7945
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_3.smt2,Z3,1.056594
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/diskperf_true-unreach-call.i.cil.c_2.smt2,CVC4,0.7630289
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_0.smt2,Z3,0.6245309
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_4.smt2,MathSAT5,0.188552
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/usb_urb-drivers-net-can-usb-ems_usb.ko_false-unreach-call.cil.out.i_2.smt2,MathSAT5,0.1495901
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_2.smt2,MathSAT5,0.087618
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/diskperf_false-unreach-call.i.cil.c_9.smt2,MathSAT5,0.07832299999999999
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_11.smt2,MathSAT5,0.07619400000000001
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_1.smt2,MathSAT5,0.07284209999999999
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_6.smt2,CVC4 (2019),0.0479549
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_7.smt2,CVC4 (2019),0.046786999999999995
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_5.smt2,Z3,0.0267711
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_0.smt2,CVC4 (2019),0.025738999999999998
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_2.smt2,Z3,0.0247269
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_8.smt2,CVC4,0.024319099999999996
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_2.smt2,CVC4,0.0212468
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_4.smt2,CVC4,0.020108100000000004
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_1.smt2,Z3,0.014788100000000005
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_12.smt2,CVC4,0.012082899999999994
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_4.smt2,CVC4,0.011991000000000002
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_5.smt2,CVC4,0.011525000000000007
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy_true-unreach-call_true-valid-memsafety.i.cil.c_8.smt2,CVC4,0.011015800000000006
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_1.smt2,CVC4,0.0109229
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_6.smt2,CVC4,0.010734900000000006
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy_false-unreach-call.i.cil.c_8.smt2,CVC4,0.010563099999999992
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_7.smt2,CVC4,0.009936
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/parport_false-unreach-call.i.cil.c_6.smt2,CVC4,0.0097591
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_5.smt2,CVC4 (2019),0.005053799999999997
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_4.smt2,Z3,0.005022800000000001
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_7.smt2,CVC4 (2019),0.004406
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_8.smt2,CVC4 (2019),0.0040858999999999965
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_1.smt2,CVC4 (2019),0.003778
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_0.smt2,MathSAT5,0.0035908999999999976
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_6.smt2,CVC4 (2019),0.0029601000000000002
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_3.smt2,CVC4,0.0017428999999999986
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_12.smt2,CVC4 (2019),0.0016939999999999976
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_9.smt2,CVC4 (2019),0.0010007999999999996
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_9.smt2,MathSAT5,0.0005551000000000028
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_2.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_6.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_9.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_11.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_10.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rangesum40_false-unreach-call.i_AllErrorsAtOnce_Iteration19_TraceCheck_0.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_13.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_false-unreach-call.i.cil.c_3.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer/cs_fib_false-unreach-call.i.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/UltimateAutomizer2/linux-stable-1575714-1-150_1a-drivers--net--wireless--b43--b43.ko-entry_point_ldv-val-v0.8_false-unreach-call.cil.out.c_TraceCheck_Iteration4_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/rekh_ctm_false-unreach-call.3_true-termination.c_6.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/cdaudio_true-unreach-call.i.cil.c_2.smt2,CVC4 (2019),0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/avg20_true-unreach-call.i_3.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/sum10_true-unreach-call_true-termination.i_4.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_ANIA/20190429-UltimateAutomizerSvcomp2019/floppy2_true-unreach-call_true-termination.i.cil.c_5.smt2,MathSAT5,0.0

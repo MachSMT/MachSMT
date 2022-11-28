@@ -1,0 +1,300 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/LIA/psyco/128.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/076.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/175.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI027=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1877.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/036.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/048.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_755.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/088.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/077.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/006.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/005.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/037.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_817.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/165.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/062.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/016.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/067.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1795.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_497.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/120.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1737.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/MADWiFi-encode_ie_ok_true-unreach-call.i_17.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1786.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/061.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/070.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/146.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1874.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/083.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI040=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1752.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/019.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/078.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/126.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI026=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_927.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/155.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/001.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/024.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/176.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/031.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1887.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/164.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI025=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_173.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/114.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/043.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1878.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/153.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/028.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/017.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/039.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1072.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1597.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_73.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/065.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1375.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1792.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1479.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/132.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_807.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/113.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/058.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/179.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI032=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_378.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/147.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM896=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_728.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/129.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/090.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1770.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/087.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/143.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/104.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_2175.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_575.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/040.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/086.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/075.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/168.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/050.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/009.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_725.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM898=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/003.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/130.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/013.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI054=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/099.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/116.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/189.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/018.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/169.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/160.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/066.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_637.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/071.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/044.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/138.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI013=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/112.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/145.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_3227.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI591=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/173.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/100.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/027.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/053.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/135.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/174.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/091.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/125.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI004=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/157.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/008.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/102.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/035.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM916=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/187.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM869=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_707.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/089.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/MADWiFi-encode_ie_ok_true-unreach-call.i_7.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1677.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/046.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/010.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/015.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/181.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM893=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/023.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM897=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/122.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/108.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/079.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/085.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI044=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM871=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/139.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1117.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/121.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/111.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/084.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1817.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/107.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/166.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_557.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/167.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/154.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_357.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/103.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1777.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/101.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_470.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/196.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/190.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/047.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/032.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1703.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/045.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/162.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/161.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/158.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/163.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1798.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/131.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1357.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/148.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/127.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/152.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/105.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/095.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM875=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/188.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/073.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1679.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_744.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_766.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_175.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_887.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/096.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI045=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/115.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/029.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/034.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/106.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/068.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM870=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/151.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/156.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1722.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/011.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/180.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI005=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_473.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1723.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_720.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/123.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/097.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/038.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/119.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/056.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_287.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI011=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/159.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_785.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1427.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM864=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/012.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/033.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/092.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1720.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/022.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_775.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_713.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM899=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/118.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/004.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI079=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI018=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/014.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1764.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM868=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/150.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/069.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1749.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/098.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/041.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1371.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/025.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/021.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI017=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/049.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_763.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/064.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/109.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/194.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/052.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI592=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/030.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/117.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/124.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/142.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/074.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM918=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI039=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/177.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/080.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/002.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1729.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_17.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI590=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/072.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/137.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/134.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/141.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/133.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI083=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/057.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/051.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI038=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/063.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/178.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/172.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM874=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/140.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/170.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/055.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/042.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/093.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/144.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/026.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1477.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/081.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI052=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI053=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/007.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/094.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1728.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/195.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/193.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_746.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/082.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/020.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1070.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/149.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/054.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI012=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1847.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM915=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/nested9_true-unreach-call.i_1707.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/LIA/UltimateAutomizer/recHanoi03_true-unreach-call_true-termination.c_2746.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI056=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/NUM917=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/136.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/186.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/tptp/ARI031=1.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/110.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/LIA/psyco/171.smt2,Z3,0.0

@@ -1,0 +1,27 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40s.smt2,Yices (2018),4789.6298
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m99.smt2,Yices (2018),1665.7593200000001
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f99.smt2,Yices (2018),1555.96879
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m25.smt2,Yices (2018),669.61079
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m50.smt2,Yices (2018),559.3928199999999
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f50.smt2,Yices (2018),540.03876
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s25.smt2,Yices (2018),490.9183
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f25.smt2,Yices (2018),469.50133
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40m.smt2,Yices (2018),463.456
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40m10.smt2,Yices (2018),429.9581
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40f10.smt2,Yices (2018),391.3022
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40s.smt2,Yices (2018),236.05460000000002
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s10.smt2,Yices (2018),129.67766
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s50.smt2,Yices (2018),85.0557
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40s99.smt2,Yices (2018),84.7248
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/c40f.smt2,Yices (2018),69.6726
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/s40.smt2,Yices (2018),17.08588
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/m40.easy.smt2,Yices (2018),5.564173
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40f.smt2,Yices (2018),1.035066
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/l40m.smt2,Yices (2018),1.0011
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/40u20.19.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/20u10.09.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/20revert.u.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/30u15.14.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/10u05.04.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNRA/cas/m40.smt2,Yices (2018),0.0

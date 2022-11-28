@@ -1,0 +1,301 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvand_ltr_inv_g.smt2,Alt-Ergo,4799.99281002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvand_ltr_inv_g.smt2,Alt-Ergo,4799.99102188
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvand_ltr_inv_g.smt2,Alt-Ergo,4799.99097003
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvudiv1_rtl.smt2,MathSAT,4799.99086688
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2658_values_0.smt2,Alt-Ergo,4799.99077206
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvudiv0_rtl.smt2,Alt-Ergo,4799.99073205
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvand_rtl.smt2,Alt-Ergo,4799.99069104
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvurem1_ltr_inv_g.smt2,Alt-Ergo,4799.99064792
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvor_ltr_inv_g.smt2,Alt-Ergo,4799.99056892
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvand_ltr_inv_g.smt2,Alt-Ergo,4799.9905559
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvneg_rtl.smt2,Alt-Ergo,4799.99053695
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvor_rtl.smt2,Alt-Ergo,4799.9904889
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvmul_rtl.smt2,Alt-Ergo,4799.99034793
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:430_values_60.smt2,Alt-Ergo,4799.9899911
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvmul_rtl.smt2,Alt-Ergo,4799.987316
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvadd_ltr_inv_g.smt2,Alt-Ergo,4799.9867731
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvadd_ltr_inv_g.smt2,Alt-Ergo,4799.984633
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvand_rtl.smt2,Alt-Ergo,4799.9841951
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_muldivrem:876_values_0.smt2,Alt-Ergo,4799.9829359
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvneg_rtl.smt2,Alt-Ergo,4799.9783681
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:363_values_0.smt2,Alt-Ergo,4799.978358
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvadd_rtl.smt2,Alt-Ergo,4799.9779079
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:741_values_0.smt2,Alt-Ergo,4799.977248
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvurem0_ltr_inv_g.smt2,Alt-Ergo,4799.9746109
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:740_values_0.smt2,Alt-Ergo,4799.9746001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_InstCombineShift239_values_0.smt2,Z3,4799.9736329
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvlshr1_ltr_inv_g.smt2,Alt-Ergo,4799.9725461
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvlshr1_rtl.smt2,MathSAT,4799.968947
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:700_values_123.smt2,CVC4,4799.9687161
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvurem0_rtl.smt2,Yices,4799.966496
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvashr1_rtl.smt2,Alt-Ergo,4799.9640691
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvurem0_rtl.smt2,Alt-Ergo,4799.9628819
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvurem0_rtl.smt2,MathSAT-na,4799.962225
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvudiv0_ltr_inv_g.smt2,Alt-Ergo,4799.9546571
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvudiv0_rtl.smt2,Z3,4799.9503249
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvlshr0_ltr_inv_g.smt2,MathSAT,4799.949761
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvashr0_rtl.smt2,Alt-Ergo,4799.948218
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvadd_ltr_inv_g.smt2,CVC4,4799.9465621
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:298_values_0.smt2,MathSAT,4799.9393511
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1864_values_0.smt2,Yices,4799.9320711
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_InstCombineShift497c_values_0.smt2,MathSAT-na,4799.925681
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvlshr0_rtl.smt2,MathSAT-na,4799.9234631
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1619_values_0.smt2,Z3,4799.922412
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvshl0_ltr_inv_g.smt2,MathSAT,4799.9185701
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvlshr0_ltr_inv_g.smt2,Alt-Ergo,4799.913301
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1614_values_0.smt2,Alt-Ergo,4799.906311
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvshl0_rtl.smt2,MathSAT-na,4799.885313
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvashr0_rtl.smt2,MathSAT-na,4799.861279
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvlshr0_ltr_inv_r.smt2,Yices (2018),4799.846274
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvudiv1_rtl.smt2,Alt-Ergo,4799.622789
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvashr1_ltr_inv_r.smt2,MathSAT-na,374.976198
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:937_values_0.smt2,MathSAT,179.657972
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvashr1_ltr_inv_g.smt2,Yices,84.020612
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_InstCombineShift279_values_0.smt2,Z3,59.320153
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvashr1_ltr_inv_g.smt2,MathSAT,35.261828900000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvurem1_rtl.smt2,MathSAT,20.859730900000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvudiv1_rtl.smt2,Z3,13.401207900000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:230_values_0.smt2,Z3,13.2622629
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1574_values_0.smt2,MathSAT-na,10.732987
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvashr1_rtl.smt2,MathSAT-na,9.0186929
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvudiv1_rtl.smt2,Z3,7.249209899999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvurem1_ltr_inv_r.smt2,MathSAT-na,5.6450629999999995
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvashr1_ltr_inv_g.smt2,MathSAT,5.59058
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1165_values_0.smt2,MathSAT-na,4.952236
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvurem1_rtl.smt2,Z3,1.4913941000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:576a_values_0.smt2,Z3,1.3890371
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2515_values_0.smt2,MathSAT,1.2260351
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvadd_ltr_inv_g.smt2,MathSAT,1.167537
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvlshr1_rtl.smt2,Z3,1.115095
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvurem0_rtl.smt2,MathSAT,1.0312841
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvshl0_rtl.smt2,MathSAT-na,0.9564811
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvurem1_ltr_inv_g.smt2,MathSAT-na,0.852418
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvadd_ltr_inv_g.smt2,Z3,0.7876209
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvadd_ltr_inv_r.smt2,MathSAT-na,0.780375
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:704_values_0.smt2,Yices (2018),0.6404449999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvashr0_rtl.smt2,CVC4,0.496464
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvurem0_ltr_inv_g.smt2,Z3,0.270078
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvor_rtl.smt2,MathSAT-na,0.2477929
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvashr1_rtl.smt2,MathSAT,0.203409
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvashr0_rtl.smt2,MathSAT,0.18250110000000003
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:705_values_0.smt2,CVC4,0.16153098
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvneg_rtl.smt2,Z3,0.15964491
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1012_values_0.smt2,CVC4,0.15845200000000004
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvneg_ltr_inv_g.smt2,MathSAT-na,0.1469041
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1043_values_0.smt2,MathSAT,0.120624
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:819_values_0.smt2,Z3,0.11591504999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvudiv0_rtl.smt2,MathSAT,0.11107510000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvshl0_rtl.smt2,MathSAT,0.1096439
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvmul_rtl.smt2,MathSAT,0.08627088999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvnot_rtl.smt2,MathSAT,0.07714111
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:537_values_0.smt2,MathSAT-na,0.07573909999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvlshr1_rtl.smt2,MathSAT,0.0741151
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvmul_rtl.smt2,MathSAT-na,0.07404895
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:423_values_57.smt2,MathSAT-na,0.072217
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2443_values_0.smt2,CVC4,0.0713781
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:433_values_0.smt2,MathSAT-na,0.0681929
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvlshr0_rtl.smt2,Yices,0.06497000000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:575b_values_0.smt2,CVC4,0.061294000000000015
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvneg_ltr_inv_g.smt2,Z3,0.060938900000000004
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvlshr0_rtl.smt2,MathSAT,0.05920983
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvurem0_rtl.smt2,Z3,0.058868000000000004
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1560_values_0.smt2,Z3,0.053339830000000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvashr0_ltr_inv_g.smt2,MathSAT-na,0.0531491
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvlshr0_ltr_inv_g.smt2,MathSAT-na,0.05306380000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvlshr1_ltr_inv_g.smt2,MathSAT-na,0.052987900000000004
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvashr0_ltr_inv_g.smt2,Z3,0.052406900000000006
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvmul_rtl.smt2,Z3,0.052026
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvashr1_rtl.smt2,Z3,0.051959
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvlshr0_rtl.smt2,MathSAT-na,0.051704
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvashr1_ltr_inv_g.smt2,Z3,0.04932404
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvand_ltr_inv_g.smt2,Z3,0.04605002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2052_values_0.smt2,Z3,0.04533408
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:922_values_0.smt2,Z3,0.04453784
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:144_values_0.smt2,Z3,0.04448112
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:720_values_0.smt2,Z3,0.044466839999999994
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1007_values_0.smt2,Z3,0.04446192
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1280_values_0.smt2,Z3,0.04433407
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1818_values_0.smt2,Z3,0.0443171
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvnot_ltr_inv_g.smt2,Z3,0.04430317
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2284_values_0.smt2,Z3,0.0442679
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvnot_rtl.smt2,Z3,0.04420599
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvor_rtl.smt2,Z3,0.044182990000000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1006_values_0.smt2,Z3,0.0440179
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvneg_ltr_inv_g.smt2,Z3,0.04396399
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:961_values_0.smt2,Z3,0.043739969999999996
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:941_values_0.smt2,Z3,0.043688019999999994
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvudiv0_rtl.smt2,MathSAT,0.0434379
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvor_rtl.smt2,Z3,0.04332097
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvmul_rtl.smt2,Z3,0.041524
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvlshr1_ltr_inv_g.smt2,CVC4,0.0396402
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:978_values_0.smt2,MathSAT-na,0.0395429
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvneg_ltr_inv_g.smt2,MathSAT,0.03889190000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvlshr0_rtl.smt2,Yices (2018),0.0366968
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvurem0_ltr_inv_g.smt2,MathSAT-na,0.0354979
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvurem0_ltr_inv_g.smt2,Z3,0.032817
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1740_values_0.smt2,CVC4,0.032617999999999994
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvurem0_ltr_inv_g.smt2,CVC4,0.032481899999999994
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvadd_rtl.smt2,Alt-Ergo,0.03012286
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvadd_ltr_inv_r.smt2,Z3,0.030042000000000003
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvlshr1_rtl.smt2,MathSAT-na,0.0296691
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvashr0_rtl.smt2,Z3,0.0295781
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvshl1_ltr_inv_g.smt2,Z3,0.027524
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1705_values_0.smt2,Z3,0.027141000000000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvudiv1_rtl.smt2,CVC4,0.025651
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvudiv1_ltr_inv_g.smt2,Alt-Ergo,0.02557798
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvadd_ltr_inv_g.smt2,CVC4,0.0247888
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvnot_rtl.smt2,Alt-Ergo,0.024679209999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvneg_rtl.smt2,Alt-Ergo,0.024374969999999996
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvurem1_rtl.smt2,Alt-Ergo,0.02370307
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:794_values_121.smt2,Alt-Ergo,0.023174120000000003
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1879_values_0.smt2,Alt-Ergo,0.023023060000000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvshl1_ltr_inv_g.smt2,CVC4,0.022822969999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvshl0_rtl.smt2,Alt-Ergo,0.022677049999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1819_values_0.smt2,Alt-Ergo,0.022536999999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:887-2_values_0.smt2,Alt-Ergo,0.02210393
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:641_values_0.smt2,Alt-Ergo,0.02167314
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:699_values_71.smt2,Alt-Ergo,0.021318900000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvurem1_rtl.smt2,CVC4,0.02026488
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvshl0_rtl.smt2,CVC4,0.020091799999999993
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvudiv1_ltr_inv_g.smt2,MathSAT-na,0.01953594
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvneg_ltr_inv_g.smt2,CVC4,0.01946189
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvadd_ltr_inv_g.smt2,MathSAT,0.019138899999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvshl1_ltr_inv_g.smt2,CVC4,0.01901393
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvurem1_rtl.smt2,MathSAT,0.018781060000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvnot_ltr_inv_g.smt2,CVC4,0.01695298
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvudiv1_rtl.smt2,CVC4,0.0168849
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1900_values_0.smt2,CVC4,0.01365514
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvurem0_rtl.smt2,CVC4,0.012299040000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:940_values_0.smt2,MathSAT-na,0.01219983
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvlshr1_rtl.smt2,CVC4,0.0120709
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2367_values_0.smt2,MathSAT-na,0.011750009999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvand_rtl.smt2,MathSAT-na,0.011705
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:732-2_values_0.smt2,CVC4,0.011651109999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvnot_ltr_inv_g.smt2,CVC4,0.011587110000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:732-1_values_0.smt2,MathSAT-na,0.011419839999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2617_values_0.smt2,MathSAT-na,0.011405930000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:979_values_0.smt2,MathSAT,0.011360100000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvor_rtl.smt2,MathSAT,0.01134014
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2243_values_0.smt2,MathSAT,0.011172070000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1979_values_0.smt2,MathSAT,0.01107011
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:716_values_0.smt2,CVC4,0.011032930000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2430_values_0.smt2,MathSAT-na,0.010704990000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2595_values_0.smt2,MathSAT,0.010621130000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:966_values_0.smt2,MathSAT,0.010433199999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvmul_rtl.smt2,CVC4,0.0104121
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1247_values_0.smt2,MathSAT,0.010299999999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:698_values_0.smt2,CVC4,0.0102309
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2587_values_0.smt2,MathSAT-na,0.010230800000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvand_rtl.smt2,MathSAT,0.010020069999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:923_values_0.smt2,MathSAT,0.009947899999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AddSub:1624_values_0.smt2,MathSAT-na,0.0099301
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvor_ltr_inv_g.smt2,MathSAT,0.00988395
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvlshr0_ltr_inv_g.smt2,MathSAT-na,0.009769030000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2123_values_0.smt2,CVC4,0.00956098
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvadd_rtl.smt2,MathSAT-na,0.009514
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1880_values_0.smt2,CVC4,0.00950897
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvand_ltr_inv_g.smt2,CVC4,0.00948808
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvor_rtl.smt2,CVC4,0.009463100000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvurem0_rtl.smt2,MathSAT,0.009378870000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvor_rtl.smt2,MathSAT-na,0.009219
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1832_values_0.smt2,CVC4,0.009090820000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvshl1_rtl.smt2,CVC4,0.009010119999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvudiv1_rtl.smt2,MathSAT,0.00895307
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2453_values_121.smt2,MathSAT,0.00877283
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvudiv1_ltr_inv_g.smt2,MathSAT-na,0.00873191
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvneg_rtl.smt2,MathSAT,0.008729999999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2265_values_0.smt2,CVC4,0.0086311
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvand_ltr_inv_g.smt2,MathSAT-na,0.008587139999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvudiv0_ltr_inv_a.smt2,MathSAT-na,0.00855397
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvlshr0_ltr_inv_g.smt2,CVC4,0.00832211
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvlshr0_ltr_inv_g.smt2,CVC4,0.00827703
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvnot_rtl.smt2,MathSAT-na,0.008138
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvadd_rtl.smt2,Yices,0.008025999999999998
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:1100_values_57.smt2,CVC4,0.007930979999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvand_rtl.smt2,CVC4,0.007867
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvurem1_ltr_inv_g.smt2,Yices,0.007136899999999995
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvudiv1_rtl.smt2,MathSAT,0.0070868300000000006
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1683-1_values_68.smt2,Yices (2018),0.004156090000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvlshr0_ltr_inv_r.smt2,Yices,0.0034569999999999983
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvlshr0_rtl.smt2,Yices,0.002822999999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:637_values_0.smt2,Yices (2018),0.00249393
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2647_values_0.smt2,Yices,0.0023158099999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvashr1_rtl.smt2,Z3,0.0022179999999999978
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvshl0_rtl.smt2,Yices,0.0021348999999999986
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvneg_rtl.smt2,Yices (2018),0.00200909
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2285_values_0.smt2,Yices,0.001972960000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvshl1_rtl.smt2,Yices,0.0019290000000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1850_values_0.smt2,Yices (2018),0.001783990000000001
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvshl0_rtl.smt2,Yices (2018),0.001680899999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1795_values_0.smt2,Yices (2018),0.0015239
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvurem1_rtl.smt2,Yices,0.0014579699999999994
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:887-1_values_0.smt2,Yices (2018),0.0011860399999999993
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvor_ltr_inv_g.smt2,Yices (2018),0.0011590999999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvand_rtl.smt2,Yices (2018),0.001059899999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvudiv1_ltr_inv_g.smt2,Yices,0.0008088899999999996
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvudiv0_rtl.smt2,Yices,0.0006791000000000002
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsge_bvnot_ltr_inv_g.smt2,Yices,0.0006428100000000006
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvnot_rtl.smt2,Yices,0.0005959499999999996
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1844_values_0.smt2,Yices (2018),0.000553989999999999
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:151_values_0.smt2,Yices,0.00046995000000000023
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvnot_ltr_inv_g.smt2,Yices,0.0004088600000000005
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2416_values_0.smt2,Yices (2018),0.00015014
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2417_values_0.smt2,Yices,0.00014708999999999903
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:516_values_0.smt2,Yices,0.00013699999999999997
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvudiv1_rtl.smt2,Yices,8.996000000000004e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1828_values_0.smt2,Yices,6.485999999999992e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvadd_rtl.smt2,Yices,5.4119999999999516e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1895_values_0.smt2,Yices (2018),4.8150000000000276e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvlshr1_rtl.smt2,Yices,4.0909999999999905e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvurem1_ltr_inv_g.smt2,Yices (2018),3.387000000000008e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1253_values_0.smt2,Yices (2018),3.2009999999998984e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvnot_rtl.smt2,Yices (2018),1.8040000000000417e-05
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvmul_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvudiv0_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_muldivrem:290:292_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvand_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvashr1_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2231_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1894_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_muldivrem:229_values_0.smt2,MathSAT,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:135_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvudiv0_rtl.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvadd_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvshl0_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvshl1_rtl.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvashr0_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvule_bvurem0_ltr_inv_g.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1704_values_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:364_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:709_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvnot_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_InstCombineShift497d_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvuge_bvor_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2113_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:1105_values_57.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_Select:576b_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:1869_values_0.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:931_values_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvugt_bvashr1_rtl.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_InstCombineShift476_values_0.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:745_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2188_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvashr0_rtl.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:942_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvult_bvashr0_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_eq_bvlshr0_rtl.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvurem1_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2627_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvashr0_rtl.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsle_bvashr0_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvor_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvshl0_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvlshr0_ltr_inv_g.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvsgt_bvand_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2475_values_0.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvshl1_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:2263_values_0.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_ne_bvmul_rtl.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-alive/qf_AndOrXor:994_values_0.smt2,MathSAT,0.0
+/data/SMT-LIB-non-incremental/QF_UFNIA/201903-Zohar-ic/int_check_bvslt_bvadd_ltr_inv_r.smt2,CVC4,0.0

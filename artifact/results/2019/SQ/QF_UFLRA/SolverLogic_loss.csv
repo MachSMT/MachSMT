@@ -1,0 +1,542 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.rekcba_ctm_true-unreach-call.2.c.smt2,Z3,2990.85
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_productSimulator_false-unreach-call.cil.c.smt2,Z3,2.041598
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--frontends--tda18271c2dd.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.818173
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_fib_false-unreach-call.i.smt2,Yices,0.5320099999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem04_20_true-unreach-call.c.smt2,Z3,0.47714700000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem08_60_false-unreach-call.c.smt2,Yices,0.41482000000000063
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_18.smt2,Z3,0.343784
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_71.smt2,Yices (2018),0.3263639
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_45.smt2,Yices (2018),0.2971019
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_77.smt2,Yices (2018),0.23095610000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.floppy_false-unreach-call.i.cil.c.smt2,Yices (2018),0.17656599999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_22.smt2,Z3,0.1655561
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_52.smt2,Yices (2018),0.1631861
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_12.smt2,Yices (2018),0.159105
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_21.smt2,Z3,0.1522139
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem07_10_true-unreach-call.c.smt2,Yices,0.13690000000000024
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_98.smt2,Yices (2018),0.13164209999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_20.smt2,Z3,0.11212600000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_23.smt2,Z3,0.10338409999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_38.smt2,Yices (2018),0.0986379
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_01.smt2,Z3,0.0944369
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-rtl28xxu.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,veriT,0.094369
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_11.smt2,Yices (2018),0.09287800000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_31.smt2,Z3,0.0891569
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_43.smt2,Z3,0.0887841
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_04.smt2,Z3,0.08732909999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_15.smt2,Z3,0.0843361
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_39.smt2,Z3,0.082841
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--mtd--mtdoops.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Z3,0.08274909999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_00.smt2,Z3,0.081668
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--touchscreen--egalax_ts.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Z3,0.077657
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_18.smt2,Z3,0.0759829
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem02_30_true-unreach-call.c.smt2,Z3,0.0743779
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_18.smt2,Z3,0.07429899999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_14.smt2,Z3,0.07420120000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_29.smt2,Z3,0.0732492
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem14_20_true-unreach-call.c.smt2,Z3,0.072974
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_14.smt2,Yices (2018),0.07073599999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--staging--telephony--ixj_pcmcia.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Z3,0.0705259
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_13.smt2,Z3,0.06878379999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_12.smt2,Yices (2018),0.0685939
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_72.smt2,Yices (2018),0.067338
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--video--gspca--gspca_sq905c.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Z3,0.06720290000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_55.smt2,Z3,0.0671899
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_11.smt2,Z3,0.066856
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_29.smt2,Z3,0.0666519
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-drivers--regulator--isl6271a-regulator.ko-main.cil.out.c.smt2,Z3,0.066521
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_37.smt2,Z3,0.06633900000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_67.smt2,Yices (2018),0.064915
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_29.smt2,Z3,0.064903
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem10_20_true-unreach-call.c.smt2,Z3,0.06485400000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product55_false-unreach-call.cil.c.smt2,Z3,0.06470310000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_16.smt2,Z3,0.06446715
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_22.smt2,Z3,0.0642611
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_23.smt2,Z3,0.063828
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product61_true-unreach-call.cil.c.smt2,Z3,0.06369309999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_92.smt2,Z3,0.0636169
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product63_true-unreach-call.cil.c.smt2,Z3,0.06356700000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_51.smt2,Z3,0.0633581
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product56_false-unreach-call.cil.c.smt2,Z3,0.06316089999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product55_false-unreach-call.cil.c.smt2,Z3,0.0628331
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_83.smt2,Z3,0.06233299999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_07.smt2,Z3,0.0617318
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_25.smt2,Z3,0.0615211
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_60.smt2,Z3,0.061333
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_47.smt2,Z3,0.0613282
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product54_true-unreach-call.cil.c.smt2,Z3,0.060685800000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_44.smt2,Z3,0.0605931
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_09.smt2,Z3,0.0603012
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_34.smt2,Yices (2018),0.060217999999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_14.smt2,Z3,0.059829959999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_21.smt2,Z3,0.059826199999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_27.smt2,Z3,0.0596149
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_78.smt2,Yices (2018),0.059380100000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_15.smt2,Z3,0.059135999999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.main1_true-unreach-call_drivers-media-video-tlg2300-poseidon-ko--32_7a--4a349aa-1.c.smt2,Z3,0.058856900000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_stack_true-unreach-call.i.smt2,Yices,0.05880999999999981
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_49.smt2,Z3,0.058758000000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_97.smt2,Z3,0.0587222
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_48.smt2,Z3,0.05867289999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_13.smt2,Z3,0.058644999999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--joystick--magellan.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.058642
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_23.smt2,Z3,0.058006199999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_11.smt2,Z3,0.0578992
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_26.smt2,Z3,0.057456799999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_17.smt2,Z3,0.05713217
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_15.smt2,Z3,0.056942099999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_14.smt2,Z3,0.056936780000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product38_false-unreach-call.cil.c.smt2,Z3,0.05673109999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_24.smt2,Z3,0.056507
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_18.smt2,Z3,0.056484
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_42.smt2,Z3,0.056480100000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_20.smt2,Z3,0.056477999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_29.smt2,Z3,0.05647220000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_83.smt2,Z3,0.0562359
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_28.smt2,Z3,0.056044899999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_18.smt2,Z3,0.055898819999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_20.smt2,Z3,0.0558571
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_88.smt2,Z3,0.0558351
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_36.smt2,Z3,0.055719
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_65.smt2,Z3,0.055621000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_27.smt2,Z3,0.05552507
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_11.smt2,Z3,0.0555071
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-32_7a-drivers--platform--x86--samsung-laptop.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.055419000000000024
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product05_false-unreach-call.cil.c.smt2,Z3,0.0552458
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_72.smt2,Z3,0.05523410000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_24.smt2,Z3,0.055183859999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_79.smt2,Z3,0.055146
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_16.smt2,Z3,0.055092
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_15.smt2,Z3,0.055027200000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_12.smt2,Z3,0.05497097
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_16.smt2,Z3,0.05494
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_12.smt2,Z3,0.054777099999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_26.smt2,Z3,0.054582000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_30.smt2,Z3,0.0545781
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product44_false-unreach-call.cil.c.smt2,Z3,0.054541900000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_27.smt2,Z3,0.05429689
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_90.smt2,Z3,0.05415507
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_96.smt2,Z3,0.053883190000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_13.smt2,Z3,0.05388110000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product10_false-unreach-call.cil.c.smt2,Z3,0.05387008000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_01.smt2,Z3,0.05372589999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_33.smt2,Z3,0.05369182
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_61.smt2,Z3,0.0536392
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_15.smt2,Z3,0.053458
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_26.smt2,Z3,0.0534
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_63.smt2,Z3,0.05336391000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_71.smt2,Z3,0.053303
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_66.smt2,Z3,0.05312099
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_11.smt2,Z3,0.053011010000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_27.smt2,Z3,0.0529801
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_11.smt2,Z3,0.052969989999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_21.smt2,Z3,0.052743099999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_95.smt2,Z3,0.052581
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_43.smt2,Z3,0.05242214
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_29.smt2,Z3,0.05239101
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_16.smt2,Z3,0.052348900000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_03.smt2,Z3,0.0523218
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_33.smt2,Z3,0.052288
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--misc--sgi-xp--xp.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Z3,0.05228502
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_54.smt2,Z3,0.052182
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_44.smt2,Z3,0.05213081
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_25.smt2,Z3,0.0521181
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_13.smt2,Z3,0.051937010000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_09.smt2,Z3,0.0518038
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_27.smt2,Z3,0.05130320000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_25.smt2,Z3,0.0511859
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_66.smt2,Z3,0.051080799999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_77.smt2,Z3,0.051004999999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_29.smt2,Z3,0.05100101
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_68.smt2,Z3,0.05099190000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_06.smt2,Z3,0.0508951
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_18.smt2,Z3,0.050744000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_85.smt2,Z3,0.05043979999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_03.smt2,Z3,0.050167
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_20.smt2,Z3,0.050066099999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_74.smt2,Z3,0.04968210000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_16.smt2,Z3,0.0496709
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_81.smt2,Z3,0.04948319999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_74.smt2,Z3,0.049283
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_09.smt2,Z3,0.0492701
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_86.smt2,Z3,0.0491221
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_56.smt2,Z3,0.048938100000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_00.smt2,Z3,0.048603999999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_09.smt2,Z3,0.04832290000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_12.smt2,Yices (2018),0.0482399
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--mtd--ubi--gluebi.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices,0.0480171
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_65.smt2,Z3,0.04792110000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_67.smt2,Z3,0.0479059
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--common--tuners--mt2131.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,veriT,0.0475599
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_94.smt2,Z3,0.0460698
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--misc--apanel.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,veriT,0.045781999999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_07.smt2,Z3,0.0455989
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_76.smt2,Z3,0.0454812
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_79.smt2,Yices (2018),0.045330999999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_43.smt2,Z3,0.0451681
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_04.smt2,Yices (2018),0.044657800000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_28.smt2,Z3,0.044238
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_36.smt2,Z3,0.04338589999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_82.smt2,Z3,0.0433011
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--input--joystick--spaceorb.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,veriT,0.043291
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_37.smt2,Z3,0.042888
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_26.smt2,Z3,0.0427092
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_17.smt2,Z3,0.042234
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_10.smt2,Yices (2018),0.041342
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_56.smt2,Yices (2018),0.0409471
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_41.smt2,Yices (2018),0.0404519
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_89.smt2,Z3,0.035375
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_62.smt2,Z3,0.03245000000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_39.smt2,Yices (2018),0.027110000000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_76.smt2,Yices (2018),0.0258621
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_72.smt2,Yices,0.0252759
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_28.smt2,Yices (2018),0.024948000000000026
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_99.smt2,Z3,0.024106999999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.module_get_put-drivers-bluetooth-btmrvl.ko_true-unreach-call.cil.out.i.pp.i.smt2,Yices,0.022557999999999967
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem06_60_false-unreach-call.c.smt2,Yices,0.022108000000000017
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_83.smt2,Yices (2018),0.0211339
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_76.smt2,Yices (2018),0.0208009
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_78.smt2,Yices,0.020349999999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_51.smt2,Yices (2018),0.020118900000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product64_false-unreach-call.cil.c.smt2,veriT,0.019831100000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_88.smt2,Yices (2018),0.018581099999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product53_false-unreach-call.cil.c.smt2,veriT,0.0181228
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product59_false-unreach-call.cil.c.smt2,veriT,0.018088099999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_94.smt2,veriT,0.016914899999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_41.smt2,veriT,0.0159189
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_49.smt2,veriT,0.0156061
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_11.smt2,veriT,0.015149099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_44.smt2,Yices (2018),0.014387899999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product22_false-unreach-call.cil.c.smt2,veriT,0.014138099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product28_false-unreach-call.cil.c.smt2,veriT,0.013883010000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product20_false-unreach-call.cil.c.smt2,veriT,0.013662829999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_33.smt2,Yices (2018),0.013054799999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_28.smt2,veriT,0.012775900000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_35.smt2,veriT,0.011744099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_45.smt2,Yices (2018),0.010765200000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_19.smt2,veriT,0.0094571
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_63.smt2,Yices (2018),0.009424800000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_75.smt2,Yices (2018),0.0089741
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product34_true-unreach-call.cil.c.smt2,veriT,0.008769900000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_91.smt2,Yices (2018),0.008572000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product62_true-unreach-call.cil.c.smt2,veriT,0.008533099999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--power--wm831x_power.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.008383000000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_73.smt2,Yices (2018),0.008356000000000002
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--staging--iio--addac--adt7316-spi.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.008261200000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-jumpshot.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,veriT,0.008213999999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_47.smt2,Yices (2018),0.0079141
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_87.smt2,veriT,0.007881899999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0200_10_13.smt2,veriT,0.00784801
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_96.smt2,Yices (2018),0.0067621
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.main3_false-unreach-call_drivers-staging-usbip-vhci-hcd-ko--132_1a--927c3fa.c.smt2,Yices (2018),0.006502000000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_23.smt2,Yices,0.005722900000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_47.smt2,Yices (2018),0.0056930999999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_02.smt2,Yices (2018),0.005008999999999996
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--tty--serial--altera_jtaguart.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.004472999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_71.smt2,Yices (2018),0.004384889999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_22.smt2,Yices (2018),0.004252899999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product17_false-unreach-call.cil.c.smt2,Yices (2018),0.0036449199999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_17.smt2,Yices (2018),0.00363607
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product02_false-unreach-call.cil.c.smt2,Yices (2018),0.0036149600000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_02.smt2,Yices (2018),0.003462099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_11.smt2,Yices (2018),0.0033399099999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--common--tuners--mxl5007t.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0033091000000000093
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec2_product37_true-unreach-call.cil.c.smt2,Yices (2018),0.003225799999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_59.smt2,Yices (2018),0.0032061
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product26_false-unreach-call.cil.c.smt2,Yices (2018),0.003085000000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_61.smt2,Yices (2018),0.002685989999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--video--gspca--gspca_pac207.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0025991
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_13.smt2,Yices (2018),0.00259003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_10.smt2,Yices (2018),0.00252109
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_78.smt2,Yices (2018),0.0024710500000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_22.smt2,Yices (2018),0.0023861000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_25.smt2,Yices,0.0023789699999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_25.smt2,Yices (2018),0.0022591
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--usb--serial--mos7840.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices,0.0022529999999999495
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_49.smt2,Yices (2018),0.0022448799999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_05.smt2,Yices (2018),0.002173920000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_28.smt2,Yices (2018),0.0021528999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_53.smt2,Yices (2018),0.0020729999999999985
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_29.smt2,Yices (2018),0.002069930000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_15.smt2,Yices (2018),0.00199912
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_16.smt2,Yices (2018),0.001986
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_22.smt2,Yices (2018),0.0018280999999999992
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_15.smt2,Yices (2018),0.001793920000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_20.smt2,Yices (2018),0.0017488
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_30.smt2,Yices,0.0017309000000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_20.smt2,Yices (2018),0.0016691999999999992
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_14.smt2,Yices (2018),0.0016649000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-usbat.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0016500999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_26.smt2,Yices (2018),0.001642000000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_80.smt2,Yices (2018),0.001613100000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_45.smt2,Yices (2018),0.0015549300000000012
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_96.smt2,Yices (2018),0.0015220999999999985
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_29.smt2,Yices (2018),0.0014891000000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem17_60_false-unreach-call.c.smt2,Yices (2018),0.001481100000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_29.smt2,Yices (2018),0.0014468000000000016
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_10.smt2,Yices (2018),0.0014178999999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--leds--leds-lp5521.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0014120999999999995
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--xen--xenfs--xenfs.ko-ldv_main1_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0013769999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_49.smt2,Yices (2018),0.0013530999999999994
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product18_false-unreach-call.cil.c.smt2,Yices (2018),0.0013491500000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_12.smt2,Yices (2018),0.0012711000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_19.smt2,Yices (2018),0.00125309
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product27_false-unreach-call.cil.c.smt2,Yices (2018),0.0012498000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_15.smt2,Yices (2018),0.001222899999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem01_00_true-unreach-call.c.smt2,Yices (2018),0.0012190000000000013
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem18_60_false-unreach-call.c.smt2,Yices (2018),0.0012069000000000038
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_18.smt2,Yices,0.0011888999999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_25.smt2,Yices (2018),0.0011828000000000012
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product49_false-unreach-call.cil.c.smt2,Yices (2018),0.0011812000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product58_true-unreach-call.cil.c.smt2,Yices (2018),0.0011767999999999987
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_22.smt2,Yices (2018),0.0011701000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_21.smt2,Yices (2018),0.0011619000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_94.smt2,Yices (2018),0.0011390999999999988
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--keyboard--stowaway.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0011108000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7_cilled_false-unreach-call_const_ok_linux-32_1-drivers--usb--image--microtek.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0011019000000000029
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_13.smt2,Yices (2018),0.0010821000000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_14.smt2,Yices (2018),0.0010599000000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_92.smt2,Yices (2018),0.0010529000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_18.smt2,Yices (2018),0.0010450000000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_98.smt2,Yices (2018),0.0010310100000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_29.smt2,Yices (2018),0.0010089
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_16.smt2,Yices (2018),0.0009859000000000014
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product62_true-unreach-call.cil.c.smt2,Yices (2018),0.0009581999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_11.smt2,Yices (2018),0.0009479999999999992
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_11.smt2,Yices (2018),0.0009300000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product24_false-unreach-call.cil.c.smt2,Yices (2018),0.0009191000000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-nova-t-usb2.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0009179999999999987
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_84.smt2,Yices (2018),0.000914100000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_30.smt2,Yices (2018),0.0009089000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product37_true-unreach-call.cil.c.smt2,Yices (2018),0.0009029999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_08.smt2,Yices (2018),0.0008760399999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_86.smt2,Yices (2018),0.0008680000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_74.smt2,Yices (2018),0.0008639399999999988
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_28.smt2,Yices (2018),0.000851939999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_62.smt2,Yices (2018),0.0008441999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_51.smt2,Yices (2018),0.0008409000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_11.smt2,Yices (2018),0.0008218500000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_21.smt2,Yices (2018),0.0008060000000000012
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem10_00_true-unreach-call.c.smt2,Yices (2018),0.000784
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_17.smt2,Yices (2018),0.0007780800000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_26.smt2,Yices (2018),0.0007518000000000004
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_83.smt2,Yices (2018),0.0007460000000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_35.smt2,Yices (2018),0.0007428999999999977
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_40.smt2,Yices (2018),0.0007318999999999989
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_65.smt2,Yices (2018),0.0007290000000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-az6027.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0007271000000000014
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product33_false-unreach-call.cil.c.smt2,Yices (2018),0.0007242000000000012
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_16.smt2,Yices (2018),0.0007211800000000001
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_18.smt2,Yices (2018),0.0007011499999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_26.smt2,Yices (2018),0.0006901000000000025
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_74.smt2,Yices (2018),0.0006692000000000017
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_25.smt2,Yices (2018),0.0006660999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_31.smt2,Yices (2018),0.0006620000000000011
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_94.smt2,Yices (2018),0.0006521000000000009
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_39.smt2,Yices (2018),0.0006399999999999982
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_98.smt2,Yices (2018),0.0005832000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_32.smt2,Yices (2018),0.000562
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_24.smt2,Yices (2018),0.0005560000000000009
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_28.smt2,Yices (2018),0.0005519599999999989
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_15.smt2,Yices (2018),0.0005500599999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--usb--storage--ums-sddr55.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0005321000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product37_false-unreach-call.cil.c.smt2,Yices (2018),0.0005248000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_22.smt2,Yices (2018),0.0005241000000000013
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_22.smt2,Yices (2018),0.0005081600000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_10.smt2,Yices (2018),0.000501999999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_02.smt2,Yices (2018),0.000494099999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_24.smt2,Yices (2018),0.0004887999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_89.smt2,Yices (2018),0.0004860000000000003
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product36_false-unreach-call.cil.c.smt2,Yices (2018),0.0004859999999999986
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem01_10_true-unreach-call.c.smt2,Yices (2018),0.00047799999999999926
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_28.smt2,Yices (2018),0.00047789999999999985
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.ddv_machzwd_outb_false-unreach-call.i.smt2,Yices,0.0004760000000000042
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_73.smt2,Yices,0.00046907000000000025
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_68.smt2,Yices (2018),0.00046900000000000067
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_07.smt2,Yices (2018),0.0004319000000000007
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_28.smt2,Yices (2018),0.00040599000000000017
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_98.smt2,Yices (2018),0.0003969999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--keyboard--xtkbd.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.00039579999999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_21.smt2,Yices (2018),0.0003881000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_97.smt2,Yices (2018),0.00037799999999999986
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_99.smt2,Yices (2018),0.00037000000000000054
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product34_false-unreach-call.cil.c.smt2,Yices (2018),0.0003630000000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_19.smt2,Yices (2018),0.00034299999999999956
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_26.smt2,Yices (2018),0.00032919999999999824
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_23.smt2,Yices (2018),0.00032809999999999957
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_00.smt2,Yices (2018),0.0003230999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_93.smt2,Yices (2018),0.0003200999999999985
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_64.smt2,Yices (2018),0.00031000000000000125
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_20.smt2,Yices (2018),0.00028800000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_18.smt2,Yices (2018),0.00027589999999999906
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_54.smt2,Yices (2018),0.0002710999999999998
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--media--dvb--dvb-usb--dvb-usb-vp7045.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0002669999999999999
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_16.smt2,Yices (2018),0.0002659700000000008
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_16.smt2,Yices (2018),0.0002631000000000005
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_13.smt2,Yices (2018),0.00025619999999999983
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_41.smt2,Yices (2018),0.000255
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_15.smt2,Yices (2018),0.00023610000000000124
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_96.smt2,Yices (2018),0.0002031000000000012
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_24.smt2,Yices (2018),0.00020295999999999856
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_67.smt2,Yices (2018),0.00018879999999999938
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_06.smt2,Yices (2018),0.00018380000000000132
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_27.smt2,Yices (2018),0.00017709999999999948
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0300_10_18.smt2,Yices (2018),0.00016517000000000094
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem14_00_true-unreach-call.c.smt2,Yices (2018),0.0001560999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_21.smt2,Yices (2018),0.0001500400000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.43_1a_cilled_true-unreach-call_ok_nondet_linux-43_1a-drivers--input--joystick--twidjoy.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.00013699999999999997
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem02_10_true-unreach-call.c.smt2,Yices (2018),0.00013190000000000077
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_20.smt2,Yices (2018),0.00012610000000000052
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_28.smt2,Yices (2018),0.0001227999999999993
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_24.smt2,Yices (2018),0.00010900000000000146
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_19.smt2,Yices,0.0001071000000000006
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_26.smt2,Yices,0.00010590000000000079
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_96.smt2,Yices (2018),9.198000000000019e-05
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_44.smt2,Yices (2018),5.480000000000068e-05
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_27.smt2,Yices (2018),5.310000000000037e-05
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0500_10_22.smt2,Yices (2018),4.799999999999943e-05
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_10.smt2,Yices (2018),4.2800000000000823e-05
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_14.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_60.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_59.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_93.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_65.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_22.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product38_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_26.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_85.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_37.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_24.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec27_productSimulator_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_12.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_67.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_25.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_66.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product40_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.m0_true-unreach-call_drivers-net-slip-ko--108_1a--1b0b0ac.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_19.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem05_60_false-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem14_30_true-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_95.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_10_0250_10_24.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem12_60_false-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_stack_false-unreach-call.i.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_91.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_16.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--watchdog--cpu5wdt.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_32.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_13.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-32_7a-drivers--infiniband--hw--cxgb3--iw_cxgb3.ko-ldv_main6_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_16.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_27.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_19.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_17.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_18.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0800_10_14.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_35.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-bmc-svcomp14/cpachecker-bmc.rekh_ctm_true-unreach-call.3.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_19.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_57.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_04.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product33_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_28.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_13.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_12.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product08_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product19_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product41_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product51_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product36_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product03_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_31.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_24.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product25_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_10.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.ddv_machzwd_inw_false-unreach-call.i.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem04_50_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_84.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_50.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.s3_srvr.blast.10_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_80.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_15.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_25.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_20.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7_cilled_false-unreach-call_const_ok_linux-32_1-drivers--media--video--mem2mem_testdev.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--keyboard--newtonkbd.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product31_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_18.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_55.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem04_60_false-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_21.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_74.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_40.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_29.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_34.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_56.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.cs_fib_longer_true-unreach-call.i.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_01.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product13_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_10.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_17.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_22.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec4_product61_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_21.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_91.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem03_40_true-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_90.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_64.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_32.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_28.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_93.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0300_10_12.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_57.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_27.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--w1--slaves--w1_ds2431.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_24.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_66.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_77.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.main1_true-unreach-call_drivers-media-video-tlg2300-poseidon-ko--32_7a--4a349aa.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_14.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_10.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_27.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0300_10_15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_58.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem19_60_false-unreach-call.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_20.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_17.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.Problem13_60_false-unreach-call.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_21.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_66.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product15_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_88.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.s3_srvr.blast.12_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0600_10_16.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_97.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec1_product45_true-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_60_45_38.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_30_75_45_37.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0600_10_24.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_7a_cilled_true-unreach-call_linux-3.8-rc1-drivers--infiniband--hw-cxgb3--iw_cxgb3.ko-main.cil.out.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_20.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0400_10_20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_18.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_10.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_14.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0900_10_20.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.s3_srvr.blast.14_false-unreach-call.i.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--media--dvb--dvb-usb--dvb-usb-gl861.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.email_spec3_product29_false-unreach-call.cil.c.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1000_10_22.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/cpachecker-induction-svcomp14/cpachecker-induction.minepump_spec3_product63_false-unreach-call.cil.c.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_150_30_64.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_1200_10_11.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_20_0200_10_27.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0750_10_25.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_15.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0450_10_22.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_40_0400_10_20.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_50_100_30_28.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomCoupled/pb_real_30_0600_10_13.smt2,Yices (2018),0.0
+/data/SMT-LIB-non-incremental/QF_UFLRA/mathsat/RandomDecoupled/pb_real_40_80_60_46.smt2,Yices (2018),0.0

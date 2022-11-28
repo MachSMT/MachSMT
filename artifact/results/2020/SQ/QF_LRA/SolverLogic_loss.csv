@@ -1,0 +1,430 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-46.t2.c_Iteration2_Loop_7-phaseTemplate.smt2,Yices,2387.0097
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.c.i.ludcmp.pl.t2.fixed.t2.c_Iteration10_Loop_7-phaseTemplate.smt2,Yices,2367.2539
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/BradleyMannaSipma-2005ICALP-Fig1_true-termination.c_Iteration1_Lasso_4-pieceTemplate.smt2,Yices,2262.306
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_two_index_06.i_3_2_2.bpl_11.smt2,veriT,2184.478
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration7_Loop_7-phaseTemplate.smt2,Yices,2157.283
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_sorting_bubblesort_ground.i_4_3_3.bpl_11.smt2,Yices,2073.341
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/NoriSharma-2013FSE-Fig8_true-termination.c_Iteration1_Lasso_7-phaseTemplate.smt2,Yices,2014.454
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_nested9.i_5_6_6.bpl_7.smt2,OpenSMT,1904.301
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Braverman-2006CAV-Ex1-int.bpl_Iteration1_Lasso_7-phaseTemplate.smt2,OpenSMT,1383.79
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/eric.t2.c_Iteration1_Lasso_4-pieceTemplate.smt2,Yices,951.839
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex5_true-termination.c_Iteration2_Lasso_3-pieceTemplate.smt2,Z3,899.384
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/disj_nightmare.t2.c_Iteration2_Loop_3-pieceTemplate.smt2,Yices,782.28905
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration5_Lasso_7-phaseTemplate.smt2,Z3,713.2918999999999
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/janne_complex.t2.c_Iteration3_Lasso_7-phaseTemplate.smt2,Z3,586.6531
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_strcmp_ground.i_4_2_2.bpl_11.smt2,SPASS-SATT (2019),537.048
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_15nodes.abstract.induct.smt2,Yices,516.235
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_strcpy_original.i_3_3_2.bpl_11.smt2,Yices,504.35
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_partial_init_ground.i_3_2_2.bpl_11.smt2,Yices,420.77500000000003
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_compareModified_ground.i_4_2_2.bpl_11.smt2,Yices,400.97799999999995
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_init5_ground.i_3_2_2.bpl_7.smt2,veriT,362.0625
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_password_ground.i_4_2_2.bpl_11.smt2,CVC4,320.347
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/BradleyMannaSipma-2005CAV-Fig1_true-termination.c_Iteration1_Lasso_7-phaseTemplate.smt2,Z3,251.06869999999998
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled100.bpl_Iteration1_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),229.04310000000004
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/bound-scaled400.bpl_Iteration1_Loop_4-pieceTemplate.smt2,Yices,226.0073
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/hongyi1.t2.c_Iteration9_Loop_4-pieceTemplate.smt2,Yices,221.101
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_two_index_05.i_3_2_2.bpl_11.smt2,CVC4,197.20999999999998
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_array1.i_3_2_2.bpl_11.smt2,Z3,159.08550000000002
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-10000.smt2,CVC4,130.42789100000002
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_copy5_ground.i_3_2_2.bpl_7.smt2,CVC4,128.9276
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled200.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,Yices,123.61720000000001
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/SyntaxSupportDivision1.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,OpenSMT,116.28433
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_3-pieceTemplate.smt2,Yices,113.35800000000003
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/disj_nightmare.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,OpenSMT,104.78089999999999
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-5000.smt2,veriT,104.22199999999992
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_maxInArray_ground.i_3_2_2.bpl_11.smt2,veriT,101.391
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/GcdNew.bpl_Iteration1_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),100.94170000000001
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sumit.t2.c_Iteration2_Loop_6-phaseTemplate.smt2,Z3,95.0569
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_simple1.i_3_6_2.bpl_11.smt2,veriT,91.356
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.t2.c_Iteration8_Loop_6-phaseTemplate.smt2,Yices,76.16971000000001
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/magic.t2.c_Iteration12_Loop_7-phaseTemplate.smt2,Yices,70.69160000000001
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/GcdNew.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,68.6423
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration5_Loop_4-pieceTemplate.smt2,Z3,65.261
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/efegp.t2.c_Iteration1_Lasso_3-pieceTemplate.smt2,OpenSMT,57.919160000000005
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-46.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,Yices,57.4559
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration7_Loop_3-pieceTemplate.smt2,Yices,49.9152
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-46.t2.c_Iteration2_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),42.6004
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration3_Loop_7-phaseTemplate.smt2,OpenSMT,41.947147
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/GulwaniJainKoskinen-2009PLDI-Fig1_true-termination.c_Iteration1_Lasso_7-phaseTemplate.smt2,Yices,38.970650000000006
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_4-pieceTemplate.smt2,Yices,37.242999999999995
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration5_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),32.5518
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/magic.t2.c_Iteration12_Loop_4-pieceTemplate.smt2,OpenSMT,32.415389999999995
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/BradleyMannaSipma-2005ICALP-Fig1_true-termination.c_Iteration1_Lasso_7-phaseTemplate.smt2,Yices,30.912339999999997
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ndes.t2.c_Iteration3_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),29.438209999999998
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-34.base.cvc.smt2,Yices,27.356879999999997
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/NoriSharma-2013FSE-Fig8_true-termination.c_Iteration1_Loop_6-phaseTemplate.smt2,Yices,26.6771
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_copyInitSum2_ground.i_3_2_2.bpl_7.smt2,CVC4,26.647100000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.t2.c_Iteration9_Loop_6-phaseTemplate.smt2,Yices,26.2931
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/agafp.t2.c_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,24.5793
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled75.bpl_Iteration1_Loop_3-pieceTemplate.smt2,OpenSMT,23.171200000000002
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-37.base.cvc.smt2,Yices,22.88842
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/bound-scaled600.bpl_Iteration1_Loop_5-phaseTemplate.smt2,Yices,22.46922
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/brp_withassume.t2.c_Iteration8_Loop_4-phaseTemplate.smt2,SPASS-SATT (2019),22.2068
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/polyrank6.t2.c_Iteration1_Loop_7-phaseTemplate.smt2,OpenSMT,21.68498
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_9clocks.main_invar.induct.smt2,Yices,21.363600000000005
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled50.bpl_Iteration1_Loop_4-pieceTemplate.smt2,SPASS-SATT (2019),20.028100000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sumit.t2.c_Iteration2_Loop_5-phaseTemplate.smt2,Z3,19.966540000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.t2.c_Iteration7_Loop_7-phaseTemplate.smt2,OpenSMT,19.31013
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_sum60.i_5_6_5.bpl_5.smt2,CVC4,19.226999999999997
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Collatz.bpl_Iteration1_Loop_7-phaseTemplate.smt2,Yices,19.062739999999998
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-28.base.cvc.smt2,Z3,16.94331
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration3_Loop_4-pieceTemplate.smt2,OpenSMT,16.08736
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_8nodes.abstract.induct.smt2,Z3,15.849899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled50.bpl_Iteration1_Loop_6-phaseTemplate.smt2,SPASS-SATT (2019),15.55978
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/CookSeeZuleger-2013TACAS-Fig3_true-termination.c_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,14.853000000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ndes.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,OpenSMT,14.108799999999995
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration1_Lasso_3-pieceTemplate.smt2,OpenSMT,13.902199999999999
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Lobnya-Boolean-Reordered.bpl_Iteration1_Lasso_7-phaseTemplate.smt2,Yices,13.62385
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Braverman-2006CAV-Ex1-int.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,veriT,13.274659999999999
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_12nodes.abstract.induct.smt2,CVC4,12.911200000000008
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_jain_5.i_2_4_3.bpl_7.smt2,veriT,12.043099999999999
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled50.bpl_Iteration1_Loop_3-pieceTemplate.smt2,SPASS-SATT (2019),11.983900000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/elmhes.t2.c_Iteration5_Loop_4-pieceTemplate.smt2,Yices,11.5716
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-43.t2.c_Iteration5_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),11.19548
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_4-lexTemplate.smt2,SPASS-SATT (2019),11.0715
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/GulwaniJainKoskinen-2009PLDI-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2,Yices,10.613949999999999
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration1_Lasso_5-phaseTemplate.smt2,OpenSMT,10.59696
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex5_true-termination.c_Iteration2_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),10.404599999999999
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_14nodes.missing.induct.smt2,MathSAT5,9.6574679
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/janne_complex.t2.c_Iteration3_Lasso_6-phaseTemplate.smt2,SPASS-SATT (2019),9.5179
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_7-phaseTemplate.smt2,OpenSMT,9.031189999999999
+/data/SMT-LIB-non-incremental/QF_LRA/tropical-matrix/constraint-436218.smt2,OpenSMT,8.753899999999987
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-38.base.cvc.smt2,Yices,8.353800000000003
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/toeplz.t2.c_Iteration2_Loop_3-pieceTemplate.smt2,SPASS-SATT (2019),8.29433
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_11nodes.bug.induct.smt2,Z3,7.272935
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-26.base.cvc.smt2,MathSAT5,6.7054800000000006
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-36.base.cvc.smt2,Yices,6.575399999999998
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/eric.t2.c_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,6.44289
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_3-pieceTemplate.smt2,Yices,6.406500000000001
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_5clocks.worst_case_skew.induct.smt2,Z3,6.097552
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-19.base.cvc.smt2,Z3,5.96547
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_7clocks.main_invar.induct.smt2,OpenSMT,5.763439999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-23.base.cvc.smt2,Yices,5.49375
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/GcdNew.bpl_Iteration1_Lasso_3-pieceTemplate.smt2,SPASS-SATT (2019),5.40316
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-24.base.cvc.smt2,MathSAT5,5.244879999999999
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_7nodes.abstract.induct.smt2,Yices,5.1096
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.c.i.ludcmp.pl.t2.fixed.t2.c_Iteration9_Loop_5-phaseTemplate.smt2,OpenSMT,5.064360000000001
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/NoriSharma-2013FSE-Fig7_true-termination.c_Iteration1_Loop_7-phaseTemplate.smt2,OpenSMT,4.936449999999999
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_half_2.i_3_6_2.bpl_7.smt2,SPASS-SATT (2019),4.34726
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_14nodes.synchro.induct.smt2,OpenSMT,4.086054
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/GulwaniJainKoskinen-2009PLDI-Fig1_true-termination.c_Iteration1_Lasso_5-nestedTemplate.smt2,SPASS-SATT (2019),3.9395520000000004
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_12nodes.bug.induct.smt2,CVC4,3.9208600000000002
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-17.base.cvc.smt2,Yices,3.757055
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_3-phaseTemplate.smt2,SPASS-SATT (2019),3.4152699999999996
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/collatz.t2.c_Iteration3_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),3.230480000000001
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_10nodes.bug.induct.smt2,CVC4,3.104305
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/GulwaniResetBranchOnly.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,2.957853
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/magic.t2.c_Iteration23_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),2.92856
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p-DepotsNum_s8.msat.smt2,OpenSMT,2.3861999999999997
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-38.induction3.cvc.smt2,Z3,2.248086
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/vpm2-0.smt2,OpenSMT,2.226613
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Gcd_havoc.bpl_Iteration1_Lasso_3-pieceTemplate.smt2,OpenSMT,2.08379
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Canberra.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,1.99572
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_15nodes.missing.induct.smt2,CVC4,1.867688
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/Masse_true-termination.c_Iteration1_Lasso_3-pieceTemplate.smt2,SPASS-SATT (2019),1.7333900000000004
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/opt1217--6.smt2,veriT,1.634476
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_6-phaseTemplate.smt2,OpenSMT,1.520932
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-39.induction3.cvc.smt2,Z3,1.429624
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled100.bpl_Iteration1_Loop_5-phaseTemplate.smt2,OpenSMT,1.4139100000000004
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-40.induction.cvc.smt2,veriT,1.380773
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/byron-2.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,SPASS-SATT (2019),1.29044
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/wrong_loop.t2.c_Iteration3_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),1.287018
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/OpposedDisjuncts.bpl_Iteration1_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),1.27441
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-21.base.cvc.smt2,veriT,1.2699600000000002
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/selectSort.t2.c_Iteration3_Loop_4-pieceTemplate.smt2,OpenSMT,1.20914
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ludcmp.c.i.ludcmp.pl.t2.fixed.t2.c_Iteration8_Loop_6-phaseTemplate.smt2,OpenSMT,1.158328
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/MenloPark.bpl_Iteration1_Lasso_7-phaseTemplate.smt2,OpenSMT,1.048438
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-31.induction.cvc.smt2,veriT,1.0315690000000002
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_10nodes.synchro.induct.smt2,OpenSMT,0.916226
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-34.induction2.cvc.smt2,OpenSMT,0.900798
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration5_Loop_3-pieceTemplate.smt2,SPASS-SATT (2019),0.8297000000000008
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_two_index_05.i_3_2_2.bpl_7.smt2,SPASS-SATT (2019),0.828557
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/hongyi1.t2.c_Iteration1_Loop_5-phaseTemplate.smt2,SPASS-SATT (2019),0.8241999999999976
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-33.induction.cvc.smt2,Yices,0.763154
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_5clocks.main_invar.induct.smt2,OpenSMT,0.6888399999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-33.induction3.cvc.smt2,veriT,0.6561798999999999
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-28.induction.cvc.smt2,veriT,0.618109
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-31.induction3.cvc.smt2,veriT,0.5972630999999999
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/vpm2-5.smt2,OpenSMT,0.596974
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-11.base.cvc.smt2,SPASS-SATT (2019),0.5629839999999999
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_hhk2008.c.i_3_3_2.bpl_7.smt2,OpenSMT,0.5610431
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-35.induction2.cvc.smt2,veriT,0.5456739
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_3clocks.main_invar.induct.smt2,Yices,0.525397
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_overflow1.i_3_8_2.bpl_7.smt2,SPASS-SATT (2019),0.507194
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p2-driverlogNumeric_s10.smt2,veriT,0.49613
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-32.induction3.cvc.smt2,MathSAT5,0.47056300000000006
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-40.smt2,OpenSMT,0.4634139
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p4-driverlogNumeric_s8.smt2,OpenSMT,0.460669
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/wrong_loop.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,OpenSMT,0.45825000000000005
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliFBAyicesTest-1875-2.smt2,OpenSMT,0.4520781
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliFBAyicesTest-15875-16.smt2,OpenSMT,0.45203010000000005
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-11000.smt2,veriT,0.424145
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/bsort100.t2.c_Iteration13_Loop_4-pieceTemplate.smt2,OpenSMT,0.4039599999999999
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-24.base.cvc.smt2,Yices,0.40022
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-28.induction3.cvc.smt2,veriT,0.373752
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-33.induction2.cvc.smt2,veriT,0.343789
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-23.induction3.cvc.smt2,veriT,0.31740500000000005
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_5nodes.missing.induct.smt2,Z3,0.309186
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration7_Loop_5-phaseTemplate.smt2,OpenSMT,0.29715999999999987
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-22.induction.cvc.smt2,SPASS-SATT (2019),0.2625479
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-36.induction.cvc.smt2,Yices,0.260167
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-23.induction.cvc.smt2,veriT,0.22723400000000005
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-22.induction3.cvc.smt2,Z3,0.21706199999999998
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-18.base.cvc.smt2,Yices,0.21405999999999992
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_4nodes.bug.induct.smt2,Z3,0.200569
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p6-zenonumeric_s5.smt2,Z3,0.197731
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_4clocks.main_invar.induct.smt2,SPASS-SATT (2019),0.19294999999999995
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-20.induction2.cvc.smt2,Z3,0.1814849
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-10.base.cvc.smt2,Z3,0.181095
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-19.smt2,Z3,0.174551
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/CooperatingT2_consts1.bpl_Iteration1_Lasso_3-pieceTemplate.smt2,OpenSMT,0.17319
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tms-2-3-light-90.smt2,OpenSMT,0.1671359
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-16.induction2.cvc.smt2,MathSAT5,0.16516899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-matrix7x7.pddl.smt2,OpenSMT,0.1626131
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-temporal-machine-shop-2-3-A80.smt2,OpenSMT,0.1579951
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-16.induction.cvc.smt2,veriT,0.15668289999999999
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/BradleyMannaSipma-2005ICALP-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2,Z3,0.14888000000000012
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-15.base.cvc.smt2,veriT,0.14736499999999997
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-7.smt2,CVC4,0.13676100000000002
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-10.smt2,CVC4,0.13485695
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-17.induction3.cvc.smt2,veriT,0.1297229
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-11.base.cvc.smt2,veriT,0.125734
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-25.induction.cvc.smt2,OpenSMT,0.11834599999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-16.induction3.cvc.smt2,veriT,0.11573099999999999
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_7clocks.main_invar.base.smt2,OpenSMT,0.112513
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-27.induction.cvc.smt2,veriT,0.10963299999999998
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_7nodes.bug.induct.smt2,Yices,0.10766700000000001
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-32.induction.cvc.smt2,MathSAT5,0.10301700000000003
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliFBAyicesTest-750.smt2,SPASS-SATT (2019),0.1024399
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-12.induction.cvc.smt2,veriT,0.09726400000000002
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-19.smt2,OpenSMT,0.08584699999999999
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tms-2-3-light-80.smt2,OpenSMT,0.084317
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-26.induction.cvc.smt2,Yices,0.077315
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-12.induction2.cvc.smt2,OpenSMT,0.0740291
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-18.induction.cvc.smt2,OpenSMT,0.071119
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_15nodes.abstract.base.smt2,MathSAT5,0.06939709999999999
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p-0-bucket_s10.smt2,veriT,0.0679162
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-13.induction3.cvc.smt2,veriT,0.0671091
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-18.smt2,Z3,0.066637
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-2000.smt2,veriT,0.0638399999999999
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_3nodes.abstract.induct.smt2,veriT,0.062775
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-14.smt2,veriT,0.0624882
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_9nodes.abstract.base.smt2,Z3,0.0603608
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_4nodes.missing.induct.smt2,veriT,0.059870799999999995
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-14.base.cvc.smt2,veriT,0.05684200000000006
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-12.smt2,veriT,0.05516310000000001
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-9.smt2,Z3,0.054856100000000005
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-9.induction.cvc.smt2,veriT,0.053675900000000006
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_2clocks.main_invar.induct.smt2,OpenSMT,0.049887000000000015
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-safe-20.smt2,OpenSMT,0.049086099999999994
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_6clocks.main_invar.base.smt2,veriT,0.0468899
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-11.smt2,veriT,0.044769
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_11nodes.synchro.base.smt2,veriT,0.044354
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-13.smt2,OpenSMT,0.0442609
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-8.smt2,Z3,0.042544
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliFBAyicesTest-63875-64.smt2,Yices,0.04217800000000001
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking09.smt2,CVC4,0.0416039
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-9.smt2,Z3,0.0407522
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliFBAyicesTest-31875-32.smt2,Yices,0.040699
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-15.induction.cvc.smt2,veriT,0.039009
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking23.smt2,Z3,0.0379009
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/reint_to_least.base.smt2,Z3,0.0378151
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_4clocks.main_invar.base.smt2,Z3,0.0364428
+/data/SMT-LIB-non-incremental/QF_LRA/sal/gasburner/gasburner-prop3-10.smt2,Z3,0.0332452
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_10nodes.abstract.base.smt2,veriT,0.032546900000000004
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-safe-5.smt2,Z3,0.0305992
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_5clocks.main_invar.base.smt2,veriT,0.0302889
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-14.induction.cvc.smt2,veriT,0.029931899999999997
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pk1--1.smt2,veriT,0.0296121
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-10.smt2,MathSAT5,0.0295099
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_8nodes.synchro.base.smt2,veriT,0.029377099999999996
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_3nodes.missing.induct.smt2,veriT,0.0292781
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_5nodes.bug.induct.smt2,veriT,0.028799000000000005
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-5.smt2,Z3,0.0287139
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking13.smt2,Z3,0.02806
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tms-2-3-light-07.smt2,Z3,0.0272612
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/fs_frame_gap.induction.smt2,veriT,0.02724
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-24.induction.cvc.smt2,Yices,0.02493400000000001
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/fs_window.induction.smt2,veriT,0.024880799999999995
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-matrix6x6.pddl.smt2,SPASS-SATT (2019),0.022961999999999996
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-12.induction.cvc.smt2,veriT,0.0229139
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled75.bpl_Iteration1_Loop_4-phaseTemplate.smt2,OpenSMT,0.02173999999999987
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/op_seen_more1.induction.smt2,veriT,0.021137999999999997
+/data/SMT-LIB-non-incremental/QF_LRA/keymaera/water_tank-node4029.smt2,Z3,0.02099607
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-12.smt2,veriT,0.020810000000000002
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_3nodes.synchro.induct.smt2,veriT,0.020540999999999997
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/fs_window.base.smt2,veriT,0.020058
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-safe-10.smt2,veriT,0.019408
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-5.induction.cvc.smt2,veriT,0.018237000000000003
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking12.smt2,veriT,0.017343200000000003
+/data/SMT-LIB-non-incremental/QF_LRA/sal/carpark/Carpark2-ausgabe-6.smt2,SPASS-SATT (2019),0.017078
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-safe-8.smt2,veriT,0.0165479
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-matrix5x5.pddl.smt2,SPASS-SATT (2019),0.015411900000000001
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_3clocks.main_invar.base.smt2,veriT,0.015391899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-5.base.cvc.smt2,OpenSMT,0.0150041
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-7.induction2.cvc.smt2,veriT,0.014376
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-6.base.cvc.smt2,veriT,0.014262899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/synched.base.smt2,veriT,0.013196100000000002
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-nosafe-7.smt2,veriT,0.013016899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-5.induction2.cvc.smt2,veriT,0.012792999999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-39.induction.cvc.smt2,SPASS-SATT (2019),0.011706800000000003
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-temporal-machine-shop-2-3-A04.smt2,OpenSMT,0.0102962
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-4.smt2,veriT,0.009768199999999998
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_3nodes.abstract.base.smt2,veriT,0.008561000000000001
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-nosafe-5.smt2,veriT,0.008340899999999998
+/data/SMT-LIB-non-incremental/QF_LRA/sal/gasburner/gasburner-prop3-12.smt2,veriT,0.008062
+/data/SMT-LIB-non-incremental/QF_LRA/sal/gasburner/gasburner-prop3-14.smt2,veriT,0.007962000000000002
+/data/SMT-LIB-non-incremental/QF_LRA/sal/carpark/Carpark2-ausgabe-3.smt2,veriT,0.007637100000000001
+/data/SMT-LIB-non-incremental/QF_LRA/sal/carpark/Carpark2-t1-2.smt2,veriT,0.006983100000000001
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_count_by_k.i_3_3_2.bpl_7.smt2,veriT,0.006920000000000037
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-6.smt2,veriT,0.006464000000000001
+/data/SMT-LIB-non-incremental/QF_LRA/sal/gasburner/gasburner-prop3-8.smt2,veriT,0.006135109999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-nosafe-3.smt2,veriT,0.005404030000000001
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/mode_cntrl.induction.smt2,veriT,0.005361899999999999
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/bad_echos_ascend.induction.smt2,veriT,0.005187200000000001
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking14.smt2,veriT,0.005072200000000001
+/data/SMT-LIB-non-incremental/QF_LRA/sal/gasburner/gasburner-prop3-7.smt2,veriT,0.004707000000000001
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking15.smt2,veriT,0.004578199999999999
+/data/SMT-LIB-non-incremental/QF_LRA/sal/carpark/Carpark2-t1-3.smt2,veriT,0.0035829
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/pd_finish.base.smt2,veriT,0.003462100000000001
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-depth-7.smt2,veriT,0.0030609999999999995
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_3nodes.synchro.base.smt2,veriT,0.0024291
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking16.smt2,veriT,0.0021859999999999987
+/data/SMT-LIB-non-incremental/QF_LRA/sal/pursuit/pursuit-safety-3.smt2,veriT,0.0019679
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-35.induction.cvc.smt2,Yices,0.0017439000000000066
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking19.smt2,veriT,0.000873999999999998
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-cooking06.smt2,OpenSMT,0.0006718999999999996
+/data/SMT-LIB-non-incremental/QF_LRA/keymaera/water_tank-node15243.smt2,veriT,0.00023199999999999957
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sort.t2.c_Iteration5_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/toeplz.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/Ben-Amram-2010LMCS-Ex2.3_true-termination.c_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/toeplz.c.i.toeplz.pl.t2.fixed.t2.c_Iteration2_Loop_4-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/collatz.t2.c_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_5-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/fs_frame_gap.base.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sal/tgc/tgc_io-nosafe-6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tms-2-3-light-60.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-7349.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex5_true-termination.c_Iteration2_Lasso_7-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/keymaera/water_tank-node28718.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/aviad_true-termination.c_Iteration1_Loop_3-lexTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-3000.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Lobnya-Boolean-Reordered.bpl_Iteration1_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-26.induction.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/2013POPL-BenAmGen-Ex3.20.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_array_single_elem_init.i_4_2_2.bpl_7.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_7-phaseTemplate.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled50.bpl_Iteration1_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/GcdNew.bpl_Iteration1_Lasso_5-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p7-zenonumeric_s6.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-25.base.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-17.induction.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex6_true-termination.c_Iteration1_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled200.bpl_Iteration1_Lasso_3-lexTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_simple4.i_3_4_2.bpl_11.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration1_Lasso_6-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-temporal-machine-shop-2-3-A40.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/aviad_true-termination.c_Iteration1_Loop_3-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/spider_benchmarks/good_frame_update.base.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-28.base.cvc.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled100.bpl_Iteration1_Lasso_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-43.t2.c_Iteration4_Loop_4-pieceTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-32.base.cvc.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/eric.t2.c_Iteration1_Lasso_3-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tropical-matrix/constraint-269735.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_functions1.i_3_5_2.bpl_11.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/bound-scaled400.bpl_Iteration1_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ex11.t2.c_Iteration1_Lasso_3-pieceTemplate.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-6.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/fixnet-7000.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p5-driverlogNumeric_s9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled250.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-17.base.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliMILPglycerolYices3-300000.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled100.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration6_Loop_4-pieceTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p-1-bucket_s9.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/GulwaniJainKoskinen-2009PLDI-Fig1_true-termination.c_Iteration1_Lasso_2-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/firewire.t2.c_Iteration1_Lasso_6-nestedTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/brp_withassume.t2.c_Iteration8_Loop_5-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_overflow1.i_3_8_2.bpl_11.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled100.bpl_Iteration1_Lasso_5-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/latendresse/ecoliMILPglycerolYices3-80000.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/fixnet-3000.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/aviad_true-termination.c_Iteration1_Loop_4-lexTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/TelAviv-AmirMinimum.bpl_Iteration1_Loop_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex6_true-termination.c_Iteration2_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Canberra.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/hongyi1.t2.c_Iteration1_Loop_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex5_true-termination.c_Iteration2_Lasso_6-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-34.induction3.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-36.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-43.t2.c_Iteration4_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pp08a-7350.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-28.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/BradleyMannaSipma-2005ICALP-Fig1_true-termination.c_Iteration1_Lasso_5-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-37.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled200.bpl_Iteration1_Lasso_5-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/yPositive-SIscaled50.bpl_Iteration1_Loop_5-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_7clocks.worst_case_skew.induct.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sas2.t2.c_Iteration6_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_standard_init6_ground.i_3_2_2.bpl_7.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tropical-matrix/constraint-343414.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p4-zenonumeric_s5.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p-0-bucket_s13.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/SyntaxSupportDivision1.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-width-30.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/TelAviv-Amir-Minimum_true-termination.c_Iteration1_Loop_2-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/eric.t2.c_Iteration1_Lasso_2-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/ndes.t2.c_Iteration3_Loop_4-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/OpposedDisjuncts.bpl_Iteration1_Lasso_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/brp_withassume.t2.c_Iteration1_Loop_4-lexTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-15.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/elmhes.t2.c_Iteration2_Loop_7-phaseTemplate.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tropical-matrix/constraint-251380.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-8.base.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Braverman-2006CAV-Ex1-int.bpl_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex2_true-termination.c_Iteration1_Loop_7-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-19.induction.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_gj2007.c.i_4_3_3.bpl_11.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/clock_synchro/clocksynchro_4clocks.worst_case_skew.induct.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/sumit.t2.c_Iteration2_Loop_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-29.induction.cvc.smt2,MathSAT5,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/aviad_true-termination.c_Iteration1_Loop_4-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/collatz.t2.c_Iteration3_Lasso_7-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-23.induction.cvc.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Gulwani.bpl_Iteration1_Lasso_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/TM/p-0-bucket_s7.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/CookSeeZuleger-2013TACAS-Fig7b_true-termination.c_Iteration1_Loop_3-nestedTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/OpposedDisjuncts.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-19.base.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-32.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/SyntaxSupportDisjunction1.bpl_Iteration1_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/2013POPL-BenAmGen-Ex4.2.bpl_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Collatz.bpl_Iteration1_Loop_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/fir.t2.c_Iteration4_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-43.t2.c_Iteration2_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_15nodes.synchro.base.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pk1-20.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/pk1-0.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/LeeJonesBen-Amram-2001POPL-Ex5_true-termination.c_Iteration2_Lasso_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/SV-COMP/aviad_true-termination.c_Iteration1_Loop_2-lexTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-35.base.cvc.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-40.base.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tropical-matrix/constraint-1007893.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/simple-scaled100.bpl_Iteration1_Lasso_6-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/p-55.t2.c_Iteration3_Loop_7-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-8.induction2.cvc.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/2017-Heizmann-UltimateInvariantSynthesis/_array_ptr_single_elem_init.i_4_2_2.bpl_7.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/DTP-Scheduling/constraints-tempo-depth-8.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/hongyi1.t2.c_Iteration9_Loop_2-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/CooperatingT2/brp_withassume.t2.c_Iteration1_Loop_3-pieceTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/miplib/fixnet-3983.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/2013POPL-BenAmGen-Ex3.20.bpl_Iteration1_Loop_4-pieceTemplate.smt2,OpenSMT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/tta_startup/simple_startup_5nodes.synchro.base.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-32.base.cvc.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sal/windowreal/windowreal-no_t_deadlock-4.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/sc/sc-6.induction.cvc.smt2,SPASS-SATT (2019),0.0
+/data/SMT-LIB-non-incremental/QF_LRA/LassoRanker/Ultimate/Collatz.bpl_Iteration1_Loop_6-phaseTemplate.smt2,Yices,0.0
+/data/SMT-LIB-non-incremental/QF_LRA/uart/uart-26.base.cvc.smt2,veriT,0.0

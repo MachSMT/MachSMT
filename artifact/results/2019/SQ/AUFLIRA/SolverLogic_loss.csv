@@ -1,0 +1,1684 @@
+benchmark,prediction,loss
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5c24d5.smt2,Z3,4797.70297
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb84f36.smt2,CVC4,4794.62144
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc35636.smt2,CVC4-SymBreak,87.208009
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib570a3a.smt2,CVC4-SymBreak,64.56006000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtliba67100.smt2,CVC4-SymBreak,64.43806
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1468.fof.smt2,CVC4,42.9142021
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3f52fb.smt2,Vampire,29.3686949
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib601b98.smt2,CVC4-SymBreak,18.04804
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib549b76.smt2,Vampire,14.9880549
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb6131b.smt2,Vampire,14.934617000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib420626.smt2,Vampire,8.6506301
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb19ae6.smt2,Vampire,7.3156569
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib02ad30.smt2,Vampire,6.8980739
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib009aaf.smt2,Vampire,5.172653
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibf7bb2b.smt2,Vampire,3.59491
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3cabb1.smt2,Alt-Ergo,3.5680658999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibd59094.smt2,Vampire,3.289033
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8d40c2.smt2,Vampire,3.2490539999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib43fdbb.smt2,Vampire,3.2398291
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc8b48a.smt2,Vampire,3.181548
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5a7281.smt2,Vampire,2.9604781
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtliba2421f.smt2,Vampire,2.732895
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib221b4b.smt2,Vampire,2.4212989
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib17b631.smt2,Vampire,2.4165871
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb6efaf.smt2,Vampire,2.36392
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib358f5f.smt2,Vampire,2.3458251
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib16a3d4.smt2,Vampire,2.332397
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3a04c5.smt2,Vampire,2.314315
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7629a8.smt2,Vampire,2.3096799999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibf7bdda.smt2,Vampire,2.023344
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe48bc4.smt2,Vampire,1.8637610000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6ca8d2.smt2,Vampire,1.7108971
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb0d6a1.smt2,Vampire,1.485014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0012.fof.smt2,CVC4-SymBreak,1.4205941
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibf130df.smt2,Alt-Ergo,1.249743
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdd1c2a.smt2,Vampire,1.1461299999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibcb81b5.smt2,Vampire,1.1057800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib00eff8.smt2,Vampire,1.019277
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib0756c4.smt2,Vampire,0.9348159
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib88fdbc.smt2,CVC4,0.640639
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9d6077.smt2,Vampire,0.5855060000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibceef00.smt2,CVC4-SymBreak,0.4435479
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib98e6bd.smt2,CVC4-SymBreak,0.39063900000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5ab176.smt2,CVC4,0.3623469
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7c57a3.smt2,CVC4-SymBreak,0.306716
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_85.smt2,Z3,0.2698100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0098.fof.smt2,Vampire,0.2421101
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib79f659.smt2,Z3,0.23336210000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibca7005.smt2,CVC4-SymBreak,0.23095309999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0038.fof.smt2,Vampire,0.1973829
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0339.fof.smt2,Vampire,0.185847
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib13447a.smt2,CVC4,0.171118
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0094.fof.smt2,Vampire,0.16830689999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9828ea.smt2,CVC4-SymBreak,0.166593
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0969.fof.smt2,Vampire,0.16490690000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0052.fof.smt2,Alt-Ergo,0.15993390000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfd9529.smt2,CVC4-SymBreak,0.1542781
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibf27d34.smt2,CVC4,0.153352
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibf48d36.smt2,CVC4-SymBreak,0.15286489999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0097.fof.smt2,Vampire,0.14104909999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0096.fof.smt2,Vampire,0.1392881
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib073ca2.smt2,CVC4,0.13700600000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibba688b.smt2,CVC4-SymBreak,0.13553199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc6397e.smt2,CVC4-SymBreak,0.1344399
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib552248.smt2,CVC4,0.1323359
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib0e3a88.smt2,CVC4-SymBreak,0.130015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0032.fof.smt2,Vampire,0.12704490000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtliba5a1a5.smt2,CVC4,0.11794099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib52098b.smt2,CVC4-SymBreak,0.11602799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6094fa.smt2,CVC4-SymBreak,0.105666
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdf8892.smt2,CVC4,0.103562
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_norm_0031.fof.smt2,Vampire,0.103514
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib973d18.smt2,CVC4,0.1034911
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3c11ff.smt2,CVC4-SymBreak,0.10342699999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe30899.smt2,CVC4-SymBreak,0.10327609999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0196.fof.smt2,Vampire,0.10225009999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibec14f0.smt2,CVC4-SymBreak,0.10183899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib67319f.smt2,CVC4-SymBreak,0.10172989999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7ff728.smt2,CVC4-SymBreak,0.1007989
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfb6ebf.smt2,CVC4-SymBreak,0.1005181
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0410.fof.smt2,CVC4,0.09982590000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0100.fof.smt2,Vampire,0.09929590000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc56262.smt2,CVC4-SymBreak,0.09792899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe889e6.smt2,CVC4-SymBreak,0.09720099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdae3ce.smt2,CVC4-SymBreak,0.09690510000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib885c4b.smt2,CVC4-SymBreak,0.093528
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_array_0020.fof.smt2,Vampire,0.09073510000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe53379.smt2,CVC4-SymBreak,0.0884381
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibd743f4.smt2,CVC4-SymBreak,0.08790289999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6c8571.smt2,CVC4-SymBreak,0.085933
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib591fcb.smt2,CVC4,0.08477699999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe4225b.smt2,CVC4-SymBreak,0.084244
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib399a8d.smt2,CVC4,0.083832
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib2b1e29.smt2,CVC4-SymBreak,0.08265999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib740e00.smt2,CVC4,0.081652
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtliba74a76.smt2,CVC4-SymBreak,0.080954
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6ad8e5.smt2,CVC4-SymBreak,0.07985800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5c297a.smt2,CVC4-SymBreak,0.079645
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibca67b0.smt2,CVC4-SymBreak,0.0791009
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibd0a1e1.smt2,CVC4-SymBreak,0.0774389
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_array_0067.fof.smt2,Vampire,0.0769419
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib833fe0.smt2,CVC4-SymBreak,0.0766539
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9f2f3b.smt2,CVC4,0.07660900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib11570b.smt2,CVC4-SymBreak,0.0759279
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe97b49.smt2,CVC4-SymBreak,0.07578889999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc63db4.smt2,CVC4-SymBreak,0.0754951
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0113.fof.smt2,Vampire,0.0753779
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib09c3a3.smt2,CVC4-SymBreak,0.07512289999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib475640.smt2,CVC4,0.075066
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc0a3ff.smt2,CVC4-SymBreak,0.0749441
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6ed636.smt2,CVC4-SymBreak,0.07487
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibbb1eb2.smt2,CVC4-SymBreak,0.07469799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib96ff7c.smt2,CVC4-SymBreak,0.07430700000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib1330d5.smt2,CVC4,0.07336790000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib87657a.smt2,CVC4,0.073223
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibba28f4.smt2,CVC4-SymBreak,0.0731389
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib124a65.smt2,CVC4-SymBreak,0.0730591
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdaee52.smt2,CVC4,0.07300699999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib84e78a.smt2,CVC4-SymBreak,0.0728879
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8be3cd.smt2,CVC4-SymBreak,0.07181389999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib737131.smt2,CVC4,0.071756
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib1562c6.smt2,CVC4,0.071662
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfb6727.smt2,CVC4,0.071495
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe35694.smt2,CVC4,0.070102
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe007a4.smt2,CVC4-SymBreak,0.0697741
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdbb8d0.smt2,CVC4-SymBreak,0.0690239
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib266c2d.smt2,CVC4,0.06855610000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib42a125.smt2,CVC4-SymBreak,0.068304
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib1f3ca2.smt2,CVC4-SymBreak,0.0679439
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib75b5ad.smt2,CVC4-SymBreak,0.0672469
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb95e57.smt2,CVC4-SymBreak,0.0661581
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfe25e8.smt2,CVC4,0.0661319
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib87d2ff.smt2,CVC4,0.065716
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib94e256.smt2,CVC4-SymBreak,0.0654141
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib044ebc.smt2,CVC4,0.0649981
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib683cfd.smt2,CVC4-SymBreak,0.06496199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3b71f5.smt2,CVC4-SymBreak,0.0644088
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib62545e.smt2,CVC4-SymBreak,0.0631889
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7ad6b2.smt2,CVC4-SymBreak,0.06303900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8853fa.smt2,CVC4,0.06110109999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib63494d.smt2,CVC4-SymBreak,0.0610308
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8c644f.smt2,CVC4-SymBreak,0.0600771
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_60.smt2,Z3,0.059223000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb004da.smt2,CVC4,0.058974099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0038.fof.smt2,CVC4,0.0549142
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6063bb.smt2,CVC4-SymBreak,0.05386079999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib1e64cb.smt2,CVC4-SymBreak,0.052867899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib42a8a3.smt2,CVC4-SymBreak,0.052827000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibeee2ba.smt2,CVC4-SymBreak,0.0518629
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfaf92d.smt2,CVC4-SymBreak,0.0515311
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb7c449.smt2,CVC4,0.046452900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0170.fof.smt2,Alt-Ergo,0.0463141
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib64100c.smt2,CVC4-SymBreak,0.045992899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7c2570.smt2,CVC4-SymBreak,0.045939
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtliba5281b.smt2,Z3,0.04593610000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8a5616.smt2,CVC4-SymBreak,0.04576910000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdcfbbd.smt2,Z3,0.044239900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib7311ed.smt2,Z3,0.04368919999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb8eb6b.smt2,Z3,0.043494000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibff95f2.smt2,Z3,0.0432499
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib485f7b.smt2,Z3,0.042801000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc3456e.smt2,CVC4-SymBreak,0.04277399999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9e2003.smt2,Z3 (2018),0.042440099999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib3a09b6.smt2,Z3 (2018),0.0423548
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibd5ad8c.smt2,Z3 (2018),0.04234690000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib4c79ab.smt2,Z3,0.042252099999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdb288f.smt2,Z3,0.04190289999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc60e72.smt2,Alt-Ergo,0.0414529
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9f451b.smt2,Z3,0.041356899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9d7b04.smt2,Z3 (2018),0.041102999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib548d9f.smt2,Z3,0.0408809
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib2b1d5b.smt2,Z3,0.04057499999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_57.smt2,Z3,0.04042899999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0035.fof.smt2,CVC4-SymBreak,0.0398469
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_99.smt2,Z3 (2018),0.039590000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib96662d.smt2,Z3,0.039073899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib80872f.smt2,Z3,0.039067000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdd5b69.smt2,Z3,0.038453100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib673fec.smt2,Z3 (2018),0.037777
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib924036.smt2,Z3,0.0377729
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_80.smt2,Z3 (2018),0.036800000000000055
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib75af45.smt2,Z3,0.036786000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib777d10.smt2,Z3 (2018),0.03522589999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5c74fc.smt2,CVC4-SymBreak,0.034841899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib2c5862.smt2,Z3 (2018),0.0344681
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8dfd51.smt2,Z3,0.0340769
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfd0d00.smt2,Z3 (2018),0.034005900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib784bba.smt2,Z3,0.0338699
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_62.smt2,Z3,0.030569999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib9fc8c3.smt2,Z3 (2018),0.029675999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0039.fof.smt2,Alt-Ergo,0.029498000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib991d16.smt2,Z3 (2018),0.029012899999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0006.fof.smt2,CVC4-SymBreak,0.028994899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0035.fof.smt2,Alt-Ergo,0.028440099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0036.fof.smt2,CVC4,0.027403199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib53feee.smt2,Z3 (2018),0.027023900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0034.fof.smt2,Alt-Ergo,0.025551099999999993
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0085.fof.smt2,CVC4-SymBreak,0.0252859
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib57e046.smt2,Z3,0.025028099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0076.fof.smt2,Alt-Ergo,0.024509999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib6f2777.smt2,Z3,0.023870099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0073.fof.smt2,Alt-Ergo,0.023280100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_97.smt2,Z3 (2018),0.02320000000000011
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib2e9de3.smt2,Z3,0.022373000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0205.fof.smt2,Alt-Ergo,0.020506899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0075.fof.smt2,Alt-Ergo,0.0199519
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_55.smt2,Z3,0.019908999999999955
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0604.fof.smt2,Alt-Ergo,0.019636099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0021.fof.smt2,Z3,0.018451900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibd2cf06.smt2,Z3 (2018),0.01815399999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0419.fof.smt2,Alt-Ergo,0.017957200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0191.fof.smt2,Z3,0.017834
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0046.fof.smt2,Z3 (2018),0.017726199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0052.fof.smt2,Z3,0.017551999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0255.fof.smt2,Z3,0.017425200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0074.fof.smt2,Z3,0.017398000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0025.fof.smt2,Z3,0.017353000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1200.fof.smt2,Z3,0.0173362
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0133.fof.smt2,Z3,0.0171661
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0367.fof.smt2,Z3,0.0171381
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0057.fof.smt2,Z3,0.0170519
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0312.fof.smt2,Z3 (2018),0.016983999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0044.fof.smt2,Z3,0.016971899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0035.fof.smt2,Z3,0.016895900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0544.fof.smt2,Z3,0.016805099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0043.fof.smt2,Z3,0.0167139
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0761.fof.smt2,Z3,0.0166751
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0024.fof.smt2,Z3,0.016589900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1341.fof.smt2,Z3,0.016576900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1364.fof.smt2,Z3,0.016552099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0067.fof.smt2,Z3,0.016486000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0251.fof.smt2,Z3,0.0164781
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0856.fof.smt2,CVC4-SymBreak,0.0164771
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0044.fof.smt2,Z3,0.016464
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0059.fof.smt2,Z3,0.016453899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0110.fof.smt2,Z3,0.0164428
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0397.fof.smt2,Z3,0.016434099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1106.fof.smt2,Z3,0.0163791
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0418.fof.smt2,Z3,0.016311100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0362.fof.smt2,Z3,0.016302900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0023.fof.smt2,Z3,0.016265
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0041.fof.smt2,Z3,0.0162208
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0027.fof.smt2,Z3,0.016206099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0527.fof.smt2,Z3,0.0161751
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0240.fof.smt2,Z3,0.016115
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0013.fof.smt2,Z3,0.0160801
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0076.fof.smt2,Z3,0.016079100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0436.fof.smt2,Z3,0.016076999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0775.fof.smt2,Z3,0.0160659
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0776.fof.smt2,Z3,0.016008899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0029.fof.smt2,Alt-Ergo,0.016004899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1357.fof.smt2,Z3,0.0159821
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0045.fof.smt2,Z3,0.015982099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0445.fof.smt2,Z3,0.015971
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0308.fof.smt2,Z3,0.015963
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0439.fof.smt2,Z3,0.0159281
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0349.fof.smt2,Z3,0.0159041
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0440.fof.smt2,Z3,0.015904099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0181.fof.smt2,Z3,0.015862800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0017.fof.smt2,Z3,0.015858999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0464.fof.smt2,Z3 (2018),0.015847100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0103.fof.smt2,Z3,0.015844900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0079.fof.smt2,Z3,0.015828
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0080.fof.smt2,Z3,0.015827900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0219.fof.smt2,Z3 (2018),0.015798999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0051.fof.smt2,Z3,0.015755099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0598.fof.smt2,Alt-Ergo,0.015743
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0855.fof.smt2,Z3,0.015725
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1487.fof.smt2,Z3,0.015724
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0268.fof.smt2,Z3,0.015721000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0351.fof.smt2,Z3,0.0157129
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0180.fof.smt2,Z3,0.0156941
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe14b69.smt2,CVC4-SymBreak,0.015661900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0431.fof.smt2,Z3,0.015631199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0002.fof.smt2,Z3,0.015629900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0156.fof.smt2,Z3 (2018),0.015628100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0062.fof.smt2,Z3,0.015609999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0446.fof.smt2,Z3,0.015596099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0412.fof.smt2,Z3,0.015590799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0363.fof.smt2,Z3,0.0155262
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0204.fof.smt2,Z3,0.015526000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1334.fof.smt2,Z3 (2018),0.0155222
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0039.fof.smt2,Z3,0.015522099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0375.fof.smt2,Z3,0.015500000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1290.fof.smt2,Z3,0.015498099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1422.fof.smt2,Z3,0.015496800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0793.fof.smt2,Z3,0.0154959
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0445.fof.smt2,Z3,0.015469
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0144.fof.smt2,Z3,0.0154561
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1491.fof.smt2,Z3,0.015454099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0090.fof.smt2,Z3,0.0154469
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0171.fof.smt2,Z3,0.015431099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0368.fof.smt2,Z3 (2018),0.015430100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0174.fof.smt2,Z3,0.015428000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0139.fof.smt2,Z3,0.015415100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0496.fof.smt2,Z3,0.0153972
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0025.fof.smt2,Z3,0.015382800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0172.fof.smt2,Z3,0.015371000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0107.fof.smt2,Z3,0.015366999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0186.fof.smt2,Z3,0.015364999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0301.fof.smt2,Z3,0.015359900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0055.fof.smt2,Z3,0.015358899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1201.fof.smt2,Z3 (2018),0.01534
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1399.fof.smt2,Z3,0.015338800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0017.fof.smt2,Z3,0.0153141
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0447.fof.smt2,Z3,0.015308200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0794.fof.smt2,Z3,0.0153078
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0322.fof.smt2,Z3,0.015295099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0013.fof.smt2,Z3,0.015267999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0966.fof.smt2,Z3,0.015260100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0488.fof.smt2,Z3,0.015253000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0355.fof.smt2,Z3,0.015226799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0226.fof.smt2,Z3,0.015195000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0088.fof.smt2,Z3,0.015190099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0608.fof.smt2,Z3,0.015161
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1173.fof.smt2,Z3,0.0151552
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0136.fof.smt2,Z3,0.015147800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0055.fof.smt2,Alt-Ergo,0.015135100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0052.fof.smt2,Z3,0.015134999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1448.fof.smt2,Z3,0.015131000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0021.fof.smt2,Z3,0.015111899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0228.fof.smt2,Z3,0.0151079
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0353.fof.smt2,Z3,0.0150899
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0078.fof.smt2,Z3 (2018),0.015064100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0089.fof.smt2,Z3,0.015058199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0435.fof.smt2,Z3 (2018),0.015041200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0059.fof.smt2,Z3,0.015039999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0634.fof.smt2,Z3,0.015028099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0016.fof.smt2,Z3,0.015021900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0031.fof.smt2,Z3,0.015005100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0054.fof.smt2,Z3,0.0150021
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0007.fof.smt2,Z3,0.014997800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0064.fof.smt2,Z3,0.014989099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0195.fof.smt2,Z3,0.014977
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0188.fof.smt2,Z3 (2018),0.0149749
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1191.fof.smt2,Z3,0.014962899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0203.fof.smt2,Z3,0.014953900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0179.fof.smt2,Z3,0.014938899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0317.fof.smt2,Z3,0.0149188
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0111.fof.smt2,Z3 (2018),0.014917099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0161.fof.smt2,Z3,0.014904900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0159.fof.smt2,Z3,0.014898999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0442.fof.smt2,Z3 (2018),0.014871000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1374.fof.smt2,Z3,0.014847799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0040.fof.smt2,Z3,0.0148251
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0300.fof.smt2,Z3 (2018),0.014822900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0138.fof.smt2,Z3,0.0148199
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0077.fof.smt2,Z3,0.014819000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1239.fof.smt2,Z3,0.014815100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0543.fof.smt2,Z3,0.014812099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0155.fof.smt2,Z3,0.014798899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0066.fof.smt2,Z3,0.014791100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1363.fof.smt2,Z3 (2018),0.014784199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0021.fof.smt2,Alt-Ergo,0.014778800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_norm_0037.fof.smt2,Z3,0.014755999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0256.fof.smt2,Z3 (2018),0.014752200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0336.fof.smt2,Z3,0.014750999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0357.fof.smt2,Z3,0.0147329
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0111.fof.smt2,Z3 (2018),0.014730000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0042.fof.smt2,Z3 (2018),0.014716199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0012.fof.smt2,Z3 (2018),0.014714799999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0405.fof.smt2,Z3 (2018),0.0147089
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0414.fof.smt2,Z3 (2018),0.014702999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0380.fof.smt2,Z3 (2018),0.014688900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0137.fof.smt2,Z3 (2018),0.014687899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0018.fof.smt2,Z3,0.014683100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0011.fof.smt2,Alt-Ergo,0.014677999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0134.fof.smt2,Z3 (2018),0.014673099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0199.fof.smt2,Alt-Ergo,0.014642000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0760.fof.smt2,Z3 (2018),0.014636799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0681.fof.smt2,Z3 (2018),0.014632
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0113.fof.smt2,Z3,0.014620999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1195.fof.smt2,Z3,0.014620000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0055.fof.smt2,Z3,0.014616999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0357.fof.smt2,Z3 (2018),0.014614799999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_2.smt2,Z3 (2018),0.014603099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0968.fof.smt2,Z3,0.0145992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0205.fof.smt2,Z3,0.014584199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0453.fof.smt2,Z3 (2018),0.014584
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0014.fof.smt2,Z3 (2018),0.014577000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0058.fof.smt2,Z3,0.014558999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0250.fof.smt2,Z3,0.014551900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0101.fof.smt2,Z3,0.014542999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0146.fof.smt2,Z3,0.014541099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0373.fof.smt2,Z3,0.014537999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0071.fof.smt2,Z3 (2018),0.0145349
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0727.fof.smt2,Z3 (2018),0.014511
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0424.fof.smt2,Z3 (2018),0.014497900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0447.fof.smt2,Z3 (2018),0.014477900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0423.fof.smt2,Z3 (2018),0.014471800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0038.fof.smt2,Z3,0.0144631
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0081.fof.smt2,Z3 (2018),0.014460099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0950.fof.smt2,Z3,0.014446999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1191.fof.smt2,Z3,0.014386200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0158.fof.smt2,Z3,0.014386199999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0081.fof.smt2,Z3 (2018),0.014379999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0147.fof.smt2,Z3 (2018),0.014373099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0374.fof.smt2,Z3 (2018),0.014356999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0294.fof.smt2,Z3,0.014355999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0323.fof.smt2,Z3,0.014352799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0046.fof.smt2,Z3 (2018),0.014350099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0034.fof.smt2,Z3 (2018),0.014348900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0009.fof.smt2,Z3 (2018),0.0143402
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0004.fof.smt2,Z3 (2018),0.014337899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0055.fof.smt2,Z3 (2018),0.014331899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0172.fof.smt2,Z3,0.0143311
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0051.fof.smt2,Z3,0.0143251
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0777.fof.smt2,Z3,0.014321999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1470.fof.smt2,Z3 (2018),0.0143181
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0002.fof.smt2,Z3 (2018),0.0143171
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0011.fof.smt2,Z3,0.0143
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0349.fof.smt2,Z3 (2018),0.014269199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0153.fof.smt2,Z3 (2018),0.014265
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0406.fof.smt2,Z3 (2018),0.014264999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0315.fof.smt2,Z3 (2018),0.0142492
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0124.fof.smt2,Z3 (2018),0.014247100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0154.fof.smt2,Z3 (2018),0.014246000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0665.fof.smt2,Z3 (2018),0.0142422
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0043.fof.smt2,Z3 (2018),0.014240000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0075.fof.smt2,Z3,0.014234999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0127.fof.smt2,Z3 (2018),0.014228900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0427.fof.smt2,Z3 (2018),0.014221999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0062.fof.smt2,Z3 (2018),0.0142101
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0060.fof.smt2,Z3,0.014169999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0044.fof.smt2,Z3,0.014166899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0425.fof.smt2,Z3,0.014166000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0297.fof.smt2,Z3 (2018),0.014155100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1192.fof.smt2,Z3 (2018),0.014145100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0136.fof.smt2,Z3,0.014143899999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1432.fof.smt2,Z3 (2018),0.014142999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0182.fof.smt2,Z3 (2018),0.014141899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0230.fof.smt2,Z3 (2018),0.014117000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0588.fof.smt2,Z3 (2018),0.0141042
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0005.fof.smt2,Z3 (2018),0.014085100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0036.fof.smt2,Z3,0.014063100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0383.fof.smt2,Z3 (2018),0.014057100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0053.fof.smt2,Z3,0.0140569
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0271.fof.smt2,Z3,0.014044099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0091.fof.smt2,Z3,0.014034999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1260.fof.smt2,Z3 (2018),0.014030099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0090.fof.smt2,Z3 (2018),0.014017099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0120.fof.smt2,Z3,0.014011099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1289.fof.smt2,Z3 (2018),0.013995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0149.fof.smt2,Z3,0.013985100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0396.fof.smt2,Z3 (2018),0.013983999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0199.fof.smt2,Z3,0.013982200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1006.fof.smt2,Z3 (2018),0.013980800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0040.fof.smt2,Z3,0.013974
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0279.fof.smt2,Z3 (2018),0.01397
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0005.fof.smt2,Z3 (2018),0.013966999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0429.fof.smt2,Z3,0.013962799999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1346.fof.smt2,Z3 (2018),0.0139571
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0030.fof.smt2,Z3 (2018),0.013955899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0393.fof.smt2,Z3 (2018),0.013950899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0277.fof.smt2,Z3,0.013941000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0120.fof.smt2,CVC4-SymBreak,0.013940100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb8ad0a.smt2,Z3,0.01392199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_84.smt2,Z3,0.013920000000000154
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0201.fof.smt2,Z3,0.013893799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0411.fof.smt2,Z3 (2018),0.013884000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0103.fof.smt2,Z3,0.0138701
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0060.fof.smt2,Z3 (2018),0.0138591
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0710.fof.smt2,Z3 (2018),0.013856100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0011.fof.smt2,Z3 (2018),0.013850999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0918.fof.smt2,Z3 (2018),0.013841899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0166.fof.smt2,Z3 (2018),0.013841100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0038.fof.smt2,Z3,0.013828900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0079.fof.smt2,Z3 (2018),0.0138222
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0112.fof.smt2,Z3 (2018),0.013807999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0680.fof.smt2,Z3 (2018),0.013795099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0180.fof.smt2,Z3 (2018),0.013761200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1456.fof.smt2,Z3,0.0137551
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0356.fof.smt2,Z3 (2018),0.013742900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0415.fof.smt2,Z3 (2018),0.013734000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0071.fof.smt2,Z3 (2018),0.0137259
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0331.fof.smt2,Z3 (2018),0.013724900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0042.fof.smt2,Z3 (2018),0.013717
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1331.fof.smt2,Z3 (2018),0.013702899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1172.fof.smt2,Z3 (2018),0.013702200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0446.fof.smt2,Z3 (2018),0.013688999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1193.fof.smt2,Z3 (2018),0.013681999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0157.fof.smt2,Z3 (2018),0.013663100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0424.fof.smt2,Z3 (2018),0.0136532
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0046.fof.smt2,Z3 (2018),0.013641000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0391.fof.smt2,Z3,0.013640900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0118.fof.smt2,Z3,0.013616099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_inuse_0017.fof.smt2,Z3 (2018),0.013599
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0091.fof.smt2,Z3 (2018),0.013585100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0048.fof.smt2,Z3 (2018),0.013575000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_74.smt2,Z3 (2018),0.013572000000000028
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0183.fof.smt2,Z3 (2018),0.013558999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0056.fof.smt2,Z3,0.013554000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0104.fof.smt2,Z3 (2018),0.0135522
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0016.fof.smt2,Z3 (2018),0.013545800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0030.fof.smt2,Z3 (2018),0.013519999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0388.fof.smt2,Z3 (2018),0.013513999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0087.fof.smt2,Z3 (2018),0.013497000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0090.fof.smt2,Z3 (2018),0.013465899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0086.fof.smt2,Z3,0.013451900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0002.fof.smt2,Z3,0.013439999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0055.fof.smt2,Alt-Ergo,0.013435900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0068.fof.smt2,Z3 (2018),0.013425099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0365.fof.smt2,Z3 (2018),0.0134249
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0044.fof.smt2,Z3 (2018),0.013402100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0330.fof.smt2,Z3 (2018),0.013342000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0103.fof.smt2,Z3 (2018),0.013312200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0036.fof.smt2,Z3 (2018),0.013298999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0026.fof.smt2,Alt-Ergo,0.013260899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1152.fof.smt2,Z3 (2018),0.013257999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0195.fof.smt2,Alt-Ergo,0.013233000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0042.fof.smt2,Z3 (2018),0.0132111
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0095.fof.smt2,Z3 (2018),0.013179100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0792.fof.smt2,Z3 (2018),0.013162900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0150.fof.smt2,Z3 (2018),0.013131199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0009.fof.smt2,Z3 (2018),0.013110099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0598.fof.smt2,Z3,0.013108000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0604.fof.smt2,Z3 (2018),0.013107
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0135.fof.smt2,Z3 (2018),0.013106799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0049.fof.smt2,Z3,0.0130459
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0096.fof.smt2,Z3 (2018),0.013044999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0023.fof.smt2,Z3,0.013032000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1095.fof.smt2,Z3,0.013025099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1171.fof.smt2,Z3 (2018),0.013021000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0142.fof.smt2,Z3,0.013017800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0313.fof.smt2,Z3 (2018),0.012920199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0178.fof.smt2,Z3 (2018),0.012912
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0255.fof.smt2,Z3 (2018),0.012853099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0034.fof.smt2,Z3 (2018),0.012828099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0051.fof.smt2,Alt-Ergo,0.012738900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0113.fof.smt2,Z3,0.012735899999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0611.fof.smt2,Alt-Ergo,0.012707099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0196.fof.smt2,Alt-Ergo,0.012707
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1287.fof.smt2,Z3,0.012695999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_83.smt2,Z3,0.01269000000000009
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0354.fof.smt2,Z3 (2018),0.012641099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1221.fof.smt2,Z3,0.012507999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0831.fof.smt2,Z3,0.012501899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0012.fof.smt2,Z3 (2018),0.0124839
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0076.fof.smt2,Z3 (2018),0.012472999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0055.fof.smt2,Z3,0.012460100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0114.fof.smt2,Z3 (2018),0.0124429
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0242.fof.smt2,Z3,0.0123618
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0283.fof.smt2,Z3 (2018),0.012349200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0014.fof.smt2,Z3 (2018),0.012333200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0065.fof.smt2,Z3 (2018),0.012187999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0073.fof.smt2,Z3 (2018),0.012184099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_76.smt2,Z3 (2018),0.012180000000000302
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0005.fof.smt2,Z3,0.012052899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0111.fof.smt2,Z3 (2018),0.012003199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0181.fof.smt2,Alt-Ergo,0.011962899999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0049.fof.smt2,Z3 (2018),0.0119521
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0044.fof.smt2,Z3,0.011930199999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0116.fof.smt2,Z3,0.011881999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0744.fof.smt2,Z3 (2018),0.011848899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0123.fof.smt2,Z3,0.011843100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0278.fof.smt2,Z3,0.011753199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_88.smt2,Z3 (2018),0.01173999999999964
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0248.fof.smt2,Z3,0.011710000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0185.fof.smt2,Z3,0.011656999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0737.fof.smt2,Z3,0.011623000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0097.fof.smt2,Z3 (2018),0.0116041
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0008.fof.smt2,Z3,0.011513099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0050.fof.smt2,Z3 (2018),0.011496199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0112.fof.smt2,Z3,0.011436099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0162.fof.smt2,Z3,0.011382900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0123.fof.smt2,Z3,0.011360000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0069.fof.smt2,Z3,0.011328000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0076.fof.smt2,Z3,0.011322899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0067.fof.smt2,Z3 (2018),0.011316
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0008.fof.smt2,Z3 (2018),0.011212899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0050.fof.smt2,Alt-Ergo,0.011188999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0109.fof.smt2,Z3,0.011151099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0152.fof.smt2,Z3,0.011132799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0269.fof.smt2,Z3,0.011117800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0239.fof.smt2,Z3,0.011075000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0623.fof.smt2,Z3,0.011048200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0080.fof.smt2,Alt-Ergo,0.011041999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0071.fof.smt2,Z3,0.011034000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0334.fof.smt2,Z3 (2018),0.011002999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0114.fof.smt2,Z3,0.010983800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0128.fof.smt2,Z3 (2018),0.010967000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0004.fof.smt2,Z3,0.010942999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0161.fof.smt2,Z3,0.010936099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0236.fof.smt2,Z3,0.010933900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0830.fof.smt2,Z3,0.010920100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0065.fof.smt2,CVC4,0.010891199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0140.fof.smt2,Z3 (2018),0.010870199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0188.fof.smt2,Z3,0.010851099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0118.fof.smt2,Z3,0.0107849
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0131.fof.smt2,Z3,0.010744999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0038.fof.smt2,Alt-Ergo,0.010699999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0130.fof.smt2,Z3 (2018),0.010687800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0285.fof.smt2,Z3,0.010653800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0117.fof.smt2,Z3,0.0106411
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0158.fof.smt2,Z3,0.010637
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0051.fof.smt2,Z3,0.010620899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0031.fof.smt2,Z3,0.010618000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0448.fof.smt2,Z3,0.010588
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0129.fof.smt2,Z3,0.0105518
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0146.fof.smt2,Z3 (2018),0.010546899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0149.fof.smt2,Z3 (2018),0.010535100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0038.fof.smt2,Z3 (2018),0.010497099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0006.fof.smt2,Z3,0.010467000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0392.fof.smt2,Z3 (2018),0.010463999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_70.smt2,Z3 (2018),0.010458999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0078.fof.smt2,Z3,0.010456
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0031.fof.smt2,Z3 (2018),0.010433000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0159.fof.smt2,Z3 (2018),0.0104039
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0468.fof.smt2,Z3 (2018),0.010385900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0109.fof.smt2,Z3,0.010372900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0310.fof.smt2,Alt-Ergo,0.010368099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0005.fof.smt2,Z3,0.0103478
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0182.fof.smt2,Z3,0.010334900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0029.fof.smt2,Alt-Ergo,0.010333100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0006.fof.smt2,Alt-Ergo,0.010321
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0123.fof.smt2,Alt-Ergo,0.010311899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0097.fof.smt2,Z3,0.010307000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0385.fof.smt2,Z3 (2018),0.010306000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0074.fof.smt2,Z3,0.010261800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0171.fof.smt2,Z3,0.010243099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0043.fof.smt2,Z3,0.010209000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0004.fof.smt2,Z3,0.010202099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0154.fof.smt2,Z3 (2018),0.010196199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0828.fof.smt2,Z3,0.010192899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0033.fof.smt2,Z3,0.010187000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0831.fof.smt2,Z3 (2018),0.010182999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0095.fof.smt2,Z3 (2018),0.0101611
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0182.fof.smt2,Z3,0.010159100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0129.fof.smt2,Z3,0.010150899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0098.fof.smt2,Z3 (2018),0.010145099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1467.fof.smt2,Z3,0.01013
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0175.fof.smt2,Z3 (2018),0.010105000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0102.fof.smt2,Z3,0.010082999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0152.fof.smt2,Alt-Ergo,0.010071799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0164.fof.smt2,Z3,0.010030900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_symm_0021.fof.smt2,Z3 (2018),0.010029999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0163.fof.smt2,Z3,0.010000099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0035.fof.smt2,Z3,0.009970100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0574.fof.smt2,Z3,0.009952000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0990.fof.smt2,Z3,0.009945000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0061.fof.smt2,Z3,0.009918900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0219.fof.smt2,Z3,0.009904999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0061.fof.smt2,Alt-Ergo,0.009896999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0238.fof.smt2,Z3 (2018),0.009869000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0107.fof.smt2,Z3 (2018),0.009869000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0134.fof.smt2,Z3,0.009866
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_86.smt2,Z3 (2018),0.009860000000000202
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0001.fof.smt2,Z3,0.009858000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1212.fof.smt2,Z3 (2018),0.0098479
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0212.fof.smt2,Z3,0.009846900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0526.fof.smt2,Alt-Ergo,0.009834899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1005.fof.smt2,Z3,0.009819099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0118.fof.smt2,Z3,0.009814799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0129.fof.smt2,Z3,0.0097929
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0158.fof.smt2,Z3,0.009763099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0092.fof.smt2,Z3,0.0097579
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0053.fof.smt2,Z3 (2018),0.009733099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1462.fof.smt2,Z3,0.009728
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0017.fof.smt2,Z3 (2018),0.009726100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0015.fof.smt2,Z3 (2018),0.009725999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0122.fof.smt2,Z3 (2018),0.009715800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0137.fof.smt2,Z3,0.009688099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1310.fof.smt2,Alt-Ergo,0.0096861
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0076.fof.smt2,Alt-Ergo,0.009679999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0285.fof.smt2,Z3,0.009677199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0036.fof.smt2,Z3,0.009665899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0167.fof.smt2,Z3 (2018),0.009659000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0280.fof.smt2,Z3 (2018),0.009658
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0379.fof.smt2,Z3 (2018),0.009651
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0253.fof.smt2,Alt-Ergo,0.009650099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0193.fof.smt2,Z3,0.009617099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0004.fof.smt2,CVC4,0.009607900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0165.fof.smt2,Z3 (2018),0.0096061
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0180.fof.smt2,Z3,0.009597000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0041.fof.smt2,Z3 (2018),0.009577999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0576.fof.smt2,Z3 (2018),0.009569099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0163.fof.smt2,Z3 (2018),0.009567899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0095.fof.smt2,Z3,0.009563000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0147.fof.smt2,Z3,0.0095622
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0042.fof.smt2,Z3,0.009555899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0113.fof.smt2,Z3,0.009543000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0238.fof.smt2,Z3 (2018),0.009527999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_3.smt2,Z3,0.009522099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1274.fof.smt2,Z3,0.009515099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0061.fof.smt2,Z3,0.009501099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0847.fof.smt2,Z3 (2018),0.0094862
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0035.fof.smt2,Z3 (2018),0.009481900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0117.fof.smt2,Alt-Ergo,0.009464099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0053.fof.smt2,Z3,0.009430900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1252.fof.smt2,Z3 (2018),0.009424099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0033.fof.smt2,Z3,0.009401199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0001.fof.smt2,Z3,0.0093921
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0022.fof.smt2,Z3,0.009386900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1447.fof.smt2,Z3 (2018),0.009363199999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0034.fof.smt2,Z3 (2018),0.009360999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1453.fof.smt2,Z3,0.009334999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1258.fof.smt2,Z3,0.009333099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0082.fof.smt2,Z3 (2018),0.0093091
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0024.fof.smt2,Z3,0.009280200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0035.fof.smt2,Z3,0.009276
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1196.fof.smt2,Z3,0.009275100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0103.fof.smt2,Z3,0.009267900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0158.fof.smt2,Z3 (2018),0.009262000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/gauss_init_1235.fof.smt2,Z3,0.009243100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0100.fof.smt2,Z3,0.0092361
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0099.fof.smt2,Z3,0.009233900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0198.fof.smt2,Z3 (2018),0.009231099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0046.fof.smt2,Z3,0.009219100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0562.fof.smt2,Alt-Ergo,0.009212900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0073.fof.smt2,Z3,0.009198000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0130.fof.smt2,Z3 (2018),0.009178899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0183.fof.smt2,Z3 (2018),0.0091749
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0299.fof.smt2,Alt-Ergo,0.009158099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0672.fof.smt2,Z3 (2018),0.009158
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0070.fof.smt2,Z3 (2018),0.009155900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0025.fof.smt2,Z3,0.009151999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0114.fof.smt2,Z3 (2018),0.009146800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0262.fof.smt2,Z3,0.009141800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0009.fof.smt2,Z3,0.009127100000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0277.fof.smt2,Z3,0.009115999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0130.fof.smt2,Z3 (2018),0.009113999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0110.fof.smt2,Z3,0.009109199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0451.fof.smt2,Z3,0.009092000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibc29fb3.smt2,Z3 (2018),0.009087899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0092.fof.smt2,Z3,0.009081200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0022.fof.smt2,Z3,0.009071999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0148.fof.smt2,Z3,0.0090632
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0001.fof.smt2,Z3 (2018),0.009057799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0486.fof.smt2,Z3,0.009048
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0023.fof.smt2,Z3,0.009024100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0356.fof.smt2,Alt-Ergo,0.009013200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0110.fof.smt2,Z3,0.009006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0300.fof.smt2,Z3,0.009001100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0101.fof.smt2,Z3,0.008994000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0613.fof.smt2,Alt-Ergo,0.008988800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0014.fof.smt2,Z3,0.008987100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0173.fof.smt2,Z3 (2018),0.0089821
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1430.fof.smt2,Z3,0.0089681
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0048.fof.smt2,Z3,0.008965
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1422.fof.smt2,Z3,0.008961999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0119.fof.smt2,Z3 (2018),0.008947999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1430.fof.smt2,Z3,0.008943
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0106.fof.smt2,Z3,0.008923100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0119.fof.smt2,Z3 (2018),0.008904099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1769.fof.smt2,Z3 (2018),0.008896100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0565.fof.smt2,Z3 (2018),0.008894099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0176.fof.smt2,Z3 (2018),0.008893999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0199.fof.smt2,Z3 (2018),0.008892200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0106.fof.smt2,Z3 (2018),0.0088881
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1423.fof.smt2,Z3,0.008884900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0110.fof.smt2,Z3 (2018),0.0088832
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0106.fof.smt2,Z3,0.0088769
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0043.fof.smt2,Z3 (2018),0.008875899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0045.fof.smt2,Z3,0.008868100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1467.fof.smt2,Z3,0.008849000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0412.fof.smt2,Z3 (2018),0.008846900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1102.fof.smt2,Z3,0.008821999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0145.fof.smt2,Z3 (2018),0.008794900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_symm_0027.fof.smt2,Alt-Ergo,0.008769900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0129.fof.smt2,Z3 (2018),0.008768100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0056.fof.smt2,Z3,0.008748099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0771.fof.smt2,Z3,0.008736899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0122.fof.smt2,Z3,0.008735899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0121.fof.smt2,Z3,0.008729
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0001.fof.smt2,Z3 (2018),0.0087269
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0061.fof.smt2,Z3,0.008726099999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0132.fof.smt2,Z3 (2018),0.008703099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0020.fof.smt2,Alt-Ergo,0.008691999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0132.fof.smt2,Z3 (2018),0.0086749
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0164.fof.smt2,Z3 (2018),0.008666900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0354.fof.smt2,Alt-Ergo,0.008658999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0066.fof.smt2,Z3 (2018),0.008656000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0045.fof.smt2,Z3 (2018),0.008646099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0320.fof.smt2,Z3 (2018),0.008642799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0489.fof.smt2,Z3 (2018),0.008640000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_2866.fof.smt2,Z3 (2018),0.008638100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0010.fof.smt2,Z3,0.008615899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0042.fof.smt2,Z3,0.008613099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1453.fof.smt2,Z3,0.008608999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0115.fof.smt2,Z3 (2018),0.008588199999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0108.fof.smt2,Z3,0.008564099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0059.fof.smt2,Z3,0.008561100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0177.fof.smt2,Z3 (2018),0.008558999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0078.fof.smt2,Alt-Ergo,0.008556800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1424.fof.smt2,Z3,0.008534100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1376.fof.smt2,Z3,0.008534
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0008.fof.smt2,Z3,0.008530999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0052.fof.smt2,Z3 (2018),0.008529800000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0184.fof.smt2,Z3 (2018),0.008526100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0104.fof.smt2,Z3 (2018),0.008524000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0070.fof.smt2,Z3,0.008518999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0072.fof.smt2,Z3 (2018),0.008506900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0014.fof.smt2,Alt-Ergo,0.008499200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0181.fof.smt2,Z3,0.008496799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0036.fof.smt2,Z3,0.008484100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0037.fof.smt2,Z3 (2018),0.008475200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0192.fof.smt2,Z3 (2018),0.008474000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0075.fof.smt2,Z3 (2018),0.008466100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0120.fof.smt2,Z3,0.008465
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0286.fof.smt2,Z3 (2018),0.008452000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1436.fof.smt2,Z3,0.008430899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0094.fof.smt2,Z3,0.008409
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0016.fof.smt2,Z3 (2018),0.0083989
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1193.fof.smt2,Z3 (2018),0.008397000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0048.fof.smt2,Z3,0.0083938
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0069.fof.smt2,Z3,0.008392900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1373.fof.smt2,Z3,0.008381
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0147.fof.smt2,Z3,0.0083709
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0068.fof.smt2,Z3 (2018),0.008368800000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0673.fof.smt2,Z3,0.008362100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0066.fof.smt2,Z3,0.008361900000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0149.fof.smt2,Z3 (2018),0.008341799999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0135.fof.smt2,Z3,0.008332800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0078.fof.smt2,Z3,0.008324999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1423.fof.smt2,Z3,0.008317999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0108.fof.smt2,Z3 (2018),0.0083002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0166.fof.smt2,Alt-Ergo,0.008285
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1466.fof.smt2,Z3 (2018),0.008281900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0025.fof.smt2,Z3 (2018),0.008276900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_3142.fof.smt2,Z3 (2018),0.0082751
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1463.fof.smt2,Z3,0.008259999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1333.fof.smt2,Z3 (2018),0.008235899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0116.fof.smt2,Z3,0.0082261
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0029.fof.smt2,Z3,0.008226000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0584.fof.smt2,Z3 (2018),0.0082191
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0177.fof.smt2,Z3 (2018),0.008208099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0200.fof.smt2,Alt-Ergo,0.008194
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0676.fof.smt2,Z3 (2018),0.008191999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0080.fof.smt2,Z3,0.008184900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0184.fof.smt2,Z3,0.008179800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0076.fof.smt2,Z3,0.008174100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0165.fof.smt2,Z3,0.008171999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0491.fof.smt2,Z3 (2018),0.008167899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0152.fof.smt2,Alt-Ergo,0.0081589
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0104.fof.smt2,Z3,0.008148099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8f5011.smt2,CVC4-SymBreak,0.00814200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0072.fof.smt2,Z3 (2018),0.008126099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0089.fof.smt2,Z3,0.0081209
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1372.fof.smt2,Z3,0.008118999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0137.fof.smt2,Z3 (2018),0.008105000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0136.fof.smt2,Z3 (2018),0.008093900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0056.fof.smt2,Z3,0.008092099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1273.fof.smt2,Z3 (2018),0.008071099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0085.fof.smt2,Z3 (2018),0.008063
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0055.fof.smt2,Z3 (2018),0.008051100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0829.fof.smt2,Z3 (2018),0.008043000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0125.fof.smt2,Z3 (2018),0.008042999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0177.fof.smt2,Z3 (2018),0.008041
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0108.fof.smt2,Z3 (2018),0.008035900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0079.fof.smt2,Z3 (2018),0.008028899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0073.fof.smt2,Z3 (2018),0.008028100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0546.fof.smt2,Alt-Ergo,0.008022000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0047.fof.smt2,Z3,0.0080089
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0078.fof.smt2,Z3,0.008006000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1293.fof.smt2,Alt-Ergo,0.008003800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0229.fof.smt2,Z3 (2018),0.007996999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0110.fof.smt2,Z3 (2018),0.007988999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1470.fof.smt2,Z3,0.0079831
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0072.fof.smt2,Alt-Ergo,0.007965
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0150.fof.smt2,Z3 (2018),0.007955000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0103.fof.smt2,Z3 (2018),0.007949899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0967.fof.smt2,Alt-Ergo,0.007945900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0450.fof.smt2,Z3 (2018),0.007935999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0031.fof.smt2,Z3 (2018),0.007924099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0122.fof.smt2,Z3 (2018),0.007912000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0105.fof.smt2,Z3 (2018),0.007880999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0072.fof.smt2,Z3,0.007877999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0033.fof.smt2,Z3,0.007866999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0251.fof.smt2,Z3 (2018),0.007851900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0009.fof.smt2,Z3 (2018),0.007844199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0045.fof.smt2,Z3 (2018),0.007843200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0137.fof.smt2,Z3 (2018),0.007840800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0051.fof.smt2,Z3 (2018),0.007836
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0123.fof.smt2,Z3 (2018),0.007826899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0150.fof.smt2,Z3 (2018),0.007816999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0772.fof.smt2,Z3 (2018),0.007813
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0082.fof.smt2,Z3,0.0078119999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0052.fof.smt2,Z3,0.0078109999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1415.fof.smt2,Z3,0.007804100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0010.fof.smt2,Z3 (2018),0.0077938999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0024.fof.smt2,Z3 (2018),0.007786999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0015.fof.smt2,Z3,0.007782000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0161.fof.smt2,Z3,0.007763100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0108.fof.smt2,Z3 (2018),0.007721100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0165.fof.smt2,Alt-Ergo,0.007701899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0100.fof.smt2,Z3 (2018),0.007701100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0052.fof.smt2,Z3 (2018),0.0076969999999999955
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0139.fof.smt2,Z3 (2018),0.0076781
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0148.fof.smt2,Z3 (2018),0.007643900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0089.fof.smt2,Z3 (2018),0.007641000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0113.fof.smt2,Alt-Ergo,0.007623000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0040.fof.smt2,Alt-Ergo,0.007619000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0335.fof.smt2,Z3,0.007612000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_71.smt2,Z3 (2018),0.007610000000000117
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1122.fof.smt2,Z3,0.007604899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0087.fof.smt2,Z3 (2018),0.007600000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0096.fof.smt2,Z3 (2018),0.007591900000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0363.fof.smt2,Alt-Ergo,0.0075829
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0488.fof.smt2,Z3 (2018),0.0075819999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0830.fof.smt2,Z3 (2018),0.007555199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0223.fof.smt2,Z3,0.007552800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0052.fof.smt2,Alt-Ergo,0.0075371000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0246.fof.smt2,Z3 (2018),0.007536999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0106.fof.smt2,Z3 (2018),0.007532000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1494.fof.smt2,Z3 (2018),0.007522000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0053.fof.smt2,Z3,0.007521099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0034.fof.smt2,Z3 (2018),0.007508899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0053.fof.smt2,Alt-Ergo,0.007497900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0264.fof.smt2,Alt-Ergo,0.0074972000000000025
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0032.fof.smt2,Z3,0.007487899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0901.fof.smt2,Z3,0.0074810000000000015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0607.fof.smt2,Z3 (2018),0.0074771
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0062.fof.smt2,Alt-Ergo,0.0074648999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0286.fof.smt2,Z3 (2018),0.007452199999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0121.fof.smt2,Z3 (2018),0.007446100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1425.fof.smt2,Z3 (2018),0.007436999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0124.fof.smt2,Z3 (2018),0.007434999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0114.fof.smt2,Z3 (2018),0.007426999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0607.fof.smt2,Z3 (2018),0.007413100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0324.fof.smt2,Alt-Ergo,0.007406099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0049.fof.smt2,Z3 (2018),0.007402100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0071.fof.smt2,Z3 (2018),0.007400999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0083.fof.smt2,Z3 (2018),0.007400199999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0168.fof.smt2,Z3 (2018),0.007391000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1333.fof.smt2,Alt-Ergo,0.007385900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0449.fof.smt2,Alt-Ergo,0.007378000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0818.fof.smt2,Z3 (2018),0.0073660000000000045
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0058.fof.smt2,Z3 (2018),0.007357000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0044.fof.smt2,Z3 (2018),0.0073498999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0075.fof.smt2,Z3,0.007333000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0033.fof.smt2,Z3,0.007331000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0096.fof.smt2,Alt-Ergo,0.0073241000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0141.fof.smt2,Z3 (2018),0.007313999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0026.fof.smt2,Z3 (2018),0.007279200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0037.fof.smt2,Z3 (2018),0.0072771999999999976
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1444.fof.smt2,Z3,0.007276100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0222.fof.smt2,Z3 (2018),0.0072599
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0007.fof.smt2,Z3,0.007258899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0822.fof.smt2,Z3 (2018),0.007249800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0250.fof.smt2,Z3 (2018),0.007236100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0146.fof.smt2,Z3 (2018),0.007229100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1118.fof.smt2,Z3 (2018),0.007228100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0042.fof.smt2,Alt-Ergo,0.0072238000000000024
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0072.fof.smt2,Z3 (2018),0.007217899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0098.fof.smt2,Z3,0.007215100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0058.fof.smt2,Z3 (2018),0.007209999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0073.fof.smt2,Alt-Ergo,0.007196899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0123.fof.smt2,Z3 (2018),0.007174899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0134.fof.smt2,Alt-Ergo,0.007158000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0135.fof.smt2,Z3 (2018),0.007147899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0115.fof.smt2,Z3 (2018),0.007144999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0844.fof.smt2,Z3 (2018),0.0071441000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0094.fof.smt2,Z3 (2018),0.0071371
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0001.fof.smt2,Z3,0.007135900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0019.fof.smt2,Z3 (2018),0.007103900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0028.fof.smt2,Z3,0.007103099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0675.fof.smt2,Alt-Ergo,0.007090899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0113.fof.smt2,Z3 (2018),0.007083899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_inuse_0012.fof.smt2,Z3,0.007079099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1137.fof.smt2,Z3 (2018),0.007078899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0039.fof.smt2,Z3 (2018),0.007076899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0866.fof.smt2,Z3 (2018),0.007064799999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0032.fof.smt2,Z3,0.007063
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0824.fof.smt2,Z3 (2018),0.007019200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0114.fof.smt2,Z3 (2018),0.006982000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0164.fof.smt2,Z3 (2018),0.006969099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0033.fof.smt2,Alt-Ergo,0.006966
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0007.fof.smt2,Z3 (2018),0.006961100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_symm_0008.fof.smt2,Z3,0.006923899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0133.fof.smt2,Alt-Ergo,0.0069169
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0110.fof.smt2,Z3,0.006898000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0102.fof.smt2,Alt-Ergo,0.0068978999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0098.fof.smt2,Alt-Ergo,0.006894000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0099.fof.smt2,Z3 (2018),0.006858000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0863.fof.smt2,Z3 (2018),0.006853999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1153.fof.smt2,Alt-Ergo,0.006851999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1381.fof.smt2,Z3 (2018),0.006838999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0639.fof.smt2,Z3 (2018),0.0068262000000000045
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0125.fof.smt2,Z3 (2018),0.006822099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0915.fof.smt2,Z3 (2018),0.006781000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1164.fof.smt2,Z3,0.006770200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0061.fof.smt2,Z3,0.006751899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0067.fof.smt2,Z3 (2018),0.006749899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_symm_0009.fof.smt2,Z3,0.006744100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1425.fof.smt2,Z3 (2018),0.006721099999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0605.fof.smt2,Z3,0.0067182000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0266.fof.smt2,Z3 (2018),0.006694899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0227.fof.smt2,Z3 (2018),0.0066939999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0208.fof.smt2,Z3 (2018),0.006668999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0050.fof.smt2,Z3 (2018),0.006659100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0256.fof.smt2,Alt-Ergo,0.006652999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0005.fof.smt2,Z3 (2018),0.006630799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0883.fof.smt2,Z3,0.006619100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0104.fof.smt2,Z3 (2018),0.006616900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0769.fof.smt2,Z3 (2018),0.006616900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0028.fof.smt2,Z3,0.0065891000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0183.fof.smt2,Z3 (2018),0.0065699999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0002.fof.smt2,Z3,0.0065609000000000015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0169.fof.smt2,Alt-Ergo,0.006555200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0141.fof.smt2,Alt-Ergo,0.006538899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0003.fof.smt2,Z3 (2018),0.006523799999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0016.fof.smt2,Z3 (2018),0.0065191
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0281.fof.smt2,Alt-Ergo,0.006485099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0029.fof.smt2,Z3,0.006477999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0066.fof.smt2,Z3 (2018),0.0064740999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0003.fof.smt2,Z3,0.006473799999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1170.fof.smt2,Z3 (2018),0.006464900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0080.fof.smt2,Alt-Ergo,0.006461099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1277.fof.smt2,Alt-Ergo,0.006425900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0090.fof.smt2,Z3 (2018),0.0063801
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0010.fof.smt2,Alt-Ergo,0.006373799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0032.fof.smt2,Alt-Ergo,0.006335099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0333.fof.smt2,Alt-Ergo,0.006322000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0056.fof.smt2,Z3 (2018),0.006312100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_symm_0026.fof.smt2,Z3,0.006301000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0077.fof.smt2,Z3 (2018),0.006296200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0070.fof.smt2,Z3 (2018),0.0062831
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0387.fof.smt2,Alt-Ergo,0.006272999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0129.fof.smt2,Z3 (2018),0.006255799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0047.fof.smt2,Z3 (2018),0.006251199999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0016.fof.smt2,Z3 (2018),0.0062469
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0237.fof.smt2,Z3 (2018),0.006234099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1381.fof.smt2,Alt-Ergo,0.006216799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0021.fof.smt2,Z3,0.0062059
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0081.fof.smt2,Alt-Ergo,0.006189
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1415.fof.smt2,Z3 (2018),0.006187900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0003.fof.smt2,Z3 (2018),0.0061870999999999975
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0224.fof.smt2,Alt-Ergo,0.006185000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_11.smt2,Z3,0.006163099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0001.fof.smt2,Z3 (2018),0.006159100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0129.fof.smt2,Alt-Ergo,0.006142999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1375.fof.smt2,Z3 (2018),0.006135999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_symm_0007.fof.smt2,Z3 (2018),0.006116099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0316.fof.smt2,Alt-Ergo,0.006063800000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0061.fof.smt2,Alt-Ergo,0.006032100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0075.fof.smt2,CVC4-SymBreak,0.0059927999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0284.fof.smt2,Alt-Ergo,0.005972999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0231.fof.smt2,Z3 (2018),0.005930000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0106.fof.smt2,Z3 (2018),0.005918
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0223.fof.smt2,Alt-Ergo,0.0058788000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0068.fof.smt2,Alt-Ergo,0.005876099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0068.fof.smt2,Z3,0.005869900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0138.fof.smt2,Z3 (2018),0.005866099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0004.fof.smt2,Z3,0.0058162000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0273.fof.smt2,Alt-Ergo,0.005805099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0003.fof.smt2,Alt-Ergo,0.005804900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0080.fof.smt2,Z3 (2018),0.0057909999999999975
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0151.fof.smt2,Alt-Ergo,0.005786899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0022.fof.smt2,Z3,0.005755100000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0122.fof.smt2,Alt-Ergo,0.005742900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0307.fof.smt2,Alt-Ergo,0.0057369
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0368.fof.smt2,Alt-Ergo,0.005696999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0597.fof.smt2,Z3,0.0056910999999999975
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_symm_0009.fof.smt2,Z3,0.005682899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0406.fof.smt2,Z3 (2018),0.005680900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1373.fof.smt2,Z3 (2018),0.005643000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0049.fof.smt2,Alt-Ergo,0.005634800000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0019.fof.smt2,Z3,0.005590899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_63.smt2,Z3 (2018),0.00555300000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1419.fof.smt2,Z3,0.005549100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0177.fof.smt2,Alt-Ergo,0.005544099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0069.fof.smt2,Alt-Ergo,0.005524000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1117.fof.smt2,Z3 (2018),0.005522899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0090.fof.smt2,Z3 (2018),0.005498900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0048.fof.smt2,Z3 (2018),0.005482100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0008.fof.smt2,Z3 (2018),0.0054722000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0049.fof.smt2,Z3 (2018),0.0054711
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_17.smt2,Z3,0.005468899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0136.fof.smt2,Alt-Ergo,0.005449799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0057.fof.smt2,Z3 (2018),0.005445899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0056.fof.smt2,Z3,0.005426100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0190.fof.smt2,Alt-Ergo,0.005420099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0134.fof.smt2,Z3 (2018),0.005404099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0057.fof.smt2,Z3 (2018),0.005394000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0015.fof.smt2,Z3 (2018),0.005389999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0276.fof.smt2,Z3 (2018),0.005313999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0102.fof.smt2,Alt-Ergo,0.005217900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0030.fof.smt2,Z3,0.005207900000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0030.fof.smt2,CVC4-SymBreak,0.005203899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0285.fof.smt2,Z3 (2018),0.005197099999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0009.fof.smt2,Z3 (2018),0.0051888
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0153.fof.smt2,Z3,0.005125999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/gauss_init_1269.fof.smt2,CVC4-SymBreak,0.005061799999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1392.fof.smt2,Z3 (2018),0.004992100000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0006.fof.smt2,Z3 (2018),0.004896900000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_55.smt2,Z3,0.0048920000000000075
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0062.fof.smt2,Z3 (2018),0.004742100000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0013.fof.smt2,Z3 (2018),0.004707100000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0330.fof.smt2,CVC4-SymBreak,0.004683899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0020.fof.smt2,Z3,0.004683
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0003.fof.smt2,Z3,0.0046619999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0255.fof.smt2,Alt-Ergo,0.004604799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1410.fof.smt2,Z3 (2018),0.004452999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0010.fof.smt2,Z3,0.004247099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0073.fof.smt2,CVC4-SymBreak,0.004214100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0059.fof.smt2,Z3,0.004202000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0407.fof.smt2,Z3 (2018),0.004188200000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0015.fof.smt2,Z3 (2018),0.004162099999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0051.fof.smt2,Z3,0.004071999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1436.fof.smt2,Alt-Ergo,0.004035799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1493.fof.smt2,Alt-Ergo,0.003978999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0865.fof.smt2,Alt-Ergo,0.003949100000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0654.fof.smt2,CVC4-SymBreak,0.003920999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0055.fof.smt2,Alt-Ergo,0.003907000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0034.fof.smt2,Alt-Ergo,0.003907000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_46.smt2,Z3,0.0038830000000000253
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0274.fof.smt2,Alt-Ergo,0.0038750000000000034
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0050.fof.smt2,Z3 (2018),0.003835999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib4d0fac.smt2,Z3 (2018),0.00383
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0836.fof.smt2,CVC4-SymBreak,0.003827999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0384.fof.smt2,Alt-Ergo,0.0037420000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0007.fof.smt2,CVC4-SymBreak,0.003574000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0081.fof.smt2,Alt-Ergo,0.0035238000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0394.fof.smt2,CVC4-SymBreak,0.0035230000000000053
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0061.fof.smt2,CVC4-SymBreak,0.003472800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0172.fof.smt2,Alt-Ergo,0.0034438999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0010.fof.smt2,Z3,0.003407100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0060.fof.smt2,CVC4-SymBreak,0.003380000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_47.smt2,Z3 (2018),0.003369000000000011
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0127.fof.smt2,Alt-Ergo,0.0033482000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1205.fof.smt2,Alt-Ergo,0.0033439999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0043.fof.smt2,Z3,0.0033328999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0117.fof.smt2,CVC4-SymBreak,0.0033188999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0081.fof.smt2,Alt-Ergo,0.0033001000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0007.fof.smt2,Alt-Ergo,0.0032099999999999976
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0047.fof.smt2,CVC4-SymBreak,0.003177100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0070.fof.smt2,Z3,0.0031678999999999943
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_57.smt2,Z3 (2018),0.003147999999999984
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0133.fof.smt2,Alt-Ergo,0.0030929999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0069.fof.smt2,CVC4-SymBreak,0.0030929999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0003.fof.smt2,Z3,0.003031900000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_43.smt2,Z3,0.003013999999999989
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0008.fof.smt2,CVC4-SymBreak,0.0029969999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0154.fof.smt2,CVC4-SymBreak,0.002987799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0006.fof.smt2,CVC4,0.0029762000000000052
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0089.fof.smt2,Alt-Ergo,0.0029640000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0112.fof.smt2,CVC4-SymBreak,0.0029629000000000044
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0004.fof.smt2,Z3,0.002919100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0043.fof.smt2,Alt-Ergo,0.002914100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1431.fof.smt2,Alt-Ergo,0.002796899999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_inuse_0010.fof.smt2,Z3 (2018),0.0027710999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0132.fof.smt2,Alt-Ergo,0.002722100000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0114.fof.smt2,CVC4-SymBreak,0.0026791000000000037
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0427.fof.smt2,CVC4-SymBreak,0.0026721999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0041.fof.smt2,Alt-Ergo,0.0026530999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_59.smt2,Z3 (2018),0.002595000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_inuse_0013.fof.smt2,Z3 (2018),0.0025640000000000038
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0066.fof.smt2,Z3,0.0025109999999999993
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_symm_0002.fof.smt2,Z3 (2018),0.0024969999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0179.fof.smt2,CVC4-SymBreak,0.002487099999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0007.fof.smt2,CVC4-SymBreak,0.002463
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_62.smt2,Z3 (2018),0.0024339999999999917
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0112.fof.smt2,CVC4-SymBreak,0.0024160999999999974
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0046.fof.smt2,Z3,0.0024131000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0057.fof.smt2,CVC4-SymBreak,0.0024099999999999955
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0168.fof.smt2,Alt-Ergo,0.0023869000000000043
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0401.fof.smt2,CVC4-SymBreak,0.0023849000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0003.fof.smt2,CVC4-SymBreak,0.0023840000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_12.smt2,Z3,0.002373100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0596.fof.smt2,Alt-Ergo,0.002369999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0090.fof.smt2,Z3 (2018),0.002359
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0073.fof.smt2,CVC4-SymBreak,0.0023371999999999976
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0125.fof.smt2,CVC4-SymBreak,0.0023161000000000015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0076.fof.smt2,CVC4-SymBreak,0.002307
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0041.fof.smt2,CVC4,0.0022857999999999976
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_48.smt2,Z3 (2018),0.0022580000000000378
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0084.fof.smt2,Z3,0.0022150999999999976
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0058.fof.smt2,CVC4-SymBreak,0.0022129000000000038
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0040.fof.smt2,CVC4-SymBreak,0.0022042000000000034
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0181.fof.smt2,CVC4-SymBreak,0.002142000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0035.fof.smt2,CVC4-SymBreak,0.002139099999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0615.fof.smt2,Z3,0.002108899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0110.fof.smt2,CVC4-SymBreak,0.0021077999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1275.fof.smt2,CVC4-SymBreak,0.0021072
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0194.fof.smt2,Alt-Ergo,0.0021031999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0274.fof.smt2,Alt-Ergo,0.0020780999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0128.fof.smt2,CVC4-SymBreak,0.0020721999999999963
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0418.fof.smt2,CVC4-SymBreak,0.002063200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0083.fof.smt2,Alt-Ergo,0.002049000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0136.fof.smt2,Alt-Ergo,0.002034899999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0249.fof.smt2,CVC4-SymBreak,0.002029000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0142.fof.smt2,CVC4-SymBreak,0.0020212000000000008
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0062.fof.smt2,CVC4-SymBreak,0.002013999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0212.fof.smt2,CVC4-SymBreak,0.002013000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0068.fof.smt2,CVC4-SymBreak,0.002010899999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0197.fof.smt2,Alt-Ergo,0.002005799999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0099.fof.smt2,CVC4-SymBreak,0.0019981999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0181.fof.smt2,Alt-Ergo,0.0019950999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_35.smt2,Z3 (2018),0.0019789999999999808
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0090.fof.smt2,CVC4-SymBreak,0.0019670999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0082.fof.smt2,Alt-Ergo,0.0019670000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0109.fof.smt2,CVC4-SymBreak,0.0019448000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0131.fof.smt2,Alt-Ergo,0.0019421000000000022
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0248.fof.smt2,CVC4-SymBreak,0.001927100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0074.fof.smt2,CVC4-SymBreak,0.001912999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_symm_0023.fof.smt2,Z3 (2018),0.0019109
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0129.fof.smt2,Alt-Ergo,0.0019061000000000008
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0169.fof.smt2,Alt-Ergo,0.0019052000000000027
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0039.fof.smt2,CVC4-SymBreak,0.001904999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0077.fof.smt2,CVC4-SymBreak,0.001897800000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0175.fof.smt2,CVC4-SymBreak,0.0018830000000000027
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0302.fof.smt2,CVC4-SymBreak,0.0018821000000000011
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0379.fof.smt2,CVC4-SymBreak,0.0018578999999999991
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0080.fof.smt2,CVC4-SymBreak,0.0018460000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0200.fof.smt2,CVC4-SymBreak,0.0018391999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0846.fof.smt2,CVC4-SymBreak,0.0018340000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0076.fof.smt2,CVC4-SymBreak,0.0018338999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0917.fof.smt2,CVC4-SymBreak,0.001832799999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0005.fof.smt2,Z3 (2018),0.0018239999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0410.fof.smt2,CVC4-SymBreak,0.001810100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0016.fof.smt2,Alt-Ergo,0.0018072000000000019
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_symm_0003.fof.smt2,CVC4-SymBreak,0.0017821999999999977
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0005.fof.smt2,CVC4-SymBreak,0.0017748
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0367.fof.smt2,CVC4-SymBreak,0.0017668000000000024
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0085.fof.smt2,Alt-Ergo,0.0017660999999999996
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0018.fof.smt2,CVC4-SymBreak,0.0017640000000000017
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0046.fof.smt2,CVC4-SymBreak,0.0017628999999999978
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0342.fof.smt2,CVC4-SymBreak,0.0017590000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0022.fof.smt2,Alt-Ergo,0.0017588000000000048
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0027.fof.smt2,CVC4-SymBreak,0.0017560000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1382.fof.smt2,CVC4-SymBreak,0.0017478999999999967
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0202.fof.smt2,CVC4-SymBreak,0.001747000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0154.fof.smt2,CVC4-SymBreak,0.0017409999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1257.fof.smt2,CVC4-SymBreak,0.0017341999999999982
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0900.fof.smt2,CVC4-SymBreak,0.0017317999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0150.fof.smt2,Alt-Ergo,0.0017179999999999973
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0953.fof.smt2,CVC4,0.0017110000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0932.fof.smt2,CVC4-SymBreak,0.0017090000000000022
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0869.fof.smt2,CVC4-SymBreak,0.001687099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1288.fof.smt2,CVC4-SymBreak,0.0016841000000000009
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0263.fof.smt2,CVC4-SymBreak,0.0016838999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0103.fof.smt2,CVC4-SymBreak,0.0016670000000000018
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0864.fof.smt2,CVC4-SymBreak,0.0016660999999999968
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0037.fof.smt2,CVC4-SymBreak,0.0016602000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0038.fof.smt2,CVC4-SymBreak,0.0016511999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0119.fof.smt2,CVC4-SymBreak,0.0016438000000000008
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0047.fof.smt2,Z3 (2018),0.0016412000000000024
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0010.fof.smt2,Z3,0.0016357999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_symm_0171.fof.smt2,Z3,0.0016269000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0399.fof.smt2,CVC4-SymBreak,0.0016078999999999954
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0012.fof.smt2,Alt-Ergo,0.001599200000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0028.fof.smt2,CVC4-SymBreak,0.0015929000000000013
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0063.fof.smt2,CVC4-SymBreak,0.001590099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1468.fof.smt2,Z3,0.001588100000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0163.fof.smt2,CVC4-SymBreak,0.001578999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0356.fof.smt2,CVC4-SymBreak,0.001569999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1308.fof.smt2,CVC4-SymBreak,0.0015688000000000021
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0816.fof.smt2,Alt-Ergo,0.0015670999999999949
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0449.fof.smt2,Alt-Ergo,0.0015381000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0112.fof.smt2,CVC4-SymBreak,0.0015338999999999978
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1431.fof.smt2,CVC4-SymBreak,0.0015299999999999966
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0073.fof.smt2,CVC4-SymBreak,0.0015289999999999991
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0139.fof.smt2,CVC4-SymBreak,0.0015188999999999966
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/thruster_symm_0166.fof.smt2,Z3,0.0015162000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0622.fof.smt2,CVC4-SymBreak,0.0015010000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0826.fof.smt2,Alt-Ergo,0.0014880999999999991
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1294.fof.smt2,CVC4-SymBreak,0.0014729999999999986
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0043.fof.smt2,Alt-Ergo,0.001454900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0008.fof.smt2,CVC4-SymBreak,0.0014481000000000008
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0299.fof.smt2,CVC4-SymBreak,0.0014400999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0292.fof.smt2,Alt-Ergo,0.0014249999999999957
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0129.fof.smt2,CVC4-SymBreak,0.0014178999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0040.fof.smt2,CVC4,0.0014178999999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0050.fof.smt2,CVC4-SymBreak,0.0014162000000000063
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0132.fof.smt2,CVC4-SymBreak,0.0014119999999999966
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0419.fof.smt2,Alt-Ergo,0.0014090999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_15.smt2,Z3,0.0014018000000000017
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0066.fof.smt2,CVC4-SymBreak,0.0013991000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0227.fof.smt2,CVC4-SymBreak,0.0013909999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0369.fof.smt2,CVC4-SymBreak,0.0013869
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_symm_0035.fof.smt2,CVC4-SymBreak,0.001372200000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0111.fof.smt2,CVC4,0.001369200000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0094.fof.smt2,CVC4-SymBreak,0.0013520999999999984
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1386.fof.smt2,CVC4-SymBreak,0.001351999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1194.fof.smt2,CVC4,0.0013280000000000028
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0025.fof.smt2,CVC4-SymBreak,0.0013269000000000059
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0120.fof.smt2,CVC4-SymBreak,0.0013197999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0065.fof.smt2,CVC4-SymBreak,0.0013189999999999973
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_48.smt2,Z3 (2018),0.0013179999999999858
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0057.fof.smt2,CVC4-SymBreak,0.0013120000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0047.fof.smt2,CVC4-SymBreak,0.0013031000000000015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0074.fof.smt2,CVC4-SymBreak,0.0012990000000000015
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0433.fof.smt2,CVC4-SymBreak,0.0012961000000000014
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0052.fof.smt2,CVC4-SymBreak,0.0012711000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_8.smt2,Z3,0.0012689999999999993
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0082.fof.smt2,Z3 (2018),0.0012648000000000034
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0277.fof.smt2,CVC4-SymBreak,0.0012580000000000022
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0064.fof.smt2,Alt-Ergo,0.0012391
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1434.fof.smt2,CVC4,0.0012320000000000005
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0821.fof.smt2,Alt-Ergo,0.0012311000000000058
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0524.fof.smt2,CVC4-SymBreak,0.0012301000000000013
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_symm_0003.fof.smt2,Z3 (2018),0.001218900000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1079.fof.smt2,CVC4-SymBreak,0.0011791000000000024
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0052.fof.smt2,CVC4-SymBreak,0.0011789999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0089.fof.smt2,Alt-Ergo,0.0011590000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_array_0003.fof.smt2,CVC4-SymBreak,0.0011581999999999981
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0063.fof.smt2,CVC4-SymBreak,0.0011500999999999977
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0064.fof.smt2,Alt-Ergo,0.0011499000000000023
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0034.fof.smt2,CVC4-SymBreak,0.0011491000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0005.fof.smt2,Alt-Ergo,0.0011490000000000042
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0036.fof.smt2,Alt-Ergo,0.0011449999999999932
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0191.fof.smt2,CVC4-SymBreak,0.001138100000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0143.fof.smt2,Z3,0.0011380000000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0093.fof.smt2,CVC4-SymBreak,0.0011368000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0147.fof.smt2,Alt-Ergo,0.001126000000000002
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0420.fof.smt2,CVC4-SymBreak,0.0011259999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0111.fof.smt2,CVC4-SymBreak,0.0011129
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib501cd3.smt2,Z3 (2018),0.0011020000000000196
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0074.fof.smt2,CVC4-SymBreak,0.0010970999999999967
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0090.fof.smt2,CVC4-SymBreak,0.0010940000000000047
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_29.smt2,Z3,0.0010830000000000006
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibec5ddb.smt2,CVC4-SymBreak,0.0010750000000000065
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0004.fof.smt2,Z3,0.0010672000000000043
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0087.fof.smt2,CVC4,0.0010609999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0411.fof.smt2,CVC4-SymBreak,0.001058
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0109.fof.smt2,CVC4-SymBreak,0.0010437999999999975
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0111.fof.smt2,CVC4-SymBreak,0.0010428999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_93.smt2,Z3 (2018),0.0010399999999997078
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0428.fof.smt2,CVC4-SymBreak,0.0010310000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0354.fof.smt2,CVC4-SymBreak,0.0010250000000000016
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0113.fof.smt2,CVC4-SymBreak,0.0010242000000000029
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0114.fof.smt2,CVC4-SymBreak,0.0010189000000000031
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0385.fof.smt2,CVC4-SymBreak,0.001014099999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0021.fof.smt2,CVC4-SymBreak,0.001009000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0079.fof.smt2,Z3,0.001003999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0138.fof.smt2,CVC4-SymBreak,0.000991899999999997
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0228.fof.smt2,CVC4-SymBreak,0.0009909999999999988
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0596.fof.smt2,CVC4,0.0009731000000000045
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0029.fof.smt2,CVC4-SymBreak,0.0009681999999999955
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0137.fof.smt2,Alt-Ergo,0.0009610999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0155.fof.smt2,CVC4-SymBreak,0.000958999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_27.smt2,Z3,0.0009520000000000084
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0360.fof.smt2,CVC4,0.0009411000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0186.fof.smt2,CVC4-SymBreak,0.0009390999999999983
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_44.smt2,Z3 (2018),0.0009309999999999596
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_30.smt2,Z3,0.0009250000000000091
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1417.fof.smt2,CVC4-SymBreak,0.0009090999999999995
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1401.fof.smt2,CVC4-SymBreak,0.0008740999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0339.fof.smt2,CVC4-SymBreak,0.0008740999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0002.fof.smt2,Z3,0.0008728999999999959
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0207.fof.smt2,Z3,0.0008719999999999978
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_norm_0030.fof.smt2,CVC4-SymBreak,0.0008699999999999992
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0223.fof.smt2,Z3 (2018),0.0008680999999999967
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0050.fof.smt2,CVC4-SymBreak,0.0008601000000000025
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0285.fof.smt2,CVC4-SymBreak,0.0008541000000000035
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0078.fof.smt2,CVC4-SymBreak,0.0008499000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0083.fof.smt2,Alt-Ergo,0.0008248999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib42ca92.smt2,Z3,0.0008220000000000033
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0614.fof.smt2,Z3,0.0008130000000000012
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0082.fof.smt2,CVC4-SymBreak,0.0008040000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0094.fof.smt2,CVC4-SymBreak,0.0007997999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0061.fof.smt2,Z3 (2018),0.0007821000000000009
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0102.fof.smt2,Z3 (2018),0.0007539000000000018
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_28.smt2,Z3,0.0007209999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_20.smt2,Z3,0.0006928999999999963
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0113.fof.smt2,CVC4-SymBreak,0.000692100000000001
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1063.fof.smt2,CVC4-SymBreak,0.0006749999999999985
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1145.fof.smt2,Alt-Ergo,0.0006571000000000007
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0126.fof.smt2,CVC4-SymBreak,0.0006540999999999977
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0308.fof.smt2,CVC4-SymBreak,0.0006350000000000036
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_43.smt2,Z3 (2018),0.0006180000000000074
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0428.fof.smt2,Z3,0.0006170999999999954
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0193.fof.smt2,CVC4-SymBreak,0.0005988999999999994
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0221.fof.smt2,CVC4-SymBreak,0.0005789999999999962
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0285.fof.smt2,Alt-Ergo,0.0005727999999999983
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0651.fof.smt2,CVC4,0.0005571000000000048
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_9.smt2,Z3,0.0005510999999999988
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_37.smt2,Z3,0.0005460000000000187
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0090.fof.smt2,CVC4-SymBreak,0.0005441000000000022
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0088.fof.smt2,Alt-Ergo,0.0005348999999999979
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0002.fof.smt2,Alt-Ergo,0.0005022000000000013
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0008.fof.smt2,Alt-Ergo,0.00047900000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0086.fof.smt2,CVC4-SymBreak,0.00045689999999999967
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_50.smt2,Z3,0.0004509999999999792
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0078.fof.smt2,CVC4-SymBreak,0.0004369999999999999
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0017.fof.smt2,Z3,0.00043620000000000464
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_symm_0034.fof.smt2,Z3 (2018),0.0004272000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibe3f8d2.smt2,Z3,0.0004151000000000016
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_6.smt2,Z3,0.0004050000000000026
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0101.fof.smt2,CVC4-SymBreak,0.0003919999999999965
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_13.smt2,Z3,0.0003900999999999974
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0198.fof.smt2,CVC4,0.0003820000000000004
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_27.smt2,Z3 (2018),0.00036999999999999533
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_init_0073.fof.smt2,Alt-Ergo,0.00036699999999999927
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0283.fof.smt2,CVC4-SymBreak,0.0003611000000000031
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1454.fof.smt2,Alt-Ergo,0.0003519000000000022
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0420.fof.smt2,CVC4-SymBreak,0.000337999999999998
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0020.fof.smt2,Alt-Ergo,0.00031290000000000484
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0178.fof.smt2,Alt-Ergo,0.00029900000000000065
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0069.fof.smt2,Alt-Ergo,0.0002959000000000017
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0116.fof.smt2,CVC4,0.00028399999999999953
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0311.fof.smt2,CVC4-SymBreak,0.0002681000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0089.fof.smt2,CVC4-SymBreak,0.00025700000000000375
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0110.fof.smt2,CVC4-SymBreak,0.0002459000000000003
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_39.smt2,Z3 (2018),0.00024400000000002198
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0263.fof.smt2,CVC4-SymBreak,0.0002370000000000011
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0256.fof.smt2,CVC4-SymBreak,0.00023690000000000516
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_26.smt2,Z3,0.00022919999999999885
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0111.fof.smt2,CVC4-SymBreak,0.00022400000000000198
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_23.smt2,Z3,0.00021119999999999473
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_17.smt2,Z3,0.00020890000000000492
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0814.fof.smt2,CVC4,0.00017000000000000348
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_10.smt2,Z3,0.00014899999999999636
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_16.smt2,Z3,0.00013099999999999917
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0247.fof.smt2,CVC4,0.0001308999999999963
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0185.fof.smt2,Alt-Ergo,0.00012489999999999724
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0119.fof.smt2,Alt-Ergo,8.49999999999948e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0820.fof.smt2,Alt-Ergo,5.890000000000062e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_24.smt2,Z3,4.099999999999937e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0131.fof.smt2,CVC4,3.900000000000431e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0284.fof.smt2,Alt-Ergo,2.6000000000005186e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0023.fof.smt2,Alt-Ergo,1.309999999999506e-05
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0124.fof.smt2,Alt-Ergo,6.199999999997874e-06
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0047.fof.smt2,Alt-Ergo,5.099999999993998e-06
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.798994.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0020.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0090.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibca010c.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0346.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_87.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0545.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0063.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_95.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0646.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_inuse_0001.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0123.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_39.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib603ae7.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.870533.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0145.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_symm_0013.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0017.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0230.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.878807.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0184.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.918001.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0009.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0309.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_81.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib71572f.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_inuse_2383.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_76.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_3.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_31.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0104.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0474.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0360.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0083.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0091.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_90.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0194.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0056.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0834.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0047.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0268.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.708311.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_symm_0162.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_symm_0020.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.618174.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.910391.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1422.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0097.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0081.fof.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0092.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0112.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.782172.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0008.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_36.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0260.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.956068.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0270.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.803536.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.761224.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.715261.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0815.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0056.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0118.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb4227f.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/thruster_inuse_0028.fof.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0027.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0458.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0096.fof.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0146.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0083.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0404.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0306.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0002.fof.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_53.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_inuse_2391.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_init_0145.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0855.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0194.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0119.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0159.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0022.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.811950.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0300.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib8dfe2a.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0089.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.831561.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0060.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib64f9b8.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_symm_0407.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1120.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1449.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0801.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_1114.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0101.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.874843.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.955738.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0352.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0296.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0353.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_69.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0054.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.777801.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_symm_0006.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0241.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0048.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.944582.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0107.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibb4723d.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.619215.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_51.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0099.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_init_0046.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.614580.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.866915.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_inuse_0600.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib269d2a.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_init_0845.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0189.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0201.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0072.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0028.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib5fa82b.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_41.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0120.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0054.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_82.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0063.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0006.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_99.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0067.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.614216.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib1e8028.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_87.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_symm_1448.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0006.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_93.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0002.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_24.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_inuse_2375.fof.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0481.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_14.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.882425.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0088.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0289.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.918671.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/quaternion_ds1_init_0015.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0098.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_67.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0696.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_norm_0019.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.613529.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0322.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0586.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_init_0138.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_85.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0004.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.765089.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0952.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0121.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0002.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0089.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.866582.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0083.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_92.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0065.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/gauss_init_0024.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib12909b.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/misc/list6.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.909355.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0070.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0151.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibdd385f.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_70.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0951.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.748236.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_20.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_37.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_89.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.839647.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_32.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_74.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_34.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0030.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0191.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_init_0122.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.794787.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_64.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.819564.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_inuse_0290.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/thruster_init_0049.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_59.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.618857.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_95.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_66.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/cl5_nebula_init_0099.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0176.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0072.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0393.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0032.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_init_0115.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0037.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.790569.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_0745.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_33.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/gauss_init_0071.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1046.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/quaternion_ds1_inuse_0312.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.799329.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_34.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_init_0137.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0097.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0069.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_norm_0012.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_22.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0056.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.633742.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/thruster_inuse_0112.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.807408.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_35.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.870879.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0116.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_38.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/quaternion_ds1_init_0128.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_symm_1770.fof.smt2,CVC4-SymBreak,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_inuse_2399.fof.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0074.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/quaternion_ds1_inuse_0011.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_30.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/quaternion_ds1_inuse_0001.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_72.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlib51a177.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0114.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_98.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1022.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.609936.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/thruster_inuse_2395.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_83.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/quaternion_ds1_symm_0421.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0107.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_init_0343.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.862596.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.562660.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/gauss_init_1410.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0079.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_5.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_78.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_65.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_prop/gauss_init_0050.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_init_0111.fof.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0135.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/quaternion_ds1_symm_0002.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0110.fof.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_sat_65.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.756643.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_structure_forall/thruster_symm_0001.fof.smt2,Z3 (2018),0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_96.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify/cl5_nebula_init_0115.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/cl5_nebula_init_0074.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/peter/symmetric_unsat_45.smt2,Z3,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.819950.smt2,Alt-Ergo,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.839277.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/gauss_init_0100.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array/cl5_nebula_norm_0009.fof.smt2,SMTInterpol,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/why/smtlibfced23.smt2,Vampire,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/vc_normalize_subst/cl5_nebula_norm_0041.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/FFT/smtlib.859164.smt2,veriT,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_arithmetics/thruster_inuse_0068.fof.smt2,CVC4,0.0
+/data/SMT-LIB-non-incremental/AUFLIRA/nasa/fol_simplify_array_only/cl5_nebula_norm_0027.fof.smt2,Alt-Ergo,0.0

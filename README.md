@@ -1,4 +1,4 @@
-# MachSMT Artifact for TACAS'21 AE
+# MachSMT Artifact STTT
 
 Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
 

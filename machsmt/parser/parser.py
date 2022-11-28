@@ -23,7 +23,7 @@ parser.add_argument("-l", "--lib-directory",
             metavar="lib",
             action="store",
             dest="lib",
-            default=None,
+            default='lib',
             type=str,
             help="Library directory, save state for machsmt"
 )
@@ -143,8 +143,6 @@ parser.add_argument("-t", "--timeout",
             type=int,
             help="Number of CPUs to run in parallel."
 )
-
-parser.add_argument
 
 parser.add_argument('--smt-comp-year',
             metavar="smtcomp_year",

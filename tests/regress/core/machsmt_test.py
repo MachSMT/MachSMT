@@ -1,10 +1,11 @@
+from ast import arg
 import unittest
 import os
 from machsmt import MachSMT,DataBase
 from machsmt.exceptions import MachSMT_IncompleteDataError
-from machsmt import config
+from machsmt import args
 
-config.min_datapoints = 0
+args.min_datapoints = 0
 
 def nav_to_data_dir():
     loc = os.path.dirname(os.path.abspath(__file__))
@@ -16,7 +17,7 @@ def nav_to_data_dir():
 class MachSMT_Test(unittest.TestCase):
     def test_init_1(self):
         nav_to_data_dir()
-        _ = MachSMT(DataBase())
+        _ = MachSMT(DataBase(),train_on_init=False)
 
     def test_init_2(self):
         nav_to_data_dir()

@@ -9,5 +9,6 @@ from .solver.solver_test import *
 from .selectors.selector_test import *
 from .machsmt_test import *
 from .parser.parser_test import *
+
 if __name__ == '__main__':
     unittest.main()

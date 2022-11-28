@@ -19,10 +19,6 @@ from .exceptions import MachSMT_IncompleteDataError
 
 class MachSMT:
     def __init__(self, data, train_on_init=True):
-        
-        ## 
-        # Populate DB
-        ##
         if isinstance(data, DataBase):
             self.db = data
         elif isinstance(data, (str, os.PathLike)):
@@ -36,10 +32,6 @@ class MachSMT:
             die(f"Unexpected value: {data}")
         if not self.db.is_complete():
             raise MachSMT_IncompleteDataError
-
-        ##
-        # Populate selectors
-        ##
 
         self.multi_logic = len(self.db.get_logics()) > 1
         

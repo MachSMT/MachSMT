@@ -33,14 +33,13 @@ fi
 # final learnt models for machsmt. This process also performs
 # all preprocessing steps for evaluation
 
-machsmt_build -f $files -l lib
+machsmt build -f $files -l lib
 
 # 2) Evaluate MachSMT
 # This process evaluates machsmt under kfold cross validation
 # based the preprocessing of the previous step.
 
-machsmt_eval -l lib
-
+machsmt eval -l lib
 
 # 3) Example MachSMT Usage
 # This process evaluates machsmt under kfold cross validation

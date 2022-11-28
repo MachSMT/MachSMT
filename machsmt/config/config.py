@@ -9,6 +9,7 @@ class Config:
             if arg[:2] != '__':
                 self.__setattr__(arg, args.__getattribute__(arg))
         self.check()
+        breakpoint()
 
     def check(self):
         if hasattr(self, 'mode'):

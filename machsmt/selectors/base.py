@@ -2,6 +2,7 @@ from ..benchmark import Benchmark
 from ..config import args
 import numpy as np
 import pdb
+from alive_progress import alive_bar
 from sklearn.model_selection import KFold
 
 class Selector:
@@ -19,11 +20,13 @@ class Selector:
         np_bench = np.array(benchmarks)
         ret = [None for _ in benchmarks]
         k_fold_args = {'n_splits': args.k, 'shuffle': True, 'random_state': args.rng}
-        for train, test in KFold(**k_fold_args).split(np_bench):
-            self.train(benchmarks=np_bench[train])
-            pred = self.predict(np_bench[test])
-            for it, indx in enumerate(test):
-                ret[indx] = pred[it]
+        with alive_bar(args.k, title=f'Evaluating {type(self)}') as bar:
+            for train, test in KFold(**k_fold_args).split(np_bench):
+                self.train(benchmarks=np_bench[train])
+                pred = self.predict(np_bench[test])
+                for it, indx in enumerate(test):
+                    ret[indx] = pred[it]
+                bar()
         return ret
 
     def mk_tabular_data(self, benchmarks):

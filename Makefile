@@ -7,7 +7,7 @@ install:
 	tar xJf benchmarks.tar.xz
 
 test:
-	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 tests/regress/main_test.py
+	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 tests/main_test.py
 
 lint:
 	autopep8 bin --in-place --recursive --max-line-length 100 --experimental -a -a -a -a -a

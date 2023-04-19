@@ -30,7 +30,9 @@
 }
 ```
 
-## Most Recent Recorded Talk
+## Recorded Talk
+
+[![Recorded Talk at SMT 2020](https://img.youtube.com/vi/OfZaIUXltf4/0.jpg)](https://www.youtube.com/watch?v=OfZaIUXltf4&t=5795s)
 
 ## Installation
 

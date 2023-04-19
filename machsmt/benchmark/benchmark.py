@@ -1,8 +1,7 @@
 import os
 import time
 from collections.abc import Iterable
-    
-from collections import Iterable
+
 from machsmt.util import die, warning
 from .tokenize_sexpr import SExprTokenizer
 from ..smtlib import grammatical_construct_list

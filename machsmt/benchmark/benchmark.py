@@ -12,7 +12,6 @@ from func_timeout import func_timeout, FunctionTimedOut
 keyword_to_index = dict((grammatical_construct_list[i], i) for i in range(
     len(grammatical_construct_list)))
 
-
 class Benchmark:
     def __init__(self, path: str):
         if not os.path.exists(path):

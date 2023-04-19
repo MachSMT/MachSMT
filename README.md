@@ -1,8 +1,38 @@
-# MachSMT Artifact for TACAS'21 AE
+# MachSMT -- An ML-Driven Algorithm Selection Tool for SMT Solvers
 
-Joseph Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh
+## Authors
+  * [Joseph Scott](https://www.joe-scott.net/)
+  * [Aina Niemetz](https://cs.stanford.edu/~niemetz/)
+  * [Mathias Preiner](https://cs.stanford.edu/~preiner/)
+  * [Saeed Nejati](https://saeednj.github.io/)
+  * [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/)
 
-## Setup Steps
+## Most Recent Publication (BibTex)
+
+```
+@article{DBLP:journals/sttt/ScottNPNG23,
+  author       = {Joseph Scott and
+                  Aina Niemetz and
+                  Mathias Preiner and
+                  Saeed Nejati and
+                  Vijay Ganesh},
+  title        = {Algorithm selection for {SMT}},
+  journal      = {Int. J. Softw. Tools Technol. Transf.},
+  volume       = {25},
+  number       = {2},
+  pages        = {219--239},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/s10009-023-00696-0},
+  doi          = {10.1007/s10009-023-00696-0},
+  timestamp    = {Sun, 16 Apr 2023 20:30:55 +0200},
+  biburl       = {https://dblp.org/rec/journals/sttt/ScottNPNG23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+## Most Recent Recorded Talk
+
+## Installation
 
 1. Change directory
   ```

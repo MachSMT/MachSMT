@@ -3,3 +3,5 @@ progress
 scikit-learn
 scikit-learn-intelex
 func_timeout
+alive_progress
+xgboost

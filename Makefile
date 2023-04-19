@@ -1,7 +1,9 @@
 install:
-#	pip3 install -r requirements.txt
-	sudo python3 setup.py develop #TODO: make this less invasive. 
-	make test
+	python3 -m pip install pip --upgrade
+	pip3 install -r requirements.txt
+	sudo python3 setup.py install
+	tar xJf benchmarks.tar.xz
+
 
 test:
 	python3 tests/regress/main_test.py

@@ -33,13 +33,13 @@ fi
 # final learnt models for machsmt. This process also performs
 # all preprocessing steps for evaluation
 
-machsmt build -f $files -l lib
+machsmt build -f $files
 
 # 2) Evaluate MachSMT
 # This process evaluates machsmt under kfold cross validation
 # based the preprocessing of the previous step.
 
-machsmt eval -l lib
+machsmt eval
 
 # 3) Example MachSMT Usage
 # This process evaluates machsmt under kfold cross validation
@@ -50,6 +50,6 @@ num_benchmarks=10
 for benchmark in $(find benchmarks/smt-lib/non-incremental/BV -name "*.smt2" | shuf | head -n $num_benchmarks)
 do
   echo -n "$i/$num_benchmarks Select solver on $benchmark: "
-  machsmt -l lib "$benchmark"
+  machsmt  "$benchmark"
   ((i++))
 done

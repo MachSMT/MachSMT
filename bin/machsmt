@@ -53,10 +53,13 @@ if __name__ == '__main__':
             cProfile.run('main()', sort=2)
         else:
             main()
-    except KeyboardInterrupt as ex: pass
-    except SystemExit as ex: pass
+    except KeyboardInterrupt as ex:
+        die("Killed by user (Ctrl-C)")
+    except SystemExit as ex: 
+        die("System exit")
     except Exception as ex:
         extype, value, tb = sys.exc_info()
         traceback.print_exc()
         if args.debug:
             pdb.post_mortem(tb)
+        raise ex # don't clean exit, for exit code

@@ -12,7 +12,9 @@ This is the main repository for MachSMT.
 
 ## Publications
 
-For all publications related to this project see [this file](https://github.com/MachSMT/MachSMT/blob/main/machsmt.bib)
+For all publications related to this project see [this file](https://github.com/MachSMT/MachSMT/blob/main/machsmt.bib).
+
+For primary citation, please use the STTT Journal versional of the paper.
 
 ```
 @article{DBLP:journals/sttt/ScottNPNG23,
@@ -41,11 +43,14 @@ For all publications related to this project see [this file](https://github.com/
 
 ## Installation
 
-### Prerequisites 
+### From Source
 
-* Ubuntu 20+
+Prerequisites
+* Ubuntu 18.0+
 * python 3.6+
 * make
+
+Please then clone this repository, and run `sudo make` in a clean virtual environment or ubuntu machine.
 
 1. Change directory
   ```

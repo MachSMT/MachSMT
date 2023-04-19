@@ -68,7 +68,7 @@ For a full example, please see `demo.sh`.
 
 The `build` mode of machsmt populates its internal database. In this phase, a data file needs to be provided.
 
-The data file can be provided with either the `-f` or the ``--data-files` flag.
+The data file can be provided with either the `-f` or the `--data-files` flag.
 
 For example, `machsmt build -f a.csv b.csv c.csv`
 

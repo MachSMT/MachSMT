@@ -192,5 +192,12 @@ parser.add_argument("--logic-filter",
                     )
 
 
+parser.add_argument("--use-gpu",
+                    action='store_true',
+                    dest="use_gpu",
+                    help="Use GPU?",
+                    default=False,
+                    )
+
 
 CONFIG_OBJ = Config(parser.parse_args())

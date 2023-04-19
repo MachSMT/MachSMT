@@ -1,5 +1,7 @@
 # MachSMT -- An ML-Driven Algorithm Selection Tool for SMT Solvers
 
+This is the main repository for MachSMT.
+
 ## Authors
   * [Joseph Scott](https://www.joe-scott.net/)
   * [Aina Niemetz](https://cs.stanford.edu/~niemetz/)
@@ -7,7 +9,10 @@
   * [Saeed Nejati](https://saeednj.github.io/)
   * [Vijay Ganesh](https://ece.uwaterloo.ca/~vganesh/)
 
-## Most Recent Publication (BibTex)
+
+## Publications
+
+For all publications related to this project see [this file](https://github.com/MachSMT/MachSMT/blob/main/machsmt.bib)
 
 ```
 @article{DBLP:journals/sttt/ScottNPNG23,
@@ -35,6 +40,12 @@
 [![Recorded Talk at SMT 2020](https://img.youtube.com/vi/OfZaIUXltf4/0.jpg)](https://www.youtube.com/watch?v=OfZaIUXltf4&t=5795s)
 
 ## Installation
+
+### Prerequisites 
+
+* Ubuntu 20+
+* python 3.6+
+* make
 
 1. Change directory
   ```

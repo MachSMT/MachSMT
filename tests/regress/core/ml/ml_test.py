@@ -1,5 +1,6 @@
 from machsmt.ml import mk_classifier, mk_regressor
 from machsmt.config import args
+from machsmt.ex import MachSMT_GPU_Not_Available
 import unittest
 import os
 import sklearn.datasets as data
@@ -50,16 +51,18 @@ class RegressorTest(unittest.TestCase):
         
         
     def test_torch(self):
-        X,Y = data.make_regression(1000,10,n_targets=3)
-        X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=.5)
-        lm = mk_regressor(core='torch')
-        lm.fit(X_train,Y_train)
-        avg = np.zeros(Y_test.shape)
-        for it in range(Y.shape[1]): # for every column
-            avg[:, it] = np.mean(Y_train[:, it])
-        Y_p = lm.predict(X_test)
-        self.assertGreater(metrics.r2_score(Y_p, Y_test), metrics.r2_score(avg, Y_test))
-        
+        try:        
+            X,Y = data.make_regression(1000,10,n_targets=3)
+            X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=.5)
+            lm = mk_regressor(core='torch')
+            lm.fit(X_train,Y_train)
+            avg = np.zeros(Y_test.shape)
+            for it in range(Y.shape[1]): # for every column
+                avg[:, it] = np.mean(Y_train[:, it])
+            Y_p = lm.predict(X_test)
+            self.assertGreater(metrics.r2_score(Y_p, Y_test), metrics.r2_score(avg, Y_test))
+        except MachSMT_GPU_Not_Available:
+            pass        
         
 class ClassifierTest(unittest.TestCase):
     def test_scikit(self):
@@ -82,12 +85,15 @@ class ClassifierTest(unittest.TestCase):
         
         
     def test_torch(self):
-        X,Y = data.make_classification(10000,10,n_classes=3, n_clusters_per_class=1)
-        X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=.5)
-        lm = mk_classifier(core='torch')
-        lm.fit(X_train,Y_train)
-        mode_class = np.zeros(Y_test.shape) + mode(Y_train).mode[0]
-        Y_p = lm.predict(X_test)
-        self.assertGreater(metrics.accuracy_score(Y_p, Y_test), metrics.accuracy_score(mode_class, Y_test))
+        try:
+            X,Y = data.make_classification(10000,10,n_classes=3, n_clusters_per_class=1)
+            X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=.5)
+            lm = mk_classifier(core='torch')
+            lm.fit(X_train,Y_train)
+            mode_class = np.zeros(Y_test.shape) + mode(Y_train).mode[0]
+            Y_p = lm.predict(X_test)
+            self.assertGreater(metrics.accuracy_score(Y_p, Y_test), metrics.accuracy_score(mode_class, Y_test))
+        except MachSMT_GPU_Not_Available:
+            pass
 if __name__ == '__main__':
     unittest.main()

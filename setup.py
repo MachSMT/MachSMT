@@ -8,7 +8,7 @@ setup(
     description='An algorithm selection tool for SMT-LIB solvers',
     author='Joe Scott, Aina Niemetz, Mathias Preiner, Saeed Nejati, and Vijay Ganesh',
     author_email='joseph.scott@uwaterloo.ca',
-    url='https://github.com/j29scott/machsmt',
+    url='https://machsmt.github.io/',
     scripts=[
         'bin/machsmt',
     ],

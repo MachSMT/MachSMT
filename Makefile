@@ -6,6 +6,13 @@ install:
 	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 setup.py install --user
 	tar xJf benchmarks.tar.xz
 	chmod 755 demo.sh
+
+dev:
+	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 -m pip install pip --upgrade
+	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH pip3 install -r requirements.txt
+	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 setup.py develop --user
+	tar xJf benchmarks.tar.xz
+	chmod 755 demo.sh
 test:
 	PYTHONPATH=$(USER_PYTHON_PATH):$$PYTHONPATH python3 tests/main_test.py
 

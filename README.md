@@ -56,6 +56,8 @@ Prerequisites
 
 Please then clone this repository, and run `make` in a clean virtual environment or ubuntu machine.
 
+For development mode, plz use `make dev`.
+
 ## Usage
 
 Upon successful installation, the commandline interface `machsmt`will be available. 

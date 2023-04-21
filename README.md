@@ -54,7 +54,7 @@ Prerequisites
 * python 3.7+
 * make
 
-Please then clone this repository, and run `sudo make` in a clean virtual environment or ubuntu machine.
+Please then clone this repository, and run `make` in a clean virtual environment or ubuntu machine.
 
 ## Usage
 

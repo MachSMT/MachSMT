@@ -55,16 +55,11 @@ class SExprTokenizer:
                     cur_quoted_symbol = []
                 continue
 
-            # Handle comments
+            # Handle comments, they are discarded as they carry no semantic content
             if char == ';' or cur_comment:
                 cur_comment.append(char)
                 if char == '\n':
-                    comment = ''.join(cur_comment)
                     cur_comment = []
-                    if cur_expr:
-                        cur_expr.append(comment)
-                    else:
-                        return comment
                 continue
 
             # Open s-expression
